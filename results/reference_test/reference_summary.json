@@ -1,0 +1,228 @@
+{
+  "split": "test",
+  "interpretation": "Normalized shape; rigid-aligned scores explicitly reference-assisted, no absolute size/pose accuracy claim",
+  "raw_attempts": 40,
+  "models": {
+    "sf3d": {
+      "attempts": 20,
+      "success": 20,
+      "failed": 0,
+      "blocked": 0,
+      "scored_objects": 20,
+      "category_counts": {
+        "shoe": 17,
+        "backpack": 3
+      },
+      "mean_metrics": {
+        "rigid_aligned_chamfer_l1": 0.04898079837332176,
+        "rigid_aligned_chamfer_squared": 0.0037480931520990643,
+        "rigid_aligned_fscore_at_0.01": 0.10526157788461413,
+        "rigid_aligned_fscore_at_0.02": 0.25981079803892443,
+        "rigid_aligned_fscore_at_0.05": 0.5891715806475625,
+        "rigid_aligned_precision_at_0.01": 0.11530499999999999,
+        "rigid_aligned_precision_at_0.02": 0.288055,
+        "rigid_aligned_precision_at_0.05": 0.6163550000000001,
+        "rigid_aligned_recall_at_0.01": 0.09810499999999998,
+        "rigid_aligned_recall_at_0.02": 0.24062500000000003,
+        "rigid_aligned_recall_at_0.05": 0.570085,
+        "rigid_aligned_supplementary_silhouette_iou": 0.6126328584841353,
+        "unaligned_chamfer_l1": 0.09405314796789346,
+        "unaligned_chamfer_squared": 0.014311898535357168,
+        "unaligned_fscore_at_0.01": 0.0581381408046471,
+        "unaligned_fscore_at_0.02": 0.1467631941115614,
+        "unaligned_fscore_at_0.05": 0.3616498907473241,
+        "unaligned_precision_at_0.01": 0.061685000000000004,
+        "unaligned_precision_at_0.02": 0.15379,
+        "unaligned_precision_at_0.05": 0.36444,
+        "unaligned_recall_at_0.01": 0.055764999999999995,
+        "unaligned_recall_at_0.02": 0.142275,
+        "unaligned_recall_at_0.05": 0.36241,
+        "unaligned_supplementary_silhouette_iou": 0.41464368409164576
+      }
+    },
+    "spar3d": {
+      "attempts": 20,
+      "success": 20,
+      "failed": 0,
+      "blocked": 0,
+      "scored_objects": 20,
+      "category_counts": {
+        "shoe": 17,
+        "backpack": 3
+      },
+      "mean_metrics": {
+        "rigid_aligned_chamfer_l1": 0.052952040759271124,
+        "rigid_aligned_chamfer_squared": 0.004774493302508978,
+        "rigid_aligned_fscore_at_0.01": 0.12541825266038442,
+        "rigid_aligned_fscore_at_0.02": 0.26962528919411255,
+        "rigid_aligned_fscore_at_0.05": 0.5485755060653704,
+        "rigid_aligned_precision_at_0.01": 0.14608999999999997,
+        "rigid_aligned_precision_at_0.02": 0.3446000000000001,
+        "rigid_aligned_precision_at_0.05": 0.6935049999999998,
+        "rigid_aligned_recall_at_0.01": 0.11059,
+        "rigid_aligned_recall_at_0.02": 0.224275,
+        "rigid_aligned_recall_at_0.05": 0.46067500000000006,
+        "rigid_aligned_supplementary_silhouette_iou": 0.5463539141756066,
+        "unaligned_chamfer_l1": 0.12758154958405832,
+        "unaligned_chamfer_squared": 0.026490023511497464,
+        "unaligned_fscore_at_0.01": 0.059938078709720274,
+        "unaligned_fscore_at_0.02": 0.1307213251289761,
+        "unaligned_fscore_at_0.05": 0.26363117940717007,
+        "unaligned_precision_at_0.01": 0.06908499999999998,
+        "unaligned_precision_at_0.02": 0.16147499999999998,
+        "unaligned_precision_at_0.05": 0.342975,
+        "unaligned_recall_at_0.01": 0.053255,
+        "unaligned_recall_at_0.02": 0.11087500000000002,
+        "unaligned_recall_at_0.05": 0.21709500000000004,
+        "unaligned_supplementary_silhouette_iou": 0.2756643848567189
+      }
+    }
+  },
+  "paired_objects": 20,
+  "paired_differences_spar3d_minus_sf3d": {
+    "rigid_aligned_chamfer_l1": {
+      "mean": 0.00397124238594936,
+      "ci95_low": -0.0011441790198657258,
+      "ci95_high": 0.009359865312451884,
+      "paired_objects": 20
+    },
+    "rigid_aligned_chamfer_squared": {
+      "mean": 0.0010264001504099146,
+      "ci95_low": 0.00020902769163524742,
+      "ci95_high": 0.0019746507939138983,
+      "paired_objects": 20
+    },
+    "rigid_aligned_fscore_at_0.01": {
+      "mean": 0.020156674775770274,
+      "ci95_low": 0.003750739905184375,
+      "ci95_high": 0.035792676417208444,
+      "paired_objects": 20
+    },
+    "rigid_aligned_fscore_at_0.02": {
+      "mean": 0.00981449115518811,
+      "ci95_low": -0.027549428199550526,
+      "ci95_high": 0.04563085931030557,
+      "paired_objects": 20
+    },
+    "rigid_aligned_fscore_at_0.05": {
+      "mean": -0.040596074582192054,
+      "ci95_low": -0.09967996220990337,
+      "ci95_high": 0.015982607270618416,
+      "paired_objects": 20
+    },
+    "rigid_aligned_precision_at_0.01": {
+      "mean": 0.030785,
+      "ci95_low": 0.011846499999999996,
+      "ci95_high": 0.048937624999999985,
+      "paired_objects": 20
+    },
+    "rigid_aligned_precision_at_0.02": {
+      "mean": 0.056545000000000026,
+      "ci95_low": 0.011718250000000003,
+      "ci95_high": 0.09884049999999994,
+      "paired_objects": 20
+    },
+    "rigid_aligned_precision_at_0.05": {
+      "mean": 0.07715000000000001,
+      "ci95_low": 0.010413375000000013,
+      "ci95_high": 0.14064149999999992,
+      "paired_objects": 20
+    },
+    "rigid_aligned_recall_at_0.01": {
+      "mean": 0.012484999999999993,
+      "ci95_low": -0.0018099999999999998,
+      "ci95_high": 0.026680249999999996,
+      "paired_objects": 20
+    },
+    "rigid_aligned_recall_at_0.02": {
+      "mean": -0.016349999999999996,
+      "ci95_low": -0.04902575,
+      "ci95_high": 0.01548987499999993,
+      "paired_objects": 20
+    },
+    "rigid_aligned_recall_at_0.05": {
+      "mean": -0.10941000000000001,
+      "ci95_low": -0.1693155,
+      "ci95_high": -0.050663625000000045,
+      "paired_objects": 20
+    },
+    "rigid_aligned_supplementary_silhouette_iou": {
+      "mean": -0.06627894430852868,
+      "ci95_low": -0.07962724895156996,
+      "ci95_high": -0.05192258430653534,
+      "paired_objects": 20
+    },
+    "unaligned_chamfer_l1": {
+      "mean": 0.03352840161616485,
+      "ci95_low": 0.027449037737472815,
+      "ci95_high": 0.038902776638739776,
+      "paired_objects": 20
+    },
+    "unaligned_chamfer_squared": {
+      "mean": 0.012178124976140294,
+      "ci95_low": 0.009794552341063188,
+      "ci95_high": 0.014243697640544237,
+      "paired_objects": 20
+    },
+    "unaligned_fscore_at_0.01": {
+      "mean": 0.0017999379050731908,
+      "ci95_low": -0.006458404104290476,
+      "ci95_high": 0.00951653052852148,
+      "paired_objects": 20
+    },
+    "unaligned_fscore_at_0.02": {
+      "mean": -0.016041868982585326,
+      "ci95_low": -0.03333482254546884,
+      "ci95_high": -0.00023440467520258082,
+      "paired_objects": 20
+    },
+    "unaligned_fscore_at_0.05": {
+      "mean": -0.0980187113401541,
+      "ci95_low": -0.1220244504207891,
+      "ci95_high": -0.07548299419633654,
+      "paired_objects": 20
+    },
+    "unaligned_precision_at_0.01": {
+      "mean": 0.0073999999999999995,
+      "ci95_low": -0.0015001250000000002,
+      "ci95_high": 0.016396874999999984,
+      "paired_objects": 20
+    },
+    "unaligned_precision_at_0.02": {
+      "mean": 0.007685000000000003,
+      "ci95_low": -0.011538375,
+      "ci95_high": 0.026996749999999965,
+      "paired_objects": 20
+    },
+    "unaligned_precision_at_0.05": {
+      "mean": -0.021465000000000005,
+      "ci95_low": -0.045871125000000006,
+      "ci95_high": 0.0039052499999999695,
+      "paired_objects": 20
+    },
+    "unaligned_recall_at_0.01": {
+      "mean": -0.002510000000000001,
+      "ci95_low": -0.00995525,
+      "ci95_high": 0.004275124999999998,
+      "paired_objects": 20
+    },
+    "unaligned_recall_at_0.02": {
+      "mean": -0.031400000000000004,
+      "ci95_low": -0.04689550000000001,
+      "ci95_high": -0.01780975,
+      "paired_objects": 20
+    },
+    "unaligned_recall_at_0.05": {
+      "mean": -0.145315,
+      "ci95_low": -0.169916875,
+      "ci95_high": -0.12254987499999997,
+      "paired_objects": 20
+    },
+    "unaligned_supplementary_silhouette_iou": {
+      "mean": -0.13897929923492688,
+      "ci95_low": -0.16183496360203484,
+      "ci95_high": -0.1140788331727675,
+      "paired_objects": 20
+    }
+  }
+}

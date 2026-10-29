@@ -1,0 +1,5 @@
+query_id,query_text,query_category,qrels_complete
+smoke-q1,a green dress,predefined smoke query,false
+smoke-q2,a dark jacket,predefined smoke query,false
+smoke-q3,a pair of trousers,predefined smoke query,false
+smoke-q4,a patterned blouse,predefined smoke query,false

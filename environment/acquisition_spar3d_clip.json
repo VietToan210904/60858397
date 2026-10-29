@@ -1,0 +1,22 @@
+{
+  "model_id": "OpenAI/CLIP-ViT-L-14-336px",
+  "resolved_revision": "ef9262bc539728bf8ef2dfe9c402ae12bbfcd9ff",
+  "destination": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\spar3d_clip",
+  "source_identity": "Official URL plus SHA256, source revision records reviewed AlphaCLIP loader",
+  "files": [
+    {
+      "path": "ViT-L-14-336px.pt",
+      "source_url": "https://openaipublic.azureedge.net/clip/models/3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02/ViT-L-14-336px.pt",
+      "size_bytes": 934088680,
+      "expected_sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+    }
+  ],
+  "status": "downloaded",
+  "sha256": {
+    "ViT-L-14-336px.pt": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+  },
+  "transport": "bounded_http_ranges",
+  "completed_at_utc": "2026-10-28T17:03:40.419982+00:00",
+  "free_disk_after": 359285678080,
+  "gpu_inference_performed": false
+}

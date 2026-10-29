@@ -1,0 +1,185 @@
+{
+  "kind": "post_hoc_supplementary_ai_visual_packet",
+  "protocol_sha256": "299a340bf2fd5f87b8399b62fde3855117a84cf0bf61146474f9a367dd02f7f4",
+  "selection_sha256": "c9854ffcf88fc81f931e677e7137da8b6c7e60096bf26c378f86baa0ddeb6deb",
+  "pair": "reconstruction",
+  "batch_number": 4,
+  "cards": [
+    {
+      "assessment_id": "ai_ad4bc4eefb91af5c",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_ad4bc4eefb91af5c_input.png",
+          "sha256": "45e4cff2020e16efa1c3fd68ed13918e7f58d426966cc7073edf0db5711d482d"
+        },
+        "view_00": {
+          "path": "images/ai_ad4bc4eefb91af5c_view_00.png",
+          "sha256": "86aa5d7ab6a1e1da7e82d25fd8daf25e26e206ce5ee97eb4d08d09224437bb0b"
+        },
+        "view_01": {
+          "path": "images/ai_ad4bc4eefb91af5c_view_01.png",
+          "sha256": "a6e09d12e7dbcf8c70b40a67c13041916f101a73aceaa50e6ea8462f5f117831"
+        },
+        "view_02": {
+          "path": "images/ai_ad4bc4eefb91af5c_view_02.png",
+          "sha256": "1a7d849a3a88405076052de02c8fac5877b0ab5b02a7682fdbe9c76d42ecc7ae"
+        },
+        "view_03": {
+          "path": "images/ai_ad4bc4eefb91af5c_view_03.png",
+          "sha256": "4686cd72f9cf5b64afcf6d2799ef2882164214f73daa8af723cd0f00521beb55"
+        }
+      },
+      "evidence_sha256": {
+        "input": "45e4cff2020e16efa1c3fd68ed13918e7f58d426966cc7073edf0db5711d482d",
+        "view_00": "86aa5d7ab6a1e1da7e82d25fd8daf25e26e206ce5ee97eb4d08d09224437bb0b",
+        "view_01": "a6e09d12e7dbcf8c70b40a67c13041916f101a73aceaa50e6ea8462f5f117831",
+        "view_02": "1a7d849a3a88405076052de02c8fac5877b0ab5b02a7682fdbe9c76d42ecc7ae",
+        "view_03": "4686cd72f9cf5b64afcf6d2799ef2882164214f73daa8af723cd0f00521beb55"
+      },
+      "card_image": {
+        "path": "images/ai_ad4bc4eefb91af5c_card.png",
+        "sha256": "898dc4fdc6510bbbddee4ea3876d4fbb4becd8e628183bdfae8317c9394abac9"
+      }
+    },
+    {
+      "assessment_id": "ai_bafac5b225584239",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_bafac5b225584239_input.png",
+          "sha256": "89a7cf99ec83e275f35cc7f657cccc10631685511338b89569db2b450c935dcf"
+        },
+        "view_00": {
+          "path": "images/ai_bafac5b225584239_view_00.png",
+          "sha256": "cbf1583e1d2934c6d7d13eb4e7632962b146159bc15e90ebaed605c15a8fcb4f"
+        },
+        "view_01": {
+          "path": "images/ai_bafac5b225584239_view_01.png",
+          "sha256": "c6e9f7552ef379767719aae409bbcfa66d15884170d4ed14b065f37bb2bcfdec"
+        },
+        "view_02": {
+          "path": "images/ai_bafac5b225584239_view_02.png",
+          "sha256": "12a935cab6dce57834b63acb92dc07f8b02d9cb24158cc255c712ab641366cf1"
+        },
+        "view_03": {
+          "path": "images/ai_bafac5b225584239_view_03.png",
+          "sha256": "d6c7047528fd59fa71e066f2fd6cecc7b3de32606849179ef0bf250c18ad0533"
+        }
+      },
+      "evidence_sha256": {
+        "input": "89a7cf99ec83e275f35cc7f657cccc10631685511338b89569db2b450c935dcf",
+        "view_00": "cbf1583e1d2934c6d7d13eb4e7632962b146159bc15e90ebaed605c15a8fcb4f",
+        "view_01": "c6e9f7552ef379767719aae409bbcfa66d15884170d4ed14b065f37bb2bcfdec",
+        "view_02": "12a935cab6dce57834b63acb92dc07f8b02d9cb24158cc255c712ab641366cf1",
+        "view_03": "d6c7047528fd59fa71e066f2fd6cecc7b3de32606849179ef0bf250c18ad0533"
+      },
+      "card_image": {
+        "path": "images/ai_bafac5b225584239_card.png",
+        "sha256": "66ce904c39352686374aad81488d3e0c0770f3c8c6026baed57208383d243b91"
+      }
+    },
+    {
+      "assessment_id": "ai_2aa9fe559fcfc240",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_2aa9fe559fcfc240_input.png",
+          "sha256": "57cfeea2841be63ed1440469a8ef47e9451444e0674b85cb1bf06dfdbb8abc12"
+        },
+        "view_00": {
+          "path": "images/ai_2aa9fe559fcfc240_view_00.png",
+          "sha256": "182106565b513afa0f4d1bb65fde524b4288a3bb5d82b38346f797ceadf4b4f2"
+        },
+        "view_01": {
+          "path": "images/ai_2aa9fe559fcfc240_view_01.png",
+          "sha256": "96d4ddf4bd71ea0d49b0f53fa34c42d19028ee7c5e6fd0189952b80b559c83b6"
+        },
+        "view_02": {
+          "path": "images/ai_2aa9fe559fcfc240_view_02.png",
+          "sha256": "3fcb65b0cf251f04a9b47ec101e32a8773a69d80dacd9a4f54c38575a15190db"
+        },
+        "view_03": {
+          "path": "images/ai_2aa9fe559fcfc240_view_03.png",
+          "sha256": "315a82dc4efdd4daddc04c5c29450ada2191b4b4ed09438729f15173c0cfb2e0"
+        }
+      },
+      "evidence_sha256": {
+        "input": "57cfeea2841be63ed1440469a8ef47e9451444e0674b85cb1bf06dfdbb8abc12",
+        "view_00": "182106565b513afa0f4d1bb65fde524b4288a3bb5d82b38346f797ceadf4b4f2",
+        "view_01": "96d4ddf4bd71ea0d49b0f53fa34c42d19028ee7c5e6fd0189952b80b559c83b6",
+        "view_02": "3fcb65b0cf251f04a9b47ec101e32a8773a69d80dacd9a4f54c38575a15190db",
+        "view_03": "315a82dc4efdd4daddc04c5c29450ada2191b4b4ed09438729f15173c0cfb2e0"
+      },
+      "card_image": {
+        "path": "images/ai_2aa9fe559fcfc240_card.png",
+        "sha256": "74af29338b513620de27800403c4fa7b3dc93177580ec934d073c691decb00d3"
+      }
+    },
+    {
+      "assessment_id": "ai_7b445805f60afe95",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_7b445805f60afe95_input.png",
+          "sha256": "7086ba35b51cd1365589f9ab70e2b726634c5147d978623bf299ed70d7f05c52"
+        },
+        "view_00": {
+          "path": "images/ai_7b445805f60afe95_view_00.png",
+          "sha256": "2bb250fed572844a0dcfcfc5cedfd0185e42604bc67be0dceacca7027809c7d8"
+        },
+        "view_01": {
+          "path": "images/ai_7b445805f60afe95_view_01.png",
+          "sha256": "d28c93fefe5e2dde201a1ecd4a28f4a4bfab0530bfbcc5b98cea1d4e59e6f390"
+        },
+        "view_02": {
+          "path": "images/ai_7b445805f60afe95_view_02.png",
+          "sha256": "73b1d2420989fbec5bf823e12bee8e76ca221e3e26a1522c2b595ee0df3cf883"
+        },
+        "view_03": {
+          "path": "images/ai_7b445805f60afe95_view_03.png",
+          "sha256": "2d3124faa9926a425f03ba6a6e0360dce3d2ae5b8a64a96f8a0cfd8f2d2d1a90"
+        }
+      },
+      "evidence_sha256": {
+        "input": "7086ba35b51cd1365589f9ab70e2b726634c5147d978623bf299ed70d7f05c52",
+        "view_00": "2bb250fed572844a0dcfcfc5cedfd0185e42604bc67be0dceacca7027809c7d8",
+        "view_01": "d28c93fefe5e2dde201a1ecd4a28f4a4bfab0530bfbcc5b98cea1d4e59e6f390",
+        "view_02": "73b1d2420989fbec5bf823e12bee8e76ca221e3e26a1522c2b595ee0df3cf883",
+        "view_03": "2d3124faa9926a425f03ba6a6e0360dce3d2ae5b8a64a96f8a0cfd8f2d2d1a90"
+      },
+      "card_image": {
+        "path": "images/ai_7b445805f60afe95_card.png",
+        "sha256": "221ea55876dfa01d2bc54f274a5833ca5c32e8cff9c81fbc26c1e1e4d22483d6"
+      }
+    }
+  ]
+}

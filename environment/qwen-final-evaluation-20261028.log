@@ -1,0 +1,61 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/723 [00:00<08:25,  1.43it/s]
+Loading weights:   2%|1         | 13/723 [00:00<00:33, 20.97it/s]
+Loading weights:   4%|3         | 26/723 [00:00<00:17, 40.12it/s]
+Loading weights:   5%|4         | 35/723 [00:01<00:14, 49.11it/s]
+Loading weights:   6%|6         | 44/723 [00:01<00:12, 54.63it/s]
+Loading weights:   7%|7         | 52/723 [00:01<00:11, 55.99it/s]
+Loading weights:   9%|8         | 65/723 [00:01<00:09, 68.85it/s]
+Loading weights:  11%|#         | 76/723 [00:01<00:08, 78.03it/s]
+Loading weights:  12%|#1        | 85/723 [00:01<00:07, 79.99it/s]
+Loading weights:  13%|#3        | 94/723 [00:01<00:08, 76.74it/s]
+Loading weights:  14%|#4        | 103/723 [00:01<00:08, 69.36it/s]
+Loading weights:  16%|#6        | 116/723 [00:02<00:07, 81.42it/s]
+Loading weights:  17%|#7        | 125/723 [00:02<00:07, 80.98it/s]
+Loading weights:  19%|#8        | 134/723 [00:02<00:08, 71.46it/s]
+Loading weights:  20%|##        | 146/723 [00:02<00:07, 80.82it/s]
+Loading weights:  21%|##1       | 155/723 [00:02<00:07, 71.96it/s]
+Loading weights:  23%|##3       | 168/723 [00:02<00:06, 83.28it/s]
+Loading weights:  24%|##4       | 177/723 [00:02<00:06, 81.23it/s]
+Loading weights:  26%|##5       | 186/723 [00:02<00:06, 78.60it/s]
+Loading weights:  28%|##7       | 199/723 [00:03<00:06, 86.21it/s]
+Loading weights:  29%|##8       | 208/723 [00:03<00:06, 75.66it/s]
+Loading weights:  30%|###       | 220/723 [00:03<00:05, 83.96it/s]
+Loading weights:  32%|###1      | 229/723 [00:03<00:06, 76.49it/s]
+Loading weights:  33%|###2      | 238/723 [00:03<00:06, 74.03it/s]
+Loading weights:  35%|###4      | 252/723 [00:03<00:05, 86.07it/s]
+Loading weights:  36%|###6      | 261/723 [00:03<00:06, 71.70it/s]
+Loading weights:  38%|###7      | 273/723 [00:04<00:05, 79.36it/s]
+Loading weights:  39%|###9      | 282/723 [00:04<00:05, 80.37it/s]
+Loading weights:  40%|####      | 292/723 [00:04<00:05, 81.84it/s]
+Loading weights:  42%|####2     | 305/723 [00:04<00:04, 86.84it/s]
+Loading weights:  43%|####3     | 314/723 [00:04<00:05, 71.17it/s]
+Loading weights:  46%|####5     | 329/723 [00:04<00:04, 86.67it/s]
+Loading weights:  47%|####7     | 340/723 [00:04<00:04, 87.92it/s]
+Loading weights:  48%|####8     | 350/723 [00:04<00:04, 84.75it/s]
+Loading weights:  50%|####9     | 359/723 [00:05<00:04, 81.46it/s]
+Loading weights:  51%|#####     | 368/723 [00:05<00:04, 79.06it/s]
+Loading weights:  53%|#####2    | 381/723 [00:05<00:04, 84.44it/s]
+Loading weights:  54%|#####4    | 393/723 [00:05<00:03, 93.24it/s]
+Loading weights:  56%|#####5    | 403/723 [00:05<00:03, 94.51it/s]
+Loading weights:  57%|#####7    | 413/723 [00:05<00:03, 84.32it/s]
+Loading weights:  58%|#####8    | 422/723 [00:05<00:03, 76.09it/s]
+Loading weights:  64%|######4   | 463/723 [00:05<00:01, 155.57it/s]
+Loading weights:  71%|#######1  | 516/723 [00:06<00:00, 251.32it/s]
+Loading weights:  78%|#######8  | 564/723 [00:06<00:00, 309.90it/s]
+Loading weights:  85%|########4 | 612/723 [00:06<00:00, 345.80it/s]
+Loading weights:  92%|#########2| 668/723 [00:06<00:00, 402.67it/s]
+Loading weights:  99%|#########8| 715/723 [00:06<00:00, 404.75it/s]
+Loading weights: 100%|##########| 723/723 [00:06<00:00, 110.99it/s]
+[
+  {
+    "pair": "assistance",
+    "success": 47,
+    "failed": 33,
+    "blocked": 0,
+    "resumed": 0,
+    "records": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\assistance\\records.jsonl"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-10-28T16:16:17.276759+00:00",
+  "model": "spar3d",
+  "source_revision": "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1",
+  "python": ".venv-spar3d/Scripts/python.exe",
+  "cuda_toolkit": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6",
+  "vcvars_version": "14.44",
+  "torch_cuda_arch_list": "8.9",
+  "use_native_arch": false,
+  "max_jobs": 2,
+  "system_components_installed": false,
+  "gpu_inference_performed": false,
+  "extensions": [
+    {
+      "extension": "uv_unwrapper",
+      "returncode": 0,
+      "elapsed_seconds": 18.37433629995212,
+      "log": "environment/build-spar3d-uv_unwrapper.log",
+      "build_source": "vendor/SPAR3D/uv_unwrapper",
+      "compatibility_patch": null
+    },
+    {
+      "extension": "texture_baker",
+      "returncode": 0,
+      "elapsed_seconds": 25.65611759998137,
+      "log": "environment/build-spar3d-texture_baker.log",
+      "build_source": ".cache/build-overlays/spar3d/texture_baker",
+      "compatibility_patch": {
+        "source_file": "texture_baker/texture_baker/csrc/baker_kernel.cu",
+        "original_sha256": "818ab9e2068d0e653bf93ead9da9f99d4da7fdba716f30035a57148902699b79",
+        "overlay_sha256": "b98068bbddb9c455ef958f4182e9e03478dcd6539d4dacacf417aef02b1d1b31",
+        "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+        "patch_path": "environment/spar3d-cuda-header-compatibility.patch",
+        "changes_kernels_or_model": false
+      }
+    }
+  ]
+}

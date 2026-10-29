@@ -1,0 +1,44 @@
+{
+  "executable": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-assistance\\Scripts\\python.exe",
+  "sys_path": [
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\DLLs",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-assistance",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-assistance\\Lib\\site-packages",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\src",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Roaming\\Python\\Python311\\site-packages",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\win32",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\win32\\lib",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pythonwin"
+  ],
+  "packages": {
+    "torch": {
+      "version": "2.11.0+cu128",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages"
+    },
+    "torchvision": {
+      "version": "0.26.0+cu128",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages"
+    },
+    "transformers": {
+      "version": "5.5.0",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
+    },
+    "accelerate": {
+      "version": "1.13.0",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
+    },
+    "bitsandbytes": null,
+    "huggingface-hub": {
+      "version": "1.9.2",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
+    }
+  },
+  "shared_runtime_pth": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-assistance\\Lib\\site-packages\\stylesphere-shared-runtime.pth",
+  "gpu_inference_executed": false
+}

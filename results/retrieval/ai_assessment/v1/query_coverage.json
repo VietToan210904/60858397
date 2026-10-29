@@ -1,0 +1,1851 @@
+{
+  "schema_version": 1,
+  "n_queries": 120,
+  "n_pairs": 72000,
+  "rows": [
+    {
+      "query_id": "abo-q001",
+      "query_text": "black running shoes",
+      "n_catalogue": 600,
+      "n_judged": 596,
+      "n_unknown": 4,
+      "known_useful_relevant": 2,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 591,
+        "3": 2,
+        "unknown": 4,
+        "1": 3
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q002",
+      "query_text": "white running shoes",
+      "n_catalogue": 600,
+      "n_judged": 596,
+      "n_unknown": 4,
+      "known_useful_relevant": 2,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 588,
+        "1": 6,
+        "unknown": 4,
+        "3": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q003",
+      "query_text": "red running shoes",
+      "n_catalogue": 600,
+      "n_judged": 596,
+      "n_unknown": 4,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 594,
+        "unknown": 4,
+        "1": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q004",
+      "query_text": "simple running shoes for everyday wear",
+      "n_catalogue": 600,
+      "n_judged": 596,
+      "n_unknown": 4,
+      "known_useful_relevant": 9,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 587,
+        "3": 9,
+        "unknown": 4
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q005",
+      "query_text": "running shoes with a metallic finish",
+      "n_catalogue": 600,
+      "n_judged": 596,
+      "n_unknown": 4,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 596,
+        "unknown": 4
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q006",
+      "query_text": "running shoes for formal occasions",
+      "n_catalogue": 600,
+      "n_judged": 596,
+      "n_unknown": 4,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 596,
+        "unknown": 4
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q007",
+      "query_text": "minimalist running shoes",
+      "n_catalogue": 600,
+      "n_judged": 596,
+      "n_unknown": 4,
+      "known_useful_relevant": 4,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 589,
+        "3": 4,
+        "unknown": 4,
+        "1": 3
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q008",
+      "query_text": "lightweight running shoes for travel",
+      "n_catalogue": 600,
+      "n_judged": 596,
+      "n_unknown": 4,
+      "known_useful_relevant": 9,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 587,
+        "2": 9,
+        "unknown": 4
+      },
+      "physical_weight_measured": false
+    },
+    {
+      "query_id": "abo-q009",
+      "query_text": "running shoes with a bold decorative design",
+      "n_catalogue": 600,
+      "n_judged": 596,
+      "n_unknown": 4,
+      "known_useful_relevant": 2,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 591,
+        "unknown": 4,
+        "3": 2,
+        "1": 3
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q010",
+      "query_text": "running shoes in neutral colours",
+      "n_catalogue": 600,
+      "n_judged": 596,
+      "n_unknown": 4,
+      "known_useful_relevant": 6,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 587,
+        "3": 6,
+        "unknown": 4,
+        "1": 3
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q011",
+      "query_text": "black ankle boots",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 24,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "3": 24,
+        "0": 569,
+        "1": 6,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q012",
+      "query_text": "white ankle boots",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 1,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 595,
+        "1": 3,
+        "3": 1,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q013",
+      "query_text": "red ankle boots",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 1,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 595,
+        "1": 3,
+        "3": 1,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q014",
+      "query_text": "simple ankle boots for everyday wear",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 50,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "3": 50,
+        "0": 534,
+        "1": 15,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q015",
+      "query_text": "ankle boots with a metallic finish",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 593,
+        "1": 6,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q016",
+      "query_text": "ankle boots for formal occasions",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 23,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "1": 24,
+        "0": 552,
+        "3": 23,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q017",
+      "query_text": "minimalist ankle boots",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 48,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "3": 48,
+        "0": 539,
+        "1": 12,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q018",
+      "query_text": "lightweight ankle boots for travel",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 14,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "1": 46,
+        "0": 539,
+        "2": 14,
+        "unknown": 1
+      },
+      "physical_weight_measured": false
+    },
+    {
+      "query_id": "abo-q019",
+      "query_text": "ankle boots with a bold decorative design",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 6,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 581,
+        "3": 6,
+        "1": 12,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q020",
+      "query_text": "ankle boots in neutral colours",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 56,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "3": 56,
+        "0": 537,
+        "1": 6,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q021",
+      "query_text": "black sandals",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 16,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 575,
+        "1": 8,
+        "3": 16,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q022",
+      "query_text": "white sandals",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 5,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 588,
+        "3": 5,
+        "1": 6,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q023",
+      "query_text": "red sandals",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 7,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 591,
+        "3": 7,
+        "1": 1,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q024",
+      "query_text": "simple sandals for everyday wear",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 38,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 521,
+        "1": 40,
+        "3": 38,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q025",
+      "query_text": "sandals with a metallic finish",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 8,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 583,
+        "3": 8,
+        "1": 8,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q026",
+      "query_text": "sandals for formal occasions",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 29,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 549,
+        "3": 29,
+        "1": 21,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q027",
+      "query_text": "minimalist sandals",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 42,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 528,
+        "1": 29,
+        "3": 42,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q028",
+      "query_text": "lightweight sandals for travel",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 41,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 532,
+        "1": 26,
+        "2": 41,
+        "unknown": 1
+      },
+      "physical_weight_measured": false
+    },
+    {
+      "query_id": "abo-q029",
+      "query_text": "sandals with a bold decorative design",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 13,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 563,
+        "1": 23,
+        "3": 13,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q030",
+      "query_text": "sandals in neutral colours",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 61,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 531,
+        "3": 61,
+        "1": 7,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q031",
+      "query_text": "black flat shoes",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 4,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 595,
+        "3": 4,
+        "1": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q032",
+      "query_text": "white flat shoes",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 1,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 597,
+        "1": 2,
+        "3": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q033",
+      "query_text": "red flat shoes",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 1,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 599,
+        "3": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q034",
+      "query_text": "simple flat shoes for everyday wear",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 16,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 583,
+        "3": 16,
+        "1": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q035",
+      "query_text": "flat shoes with a metallic finish",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 1,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 595,
+        "1": 4,
+        "3": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q036",
+      "query_text": "flat shoes for formal occasions",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 5,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 584,
+        "1": 11,
+        "3": 5
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q037",
+      "query_text": "minimalist flat shoes",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 10,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 583,
+        "3": 10,
+        "1": 7
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q038",
+      "query_text": "lightweight flat shoes for travel",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 15,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 583,
+        "2": 15,
+        "1": 2
+      },
+      "physical_weight_measured": false
+    },
+    {
+      "query_id": "abo-q039",
+      "query_text": "flat shoes with a bold decorative design",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 594,
+        "1": 6
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q040",
+      "query_text": "flat shoes in neutral colours",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 15,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 584,
+        "3": 15,
+        "1": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q041",
+      "query_text": "black handbags",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 9,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 589,
+        "3": 9,
+        "1": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q042",
+      "query_text": "white handbags",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 1,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 597,
+        "1": 2,
+        "3": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q043",
+      "query_text": "red handbags",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 1,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 598,
+        "1": 1,
+        "3": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q044",
+      "query_text": "simple handbags for everyday wear",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 39,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 554,
+        "3": 39,
+        "1": 7
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q045",
+      "query_text": "handbags with a metallic finish",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 1,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 566,
+        "1": 33,
+        "3": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q046",
+      "query_text": "handbags for formal occasions",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 7,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 560,
+        "3": 7,
+        "1": 33
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q047",
+      "query_text": "minimalist handbags",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 19,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 556,
+        "1": 25,
+        "3": 19
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q048",
+      "query_text": "lightweight handbags for travel",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 36,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 554,
+        "2": 36,
+        "1": 10
+      },
+      "physical_weight_measured": false
+    },
+    {
+      "query_id": "abo-q049",
+      "query_text": "handbags with a bold decorative design",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 6,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 573,
+        "1": 21,
+        "3": 6
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q050",
+      "query_text": "handbags in neutral colours",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 27,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 564,
+        "3": 27,
+        "1": 9
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q051",
+      "query_text": "black backpacks",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 3,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 590,
+        "1": 5,
+        "3": 3,
+        "unknown": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q052",
+      "query_text": "white backpacks",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 1,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 595,
+        "unknown": 2,
+        "3": 1,
+        "1": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q053",
+      "query_text": "red backpacks",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 2,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 595,
+        "unknown": 2,
+        "1": 1,
+        "3": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q054",
+      "query_text": "simple backpacks for everyday wear",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 14,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 582,
+        "3": 14,
+        "unknown": 2,
+        "1": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q055",
+      "query_text": "backpacks with a metallic finish",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 595,
+        "unknown": 2,
+        "1": 3
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q056",
+      "query_text": "backpacks for formal occasions",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 595,
+        "unknown": 2,
+        "1": 3
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q057",
+      "query_text": "minimalist backpacks",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 4,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 583,
+        "1": 11,
+        "3": 4,
+        "unknown": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q058",
+      "query_text": "lightweight backpacks for travel",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 15,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 582,
+        "2": 15,
+        "unknown": 2,
+        "1": 1
+      },
+      "physical_weight_measured": false
+    },
+    {
+      "query_id": "abo-q059",
+      "query_text": "backpacks with a bold decorative design",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 2,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 587,
+        "1": 9,
+        "unknown": 2,
+        "3": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q060",
+      "query_text": "backpacks in neutral colours",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 8,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 586,
+        "3": 8,
+        "unknown": 2,
+        "1": 4
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q061",
+      "query_text": "black wallets",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 5,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 593,
+        "3": 5,
+        "1": 1,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q062",
+      "query_text": "white wallets",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 598,
+        "unknown": 1,
+        "1": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q063",
+      "query_text": "red wallets",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 1,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 597,
+        "3": 1,
+        "1": 1,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q064",
+      "query_text": "simple wallets for everyday wear",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 13,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 585,
+        "3": 13,
+        "1": 1,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q065",
+      "query_text": "wallets with a metallic finish",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 591,
+        "1": 8,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q066",
+      "query_text": "wallets for formal occasions",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 591,
+        "1": 8,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q067",
+      "query_text": "minimalist wallets",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 6,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 585,
+        "3": 6,
+        "1": 8,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q068",
+      "query_text": "lightweight wallets for travel",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 14,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 585,
+        "2": 14,
+        "unknown": 1
+      },
+      "physical_weight_measured": false
+    },
+    {
+      "query_id": "abo-q069",
+      "query_text": "wallets with a bold decorative design",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 2,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 591,
+        "1": 6,
+        "3": 2,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q070",
+      "query_text": "wallets in neutral colours",
+      "n_catalogue": 600,
+      "n_judged": 599,
+      "n_unknown": 1,
+      "known_useful_relevant": 9,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 586,
+        "3": 9,
+        "1": 4,
+        "unknown": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q071",
+      "query_text": "black hats",
+      "n_catalogue": 600,
+      "n_judged": 589,
+      "n_unknown": 11,
+      "known_useful_relevant": 6,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 579,
+        "1": 4,
+        "3": 6,
+        "unknown": 11
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q072",
+      "query_text": "white hats",
+      "n_catalogue": 600,
+      "n_judged": 589,
+      "n_unknown": 11,
+      "known_useful_relevant": 3,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 583,
+        "3": 3,
+        "1": 3,
+        "unknown": 11
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q073",
+      "query_text": "red hats",
+      "n_catalogue": 600,
+      "n_judged": 589,
+      "n_unknown": 11,
+      "known_useful_relevant": 3,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 585,
+        "3": 3,
+        "unknown": 11,
+        "1": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q074",
+      "query_text": "simple hats for everyday wear",
+      "n_catalogue": 600,
+      "n_judged": 589,
+      "n_unknown": 11,
+      "known_useful_relevant": 18,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 570,
+        "3": 18,
+        "unknown": 11,
+        "1": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q075",
+      "query_text": "hats with a metallic finish",
+      "n_catalogue": 600,
+      "n_judged": 589,
+      "n_unknown": 11,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 589,
+        "unknown": 11
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q076",
+      "query_text": "hats for formal occasions",
+      "n_catalogue": 600,
+      "n_judged": 589,
+      "n_unknown": 11,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 589,
+        "unknown": 11
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q077",
+      "query_text": "minimalist hats",
+      "n_catalogue": 600,
+      "n_judged": 589,
+      "n_unknown": 11,
+      "known_useful_relevant": 9,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 570,
+        "1": 10,
+        "3": 9,
+        "unknown": 11
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q078",
+      "query_text": "lightweight hats for travel",
+      "n_catalogue": 600,
+      "n_judged": 589,
+      "n_unknown": 11,
+      "known_useful_relevant": 17,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 570,
+        "2": 17,
+        "unknown": 11,
+        "1": 2
+      },
+      "physical_weight_measured": false
+    },
+    {
+      "query_id": "abo-q079",
+      "query_text": "hats with a bold decorative design",
+      "n_catalogue": 600,
+      "n_judged": 589,
+      "n_unknown": 11,
+      "known_useful_relevant": 4,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 579,
+        "3": 4,
+        "1": 6,
+        "unknown": 11
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q080",
+      "query_text": "hats in neutral colours",
+      "n_catalogue": 600,
+      "n_judged": 589,
+      "n_unknown": 11,
+      "known_useful_relevant": 13,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 572,
+        "1": 4,
+        "3": 13,
+        "unknown": 11
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q081",
+      "query_text": "black earrings",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 2,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 596,
+        "3": 2,
+        "1": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q082",
+      "query_text": "white earrings",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 13,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 539,
+        "3": 13,
+        "1": 48
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q083",
+      "query_text": "red earrings",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 11,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 581,
+        "3": 11,
+        "1": 8
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q084",
+      "query_text": "simple earrings for everyday wear",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 46,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 490,
+        "3": 46,
+        "1": 64
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q085",
+      "query_text": "earrings with a metallic finish",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 99,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 489,
+        "3": 99,
+        "1": 12
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q086",
+      "query_text": "earrings for formal occasions",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 98,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 489,
+        "3": 98,
+        "1": 13
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q087",
+      "query_text": "minimalist earrings",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 41,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 511,
+        "3": 41,
+        "1": 48
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q088",
+      "query_text": "lightweight earrings for travel",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 110,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 489,
+        "2": 109,
+        "1": 1,
+        "3": 1
+      },
+      "physical_weight_measured": false
+    },
+    {
+      "query_id": "abo-q089",
+      "query_text": "earrings with a bold decorative design",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 43,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 511,
+        "3": 43,
+        "1": 46
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q090",
+      "query_text": "earrings in neutral colours",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 66,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 508,
+        "3": 66,
+        "1": 26
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q091",
+      "query_text": "black necklaces",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 1,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 594,
+        "1": 5,
+        "3": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q092",
+      "query_text": "white necklaces",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 17,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 560,
+        "1": 23,
+        "3": 17
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q093",
+      "query_text": "red necklaces",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 1,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 597,
+        "3": 1,
+        "1": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q094",
+      "query_text": "simple necklaces for everyday wear",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 52,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 522,
+        "1": 26,
+        "3": 52
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q095",
+      "query_text": "necklaces with a metallic finish",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 75,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 522,
+        "3": 75,
+        "1": 3
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q096",
+      "query_text": "necklaces for formal occasions",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 54,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 521,
+        "3": 54,
+        "1": 25
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q097",
+      "query_text": "minimalist necklaces",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 33,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 529,
+        "1": 38,
+        "3": 33
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q098",
+      "query_text": "lightweight necklaces for travel",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 79,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 521,
+        "2": 79
+      },
+      "physical_weight_measured": false
+    },
+    {
+      "query_id": "abo-q099",
+      "query_text": "necklaces with a bold decorative design",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 18,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 548,
+        "1": 34,
+        "3": 18
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q100",
+      "query_text": "necklaces in neutral colours",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 63,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 525,
+        "3": 63,
+        "1": 12
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q101",
+      "query_text": "black rings",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 600
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q102",
+      "query_text": "white rings",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 21,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 518,
+        "1": 61,
+        "3": 21
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q103",
+      "query_text": "red rings",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 599,
+        "1": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q104",
+      "query_text": "simple rings for everyday wear",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 18,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 514,
+        "1": 68,
+        "3": 18
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q105",
+      "query_text": "rings with a metallic finish",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 90,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 510,
+        "3": 90
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q106",
+      "query_text": "rings for formal occasions",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 84,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 510,
+        "3": 84,
+        "1": 6
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q107",
+      "query_text": "minimalist rings",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 14,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 539,
+        "1": 47,
+        "3": 14
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q108",
+      "query_text": "lightweight rings for travel",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 88,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 510,
+        "2": 88,
+        "1": 2
+      },
+      "physical_weight_measured": false
+    },
+    {
+      "query_id": "abo-q109",
+      "query_text": "rings with a bold decorative design",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 54,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 515,
+        "3": 54,
+        "1": 31
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q110",
+      "query_text": "rings in neutral colours",
+      "n_catalogue": 600,
+      "n_judged": 600,
+      "n_unknown": 0,
+      "known_useful_relevant": 69,
+      "all_catalogue_complete": true,
+      "grade_counts": {
+        "0": 511,
+        "1": 20,
+        "3": 69
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q111",
+      "query_text": "black casual shoes",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 6,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 588,
+        "3": 6,
+        "unknown": 2,
+        "1": 4
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q112",
+      "query_text": "white casual shoes",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 5,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 579,
+        "1": 14,
+        "3": 5,
+        "unknown": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q113",
+      "query_text": "red casual shoes",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 596,
+        "unknown": 2,
+        "1": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q114",
+      "query_text": "simple casual shoes for everyday wear",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 26,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 570,
+        "3": 26,
+        "unknown": 2,
+        "1": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q115",
+      "query_text": "casual shoes with a metallic finish",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 2,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 595,
+        "unknown": 2,
+        "3": 2,
+        "1": 1
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q116",
+      "query_text": "casual shoes for formal occasions",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 0,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 592,
+        "1": 6,
+        "unknown": 2
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q117",
+      "query_text": "minimalist casual shoes",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 16,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 572,
+        "3": 16,
+        "unknown": 2,
+        "1": 10
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q118",
+      "query_text": "lightweight casual shoes for travel",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 25,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 570,
+        "2": 25,
+        "unknown": 2,
+        "1": 3
+      },
+      "physical_weight_measured": false
+    },
+    {
+      "query_id": "abo-q119",
+      "query_text": "casual shoes with a bold decorative design",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 4,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 589,
+        "unknown": 2,
+        "3": 4,
+        "1": 5
+      },
+      "physical_weight_measured": null
+    },
+    {
+      "query_id": "abo-q120",
+      "query_text": "casual shoes in neutral colours",
+      "n_catalogue": 600,
+      "n_judged": 598,
+      "n_unknown": 2,
+      "known_useful_relevant": 22,
+      "all_catalogue_complete": false,
+      "grade_counts": {
+        "0": 571,
+        "3": 22,
+        "unknown": 2,
+        "1": 5
+      },
+      "physical_weight_measured": null
+    }
+  ]
+}

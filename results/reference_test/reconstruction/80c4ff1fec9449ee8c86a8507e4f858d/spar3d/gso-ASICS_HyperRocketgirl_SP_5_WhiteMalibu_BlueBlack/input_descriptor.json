@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "cbed2450f0d9cae89813ffe8a8de579db76cf3b6a8bb59821c927b7d84bc45e0",
+    "preparation_metadata": "e27c75f347b0dcf60fef08a42d95c56aaf0730675594c9f56d8c8dec30eba7ec",
+    "reference_mesh": "545aaa4158bb2fa3a0f3e14846b851b5b1e6407fb3933d3988d59525b2e9da8c",
+    "source_image": "155bdcea8178a3f9fee6743e0ac51bd3c34ffb002986ef2c08eff38e7e54f8b1",
+    "view_0_reference_rgb": "98ea82e7c7618b98e332421bddf7a40498bf49cdd47b17a6c224ab78c4d58c54",
+    "view_0_reference_silhouette": "1e89273551884d47690e65b6f86ec3d26e18078ed17dec9a482e77e44b8c8d33",
+    "view_1_reference_rgb": "5a2235d43ff0e93a202ff254097cf86f85ea8a598fa09ae16209578ed7fc4184",
+    "view_1_reference_silhouette": "ef6e7474cb435dd3b2c0c41e9cc5800c70da13fdad9be58a1169f274b4844886",
+    "view_2_reference_rgb": "e10d411a51be964f863f6107c3754865d2df984d90e8ca21ab6e4a592e4b9e92",
+    "view_2_reference_silhouette": "aa58f4050cbd56539eb3e534a328daed6166c66201c44b02a5508fcd6866cf19",
+    "view_3_reference_rgb": "7edf3770a87d960a7654e43ad735c26be059070faebf938540278225057d6fdb",
+    "view_3_reference_silhouette": "cc1039956f26f2bc2bcc776f1b66e04ba5fcd441927dc6db21d84d59642b7cbb"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "155bdcea8178a3f9fee6743e0ac51bd3c34ffb002986ef2c08eff38e7e54f8b1",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "545aaa4158bb2fa3a0f3e14846b851b5b1e6407fb3933d3988d59525b2e9da8c",
+    "object_id": "gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/input.png",
+    "source_revision": "GoogleResearch/ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/v1;zip-sha256:68fbe1216ced18ce1e3ae7688c8e77006fa034c8521bf97f9d48b47edf508bda"
+  }
+}

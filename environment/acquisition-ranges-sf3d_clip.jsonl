@@ -1,0 +1,86 @@
+{"timestamp_utc": "2026-10-28T16:48:26.917460+00:00", "status": "prefix_preserved", "path": "README.md", "prefix_bytes": 0}
+{"timestamp_utc": "2026-10-28T16:48:26.920680+00:00", "status": "prefix_preserved", "path": "open_clip_config.json", "prefix_bytes": 0}
+{"timestamp_utc": "2026-10-28T16:48:26.923905+00:00", "status": "prefix_preserved", "path": "open_clip_pytorch_model.bin", "prefix_bytes": 0}
+{"timestamp_utc": "2026-10-28T16:48:26.924905+00:00", "status": "download_started", "model_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K", "revision": "1a25a446712ba5ee05982a381eed697ef9b435cf", "remaining_bytes": 605227881, "ranges": 75, "workers": 2}
+{"timestamp_utc": "2026-10-28T16:48:28.092141+00:00", "status": "range_saved", "path": "open_clip_config.json", "start": 0, "end": 603, "bytes": 604}
+{"timestamp_utc": "2026-10-28T16:48:28.334085+00:00", "status": "range_saved", "path": "README.md", "start": 0, "end": 7463, "bytes": 7464}
+{"timestamp_utc": "2026-10-28T16:48:39.521865+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 0, "end": 8388607, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:48:46.216123+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 8388608, "end": 16777215, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:48:50.123826+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 16777216, "end": 25165823, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:49:51.457554+00:00", "status": "range_retry", "path": "open_clip_pytorch_model.bin", "start": 25165824, "end": 33554431, "attempt": 1, "error": "TimeoutError: Bounded range exceeded the 60-second body deadline"}
+{"timestamp_utc": "2026-10-28T16:49:58.410841+00:00", "status": "range_retry", "path": "open_clip_pytorch_model.bin", "start": 33554432, "end": 41943039, "attempt": 1, "error": "TimeoutError: Bounded range exceeded the 60-second body deadline"}
+{"timestamp_utc": "2026-10-28T16:50:01.716434+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 25165824, "end": 33554431, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:50:06.231399+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 33554432, "end": 41943039, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:50:09.947947+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 41943040, "end": 50331647, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:50:17.888037+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 58720256, "end": 67108863, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:50:25.704973+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 67108864, "end": 75497471, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:50:30.301256+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 50331648, "end": 58720255, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:50:33.272997+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 75497472, "end": 83886079, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:50:39.716866+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 83886080, "end": 92274687, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:50:41.283743+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 92274688, "end": 100663295, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:50:50.814904+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 100663296, "end": 109051903, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:50:51.904090+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 109051904, "end": 117440511, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:50:58.494301+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 117440512, "end": 125829119, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:51:00.295427+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 125829120, "end": 134217727, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:51:05.081724+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 134217728, "end": 142606335, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:51:06.910211+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 142606336, "end": 150994943, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:51:16.230954+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 150994944, "end": 159383551, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:51:22.172206+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 159383552, "end": 167772159, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:51:23.767251+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 167772160, "end": 176160767, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:51:32.346187+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 184549376, "end": 192937983, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:51:32.423689+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 176160768, "end": 184549375, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:51:40.382752+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 201326592, "end": 209715199, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:51:40.542807+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 192937984, "end": 201326591, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:51:53.565561+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 218103808, "end": 226492415, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:52:00.763153+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 226492416, "end": 234881023, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:52:07.688921+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 234881024, "end": 243269631, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:52:23.136044+00:00", "status": "range_retry", "path": "open_clip_pytorch_model.bin", "start": 209715200, "end": 218103807, "attempt": 1, "error": "TimeoutError: The read operation timed out"}
+{"timestamp_utc": "2026-10-28T16:52:27.141645+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 243269632, "end": 251658239, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:52:29.516263+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 209715200, "end": 218103807, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:52:34.708076+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 251658240, "end": 260046847, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:52:38.208283+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 260046848, "end": 268435455, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:52:44.298794+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 268435456, "end": 276824063, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:52:44.475287+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 276824064, "end": 285212671, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:52:50.655981+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 285212672, "end": 293601279, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:52:50.833726+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 293601280, "end": 301989887, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:52:56.121408+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 301989888, "end": 310378495, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:52:56.229783+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 310378496, "end": 318767103, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:53:00.528618+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 327155712, "end": 335544319, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:53:08.566147+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 335544320, "end": 343932927, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:53:14.332156+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 343932928, "end": 352321535, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:53:19.276468+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 318767104, "end": 327155711, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:53:19.885305+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 352321536, "end": 360710143, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:53:25.305707+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 360710144, "end": 369098751, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:53:29.782904+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 369098752, "end": 377487359, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:53:36.445466+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 377487360, "end": 385875967, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:53:43.352287+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 394264576, "end": 402653183, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:53:51.673121+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 402653184, "end": 411041791, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:53:52.930412+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 385875968, "end": 394264575, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:53:59.549295+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 419430400, "end": 427819007, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:00.002821+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 411041792, "end": 419430399, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:05.804789+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 427819008, "end": 436207615, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:06.216136+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 436207616, "end": 444596223, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:18.839542+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 444596224, "end": 452984831, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:18.956369+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 452984832, "end": 461373439, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:25.129594+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 469762048, "end": 478150655, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:26.922993+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 461373440, "end": 469762047, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:31.878816+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 486539264, "end": 494927871, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:39.402516+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 494927872, "end": 503316479, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:46.511799+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 478150656, "end": 486539263, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:47.989775+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 503316480, "end": 511705087, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:52.955095+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 511705088, "end": 520093695, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:58.638539+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 520093696, "end": 528482303, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:54:59.720198+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 528482304, "end": 536870911, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:55:06.213174+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 536870912, "end": 545259519, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:55:07.115003+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 545259520, "end": 553648127, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:55:16.012597+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 562036736, "end": 570425343, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:55:17.363229+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 553648128, "end": 562036735, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:55:23.591843+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 578813952, "end": 587202559, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:55:28.574469+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 570425344, "end": 578813951, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:55:30.993696+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 587202560, "end": 595591167, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:55:37.380622+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 603979776, "end": 605219812, "bytes": 1240037}
+{"timestamp_utc": "2026-10-28T16:55:41.154409+00:00", "status": "range_saved", "path": "open_clip_pytorch_model.bin", "start": 595591168, "end": 603979775, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:55:41.163395+00:00", "status": "file_verified", "path": "README.md", "bytes": 7464, "sha256": null, "reused": false}
+{"timestamp_utc": "2026-10-28T16:55:41.169405+00:00", "status": "file_verified", "path": "open_clip_config.json", "bytes": 604, "sha256": null, "reused": false}
+{"timestamp_utc": "2026-10-28T16:55:41.675137+00:00", "status": "file_verified", "path": "open_clip_pytorch_model.bin", "bytes": 605219813, "sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad", "reused": false}
+{"timestamp_utc": "2026-10-28T16:55:42.192208+00:00", "status": "download_complete", "model_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K", "files": 3}

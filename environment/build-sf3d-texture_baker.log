@@ -1,0 +1,21 @@
+'vswhere.exe' is not recognized as an internal or external command,
+operable program or batch file.
+**********************************************************************
+** Visual Studio 2026 Developer Command Prompt v18.0
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Processing c:\users\tonyh_yxuq8za\60858397_evaluation\.cache\build-overlays\sf3d\texture_baker
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: texture_baker
+  Building wheel for texture_baker (setup.py): started
+  Building wheel for texture_baker (setup.py): finished with status 'done'
+  Created wheel for texture_baker: filename=texture_baker-0.0.1-cp311-cp311-win_amd64.whl size=163723 sha256=a51d0cbc23186fe8ca95c48aca5b6fc147e19f2148980fe71a90a5a04f189b44
+  Stored in directory: C:\Users\tonyh_yxuq8za\AppData\Local\Temp\pip-ephem-wheel-cache-dpaq02k7\wheels\e8\c9\c1\fffd290af174aa4f1561425525e8b50e40d40a9556b15434bf
+Successfully built texture_baker
+Installing collected packages: texture_baker
+Successfully installed texture_baker-0.0.1
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: python.exe -m pip install --upgrade pip

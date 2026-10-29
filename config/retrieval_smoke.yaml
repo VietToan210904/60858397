@@ -1,0 +1,6 @@
+smoke_only: true
+evaluation:
+  retrieval:
+    dataset_dir: datasets/retrieval_smoke
+    smoke_queries: 4
+    batch_size: 4

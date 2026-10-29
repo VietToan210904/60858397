@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "1d33c2cac6a3d6a33e15a530821dee37734076bc19b2f007e257471280e4bf85",
+    "preparation_metadata": "2f27741e9c464bfbda54fde665d0c94b4965693ee471a7ab659692bfac973d83",
+    "reference_mesh": "a637501038ecce66ad69db59d82d37991e63f705b8fd00789d502f56f272d2bb",
+    "source_image": "1cb15cf6e6475cfb488ebbfbf99f82298183ab9a38e4c8b071c47b81c323a10f",
+    "view_0_reference_rgb": "f9583679bcd6a1bd0674edb7e472714c9e8bffee9c25b749c6b72ed02b5ce259",
+    "view_0_reference_silhouette": "02e0c5913b32867ebc7b5ffcaa0c1340a1fe94b4c37ce681b5934f0a8b217f84",
+    "view_1_reference_rgb": "2f84bcda759f8ac2960d9ebdf28b6818116393dfc3b6897299698ebfeb06cb59",
+    "view_1_reference_silhouette": "7393db509f7432dce828f99c5955734a08916f008d87b4d95fc69781488f942f",
+    "view_2_reference_rgb": "848bb741f463860336fc41e01dce87ba779a970c0fffc78006c565709b18fa90",
+    "view_2_reference_silhouette": "5fcd44374998c59080e59a737f852ac4644767c48d0f33cb5f32f1bdf3a51983",
+    "view_3_reference_rgb": "113fdf7195e82ab28b93a5b93b28c61036bb4c09495bc52bbca80587a275ce09",
+    "view_3_reference_silhouette": "faebf227e9c5c8370ef10b20eaf501803c717a952fdb25fdf138316d5da0a237"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-11pro_SL_TRX_FG/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "1cb15cf6e6475cfb488ebbfbf99f82298183ab9a38e4c8b071c47b81c323a10f",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "a637501038ecce66ad69db59d82d37991e63f705b8fd00789d502f56f272d2bb",
+    "object_id": "gso-11pro_SL_TRX_FG",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-11pro_SL_TRX_FG/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-11pro_SL_TRX_FG/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-11pro_SL_TRX_FG/input.png",
+    "source_revision": "GoogleResearch/11pro_SL_TRX_FG/v1;zip-sha256:0773edaabd648418a36faf93a82c26a125259d623487f35f7ca7f311628de579"
+  }
+}

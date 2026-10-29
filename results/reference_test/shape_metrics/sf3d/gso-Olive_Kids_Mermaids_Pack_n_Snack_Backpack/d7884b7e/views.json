@@ -1,0 +1,61 @@
+{
+  "interpretation": "Supplementary independently normalized shape views, with explicitly reference-assisted rigid alignment where labelled",
+  "per_view": [
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.8971988691317611,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/d7884b7e/unaligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.7902486277042299,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/d7884b7e/unaligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.8826138574679286,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/d7884b7e/unaligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.7833759701686684,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/d7884b7e/unaligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/reference_views/view_03_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.9028156900871256,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/d7884b7e/rigid_aligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.7984956538703314,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/d7884b7e/rigid_aligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.8829091508113005,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/d7884b7e/rigid_aligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.7934233268427155,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/d7884b7e/rigid_aligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/reference_views/view_03_mask.png"
+    }
+  ]
+}

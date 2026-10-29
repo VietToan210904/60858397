@@ -1,0 +1,10 @@
+{
+  "selected_bytes": 934088680,
+  "free_disk_before": 362993217536,
+  "selected": [
+    "spar3d_clip"
+  ]
+}
+{"status": "file_verified", "path": "ViT-L-14-336px.pt", "bytes": 934088680, "sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02", "reused": false}
+{"status": "download_complete", "model_id": "OpenAI/CLIP-ViT-L-14-336px", "files": 1}
+Verified spar3d_clip

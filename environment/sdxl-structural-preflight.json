@@ -1,0 +1,6 @@
+{
+  "meta_unet_parameters": 2567463684,
+  "parameter_device": "meta",
+  "tokenizer_probe_tokens": 7,
+  "gpu_execution_performed": false
+}

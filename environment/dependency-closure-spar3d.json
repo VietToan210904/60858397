@@ -1,0 +1,43 @@
+{
+  "model": "spar3d",
+  "roots": [
+    "torch",
+    "torchvision",
+    "setuptools",
+    "wheel",
+    "ninja",
+    "numpy",
+    "scipy",
+    "pillow",
+    "packaging",
+    "einops",
+    "jaxtyping",
+    "omegaconf",
+    "transformers",
+    "trimesh",
+    "huggingface-hub",
+    "safetensors",
+    "clip",
+    "alpha-clip",
+    "loralib",
+    "transparent-background"
+  ],
+  "omitted_shared_or_reviewed_sources": [
+    "alpha-clip",
+    "clip",
+    "torch",
+    "torchvision"
+  ],
+  "missing_declared_dependencies": [],
+  "unused_flet_gui_cli_dependencies_not_in_runtime": [
+    "cookiecutter",
+    "fastapi",
+    "qrcode",
+    "uvicorn",
+    "watchdog"
+  ],
+  "observed_constraint_mismatches": [],
+  "pinned_packages": 70,
+  "cold_install_verified": false,
+  "note": "Observed imports/builds/kernel checks are verified separately; a fresh-extraction installation has not been executed in this run."
+}

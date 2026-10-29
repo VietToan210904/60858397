@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "85c46253e3c92efb6bc86c2e973492154a68c71bee90465e33d47842db24077a",
+    "preparation_metadata": "bf7607f1da94245709f9094713fbeb96f1c43040aa95d4dbb6332a138c58fea5",
+    "reference_mesh": "fbb5433c2ed702858c5cbfd26149e4efb41317a7c1eeeb2685b268130a046326",
+    "source_image": "0ec1420fd97daf0e62ebb3f34897b45b59932c43793dfae2ec3fbad28eccee98",
+    "view_0_reference_rgb": "cc35009fda10ba7dd8a7fd1cff15a60ed8379c29509c8787ef9cbbc47be63d39",
+    "view_0_reference_silhouette": "0592352416e91fe5e289571eaec2a3b27d93192ac9f902ab8fe5b1395f287955",
+    "view_1_reference_rgb": "9747a8d01de2e6fd7ef45487ce6bf8637698f45785381063f9a23cea8221be41",
+    "view_1_reference_silhouette": "73022b407bdbc5a9c0f1ef9b6e95967483d510e3a5d576a555489d13b77dd3d4",
+    "view_2_reference_rgb": "e146fa144fc1c81312bcd8b15b4e469b81f611fff05140a9151222fe77304db4",
+    "view_2_reference_silhouette": "8eb1267510e9bbbb3522ab9f94ada6eb4bc22da3a654a61b1239a237ab5c8ef8",
+    "view_3_reference_rgb": "1cb9417af1f1e83122b4c9bc6e5b8bbdd323a4bcdff6daaf4cbef20870ead92a",
+    "view_3_reference_silhouette": "c397a9a9a61dd9f3e5c4948459aeeee91f47ad366e0a255caa6b293484daf6c7"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "0ec1420fd97daf0e62ebb3f34897b45b59932c43793dfae2ec3fbad28eccee98",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "fbb5433c2ed702858c5cbfd26149e4efb41317a7c1eeeb2685b268130a046326",
+    "object_id": "gso-ASICS_GELLinksmaster_WhiteCoffeeSand",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/input.png",
+    "source_revision": "GoogleResearch/ASICS_GELLinksmaster_WhiteCoffeeSand/v1;zip-sha256:71fff4323eb53c9f024d70a9856055d856117b5c5dc79d14fd2ef042a68ce9a0"
+  }
+}

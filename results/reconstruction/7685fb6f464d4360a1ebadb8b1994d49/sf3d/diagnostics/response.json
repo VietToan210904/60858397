@@ -1,0 +1,474 @@
+{
+  "results": [
+    {
+      "case_id": "abo-B086YY3KQG",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.6272481000050902,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.029499900003429502,
+        "preprocessing_s": 0.06629780004732311,
+        "end_to_end_s": 0.7239027000614442,
+        "warmup_excluded_s": 1.7450683999923058
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7338.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B086YY3KQG/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B086YY3KQG/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07XBZR7SR",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.6504187000100501,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.020912099978886545,
+        "preprocessing_s": 0.066483500006143,
+        "end_to_end_s": 0.7386590000241995
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7340.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07XBZR7SR/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07XBZR7SR/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B084LLWDFH",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.6332747000269592,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.01678229996468872,
+        "preprocessing_s": 0.031101600034162402,
+        "end_to_end_s": 0.6820788999903016
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7340.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B084LLWDFH/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B084LLWDFH/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07PGK6BKK",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.5904827999765985,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.016883400036022067,
+        "preprocessing_s": 0.053415400034282357,
+        "end_to_end_s": 0.6616129000321962
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7340.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07PGK6BKK/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07PGK6BKK/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07WVRFRR2",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.6518921999959275,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.01982079999288544,
+        "preprocessing_s": 0.06025049998424947,
+        "end_to_end_s": 0.7331498999847099
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7340.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WVRFRR2/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WVRFRR2/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07VS296PR",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.9115954999579117,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.026678099995478988,
+        "preprocessing_s": 0.05468309996649623,
+        "end_to_end_s": 0.9943036999902688
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7340.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07VS296PR/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07VS296PR/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07XPHD4LK",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.7968161000171676,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.018245400045998394,
+        "preprocessing_s": 0.037996499973814934,
+        "end_to_end_s": 0.8539804000174627
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7340.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07XPHD4LK/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07XPHD4LK/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B06W9GB1JR",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.7938974999706261,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.018573999986983836,
+        "preprocessing_s": 0.062059100018814206,
+        "end_to_end_s": 0.8753960999893025
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7340.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B06W9GB1JR/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B06W9GB1JR/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07YV78XJW",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.591549800010398,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.01718950003851205,
+        "preprocessing_s": 0.04012760001933202,
+        "end_to_end_s": 0.6508155000046827
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7340.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07YV78XJW/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07YV78XJW/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07J2DZXXY",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.7631818000227213,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.02020480000646785,
+        "preprocessing_s": 0.03635420004138723,
+        "end_to_end_s": 0.8205737000098452
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7342.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07J2DZXXY/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07J2DZXXY/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07XF6F7X7",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.6441379999741912,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.01897630002349615,
+        "preprocessing_s": 0.057879499974660575,
+        "end_to_end_s": 0.7218363999854773
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7342.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07XF6F7X7/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07XF6F7X7/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07PWXRWBC",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.6401515999459662,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.01811290002660826,
+        "preprocessing_s": 0.05544180003926158,
+        "end_to_end_s": 0.7155898000346497
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7342.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07PWXRWBC/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07PWXRWBC/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07R79WR4V",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.7181504999753088,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.02116190001834184,
+        "preprocessing_s": 0.056943400006275624,
+        "end_to_end_s": 0.7970654999953695
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7342.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07R79WR4V/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07R79WR4V/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07WRJG24S",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.5856336000142619,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.01541449996875599,
+        "preprocessing_s": 0.04384950001258403,
+        "end_to_end_s": 0.6456644000136293
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7342.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WRJG24S/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WRJG24S/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07CMD9X29",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.6744547999696806,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.01858989999163896,
+        "preprocessing_s": 0.042512300016824156,
+        "end_to_end_s": 0.7365328000159934
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7342.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07CMD9X29/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07CMD9X29/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07WTMZ91M",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.5726962999906391,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.01587840000865981,
+        "preprocessing_s": 0.040968299959786236,
+        "end_to_end_s": 0.630491699965205
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7342.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WTMZ91M/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WTMZ91M/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07JHFZVLV",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.7844485999667086,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.02358410001033917,
+        "preprocessing_s": 0.09577489999355748,
+        "end_to_end_s": 0.9046115999808535
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7342.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07JHFZVLV/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07JHFZVLV/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07WRJFN95",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.6658279999974184,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.01879870000993833,
+        "preprocessing_s": 0.06888110004365444,
+        "end_to_end_s": 0.7553026000387035
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7342.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WRJFN95/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WRJFN95/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B081HNQQWP",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.6322533000493422,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.017249300028197467,
+        "preprocessing_s": 0.0633257000008598,
+        "end_to_end_s": 0.7136263999855146
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7342.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B081HNQQWP/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B081HNQQWP/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07WTMZ8N7",
+      "status": "success",
+      "timings": {
+        "inference_s": 0.6270113000064157,
+        "model_load_s": 7.254798199981451,
+        "export_s": 0.019725300022400916,
+        "preprocessing_s": 0.05857469997135922,
+        "end_to_end_s": 0.7061735999886878
+      },
+      "metrics": {
+        "peak_allocated_mb": 6128.98291015625,
+        "peak_reserved_mb": 7342.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WTMZ8N7/mesh.glb",
+        "prepared_input": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WTMZ8N7/prepared_input.png"
+      },
+      "error": null
+    }
+  ],
+  "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Scripts\\python.exe",
+  "adapter_source_sha256": "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351",
+  "seed_policy": "Reset Python/NumPy/Torch/CUDA seed immediately before each measured inference, after excluded warmup",
+  "torch_version": "2.11.0+cu128",
+  "cuda_version": "12.8",
+  "libraries": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "Pillow": "12.2.0",
+    "transformers": "4.42.3",
+    "omegaconf": "2.3.0",
+    "trimesh": "4.4.1",
+    "safetensors": "0.7.0",
+    "huggingface-hub": "0.23.4",
+    "clip": null,
+    "alpha-clip": null,
+    "open-clip-torch": "2.24.0"
+  },
+  "checkpoint_provenance": {
+    "revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+    "files": {
+      "config.yaml": {
+        "size_bytes": 2405,
+        "sha256": "5e880cfec3dec28d4e20afe07bfa1799c8a561f56f0532ebf1b4022ae4ddc8e4"
+      },
+      "model.safetensors": {
+        "size_bytes": 4024289892,
+        "sha256": "a3416e1cf654e7d4f5e75f116cec2c3f0a14501a77d30c2f6068bbda178de388"
+      }
+    }
+  },
+  "native_extension_provenance": {
+    "receipt_sha256": "50954cff8269fcb9a82b152494180216949c13cb4de2ee9ff59811283e25930f",
+    "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+    "artifacts": {
+      "texture_baker._C": {
+        "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Lib\\site-packages\\texture_baker\\_C.cp311-win_amd64.pyd",
+        "sha256": "eef43fa5997bda2424daeac5c0c43ca8f478d0a93cf320f0e144428fda36b3cc"
+      },
+      "uv_unwrapper._C": {
+        "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Lib\\site-packages\\uv_unwrapper\\_C.cp311-win_amd64.pyd",
+        "sha256": "94c74559ace87ac666526d49e16f3f4cbab55c20ce269c34c5d18a53d97d2120"
+      }
+    }
+  },
+  "auxiliary_provenance": {
+    "dinov2": {
+      "repo_id": "facebook/dinov2-large",
+      "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+      "weights_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+      "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+      "configuration_paths": [
+        "image_tokenizer.pretrained_model_name_or_path"
+      ]
+    },
+    "open_clip": {
+      "repo_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+      "revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+      "sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad"
+    },
+    "operational_config_sha256": "04d178938e7319c7bf10b522c1d9336b66ef6ed46a6af80b678fbf4ba26aa582",
+    "changes": "Only local initialization asset paths; architecture, kernels and final model weights unchanged"
+  },
+  "device": "NVIDIA GeForce RTX 4070 SUPER",
+  "source_revision": "ff21fc491b4dc5314bf6734c7c0dabd86b5f5bb2",
+  "source_dirty": false,
+  "resolved_checkpoint_revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778"
+}

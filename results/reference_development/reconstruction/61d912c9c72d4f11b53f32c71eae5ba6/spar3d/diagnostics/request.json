@@ -1,0 +1,78 @@
+{
+  "model": "spar3d",
+  "model_id": "stabilityai/stable-point-aware-3d",
+  "model_config": {
+    "pair": "reconstruction",
+    "model_id": "stabilityai/stable-point-aware-3d",
+    "revision": "5699918cb34f55cd7d828493d2725f3038313761",
+    "precision": "model_native",
+    "low_vram": true,
+    "local_files_only": true,
+    "licence": "Stability-AI-Community",
+    "checkout": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\vendor\\SPAR3D",
+    "source_revision": "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1",
+    "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Scripts\\python.exe",
+    "weights_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\spar3d",
+    "auxiliary": {
+      "dinov2": {
+        "path": "../dinov2_large",
+        "repo_id": "facebook/dinov2-large",
+        "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+        "model_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+        "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0"
+      },
+      "alpha_clip": {
+        "path": "../spar3d_clip/ViT-L-14-336px.pt",
+        "sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+      }
+    },
+    "extension_build": {
+      "receipt": "../../environment/native-build-spar3d.json",
+      "receipt_sha256": "92d8c9f603c11c376003077b2e85ce312107b178dc94be742914dffc170730fc",
+      "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+      "binary_sha256": {
+        "texture_baker._C": "a2423056b11192d0bd798d07d62448adb60604bae823ccbea74998afc9f2ae66",
+        "uv_unwrapper._C": "ca22c8966e3b38e96f0421786f30cb6ade642ea5fe8d5becc752920eb24ff9ea"
+      }
+    },
+    "checkpoint_files": {
+      "config.yaml": {
+        "size_bytes": 3996,
+        "git_blob_sha1": "691b7b50f13599b03ea5eaaa5fdc01316c31bbf5"
+      },
+      "model.safetensors": {
+        "size_bytes": 7326949440,
+        "sha256": "62673b63fd9dad425e74b213ffe8501262d9621d5174310ac33017747be31f58"
+      }
+    }
+  },
+  "project_root": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation",
+  "warmup_runs": 1,
+  "texture_resolution": 1024,
+  "cases": [
+    {
+      "case_id": "gso-11pro_SL_TRX_FG",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-11pro_SL_TRX_FG\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_development\\reconstruction\\61d912c9c72d4f11b53f32c71eae5ba6\\spar3d\\gso-11pro_SL_TRX_FG\\mesh.glb"
+    },
+    {
+      "case_id": "gso-AMBERLIGHT_UP_W",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-AMBERLIGHT_UP_W\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_development\\reconstruction\\61d912c9c72d4f11b53f32c71eae5ba6\\spar3d\\gso-AMBERLIGHT_UP_W\\mesh.glb"
+    },
+    {
+      "case_id": "gso-Jansport_School_Backpack_Blue_Streak",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-Jansport_School_Backpack_Blue_Streak\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_development\\reconstruction\\61d912c9c72d4f11b53f32c71eae5ba6\\spar3d\\gso-Jansport_School_Backpack_Blue_Streak\\mesh.glb"
+    },
+    {
+      "case_id": "gso-Olive_Kids_Birdie_Sidekick_Backpack",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-Olive_Kids_Birdie_Sidekick_Backpack\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_development\\reconstruction\\61d912c9c72d4f11b53f32c71eae5ba6\\spar3d\\gso-Olive_Kids_Birdie_Sidekick_Backpack\\mesh.glb"
+    }
+  ]
+}

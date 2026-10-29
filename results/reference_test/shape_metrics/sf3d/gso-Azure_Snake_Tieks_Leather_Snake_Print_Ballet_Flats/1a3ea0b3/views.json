@@ -1,0 +1,61 @@
+{
+  "interpretation": "Supplementary independently normalized shape views, with explicitly reference-assisted rigid alignment where labelled",
+  "per_view": [
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.37678476996298255,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/1a3ea0b3/unaligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.23712401178837067,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/1a3ea0b3/unaligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.3534469403563129,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/1a3ea0b3/unaligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.2551040536542065,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/1a3ea0b3/unaligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/reference_views/view_03_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.492695583507248,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/1a3ea0b3/rigid_aligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.491058742834746,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/1a3ea0b3/rigid_aligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.46143583227446,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/1a3ea0b3/rigid_aligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.4881379242595412,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/1a3ea0b3/rigid_aligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/reference_views/view_03_mask.png"
+    }
+  ]
+}

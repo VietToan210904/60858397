@@ -1,0 +1,23 @@
+schema_version: 1
+study_kind: post_hoc_supplementary_ai_visual_assessment
+seed: 8410
+generation_batch_size: 12
+generation_display_size: 512
+primary_assessments_per_output: 1
+ordinal_anchors:
+  1: 'Unacceptable: major defects'
+  2: 'Poor: substantial revision needed'
+  3: 'Adequate: some revision needed'
+  4: 'Good: minor revision needed'
+  5: 'Excellent: ready for intended brief'
+confidence: 'Self-reported low/medium/high certainty, not a calibrated probability.'
+masking: 'Model labels and source paths masked in packets; assessors know the project models and earlier QA exists. This is not an independent blinded human study.'
+generation_rule: 'Judge each mandatory criterion as met/absent/uncertain with visible evidence. AI usable concept 1 means shortlist for further design work without major brief/structural correction; 0 requires an observed major failure; null means unresolved. This is not commercial approval.'
+reconstruction_rule: 'Judge visible input fidelity, shape coherence, texture coherence and cross-view consistency. Unseen-surface correctness is always uncertain without reference geometry. AI usable concept is null for reconstruction.'
+scope: 'Existing 144 generation outputs and 40 reconstructed objects; four preview views belong to one object, not four independent samples.'
+aggregation: 'Generation image->prompt->model, retaining three seeds per prompt. Reconstruction view evidence->one object assessment->model. Paired uncertainty resamples whole matched prompts/objects; intervals do not capture AI judge bias.'
+prohibitions:
+  - Never enter these assessments into human ratings or benchmark raw records.
+  - Never infer invisible material properties, exact geometry accuracy, physical dimensions, hidden-surface correctness, commercial clearance or customer feedback.
+  - No model parameter tuning or selective removal after assessment.
+  - No external judge endpoint, GPU model inference or automatic filling of observations.

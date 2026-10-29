@@ -1,0 +1,45 @@
+{
+  "pair": "assistance",
+  "python_version": "3.11.9",
+  "platform": "win32",
+  "runtime_roots": [
+    "numpy",
+    "scipy",
+    "PyYAML",
+    "Pillow",
+    "matplotlib",
+    "torch",
+    "torchvision",
+    "transformers",
+    "huggingface-hub",
+    "safetensors",
+    "accelerate"
+  ],
+  "root_versions": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "pyyaml": "6.0.3",
+    "pillow": "12.2.0",
+    "matplotlib": "3.10.8",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "5.5.0",
+    "huggingface-hub": "1.9.2",
+    "safetensors": "0.7.0",
+    "accelerate": "1.13.0"
+  },
+  "omitted_binary_packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128"
+  },
+  "missing_declared_dependencies": [],
+  "observed_constraint_mismatches": [],
+  "pinned_packages": 46,
+  "metadata_only": true,
+  "packages_installed": false,
+  "model_weights_loaded": false,
+  "gpu_inference_performed": false,
+  "network_access_performed": false,
+  "cold_install_verified": false,
+  "note": "Observed metadata closure from the working interpreter; no fresh installation or dependency changes were performed. Optional quantization, test/build tools and unrelated globally inherited packages are excluded."
+}

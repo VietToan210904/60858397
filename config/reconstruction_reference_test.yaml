@@ -1,0 +1,9 @@
+# Disjoint test data. New supplemental geometry protocol is frozen separately.
+seed: 8410
+evaluation:
+  warmup_runs: 1
+  reconstruction:
+    dataset_dir: datasets/reconstruction_reference
+    texture_resolution: 1024
+    render_views: false
+    reference_metric_protocol: config/reconstruction_reference_protocol.json

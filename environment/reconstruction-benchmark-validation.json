@@ -1,0 +1,1495 @@
+{
+  "schema_version": 1,
+  "audit_at_utc": "2026-10-28T20:32:47.796941+00:00",
+  "kind": "post_run_read_only_reconstruction_evidence_audit",
+  "integrity_passed": true,
+  "errors": [],
+  "freeze_id": "217deb592939b3aed0c49201b4955a9026b0f0d2bdf8644649f5998ef9d5c48a",
+  "freeze_sha256": "cee1ca29701b11ac20426a4ae881d898a83fe49129bed9234bf09aae352bd778",
+  "protocol_sha256": "59d2dda9fd312f0303a399fc6615bd1ae2b462ab6554ae3e51ef296b055b21ba",
+  "raw_records_snapshot_sha256": "c90b97c30eb1149626e941e3457e5313f87c5191b02280feec70c6b40d6de001",
+  "selected_records_digest": "b51585c42434afa2e3e15313e664ac67c794990356ac888e51463fcdaf5dd270",
+  "selected_raw_jsonl_sha256": "69ed022bed532c65bc4c59a2244d52dd452755c761ceea10f708896332f160c1",
+  "selected_record_count": 40,
+  "exact_case_seed_model_coverage": true,
+  "models": {
+    "sf3d": {
+      "run_id": "7685fb6f464d4360a1ebadb8b1994d49",
+      "records": 20,
+      "status_counts": {
+        "success": 20
+      },
+      "successful_execution_rate": 1.0,
+      "glb_export_rate": 1.0,
+      "zero_degenerate_mesh_valid_count": 19,
+      "zero_degenerate_mesh_valid_rate": 0.95,
+      "watertight_meshes": 0,
+      "invalid_mesh_flags": [
+        {
+          "case_id": "abo-B07XPHD4LK",
+          "mesh_degenerate_faces": 1,
+          "mesh_faces": 17152
+        }
+      ],
+      "timings_s": {
+        "preprocessing_s": {
+          "n": 20,
+          "mean": 0.0546460250072414,
+          "median": 0.0561926000227686,
+          "total": 1.092920500144828,
+          "min": 0.031101600034162402,
+          "max": 0.09577489999355748
+        },
+        "inference_s": {
+          "n": 20,
+          "mean": 0.6777561599941692,
+          "median": 0.6472783499921206,
+          "total": 13.555123199883383,
+          "min": 0.5726962999906391,
+          "max": 0.9115954999579117
+        },
+        "export_s": {
+          "n": 20,
+          "mean": 0.019614080007886513,
+          "median": 0.018694300000788644,
+          "total": 0.3922816001577303,
+          "min": 0.01541449996875599,
+          "max": 0.029499900003429502
+        },
+        "end_to_end_s": {
+          "n": 20,
+          "mean": 0.7530683800054249,
+          "median": 0.7285263000230771,
+          "total": 15.061367600108497,
+          "min": 0.630491699965205,
+          "max": 0.9943036999902688
+        }
+      },
+      "model_load_s": 7.254798199981451,
+      "warmup_excluded_s": [
+        1.7450683999923058
+      ],
+      "max_peak_allocated_mib": 6128.98291015625,
+      "max_peak_reserved_mib": 7342.0,
+      "runtime": {
+        "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Scripts\\python.exe",
+        "device": "NVIDIA GeForce RTX 4070 SUPER",
+        "torch_version": "2.11.0+cu128",
+        "cuda_version": "12.8",
+        "libraries": {
+          "torch": "2.11.0+cu128",
+          "torchvision": "0.26.0+cu128",
+          "numpy": "1.26.4",
+          "scipy": "1.17.1",
+          "Pillow": "12.2.0",
+          "transformers": "4.42.3",
+          "omegaconf": "2.3.0",
+          "trimesh": "4.4.1",
+          "safetensors": "0.7.0",
+          "huggingface-hub": "0.23.4",
+          "clip": null,
+          "alpha-clip": null,
+          "open-clip-torch": "2.24.0"
+        },
+        "seed_policy": "Reset Python/NumPy/Torch/CUDA seed immediately before each measured inference, after excluded warmup",
+        "adapter_source_sha256": "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351",
+        "source_revision": "ff21fc491b4dc5314bf6734c7c0dabd86b5f5bb2",
+        "source_dirty": false,
+        "resolved_checkpoint_revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+        "checkpoint_provenance": {
+          "revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+          "files": {
+            "config.yaml": {
+              "size_bytes": 2405,
+              "sha256": "5e880cfec3dec28d4e20afe07bfa1799c8a561f56f0532ebf1b4022ae4ddc8e4"
+            },
+            "model.safetensors": {
+              "size_bytes": 4024289892,
+              "sha256": "a3416e1cf654e7d4f5e75f116cec2c3f0a14501a77d30c2f6068bbda178de388"
+            }
+          }
+        },
+        "native_extension_provenance": {
+          "receipt_sha256": "50954cff8269fcb9a82b152494180216949c13cb4de2ee9ff59811283e25930f",
+          "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+          "artifacts": {
+            "texture_baker._C": {
+              "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Lib\\site-packages\\texture_baker\\_C.cp311-win_amd64.pyd",
+              "sha256": "eef43fa5997bda2424daeac5c0c43ca8f478d0a93cf320f0e144428fda36b3cc"
+            },
+            "uv_unwrapper._C": {
+              "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Lib\\site-packages\\uv_unwrapper\\_C.cp311-win_amd64.pyd",
+              "sha256": "94c74559ace87ac666526d49e16f3f4cbab55c20ce269c34c5d18a53d97d2120"
+            }
+          }
+        },
+        "auxiliary_provenance": {
+          "dinov2": {
+            "repo_id": "facebook/dinov2-large",
+            "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+            "weights_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+            "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+            "configuration_paths": [
+              "image_tokenizer.pretrained_model_name_or_path"
+            ]
+          },
+          "open_clip": {
+            "repo_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+            "revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+            "sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad"
+          },
+          "operational_config_sha256": "04d178938e7319c7bf10b522c1d9336b66ef6ed46a6af80b678fbf4ba26aa582",
+          "changes": "Only local initialization asset paths; architecture, kernels and final model weights unchanged"
+        },
+        "runner_source_sha256": "2e2233d0a72e1ab55c2e7b0b576931c10f56cf8fe99f0711916a296f0a970b90"
+      },
+      "worker_diagnostics_sha256": {
+        "request.json": "b66a3551acd9a1f1211022c53659a90527db2716a616213d3780220347ee184f",
+        "response.json": "5510d9a24c4fbfa747d0d4c91252815fcd1ac401357556e2e37a5a61bd829920",
+        "operational_model_config.yaml": "04d178938e7319c7bf10b522c1d9336b66ef6ed46a6af80b678fbf4ba26aa582"
+      },
+      "artifact_count": 260,
+      "rgb_views": 80,
+      "silhouette_masks": 80,
+      "per_case": [
+        {
+          "case_id": "abo-B086YY3KQG",
+          "seed": 8410,
+          "input_sha256": "2f438f35d2552424e66efb4c440721057de82e5a53c4a05b740eee0203e87d80",
+          "record_sha256": "9ee78803681020c478b5d9c3dd4a03f74fc8d3f94126464508918bbe815fb35f",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 10407,
+            "mesh_faces": 18416,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.6272481000050902,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.029499900003429502,
+            "preprocessing_s": 0.06629780004732311,
+            "end_to_end_s": 0.7239027000614442,
+            "warmup_excluded_s": 1.7450683999923058
+          }
+        },
+        {
+          "case_id": "abo-B07XBZR7SR",
+          "seed": 8410,
+          "input_sha256": "15e9973ea656c18a8ad23adfe15838112191609cdf4214b82ca55a746ec2d743",
+          "record_sha256": "0c92f1f987e4f2da8a6aed272d322270297a14c63a0b129b5473445272d32084",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 11774,
+            "mesh_faces": 20440,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.6504187000100501,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.020912099978886545,
+            "preprocessing_s": 0.066483500006143,
+            "end_to_end_s": 0.7386590000241995
+          }
+        },
+        {
+          "case_id": "abo-B084LLWDFH",
+          "seed": 8410,
+          "input_sha256": "8974407799ebc987cbab3972f965dcaca1adc8f1c2a4f08271fc5d2ac69fd121",
+          "record_sha256": "aabfff77f392f89cea2eca1319c98dda0be76966dfa59577869ffa2ef0c8af69",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 9863,
+            "mesh_faces": 16288,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.6332747000269592,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.01678229996468872,
+            "preprocessing_s": 0.031101600034162402,
+            "end_to_end_s": 0.6820788999903016
+          }
+        },
+        {
+          "case_id": "abo-B07PGK6BKK",
+          "seed": 8410,
+          "input_sha256": "e0232d7f58acb55448387f956b2173229e7ea01a211f9ad770d9a113b1ef2e70",
+          "record_sha256": "d1fae9280993b869d97e0873902edbbcab031ff12a9f39181a96b719567e3fc5",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 9335,
+            "mesh_faces": 16768,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.5904827999765985,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.016883400036022067,
+            "preprocessing_s": 0.053415400034282357,
+            "end_to_end_s": 0.6616129000321962
+          }
+        },
+        {
+          "case_id": "abo-B07WVRFRR2",
+          "seed": 8410,
+          "input_sha256": "1a331c97f2f0d2cba8411d805b84ef6f73174dd99ca00c3e173533755d0c627f",
+          "record_sha256": "4b41f0967b3bccf88bd58d91bd8cf8c052447c2fccf2161cf729d691c627b57a",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 10246,
+            "mesh_faces": 18420,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.6518921999959275,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.01982079999288544,
+            "preprocessing_s": 0.06025049998424947,
+            "end_to_end_s": 0.7331498999847099
+          }
+        },
+        {
+          "case_id": "abo-B07VS296PR",
+          "seed": 8410,
+          "input_sha256": "5133be2a1ae7c00bc0a0f4eae4a349c68404f0510d322e424f1d325a5d387d36",
+          "record_sha256": "521989ff8f10cbba66610275fc72fd25cb174f9209a26f8403cc6ccfeee8652f",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 9761,
+            "mesh_faces": 16136,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.9115954999579117,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.026678099995478988,
+            "preprocessing_s": 0.05468309996649623,
+            "end_to_end_s": 0.9943036999902688
+          }
+        },
+        {
+          "case_id": "abo-B07XPHD4LK",
+          "seed": 8410,
+          "input_sha256": "053801997eba0a4eda619bdb2b5acd07de180cbbd4945abc6c7d3c00cb1acf43",
+          "record_sha256": "8ed02e13d0445cde22f3b65bd5355139f6966d333da2ed777adacd875bf5c9b9",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 0,
+            "mesh_vertices": 9870,
+            "mesh_faces": 17152,
+            "mesh_degenerate_faces": 1,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.7968161000171676,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.018245400045998394,
+            "preprocessing_s": 0.037996499973814934,
+            "end_to_end_s": 0.8539804000174627
+          }
+        },
+        {
+          "case_id": "abo-B06W9GB1JR",
+          "seed": 8410,
+          "input_sha256": "656d52f649054901e58997d272149294f034c840e2785de51a69412a23bafbb0",
+          "record_sha256": "5f4c53df61610b8a489e8fd2df2c30ed4b144fac187800d066850a8bebcd2054",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 11161,
+            "mesh_faces": 18104,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.7938974999706261,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.018573999986983836,
+            "preprocessing_s": 0.062059100018814206,
+            "end_to_end_s": 0.8753960999893025
+          }
+        },
+        {
+          "case_id": "abo-B07YV78XJW",
+          "seed": 8410,
+          "input_sha256": "baab412b7095aeadc07e0c2c7f1257122dfd527f2167aeaae5f46d091ef4177c",
+          "record_sha256": "3276420c61b8861e2333c4a6265c93c3dfbd1517acd1bc42200b35be667e8c60",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 8181,
+            "mesh_faces": 13664,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.591549800010398,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.01718950003851205,
+            "preprocessing_s": 0.04012760001933202,
+            "end_to_end_s": 0.6508155000046827
+          }
+        },
+        {
+          "case_id": "abo-B07J2DZXXY",
+          "seed": 8410,
+          "input_sha256": "d0f2d722f337a8eb55226edfaee4ef63d715b8f626db8651191e62a9e115a7b2",
+          "record_sha256": "63872760398192765174665d2cbb7fd42c08c86d9a18b3a6ee86591049617b60",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 15769,
+            "mesh_faces": 28164,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.7631818000227213,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.02020480000646785,
+            "preprocessing_s": 0.03635420004138723,
+            "end_to_end_s": 0.8205737000098452
+          }
+        },
+        {
+          "case_id": "abo-B07XF6F7X7",
+          "seed": 8410,
+          "input_sha256": "85a37828ab1bf880ac2f480d5db22bdd54779b8b1f7b32382c56ad7ce644fd57",
+          "record_sha256": "fca68142f8ff46e14064fd7a70aee3a4b1439b9d522f18bcbbb5270d7431adae",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 12453,
+            "mesh_faces": 21148,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.6441379999741912,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.01897630002349615,
+            "preprocessing_s": 0.057879499974660575,
+            "end_to_end_s": 0.7218363999854773
+          }
+        },
+        {
+          "case_id": "abo-B07PWXRWBC",
+          "seed": 8410,
+          "input_sha256": "e004eb50abc7c0ae08690a03a0685982e52f2f7117739bc471dfb0d3fa4f7e0c",
+          "record_sha256": "21ec1eb3f54c5ed8c682782a325088f17ce986d40d993a3d7057eb3f4ce1ab2f",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 11195,
+            "mesh_faces": 19268,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.6401515999459662,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.01811290002660826,
+            "preprocessing_s": 0.05544180003926158,
+            "end_to_end_s": 0.7155898000346497
+          }
+        },
+        {
+          "case_id": "abo-B07R79WR4V",
+          "seed": 8410,
+          "input_sha256": "10269d7df2a0e12fe212f383b49ceb17ecf34f7b6561476361214eebe58abbac",
+          "record_sha256": "ba8d00ab808123d93ad18cbe3d9beabed4e28ef20ebea073fe71bb959976feec",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 14134,
+            "mesh_faces": 24024,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.7181504999753088,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.02116190001834184,
+            "preprocessing_s": 0.056943400006275624,
+            "end_to_end_s": 0.7970654999953695
+          }
+        },
+        {
+          "case_id": "abo-B07WRJG24S",
+          "seed": 8410,
+          "input_sha256": "94738dc14e5e5530141c70b4e779ba98a5538a780033a54f4a795179be6e8144",
+          "record_sha256": "543d2ea68f07e29bd6a39e7d962ba4c8d22de1ff702e369b81b811979381978c",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 8290,
+            "mesh_faces": 13956,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.5856336000142619,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.01541449996875599,
+            "preprocessing_s": 0.04384950001258403,
+            "end_to_end_s": 0.6456644000136293
+          }
+        },
+        {
+          "case_id": "abo-B07CMD9X29",
+          "seed": 8410,
+          "input_sha256": "a36461740b6ff9c2b41b62aa110a93092b436041da3ae1c137fb1de7cbafb71d",
+          "record_sha256": "0415e1c5b24148baa1394647b6f4078d21683bf1c37a9f88cb59fd7dbdab2bb5",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 12303,
+            "mesh_faces": 20948,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.6744547999696806,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.01858989999163896,
+            "preprocessing_s": 0.042512300016824156,
+            "end_to_end_s": 0.7365328000159934
+          }
+        },
+        {
+          "case_id": "abo-B07WTMZ91M",
+          "seed": 8410,
+          "input_sha256": "4466bc7c4712e972bd641ae921bde5fcdea28740e2f8552aaae93eb47cc398a9",
+          "record_sha256": "570f12c19635260ee530e973e00d600a6b34f2dafd3c8755bfb5a77e23288c34",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 6843,
+            "mesh_faces": 11320,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.5726962999906391,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.01587840000865981,
+            "preprocessing_s": 0.040968299959786236,
+            "end_to_end_s": 0.630491699965205
+          }
+        },
+        {
+          "case_id": "abo-B07JHFZVLV",
+          "seed": 8410,
+          "input_sha256": "a0cc29bc3e52a0c97071ca1e175357b409776bf6c1c4b73edc0626a7c5c3fb46",
+          "record_sha256": "f54600d2ce9f4c09f364e86950ed09c2e64f63c05d99efd157c72865fa30ba66",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 19650,
+            "mesh_faces": 32600,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.7844485999667086,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.02358410001033917,
+            "preprocessing_s": 0.09577489999355748,
+            "end_to_end_s": 0.9046115999808535
+          }
+        },
+        {
+          "case_id": "abo-B07WRJFN95",
+          "seed": 8410,
+          "input_sha256": "e8322744acc611c570b712e96fcfd9ebb8f1711cbc5a988db72409811906bc72",
+          "record_sha256": "40fb37b41be0847fc2efc929bcd50192623107884bb7d4f8f6e04b49ff9518ce",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 12072,
+            "mesh_faces": 21524,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.6658279999974184,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.01879870000993833,
+            "preprocessing_s": 0.06888110004365444,
+            "end_to_end_s": 0.7553026000387035
+          }
+        },
+        {
+          "case_id": "abo-B081HNQQWP",
+          "seed": 8410,
+          "input_sha256": "0b044fe38040dfef1bfc64e6571de2eef963f963b5983a098d5a5dfac7ef11a6",
+          "record_sha256": "1e95ff6b0bc0a4b5e53dce6e6064543dc612a81d273e97a5951f99db87c37b48",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 10790,
+            "mesh_faces": 17744,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.6322533000493422,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.017249300028197467,
+            "preprocessing_s": 0.0633257000008598,
+            "end_to_end_s": 0.7136263999855146
+          }
+        },
+        {
+          "case_id": "abo-B07WTMZ8N7",
+          "seed": 8410,
+          "input_sha256": "121f895a2f66f19164614137f33c7f65dd34253e68a6db86e856e55b116ae2c1",
+          "record_sha256": "f4b26594c85e0aa8e70778a9ae14e54393cc23b99758b5519eb1555093269257",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 11167,
+            "mesh_faces": 19380,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 0.6270113000064157,
+            "model_load_s": 7.254798199981451,
+            "export_s": 0.019725300022400916,
+            "preprocessing_s": 0.05857469997135922,
+            "end_to_end_s": 0.7061735999886878
+          }
+        }
+      ]
+    },
+    "spar3d": {
+      "run_id": "d088458f86e447f58e6c81f257cbb027",
+      "records": 20,
+      "status_counts": {
+        "success": 20
+      },
+      "successful_execution_rate": 1.0,
+      "glb_export_rate": 1.0,
+      "zero_degenerate_mesh_valid_count": 20,
+      "zero_degenerate_mesh_valid_rate": 1.0,
+      "watertight_meshes": 0,
+      "invalid_mesh_flags": [],
+      "timings_s": {
+        "preprocessing_s": {
+          "n": 20,
+          "mean": 0.0567788649990689,
+          "median": 0.05965859998832457,
+          "total": 1.135577299981378,
+          "min": 0.03169410000555217,
+          "max": 0.09624629997415468
+        },
+        "inference_s": {
+          "n": 20,
+          "mean": 12.709199215000263,
+          "median": 12.509349699976156,
+          "total": 254.18398430000525,
+          "min": 12.052283500030171,
+          "max": 15.210370200045872
+        },
+        "export_s": {
+          "n": 20,
+          "mean": 0.020752430008724333,
+          "median": 0.019030200026463717,
+          "total": 0.41504860017448664,
+          "min": 0.01559090003138408,
+          "max": 0.044259400048758835
+        },
+        "end_to_end_s": {
+          "n": 20,
+          "mean": 12.787617285002488,
+          "median": 12.585479600005783,
+          "total": 255.75234570004977,
+          "min": 12.1394980000332,
+          "max": 15.333680399984587
+        }
+      },
+      "model_load_s": 0.5499797000084072,
+      "warmup_excluded_s": [
+        19.537351200007834
+      ],
+      "max_peak_allocated_mib": 8021.24658203125,
+      "max_peak_reserved_mib": 8484.0,
+      "runtime": {
+        "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Scripts\\python.exe",
+        "device": "NVIDIA GeForce RTX 4070 SUPER",
+        "torch_version": "2.11.0+cu128",
+        "cuda_version": "12.8",
+        "libraries": {
+          "torch": "2.11.0+cu128",
+          "torchvision": "0.26.0+cu128",
+          "numpy": "1.26.4",
+          "scipy": "1.17.1",
+          "Pillow": "12.2.0",
+          "transformers": "4.42.3",
+          "omegaconf": "2.3.0",
+          "trimesh": "4.4.1",
+          "safetensors": "0.7.0",
+          "huggingface-hub": "0.23.4",
+          "clip": "1.0",
+          "alpha-clip": "1.0",
+          "open-clip-torch": "3.3.0"
+        },
+        "seed_policy": "Reset Python/NumPy/Torch/CUDA seed immediately before each measured inference, after excluded warmup",
+        "adapter_source_sha256": "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351",
+        "source_revision": "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1",
+        "source_dirty": false,
+        "resolved_checkpoint_revision": "5699918cb34f55cd7d828493d2725f3038313761",
+        "checkpoint_provenance": {
+          "revision": "5699918cb34f55cd7d828493d2725f3038313761",
+          "files": {
+            "config.yaml": {
+              "size_bytes": 3996,
+              "sha256": "2795e11a7a6cb381a442e07abfdb5a3c0cc20e711c6e7e349ba73bf343c2ebdd"
+            },
+            "model.safetensors": {
+              "size_bytes": 7326949440,
+              "sha256": "62673b63fd9dad425e74b213ffe8501262d9621d5174310ac33017747be31f58"
+            }
+          }
+        },
+        "native_extension_provenance": {
+          "receipt_sha256": "92d8c9f603c11c376003077b2e85ce312107b178dc94be742914dffc170730fc",
+          "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+          "artifacts": {
+            "texture_baker._C": {
+              "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\texture_baker\\_C.cp311-win_amd64.pyd",
+              "sha256": "a2423056b11192d0bd798d07d62448adb60604bae823ccbea74998afc9f2ae66"
+            },
+            "uv_unwrapper._C": {
+              "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\uv_unwrapper\\_C.cp311-win_amd64.pyd",
+              "sha256": "ca22c8966e3b38e96f0421786f30cb6ade642ea5fe8d5becc752920eb24ff9ea"
+            }
+          }
+        },
+        "auxiliary_provenance": {
+          "dinov2": {
+            "repo_id": "facebook/dinov2-large",
+            "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+            "weights_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+            "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+            "configuration_paths": [
+              "image_tokenizer.pretrained_model_name_or_path",
+              "pdiff_image_tokenizer.pretrained_model_name_or_path"
+            ]
+          },
+          "alpha_clip": {
+            "model": "OpenAI ViT-L/14@336px",
+            "sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+          },
+          "operational_config_sha256": "8bdf9d16222055b7ed0a0b3920bb5501b5d8149c61f085a6bf16bd6fed9ea3ec",
+          "changes": "Only local initialization asset paths; architecture, kernels and final model weights unchanged"
+        },
+        "runner_source_sha256": "2e2233d0a72e1ab55c2e7b0b576931c10f56cf8fe99f0711916a296f0a970b90"
+      },
+      "worker_diagnostics_sha256": {
+        "request.json": "3f9a4523f04e99caa6e55c10ebb4c9ef27436dc821c277321a151d4b63a665d8",
+        "response.json": "896d1a78e42229a40c96cab3c465626203026a820202f7351851fdd12d530058",
+        "operational_model_config.yaml": "8bdf9d16222055b7ed0a0b3920bb5501b5d8149c61f085a6bf16bd6fed9ea3ec"
+      },
+      "artifact_count": 260,
+      "rgb_views": 80,
+      "silhouette_masks": 80,
+      "per_case": [
+        {
+          "case_id": "abo-B086YY3KQG",
+          "seed": 8410,
+          "input_sha256": "2f438f35d2552424e66efb4c440721057de82e5a53c4a05b740eee0203e87d80",
+          "record_sha256": "fded545afca04a5b034341d6dc3967d963041e130e5417fed665babe2553b50a",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 11634,
+            "mesh_faces": 20420,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 15.210370200045872,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.044259400048758835,
+            "preprocessing_s": 0.07815709995338693,
+            "end_to_end_s": 15.333680399984587,
+            "warmup_excluded_s": 19.537351200007834
+          }
+        },
+        {
+          "case_id": "abo-B07XBZR7SR",
+          "seed": 8410,
+          "input_sha256": "15e9973ea656c18a8ad23adfe15838112191609cdf4214b82ca55a746ec2d743",
+          "record_sha256": "14da4e1d8511d0f6aaf5271eb5c1e4067f36de170995f5a3949b0d2f276a8e08",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 11207,
+            "mesh_faces": 18768,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 13.148535999993328,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.019176800036802888,
+            "preprocessing_s": 0.0732902999734506,
+            "end_to_end_s": 13.241833599982783
+          }
+        },
+        {
+          "case_id": "abo-B084LLWDFH",
+          "seed": 8410,
+          "input_sha256": "8974407799ebc987cbab3972f965dcaca1adc8f1c2a4f08271fc5d2ac69fd121",
+          "record_sha256": "a87486667ba59d71e3f583b8361862c87c3ebb2a09f1333cf569abf91137e053",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 7985,
+            "mesh_faces": 14076,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 13.028392499953043,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.015958100033458322,
+            "preprocessing_s": 0.03169410000555217,
+            "end_to_end_s": 13.076858900021762
+          }
+        },
+        {
+          "case_id": "abo-B07PGK6BKK",
+          "seed": 8410,
+          "input_sha256": "e0232d7f58acb55448387f956b2173229e7ea01a211f9ad770d9a113b1ef2e70",
+          "record_sha256": "f68dc0ef2ce522a0919692fa3bed7e1c244d9008bb90e4b9e591255b8d473357",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 9334,
+            "mesh_faces": 16404,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.756345900008455,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.017149099963717163,
+            "preprocessing_s": 0.05857410002499819,
+            "end_to_end_s": 12.833054399990942
+          }
+        },
+        {
+          "case_id": "abo-B07WVRFRR2",
+          "seed": 8410,
+          "input_sha256": "1a331c97f2f0d2cba8411d805b84ef6f73174dd99ca00c3e173533755d0c627f",
+          "record_sha256": "dc09b57bfd446cc856e17a49f253b3820cd344273dafa033c57e7a410609a9f2",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 18797,
+            "mesh_faces": 33348,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.936982700019144,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.022916499990969896,
+            "preprocessing_s": 0.06186120002530515,
+            "end_to_end_s": 13.022553600021638
+          }
+        },
+        {
+          "case_id": "abo-B07VS296PR",
+          "seed": 8410,
+          "input_sha256": "5133be2a1ae7c00bc0a0f4eae4a349c68404f0510d322e424f1d325a5d387d36",
+          "record_sha256": "9a9fbd166c1df49b2a29fc1ca57925557a9fd028864704e50ba7df382ad98fda",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 11204,
+            "mesh_faces": 19044,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.828555600019172,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.017935799958650023,
+            "preprocessing_s": 0.04593879997264594,
+            "end_to_end_s": 12.893380999972578
+          }
+        },
+        {
+          "case_id": "abo-B07XPHD4LK",
+          "seed": 8410,
+          "input_sha256": "053801997eba0a4eda619bdb2b5acd07de180cbbd4945abc6c7d3c00cb1acf43",
+          "record_sha256": "d8200ee221a613a1abe21c5877839f73103402afa6ec7306bd4fed52419169f9",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 10413,
+            "mesh_faces": 18416,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 13.296537899994291,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.018836000002920628,
+            "preprocessing_s": 0.03306400001747534,
+            "end_to_end_s": 13.349215700000059
+          }
+        },
+        {
+          "case_id": "abo-B06W9GB1JR",
+          "seed": 8410,
+          "input_sha256": "656d52f649054901e58997d272149294f034c840e2785de51a69412a23bafbb0",
+          "record_sha256": "31d38c4c078f0994ecb1e9541ffd70ffb79f97bca972ed6d6260f535c6fb19f5",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 10760,
+            "mesh_faces": 16660,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.541848199965898,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.01786959997843951,
+            "preprocessing_s": 0.06432310002855957,
+            "end_to_end_s": 12.62487699999474
+          }
+        },
+        {
+          "case_id": "abo-B07YV78XJW",
+          "seed": 8410,
+          "input_sha256": "baab412b7095aeadc07e0c2c7f1257122dfd527f2167aeaae5f46d091ef4177c",
+          "record_sha256": "a0d123ab49a7279d6fdd26d6a23aa9c11303e592c0f25ddb315b4bfda4d04aaf",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 5141,
+            "mesh_faces": 8748,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.554631899984088,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.01607680000597611,
+            "preprocessing_s": 0.0394363000523299,
+            "end_to_end_s": 12.610959900019225
+          }
+        },
+        {
+          "case_id": "abo-B07J2DZXXY",
+          "seed": 8410,
+          "input_sha256": "d0f2d722f337a8eb55226edfaee4ef63d715b8f626db8651191e62a9e115a7b2",
+          "record_sha256": "932bb3c8a5e318e46014666996e00c5f390bde99736d611338798ad051b114f6",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 19290,
+            "mesh_faces": 32564,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.715117499988992,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.024114300031214952,
+            "preprocessing_s": 0.03923749999376014,
+            "end_to_end_s": 12.77927220001584
+          }
+        },
+        {
+          "case_id": "abo-B07XF6F7X7",
+          "seed": 8410,
+          "input_sha256": "85a37828ab1bf880ac2f480d5db22bdd54779b8b1f7b32382c56ad7ce644fd57",
+          "record_sha256": "27da0934d191f3b81711980df9fdf810893b850bdce0578a751a6b2ebaf7b914",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 14947,
+            "mesh_faces": 24368,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.476851199986413,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.02129379997495562,
+            "preprocessing_s": 0.06099859997630119,
+            "end_to_end_s": 12.559999299992342
+          }
+        },
+        {
+          "case_id": "abo-B07PWXRWBC",
+          "seed": 8410,
+          "input_sha256": "e004eb50abc7c0ae08690a03a0685982e52f2f7117739bc471dfb0d3fa4f7e0c",
+          "record_sha256": "17c9d1aeb3da3a309f5257ef04f2c885bf2c43009f61dbc97bf51d2a90656d3d",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 14306,
+            "mesh_faces": 24284,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.327404399984516,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.020626000012271106,
+            "preprocessing_s": 0.058025000034831464,
+            "end_to_end_s": 12.406842900032643
+          }
+        },
+        {
+          "case_id": "abo-B07R79WR4V",
+          "seed": 8410,
+          "input_sha256": "10269d7df2a0e12fe212f383b49ceb17ecf34f7b6561476361214eebe58abbac",
+          "record_sha256": "7ff34e9e085bffb5aa41c2494180dcaadda6d8b2d06fe43e5f90a4d1c2d28501",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 14704,
+            "mesh_faces": 25444,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.384143800009042,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.0216622999869287,
+            "preprocessing_s": 0.060751100012566894,
+            "end_to_end_s": 12.467425099981483
+          }
+        },
+        {
+          "case_id": "abo-B07WRJG24S",
+          "seed": 8410,
+          "input_sha256": "94738dc14e5e5530141c70b4e779ba98a5538a780033a54f4a795179be6e8144",
+          "record_sha256": "e352cce09586f34b46bcf0f01fffe5d0b0532ff12e8f5f0cbb9179c01fc83b50",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 8383,
+            "mesh_faces": 14084,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.24840189999668,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.01656750001711771,
+            "preprocessing_s": 0.04590600001392886,
+            "end_to_end_s": 12.31182770000305
+          }
+        },
+        {
+          "case_id": "abo-B07CMD9X29",
+          "seed": 8410,
+          "input_sha256": "a36461740b6ff9c2b41b62aa110a93092b436041da3ae1c137fb1de7cbafb71d",
+          "record_sha256": "129a2663e5823e899a726aa6b1bd70db8560931c30a1180c3f44cf5a4b253af4",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 17638,
+            "mesh_faces": 29076,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.45437099999981,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.023406199994497,
+            "preprocessing_s": 0.049043099978007376,
+            "end_to_end_s": 12.527886199997738
+          }
+        },
+        {
+          "case_id": "abo-B07WTMZ91M",
+          "seed": 8410,
+          "input_sha256": "4466bc7c4712e972bd641ae921bde5fcdea28740e2f8552aaae93eb47cc398a9",
+          "record_sha256": "3f9a99643862fd404233a00ef90a7fb2a11d7170ff85b810a6309f29063faaac",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 7271,
+            "mesh_faces": 12068,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.463590800005477,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.017501200025435537,
+            "preprocessing_s": 0.04222460003802553,
+            "end_to_end_s": 12.524099400034174
+          }
+        },
+        {
+          "case_id": "abo-B07JHFZVLV",
+          "seed": 8410,
+          "input_sha256": "a0cc29bc3e52a0c97071ca1e175357b409776bf6c1c4b73edc0626a7c5c3fb46",
+          "record_sha256": "9b3b37dc7b15887217a1fc382e83690f2628e252a61b00c4211a1fbebb845cfd",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 21844,
+            "mesh_faces": 36288,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.235719099990092,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.02506010001525283,
+            "preprocessing_s": 0.09624629997415468,
+            "end_to_end_s": 12.358196399989538
+          }
+        },
+        {
+          "case_id": "abo-B07WRJFN95",
+          "seed": 8410,
+          "input_sha256": "e8322744acc611c570b712e96fcfd9ebb8f1711cbc5a988db72409811906bc72",
+          "record_sha256": "85021ef300ac8765eab0b4459b1dc103e47784d17804175d17da06d2646c3bdd",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 7403,
+            "mesh_faces": 12840,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.052283500030171,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.01559090003138408,
+            "preprocessing_s": 0.07061850000172853,
+            "end_to_end_s": 12.1394980000332
+          }
+        },
+        {
+          "case_id": "abo-B081HNQQWP",
+          "seed": 8410,
+          "input_sha256": "0b044fe38040dfef1bfc64e6571de2eef963f963b5983a098d5a5dfac7ef11a6",
+          "record_sha256": "5e81077c0f4fe4418e64e36699afd417f33815279aeea3e6f75f9afe2b1ecd4f",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 11564,
+            "mesh_faces": 18480,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.38399370003026,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.02016460004961118,
+            "preprocessing_s": 0.06544449995271862,
+            "end_to_end_s": 12.47053789999336
+          }
+        },
+        {
+          "case_id": "abo-B07WTMZ8N7",
+          "seed": 8410,
+          "input_sha256": "121f895a2f66f19164614137f33c7f65dd34253e68a6db86e856e55b116ae2c1",
+          "record_sha256": "91126e1fd0213b67339a7e18a448832ffd9b9d836b4182632ff8550429cc71bd",
+          "artifacts_verified": 13,
+          "recomputed_mesh_metrics": {
+            "glb_export_success": 1,
+            "mesh_valid": 1,
+            "mesh_vertices": 12225,
+            "mesh_faces": 20284,
+            "mesh_degenerate_faces": 0,
+            "mesh_watertight": false
+          },
+          "texture_counts": {
+            "images": 2,
+            "textures": 2,
+            "materials": 1
+          },
+          "views_verified": 4,
+          "masks_verified": 4,
+          "timings": {
+            "inference_s": 12.139906500000507,
+            "model_load_s": 0.5499797000084072,
+            "export_s": 0.018883600016124547,
+            "preprocessing_s": 0.06074309995165095,
+            "end_to_end_s": 12.220346099988092
+          }
+        }
+      ]
+    }
+  },
+  "source_sha256": {
+    "src/stylesphere/reconstruction/worker.py": "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351",
+    "src/stylesphere/reconstruction/runner.py": "2e2233d0a72e1ab55c2e7b0b576931c10f56cf8fe99f0711916a296f0a970b90",
+    "src/stylesphere/reconstruction/metrics.py": "e0ca04f91f656b2e7eb9bf8ddb112f1a4dc11dd99e8f2db2a434f12ca8996d98",
+    "src/stylesphere/reconstruction/rendering.py": "d1e7b31204764b1e3f8bdc5ce53519e4847ef4a455562c23cc9dd9236daa63a1",
+    "src/stylesphere/generation/runner.py": "bd79763aeb067af6fec632e8e7eec18c7c8c35dbb7326de8e7304050cd63cc00",
+    "src/stylesphere/common/config.py": "f60a0aaeb4619f96e8202c77d2d94c0ad2501b7f21ddf42b4cd932d63d4edf2e",
+    "src/stylesphere/common/io.py": "e82ef94266ade15d86cb75d0b940b0c3256feaf8453cf1ecee1546783b15a271",
+    "src/stylesphere/common/runtime.py": "8794ec20a0ee678301eef285c180d9c893625ce8a7870fda7a196979f66c0a6e",
+    "src/stylesphere/cli.py": "3988852e073742baea0f6193705c16c8396195722427255fb9937ecf8ec4d185"
+  },
+  "human_ratings_created": false,
+  "reference_geometry_accuracy_available": false,
+  "timing_definition": "Worker preprocessing through GLB export, with measured warmup loop/synchronization subtracted; model load, runner mesh validation and preview rendering excluded. Inference is synchronized official run_image including SPAR CPU offload/module construction.",
+  "memory_definition": "PyTorch allocator peak MiB including resident parameters, not total device VRAM.",
+  "weight_validation_scope": "No GB-size checkpoint or initializer rehash in this post-run audit. Exact sizes and actual execution SHA provenance match prior official acquisition receipts and pre-final freeze; small configs, native binaries, sources, inputs and all output artifacts were rehashed.",
+  "model_inference_performed_by_audit": false,
+  "gpu_used_by_audit": false,
+  "network_used_by_audit": false,
+  "audit_python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Scripts\\python.exe",
+  "audit_correction": {
+    "at_utc": "2026-10-28T20:33:14.301209+00:00",
+    "reason": "The first auditor compared Counter(case_ids) with Counter(case_map), which treats a mapping as supplied counts instead of counting its keys. This produced two false request-case errors. Corrected comparison uses Counter(case_map.keys()); all 20 request case IDs, seeds and source/output paths match each model. No model result/source/artifact was changed.",
+    "initial_audit_receipt_sha256": "47503ec557c90de70fe3c24f76fd56dfddc2a3d3a0cb87d8a4bebd5baef98a55",
+    "initial_audit_log": "environment/reconstruction-benchmark-validation.log",
+    "corrected_request_checks": {
+      "sf3d": {
+        "request_cases": 20,
+        "each_frozen_case_exactly_once": true,
+        "seed_and_source_and_mesh_paths_match": true,
+        "request_sha256": "b66a3551acd9a1f1211022c53659a90527db2716a616213d3780220347ee184f"
+      },
+      "spar3d": {
+        "request_cases": 20,
+        "each_frozen_case_exactly_once": true,
+        "seed_and_source_and_mesh_paths_match": true,
+        "request_sha256": "3f9a4523f04e99caa6e55c10ebb4c9ef27436dc821c277321a151d4b63a665d8"
+      }
+    }
+  }
+}

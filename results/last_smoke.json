@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-10-28T20:24:30.938133+00:00",
+  "results": [
+    {
+      "pair": "reconstruction",
+      "run_id": "beffe85dbbc14673babc7b7a0a9822b8",
+      "records": 1,
+      "resumed": 0,
+      "success": 1,
+      "blocked": 0,
+      "failed": 0
+    }
+  ]
+}

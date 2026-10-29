@@ -1,0 +1,21 @@
+Selected exact generation assets: 8,381,195,103 bytes; free disk: 328,078,376,960 bytes
+Acquiring/resuming flux2_klein_components: 8,381,195,103 bytes
+Traceback (most recent call last):
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\scripts\acquire_generation.py", line 89, in <module>
+    main()
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\scripts\acquire_generation.py", line 71, in main
+    transport = download_plan({"model_id": entry["model_id"], "resolved_revision": entry["revision"], "destination": str(snapshot),
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\src\stylesphere\common\ranged_download.py", line 243, in download_plan
+    future.result()
+  File "C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\src\stylesphere\common\ranged_download.py", line 225, in fetch
+    raise RuntimeError(f"Bounded download failed for {item['path']} bytes {start}-{end}: {last_error}")
+RuntimeError: Bounded download failed for split_files/text_encoders/qwen_3_4b.safetensors bytes 7944011776-7952400383: TimeoutError: The read operation timed out

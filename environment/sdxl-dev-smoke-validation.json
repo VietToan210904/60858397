@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-10-28T16:54:28.647455+00:00",
+  "run_id": "781ea670cda64582989fdcad8483bb3e",
+  "n_records": 1,
+  "success": 1,
+  "failed": 0,
+  "blocked": 0,
+  "n_prompts": 1,
+  "seeds": [
+    8410
+  ],
+  "protocol_sha256": [
+    "7db8793058b6427f735627206853f8fd7e82c80ea3755c46468f5670c358de8d"
+  ],
+  "all_human_review_fields_blank": true,
+  "raw_records_sha256_before": "f0362e9df17f6708b0ceca65ff265bbe8d1dbd41f567327f6ace5a0929c2a32c",
+  "raw_records_sha256_after": "f0362e9df17f6708b0ceca65ff265bbe8d1dbd41f567327f6ace5a0929c2a32c",
+  "prompt_binding": null,
+  "prompt_binding_sha256": null,
+  "inference_s": {
+    "total": 4.5236429999931715,
+    "mean": 4.5236429999931715,
+    "median": 4.5236429999931715,
+    "min": 4.5236429999931715,
+    "max": 4.5236429999931715
+  },
+  "peak_allocated_mb": 5190.650390625,
+  "peak_reserved_mb": 7482.0,
+  "errors": [],
+  "quality_ratings": "No human scores assigned by this audit"
+}

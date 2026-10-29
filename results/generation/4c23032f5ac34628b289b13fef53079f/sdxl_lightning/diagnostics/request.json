@@ -1,0 +1,454 @@
+{
+  "model": "sdxl_lightning",
+  "model_config": {
+    "pair": "generation",
+    "model_id": "ByteDance/SDXL-Lightning",
+    "revision": "c9a24f48e1c025556787b0c58dd67a091ece2e44",
+    "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "checkpoint": "sdxl_lightning_4step_unet.safetensors",
+    "precision": "float16",
+    "steps": 4,
+    "guidance_scale": 0.0,
+    "scheduler": "EulerDiscreteScheduler",
+    "timestep_spacing": "trailing",
+    "local_files_only": true,
+    "licence": "openrail++"
+  },
+  "cases": [
+    {
+      "case_id": "gen-001",
+      "prompt": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-001_8410.png"
+    },
+    {
+      "case_id": "gen-001",
+      "prompt": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-001_8411.png"
+    },
+    {
+      "case_id": "gen-001",
+      "prompt": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-001_8412.png"
+    },
+    {
+      "case_id": "gen-002",
+      "prompt": "Premium product photograph of a pair of white low-top trainers with forest-green heel tabs and off-white rubber soles, viewed at a slight overhead angle against pale grey, crisp realistic stitching, no visible logos or words.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-002_8410.png"
+    },
+    {
+      "case_id": "gen-002",
+      "prompt": "Premium product photograph of a pair of white low-top trainers with forest-green heel tabs and off-white rubber soles, viewed at a slight overhead angle against pale grey, crisp realistic stitching, no visible logos or words.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-002_8411.png"
+    },
+    {
+      "case_id": "gen-002",
+      "prompt": "Premium product photograph of a pair of white low-top trainers with forest-green heel tabs and off-white rubber soles, viewed at a slight overhead angle against pale grey, crisp realistic stitching, no visible logos or words.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-002_8412.png"
+    },
+    {
+      "case_id": "gen-003",
+      "prompt": "Minimal jewellery campaign showing one silver geometric pendant on a fine silver chain, laid in a loose curve over matte charcoal stone, close-up lighting with controlled highlights, no gemstones and no text.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-003_8410.png"
+    },
+    {
+      "case_id": "gen-003",
+      "prompt": "Minimal jewellery campaign showing one silver geometric pendant on a fine silver chain, laid in a loose curve over matte charcoal stone, close-up lighting with controlled highlights, no gemstones and no text.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-003_8411.png"
+    },
+    {
+      "case_id": "gen-003",
+      "prompt": "Minimal jewellery campaign showing one silver geometric pendant on a fine silver chain, laid in a loose curve over matte charcoal stone, close-up lighting with controlled highlights, no gemstones and no text.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-003_8412.png"
+    },
+    {
+      "case_id": "gen-004",
+      "prompt": "Folded camel knitted scarf beside matching knitted gloves on a light oak tabletop, cable-knit texture clearly visible, natural window light, calm winter accessory product advertisement, no people and no lettering.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-004_8410.png"
+    },
+    {
+      "case_id": "gen-004",
+      "prompt": "Folded camel knitted scarf beside matching knitted gloves on a light oak tabletop, cable-knit texture clearly visible, natural window light, calm winter accessory product advertisement, no people and no lettering.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-004_8411.png"
+    },
+    {
+      "case_id": "gen-004",
+      "prompt": "Folded camel knitted scarf beside matching knitted gloves on a light oak tabletop, cable-knit texture clearly visible, natural window light, calm winter accessory product advertisement, no people and no lettering.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-004_8412.png"
+    },
+    {
+      "case_id": "gen-005",
+      "prompt": "Single cobalt-blue ankle boot with square toe and low block heel on a pale peach seamless studio background, side profile, suede texture, sharp product outline, no other products and no text.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-005_8410.png"
+    },
+    {
+      "case_id": "gen-005",
+      "prompt": "Single cobalt-blue ankle boot with square toe and low block heel on a pale peach seamless studio background, side profile, suede texture, sharp product outline, no other products and no text.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-005_8411.png"
+    },
+    {
+      "case_id": "gen-005",
+      "prompt": "Single cobalt-blue ankle boot with square toe and low block heel on a pale peach seamless studio background, side profile, suede texture, sharp product outline, no other products and no text.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-005_8412.png"
+    },
+    {
+      "case_id": "gen-006",
+      "prompt": "Overhead product photograph of tortoiseshell sunglasses with dark brown lenses and a folded cream cotton pouch on sand-coloured paper, balanced symmetrical composition, realistic materials, no printed branding.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-006_8410.png"
+    },
+    {
+      "case_id": "gen-006",
+      "prompt": "Overhead product photograph of tortoiseshell sunglasses with dark brown lenses and a folded cream cotton pouch on sand-coloured paper, balanced symmetrical composition, realistic materials, no printed branding.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-006_8411.png"
+    },
+    {
+      "case_id": "gen-006",
+      "prompt": "Overhead product photograph of tortoiseshell sunglasses with dark brown lenses and a folded cream cotton pouch on sand-coloured paper, balanced symmetrical composition, realistic materials, no printed branding.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-006_8412.png"
+    },
+    {
+      "case_id": "gen-007",
+      "prompt": "Fashion editorial of an adult woman wearing a teal tailored trouser suit and flat black loafers in a bright modern gallery, full body, relaxed standing pose, natural proportions, artworks softly blurred, no logos and no text.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-007_8410.png"
+    },
+    {
+      "case_id": "gen-007",
+      "prompt": "Fashion editorial of an adult woman wearing a teal tailored trouser suit and flat black loafers in a bright modern gallery, full body, relaxed standing pose, natural proportions, artworks softly blurred, no logos and no text.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-007_8411.png"
+    },
+    {
+      "case_id": "gen-007",
+      "prompt": "Fashion editorial of an adult woman wearing a teal tailored trouser suit and flat black loafers in a bright modern gallery, full body, relaxed standing pose, natural proportions, artworks softly blurred, no logos and no text.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-007_8412.png"
+    },
+    {
+      "case_id": "gen-008",
+      "prompt": "Street-style editorial of an adult man in a cream linen shirt, navy wide-leg trousers and tan sandals walking along a sunlit stone arcade, full-body view, candid movement, realistic clothing folds, no lettering.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-008_8410.png"
+    },
+    {
+      "case_id": "gen-008",
+      "prompt": "Street-style editorial of an adult man in a cream linen shirt, navy wide-leg trousers and tan sandals walking along a sunlit stone arcade, full-body view, candid movement, realistic clothing folds, no lettering.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-008_8411.png"
+    },
+    {
+      "case_id": "gen-008",
+      "prompt": "Street-style editorial of an adult man in a cream linen shirt, navy wide-leg trousers and tan sandals walking along a sunlit stone arcade, full-body view, candid movement, realistic clothing folds, no lettering.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-008_8412.png"
+    },
+    {
+      "case_id": "gen-009",
+      "prompt": "Accessible fashion editorial featuring an adult wheelchair user in a rust-coloured trench coat, dark jeans and white trainers in an airy railway concourse, complete wheelchair visible, natural seated pose, respectful confident portrait, no text.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-009_8410.png"
+    },
+    {
+      "case_id": "gen-009",
+      "prompt": "Accessible fashion editorial featuring an adult wheelchair user in a rust-coloured trench coat, dark jeans and white trainers in an airy railway concourse, complete wheelchair visible, natural seated pose, respectful confident portrait, no text.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-009_8411.png"
+    },
+    {
+      "case_id": "gen-009",
+      "prompt": "Accessible fashion editorial featuring an adult wheelchair user in a rust-coloured trench coat, dark jeans and white trainers in an airy railway concourse, complete wheelchair visible, natural seated pose, respectful confident portrait, no text.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-009_8412.png"
+    },
+    {
+      "case_id": "gen-010",
+      "prompt": "Outdoor editorial portrait of an older adult with short grey hair wearing a plum wool coat and checked scarf in a quiet city garden, knee-up framing, overcast soft light, realistic skin and fabric texture, no text or branding.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-010_8410.png"
+    },
+    {
+      "case_id": "gen-010",
+      "prompt": "Outdoor editorial portrait of an older adult with short grey hair wearing a plum wool coat and checked scarf in a quiet city garden, knee-up framing, overcast soft light, realistic skin and fabric texture, no text or branding.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-010_8411.png"
+    },
+    {
+      "case_id": "gen-010",
+      "prompt": "Outdoor editorial portrait of an older adult with short grey hair wearing a plum wool coat and checked scarf in a quiet city garden, knee-up framing, overcast soft light, realistic skin and fabric texture, no text or branding.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-010_8412.png"
+    },
+    {
+      "case_id": "gen-011",
+      "prompt": "Studio editorial of two adult friends with different body sizes wearing monochrome black casual outfits and distinctive red crossbody bags, full body against pale blue, relaxed poses, both bags visible, no lettering.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-011_8410.png"
+    },
+    {
+      "case_id": "gen-011",
+      "prompt": "Studio editorial of two adult friends with different body sizes wearing monochrome black casual outfits and distinctive red crossbody bags, full body against pale blue, relaxed poses, both bags visible, no lettering.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-011_8411.png"
+    },
+    {
+      "case_id": "gen-011",
+      "prompt": "Studio editorial of two adult friends with different body sizes wearing monochrome black casual outfits and distinctive red crossbody bags, full body against pale blue, relaxed poses, both bags visible, no lettering.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-011_8412.png"
+    },
+    {
+      "case_id": "gen-012",
+      "prompt": "Evening fashion editorial of an adult with medium-brown skin wearing a flowing emerald midi dress and silver flats on a softly lit rooftop terrace, full body, modest neckline, natural hands, city lights in background, no text.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-012_8410.png"
+    },
+    {
+      "case_id": "gen-012",
+      "prompt": "Evening fashion editorial of an adult with medium-brown skin wearing a flowing emerald midi dress and silver flats on a softly lit rooftop terrace, full body, modest neckline, natural hands, city lights in background, no text.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-012_8411.png"
+    },
+    {
+      "case_id": "gen-012",
+      "prompt": "Evening fashion editorial of an adult with medium-brown skin wearing a flowing emerald midi dress and silver flats on a softly lit rooftop terrace, full body, modest neckline, natural hands, city lights in background, no text.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-012_8412.png"
+    },
+    {
+      "case_id": "gen-013",
+      "prompt": "Spring accessories campaign: a pale-yellow bucket hat and lavender canvas tote beside fresh white daisies on a mint studio floor, soft morning light, cheerful restrained palette, only two fashion products, no text.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-013_8410.png"
+    },
+    {
+      "case_id": "gen-013",
+      "prompt": "Spring accessories campaign: a pale-yellow bucket hat and lavender canvas tote beside fresh white daisies on a mint studio floor, soft morning light, cheerful restrained palette, only two fashion products, no text.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-013_8411.png"
+    },
+    {
+      "case_id": "gen-013",
+      "prompt": "Spring accessories campaign: a pale-yellow bucket hat and lavender canvas tote beside fresh white daisies on a mint studio floor, soft morning light, cheerful restrained palette, only two fashion products, no text.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-013_8412.png"
+    },
+    {
+      "case_id": "gen-014",
+      "prompt": "Summer holiday product campaign with tan woven sandals and a straw shoulder bag beside a rolled cream beach towel on clean pale sand, blue sea blurred behind, no people, no logos or words.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-014_8410.png"
+    },
+    {
+      "case_id": "gen-014",
+      "prompt": "Summer holiday product campaign with tan woven sandals and a straw shoulder bag beside a rolled cream beach towel on clean pale sand, blue sea blurred behind, no people, no logos or words.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-014_8411.png"
+    },
+    {
+      "case_id": "gen-014",
+      "prompt": "Summer holiday product campaign with tan woven sandals and a straw shoulder bag beside a rolled cream beach towel on clean pale sand, blue sea blurred behind, no people, no logos or words.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-014_8412.png"
+    },
+    {
+      "case_id": "gen-015",
+      "prompt": "Autumn fashion still life showing a burnt-orange beret, chocolate-brown ankle boots and a folded oatmeal cardigan on a dark wooden bench with a few dry leaves, warm side light, clear product separation, no lettering.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-015_8410.png"
+    },
+    {
+      "case_id": "gen-015",
+      "prompt": "Autumn fashion still life showing a burnt-orange beret, chocolate-brown ankle boots and a folded oatmeal cardigan on a dark wooden bench with a few dry leaves, warm side light, clear product separation, no lettering.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-015_8411.png"
+    },
+    {
+      "case_id": "gen-015",
+      "prompt": "Autumn fashion still life showing a burnt-orange beret, chocolate-brown ankle boots and a folded oatmeal cardigan on a dark wooden bench with a few dry leaves, warm side light, clear product separation, no lettering.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-015_8412.png"
+    },
+    {
+      "case_id": "gen-016",
+      "prompt": "Winter campaign of a navy quilted jacket on a plain mannequin torso with a mustard scarf draped around the collar, frosted window behind, soft studio lighting, no human face, no snow covering the products and no text.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-016_8410.png"
+    },
+    {
+      "case_id": "gen-016",
+      "prompt": "Winter campaign of a navy quilted jacket on a plain mannequin torso with a mustard scarf draped around the collar, frosted window behind, soft studio lighting, no human face, no snow covering the products and no text.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-016_8411.png"
+    },
+    {
+      "case_id": "gen-016",
+      "prompt": "Winter campaign of a navy quilted jacket on a plain mannequin torso with a mustard scarf draped around the collar, frosted window behind, soft studio lighting, no human face, no snow covering the products and no text.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-016_8412.png"
+    },
+    {
+      "case_id": "gen-017",
+      "prompt": "Rainy-season campaign featuring one pair of glossy red rain boots and a closed navy umbrella on wet grey paving, subtle reflections, light rain in background, products fully visible, no people and no words.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-017_8410.png"
+    },
+    {
+      "case_id": "gen-017",
+      "prompt": "Rainy-season campaign featuring one pair of glossy red rain boots and a closed navy umbrella on wet grey paving, subtle reflections, light rain in background, products fully visible, no people and no words.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-017_8411.png"
+    },
+    {
+      "case_id": "gen-017",
+      "prompt": "Rainy-season campaign featuring one pair of glossy red rain boots and a closed navy umbrella on wet grey paving, subtle reflections, light rain in background, products fully visible, no people and no words.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-017_8412.png"
+    },
+    {
+      "case_id": "gen-018",
+      "prompt": "Festive evening accessories display: a small silver clutch and black velvet bow hair clip on deep-green satin with soft warm lights behind, restrained elegant composition, no gift boxes, no brand marks and no text.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-018_8410.png"
+    },
+    {
+      "case_id": "gen-018",
+      "prompt": "Festive evening accessories display: a small silver clutch and black velvet bow hair clip on deep-green satin with soft warm lights behind, restrained elegant composition, no gift boxes, no brand marks and no text.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-018_8411.png"
+    },
+    {
+      "case_id": "gen-018",
+      "prompt": "Festive evening accessories display: a small silver clutch and black velvet bow hair clip on deep-green satin with soft warm lights behind, restrained elegant composition, no gift boxes, no brand marks and no text.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-018_8412.png"
+    },
+    {
+      "case_id": "gen-019",
+      "prompt": "Overhead fashion campaign flat lay containing exactly four items: a sky-blue cotton shirt, beige pleated trousers, white trainers and a tan belt, arranged without overlap on ivory paper, each item fully visible, no text or logos.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-019_8410.png"
+    },
+    {
+      "case_id": "gen-019",
+      "prompt": "Overhead fashion campaign flat lay containing exactly four items: a sky-blue cotton shirt, beige pleated trousers, white trainers and a tan belt, arranged without overlap on ivory paper, each item fully visible, no text or logos.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-019_8411.png"
+    },
+    {
+      "case_id": "gen-019",
+      "prompt": "Overhead fashion campaign flat lay containing exactly four items: a sky-blue cotton shirt, beige pleated trousers, white trainers and a tan belt, arranged without overlap on ivory paper, each item fully visible, no text or logos.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-019_8412.png"
+    },
+    {
+      "case_id": "gen-020",
+      "prompt": "Two structured handbags on separate circular plinths: a small red bag with silver clasp on the left and a larger black bag with gold clasp on the right, matching three-quarter angles, neutral grey background, no text.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-020_8410.png"
+    },
+    {
+      "case_id": "gen-020",
+      "prompt": "Two structured handbags on separate circular plinths: a small red bag with silver clasp on the left and a larger black bag with gold clasp on the right, matching three-quarter angles, neutral grey background, no text.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-020_8411.png"
+    },
+    {
+      "case_id": "gen-020",
+      "prompt": "Two structured handbags on separate circular plinths: a small red bag with silver clasp on the left and a larger black bag with gold clasp on the right, matching three-quarter angles, neutral grey background, no text.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-020_8412.png"
+    },
+    {
+      "case_id": "gen-021",
+      "prompt": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-021_8410.png"
+    },
+    {
+      "case_id": "gen-021",
+      "prompt": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-021_8411.png"
+    },
+    {
+      "case_id": "gen-021",
+      "prompt": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-021_8412.png"
+    },
+    {
+      "case_id": "gen-022",
+      "prompt": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-022_8410.png"
+    },
+    {
+      "case_id": "gen-022",
+      "prompt": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-022_8411.png"
+    },
+    {
+      "case_id": "gen-022",
+      "prompt": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-022_8412.png"
+    },
+    {
+      "case_id": "gen-023",
+      "prompt": "Minimal display of a black backpack with two visible front pockets, a silver zipper and one orange pull tab, standing beside a transparent water bottle on a white cube, pale green backdrop, no people, no logos and no text.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-023_8410.png"
+    },
+    {
+      "case_id": "gen-023",
+      "prompt": "Minimal display of a black backpack with two visible front pockets, a silver zipper and one orange pull tab, standing beside a transparent water bottle on a white cube, pale green backdrop, no people, no logos and no text.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-023_8411.png"
+    },
+    {
+      "case_id": "gen-023",
+      "prompt": "Minimal display of a black backpack with two visible front pockets, a silver zipper and one orange pull tab, standing beside a transparent water bottle on a white cube, pale green backdrop, no people, no logos and no text.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-023_8412.png"
+    },
+    {
+      "case_id": "gen-024",
+      "prompt": "Fashion campaign with two adult models side by side: left model in a coral jacket and cream trousers, right model in a cream jacket and coral trousers, both wearing plain white shoes, full body, symmetrical pale-blue studio setting, no lettering.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-024_8410.png"
+    },
+    {
+      "case_id": "gen-024",
+      "prompt": "Fashion campaign with two adult models side by side: left model in a coral jacket and cream trousers, right model in a cream jacket and coral trousers, both wearing plain white shoes, full body, symmetrical pale-blue studio setting, no lettering.",
+      "seed": 8411,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-024_8411.png"
+    },
+    {
+      "case_id": "gen-024",
+      "prompt": "Fashion campaign with two adult models side by side: left model in a coral jacket and cream trousers, right model in a cream jacket and coral trousers, both wearing plain white shoes, full body, symmetrical pale-blue studio setting, no lettering.",
+      "seed": 8412,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\sdxl_lightning\\gen-024_8412.png"
+    }
+  ],
+  "warmup_runs": 1,
+  "width": 1024,
+  "height": 1024
+}

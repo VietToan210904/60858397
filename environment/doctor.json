@@ -1,0 +1,64 @@
+{
+  "timestamp_utc": "2026-10-28T20:32:34.249442+00:00",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "executable": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Scripts\\python.exe",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "5.5.0",
+    "diffusers": null,
+    "open_clip_torch": "3.3.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "PyYAML": "6.0.3",
+    "pytest": "8.4.2",
+    "matplotlib": "3.10.8",
+    "huggingface-hub": "1.9.2"
+  },
+  "disk_bytes": {
+    "total": 1999217094656,
+    "used": 1655434653696,
+    "free": 343782440960
+  },
+  "tools": {
+    "python": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\python.EXE",
+    "uv": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe\\uv.EXE",
+    "git": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Git\\cmd\\git.EXE",
+    "nvidia-smi": "C:\\Windows\\system32\\nvidia-smi.EXE",
+    "nvcc": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\nvcc.EXE",
+    "cl": null,
+    "wsl": "C:\\Windows\\system32\\wsl.EXE"
+  },
+  "virtual_env": null,
+  "project_environments": [
+    ".venv-assistance",
+    ".venv-comfy",
+    ".venv-generation",
+    ".venv-preview",
+    ".venv-retrieval",
+    ".venv-sf3d",
+    ".venv-spar3d"
+  ],
+  "torch": {
+    "version": "2.11.0+cu128",
+    "compiled_cuda": "12.8",
+    "cuda_available": true,
+    "devices": [
+      {
+        "name": "NVIDIA GeForce RTX 4070 SUPER",
+        "total_bytes": 12878086144,
+        "free_bytes": 11606687744,
+        "compute_capability": [
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "nvidia_smi": {
+    "returncode": 0,
+    "output": "NVIDIA GeForce RTX 4070 SUPER, 12282, 9239, 610.88",
+    "error": ""
+  }
+}

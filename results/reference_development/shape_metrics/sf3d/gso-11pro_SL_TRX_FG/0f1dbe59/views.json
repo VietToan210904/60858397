@@ -1,0 +1,61 @@
+{
+  "interpretation": "Supplementary independently normalized shape views, with explicitly reference-assisted rigid alignment where labelled",
+  "per_view": [
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.38688204867294157,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-11pro_SL_TRX_FG/0f1dbe59/unaligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-11pro_SL_TRX_FG/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.1971409574468085,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-11pro_SL_TRX_FG/0f1dbe59/unaligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-11pro_SL_TRX_FG/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.29642150692321523,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-11pro_SL_TRX_FG/0f1dbe59/unaligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-11pro_SL_TRX_FG/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.21463804199746325,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-11pro_SL_TRX_FG/0f1dbe59/unaligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-11pro_SL_TRX_FG/reference_views/view_03_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.5176130198915009,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-11pro_SL_TRX_FG/0f1dbe59/rigid_aligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-11pro_SL_TRX_FG/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.6911083758279116,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-11pro_SL_TRX_FG/0f1dbe59/rigid_aligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-11pro_SL_TRX_FG/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.5761033198637192,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-11pro_SL_TRX_FG/0f1dbe59/rigid_aligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-11pro_SL_TRX_FG/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.5855654761904762,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-11pro_SL_TRX_FG/0f1dbe59/rigid_aligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-11pro_SL_TRX_FG/reference_views/view_03_mask.png"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "b3c9220aa037706d97734722ff8c2b2793fdaba664a3d94e531f3e880c2e8039",
+    "preparation_metadata": "1dfcfe450a0e6c86b8216cf2d651d9613342595482e65f8dcd98101757d7eb1c",
+    "reference_mesh": "34e8e54149375275790a1e5690d2dedc450f5e5f8fecb806c91c09dc5bcd91e4",
+    "source_image": "a26045906ba33f2a6e9509cafa09a843cc0f8e0a700f5d45fc6d7dad9b446202",
+    "view_0_reference_rgb": "48e07d562ae81dfab779fb9879281d00c6692a52da3f8f383d54d2788334a56b",
+    "view_0_reference_silhouette": "8cf23988e826c672877318950a6af460486c334f0a7c66f97829c92e37e62003",
+    "view_1_reference_rgb": "119b568429104d64696d6c3237aca45da86f297a4c0efe70f362878a5fe6bf4a",
+    "view_1_reference_silhouette": "71360771ccb0425815703f4ffbb00bc38a671c947aef24943591e71f8850cc5e",
+    "view_2_reference_rgb": "b95a0e2720e9266c3b0dffd6bb58da82c6b2a110d2d40042c00cc6c5ce704ff2",
+    "view_2_reference_silhouette": "3161804dcd10a077abe4b48e6b008c69f2dac5d0513bd34ba11c7b1a1dafe579",
+    "view_3_reference_rgb": "6e3e3e982d49253f76ca7398f537f7cbb0f35796f06dcbfb8967334644a4c207",
+    "view_3_reference_silhouette": "282c705798934f23d1b9aefa2b949be87a4be92918c12dbff0026e54eac90539"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-AMBERLIGHT_UP_W/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "a26045906ba33f2a6e9509cafa09a843cc0f8e0a700f5d45fc6d7dad9b446202",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "34e8e54149375275790a1e5690d2dedc450f5e5f8fecb806c91c09dc5bcd91e4",
+    "object_id": "gso-AMBERLIGHT_UP_W",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-AMBERLIGHT_UP_W/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-AMBERLIGHT_UP_W/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-AMBERLIGHT_UP_W/input.png",
+    "source_revision": "GoogleResearch/AMBERLIGHT_UP_W/v1;zip-sha256:92b7cd9f6f15449074f0c3e02fdbcd92c04406cba1b6faff0ca4229d0202ce60"
+  }
+}

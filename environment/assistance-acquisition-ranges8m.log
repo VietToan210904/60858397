@@ -1,0 +1,50 @@
+{"status": "file_verified", "path": "LICENSE", "bytes": 11544, "reused": true}
+{"status": "file_verified", "path": "README.md", "bytes": 77661, "reused": true}
+{"status": "file_verified", "path": "LICENSE", "bytes": 1084, "reused": true}
+{"status": "file_verified", "path": "chat_template.jinja", "bytes": 7756, "reused": true}
+{"status": "file_verified", "path": "README.md", "bytes": 29246, "reused": true}
+{"status": "file_verified", "path": "config.json", "bytes": 3161, "reused": true}
+{"status": "file_verified", "path": "added_tokens.json", "bytes": 249, "reused": true}
+{"status": "file_verified", "path": "merges.txt", "bytes": 3353259, "reused": true}
+{"status": "file_verified", "path": "config.json", "bytes": 2504, "reused": true}
+{"status": "file_verified", "path": "generation_config.json", "bytes": 168, "reused": true}
+{"status": "file_verified", "path": "merges.txt", "bytes": 2418348, "reused": true}
+{"status": "file_verified", "path": "model.safetensors.index.json", "bytes": 76196, "reused": true}
+{"status": "file_verified", "path": "preprocessor_config.json", "bytes": 390, "reused": true}
+{"status": "file_verified", "path": "model.safetensors.index.json", "bytes": 16273, "reused": true}
+{"status": "file_verified", "path": "special_tokens_map.json", "bytes": 587, "reused": true}
+{"status": "file_verified", "path": "tokenizer.json", "bytes": 12807982, "reused": true}
+{"status": "file_verified", "path": "tokenizer_config.json", "bytes": 16710, "reused": true}
+{"status": "file_verified", "path": "video_preprocessor_config.json", "bytes": 385, "reused": true}
+{"status": "file_verified", "path": "tokenizer.json", "bytes": 15524095, "reused": true}
+{"status": "file_verified", "path": "tokenizer_config.json", "bytes": 2932, "reused": true}
+{"status": "file_verified", "path": "vocab.json", "bytes": 6722759, "reused": true}
+{"status": "file_verified", "path": "vocab.json", "bytes": 3910310, "reused": true}
+Traceback (most recent call last):
+  File "<stdin>", line 13, in <module>
+  File "C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\src\stylesphere\common\acquisition.py", line 63, in acquire
+    if ranged:
+              
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\src\stylesphere\common\ranged_download.py", line 169, in download_plan
+    prefix = max(candidates, key=lambda path: path.stat().st_size) if candidates else None
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\src\stylesphere\common\ranged_download.py", line 164, in fetch
+    candidates.append(Path(item["source_prefix"]))
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Bounded download failed for model-00001-of-00002.safetensors bytes 3762290688-3770679295: TimeoutError: Bounded range exceeded the 60-second body deadline

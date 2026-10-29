@@ -1,0 +1,283 @@
+{
+  "kind": "post_hoc_supplementary_ai_visual_packet",
+  "protocol_sha256": "299a340bf2fd5f87b8399b62fde3855117a84cf0bf61146474f9a367dd02f7f4",
+  "selection_sha256": "c9854ffcf88fc81f931e677e7137da8b6c7e60096bf26c378f86baa0ddeb6deb",
+  "pair": "generation",
+  "batch_number": 10,
+  "cards": [
+    {
+      "assessment_id": "ai_801d6b58d46e2115",
+      "pair": "generation",
+      "brief": "Fashion campaign with two adult models side by side: left model in a coral jacket and cream trousers, right model in a cream jacket and coral trousers, both wearing plain white shoes, full body, symmetrical pale-blue studio setting, no lettering.",
+      "criteria": [
+        "two adult models",
+        "coral jacket left",
+        "cream trousers left",
+        "cream jacket right",
+        "coral trousers right",
+        "white shoes",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_801d6b58d46e2115_image.png",
+          "sha256": "e93e57026ee5109b135d30cd523f8aa84f8bb17cd92422d61f4183a3436de985"
+        }
+      },
+      "evidence_sha256": {
+        "image": "e93e57026ee5109b135d30cd523f8aa84f8bb17cd92422d61f4183a3436de985"
+      }
+    },
+    {
+      "assessment_id": "ai_b3372281945e0686",
+      "pair": "generation",
+      "brief": "Studio editorial of two adult friends with different body sizes wearing monochrome black casual outfits and distinctive red crossbody bags, full body against pale blue, relaxed poses, both bags visible, no lettering.",
+      "criteria": [
+        "two adults",
+        "different body sizes",
+        "black outfits",
+        "two red crossbody bags",
+        "pale blue background",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_b3372281945e0686_image.png",
+          "sha256": "0ad95bc6543e91f9aba87637d85976752f4b4edbb664a4e276de45b9e30ab8d2"
+        }
+      },
+      "evidence_sha256": {
+        "image": "0ad95bc6543e91f9aba87637d85976752f4b4edbb664a4e276de45b9e30ab8d2"
+      }
+    },
+    {
+      "assessment_id": "ai_049552ad6c88187b",
+      "pair": "generation",
+      "brief": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+      "criteria": [
+        "navy pinstripe blazer",
+        "white shirt",
+        "olive trousers",
+        "brown lace-up shoes",
+        "mustard umbrella in left hand",
+        "full body",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_049552ad6c88187b_image.png",
+          "sha256": "88b275e9f8cad1380e34552b23e814593a493782ce2a4e46fa9e78df30647a84"
+        }
+      },
+      "evidence_sha256": {
+        "image": "88b275e9f8cad1380e34552b23e814593a493782ce2a4e46fa9e78df30647a84"
+      }
+    },
+    {
+      "assessment_id": "ai_747a65b4efa6c62a",
+      "pair": "generation",
+      "brief": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+      "criteria": [
+        "one burgundy handbag",
+        "brass clasp",
+        "short top handle",
+        "ivory plinth",
+        "empty space above",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_747a65b4efa6c62a_image.png",
+          "sha256": "dacee9e7b928f90af35eaa55c866c6c554436786d77c99db6f0bd54129b23e9d"
+        }
+      },
+      "evidence_sha256": {
+        "image": "dacee9e7b928f90af35eaa55c866c6c554436786d77c99db6f0bd54129b23e9d"
+      }
+    },
+    {
+      "assessment_id": "ai_47476d0ac0a4c40f",
+      "pair": "generation",
+      "brief": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+      "criteria": [
+        "exactly three gold rings",
+        "plain band left",
+        "twisted band middle",
+        "one green stone right",
+        "horizontal row",
+        "lavender stone",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_47476d0ac0a4c40f_image.png",
+          "sha256": "7b757d913ebe532a9991c0a170e496e36a6085b0da03e5bec955ac6a29f0be75"
+        }
+      },
+      "evidence_sha256": {
+        "image": "7b757d913ebe532a9991c0a170e496e36a6085b0da03e5bec955ac6a29f0be75"
+      }
+    },
+    {
+      "assessment_id": "ai_34853c68d6148131",
+      "pair": "generation",
+      "brief": "Folded camel knitted scarf beside matching knitted gloves on a light oak tabletop, cable-knit texture clearly visible, natural window light, calm winter accessory product advertisement, no people and no lettering.",
+      "criteria": [
+        "camel scarf",
+        "matching gloves",
+        "cable-knit texture",
+        "oak tabletop",
+        "no people",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_34853c68d6148131_image.png",
+          "sha256": "47e4bd0cc81bfde4a8ca690ac00e7274dae01220dd352e4ab68986fcd7afc9cd"
+        }
+      },
+      "evidence_sha256": {
+        "image": "47e4bd0cc81bfde4a8ca690ac00e7274dae01220dd352e4ab68986fcd7afc9cd"
+      }
+    },
+    {
+      "assessment_id": "ai_bec5d6dbbd2b3c57",
+      "pair": "generation",
+      "brief": "Festive evening accessories display: a small silver clutch and black velvet bow hair clip on deep-green satin with soft warm lights behind, restrained elegant composition, no gift boxes, no brand marks and no text.",
+      "criteria": [
+        "silver clutch",
+        "black velvet bow clip",
+        "deep-green satin",
+        "warm lights",
+        "no gift boxes",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_bec5d6dbbd2b3c57_image.png",
+          "sha256": "ea14a0c160f3b1d3ffc30a8dcb0edfc6aa6db6076772aa219904a122730feaf7"
+        }
+      },
+      "evidence_sha256": {
+        "image": "ea14a0c160f3b1d3ffc30a8dcb0edfc6aa6db6076772aa219904a122730feaf7"
+      }
+    },
+    {
+      "assessment_id": "ai_f2e54e4400022d75",
+      "pair": "generation",
+      "brief": "Spring accessories campaign: a pale-yellow bucket hat and lavender canvas tote beside fresh white daisies on a mint studio floor, soft morning light, cheerful restrained palette, only two fashion products, no text.",
+      "criteria": [
+        "yellow bucket hat",
+        "lavender canvas tote",
+        "white daisies",
+        "mint floor",
+        "two fashion products",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_f2e54e4400022d75_image.png",
+          "sha256": "8cd44cfc480e83941d78c80dd256e04bd8ddf751e9e26b4c1be1b5b1287ba665"
+        }
+      },
+      "evidence_sha256": {
+        "image": "8cd44cfc480e83941d78c80dd256e04bd8ddf751e9e26b4c1be1b5b1287ba665"
+      }
+    },
+    {
+      "assessment_id": "ai_d381ab3573d58473",
+      "pair": "generation",
+      "brief": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+      "criteria": [
+        "exactly three gold rings",
+        "plain band left",
+        "twisted band middle",
+        "one green stone right",
+        "horizontal row",
+        "lavender stone",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_d381ab3573d58473_image.png",
+          "sha256": "ebe9cc75352bec89bca3b54b98e2cc647d326af828f189610b7fc714b7be3871"
+        }
+      },
+      "evidence_sha256": {
+        "image": "ebe9cc75352bec89bca3b54b98e2cc647d326af828f189610b7fc714b7be3871"
+      }
+    },
+    {
+      "assessment_id": "ai_0839de1221033edf",
+      "pair": "generation",
+      "brief": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+      "criteria": [
+        "navy pinstripe blazer",
+        "white shirt",
+        "olive trousers",
+        "brown lace-up shoes",
+        "mustard umbrella in left hand",
+        "full body",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_0839de1221033edf_image.png",
+          "sha256": "9b78cda26c9a3ef4073da91087a560d87aa38485e3bbf987cd8befcc240b9390"
+        }
+      },
+      "evidence_sha256": {
+        "image": "9b78cda26c9a3ef4073da91087a560d87aa38485e3bbf987cd8befcc240b9390"
+      }
+    },
+    {
+      "assessment_id": "ai_d810366a5f522bb7",
+      "pair": "generation",
+      "brief": "Overhead fashion campaign flat lay containing exactly four items: a sky-blue cotton shirt, beige pleated trousers, white trainers and a tan belt, arranged without overlap on ivory paper, each item fully visible, no text or logos.",
+      "criteria": [
+        "exactly four fashion items",
+        "sky-blue shirt",
+        "beige pleated trousers",
+        "white trainers",
+        "tan belt",
+        "no overlap or text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_d810366a5f522bb7_image.png",
+          "sha256": "4e3da9e0dff076fdbd97af11bf48e1a9036059e6188cbad5ab6427b65c0ba708"
+        }
+      },
+      "evidence_sha256": {
+        "image": "4e3da9e0dff076fdbd97af11bf48e1a9036059e6188cbad5ab6427b65c0ba708"
+      }
+    },
+    {
+      "assessment_id": "ai_fed3d7fbe48fd6c0",
+      "pair": "generation",
+      "brief": "Single cobalt-blue ankle boot with square toe and low block heel on a pale peach seamless studio background, side profile, suede texture, sharp product outline, no other products and no text.",
+      "criteria": [
+        "single cobalt-blue boot",
+        "square toe",
+        "low block heel",
+        "suede texture",
+        "peach background",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_fed3d7fbe48fd6c0_image.png",
+          "sha256": "4db33b3635a3990e0765f06d366c189a2db07ec31c868ba73feeced25d9614ab"
+        }
+      },
+      "evidence_sha256": {
+        "image": "4db33b3635a3990e0765f06d366c189a2db07ec31c868ba73feeced25d9614ab"
+      }
+    }
+  ],
+  "contact_sheet": {
+    "path": "batches/generation_10.png",
+    "sha256": "2d42e213ceae57977e2480ef437a62e21b2b9821f883d9a86bc287ea879ed48b",
+    "layout": "4 columns, 3 rows; each image 512x512 beneath its ID"
+  }
+}

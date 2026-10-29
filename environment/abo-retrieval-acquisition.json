@@ -1,0 +1,42 @@
+{
+  "timestamp_utc": "2026-10-28T16:09:55.555260+00:00",
+  "selected_products": 600,
+  "seed": 8410,
+  "sampling": "seeded round-robin category-balanced selection within explicitly declared listings_0 shard; not all ABO",
+  "categories": {
+    "SHOES": 66,
+    "BOOT": 66,
+    "SANDAL": 66,
+    "HANDBAG": 47,
+    "BACKPACK": 14,
+    "WALLET": 15,
+    "HAT": 38,
+    "EARRING": 42,
+    "FINEEARRING": 66,
+    "NECKLACE": 26,
+    "FINENECKLACEBRACELETANKLET": 66,
+    "RING": 23,
+    "FINERING": 65
+  },
+  "metadata": {
+    "listings/metadata/listings_0.json.gz": {
+      "bytes": 5446000,
+      "sha256": "c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324"
+    },
+    "images/metadata/images.csv.gz": {
+      "bytes": 6430535,
+      "sha256": "915263ef354d7a5d3503e899e610082f510c0011cccd5b4dc4f4c5efa86ef539"
+    }
+  },
+  "new_image_download_bytes": 2263140,
+  "download_budget_bytes": 200000000,
+  "free_disk_bytes": 392737107968,
+  "metadata_path": "datasets/retrieval/abo_metadata.jsonl",
+  "metadata_sha256": "2567b8aa90177a0592301657ea65081a97f16cd2fa57bef26529415b3e1574f5",
+  "licence": "CC-BY-4.0",
+  "attribution": "Amazon.com; ABO dataset by Collins et al., CVPR2022; https://registry.opendata.aws/amazon-berkeley-objects/",
+  "relevance_judgements_created": false,
+  "metadata_original_text_sha256": "ef4fadbffdcb033f473a07c13b461bf7a7beff59c88164ae3bf0c2657917c377",
+  "metadata_hash_corrected": true,
+  "total_retained_image_bytes": 3791008
+}

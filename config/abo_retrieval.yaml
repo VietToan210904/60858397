@@ -1,0 +1,12 @@
+datasets:
+  retrieval:
+    metadata_path: datasets/retrieval/abo_metadata.jsonl
+    image_root: .
+    source: amazon-berkeley-objects
+    source_revision: sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324
+    licence: CC-BY-4.0
+    redistributable: true
+    catalogue_size: 600
+    query_count: 120
+    queries_path: datasets/retrieval/controlled_queries.csv
+    annotation_pool_size: 30

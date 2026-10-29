@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "54729f8d5938aaede4ff294f008fa7e9847f04a41d29f38769240ade09fcc6de",
+    "preparation_metadata": "8548ed914dd8b38ea714d4098e58e3d9f35bc51ed04dfd099232c6ae30283dd0",
+    "reference_mesh": "33f15de1b479ec8763ed97c27d79aa6e3231298c789030dee0e4ecfa1ec2c475",
+    "source_image": "0c389301d9fbe0fd6a6a76cfb9218a123cc44e8fe277936d00c83c6b247bb95b",
+    "view_0_reference_rgb": "32505fd8a37f06e128d5398315df5e4464bb1f62738522001189e24f3e201145",
+    "view_0_reference_silhouette": "cbb54f5e3125be3e82457fe333fb89b623cc95838b8c7a62e1eee16ff1adc1fd",
+    "view_1_reference_rgb": "5b69c44546606182ef2aa6c02a92f93261a0b7b156cf2af03f9cb8b3c4364121",
+    "view_1_reference_silhouette": "a2f5f236dfaacf931fa291a8777d93ef28e036cf226afcd72c21bb451f02baab",
+    "view_2_reference_rgb": "aa473fa1bb6227260f9d526e9a139ce4ace0c1fc0a14d41a4fb836c6a916eb01",
+    "view_2_reference_silhouette": "eac18ac7617560da2121a2864408a796f5c0ed711240ae291ef38e97cafe8e50",
+    "view_3_reference_rgb": "082b48cf91cc4ad2c363bec6f513df47827f8fe580f216e0649113c9fa6c08a1",
+    "view_3_reference_silhouette": "15e9abd1245c53a3c9354b54a4bf01a2b6e1293c0b47d986c64c43a857de5829"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "0c389301d9fbe0fd6a6a76cfb9218a123cc44e8fe277936d00c83c6b247bb95b",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "33f15de1b479ec8763ed97c27d79aa6e3231298c789030dee0e4ecfa1ec2c475",
+    "object_id": "gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/input.png",
+    "source_revision": "GoogleResearch/ASICS_GELLinksmaster_WhiteRasberryGunmetal/v1;zip-sha256:066b2222aa63796d414abd03547474f42469e20637825a6c943519288ce94b15"
+  }
+}

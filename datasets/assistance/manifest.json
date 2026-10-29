@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "pair": "assistance",
+  "prepared_at_utc": "2026-10-28T15:38:00.827642+00:00",
+  "seed": 8410,
+  "model_inference_performed": false,
+  "inputs": {
+    "knowledge_base.json": {
+      "sha256": "9090a086a1c19a0e8ac8f7ccd8306a4d0baed5f9a150d75d30df373cdccaa882",
+      "bytes": 10998
+    },
+    "scenarios.jsonl": {
+      "sha256": "d3332ad12644b6285ba911cc48f9624fa429bae17228c8870e69beded4df084a",
+      "bytes": 51600
+    }
+  },
+  "source_inputs": {},
+  "redistributable_assets_default": false,
+  "details": {
+    "scenario_count": 80,
+    "input_kind": "controlled hypothetical business scenarios; not model outputs or customer observations"
+  }
+}

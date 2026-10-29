@@ -1,0 +1,8 @@
+{
+  "results": [],
+  "status": "blocked",
+  "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Scripts\\python.exe",
+  "torch_version": "2.11.0+cu128",
+  "cuda_version": "12.8",
+  "error": "ValueError: Set flux2_klein.checkout to a reviewed local ComfyUI repository"
+}

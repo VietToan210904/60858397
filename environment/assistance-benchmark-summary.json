@@ -1,0 +1,69 @@
+{
+  "timestamp_utc": "2026-10-28T17:21:54.394972+00:00",
+  "models": [
+    {
+      "model": "phi4_mini",
+      "run_id": "d9923b2e32d54eb0955cbc11cc801808",
+      "protocol_sha256": "405c050674d1541e6d8c324385e2b7bf7500dc42812da0c9bf7f2bf4a75e0307",
+      "status_counts": {
+        "success": 40,
+        "failed": 40
+      },
+      "all_attempt_end_to_end_s": {
+        "n": 80,
+        "mean": 3.3729994500012253,
+        "median": 3.1589992500375956,
+        "std": 1.7014411874544617
+      },
+      "completed_response_end_to_end_s": {
+        "n": 40,
+        "mean": 4.141920022500562,
+        "median": 3.9338285000121687,
+        "std": 1.634314046232566
+      },
+      "max_allocated_mib_all_attempts": 8131.55126953125,
+      "max_reserved_mib_all_attempts": 9040.0,
+      "structured_task_success_among_completed": {
+        "n": 40,
+        "mean": 0.5,
+        "median": 0.5,
+        "std": 0.5063696835418333
+      },
+      "human_task_success": null,
+      "checkpoint_revision": "cfbefacb99257ffa30c83adab238a50856ac3083"
+    },
+    {
+      "model": "qwen35_4b",
+      "run_id": "ae13ded36915404e929fa8428f956235",
+      "protocol_sha256": "405c050674d1541e6d8c324385e2b7bf7500dc42812da0c9bf7f2bf4a75e0307",
+      "status_counts": {
+        "failed": 33,
+        "success": 47
+      },
+      "all_attempt_end_to_end_s": {
+        "n": 80,
+        "mean": 5.785769521249312,
+        "median": 5.010307799995644,
+        "std": 4.100925740841711
+      },
+      "completed_response_end_to_end_s": {
+        "n": 47,
+        "mean": 6.449806478727817,
+        "median": 5.388464000017848,
+        "std": 5.03419025943461
+      },
+      "max_allocated_mib_all_attempts": 12179.82861328125,
+      "max_reserved_mib_all_attempts": 13800.0,
+      "structured_task_success_among_completed": {
+        "n": 47,
+        "mean": 0.40425531914893614,
+        "median": 0.0,
+        "std": 0.4960528753410619
+      },
+      "human_task_success": null,
+      "checkpoint_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+    }
+  ],
+  "source_records_sha256": "a4de4c4880f399e3aa9218f8e1084dce920557f93c7ad8ab5369a42561c01dd1",
+  "interpretation": "These are frozen-controller outputs, not human semantic task-success judgements. Structured quality is conditional on completed valid final responses; all attempts remain in execution-failure rates."
+}

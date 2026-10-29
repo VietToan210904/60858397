@@ -1,0 +1,16 @@
+[
+  {
+    "pair": "generation",
+    "run_id": "9a379c1a438b447a871f4c16f5e78417",
+    "records": 72,
+    "resumed": 0,
+    "success": 72,
+    "blocked": 0,
+    "failed": 0,
+    "review": {
+      "images": 72,
+      "ratings_csv": "results/generation/9a379c1a438b447a871f4c16f5e78417/review/ratings.csv",
+      "review_html": "results/generation/9a379c1a438b447a871f4c16f5e78417/review/review.html"
+    }
+  }
+]

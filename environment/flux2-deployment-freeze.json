@@ -1,0 +1,103 @@
+{
+  "frozen_at_utc": "2026-10-28T17:23:51.586272+00:00",
+  "model": "flux2_klein",
+  "scope": "Deployment frozen after separate development smoke and before the first final benchmark case. Subsequent pre-freeze changes normalized artifact paths only; no model/sampler/precision setting changed.",
+  "model_config": {
+    "pair": "generation",
+    "model_id": "black-forest-labs/FLUX.2-klein-4b-fp8",
+    "revision": "5b4408e59397a4a37ccb46afe426d8ed86379441",
+    "precision": "fp8",
+    "steps": 4,
+    "guidance_scale": 1.0,
+    "local_files_only": true,
+    "licence": "Apache-2.0",
+    "python": ".venv-comfy/Scripts/python.exe",
+    "checkout": "vendor/ComfyUI",
+    "source_revision": "4845e7a3ffc48a6961f15824239e9042cc7d4ad1",
+    "checkpoint": "models/hub/models--black-forest-labs--FLUX.2-klein-4b-fp8/snapshots/5b4408e59397a4a37ccb46afe426d8ed86379441/flux-2-klein-4b-fp8.safetensors",
+    "text_encoder": "models/hub/models--Comfy-Org--flux2-klein-4B/snapshots/5b3abca5c0dc1ecd4eaf3340868d09063fc1c965/split_files/text_encoders/qwen_3_4b.safetensors",
+    "vae": "models/hub/models--Comfy-Org--flux2-klein-4B/snapshots/5b3abca5c0dc1ecd4eaf3340868d09063fc1c965/split_files/vae/flux2-vae.safetensors"
+  },
+  "generation": {
+    "repeats": 3,
+    "width": 1024,
+    "height": 1024
+  },
+  "warmup_runs": 1,
+  "seeds": [
+    8410,
+    8411,
+    8412
+  ],
+  "protocol_sha256": "36989e9326c8fa9769a3d07636ef0cf79b11e5196794d1d0a5e2d4c00c580857",
+  "dataset_sha256": "e84c1bb98b8a21f66b8ed8a97291dae2791c69f667beab3bee863bcd60283689",
+  "measurement_config_sha256": "178b4fe8c2660a343ae2511327b64888355331ee58d0128504961ea8adf93d0a",
+  "same_measurement_config_as_development": true,
+  "development_run_id": "f0d642cfeda84af7b62d3c979d8b022a",
+  "source_sha256": {
+    "src/stylesphere/generation/runner.py": "bd79763aeb067af6fec632e8e7eec18c7c8c35dbb7326de8e7304050cd63cc00",
+    "src/stylesphere/generation/worker.py": "2eea2b409d51471d662598290e35960e958955c4b93407c477a15503a033877a",
+    "src/stylesphere/generation/provenance.py": "a154db6836eb72f41cb8328e31fe2841d81bb6d4d8c50d96267d70969c1f4eb9",
+    "src/stylesphere/generation/review.py": "ce9a24dc2ba0b3eca37d448d03b0618c1e5c3aa348f426a76250d4e7eaee89d4"
+  },
+  "effective_packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "5.5.0",
+    "huggingface-hub": "1.9.2",
+    "safetensors": "0.7.0",
+    "numpy": "2.4.2",
+    "Pillow": "12.2.0",
+    "comfy-kitchen": "0.2.40",
+    "comfy-aimdo": "0.6.0"
+  },
+  "acquisition_receipt_sha256": {
+    "environment/acquisition_flux2_klein_fp8.json": "c196093af4b52160486cc607913ed1edf73ead625e292d5464b104bdfa19420f",
+    "environment/acquisition_flux2_klein_components.json": "91cf01e2fa864cae9e339a9df10b4c130f38d86b94bb7b446b60f3c4ae0c5aa7"
+  },
+  "runtime_precision_development": {
+    "checkpoint_format": "official_scaled_fp8",
+    "diffusion_parameter_dtype_counts": {
+      "torch.bfloat16": 3875544576,
+      "torch.float32": 80
+    },
+    "native_fp8_api": "torch.nn.functional.scaled_mm",
+    "quantized_payload_dtype_counts": {
+      "torch.float8_e4m3fn": 3680501760
+    },
+    "fp8_matmul_dispatch": {
+      "scope": "cumulative native FP8 dispatch across warmup and measured inference; no backend selection changes",
+      "attempts": 640,
+      "successes": 640,
+      "failures": 0
+    },
+    "comfy_kitchen_backends": {
+      "eager": {
+        "available": true,
+        "disabled": false,
+        "unavailable_reason": null
+      },
+      "cuda": {
+        "available": true,
+        "disabled": true,
+        "unavailable_reason": null
+      },
+      "hip": {
+        "available": false,
+        "disabled": false,
+        "unavailable_reason": "PyTorch ROCm/HIP runtime not available"
+      },
+      "ascend": {
+        "available": false,
+        "disabled": false,
+        "unavailable_reason": "torch-npu is not installed: No module named 'torch_npu'"
+      },
+      "triton": {
+        "available": false,
+        "disabled": true,
+        "unavailable_reason": "ImportError: No module named 'triton'"
+      }
+    }
+  },
+  "human_ratings": "Blank until independent human review"
+}

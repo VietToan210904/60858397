@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "82e6c5f681b8e9e5b16a14bf35be38c17d5c9181f1f34bc5580dda0133515486",
+    "preparation_metadata": "71da7c83b921394424f7e2bdb87730c8e5e596232169957f7549e25ea4f3c677",
+    "reference_mesh": "299e0222f0a1474fa3e1b63691f3628c322b4ba0a11f77474e009005b8bca0a9",
+    "source_image": "56ec184a7306cd512801015c79461ced61c3d2bba4b3df4389dc71b39f13f477",
+    "view_0_reference_rgb": "bbedc37f59f312e4434cb8158f8c734c22b1d75d240153d132ac52fd25850cfa",
+    "view_0_reference_silhouette": "c79413dd3ca314dcc0f405be536d821d6205eb54b6fe17896818dbe95838b335",
+    "view_1_reference_rgb": "bab74894af8931b03ed5bf8c1c9d3d9113cff45b165923d1296ed12ff52313aa",
+    "view_1_reference_silhouette": "b1a514b3eddf16dd18732726f913b00baa3ee54bbeb6bf235de1d1bfcc9c73ef",
+    "view_2_reference_rgb": "d1fcb7df2f4717b87556b7be72d9701446092bdc6f52ac55ee6b00650a1230d3",
+    "view_2_reference_silhouette": "ed15cb473c966551d3dda80ea85701e9ae8911f6a27ebc43cbb4cf393e430359",
+    "view_3_reference_rgb": "ac4008a5fc7b1ad7b7441161c0e731ef1a2a7bf3c25e8ed53071703806070de0",
+    "view_3_reference_silhouette": "fcb9e3676acef03bdb526b1edcab342f97bb5b774211074457647d9beba6a896"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-ASICS_GELAce_Pro_Pearl_WhitePink/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "56ec184a7306cd512801015c79461ced61c3d2bba4b3df4389dc71b39f13f477",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "299e0222f0a1474fa3e1b63691f3628c322b4ba0a11f77474e009005b8bca0a9",
+    "object_id": "gso-ASICS_GELAce_Pro_Pearl_WhitePink",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-ASICS_GELAce_Pro_Pearl_WhitePink/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-ASICS_GELAce_Pro_Pearl_WhitePink/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-ASICS_GELAce_Pro_Pearl_WhitePink/input.png",
+    "source_revision": "GoogleResearch/ASICS_GELAce_Pro_Pearl_WhitePink/v1;zip-sha256:b291f5c18233ec7cfba47d7039049aef6e366747bede64354ba76884e1824472"
+  }
+}

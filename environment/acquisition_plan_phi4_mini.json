@@ -1,0 +1,92 @@
+{
+  "timestamp_utc": "2026-10-28T16:54:45.580768+00:00",
+  "model": "phi4_mini",
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "resolved_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "download_bytes": 7693972012,
+  "existing_bytes_by_size": 21905796,
+  "remaining_bytes_by_size": 7672066216,
+  "free_disk_bytes": 364818014208,
+  "destination": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\phi4_mini",
+  "files": [
+    {
+      "path": "LICENSE",
+      "size_bytes": 1084,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "8ab7b4964d147858b89544e8ca33203237161edc"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 29246,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "0bcd41c7c7bdded52ee8c7f28d9ba636d56ea448"
+    },
+    {
+      "path": "added_tokens.json",
+      "size_bytes": 249,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "af52cde61cc39aca58f7b7f04116b317116e75dd"
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 2504,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "679e70defca5b399ae9e8ad53ff1176c9d7c6f93"
+    },
+    {
+      "path": "generation_config.json",
+      "size_bytes": 168,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "43b32d0bc199571e0818489fa01c1002d7a40452"
+    },
+    {
+      "path": "merges.txt",
+      "size_bytes": 2418348,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "dcecc4524288b351bbd0da8028e74e9b5bcdb9b5"
+    },
+    {
+      "path": "model-00001-of-00002.safetensors",
+      "size_bytes": 4903637712,
+      "expected_sha256": "bc703090b63eda16f639fa4de7ac54635c23105ab1da2f6ec4d3403151d38ee6",
+      "expected_git_blob_sha1": null
+    },
+    {
+      "path": "model-00002-of-00002.safetensors",
+      "size_bytes": 2768428504,
+      "expected_sha256": "7ff79b9d2d31076bac2663393451f6530f4fc8ca49b09002116c92c373dba983",
+      "expected_git_blob_sha1": null
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size_bytes": 16273,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "d87cc3650f8e8dec46fc6871826ef30b941d0c94"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size_bytes": 587,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "156262f7d61a27706bdcad9d117c579e88e2fa27"
+    },
+    {
+      "path": "tokenizer.json",
+      "size_bytes": 15524095,
+      "expected_sha256": "382cc235b56c725945e149cc25f191da667c836655efd0857b004320e90e91ea",
+      "expected_git_blob_sha1": null
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 2932,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "f5958080514e266176052f86c80aa53f91ce4ba0"
+    },
+    {
+      "path": "vocab.json",
+      "size_bytes": 3910310,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "ea953a43348cdb3776cb7fd9ea02e3784febde34"
+    }
+  ],
+  "cache_dir": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\hub"
+}

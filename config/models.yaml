@@ -1,0 +1,73 @@
+models:
+  fashion_siglip:
+    pair: retrieval
+    model_id: Marqo/marqo-fashionSigLIP
+    revision: c56244cc94f92419e8369fa71efdaf403b124ce8
+    precision: float32
+    local_files_only: true
+    licence: Apache-2.0
+    checkpoint: open_clip_model.safetensors
+  siglip2:
+    pair: retrieval
+    model_id: google/siglip2-base-patch16-224
+    revision: 75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2
+    precision: float32
+    local_files_only: true
+    licence: Apache-2.0
+  sdxl_lightning:
+    pair: generation
+    model_id: ByteDance/SDXL-Lightning
+    revision: c9a24f48e1c025556787b0c58dd67a091ece2e44
+    base_model: stabilityai/stable-diffusion-xl-base-1.0
+    base_revision: 462165984030d82259a11f4367a4eed129e94a7b
+    checkpoint: sdxl_lightning_4step_unet.safetensors
+    precision: float16
+    steps: 4
+    guidance_scale: 0.0
+    scheduler: EulerDiscreteScheduler
+    timestep_spacing: trailing
+    local_files_only: true
+    licence: openrail++
+  flux2_klein:
+    pair: generation
+    model_id: black-forest-labs/FLUX.2-klein-4b-fp8
+    revision: 5b4408e59397a4a37ccb46afe426d8ed86379441
+    precision: fp8
+    steps: 4
+    guidance_scale: 1.0
+    local_files_only: true
+    licence: Apache-2.0
+  phi4_mini:
+    pair: assistance
+    model_id: microsoft/Phi-4-mini-instruct
+    revision: cfbefacb99257ffa30c83adab238a50856ac3083
+    precision: bfloat16
+    quantization: none
+    local_files_only: true
+    trust_remote_code: false
+    licence: MIT
+  qwen35_4b:
+    pair: assistance
+    model_id: Qwen/Qwen3.5-4B
+    revision: 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a
+    precision: bfloat16
+    quantization: none
+    enable_thinking: false
+    local_files_only: true
+    trust_remote_code: false
+    licence: Apache-2.0
+  spar3d:
+    pair: reconstruction
+    model_id: stabilityai/stable-point-aware-3d
+    revision: 5699918cb34f55cd7d828493d2725f3038313761
+    precision: model_native
+    low_vram: true
+    local_files_only: true
+    licence: Stability-AI-Community
+  sf3d:
+    pair: reconstruction
+    model_id: stabilityai/stable-fast-3d
+    revision: f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778
+    precision: model_native
+    local_files_only: true
+    licence: Stability-AI-Community

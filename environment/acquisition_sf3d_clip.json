@@ -1,0 +1,35 @@
+{
+  "model_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+  "resolved_revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+  "destination": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\sf3d_clip",
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 7464,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "f98c15535900ca2429412e47fdee969e15f4bd23"
+    },
+    {
+      "path": "open_clip_config.json",
+      "size_bytes": 604,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "1b6eff34f99870baea40be64f7cab5443677efce"
+    },
+    {
+      "path": "open_clip_pytorch_model.bin",
+      "size_bytes": 605219813,
+      "expected_sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad",
+      "expected_git_blob_sha1": null
+    }
+  ],
+  "status": "downloaded",
+  "sha256": {
+    "README.md": "d0600101ba66849bd84eeae14e0b1ccd56cd962ea94aec5d60c415d9ce4e5f28",
+    "open_clip_config.json": "4302a891b495ad0966d1e7eeff102b5f34a3f1e647e57a9198933f862d5f8ba7",
+    "open_clip_pytorch_model.bin": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad"
+  },
+  "transport": "bounded_http_ranges",
+  "completed_at_utc": "2026-10-28T16:55:42.192208+00:00",
+  "free_disk_after": 363644817408,
+  "gpu_inference_performed": false
+}

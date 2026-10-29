@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-10-28T16:08:16.108806+00:00",
+  "event": "Original Hugging Face Hub directories found under pip quarantine names; responsible installer not established by retained logs",
+  "action": "Paused dependency installers; restored exact original package and dist-info names without reinstall or overwrite; hf CLI help verified",
+  "restored_version": "1.9.2",
+  "drivers_or_toolkits_changed": false,
+  "prevention": "Task installers use local overlays with ignore-installed/no-deps or explicit local targets"
+}

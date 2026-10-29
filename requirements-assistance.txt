@@ -1,0 +1,6 @@
+-r requirements-core.txt
+transformers>=5.5,<6
+accelerate>=1.6,<2
+# Optional bitsandbytes is needed only for an explicitly configured NF4/INT8
+# deployment. Both measured assistance models use native BF16 without it.
+safetensors>=0.5,<1

@@ -1,0 +1,29 @@
+{
+  "model_id": "black-forest-labs/FLUX.2-klein-4b-fp8",
+  "revision": "5b4408e59397a4a37ccb46afe426d8ed86379441",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "bytes": 9584,
+      "official_lfs_sha256": null,
+      "sha256": "ca02bc51900ab07789d1b70283329e7137f5af98f5161c23a1c81fc38a4af1fe"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7778,
+      "official_lfs_sha256": null,
+      "sha256": "ea6508d37e9fd71ac259bec352f4fb22342a0bf02db13ad00d638d926aceb1dd"
+    },
+    {
+      "path": "flux-2-klein-4b-fp8.safetensors",
+      "bytes": 4070624520,
+      "official_lfs_sha256": "97ed34fe0567e436200f2faee3939b88f2b5d99f8af2a4dc16532c4245c0ccb6",
+      "sha256": "97ed34fe0567e436200f2faee3939b88f2b5d99f8af2a4dc16532c4245c0ccb6"
+    }
+  ],
+  "expected_bytes": 4070641882,
+  "status": "downloaded_and_hash_verified",
+  "snapshot": "models\\hub\\models--black-forest-labs--FLUX.2-klein-4b-fp8\\snapshots\\5b4408e59397a4a37ccb46afe426d8ed86379441",
+  "transport": "bounded_http_ranges",
+  "timestamp_utc": "2026-10-28T16:59:59.334214+00:00"
+}

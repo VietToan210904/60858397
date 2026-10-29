@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "e5e7c1be85f9cb1f8c8b0c598c058cb773095c275c79fb2d29969fde7e8f6b1e",
+    "preparation_metadata": "41e2ecb9a932c335cae22cf6d84a24d7cafd395561ccf58de32167abfb4603d6",
+    "reference_mesh": "2e017b1a4fbe2635b1eba4e4d46351c3e9f510b83aab86ead57e0f9c51f12353",
+    "source_image": "64e099dbaa915073caf7ed2bd22ef5192c741f6cea4f27aa166772826fe0a84c",
+    "view_0_reference_rgb": "6728153d7892a0d5f765687140e931fa15c5d59fa949ba8c17bd5f1c5c7cd699",
+    "view_0_reference_silhouette": "69f307d2d276c4de8e9d02bb829450454c955c80a43042130dd64f832458ff3b",
+    "view_1_reference_rgb": "5f4245ec587ada3b028bbdd9e1076d5bd6d35b286646f53c4adb5e273c38a25c",
+    "view_1_reference_silhouette": "51d4882ebec1dbb7d1adf4a1a39109da151e3b87d8d5aed8c935abca3ba71309",
+    "view_2_reference_rgb": "d80c92e711556f0c3d3ccc59f99f6ca2e1e7d3a0089deef8c4a4ae600af1a781",
+    "view_2_reference_silhouette": "59226f10cfb85dce792e9a9d8379f0770f12bcaf7aa39fa6e406654ed8607ddf",
+    "view_3_reference_rgb": "8da21e6ed02a840cb44e81cfebaddf9ef88058294b9d30f30598c0bf4daab5e8",
+    "view_3_reference_silhouette": "22c5d1044692cff588b5d70355d4698744c0fcf3263c92e80455592faf83fbb7"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack/camera_info.json",
+    "category": "backpack",
+    "geometry_eligible": "false",
+    "image_sha256": "64e099dbaa915073caf7ed2bd22ef5192c741f6cea4f27aa166772826fe0a84c",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "2e017b1a4fbe2635b1eba4e4d46351c3e9f510b83aab86ead57e0f9c51f12353",
+    "object_id": "gso-Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack/input.png",
+    "source_revision": "GoogleResearch/Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack/v1;zip-sha256:337538a58fc12e5a229f368b2c58a9735f9b687de51ed2b48a66fa56dbd5be06"
+  }
+}

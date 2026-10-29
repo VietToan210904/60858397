@@ -1,0 +1,28 @@
+{
+  ".venv-sf3d": {
+    "returncode": 0,
+    "imports": {
+      "torch": "2.11.0+cu128",
+      "compiled_cuda": "12.8",
+      "numpy": "1.26.4",
+      "transformers": "4.42.3",
+      "tokenizers": "0.19.1",
+      "model_weights_loaded": false,
+      "gpu_inference_performed": false
+    },
+    "stderr": ""
+  },
+  ".venv-spar3d": {
+    "returncode": 0,
+    "imports": {
+      "torch": "2.11.0+cu128",
+      "compiled_cuda": "12.8",
+      "numpy": "1.26.4",
+      "transformers": "4.42.3",
+      "tokenizers": "0.19.1",
+      "model_weights_loaded": false,
+      "gpu_inference_performed": false
+    },
+    "stderr": ""
+  }
+}

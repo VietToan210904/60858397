@@ -1,0 +1,10 @@
+[
+  {
+    "review_id": "image_43e549e095f0a129",
+    "run_id": "781ea670cda64582989fdcad8483bb3e",
+    "model": "sdxl_lightning",
+    "case_id": "dev-gen-001",
+    "seed": 8410,
+    "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\781ea670cda64582989fdcad8483bb3e\\sdxl_lightning\\dev-gen-001_8410.png"
+  }
+]

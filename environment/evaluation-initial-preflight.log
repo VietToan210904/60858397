@@ -1,0 +1,41 @@
+[
+  {
+    "pair": "retrieval",
+    "success": 0,
+    "failed": 0,
+    "blocked": 2,
+    "resumed": 0,
+    "records": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\retrieval\\records.jsonl"
+  },
+  {
+    "pair": "generation",
+    "run_id": "4c23032f5ac34628b289b13fef53079f",
+    "records": 144,
+    "resumed": 0,
+    "success": 0,
+    "blocked": 144,
+    "failed": 0,
+    "review": {
+      "images": 0,
+      "ratings_csv": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\review\\ratings.csv",
+      "review_html": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\4c23032f5ac34628b289b13fef53079f\\review\\review.html"
+    }
+  },
+  {
+    "pair": "assistance",
+    "success": 0,
+    "failed": 0,
+    "blocked": 160,
+    "resumed": 0,
+    "records": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\assistance\\records.jsonl"
+  },
+  {
+    "pair": "reconstruction",
+    "run_id": "b6059bd498124cb6a584dcbed9486e0d",
+    "records": 2,
+    "resumed": 0,
+    "success": 0,
+    "blocked": 2,
+    "failed": 0
+  }
+]

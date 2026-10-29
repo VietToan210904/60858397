@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "0e3b7bb5edd14bb345dd68c9927feba7975235eb4db4b31aac418f6dca9f0cc9",
+    "preparation_metadata": "e14a2c375f8056becdf5bd52b90955cc28373f7bacfb12f3cb5b982f0add4264",
+    "reference_mesh": "5c35392df2d8a9f47d783bd928a8e0778f0395939d529a60122d435a91744662",
+    "source_image": "dc56eb5dcd9730b732ef8df710b74d871a1eca79d334a580fa0c5cad186b88c0",
+    "view_0_reference_rgb": "dac7901b4a1ae8d2c25ab1ecaac3286c58cc5e76038b39d94b263ef69c9a8856",
+    "view_0_reference_silhouette": "dc298ed573175379d903e7e02912d86b9cb4fee55de3a273874207f799d2acf8",
+    "view_1_reference_rgb": "bbae8e5829c1e8efaf929a79d358adf01889ff83a2a764fa671cf2f5a8edbecb",
+    "view_1_reference_silhouette": "0dd6256b6dc508c7ae9df89780d832ed45010d038c980ba135e912e8a729ab74",
+    "view_2_reference_rgb": "558e1a6f713242e972f22dc7829d78aef4b89c3919783ef1daacf3383d272219",
+    "view_2_reference_silhouette": "f8ff4eca2b46863272e979c7058e708a877f4d58432537f8c3ead41611421495",
+    "view_3_reference_rgb": "fab83ccc97ccabb03c01eb8e62bd59ba30fa7bac1933b3d32192ece41208c643",
+    "view_3_reference_silhouette": "003e25bd52f35cd0823632204278f877b65bd711b990ce0a3648e1e91888a5ce"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-Jansport_School_Backpack_Blue_Streak/camera_info.json",
+    "category": "backpack",
+    "geometry_eligible": "false",
+    "image_sha256": "dc56eb5dcd9730b732ef8df710b74d871a1eca79d334a580fa0c5cad186b88c0",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "5c35392df2d8a9f47d783bd928a8e0778f0395939d529a60122d435a91744662",
+    "object_id": "gso-Jansport_School_Backpack_Blue_Streak",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-Jansport_School_Backpack_Blue_Streak/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-Jansport_School_Backpack_Blue_Streak/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-Jansport_School_Backpack_Blue_Streak/input.png",
+    "source_revision": "GoogleResearch/Jansport_School_Backpack_Blue_Streak/v1;zip-sha256:6789c4bcbf4be4acb57fa8e275e18520a2ff02856613cf30a79a5cdbbb20714a"
+  }
+}

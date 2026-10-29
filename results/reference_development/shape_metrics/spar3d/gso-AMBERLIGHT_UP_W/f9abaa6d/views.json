@@ -1,0 +1,61 @@
+{
+  "interpretation": "Supplementary independently normalized shape views, with explicitly reference-assisted rigid alignment where labelled",
+  "per_view": [
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.493429784974781,
+      "predicted_silhouette": "results/reference_development/shape_metrics/spar3d/gso-AMBERLIGHT_UP_W/f9abaa6d/unaligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-AMBERLIGHT_UP_W/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.32045986931327824,
+      "predicted_silhouette": "results/reference_development/shape_metrics/spar3d/gso-AMBERLIGHT_UP_W/f9abaa6d/unaligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-AMBERLIGHT_UP_W/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.6164227821175781,
+      "predicted_silhouette": "results/reference_development/shape_metrics/spar3d/gso-AMBERLIGHT_UP_W/f9abaa6d/unaligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-AMBERLIGHT_UP_W/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.34246918215380767,
+      "predicted_silhouette": "results/reference_development/shape_metrics/spar3d/gso-AMBERLIGHT_UP_W/f9abaa6d/unaligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-AMBERLIGHT_UP_W/reference_views/view_03_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.5273794335289614,
+      "predicted_silhouette": "results/reference_development/shape_metrics/spar3d/gso-AMBERLIGHT_UP_W/f9abaa6d/rigid_aligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-AMBERLIGHT_UP_W/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.6666557344790266,
+      "predicted_silhouette": "results/reference_development/shape_metrics/spar3d/gso-AMBERLIGHT_UP_W/f9abaa6d/rigid_aligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-AMBERLIGHT_UP_W/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.2740740740740741,
+      "predicted_silhouette": "results/reference_development/shape_metrics/spar3d/gso-AMBERLIGHT_UP_W/f9abaa6d/rigid_aligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-AMBERLIGHT_UP_W/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.6987250214539659,
+      "predicted_silhouette": "results/reference_development/shape_metrics/spar3d/gso-AMBERLIGHT_UP_W/f9abaa6d/rigid_aligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-AMBERLIGHT_UP_W/reference_views/view_03_mask.png"
+    }
+  ]
+}

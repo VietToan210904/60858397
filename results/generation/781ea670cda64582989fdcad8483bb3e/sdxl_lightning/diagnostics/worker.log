@@ -1,0 +1,32 @@
+C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-generation\Lib\site-packages\huggingface_hub\utils\_validators.py:205: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]
+
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s][A
+Loading weights: 100%|##########| 196/196 [00:00<00:00, 9564.67it/s]
+
+Loading pipeline components...:  29%|##8       | 2/7 [00:00<00:00, 17.27it/s]
+
+Loading weights:   0%|          | 0/517 [00:00<?, ?it/s][A
+Loading weights: 100%|##########| 517/517 [00:00<00:00, 9267.14it/s]
+
+Loading pipeline components...:  86%|########5 | 6/7 [00:00<00:00, 20.01it/s]
+Loading pipeline components...: 100%|##########| 7/7 [00:00<00:00, 21.40it/s]
+C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-generation\Lib\site-packages\diffusers\pipelines\pipeline_utils.py:2263: FutureWarning: `enable_vae_slicing` is deprecated and will be removed in version 0.40.0. Calling `enable_vae_slicing()` on a `StableDiffusionXLPipeline` is deprecated and this method will be removed in a future version. Please use `pipe.vae.enable_slicing()`.
+  deprecate(
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+ 25%|##5       | 1/4 [00:07<00:21,  7.13s/it]
+ 75%|#######5  | 3/4 [00:07<00:01,  1.93s/it]
+100%|##########| 4/4 [00:07<00:00,  1.31s/it]
+100%|##########| 4/4 [00:07<00:00,  1.87s/it]
+C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-generation\Lib\site-packages\diffusers\pipelines\stable_diffusion_xl\pipeline_stable_diffusion_xl.py:748: FutureWarning: `upcast_vae` is deprecated and will be removed in version 1.0.0. `upcast_vae` is deprecated. Please use `pipe.vae.to(torch.float32)`. For more details, please refer to: https://github.com/huggingface/diffusers/pull/12619#issue-3606633695.
+  deprecate(
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+ 25%|##5       | 1/4 [00:01<00:04,  1.46s/it]
+ 50%|#####     | 2/4 [00:01<00:01,  1.47it/s]
+ 75%|#######5  | 3/4 [00:01<00:00,  2.32it/s]
+100%|##########| 4/4 [00:01<00:00,  3.19it/s]
+100%|##########| 4/4 [00:01<00:00,  2.15it/s]

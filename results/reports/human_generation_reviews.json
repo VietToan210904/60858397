@@ -1,0 +1,38 @@
+[
+  {
+    "worksheet": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\human_review\\ratings.csv",
+    "ratings_sha256": "79119df8f2456b6292c2f5ba4ba77832a436f010a2499526dc2950e068ef2ace",
+    "mapping_sha256": "be28dfe632403a8f61dbdd23d44ac4461b66856c56c20d4bc1c652e0a7185aeb",
+    "n_assessments": 0,
+    "n_images_rated": 0,
+    "per_prompt": [],
+    "models": {},
+    "missing_review_images": 144,
+    "aggregation": "image->prompt->model; supplementary reviewer votes average within image",
+    "usable_rule": "unanimous nonblank per-image votes; disagreement missing pending documented adjudication",
+    "usable_coverage": {
+      "n_images_total": 144,
+      "n_images_with_votes": 0,
+      "n_images_decided": 0,
+      "n_images_disagreement": 0,
+      "n_images_missing_votes": 144
+    },
+    "usable_coverage_by_model": {
+      "sdxl_lightning": {
+        "n_images_total": 72,
+        "n_images_with_votes": 0,
+        "n_images_decided": 0,
+        "n_images_disagreement": 0,
+        "n_images_missing_votes": 72
+      },
+      "flux2_klein": {
+        "n_images_total": 72,
+        "n_images_with_votes": 0,
+        "n_images_decided": 0,
+        "n_images_disagreement": 0,
+        "n_images_missing_votes": 72
+      }
+    },
+    "paired_prompt_comparisons": []
+  }
+]

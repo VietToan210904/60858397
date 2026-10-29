@@ -1,0 +1,917 @@
+{
+  "selection_before_model_outputs": true,
+  "objects": [
+    {
+      "source_name": "11pro_SL_TRX_FG",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 12175,
+      "source_faces": 20706,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.049106,
+          -0.145473,
+          -4.1e-05
+        ],
+        [
+          0.049121,
+          0.145463,
+          0.117876
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.1688120411361949,
+          -0.2026510985233866,
+          -0.5000000000000001
+        ],
+        [
+          0.16881204113619494,
+          0.2026510985233866,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "AMBERLIGHT_UP_W",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 13386,
+      "source_faces": 23444,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.051688,
+          -0.122637,
+          -1.8e-05
+        ],
+        [
+          0.051703,
+          0.122675,
+          0.179624
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.21073367792851552,
+          -0.36615004565614406,
+          -0.5
+        ],
+        [
+          0.21073367792851552,
+          0.36615004565614395,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "ASICS_GEL1140V_WhiteBlackSilver",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 20718,
+      "source_faces": 37508,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.053122,
+          -0.140343,
+          5.2e-05
+        ],
+        [
+          0.053074,
+          0.140425,
+          0.123127
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.18911699338956006,
+          -0.21917561830408022,
+          -0.4999999999999999
+        ],
+        [
+          0.18911699338956006,
+          0.21917561830408022,
+          0.49999999999999994
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "ASICS_GEL1140V_WhiteRoyalSilver",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 21956,
+      "source_faces": 38246,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.05283,
+          -0.140361,
+          -3.8e-05
+        ],
+        [
+          0.052834,
+          0.140354,
+          0.123684
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.1882051190709438,
+          -0.22036941381828543,
+          -0.49999999999999994
+        ],
+        [
+          0.1882051190709438,
+          0.2203694138182854,
+          0.49999999999999994
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "ASICS_GELAce_Pro_Pearl_WhitePink",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 27351,
+      "source_faces": 45698,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.052678,
+          -0.145066,
+          -1.5e-05
+        ],
+        [
+          0.052663,
+          0.145097,
+          0.133596
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.18152038681706492,
+          -0.23023438550056347,
+          -0.5
+        ],
+        [
+          0.1815203868170649,
+          0.23023438550056347,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 21713,
+      "source_faces": 39092,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.04973,
+          -0.12713,
+          -7.2e-05
+        ],
+        [
+          0.049786,
+          0.127148,
+          0.098125
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.19568346455454266,
+          -0.19308984654590644,
+          -0.49999999999999994
+        ],
+        [
+          0.19568346455454264,
+          0.19308984654590644,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 16788,
+      "source_faces": 30660,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.04953,
+          -0.126824,
+          -6.3e-05
+        ],
+        [
+          0.049606,
+          0.126846,
+          0.114479
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.19540347695825286,
+          -0.22576970079236808,
+          -0.5
+        ],
+        [
+          0.1954034769582529,
+          0.22576970079236808,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "ASICS_GELChallenger_9_Royal_BlueWhiteBlack",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 18925,
+      "source_faces": 33438,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.056517,
+          -0.149277,
+          -8.2e-05
+        ],
+        [
+          0.056481,
+          0.149184,
+          0.114883
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.18930111471850597,
+          -0.19259635262228567,
+          -0.5000000000000001
+        ],
+        [
+          0.18930111471850594,
+          0.1925963526222857,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "ASICS_GELDirt_Dog_4_SunFlameBlack",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 24075,
+      "source_faces": 44502,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.051905,
+          -0.142167,
+          -6e-05
+        ],
+        [
+          0.051842,
+          0.14211,
+          0.109592
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.18247519145059218,
+          -0.19286118820727668,
+          -0.49999999999999994
+        ],
+        [
+          0.1824751914505922,
+          0.1928611882072767,
+          0.4999999999999999
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "ASICS_GELLinksmaster_WhiteCoffeeSand",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 20811,
+      "source_faces": 34586,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.05813,
+          -0.149581,
+          2.5e-05
+        ],
+        [
+          0.058178,
+          0.149588,
+          0.141368
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.19438511343087017,
+          -0.23622601272190633,
+          -0.5
+        ],
+        [
+          0.1943851134308702,
+          0.23622601272190635,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "ASICS_GELLinksmaster_WhiteRasberryGunmetal",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 18421,
+      "source_faces": 31266,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.052666,
+          -0.13639,
+          -6.7e-05
+        ],
+        [
+          0.052657,
+          0.13646,
+          0.120108
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.19300531427524278,
+          -0.22022173355323438,
+          -0.49999999999999994
+        ],
+        [
+          0.19300531427524278,
+          0.22022173355323435,
+          0.49999999999999994
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "ASICS_GELLinksmaster_WhiteSilverCarolina_Blue",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 20274,
+      "source_faces": 34160,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.053361,
+          -0.136456,
+          -8.9e-05
+        ],
+        [
+          0.053475,
+          0.136412,
+          0.13257
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.19576498526760192,
+          -0.2430827359749036,
+          -0.49999999999999994
+        ],
+        [
+          0.19576498526760192,
+          0.24308273597490362,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "ASICS_GELResolution_5_Flash_YellowBlackSilver",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 20472,
+      "source_faces": 36694,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.056451,
+          -0.149635,
+          -3.6e-05
+        ],
+        [
+          0.0564,
+          0.149665,
+          0.114313
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.1885248914132977,
+          -0.19102739726027396,
+          -0.49999999999999994
+        ],
+        [
+          0.1885248914132977,
+          0.19102739726027398,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "ASICS_GELTour_Lyte_WhiteOrchidSilver",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 15980,
+      "source_faces": 26000,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.050145,
+          -0.13314,
+          -2.9e-05
+        ],
+        [
+          0.050148,
+          0.133166,
+          0.121844
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.18830405623605925,
+          -0.22882135588383284,
+          -0.5
+        ],
+        [
+          0.18830405623605923,
+          0.22882135588383284,
+          0.49999999999999994
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 11914,
+      "source_faces": 21152,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.04472,
+          -0.124582,
+          -2.4e-05
+        ],
+        [
+          0.044819,
+          0.124564,
+          0.090269
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.17969182728199531,
+          -0.18120499626724895,
+          -0.5000000000000001
+        ],
+        [
+          0.17969182728199531,
+          0.18120499626724898,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 26218,
+      "source_faces": 45866,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.05589,
+          -0.144002,
+          -1.5e-05
+        ],
+        [
+          0.055902,
+          0.144054,
+          0.124319
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.19404560224400813,
+          -0.21581567472991364,
+          -0.5
+        ],
+        [
+          0.19404560224400813,
+          0.21581567472991364,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 28736,
+      "source_faces": 48412,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.059122,
+          -0.153372,
+          -4.1e-05
+        ],
+        [
+          0.059082,
+          0.153411,
+          0.130638
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.19265083136940445,
+          -0.2129827923972319,
+          -0.49999999999999994
+        ],
+        [
+          0.19265083136940442,
+          0.21298279239723195,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 17200,
+      "source_faces": 30976,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.043971,
+          -0.121462,
+          -2.3e-05
+        ],
+        [
+          0.04392,
+          0.121492,
+          0.081445
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.18087991965557268,
+          -0.16766136799558767,
+          -0.49999999999999994
+        ],
+        [
+          0.18087991965557265,
+          0.16766136799558762,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 26300,
+      "source_faces": 41832,
+      "source_degenerate_faces": 4,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.052443,
+          -0.146633,
+          -3.4e-05
+        ],
+        [
+          0.052408,
+          0.146639,
+          0.115691
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.17876067268610712,
+          -0.19729977631686627,
+          -0.5
+        ],
+        [
+          0.1787606726861071,
+          0.19729977631686627,
+          0.5
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "Jansport_School_Backpack_Blue_Streak",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 18490,
+      "source_faces": 30092,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.166643,
+          -0.182341,
+          -0.000141
+        ],
+        [
+          0.191013,
+          0.187005,
+          0.440007
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.4062906113398221,
+          -0.5,
+          -0.4195702354662522
+        ],
+        [
+          0.406290611339822,
+          0.4999999999999999,
+          0.4195702354662523
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "Olive_Kids_Birdie_Sidekick_Backpack",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 17192,
+      "source_faces": 28666,
+      "source_degenerate_faces": 2,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.154165,
+          -0.127162,
+          -3e-06
+        ],
+        [
+          0.167715,
+          0.116985,
+          0.385721
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.4172413435513476,
+          -0.5000000000000001,
+          -0.3164788812726198
+        ],
+        [
+          0.4172413435513476,
+          0.4999999999999999,
+          0.31647888127261986
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "Olive_Kids_Dinosaur_Land_Sidekick_Backpack",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 12833,
+      "source_faces": 22640,
+      "source_degenerate_faces": 2,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.155302,
+          -0.14614,
+          -4.3e-05
+        ],
+        [
+          0.154825,
+          0.146142,
+          0.380118
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.4078890259653147,
+          -0.49999999999999994,
+          -0.3844187068110616
+        ],
+        [
+          0.4078890259653147,
+          0.5000000000000001,
+          0.38441870681106166
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "Olive_Kids_Mermaids_Pack_n_Snack_Backpack",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 15509,
+      "source_faces": 27022,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.142333,
+          -0.121298,
+          -4.9e-05
+        ],
+        [
+          0.142633,
+          0.120373,
+          0.320957
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.44386397762035595,
+          -0.49999999999999994,
+          -0.3764275434104035
+        ],
+        [
+          0.44386397762035595,
+          0.49999999999999994,
+          0.3764275434104035
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    },
+    {
+      "source_name": "Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack",
+      "eligible": true,
+      "exclusion_reason": null,
+      "source_vertices": 28690,
+      "source_faces": 43896,
+      "source_degenerate_faces": 0,
+      "source_texture_size": [
+        4096,
+        4096
+      ],
+      "source_bounds": [
+        [
+          -0.171765,
+          -0.126361,
+          2.2e-05
+        ],
+        [
+          0.171715,
+          0.126751,
+          0.376264
+        ]
+      ],
+      "normalized_bounds": [
+        [
+          -0.4564615327369087,
+          -0.5000000000000001,
+          -0.33636861381770244
+        ],
+        [
+          0.4564615327369087,
+          0.4999999999999999,
+          0.3363686138177025
+        ]
+      ],
+      "uv_valid": true,
+      "texture_decoded": true
+    }
+  ]
+}

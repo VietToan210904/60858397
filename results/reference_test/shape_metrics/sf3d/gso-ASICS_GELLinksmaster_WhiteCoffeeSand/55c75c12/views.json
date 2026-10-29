@@ -1,0 +1,61 @@
+{
+  "interpretation": "Supplementary independently normalized shape views, with explicitly reference-assisted rigid alignment where labelled",
+  "per_view": [
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.4269069384085119,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/55c75c12/unaligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.08063437470144263,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/55c75c12/unaligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.3846496793442848,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/55c75c12/unaligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.08670600808512616,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/55c75c12/unaligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/reference_views/view_03_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.4770603937270604,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/55c75c12/rigid_aligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.6935731928974228,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/55c75c12/rigid_aligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.4923640330372448,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/55c75c12/rigid_aligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.6135180240320427,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/55c75c12/rigid_aligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/reference_views/view_03_mask.png"
+    }
+  ]
+}

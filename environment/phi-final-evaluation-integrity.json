@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-10-28T17:10:52.721385+00:00",
+  "run_id": "d9923b2e32d54eb0955cbc11cc801808",
+  "model": "phi4_mini",
+  "case_count": 80,
+  "status_counts": {
+    "success": 40,
+    "failed": 40
+  },
+  "failure_types": {
+    "ValueError": 38,
+    "JSONDecodeError": 2
+  },
+  "integrity_errors": [],
+  "frozen_source_errors": [],
+  "all_attempts_have_timings": true,
+  "all_parameter_devices": [
+    "{\"cuda:0\": 3836021760}"
+  ],
+  "note": "Trace replay and hashes establish internal evidence consistency, not human task success or semantic correctness of every prose claim."
+}

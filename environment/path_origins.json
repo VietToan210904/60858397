@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "2026-10-28T16:50:35.423277+00:00",
+  "original_project_roots": [
+    "C:/Users/tonyh_yxuq8za/60858397_Evaluation"
+  ],
+  "purpose": "Resolve immutable historical absolute artifact references to exact packaged copies after relocation; new artifacts use relative paths."
+}

@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-10-28T16:27:57.591383+00:00",
+  "model_environment": "spar3d",
+  "purpose": "synthetic native CUDA extension numerical test only",
+  "synthetic": true,
+  "model_inference_performed": false,
+  "benchmark_record": false,
+  "passed": true,
+  "torch": "2.11.0+cu128",
+  "compiled_cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 4070 SUPER",
+  "resolution": 16,
+  "occupied_pixels": 88,
+  "assertions": [
+    "nonempty proper occupancy",
+    "finite RGB interpolation",
+    "constant attributes preserved",
+    "barycentric weights sum to one"
+  ]
+}

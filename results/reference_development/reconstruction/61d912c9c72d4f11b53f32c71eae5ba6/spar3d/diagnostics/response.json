@@ -1,0 +1,154 @@
+{
+  "results": [
+    {
+      "case_id": "gso-11pro_SL_TRX_FG",
+      "status": "success",
+      "timings": {
+        "inference_s": 14.60555719997501,
+        "model_load_s": 0.5689908000058495,
+        "export_s": 0.04486029996769503,
+        "preprocessing_s": 0.012816399976145476,
+        "end_to_end_s": 14.664186199952383,
+        "warmup_excluded_s": 18.981726600031834
+      },
+      "metrics": {
+        "peak_allocated_mb": 8019.16455078125,
+        "peak_reserved_mb": 8460.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_development/reconstruction/61d912c9c72d4f11b53f32c71eae5ba6/spar3d/gso-11pro_SL_TRX_FG/mesh.glb",
+        "prepared_input": "results/reference_development/reconstruction/61d912c9c72d4f11b53f32c71eae5ba6/spar3d/gso-11pro_SL_TRX_FG/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-AMBERLIGHT_UP_W",
+      "status": "success",
+      "timings": {
+        "inference_s": 14.171087199996691,
+        "model_load_s": 0.5689908000058495,
+        "export_s": 0.02299750002566725,
+        "preprocessing_s": 0.009390000021085143,
+        "end_to_end_s": 14.204649000021163
+      },
+      "metrics": {
+        "peak_allocated_mb": 8017.16064453125,
+        "peak_reserved_mb": 8482.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_development/reconstruction/61d912c9c72d4f11b53f32c71eae5ba6/spar3d/gso-AMBERLIGHT_UP_W/mesh.glb",
+        "prepared_input": "results/reference_development/reconstruction/61d912c9c72d4f11b53f32c71eae5ba6/spar3d/gso-AMBERLIGHT_UP_W/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-Jansport_School_Backpack_Blue_Streak",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.343635899946094,
+        "model_load_s": 0.5689908000058495,
+        "export_s": 0.023861799971200526,
+        "preprocessing_s": 0.016559100011363626,
+        "end_to_end_s": 13.38500120001845
+      },
+      "metrics": {
+        "peak_allocated_mb": 8018.60205078125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_development/reconstruction/61d912c9c72d4f11b53f32c71eae5ba6/spar3d/gso-Jansport_School_Backpack_Blue_Streak/mesh.glb",
+        "prepared_input": "results/reference_development/reconstruction/61d912c9c72d4f11b53f32c71eae5ba6/spar3d/gso-Jansport_School_Backpack_Blue_Streak/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-Olive_Kids_Birdie_Sidekick_Backpack",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.59640539996326,
+        "model_load_s": 0.5689908000058495,
+        "export_s": 0.022894500056281686,
+        "preprocessing_s": 0.01529010001104325,
+        "end_to_end_s": 12.635459600016475
+      },
+      "metrics": {
+        "peak_allocated_mb": 8017.99658203125,
+        "peak_reserved_mb": 8482.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_development/reconstruction/61d912c9c72d4f11b53f32c71eae5ba6/spar3d/gso-Olive_Kids_Birdie_Sidekick_Backpack/mesh.glb",
+        "prepared_input": "results/reference_development/reconstruction/61d912c9c72d4f11b53f32c71eae5ba6/spar3d/gso-Olive_Kids_Birdie_Sidekick_Backpack/prepared_input.png"
+      },
+      "error": null
+    }
+  ],
+  "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Scripts\\python.exe",
+  "adapter_source_sha256": "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351",
+  "seed_policy": "Reset Python/NumPy/Torch/CUDA seed immediately before each measured inference, after excluded warmup",
+  "torch_version": "2.11.0+cu128",
+  "cuda_version": "12.8",
+  "libraries": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "Pillow": "12.2.0",
+    "transformers": "4.42.3",
+    "omegaconf": "2.3.0",
+    "trimesh": "4.4.1",
+    "safetensors": "0.7.0",
+    "huggingface-hub": "0.23.4",
+    "clip": "1.0",
+    "alpha-clip": "1.0",
+    "open-clip-torch": "3.3.0"
+  },
+  "checkpoint_provenance": {
+    "revision": "5699918cb34f55cd7d828493d2725f3038313761",
+    "files": {
+      "config.yaml": {
+        "size_bytes": 3996,
+        "sha256": "2795e11a7a6cb381a442e07abfdb5a3c0cc20e711c6e7e349ba73bf343c2ebdd"
+      },
+      "model.safetensors": {
+        "size_bytes": 7326949440,
+        "sha256": "62673b63fd9dad425e74b213ffe8501262d9621d5174310ac33017747be31f58"
+      }
+    }
+  },
+  "native_extension_provenance": {
+    "receipt_sha256": "92d8c9f603c11c376003077b2e85ce312107b178dc94be742914dffc170730fc",
+    "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+    "artifacts": {
+      "texture_baker._C": {
+        "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\texture_baker\\_C.cp311-win_amd64.pyd",
+        "sha256": "a2423056b11192d0bd798d07d62448adb60604bae823ccbea74998afc9f2ae66"
+      },
+      "uv_unwrapper._C": {
+        "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\uv_unwrapper\\_C.cp311-win_amd64.pyd",
+        "sha256": "ca22c8966e3b38e96f0421786f30cb6ade642ea5fe8d5becc752920eb24ff9ea"
+      }
+    }
+  },
+  "auxiliary_provenance": {
+    "dinov2": {
+      "repo_id": "facebook/dinov2-large",
+      "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+      "weights_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+      "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+      "configuration_paths": [
+        "image_tokenizer.pretrained_model_name_or_path",
+        "pdiff_image_tokenizer.pretrained_model_name_or_path"
+      ]
+    },
+    "alpha_clip": {
+      "model": "OpenAI ViT-L/14@336px",
+      "sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+    },
+    "operational_config_sha256": "8bdf9d16222055b7ed0a0b3920bb5501b5d8149c61f085a6bf16bd6fed9ea3ec",
+    "changes": "Only local initialization asset paths; architecture, kernels and final model weights unchanged"
+  },
+  "device": "NVIDIA GeForce RTX 4070 SUPER",
+  "source_revision": "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1",
+  "source_dirty": false,
+  "resolved_checkpoint_revision": "5699918cb34f55cd7d828493d2725f3038313761"
+}

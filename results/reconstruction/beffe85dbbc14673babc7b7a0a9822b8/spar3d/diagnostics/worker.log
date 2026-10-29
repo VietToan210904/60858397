@@ -1,0 +1,5 @@
+C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\timm\models\layers\__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+WARNING:root:Could not import gpytoolbox. Triangle remeshing functionality will be disabled. Install via `pip install gpytoolbox`
+WARNING:root:Could not import pynanoinstantmeshes. Quad remeshing functionality will be disabled. Install via `pip install pynanoinstantmeshes==0.0.3`
+Loading in low VRAM mode

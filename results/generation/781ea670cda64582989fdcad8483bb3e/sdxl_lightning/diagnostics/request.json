@@ -1,0 +1,32 @@
+{
+  "model": "sdxl_lightning",
+  "model_config": {
+    "pair": "generation",
+    "model_id": "ByteDance/SDXL-Lightning",
+    "revision": "c9a24f48e1c025556787b0c58dd67a091ece2e44",
+    "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "base_revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "checkpoint": "sdxl_lightning_4step_unet.safetensors",
+    "precision": "float16",
+    "steps": 4,
+    "guidance_scale": 0.0,
+    "scheduler": "EulerDiscreteScheduler",
+    "timestep_spacing": "trailing",
+    "local_files_only": true,
+    "licence": "openrail++",
+    "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-generation\\Scripts\\python.exe",
+    "cache_dir": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\hub",
+    "cpu_offload": true
+  },
+  "cases": [
+    {
+      "case_id": "dev-gen-001",
+      "prompt": "Studio photograph of one plain tan leather loafer on an ivory background, three-quarter view, soft side lighting, no lettering.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\781ea670cda64582989fdcad8483bb3e\\sdxl_lightning\\dev-gen-001_8410.png"
+    }
+  ],
+  "warmup_runs": 1,
+  "width": 1024,
+  "height": 1024
+}

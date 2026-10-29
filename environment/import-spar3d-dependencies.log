@@ -1,0 +1,11 @@
+C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-spar3d\Lib\site-packages\albumentations\__init__.py:13: UserWarning: A new version of Albumentations is available: 2.0.8 (you have 1.4.15). Upgrade using: pip install -U albumentations. To disable automatic update checks, set the environment variable NO_ALBUMENTATIONS_UPDATE to 1.
+  check_for_updates()
+C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\timm\models\layers\__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-spar3d\Lib\site-packages\transparent_background\__init__.py", line 2, in <module>
+    from transparent_background.gui import gui
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-spar3d\Lib\site-packages\transparent_background\gui.py", line 2, in <module>
+    from flet import (
+ImportError: cannot import name 'ElevatedButton' from 'flet' (C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-spar3d\Lib\site-packages\flet\__init__.py)

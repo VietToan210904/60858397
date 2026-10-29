@@ -1,0 +1,9 @@
+# Separate development data; never merged with the original ABO results.
+seed: 8410
+evaluation:
+  warmup_runs: 1
+  reconstruction:
+    dataset_dir: datasets/reconstruction_reference/development
+    texture_resolution: 1024
+    render_views: false
+    reference_metric_protocol: config/reconstruction_reference_protocol.json

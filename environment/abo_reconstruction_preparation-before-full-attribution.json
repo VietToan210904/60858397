@@ -1,0 +1,35 @@
+{
+  "source_images_transferred_bytes": 9068932,
+  "objects_retained": 20,
+  "candidates_screened": 21,
+  "excluded": [
+    {
+      "source_id": "B07WTN8B8C",
+      "category": "HANDBAG",
+      "outcome": "excluded",
+      "reasons": [
+        "multiple major disconnected foreground regions; possible multi-object photo or mask fragmentation"
+      ],
+      "original_sha256": "3f7c3e85e3e4173b8abc1bb42383d214098994f87594160214257a936357cfa1",
+      "original_size": [
+        2560,
+        1698
+      ],
+      "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/75/7545861d.jpg",
+      "etag": "\"86e9e989867fbd0e8839803fa0e945c3\"",
+      "last_modified": "Thu, 17 Jun 2021 13:05:41 GMT",
+      "mask_qa": {
+        "foreground_fraction": 0.25943051592415317,
+        "largest_component_fraction": 0.590173022657597,
+        "largest_secondary_component_fraction": 0.40959413685476853,
+        "component_count": 5
+      }
+    }
+  ],
+  "selection_plan_sha256": "c989ef5b26390827e938330502e99a7af51a47c09435c7a5694283a7b7b29022",
+  "all_geometry_and_view_metrics_ineligible": true,
+  "gpu_inference_performed": false,
+  "manifest_sha256": "84cc249b2c6688643ae5009e48742336898c3cad23c0dae78e190eebe7b8a501",
+  "case_count": 20,
+  "explicit_redistribution_record": "datasets/reconstruction/RIGHTS_AND_ATTRIBUTION.json"
+}

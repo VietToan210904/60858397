@@ -1,0 +1,177 @@
+WARNING: Ignoring invalid distribution ~uggingface-hub (C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\site-packages)
+Collecting setuptools==69.5.1 (from -r environment/requirements-sf3d-native.txt (line 1))
+  Downloading setuptools-69.5.1-py3-none-any.whl.metadata (6.2 kB)
+Requirement already satisfied: wheel in c:\users\tonyh_yxuq8za\60858397_evaluation\.venv-retrieval\lib\site-packages (from -r environment/requirements-sf3d-native.txt (line 2)) (0.48.0)
+Collecting ninja (from -r environment/requirements-sf3d-native.txt (line 3))
+  Downloading ninja-1.13.2-py3-none-win_amd64.whl.metadata (5.4 kB)
+Collecting einops==0.7.0 (from -r environment/requirements-sf3d-native.txt (line 4))
+  Downloading einops-0.7.0-py3-none-any.whl.metadata (13 kB)
+Collecting jaxtyping==0.2.31 (from -r environment/requirements-sf3d-native.txt (line 5))
+  Downloading jaxtyping-0.2.31-py3-none-any.whl.metadata (6.4 kB)
+Collecting omegaconf==2.3.0 (from -r environment/requirements-sf3d-native.txt (line 6))
+  Downloading omegaconf-2.3.0-py3-none-any.whl.metadata (3.9 kB)
+Collecting transformers==4.42.3 (from -r environment/requirements-sf3d-native.txt (line 7))
+  Downloading transformers-4.42.3-py3-none-any.whl.metadata (43 kB)
+     ---------------------------------------- 43.6/43.6 kB 1.1 MB/s eta 0:00:00
+Collecting trimesh==4.4.1 (from -r environment/requirements-sf3d-native.txt (line 8))
+  Downloading trimesh-4.4.1-py3-none-any.whl.metadata (18 kB)
+Collecting numpy==1.26.4 (from -r environment/requirements-sf3d-native.txt (line 9))
+  Downloading numpy-1.26.4-cp311-cp311-win_amd64.whl.metadata (61 kB)
+     ---------------------------------------- 61.0/61.0 kB 1.6 MB/s eta 0:00:00
+Collecting huggingface-hub==0.23.4 (from -r environment/requirements-sf3d-native.txt (line 10))
+  Downloading huggingface_hub-0.23.4-py3-none-any.whl.metadata (12 kB)
+Collecting open_clip_torch==2.24.0 (from -r environment/requirements-sf3d-native.txt (line 11))
+  Downloading open_clip_torch-2.24.0-py3-none-any.whl.metadata (30 kB)
+Collecting rembg==2.0.57 (from rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading rembg-2.0.57-py3-none-any.whl.metadata (16 kB)
+Collecting pynanoinstantmeshes==0.0.3 (from -r environment/requirements-sf3d-native.txt (line 13))
+  Downloading pynanoinstantmeshes-0.0.3-cp311-cp311-win_amd64.whl.metadata (402 bytes)
+Collecting gpytoolbox==0.2.0 (from -r environment/requirements-sf3d-native.txt (line 14))
+  Downloading gpytoolbox-0.2.0-cp311-cp311-win_amd64.whl.metadata (9.9 kB)
+Collecting typeguard==2.13.3 (from jaxtyping==0.2.31->-r environment/requirements-sf3d-native.txt (line 5))
+  Downloading typeguard-2.13.3-py3-none-any.whl.metadata (3.6 kB)
+Collecting antlr4-python3-runtime==4.9.* (from omegaconf==2.3.0->-r environment/requirements-sf3d-native.txt (line 6))
+  Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+     -------------------------------------- 117.0/117.0 kB 2.3 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: PyYAML>=5.1.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from omegaconf==2.3.0->-r environment/requirements-sf3d-native.txt (line 6)) (6.0.3)
+Requirement already satisfied: filelock in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from transformers==4.42.3->-r environment/requirements-sf3d-native.txt (line 7)) (3.25.2)
+Requirement already satisfied: packaging>=20.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from transformers==4.42.3->-r environment/requirements-sf3d-native.txt (line 7)) (26.0)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from transformers==4.42.3->-r environment/requirements-sf3d-native.txt (line 7)) (2026.2.28)
+Requirement already satisfied: requests in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from transformers==4.42.3->-r environment/requirements-sf3d-native.txt (line 7)) (2.34.2)
+Requirement already satisfied: safetensors>=0.4.1 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from transformers==4.42.3->-r environment/requirements-sf3d-native.txt (line 7)) (0.7.0)
+Collecting tokenizers<0.20,>=0.19 (from transformers==4.42.3->-r environment/requirements-sf3d-native.txt (line 7))
+  Downloading tokenizers-0.19.1-cp311-none-win_amd64.whl.metadata (6.9 kB)
+Requirement already satisfied: tqdm>=4.27 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from transformers==4.42.3->-r environment/requirements-sf3d-native.txt (line 7)) (4.67.3)
+Requirement already satisfied: fsspec>=2023.5.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub==0.23.4->-r environment/requirements-sf3d-native.txt (line 10)) (2026.2.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub==0.23.4->-r environment/requirements-sf3d-native.txt (line 10)) (4.15.0)
+Requirement already satisfied: torch>=1.9.0 in c:\users\tonyh_yxuq8za\60858397_evaluation\.venv-retrieval\lib\site-packages (from open_clip_torch==2.24.0->-r environment/requirements-sf3d-native.txt (line 11)) (2.11.0+cu128)
+Requirement already satisfied: torchvision in c:\users\tonyh_yxuq8za\60858397_evaluation\.venv-retrieval\lib\site-packages (from open_clip_torch==2.24.0->-r environment/requirements-sf3d-native.txt (line 11)) (0.26.0+cu128)
+Requirement already satisfied: ftfy in c:\users\tonyh_yxuq8za\60858397_evaluation\.venv-retrieval\lib\site-packages (from open_clip_torch==2.24.0->-r environment/requirements-sf3d-native.txt (line 11)) (6.3.1)
+Requirement already satisfied: sentencepiece in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from open_clip_torch==2.24.0->-r environment/requirements-sf3d-native.txt (line 11)) (0.2.1)
+Requirement already satisfied: protobuf in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from open_clip_torch==2.24.0->-r environment/requirements-sf3d-native.txt (line 11)) (7.34.0)
+Requirement already satisfied: timm in c:\users\tonyh_yxuq8za\60858397_evaluation\.venv-retrieval\lib\site-packages (from open_clip_torch==2.24.0->-r environment/requirements-sf3d-native.txt (line 11)) (1.0.30)
+Requirement already satisfied: jsonschema in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12)) (4.26.0)
+Collecting onnxruntime (from rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading onnxruntime-1.31.1-cp311-cp311-win_amd64.whl.metadata (6.1 kB)
+Collecting opencv-python-headless (from rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading opencv_python_headless-5.0.0.93-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Requirement already satisfied: pillow in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12)) (12.2.0)
+Collecting pooch (from rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading pooch-1.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting pymatting (from rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading pymatting-1.1.16-py3-none-any.whl.metadata (9.1 kB)
+Collecting scikit-image (from rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading scikit_image-0.26.0-cp311-cp311-win_amd64.whl.metadata (15 kB)
+Requirement already satisfied: scipy in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12)) (1.17.1)
+Collecting onnxruntime-gpu (from rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading onnxruntime_gpu-1.31.1-cp311-cp311-win_amd64.whl.metadata (6.2 kB)
+Requirement already satisfied: sympy>=1.13.3 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from torch>=1.9.0->open_clip_torch==2.24.0->-r environment/requirements-sf3d-native.txt (line 11)) (1.14.0)
+Requirement already satisfied: networkx>=2.5.1 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from torch>=1.9.0->open_clip_torch==2.24.0->-r environment/requirements-sf3d-native.txt (line 11)) (3.6.1)
+Requirement already satisfied: jinja2 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from torch>=1.9.0->open_clip_torch==2.24.0->-r environment/requirements-sf3d-native.txt (line 11)) (3.1.6)
+Requirement already satisfied: colorama in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from tqdm>=4.27->transformers==4.42.3->-r environment/requirements-sf3d-native.txt (line 7)) (0.4.6)
+Collecting wcwidth (from ftfy->open_clip_torch==2.24.0->-r environment/requirements-sf3d-native.txt (line 11))
+  Downloading wcwidth-0.9.4-cp310-abi3-win_amd64.whl.metadata (24 kB)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from jsonschema->rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12)) (26.1.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from jsonschema->rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12)) (2025.9.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from jsonschema->rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12)) (0.37.0)
+Requirement already satisfied: rpds-py>=0.25.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from jsonschema->rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12)) (0.30.0)
+Collecting flatbuffers (from onnxruntime->rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
+INFO: pip is looking at multiple versions of opencv-python-headless to determine which version is compatible with other requirements. This could take a while.
+Collecting opencv-python-headless (from rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading opencv_python_headless-4.14.0.94-cp37-abi3-win_amd64.whl.metadata (20 kB)
+  Downloading opencv_python_headless-4.13.0.92-cp37-abi3-win_amd64.whl.metadata (20 kB)
+  Downloading opencv_python_headless-4.13.0.90-cp37-abi3-win_amd64.whl.metadata (20 kB)
+  Downloading opencv_python_headless-4.12.0.88-cp37-abi3-win_amd64.whl.metadata (20 kB)
+  Downloading opencv_python_headless-4.11.0.86-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Requirement already satisfied: platformdirs>=2.5.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from pooch->rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12)) (4.9.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from requests->transformers==4.42.3->-r environment/requirements-sf3d-native.txt (line 7)) (3.4.4)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from requests->transformers==4.42.3->-r environment/requirements-sf3d-native.txt (line 7)) (3.18)
+Requirement already satisfied: urllib3<3,>=1.26 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from requests->transformers==4.42.3->-r environment/requirements-sf3d-native.txt (line 7)) (2.6.3)
+Requirement already satisfied: certifi>=2023.5.7 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from requests->transformers==4.42.3->-r environment/requirements-sf3d-native.txt (line 7)) (2026.2.25)
+Collecting numba>=0.60.0 (from pymatting->rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading numba-0.68.1-cp311-cp311-win_amd64.whl.metadata (2.9 kB)
+Collecting imageio!=2.35.0,>=2.33 (from scikit-image->rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading imageio-2.38.1-py3-none-any.whl.metadata (9.7 kB)
+Collecting tifffile>=2022.8.12 (from scikit-image->rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading tifffile-2026.3.3-py3-none-any.whl.metadata (31 kB)
+Collecting lazy-loader>=0.4 (from scikit-image->rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading lazy_loader-0.6-py3-none-any.whl.metadata (6.0 kB)
+Collecting llvmlite<0.51,>=0.50.0dev0 (from numba>=0.60.0->pymatting->rembg==2.0.57->rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading llvmlite-0.50.0-cp311-cp311-win_amd64.whl.metadata (5.0 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from sympy>=1.13.3->torch>=1.9.0->open_clip_torch==2.24.0->-r environment/requirements-sf3d-native.txt (line 11)) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from jinja2->torch>=1.9.0->open_clip_torch==2.24.0->-r environment/requirements-sf3d-native.txt (line 11)) (3.0.3)
+Downloading setuptools-69.5.1-py3-none-any.whl (894 kB)
+   ---------------------------------------- 894.6/894.6 kB 1.8 MB/s eta 0:00:00
+Downloading einops-0.7.0-py3-none-any.whl (44 kB)
+   ---------------------------------------- 44.6/44.6 kB 2.3 MB/s eta 0:00:00
+Downloading jaxtyping-0.2.31-py3-none-any.whl (41 kB)
+   ---------------------------------------- 42.0/42.0 kB ? eta 0:00:00
+Downloading omegaconf-2.3.0-py3-none-any.whl (79 kB)
+   ---------------------------------------- 79.5/79.5 kB 2.2 MB/s eta 0:00:00
+Downloading transformers-4.42.3-py3-none-any.whl (9.3 MB)
+   ---------------------------------------- 9.3/9.3 MB 5.5 MB/s eta 0:00:00
+Downloading trimesh-4.4.1-py3-none-any.whl (694 kB)
+   ---------------------------------------- 694.7/694.7 kB 8.8 MB/s eta 0:00:00
+Downloading numpy-1.26.4-cp311-cp311-win_amd64.whl (15.8 MB)
+   ---------------------------------------- 15.8/15.8 MB 10.9 MB/s eta 0:00:00
+Downloading huggingface_hub-0.23.4-py3-none-any.whl (402 kB)
+   --------------------------------------- 402.6/402.6 kB 12.7 MB/s eta 0:00:00
+Downloading open_clip_torch-2.24.0-py3-none-any.whl (1.5 MB)
+   ---------------------------------------- 1.5/1.5 MB 11.9 MB/s eta 0:00:00
+Downloading rembg-2.0.57-py3-none-any.whl (33 kB)
+Downloading pynanoinstantmeshes-0.0.3-cp311-cp311-win_amd64.whl (1.0 MB)
+   ---------------------------------------- 1.0/1.0 MB 10.7 MB/s eta 0:00:00
+Downloading gpytoolbox-0.2.0-cp311-cp311-win_amd64.whl (3.5 MB)
+   ---------------------------------------- 3.5/3.5 MB 4.4 MB/s eta 0:00:00
+Downloading typeguard-2.13.3-py3-none-any.whl (17 kB)
+Downloading ninja-1.13.2-py3-none-win_amd64.whl (311 kB)
+   --------------------------------------- 311.8/311.8 kB 20.1 MB/s eta 0:00:00
+Downloading tokenizers-0.19.1-cp311-none-win_amd64.whl (2.2 MB)
+   ---------------------------------------- 2.2/2.2 MB 11.8 MB/s eta 0:00:00
+Downloading onnxruntime-1.31.1-cp311-cp311-win_amd64.whl (14.9 MB)
+   ---------------------------------------- 14.9/14.9 MB 11.5 MB/s eta 0:00:00
+Downloading onnxruntime_gpu-1.31.1-cp311-cp311-win_amd64.whl (168.1 MB)
+   --------------------------------------- 168.1/168.1 MB 11.1 MB/s eta 0:00:00
+Downloading opencv_python_headless-4.11.0.86-cp37-abi3-win_amd64.whl (39.4 MB)
+   ---------------------------------------- 39.4/39.4 MB 11.7 MB/s eta 0:00:00
+Downloading pooch-1.9.0-py3-none-any.whl (67 kB)
+   ---------------------------------------- 67.2/67.2 kB ? eta 0:00:00
+Downloading pymatting-1.1.16-py3-none-any.whl (56 kB)
+   ---------------------------------------- 56.3/56.3 kB ? eta 0:00:00
+Downloading scikit_image-0.26.0-cp311-cp311-win_amd64.whl (11.9 MB)
+   ---------------------------------------- 11.9/11.9 MB 11.7 MB/s eta 0:00:00
+Downloading imageio-2.38.1-py3-none-any.whl (328 kB)
+   --------------------------------------- 328.4/328.4 kB 19.9 MB/s eta 0:00:00
+Downloading lazy_loader-0.6-py3-none-any.whl (8.8 kB)
+Downloading numba-0.68.1-cp311-cp311-win_amd64.whl (2.8 MB)
+   ---------------------------------------- 2.8/2.8 MB 12.9 MB/s eta 0:00:00
+Downloading tifffile-2026.3.3-py3-none-any.whl (243 kB)
+   --------------------------------------- 244.0/244.0 kB 14.6 MB/s eta 0:00:00
+Downloading flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+Downloading wcwidth-0.9.4-cp310-abi3-win_amd64.whl (597 kB)
+   --------------------------------------- 597.8/597.8 kB 12.5 MB/s eta 0:00:00
+Downloading llvmlite-0.50.0-cp311-cp311-win_amd64.whl (41.9 MB)
+   ---------------------------------------- 41.9/41.9 MB 11.7 MB/s eta 0:00:00
+Building wheels for collected packages: antlr4-python3-runtime
+  Building wheel for antlr4-python3-runtime (setup.py): started
+  Building wheel for antlr4-python3-runtime (setup.py): finished with status 'done'
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144577 sha256=297b23c5ff6d3fe4d5bdacf1c2607495e3c2cb4cce9d474a593faef7b4017fa0
+  Stored in directory: C:\Users\tonyh_yxuq8za\AppData\Local\Temp\pip-ephem-wheel-cache-ldwtl8il\wheels\1a\97\32\461f837398029ad76911109f07047fde1d7b661a147c7c56d1
+Successfully built antlr4-python3-runtime
+WARNING: Ignoring invalid distribution ~uggingface-hub (C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\site-packages)
+Installing collected packages: flatbuffers, antlr4-python3-runtime, wcwidth, typeguard, setuptools, pynanoinstantmeshes, omegaconf, numpy, ninja, llvmlite, lazy-loader, einops, trimesh, tifffile, pooch, opencv-python-headless, onnxruntime-gpu, onnxruntime, numba, jaxtyping, imageio, huggingface-hub, tokenizers, scikit-image, pymatting, transformers, rembg, gpytoolbox, open_clip_torch
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 65.5.0
+    Uninstalling setuptools-65.5.0:
+      Successfully uninstalled setuptools-65.5.0
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.4.2
+    Not uninstalling numpy at c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages, outside environment C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d
+    Can't uninstall 'numpy'. No files were found to uninstall.
+  Attempting uninstall: trimesh
+    Found existing installation: trimesh 4.12.2
+    Not uninstalling trimesh at c:\users\tonyh_yxuq8za\60858397_evaluation\.venv-retrieval\lib\site-packages, outside environment C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d
+    Can't uninstall 'trimesh'. No files were found to uninstall.

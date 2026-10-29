@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-28T23:50:52.692223+00:00",
+  "profiles_sha256": "fca0655f560531c8bbba093fe159e3ceebb1eb00baf97a76ea1f196100ba4d6c",
+  "protocol_sha256": "f4471fae3d7bbcf89bb7819e0cbbdbd012cb9c7ee1fffdbbbcb7c2a0f8c3fac5",
+  "qrels_sha256": "7e7a87c533c547c91982b9ab5f83f24c9cdc3a732e2a95115c19643671e54781",
+  "query_coverage_sha256": "aa5ad75159dc720c667e0ec955ada399a8b105a1b5c4662800d2803d8c3a2994",
+  "n_pairs": 72000,
+  "human_ground_truth": false,
+  "rankings_used_for_labels": false
+}

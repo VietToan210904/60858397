@@ -1,0 +1,38 @@
+{
+  "timestamp_utc": "2026-10-28T20:11:02.506573+00:00",
+  "model": "spar3d",
+  "model_id": "stabilityai/stable-point-aware-3d",
+  "resolved_revision": "5699918cb34f55cd7d828493d2725f3038313761",
+  "download_bytes": 7326971553,
+  "existing_bytes_by_size": 3996,
+  "remaining_bytes_by_size": 7326967557,
+  "free_disk_bytes": 346912841728,
+  "destination": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\spar3d",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "size_bytes": 11716,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "a889fd6b2adf60bbbe8d687e011803892b828eab"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 6401,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "b0b361d7a6435ae73d2973cd4e2de5d820342e63"
+    },
+    {
+      "path": "config.yaml",
+      "size_bytes": 3996,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "691b7b50f13599b03ea5eaaa5fdc01316c31bbf5"
+    },
+    {
+      "path": "model.safetensors",
+      "size_bytes": 7326949440,
+      "expected_sha256": "62673b63fd9dad425e74b213ffe8501262d9621d5174310ac33017747be31f58",
+      "expected_git_blob_sha1": null
+    }
+  ],
+  "cache_dir": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\hub"
+}

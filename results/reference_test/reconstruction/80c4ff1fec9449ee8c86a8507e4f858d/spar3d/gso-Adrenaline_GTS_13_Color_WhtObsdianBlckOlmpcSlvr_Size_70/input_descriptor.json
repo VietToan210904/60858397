@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "96edf6cc49c396c3790ea6743667e1068ae658eefd478949434626c9a13088dc",
+    "preparation_metadata": "1dd64d23738cc308d5f1d23d0d02e03aa7b551ac8073b52202fa0caca0865938",
+    "reference_mesh": "d055825ccf47ff3a367b4e63f2463339054663387129de526cfdc987767ec543",
+    "source_image": "6e5275906fc57cb7cb514852244d51655cbe965a8c6119dbc4ca8b05af20f9d2",
+    "view_0_reference_rgb": "02e5a2899dbdd76bb7f179a8ff42242a2ba2b9c14d99e7aca7ae1832ea33f92c",
+    "view_0_reference_silhouette": "50113fa24aaded65a6e103f69272ce9303fce552d0ab620f1ceee50f0dada29f",
+    "view_1_reference_rgb": "00d834c7217ada4d5f3b37ad7e6a7be9e474f2cbce0a22c08ca21a09fc0802e8",
+    "view_1_reference_silhouette": "87cb7ce2534fdf4b5c21b8b3f47398a076b92bf706d435596dbadbaca4a6f708",
+    "view_2_reference_rgb": "d430a55b66678ec868e2e54fa91229f41936ef8b37b61a59ec6dab2ddc5fb844",
+    "view_2_reference_silhouette": "92c36630862d2ae4f9f1d11447041e1c96224c43266b2f688a62d095dea071b3",
+    "view_3_reference_rgb": "d6f2f897f552da11dd8357ee453322048bdac4f0f8e1d13c657489c8b2d0dcb6",
+    "view_3_reference_silhouette": "437967bf43685e6bd8901a5f69d96f9b471bfc94598adc54f8d285320dbcd065"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "6e5275906fc57cb7cb514852244d51655cbe965a8c6119dbc4ca8b05af20f9d2",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "d055825ccf47ff3a367b4e63f2463339054663387129de526cfdc987767ec543",
+    "object_id": "gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/input.png",
+    "source_revision": "GoogleResearch/Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/v1;zip-sha256:f5cc7ef6d1b657d71dfbb0e1e2dc542b3c398afe5d47bda111fc7a48e103ecb7"
+  }
+}

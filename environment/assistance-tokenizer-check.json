@@ -1,0 +1,20 @@
+[
+  {
+    "model": "phi4_mini",
+    "input_tokens": 340,
+    "chat_template_works": true,
+    "text_only_inputs": true,
+    "enable_thinking": null,
+    "model_weights_loaded": false,
+    "gpu_inference_executed": false
+  },
+  {
+    "model": "qwen35_4b",
+    "input_tokens": 356,
+    "chat_template_works": true,
+    "text_only_inputs": true,
+    "enable_thinking": false,
+    "model_weights_loaded": false,
+    "gpu_inference_executed": false
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-10-28T20:32:07.9826757Z",
+  "raw_records_unchanged": true,
+  "raw_records_sha256": "c90b97c30eb1149626e941e3457e5313f87c5191b02280feec70c6b40d6de001",
+  "inference_expected": false,
+  "command": "evaluate --pair reconstruction --config config/reconstruction-local.yaml",
+  "output_log": "environment/reconstruction-resume-check.log"
+}

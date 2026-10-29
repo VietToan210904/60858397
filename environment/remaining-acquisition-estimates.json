@@ -1,0 +1,49 @@
+{
+  "ByteDance/SDXL-Lightning": {
+    "sha": "c9a24f48e1c025556787b0c58dd67a091ece2e44",
+    "files": [
+      {
+        "path": "sdxl_lightning_4step_unet.safetensors",
+        "bytes": 5135149736
+      }
+    ]
+  },
+  "stabilityai/stable-diffusion-xl-base-1.0": {
+    "sha": "462165984030d82259a11f4367a4eed129e94a7b",
+    "files": [
+      {
+        "path": "text_encoder/model.fp16.safetensors",
+        "bytes": 246144152
+      },
+      {
+        "path": "text_encoder_2/model.fp16.safetensors",
+        "bytes": 1389382176
+      },
+      {
+        "path": "vae/diffusion_pytorch_model.fp16.safetensors",
+        "bytes": 167335342
+      },
+      {
+        "path": "vae_1_0/diffusion_pytorch_model.fp16.safetensors",
+        "bytes": 167335342
+      }
+    ]
+  },
+  "Comfy-Org/flux2-klein-4B": {
+    "sha": "5b3abca5c0dc1ecd4eaf3340868d09063fc1c965",
+    "files": [
+      {
+        "path": "split_files/text_encoders/qwen_3_4b.safetensors",
+        "bytes": 8044982048
+      },
+      {
+        "path": "split_files/text_encoders/qwen_3_4b_fp4_flux2.safetensors",
+        "bytes": 3848213998
+      },
+      {
+        "path": "split_files/vae/flux2-vae.safetensors",
+        "bytes": 336211292
+      }
+    ]
+  }
+}

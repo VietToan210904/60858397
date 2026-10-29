@@ -1,0 +1,1590 @@
+{
+  "schema_version": 1,
+  "kind": "pre_final_reconstruction_deployment_freeze",
+  "source_sha256": {
+    "src/stylesphere/reconstruction/worker.py": "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351",
+    "src/stylesphere/reconstruction/runner.py": "2e2233d0a72e1ab55c2e7b0b576931c10f56cf8fe99f0711916a296f0a970b90",
+    "src/stylesphere/reconstruction/metrics.py": "e0ca04f91f656b2e7eb9bf8ddb112f1a4dc11dd99e8f2db2a434f12ca8996d98",
+    "src/stylesphere/reconstruction/rendering.py": "d1e7b31204764b1e3f8bdc5ce53519e4847ef4a455562c23cc9dd9236daa63a1",
+    "src/stylesphere/generation/runner.py": "bd79763aeb067af6fec632e8e7eec18c7c8c35dbb7326de8e7304050cd63cc00",
+    "src/stylesphere/common/config.py": "f60a0aaeb4619f96e8202c77d2d94c0ad2501b7f21ddf42b4cd932d63d4edf2e",
+    "src/stylesphere/common/io.py": "e82ef94266ade15d86cb75d0b940b0c3256feaf8453cf1ecee1546783b15a271",
+    "src/stylesphere/common/runtime.py": "8794ec20a0ee678301eef285c180d9c893625ce8a7870fda7a196979f66c0a6e",
+    "src/stylesphere/cli.py": "3988852e073742baea0f6193705c16c8396195722427255fb9937ecf8ec4d185"
+  },
+  "protocol_sha256": "59d2dda9fd312f0303a399fc6615bd1ae2b462ab6554ae3e51ef296b055b21ba",
+  "smoke_protocol_sha256": "19fd5179afc3f61b7b84c10bc20a3e2e99666a2047a7acb4cc54fe6dfe2bb232",
+  "deployment_protocol": {
+    "models": {
+      "sf3d": {
+        "pair": "reconstruction",
+        "model_id": "stabilityai/stable-fast-3d",
+        "revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+        "precision": "model_native",
+        "local_files_only": true,
+        "licence": "Stability-AI-Community",
+        "checkout": "vendor/SF3D",
+        "source_revision": "ff21fc491b4dc5314bf6734c7c0dabd86b5f5bb2",
+        "python": ".venv-sf3d/Scripts/python.exe",
+        "weights_path": "models/sf3d",
+        "auxiliary": {
+          "dinov2": {
+            "path": "../dinov2_large",
+            "repo_id": "facebook/dinov2-large",
+            "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+            "model_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+            "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0"
+          },
+          "open_clip": {
+            "path": "../sf3d_clip/open_clip_pytorch_model.bin",
+            "repo_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+            "revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+            "sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad"
+          }
+        },
+        "extension_build": {
+          "receipt": "../../environment/native-build-sf3d.json",
+          "receipt_sha256": "50954cff8269fcb9a82b152494180216949c13cb4de2ee9ff59811283e25930f",
+          "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+          "binary_sha256": {
+            "texture_baker._C": "eef43fa5997bda2424daeac5c0c43ca8f478d0a93cf320f0e144428fda36b3cc",
+            "uv_unwrapper._C": "94c74559ace87ac666526d49e16f3f4cbab55c20ce269c34c5d18a53d97d2120"
+          }
+        },
+        "checkpoint_files": {
+          "config.yaml": {
+            "size_bytes": 2405,
+            "git_blob_sha1": "4a44aec5e6af76975afcaedae7e888b96412c832"
+          },
+          "model.safetensors": {
+            "size_bytes": 4024289892,
+            "sha256": "a3416e1cf654e7d4f5e75f116cec2c3f0a14501a77d30c2f6068bbda178de388"
+          }
+        }
+      },
+      "spar3d": {
+        "pair": "reconstruction",
+        "model_id": "stabilityai/stable-point-aware-3d",
+        "revision": "5699918cb34f55cd7d828493d2725f3038313761",
+        "precision": "model_native",
+        "low_vram": true,
+        "local_files_only": true,
+        "licence": "Stability-AI-Community",
+        "checkout": "vendor/SPAR3D",
+        "source_revision": "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1",
+        "python": ".venv-spar3d/Scripts/python.exe",
+        "weights_path": "models/spar3d",
+        "auxiliary": {
+          "dinov2": {
+            "path": "../dinov2_large",
+            "repo_id": "facebook/dinov2-large",
+            "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+            "model_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+            "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0"
+          },
+          "alpha_clip": {
+            "path": "../spar3d_clip/ViT-L-14-336px.pt",
+            "sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+          }
+        },
+        "extension_build": {
+          "receipt": "../../environment/native-build-spar3d.json",
+          "receipt_sha256": "92d8c9f603c11c376003077b2e85ce312107b178dc94be742914dffc170730fc",
+          "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+          "binary_sha256": {
+            "texture_baker._C": "a2423056b11192d0bd798d07d62448adb60604bae823ccbea74998afc9f2ae66",
+            "uv_unwrapper._C": "ca22c8966e3b38e96f0421786f30cb6ade642ea5fe8d5becc752920eb24ff9ea"
+          }
+        },
+        "checkpoint_files": {
+          "config.yaml": {
+            "size_bytes": 3996,
+            "git_blob_sha1": "691b7b50f13599b03ea5eaaa5fdc01316c31bbf5"
+          },
+          "model.safetensors": {
+            "size_bytes": 7326949440,
+            "sha256": "62673b63fd9dad425e74b213ffe8501262d9621d5174310ac33017747be31f58"
+          }
+        }
+      }
+    },
+    "seed": 8410,
+    "evaluation": {
+      "sample_points": 10000,
+      "fscore_thresholds": [
+        0.01,
+        0.02,
+        0.05
+      ],
+      "normalization": "shared_reference_unit_diagonal",
+      "dataset_dir": "datasets/reconstruction"
+    },
+    "warmup_runs": 1
+  },
+  "smoke_protocol": {
+    "models": {
+      "sf3d": {
+        "pair": "reconstruction",
+        "model_id": "stabilityai/stable-fast-3d",
+        "revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+        "precision": "model_native",
+        "local_files_only": true,
+        "licence": "Stability-AI-Community",
+        "checkout": "vendor/SF3D",
+        "source_revision": "ff21fc491b4dc5314bf6734c7c0dabd86b5f5bb2",
+        "python": ".venv-sf3d/Scripts/python.exe",
+        "weights_path": "models/sf3d",
+        "auxiliary": {
+          "dinov2": {
+            "path": "../dinov2_large",
+            "repo_id": "facebook/dinov2-large",
+            "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+            "model_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+            "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0"
+          },
+          "open_clip": {
+            "path": "../sf3d_clip/open_clip_pytorch_model.bin",
+            "repo_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+            "revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+            "sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad"
+          }
+        },
+        "extension_build": {
+          "receipt": "../../environment/native-build-sf3d.json",
+          "receipt_sha256": "50954cff8269fcb9a82b152494180216949c13cb4de2ee9ff59811283e25930f",
+          "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+          "binary_sha256": {
+            "texture_baker._C": "eef43fa5997bda2424daeac5c0c43ca8f478d0a93cf320f0e144428fda36b3cc",
+            "uv_unwrapper._C": "94c74559ace87ac666526d49e16f3f4cbab55c20ce269c34c5d18a53d97d2120"
+          }
+        },
+        "checkpoint_files": {
+          "config.yaml": {
+            "size_bytes": 2405,
+            "git_blob_sha1": "4a44aec5e6af76975afcaedae7e888b96412c832"
+          },
+          "model.safetensors": {
+            "size_bytes": 4024289892,
+            "sha256": "a3416e1cf654e7d4f5e75f116cec2c3f0a14501a77d30c2f6068bbda178de388"
+          }
+        }
+      },
+      "spar3d": {
+        "pair": "reconstruction",
+        "model_id": "stabilityai/stable-point-aware-3d",
+        "revision": "5699918cb34f55cd7d828493d2725f3038313761",
+        "precision": "model_native",
+        "low_vram": true,
+        "local_files_only": true,
+        "licence": "Stability-AI-Community",
+        "checkout": "vendor/SPAR3D",
+        "source_revision": "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1",
+        "python": ".venv-spar3d/Scripts/python.exe",
+        "weights_path": "models/spar3d",
+        "auxiliary": {
+          "dinov2": {
+            "path": "../dinov2_large",
+            "repo_id": "facebook/dinov2-large",
+            "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+            "model_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+            "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0"
+          },
+          "alpha_clip": {
+            "path": "../spar3d_clip/ViT-L-14-336px.pt",
+            "sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+          }
+        },
+        "extension_build": {
+          "receipt": "../../environment/native-build-spar3d.json",
+          "receipt_sha256": "92d8c9f603c11c376003077b2e85ce312107b178dc94be742914dffc170730fc",
+          "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+          "binary_sha256": {
+            "texture_baker._C": "a2423056b11192d0bd798d07d62448adb60604bae823ccbea74998afc9f2ae66",
+            "uv_unwrapper._C": "ca22c8966e3b38e96f0421786f30cb6ade642ea5fe8d5becc752920eb24ff9ea"
+          }
+        },
+        "checkpoint_files": {
+          "config.yaml": {
+            "size_bytes": 3996,
+            "git_blob_sha1": "691b7b50f13599b03ea5eaaa5fdc01316c31bbf5"
+          },
+          "model.safetensors": {
+            "size_bytes": 7326949440,
+            "sha256": "62673b63fd9dad425e74b213ffe8501262d9621d5174310ac33017747be31f58"
+          }
+        }
+      }
+    },
+    "seed": 8410,
+    "evaluation": {
+      "sample_points": 10000,
+      "fscore_thresholds": [
+        0.01,
+        0.02,
+        0.05
+      ],
+      "normalization": "shared_reference_unit_diagonal",
+      "dataset_dir": "datasets/reconstruction_smoke"
+    },
+    "warmup_runs": 1
+  },
+  "full_inputs": {
+    "directory": "datasets/reconstruction",
+    "documents": {
+      "datasets/reconstruction/abo-B06W9GB1JR-preparation.json": {
+        "sha256": "ec0f061e8d216ea216f0e3fcd510b9abb81b9aaa4c7d024c2ff20c4cb9de3844",
+        "bytes": 1462
+      },
+      "datasets/reconstruction/abo-B07CMD9X29-preparation.json": {
+        "sha256": "a8ba6d0c89477c8ab9c23dff6099c056607a05a9089eb571201af0b3a6438717",
+        "bytes": 1432
+      },
+      "datasets/reconstruction/abo-B07J2DZXXY-preparation.json": {
+        "sha256": "58defd75ff5c40aa84369c233872b407067d8b25eae92cc4f0a07e688074bf08",
+        "bytes": 1430
+      },
+      "datasets/reconstruction/abo-B07JHFZVLV-preparation.json": {
+        "sha256": "5a9b9bdbcbaeb38fb1eed20e27a4c017949080fc61b745960152b3170cdc667f",
+        "bytes": 1465
+      },
+      "datasets/reconstruction/abo-B07PGK6BKK-preparation.json": {
+        "sha256": "a93fc142a7055175063a456285f059e1c63c92f2d2ef5ece1de97a9fe42f968a",
+        "bytes": 1430
+      },
+      "datasets/reconstruction/abo-B07PWXRWBC-preparation.json": {
+        "sha256": "29ca3c5e83edc05ae2c9e4d20fe16682519f03bb1d1d95ed6a243f3d9dbb67bd",
+        "bytes": 1430
+      },
+      "datasets/reconstruction/abo-B07R79WR4V-preparation.json": {
+        "sha256": "371b0e9a02510d2fbf6fe0ef079a656afb6c2e87169bad7444d3e828cd546dae",
+        "bytes": 1429
+      },
+      "datasets/reconstruction/abo-B07VS296PR-preparation.json": {
+        "sha256": "ef1b3f22335f8e777c6adbacf8dd9916555061788c1fb25de60f493ca0655f68",
+        "bytes": 1430
+      },
+      "datasets/reconstruction/abo-B07WRJFN95-preparation.json": {
+        "sha256": "3091699d6b845cdb85d59d2557671c0523977575b8d119d45da557951101cfb9",
+        "bytes": 1463
+      },
+      "datasets/reconstruction/abo-B07WRJG24S-preparation.json": {
+        "sha256": "eea7899bc5800cd684df83ddc436305fae73f65ee01f024e9b210013407f4fae",
+        "bytes": 1430
+      },
+      "datasets/reconstruction/abo-B07WTMZ8N7-preparation.json": {
+        "sha256": "7ed5bedecb249c6258acb76ee885ca02be66231a3a9064d0bc53130359a0f869",
+        "bytes": 1430
+      },
+      "datasets/reconstruction/abo-B07WTMZ91M-preparation.json": {
+        "sha256": "ebf269b7f28a2cedaed0e556e84a54510805c263e263a4d44fdc4f1fb1d93350",
+        "bytes": 1430
+      },
+      "datasets/reconstruction/abo-B07WVRFRR2-preparation.json": {
+        "sha256": "24f0d37f346e5204e303210e96dbd655300314ec283669d8787e4b299cb7f8bb",
+        "bytes": 1430
+      },
+      "datasets/reconstruction/abo-B07XBZR7SR-preparation.json": {
+        "sha256": "cdd599818427122e974fab43b5f013e1f570e3e1f5acc8690fc8dd7db728660b",
+        "bytes": 1430
+      },
+      "datasets/reconstruction/abo-B07XF6F7X7-preparation.json": {
+        "sha256": "81f4761500599dff5277003907b92a98b2c21c2bedb204c91a997766a4a519a4",
+        "bytes": 1430
+      },
+      "datasets/reconstruction/abo-B07XPHD4LK-preparation.json": {
+        "sha256": "984db3d9e83dfdd3227a5f88654a4c66f3ad2f0fe774837fc12724c521921452",
+        "bytes": 1464
+      },
+      "datasets/reconstruction/abo-B07YV78XJW-preparation.json": {
+        "sha256": "8a655d442eb69d0c764918af4e508c2e6f0dab0707a51b2dfd5efa099da8631b",
+        "bytes": 1429
+      },
+      "datasets/reconstruction/abo-B081HNQQWP-preparation.json": {
+        "sha256": "6093121c0c46b57557b11c7bb4a5f4bea8d3bf8dec1a53b18990ef0a8f8074cf",
+        "bytes": 1431
+      },
+      "datasets/reconstruction/abo-B084LLWDFH-preparation.json": {
+        "sha256": "862f078352f724344007562e923cc8453d0d629beb16b3cdb9bc7e7e91386642",
+        "bytes": 1431
+      },
+      "datasets/reconstruction/abo-B086YY3KQG-preparation.json": {
+        "sha256": "2096626f199bfa745751cfe31210a08b95acf9ed4ccb2682b72abc709428152c",
+        "bytes": 1429
+      },
+      "datasets/reconstruction/manifest.json": {
+        "sha256": "1bd1edfc0e6063ab000e6be7b2a59c200f681334754444e6230d21627fe6c1c8",
+        "bytes": 4944
+      },
+      "datasets/reconstruction/objects.csv": {
+        "sha256": "4dc3897c5df79dd2092d83965d6c85ae966bd876409270547a391d072abd9189",
+        "bytes": 6921
+      },
+      "datasets/reconstruction/quality_ledger.json": {
+        "sha256": "ad3bbcd0b85f31d38425e2982391638749ecdf546099feb7c21f8e2c40f4aa99",
+        "bytes": 16412
+      },
+      "datasets/reconstruction/RIGHTS_AND_ATTRIBUTION.json": {
+        "sha256": "fee65ef93dabcf68d7f963afc4da74eb326163585523b42e93f83ca37e0ce3f0",
+        "bytes": 1750
+      },
+      "datasets/reconstruction/selection_plan.json": {
+        "sha256": "c989ef5b26390827e938330502e99a7af51a47c09435c7a5694283a7b7b29022",
+        "bytes": 4870
+      },
+      "datasets/reconstruction/SOURCE_LICENSE_CC_BY_4_0.txt": {
+        "sha256": "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec",
+        "bytes": 14527
+      },
+      "datasets/reconstruction/source_objects.jsonl": {
+        "sha256": "724ca6702d2d4dc0076cc41d244aaca18461225e42668652092400f6bbf57eaa",
+        "bytes": 10955
+      }
+    },
+    "original_assets": {
+      "datasets/reconstruction/assets/original/B086YY3KQG.jpg": {
+        "sha256": "3826cbeb2007adac587df8ea958d02fd60e613754186d2f28451bdf6e6638972",
+        "bytes": 163690
+      },
+      "datasets/reconstruction/assets/original/B07XBZR7SR.jpg": {
+        "sha256": "5469b85237ec4154104ce74e88fcdd7fc673463d06acf54e879611c7d9f35a47",
+        "bytes": 400740
+      },
+      "datasets/reconstruction/assets/original/B084LLWDFH.jpg": {
+        "sha256": "ce618af3f8f3f702c18705f6a6a54d0979c55cc7d516e46f3a1c55964be3324e",
+        "bytes": 244549
+      },
+      "datasets/reconstruction/assets/original/B07PGK6BKK.jpg": {
+        "sha256": "4ec84824bbf05da5fa303bf4c0d675c1b1150a987a721d7927cee6ca39600304",
+        "bytes": 196206
+      },
+      "datasets/reconstruction/assets/original/B07WVRFRR2.jpg": {
+        "sha256": "f9477906b7ad7234236dbc2c3671c19511f5aa4d249105f6cad2a349db2d8545",
+        "bytes": 755217
+      },
+      "datasets/reconstruction/assets/original/B07VS296PR.jpg": {
+        "sha256": "c5ef2263f5964aef702f4753ed5e004f8d0fb76c28ae111dacb65fb541ad9e2a",
+        "bytes": 392692
+      },
+      "datasets/reconstruction/assets/original/B07XPHD4LK.jpg": {
+        "sha256": "0629bde16bf11c81dbf79116b8b84634095dfdfbcaf9d79fed4ad435ecd7fa91",
+        "bytes": 191638
+      },
+      "datasets/reconstruction/assets/original/B06W9GB1JR.jpg": {
+        "sha256": "1a00ef8c69494606453db76fd98bde0599bd82422d65e46724b7c5b35bbd699f",
+        "bytes": 516956
+      },
+      "datasets/reconstruction/assets/original/B07YV78XJW.jpg": {
+        "sha256": "660671e7031e0378789657e65f9dc9e0925bab005bf4ff5136b8b8ff64da29cd",
+        "bytes": 118613
+      },
+      "datasets/reconstruction/assets/original/B07J2DZXXY.jpg": {
+        "sha256": "9df626502990c60e983d0c7a223cbb8ef3e7fa0cd64d65754994ad9820fe5fcb",
+        "bytes": 214514
+      },
+      "datasets/reconstruction/assets/original/B07XF6F7X7.jpg": {
+        "sha256": "e338bb6cf79fdcd402845db3454d74dd4d9cdef4733bbeb90aab911f49793f9c",
+        "bytes": 894827
+      },
+      "datasets/reconstruction/assets/original/B07PWXRWBC.jpg": {
+        "sha256": "5667031fc31032d8030a930b49e93fe1cbb617a2394d33b90eff1b52252a3835",
+        "bytes": 213336
+      },
+      "datasets/reconstruction/assets/original/B07R79WR4V.jpg": {
+        "sha256": "787c00bc0587fa5ba33346fac878a497cf2fe290851451257cdcb8ef15318d17",
+        "bytes": 297305
+      },
+      "datasets/reconstruction/assets/original/B07WRJG24S.jpg": {
+        "sha256": "5d291d2dc00976bb0df236fbcc54400b5503ca0900c6c5af57235d346d244708",
+        "bytes": 518185
+      },
+      "datasets/reconstruction/assets/original/B07CMD9X29.jpg": {
+        "sha256": "c2ca2d7ae0ce34591b831fde0b5547985ebdb616e704105fc7836cb216137f77",
+        "bytes": 304677
+      },
+      "datasets/reconstruction/assets/original/B07WTMZ91M.jpg": {
+        "sha256": "e7ce76f33d988619205f199428f72e718716c2fe715d59ae559957a1612884c0",
+        "bytes": 217324
+      },
+      "datasets/reconstruction/assets/original/B07JHFZVLV.jpg": {
+        "sha256": "e6ecaa5a79a75f7ff857aa55ed1e8b47ad5d587e2d910362dc4f35857c927c2d",
+        "bytes": 1124935
+      },
+      "datasets/reconstruction/assets/original/B07WRJFN95.jpg": {
+        "sha256": "a96fff5d2053973ab757656fbc1784d2e78b4cab16b028eb9b3520bf1d3845d5",
+        "bytes": 587858
+      },
+      "datasets/reconstruction/assets/original/B081HNQQWP.jpg": {
+        "sha256": "19fd402f71f47086e8ddfafba4d0ce9984c596f7b99425e9f2c65e1c5de564c9",
+        "bytes": 292470
+      },
+      "datasets/reconstruction/assets/original/B07WTMZ8N7.jpg": {
+        "sha256": "d49f9ea0000599d51e5a553b6e6670a0670983106212f360d3f3d6c9284bf6c3",
+        "bytes": 598931
+      }
+    },
+    "cases": [
+      {
+        "case_id": "abo-B086YY3KQG",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B086YY3KQG",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B086YY3KQG.png",
+            "category": "BOOT",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B086YY3KQG-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "69e3be20ac179290ffcebf2f768697c88b14afe2fd34fd6b83bf646ee20deb6a",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "69e3be20ac179290ffcebf2f768697c88b14afe2fd34fd6b83bf646ee20deb6a",
+            "preparation_metadata": "2096626f199bfa745751cfe31210a08b95acf9ed4ccb2682b72abc709428152c"
+          }
+        },
+        "input_sha256": "2f438f35d2552424e66efb4c440721057de82e5a53c4a05b740eee0203e87d80"
+      },
+      {
+        "case_id": "abo-B07XBZR7SR",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07XBZR7SR",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07XBZR7SR.png",
+            "category": "HANDBAG",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07XBZR7SR-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "6490f41fa7289ea5ab16ba887c4e574fefb558aadfc741a54fa8efa758db1510",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "6490f41fa7289ea5ab16ba887c4e574fefb558aadfc741a54fa8efa758db1510",
+            "preparation_metadata": "cdd599818427122e974fab43b5f013e1f570e3e1f5acc8690fc8dd7db728660b"
+          }
+        },
+        "input_sha256": "15e9973ea656c18a8ad23adfe15838112191609cdf4214b82ca55a746ec2d743"
+      },
+      {
+        "case_id": "abo-B084LLWDFH",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B084LLWDFH",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B084LLWDFH.png",
+            "category": "SHOES",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B084LLWDFH-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "cb14d7f5c3cd83e0cf600de410c78695bcd8af048ac69d3d27884bc0adfc8048",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "cb14d7f5c3cd83e0cf600de410c78695bcd8af048ac69d3d27884bc0adfc8048",
+            "preparation_metadata": "862f078352f724344007562e923cc8453d0d629beb16b3cdb9bc7e7e91386642"
+          }
+        },
+        "input_sha256": "8974407799ebc987cbab3972f965dcaca1adc8f1c2a4f08271fc5d2ac69fd121"
+      },
+      {
+        "case_id": "abo-B07PGK6BKK",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07PGK6BKK",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07PGK6BKK.png",
+            "category": "BOOT",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07PGK6BKK-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "9c2f1acfcf4f9df585b534bdc4ad775b9149aed32ae811855a93f3369005478c",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "9c2f1acfcf4f9df585b534bdc4ad775b9149aed32ae811855a93f3369005478c",
+            "preparation_metadata": "a93fc142a7055175063a456285f059e1c63c92f2d2ef5ece1de97a9fe42f968a"
+          }
+        },
+        "input_sha256": "e0232d7f58acb55448387f956b2173229e7ea01a211f9ad770d9a113b1ef2e70"
+      },
+      {
+        "case_id": "abo-B07WVRFRR2",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07WVRFRR2",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07WVRFRR2.png",
+            "category": "HANDBAG",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07WVRFRR2-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "9d84ee23b7072f146e923901ec8bbe38d39b496e42544337c91a562f4224bc89",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "9d84ee23b7072f146e923901ec8bbe38d39b496e42544337c91a562f4224bc89",
+            "preparation_metadata": "24f0d37f346e5204e303210e96dbd655300314ec283669d8787e4b299cb7f8bb"
+          }
+        },
+        "input_sha256": "1a331c97f2f0d2cba8411d805b84ef6f73174dd99ca00c3e173533755d0c627f"
+      },
+      {
+        "case_id": "abo-B07VS296PR",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07VS296PR",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07VS296PR.png",
+            "category": "SHOES",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07VS296PR-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "aa3625c7e1feb794c2ea65175baffb7234abeb25bb37c45f68bb85f9bb9a3c57",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "aa3625c7e1feb794c2ea65175baffb7234abeb25bb37c45f68bb85f9bb9a3c57",
+            "preparation_metadata": "ef1b3f22335f8e777c6adbacf8dd9916555061788c1fb25de60f493ca0655f68"
+          }
+        },
+        "input_sha256": "5133be2a1ae7c00bc0a0f4eae4a349c68404f0510d322e424f1d325a5d387d36"
+      },
+      {
+        "case_id": "abo-B07XPHD4LK",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07XPHD4LK",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07XPHD4LK.png",
+            "category": "BOOT",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07XPHD4LK-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "b70f8ea8097b9d37ea4b7cae056eece8b4c1977d8ae2de010364bcb5669d7b5a",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "b70f8ea8097b9d37ea4b7cae056eece8b4c1977d8ae2de010364bcb5669d7b5a",
+            "preparation_metadata": "984db3d9e83dfdd3227a5f88654a4c66f3ad2f0fe774837fc12724c521921452"
+          }
+        },
+        "input_sha256": "053801997eba0a4eda619bdb2b5acd07de180cbbd4945abc6c7d3c00cb1acf43"
+      },
+      {
+        "case_id": "abo-B06W9GB1JR",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B06W9GB1JR",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B06W9GB1JR.png",
+            "category": "HANDBAG",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B06W9GB1JR-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "dccaf6257a8151e9b4255b71a7ba608ad47368c53659675aa5ba7ed18d1b80ae",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "dccaf6257a8151e9b4255b71a7ba608ad47368c53659675aa5ba7ed18d1b80ae",
+            "preparation_metadata": "ec0f061e8d216ea216f0e3fcd510b9abb81b9aaa4c7d024c2ff20c4cb9de3844"
+          }
+        },
+        "input_sha256": "656d52f649054901e58997d272149294f034c840e2785de51a69412a23bafbb0"
+      },
+      {
+        "case_id": "abo-B07YV78XJW",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07YV78XJW",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07YV78XJW.png",
+            "category": "SHOES",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07YV78XJW-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "d2335fde509b6e172f6ebca7f5becc80e717c72e8310cc7084aab4a6cfafa4bd",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "d2335fde509b6e172f6ebca7f5becc80e717c72e8310cc7084aab4a6cfafa4bd",
+            "preparation_metadata": "8a655d442eb69d0c764918af4e508c2e6f0dab0707a51b2dfd5efa099da8631b"
+          }
+        },
+        "input_sha256": "baab412b7095aeadc07e0c2c7f1257122dfd527f2167aeaae5f46d091ef4177c"
+      },
+      {
+        "case_id": "abo-B07J2DZXXY",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07J2DZXXY",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07J2DZXXY.png",
+            "category": "BOOT",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07J2DZXXY-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "ecc1681664627fbb82cd891545528ae0b07b1368fbf9e578c963cab2c6dca084",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "ecc1681664627fbb82cd891545528ae0b07b1368fbf9e578c963cab2c6dca084",
+            "preparation_metadata": "58defd75ff5c40aa84369c233872b407067d8b25eae92cc4f0a07e688074bf08"
+          }
+        },
+        "input_sha256": "d0f2d722f337a8eb55226edfaee4ef63d715b8f626db8651191e62a9e115a7b2"
+      },
+      {
+        "case_id": "abo-B07XF6F7X7",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07XF6F7X7",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07XF6F7X7.png",
+            "category": "HANDBAG",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07XF6F7X7-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "48e5ed66cfefe0cf612d042c9fff6b257f1ca1e42554181273b9a05936bbd1a6",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "48e5ed66cfefe0cf612d042c9fff6b257f1ca1e42554181273b9a05936bbd1a6",
+            "preparation_metadata": "81f4761500599dff5277003907b92a98b2c21c2bedb204c91a997766a4a519a4"
+          }
+        },
+        "input_sha256": "85a37828ab1bf880ac2f480d5db22bdd54779b8b1f7b32382c56ad7ce644fd57"
+      },
+      {
+        "case_id": "abo-B07PWXRWBC",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07PWXRWBC",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07PWXRWBC.png",
+            "category": "SHOES",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07PWXRWBC-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "c3f4f2312cc673a0998ec9aff568301fc175777dab3fc47f78bfb8ba727d09a8",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "c3f4f2312cc673a0998ec9aff568301fc175777dab3fc47f78bfb8ba727d09a8",
+            "preparation_metadata": "29ca3c5e83edc05ae2c9e4d20fe16682519f03bb1d1d95ed6a243f3d9dbb67bd"
+          }
+        },
+        "input_sha256": "e004eb50abc7c0ae08690a03a0685982e52f2f7117739bc471dfb0d3fa4f7e0c"
+      },
+      {
+        "case_id": "abo-B07R79WR4V",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07R79WR4V",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07R79WR4V.png",
+            "category": "BOOT",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07R79WR4V-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "08340a25419b257f199f716c340ba3f4f74a57153e6791e327ddf8682395260e",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "08340a25419b257f199f716c340ba3f4f74a57153e6791e327ddf8682395260e",
+            "preparation_metadata": "371b0e9a02510d2fbf6fe0ef079a656afb6c2e87169bad7444d3e828cd546dae"
+          }
+        },
+        "input_sha256": "10269d7df2a0e12fe212f383b49ceb17ecf34f7b6561476361214eebe58abbac"
+      },
+      {
+        "case_id": "abo-B07WRJG24S",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07WRJG24S",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07WRJG24S.png",
+            "category": "HANDBAG",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07WRJG24S-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "bb8e28d7d32b6aeb1810b98b0667b03cbce669fa9105d46993dad69d8c0c3761",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "bb8e28d7d32b6aeb1810b98b0667b03cbce669fa9105d46993dad69d8c0c3761",
+            "preparation_metadata": "eea7899bc5800cd684df83ddc436305fae73f65ee01f024e9b210013407f4fae"
+          }
+        },
+        "input_sha256": "94738dc14e5e5530141c70b4e779ba98a5538a780033a54f4a795179be6e8144"
+      },
+      {
+        "case_id": "abo-B07CMD9X29",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07CMD9X29",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07CMD9X29.png",
+            "category": "SHOES",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07CMD9X29-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "faa87f1488a38b08c84173d30088a1903f705a5f9cf40ac00f7071ecaca9c419",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "faa87f1488a38b08c84173d30088a1903f705a5f9cf40ac00f7071ecaca9c419",
+            "preparation_metadata": "a8ba6d0c89477c8ab9c23dff6099c056607a05a9089eb571201af0b3a6438717"
+          }
+        },
+        "input_sha256": "a36461740b6ff9c2b41b62aa110a93092b436041da3ae1c137fb1de7cbafb71d"
+      },
+      {
+        "case_id": "abo-B07WTMZ91M",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07WTMZ91M",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07WTMZ91M.png",
+            "category": "HANDBAG",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07WTMZ91M-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "1259d6274c69c6463fc0b36da152a410bda96da93bd111c5aa5cd7d8a63463b0",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "1259d6274c69c6463fc0b36da152a410bda96da93bd111c5aa5cd7d8a63463b0",
+            "preparation_metadata": "ebf269b7f28a2cedaed0e556e84a54510805c263e263a4d44fdc4f1fb1d93350"
+          }
+        },
+        "input_sha256": "4466bc7c4712e972bd641ae921bde5fcdea28740e2f8552aaae93eb47cc398a9"
+      },
+      {
+        "case_id": "abo-B07JHFZVLV",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07JHFZVLV",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07JHFZVLV.png",
+            "category": "HANDBAG",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07JHFZVLV-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "9b5671ecf1b69aed43922d8549f4a8c6f79f9b617fedb8f84d2c3865ae559b14",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "9b5671ecf1b69aed43922d8549f4a8c6f79f9b617fedb8f84d2c3865ae559b14",
+            "preparation_metadata": "5a9b9bdbcbaeb38fb1eed20e27a4c017949080fc61b745960152b3170cdc667f"
+          }
+        },
+        "input_sha256": "a0cc29bc3e52a0c97071ca1e175357b409776bf6c1c4b73edc0626a7c5c3fb46"
+      },
+      {
+        "case_id": "abo-B07WRJFN95",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07WRJFN95",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07WRJFN95.png",
+            "category": "HANDBAG",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07WRJFN95-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "558b53dfa97f9e8d16749f818b9a27651f3f8a82962fa5ee1407f9a9a89870fb",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "558b53dfa97f9e8d16749f818b9a27651f3f8a82962fa5ee1407f9a9a89870fb",
+            "preparation_metadata": "3091699d6b845cdb85d59d2557671c0523977575b8d119d45da557951101cfb9"
+          }
+        },
+        "input_sha256": "e8322744acc611c570b712e96fcfd9ebb8f1711cbc5a988db72409811906bc72"
+      },
+      {
+        "case_id": "abo-B081HNQQWP",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B081HNQQWP",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B081HNQQWP.png",
+            "category": "HANDBAG",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B081HNQQWP-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "476d515c57047575fbd41d98f2f22967380356097ea8c4b87b1de751428bbde9",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "476d515c57047575fbd41d98f2f22967380356097ea8c4b87b1de751428bbde9",
+            "preparation_metadata": "6093121c0c46b57557b11c7bb4a5f4bea8d3bf8dec1a53b18990ef0a8f8074cf"
+          }
+        },
+        "input_sha256": "0b044fe38040dfef1bfc64e6571de2eef963f963b5983a098d5a5dfac7ef11a6"
+      },
+      {
+        "case_id": "abo-B07WTMZ8N7",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B07WTMZ8N7",
+            "source_image": "datasets/reconstruction/assets/prepared/abo-B07WTMZ8N7.png",
+            "category": "HANDBAG",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction/abo-B07WTMZ8N7-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "efac90f14a898d8ef4ceb2efae0c006b1f0ecf16f2906246fd173eaca5f8a365",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "efac90f14a898d8ef4ceb2efae0c006b1f0ecf16f2906246fd173eaca5f8a365",
+            "preparation_metadata": "7ed5bedecb249c6258acb76ee885ca02be66231a3a9064d0bc53130359a0f869"
+          }
+        },
+        "input_sha256": "121f895a2f66f19164614137f33c7f65dd34253e68a6db86e856e55b116ae2c1"
+      }
+    ]
+  },
+  "smoke_inputs": {
+    "directory": "datasets/reconstruction_smoke",
+    "documents": {
+      "datasets/reconstruction_smoke/abo-B00MWQC5Y4-preparation.json": {
+        "sha256": "62ba9f9eff8bb9302c3dd98647bcf150470857ecef62e5b1332dbc6d454355ba",
+        "bytes": 1734
+      },
+      "datasets/reconstruction_smoke/abo-B06W9GB1JR-preparation.json": {
+        "sha256": "4b680b29f4e1dfc08459652f370c560b5e3b72742df1f51d6dde67172e810904",
+        "bytes": 1733
+      },
+      "datasets/reconstruction_smoke/acquisition_manifest.json": {
+        "sha256": "ca622141199add38bc9f0904652f03f36a5a4f2c6d0660713016377f0eb6a2ee",
+        "bytes": 7573
+      },
+      "datasets/reconstruction_smoke/objects.csv": {
+        "sha256": "80e54371c23976b6185ad1319f2e1ceb87dd9a3b023aced2d3c565da268d1fbf",
+        "bytes": 915
+      },
+      "datasets/reconstruction_smoke/RIGHTS_AND_ATTRIBUTION.json": {
+        "sha256": "514db82eb7faf27682ceff3af141afcf0160013d241b917f5860157d3e70bb46",
+        "bytes": 1435
+      },
+      "datasets/reconstruction_smoke/SOURCE_LICENSE_CC_BY_4_0.txt": {
+        "sha256": "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec",
+        "bytes": 14527
+      }
+    },
+    "original_assets": {
+      "datasets/reconstruction_smoke/assets/B00MWQC5Y4-source.jpg": {
+        "sha256": "c0b8c898df5c6b7d7095594ec96280fd9761259d6ac6d1f8a73ce7e5c33b3598",
+        "bytes": 264226
+      },
+      "datasets/reconstruction_smoke/assets/B06W9GB1JR-source.jpg": {
+        "sha256": "1a00ef8c69494606453db76fd98bde0599bd82422d65e46724b7c5b35bbd699f",
+        "bytes": 516956
+      }
+    },
+    "cases": [
+      {
+        "case_id": "abo-B00MWQC5Y4",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B00MWQC5Y4",
+            "source_image": "datasets/reconstruction_smoke/assets/abo-B00MWQC5Y4-rgba.png",
+            "category": "footwear",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction_smoke/abo-B00MWQC5Y4-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "0f01dd7337405ca593f307fbdfe1d5999dc30527dc6608a898d65803b0807b2d",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "0f01dd7337405ca593f307fbdfe1d5999dc30527dc6608a898d65803b0807b2d",
+            "preparation_metadata": "62ba9f9eff8bb9302c3dd98647bcf150470857ecef62e5b1332dbc6d454355ba"
+          }
+        },
+        "input_sha256": "ffa9bd59fb86305ec2295443f7da4a44fda6ad52359fc2a8e77cf076e2ecdab8"
+      },
+      {
+        "case_id": "abo-B06W9GB1JR",
+        "descriptor": {
+          "manifest": {
+            "object_id": "abo-B06W9GB1JR",
+            "source_image": "datasets/reconstruction_smoke/assets/abo-B06W9GB1JR-rgba.png",
+            "category": "handbag",
+            "source_dataset": "Amazon Berkeley Objects",
+            "reference_mesh": "",
+            "camera_info": "",
+            "preparation_metadata": "datasets/reconstruction_smoke/abo-B06W9GB1JR-preparation.json",
+            "geometry_eligible": "false",
+            "silhouette_eligible": "false",
+            "render_similarity_eligible": "false",
+            "licence": "CC-BY-4.0",
+            "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+            "image_sha256": "dccaf6257a8151e9b4255b71a7ba608ad47368c53659675aa5ba7ed18d1b80ae",
+            "mesh_sha256": "",
+            "redistributable": "true"
+          },
+          "file_sha256": {
+            "source_image": "dccaf6257a8151e9b4255b71a7ba608ad47368c53659675aa5ba7ed18d1b80ae",
+            "preparation_metadata": "4b680b29f4e1dfc08459652f370c560b5e3b72742df1f51d6dde67172e810904"
+          }
+        },
+        "input_sha256": "cf297ef6826fc4f8c5709c6def4095891eadbbf8564e4b23bde241fbaa6de345"
+      }
+    ]
+  },
+  "smoke_bindings": {
+    "sf3d": {
+      "record_sha256": "68662971e5cfe0b3ace764a0baeb907d3b19b7943ef8ebb693701dd6a4624ee9",
+      "record": {
+        "schema_version": 1,
+        "timestamp_utc": "2026-10-28T20:11:21.188306+00:00",
+        "run_id": "6cbc66f903e545ada9f04d06bb49cdf6",
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "model_id": "stabilityai/stable-fast-3d",
+        "case_id": "abo-B00MWQC5Y4",
+        "status": "success",
+        "seed": 8410,
+        "mode": "smoke",
+        "provenance": "model_inference",
+        "checkpoint_revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+        "input_sha256": "ffa9bd59fb86305ec2295443f7da4a44fda6ad52359fc2a8e77cf076e2ecdab8",
+        "model_licence": "Stability-AI-Community",
+        "config_sha256": "3bde3d01595b219fc280b25b3c82d60a3c20c785009028b520db80fae13c72ab",
+        "metrics": {
+          "peak_allocated_mb": 6128.98291015625,
+          "peak_reserved_mb": 7336.0,
+          "glb_export_success": 1,
+          "mesh_valid": 1,
+          "mesh_vertices": 7845,
+          "mesh_faces": 13808,
+          "mesh_degenerate_faces": 0,
+          "mesh_watertight": false
+        },
+        "timings": {
+          "inference_s": 0.689621499972418,
+          "model_load_s": 9.567110799951479,
+          "export_s": 0.04289270000299439,
+          "preprocessing_s": 0.06636679999064654,
+          "end_to_end_s": 0.7998789999983273,
+          "warmup_excluded_s": 1.7980743999942206
+        },
+        "artifacts": {
+          "mesh": "results/reconstruction/6cbc66f903e545ada9f04d06bb49cdf6/sf3d/abo-B00MWQC5Y4/mesh.glb",
+          "prepared_input": "results/reconstruction/6cbc66f903e545ada9f04d06bb49cdf6/sf3d/abo-B00MWQC5Y4/prepared_input.png",
+          "input_descriptor": "results/reconstruction/6cbc66f903e545ada9f04d06bb49cdf6/sf3d/abo-B00MWQC5Y4/input_descriptor.json",
+          "render_00": "results/reconstruction/6cbc66f903e545ada9f04d06bb49cdf6/sf3d/abo-B00MWQC5Y4/evaluation/renders/view_00.png",
+          "silhouette_00": "results/reconstruction/6cbc66f903e545ada9f04d06bb49cdf6/sf3d/abo-B00MWQC5Y4/evaluation/renders/view_00_mask.png",
+          "render_01": "results/reconstruction/6cbc66f903e545ada9f04d06bb49cdf6/sf3d/abo-B00MWQC5Y4/evaluation/renders/view_01.png",
+          "silhouette_01": "results/reconstruction/6cbc66f903e545ada9f04d06bb49cdf6/sf3d/abo-B00MWQC5Y4/evaluation/renders/view_01_mask.png",
+          "render_02": "results/reconstruction/6cbc66f903e545ada9f04d06bb49cdf6/sf3d/abo-B00MWQC5Y4/evaluation/renders/view_02.png",
+          "silhouette_02": "results/reconstruction/6cbc66f903e545ada9f04d06bb49cdf6/sf3d/abo-B00MWQC5Y4/evaluation/renders/view_02_mask.png",
+          "render_03": "results/reconstruction/6cbc66f903e545ada9f04d06bb49cdf6/sf3d/abo-B00MWQC5Y4/evaluation/renders/view_03.png",
+          "silhouette_03": "results/reconstruction/6cbc66f903e545ada9f04d06bb49cdf6/sf3d/abo-B00MWQC5Y4/evaluation/renders/view_03_mask.png",
+          "renders_manifest": "results/reconstruction/6cbc66f903e545ada9f04d06bb49cdf6/sf3d/abo-B00MWQC5Y4/evaluation/renders/manifest.json",
+          "cameras": "results/reconstruction/6cbc66f903e545ada9f04d06bb49cdf6/sf3d/abo-B00MWQC5Y4/evaluation/renders/cameras.json"
+        },
+        "error": null,
+        "protocol_sha256": "19fd5179afc3f61b7b84c10bc20a3e2e99666a2047a7acb4cc54fe6dfe2bb232",
+        "execution": {
+          "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Scripts\\python.exe",
+          "device": "NVIDIA GeForce RTX 4070 SUPER",
+          "torch_version": "2.11.0+cu128",
+          "cuda_version": "12.8",
+          "libraries": {
+            "torch": "2.11.0+cu128",
+            "torchvision": "0.26.0+cu128",
+            "numpy": "1.26.4",
+            "scipy": "1.17.1",
+            "Pillow": "12.2.0",
+            "transformers": "4.42.3",
+            "omegaconf": "2.3.0",
+            "trimesh": "4.4.1",
+            "safetensors": "0.7.0",
+            "huggingface-hub": "0.23.4",
+            "clip": null,
+            "alpha-clip": null,
+            "open-clip-torch": "2.24.0"
+          },
+          "seed_policy": "Reset Python/NumPy/Torch/CUDA seed immediately before each measured inference, after excluded warmup",
+          "adapter_source_sha256": "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351",
+          "source_revision": "ff21fc491b4dc5314bf6734c7c0dabd86b5f5bb2",
+          "source_dirty": false,
+          "resolved_checkpoint_revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+          "checkpoint_provenance": {
+            "revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+            "files": {
+              "config.yaml": {
+                "size_bytes": 2405,
+                "sha256": "5e880cfec3dec28d4e20afe07bfa1799c8a561f56f0532ebf1b4022ae4ddc8e4"
+              },
+              "model.safetensors": {
+                "size_bytes": 4024289892,
+                "sha256": "a3416e1cf654e7d4f5e75f116cec2c3f0a14501a77d30c2f6068bbda178de388"
+              }
+            }
+          },
+          "native_extension_provenance": {
+            "receipt_sha256": "50954cff8269fcb9a82b152494180216949c13cb4de2ee9ff59811283e25930f",
+            "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+            "artifacts": {
+              "texture_baker._C": {
+                "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Lib\\site-packages\\texture_baker\\_C.cp311-win_amd64.pyd",
+                "sha256": "eef43fa5997bda2424daeac5c0c43ca8f478d0a93cf320f0e144428fda36b3cc"
+              },
+              "uv_unwrapper._C": {
+                "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Lib\\site-packages\\uv_unwrapper\\_C.cp311-win_amd64.pyd",
+                "sha256": "94c74559ace87ac666526d49e16f3f4cbab55c20ce269c34c5d18a53d97d2120"
+              }
+            }
+          },
+          "auxiliary_provenance": {
+            "dinov2": {
+              "repo_id": "facebook/dinov2-large",
+              "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+              "weights_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+              "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+              "configuration_paths": [
+                "image_tokenizer.pretrained_model_name_or_path"
+              ]
+            },
+            "open_clip": {
+              "repo_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+              "revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+              "sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad"
+            },
+            "operational_config_sha256": "04d178938e7319c7bf10b522c1d9336b66ef6ed46a6af80b678fbf4ba26aa582",
+            "changes": "Only local initialization asset paths; architecture, kernels and final model weights unchanged"
+          },
+          "runner_source_sha256": "2e2233d0a72e1ab55c2e7b0b576931c10f56cf8fe99f0711916a296f0a970b90"
+        },
+        "metrics_unavailable": [
+          "No eligible aligned 3D reference; Chamfer and F-score unavailable",
+          "No matching cameras and explicit alignment; silhouette/render similarity unavailable"
+        ],
+        "artifact_sha256": {
+          "mesh": "a41dc9397bf196f57ade8bd31c1b7992a3989aee2012d4cb707826f50c124a4c",
+          "prepared_input": "000523574546159e34df0ebc940205a2b6900deff24c5c9f951fb210141feaaf",
+          "input_descriptor": "cf5f01def11b7b2bc358bea730540a7993ffa915e71decf81d71d9eda9980f85",
+          "render_00": "e011595b34cba4b277a8a21792d05b6ec801a3d4b91efc45e09e338898dedab6",
+          "silhouette_00": "fbd77f60b7929d6f1a42bbfd22abc36a665155fd24ba0e370dc323748c4377a5",
+          "render_01": "3313c60948e3e2983aaf92c7e5d551bcb4b285aa862a8237892fc39d4cfe741c",
+          "silhouette_01": "bc38304049b0227f1d4dcbd26ec712bd3aafff66ff1669acc60bcbfe9c1e8937",
+          "render_02": "85b643d5aba9572c3ac78093ebf4288ec9301634370a2af45b0cfa21a15f0441",
+          "silhouette_02": "21bb79b11f9b44f36296f56bf3c5cc414b57054568605be0bbf3fa3ab8fc1869",
+          "render_03": "0b84d34909c18e99f5a1d0fc1495f90310de1eac4e3c064b74776dfa0f3fc152",
+          "silhouette_03": "157fb39f6e2883eef3b1c7955b36ba9d645f8792779262d43400ccc34865864b",
+          "renders_manifest": "66c23dc85694481b5788eef7d02b1f5c6c70c792e85ded5d843b0beafb8bae98",
+          "cameras": "41be11dc22dcfb40ecf56f420cf0443a2bcce20d504b8956d33561292b39886d"
+        }
+      },
+      "full_measurement_config_sha256": "5d322b183bca278c4259b4c4ef524cee7830626050a45275b9a4c82ea5c2edb2"
+    },
+    "spar3d": {
+      "record_sha256": "45a2d9b5b06a109d5923779367e23c133ed99818b6559c5d68f1ac8fa3b63827",
+      "record": {
+        "schema_version": 1,
+        "timestamp_utc": "2026-10-28T20:23:35.256369+00:00",
+        "run_id": "beffe85dbbc14673babc7b7a0a9822b8",
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "model_id": "stabilityai/stable-point-aware-3d",
+        "case_id": "abo-B00MWQC5Y4",
+        "status": "success",
+        "seed": 8410,
+        "mode": "smoke",
+        "provenance": "model_inference",
+        "checkpoint_revision": "5699918cb34f55cd7d828493d2725f3038313761",
+        "input_sha256": "ffa9bd59fb86305ec2295443f7da4a44fda6ad52359fc2a8e77cf076e2ecdab8",
+        "model_licence": "Stability-AI-Community",
+        "config_sha256": "42dc9985b038600439a972871746f39b0d75907018b35fd4bdf169dfd916dd85",
+        "metrics": {
+          "peak_allocated_mb": 8019.16455078125,
+          "peak_reserved_mb": 8460.0,
+          "glb_export_success": 1,
+          "mesh_valid": 1,
+          "mesh_vertices": 9577,
+          "mesh_faces": 16624,
+          "mesh_degenerate_faces": 0,
+          "mesh_watertight": false
+        },
+        "timings": {
+          "inference_s": 14.15266680001514,
+          "model_load_s": 0.6667597999912687,
+          "export_s": 0.034193100000265986,
+          "preprocessing_s": 0.05338529997970909,
+          "end_to_end_s": 14.24117569992086,
+          "warmup_excluded_s": 20.262075300037395
+        },
+        "artifacts": {
+          "mesh": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/mesh.glb",
+          "prepared_input": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/prepared_input.png",
+          "input_descriptor": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/input_descriptor.json",
+          "render_00": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_00.png",
+          "silhouette_00": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_00_mask.png",
+          "render_01": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_01.png",
+          "silhouette_01": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_01_mask.png",
+          "render_02": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_02.png",
+          "silhouette_02": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_02_mask.png",
+          "render_03": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_03.png",
+          "silhouette_03": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_03_mask.png",
+          "renders_manifest": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/manifest.json",
+          "cameras": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/cameras.json"
+        },
+        "error": null,
+        "protocol_sha256": "19fd5179afc3f61b7b84c10bc20a3e2e99666a2047a7acb4cc54fe6dfe2bb232",
+        "execution": {
+          "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Scripts\\python.exe",
+          "device": "NVIDIA GeForce RTX 4070 SUPER",
+          "torch_version": "2.11.0+cu128",
+          "cuda_version": "12.8",
+          "libraries": {
+            "torch": "2.11.0+cu128",
+            "torchvision": "0.26.0+cu128",
+            "numpy": "1.26.4",
+            "scipy": "1.17.1",
+            "Pillow": "12.2.0",
+            "transformers": "4.42.3",
+            "omegaconf": "2.3.0",
+            "trimesh": "4.4.1",
+            "safetensors": "0.7.0",
+            "huggingface-hub": "0.23.4",
+            "clip": "1.0",
+            "alpha-clip": "1.0",
+            "open-clip-torch": "3.3.0"
+          },
+          "seed_policy": "Reset Python/NumPy/Torch/CUDA seed immediately before each measured inference, after excluded warmup",
+          "adapter_source_sha256": "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351",
+          "source_revision": "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1",
+          "source_dirty": false,
+          "resolved_checkpoint_revision": "5699918cb34f55cd7d828493d2725f3038313761",
+          "checkpoint_provenance": {
+            "revision": "5699918cb34f55cd7d828493d2725f3038313761",
+            "files": {
+              "config.yaml": {
+                "size_bytes": 3996,
+                "sha256": "2795e11a7a6cb381a442e07abfdb5a3c0cc20e711c6e7e349ba73bf343c2ebdd"
+              },
+              "model.safetensors": {
+                "size_bytes": 7326949440,
+                "sha256": "62673b63fd9dad425e74b213ffe8501262d9621d5174310ac33017747be31f58"
+              }
+            }
+          },
+          "native_extension_provenance": {
+            "receipt_sha256": "92d8c9f603c11c376003077b2e85ce312107b178dc94be742914dffc170730fc",
+            "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+            "artifacts": {
+              "texture_baker._C": {
+                "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\texture_baker\\_C.cp311-win_amd64.pyd",
+                "sha256": "a2423056b11192d0bd798d07d62448adb60604bae823ccbea74998afc9f2ae66"
+              },
+              "uv_unwrapper._C": {
+                "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\uv_unwrapper\\_C.cp311-win_amd64.pyd",
+                "sha256": "ca22c8966e3b38e96f0421786f30cb6ade642ea5fe8d5becc752920eb24ff9ea"
+              }
+            }
+          },
+          "auxiliary_provenance": {
+            "dinov2": {
+              "repo_id": "facebook/dinov2-large",
+              "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+              "weights_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+              "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+              "configuration_paths": [
+                "image_tokenizer.pretrained_model_name_or_path",
+                "pdiff_image_tokenizer.pretrained_model_name_or_path"
+              ]
+            },
+            "alpha_clip": {
+              "model": "OpenAI ViT-L/14@336px",
+              "sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+            },
+            "operational_config_sha256": "8bdf9d16222055b7ed0a0b3920bb5501b5d8149c61f085a6bf16bd6fed9ea3ec",
+            "changes": "Only local initialization asset paths; architecture, kernels and final model weights unchanged"
+          },
+          "runner_source_sha256": "2e2233d0a72e1ab55c2e7b0b576931c10f56cf8fe99f0711916a296f0a970b90"
+        },
+        "metrics_unavailable": [
+          "No eligible aligned 3D reference; Chamfer and F-score unavailable",
+          "No matching cameras and explicit alignment; silhouette/render similarity unavailable"
+        ],
+        "artifact_sha256": {
+          "mesh": "b038930fbdeda0319ae207f726bc5f563d35780294ab3eadab419a795673b984",
+          "prepared_input": "71ca8d2266478a9a845b1a5f5b4dc9c0f97cd2c9ea1186fd8ffcfa0969b4da59",
+          "input_descriptor": "cf5f01def11b7b2bc358bea730540a7993ffa915e71decf81d71d9eda9980f85",
+          "render_00": "9e153fdc7d47f64ee7cc0f3ec14e9414db951d594cef4a5d43b9f5aa52c00387",
+          "silhouette_00": "314c84598605267b4f752b836be2b312430df53b7e1c735fd37ea21be9ad18c3",
+          "render_01": "8370fb2657e8b0d2efda6517e59abc42e31904388a0b54e56137ef6ee9ea548a",
+          "silhouette_01": "81304d9079dfe0b5e90e44555fe0ea1bf2a5d9cdd61543afe4ec760b7c659748",
+          "render_02": "aec914718e1f5dbd9a045e5b6f02542e251514e91dfbc16cdbf1e876322fd31c",
+          "silhouette_02": "4007bf302ead1ea56e8168fb22c5221c02b2c8a6ddd3ef2b87f2edbb168306a6",
+          "render_03": "2e740edef1267e1e162b34b426e426c7f9eedf16e004420a1a66473ae482cf85",
+          "silhouette_03": "c5ca29d8a54702e425e61128f07154346732897482c24486c4f54ec4d0bcdb15",
+          "renders_manifest": "47b085f0148ad5cfd9f70d6173cf290b4411d1ed06c71dc2bb85bd3021f4a567",
+          "cameras": "41be11dc22dcfb40ecf56f420cf0443a2bcce20d504b8956d33561292b39886d"
+        }
+      },
+      "full_measurement_config_sha256": "34c29565deb0fcb9c723a1228940115d5f1d2e46ce572e644b936555c6f11a06"
+    }
+  },
+  "model_assets": {
+    "sf3d": {
+      "checkpoint": {
+        "config.yaml": {
+          "sha256": "5e880cfec3dec28d4e20afe07bfa1799c8a561f56f0532ebf1b4022ae4ddc8e4",
+          "bytes": 2405
+        },
+        "model.safetensors": {
+          "sha256": "a3416e1cf654e7d4f5e75f116cec2c3f0a14501a77d30c2f6068bbda178de388",
+          "bytes": 4024289892
+        }
+      },
+      "acquisition_receipt": {
+        "path": "environment/acquisition_sf3d.json",
+        "sha256": "01d351574762705569b8f4bf8c33cb968936f67f9d0cff9a173326e33efdca41",
+        "bytes": 1769
+      },
+      "source_revision": "ff21fc491b4dc5314bf6734c7c0dabd86b5f5bb2",
+      "source_dirty": false,
+      "native_build": {
+        "receipt_sha256": "50954cff8269fcb9a82b152494180216949c13cb4de2ee9ff59811283e25930f",
+        "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+        "artifacts": {
+          "texture_baker._C": {
+            "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Lib\\site-packages\\texture_baker\\_C.cp311-win_amd64.pyd",
+            "sha256": "eef43fa5997bda2424daeac5c0c43ca8f478d0a93cf320f0e144428fda36b3cc"
+          },
+          "uv_unwrapper._C": {
+            "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Lib\\site-packages\\uv_unwrapper\\_C.cp311-win_amd64.pyd",
+            "sha256": "94c74559ace87ac666526d49e16f3f4cbab55c20ce269c34c5d18a53d97d2120"
+          }
+        }
+      },
+      "auxiliary_files": {
+        "dinov2_model": {
+          "sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+          "bytes": 1217522888
+        },
+        "dinov2_config": {
+          "sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+          "bytes": 549
+        },
+        "clip_initializer": {
+          "sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad",
+          "bytes": 605219813
+        }
+      },
+      "smoke_auxiliary_provenance": {
+        "dinov2": {
+          "repo_id": "facebook/dinov2-large",
+          "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+          "weights_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+          "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+          "configuration_paths": [
+            "image_tokenizer.pretrained_model_name_or_path"
+          ]
+        },
+        "open_clip": {
+          "repo_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+          "revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+          "sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad"
+        },
+        "operational_config_sha256": "04d178938e7319c7bf10b522c1d9336b66ef6ed46a6af80b678fbf4ba26aa582",
+        "changes": "Only local initialization asset paths; architecture, kernels and final model weights unchanged"
+      }
+    },
+    "spar3d": {
+      "checkpoint": {
+        "config.yaml": {
+          "sha256": "2795e11a7a6cb381a442e07abfdb5a3c0cc20e711c6e7e349ba73bf343c2ebdd",
+          "bytes": 3996
+        },
+        "model.safetensors": {
+          "sha256": "62673b63fd9dad425e74b213ffe8501262d9621d5174310ac33017747be31f58",
+          "bytes": 7326949440
+        }
+      },
+      "acquisition_receipt": {
+        "path": "environment/acquisition_spar3d.json",
+        "sha256": "8d7dc7474a9b2268887a586cce5cf981fb35ef0dca4c6a46f8bb88c47f5fd1bf",
+        "bytes": 1783
+      },
+      "source_revision": "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1",
+      "source_dirty": false,
+      "native_build": {
+        "receipt_sha256": "92d8c9f603c11c376003077b2e85ce312107b178dc94be742914dffc170730fc",
+        "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+        "artifacts": {
+          "texture_baker._C": {
+            "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\texture_baker\\_C.cp311-win_amd64.pyd",
+            "sha256": "a2423056b11192d0bd798d07d62448adb60604bae823ccbea74998afc9f2ae66"
+          },
+          "uv_unwrapper._C": {
+            "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\uv_unwrapper\\_C.cp311-win_amd64.pyd",
+            "sha256": "ca22c8966e3b38e96f0421786f30cb6ade642ea5fe8d5becc752920eb24ff9ea"
+          }
+        }
+      },
+      "auxiliary_files": {
+        "dinov2_model": {
+          "sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+          "bytes": 1217522888
+        },
+        "dinov2_config": {
+          "sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+          "bytes": 549
+        },
+        "clip_initializer": {
+          "sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02",
+          "bytes": 934088680
+        }
+      },
+      "smoke_auxiliary_provenance": {
+        "dinov2": {
+          "repo_id": "facebook/dinov2-large",
+          "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+          "weights_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+          "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+          "configuration_paths": [
+            "image_tokenizer.pretrained_model_name_or_path",
+            "pdiff_image_tokenizer.pretrained_model_name_or_path"
+          ]
+        },
+        "alpha_clip": {
+          "model": "OpenAI ViT-L/14@336px",
+          "sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+        },
+        "operational_config_sha256": "8bdf9d16222055b7ed0a0b3920bb5501b5d8149c61f085a6bf16bd6fed9ea3ec",
+        "changes": "Only local initialization asset paths; architecture, kernels and final model weights unchanged"
+      }
+    }
+  },
+  "environments": {
+    "sf3d": {
+      "python": ".venv-sf3d/Scripts/python.exe",
+      "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+      "libraries": {
+        "Pillow": "12.2.0",
+        "alpha-clip": null,
+        "clip": null,
+        "huggingface-hub": "0.23.4",
+        "numpy": "1.26.4",
+        "omegaconf": "2.3.0",
+        "open-clip-torch": "2.24.0",
+        "safetensors": "0.7.0",
+        "scipy": "1.17.1",
+        "torch": "2.11.0+cu128",
+        "torchvision": "0.26.0+cu128",
+        "transformers": "4.42.3",
+        "trimesh": "4.4.1"
+      }
+    },
+    "spar3d": {
+      "python": ".venv-spar3d/Scripts/python.exe",
+      "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+      "libraries": {
+        "Pillow": "12.2.0",
+        "alpha-clip": "1.0",
+        "clip": "1.0",
+        "huggingface-hub": "0.23.4",
+        "numpy": "1.26.4",
+        "omegaconf": "2.3.0",
+        "open-clip-torch": "3.3.0",
+        "safetensors": "0.7.0",
+        "scipy": "1.17.1",
+        "torch": "2.11.0+cu128",
+        "torchvision": "0.26.0+cu128",
+        "transformers": "4.42.3",
+        "trimesh": "4.4.1"
+      }
+    }
+  },
+  "snapshot_file_sha256": {
+    "datasets/reconstruction/abo-B06W9GB1JR-preparation.json": "ec0f061e8d216ea216f0e3fcd510b9abb81b9aaa4c7d024c2ff20c4cb9de3844",
+    "datasets/reconstruction/abo-B07CMD9X29-preparation.json": "a8ba6d0c89477c8ab9c23dff6099c056607a05a9089eb571201af0b3a6438717",
+    "datasets/reconstruction/abo-B07J2DZXXY-preparation.json": "58defd75ff5c40aa84369c233872b407067d8b25eae92cc4f0a07e688074bf08",
+    "datasets/reconstruction/abo-B07JHFZVLV-preparation.json": "5a9b9bdbcbaeb38fb1eed20e27a4c017949080fc61b745960152b3170cdc667f",
+    "datasets/reconstruction/abo-B07PGK6BKK-preparation.json": "a93fc142a7055175063a456285f059e1c63c92f2d2ef5ece1de97a9fe42f968a",
+    "datasets/reconstruction/abo-B07PWXRWBC-preparation.json": "29ca3c5e83edc05ae2c9e4d20fe16682519f03bb1d1d95ed6a243f3d9dbb67bd",
+    "datasets/reconstruction/abo-B07R79WR4V-preparation.json": "371b0e9a02510d2fbf6fe0ef079a656afb6c2e87169bad7444d3e828cd546dae",
+    "datasets/reconstruction/abo-B07VS296PR-preparation.json": "ef1b3f22335f8e777c6adbacf8dd9916555061788c1fb25de60f493ca0655f68",
+    "datasets/reconstruction/abo-B07WRJFN95-preparation.json": "3091699d6b845cdb85d59d2557671c0523977575b8d119d45da557951101cfb9",
+    "datasets/reconstruction/abo-B07WRJG24S-preparation.json": "eea7899bc5800cd684df83ddc436305fae73f65ee01f024e9b210013407f4fae",
+    "datasets/reconstruction/abo-B07WTMZ8N7-preparation.json": "7ed5bedecb249c6258acb76ee885ca02be66231a3a9064d0bc53130359a0f869",
+    "datasets/reconstruction/abo-B07WTMZ91M-preparation.json": "ebf269b7f28a2cedaed0e556e84a54510805c263e263a4d44fdc4f1fb1d93350",
+    "datasets/reconstruction/abo-B07WVRFRR2-preparation.json": "24f0d37f346e5204e303210e96dbd655300314ec283669d8787e4b299cb7f8bb",
+    "datasets/reconstruction/abo-B07XBZR7SR-preparation.json": "cdd599818427122e974fab43b5f013e1f570e3e1f5acc8690fc8dd7db728660b",
+    "datasets/reconstruction/abo-B07XF6F7X7-preparation.json": "81f4761500599dff5277003907b92a98b2c21c2bedb204c91a997766a4a519a4",
+    "datasets/reconstruction/abo-B07XPHD4LK-preparation.json": "984db3d9e83dfdd3227a5f88654a4c66f3ad2f0fe774837fc12724c521921452",
+    "datasets/reconstruction/abo-B07YV78XJW-preparation.json": "8a655d442eb69d0c764918af4e508c2e6f0dab0707a51b2dfd5efa099da8631b",
+    "datasets/reconstruction/abo-B081HNQQWP-preparation.json": "6093121c0c46b57557b11c7bb4a5f4bea8d3bf8dec1a53b18990ef0a8f8074cf",
+    "datasets/reconstruction/abo-B084LLWDFH-preparation.json": "862f078352f724344007562e923cc8453d0d629beb16b3cdb9bc7e7e91386642",
+    "datasets/reconstruction/abo-B086YY3KQG-preparation.json": "2096626f199bfa745751cfe31210a08b95acf9ed4ccb2682b72abc709428152c",
+    "datasets/reconstruction/manifest.json": "1bd1edfc0e6063ab000e6be7b2a59c200f681334754444e6230d21627fe6c1c8",
+    "datasets/reconstruction/objects.csv": "4dc3897c5df79dd2092d83965d6c85ae966bd876409270547a391d072abd9189",
+    "datasets/reconstruction/quality_ledger.json": "ad3bbcd0b85f31d38425e2982391638749ecdf546099feb7c21f8e2c40f4aa99",
+    "datasets/reconstruction/RIGHTS_AND_ATTRIBUTION.json": "fee65ef93dabcf68d7f963afc4da74eb326163585523b42e93f83ca37e0ce3f0",
+    "datasets/reconstruction/selection_plan.json": "c989ef5b26390827e938330502e99a7af51a47c09435c7a5694283a7b7b29022",
+    "datasets/reconstruction/SOURCE_LICENSE_CC_BY_4_0.txt": "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec",
+    "datasets/reconstruction/source_objects.jsonl": "724ca6702d2d4dc0076cc41d244aaca18461225e42668652092400f6bbf57eaa",
+    "datasets/reconstruction_smoke/abo-B00MWQC5Y4-preparation.json": "62ba9f9eff8bb9302c3dd98647bcf150470857ecef62e5b1332dbc6d454355ba",
+    "datasets/reconstruction_smoke/abo-B06W9GB1JR-preparation.json": "4b680b29f4e1dfc08459652f370c560b5e3b72742df1f51d6dde67172e810904",
+    "datasets/reconstruction_smoke/acquisition_manifest.json": "ca622141199add38bc9f0904652f03f36a5a4f2c6d0660713016377f0eb6a2ee",
+    "datasets/reconstruction_smoke/objects.csv": "80e54371c23976b6185ad1319f2e1ceb87dd9a3b023aced2d3c565da268d1fbf",
+    "datasets/reconstruction_smoke/RIGHTS_AND_ATTRIBUTION.json": "514db82eb7faf27682ceff3af141afcf0160013d241b917f5860157d3e70bb46",
+    "datasets/reconstruction_smoke/SOURCE_LICENSE_CC_BY_4_0.txt": "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec",
+    "environment/acquisition_sf3d.json": "01d351574762705569b8f4bf8c33cb968936f67f9d0cff9a173326e33efdca41",
+    "environment/acquisition_spar3d.json": "8d7dc7474a9b2268887a586cce5cf981fb35ef0dca4c6a46f8bb88c47f5fd1bf",
+    "environment/native-build-sf3d.json": "50954cff8269fcb9a82b152494180216949c13cb4de2ee9ff59811283e25930f",
+    "environment/native-build-spar3d.json": "92d8c9f603c11c376003077b2e85ce312107b178dc94be742914dffc170730fc",
+    "environment/sf3d-cuda-header-compatibility.patch": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+    "environment/spar3d-cuda-header-compatibility.patch": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+    "src/stylesphere/cli.py": "3988852e073742baea0f6193705c16c8396195722427255fb9937ecf8ec4d185",
+    "src/stylesphere/common/config.py": "f60a0aaeb4619f96e8202c77d2d94c0ad2501b7f21ddf42b4cd932d63d4edf2e",
+    "src/stylesphere/common/io.py": "e82ef94266ade15d86cb75d0b940b0c3256feaf8453cf1ecee1546783b15a271",
+    "src/stylesphere/common/runtime.py": "8794ec20a0ee678301eef285c180d9c893625ce8a7870fda7a196979f66c0a6e",
+    "src/stylesphere/generation/runner.py": "bd79763aeb067af6fec632e8e7eec18c7c8c35dbb7326de8e7304050cd63cc00",
+    "src/stylesphere/reconstruction/metrics.py": "e0ca04f91f656b2e7eb9bf8ddb112f1a4dc11dd99e8f2db2a434f12ca8996d98",
+    "src/stylesphere/reconstruction/rendering.py": "d1e7b31204764b1e3f8bdc5ce53519e4847ef4a455562c23cc9dd9236daa63a1",
+    "src/stylesphere/reconstruction/runner.py": "2e2233d0a72e1ab55c2e7b0b576931c10f56cf8fe99f0711916a296f0a970b90",
+    "src/stylesphere/reconstruction/worker.py": "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351"
+  },
+  "expected_final_executions": 40,
+  "model_inference_performed_by_freeze": false,
+  "network_access_performed": false,
+  "note": "Successful development smoke evidence is bound to exact source/config/input/runtime bytes. Human quality and missing reference-geometry accuracy are not supplied by this freeze.",
+  "freeze_id": "217deb592939b3aed0c49201b4955a9026b0f0d2bdf8644649f5998ef9d5c48a",
+  "frozen_at_utc": "2026-10-28T20:25:01.365855+00:00",
+  "source_snapshot": "environment/reconstruction_source_snapshot/217deb592939b3ae",
+  "raw_records_path": "results/reconstruction/records.jsonl",
+  "raw_records_sha256_at_freeze": "22280a0212e52609dde2506436696115522715305964052bdefe18d1f468e87a"
+}

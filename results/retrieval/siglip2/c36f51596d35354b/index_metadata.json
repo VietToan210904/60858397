@@ -1,0 +1,16 @@
+{
+  "model": "siglip2",
+  "model_id": "google/siglip2-base-patch16-224",
+  "checkpoint_revision": "75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2",
+  "input_sha256": "6402b8510cb4b9280d207ba437a192f821bb70c3ae4f5c2f67904c8279e1c135",
+  "catalogue_count": 8,
+  "embedding_dimension": 768,
+  "indexing_s": 0.18201180000323802,
+  "preprocessing_s": 0.022770099982153624,
+  "inference_s": 0.15567609999561682,
+  "peak_allocated_mb": 1470.888671875,
+  "peak_reserved_mb": 1580.0,
+  "index_sha256": "c1cedf1648c4d95fb7d93e9a65de9ecd1af975d0eb03359d572b1be22ab138df",
+  "warmup_runs": 1,
+  "tokenizer_revision": "75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2"
+}

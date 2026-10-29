@@ -1,0 +1,9 @@
+Collecting tokenizers==0.19.1
+  Downloading tokenizers-0.19.1-cp311-none-win_amd64.whl.metadata (6.9 kB)
+Downloading tokenizers-0.19.1-cp311-none-win_amd64.whl (2.2 MB)
+   ---------------------------------------- 2.2/2.2 MB 1.1 MB/s eta 0:00:00
+Installing collected packages: tokenizers
+Successfully installed tokenizers-0.19.1
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Scripts\python.exe -m pip install --upgrade pip

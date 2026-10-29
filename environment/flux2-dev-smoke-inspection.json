@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-28T17:23:51.590778+00:00",
+  "run_id": "f0d642cfeda84af7b62d3c979d8b022a",
+  "image": "results/generation/f0d642cfeda84af7b62d3c979d8b022a/flux2_klein/dev-gen-001_8410.png",
+  "image_sha256": "f49111a5bb62909fdb54659c8cc5b370a7029768b7aed76266d2d9209d148fa2",
+  "inspector": "AI assistant",
+  "observation": "One tan loafer is visible against an ivory background, with no obvious lettering at the inspected resolution. Technical inference success is not a human quality grade.",
+  "human_rating_fields_modified": false,
+  "inference_s": 8.527802199998405,
+  "native_fp8_dispatch": {
+    "scope": "cumulative native FP8 dispatch across warmup and measured inference; no backend selection changes",
+    "attempts": 640,
+    "successes": 640,
+    "failures": 0
+  }
+}

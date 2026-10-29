@@ -1,0 +1,899 @@
+{
+  "source": "Google Scanned Objects",
+  "licence": "CC-BY-4.0",
+  "source_selection_sha256": "2fb7693ac2ecf5674248f6e908d61ff37ef40b3d5533b595bf1d09c5a518d212",
+  "recorded_at_utc": "2026-10-28T23:33:43.683704+00:00",
+  "network_cap_bytes": 3000000000,
+  "expansion_cap_bytes": 20000000000,
+  "objects": [
+    {
+      "source_name": "11pro_SL_TRX_FG",
+      "category": "shoe",
+      "intended_split": "development",
+      "version": 1,
+      "archive_bytes": 5526560,
+      "archive_sha256": "0773edaabd648418a36faf93a82c26a125259d623487f35f7ca7f311628de579",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/11pro_SL_TRX_FG/1/11pro_SL_TRX_FG.zip",
+      "archive_path": ".cache/gso_reference/11pro_SL_TRX_FG-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/11pro_SL_TRX_FG",
+      "metadata_before": {
+        "name": "11pro_SL_TRX_FG",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 5526560,
+        "modify_date": "2020-09-18T20:11:21Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "11pro_SL_TRX_FG",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 5526560,
+        "modify_date": "2020-09-18T20:11:21Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 11159663,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "AMBERLIGHT_UP_W",
+      "category": "shoe",
+      "intended_split": "development",
+      "version": 1,
+      "archive_bytes": 6488845,
+      "archive_sha256": "92b7cd9f6f15449074f0c3e02fdbcd92c04406cba1b6faff0ca4229d0202ce60",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/AMBERLIGHT_UP_W/1/AMBERLIGHT_UP_W.zip",
+      "archive_path": ".cache/gso_reference/AMBERLIGHT_UP_W-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/AMBERLIGHT_UP_W",
+      "metadata_before": {
+        "name": "AMBERLIGHT_UP_W",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 6488845,
+        "modify_date": "2020-09-18T20:11:19Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "AMBERLIGHT_UP_W",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 6488845,
+        "modify_date": "2020-09-18T20:11:19Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 12214197,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "ASICS_GEL1140V_WhiteBlackSilver",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 7064663,
+      "archive_sha256": "85384554fb50f47c80e121b6f81ab7c8545768793773cf247b0a176208b12913",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/ASICS_GEL1140V_WhiteBlackSilver/1/ASICS_GEL1140V_WhiteBlackSilver.zip",
+      "archive_path": ".cache/gso_reference/ASICS_GEL1140V_WhiteBlackSilver-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/ASICS_GEL1140V_WhiteBlackSilver",
+      "metadata_before": {
+        "name": "ASICS_GEL1140V_WhiteBlackSilver",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7064663,
+        "modify_date": "2020-09-18T20:11:19Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "ASICS_GEL1140V_WhiteBlackSilver",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7064663,
+        "modify_date": "2020-09-18T20:11:19Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 14079586,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "ASICS_GEL1140V_WhiteRoyalSilver",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 9722422,
+      "archive_sha256": "a3097fa4c86521966f3908b11525ebba09eb533e40a1a500c30e05c260f79513",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/ASICS_GEL1140V_WhiteRoyalSilver/1/ASICS_GEL1140V_WhiteRoyalSilver.zip",
+      "archive_path": ".cache/gso_reference/ASICS_GEL1140V_WhiteRoyalSilver-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/ASICS_GEL1140V_WhiteRoyalSilver",
+      "metadata_before": {
+        "name": "ASICS_GEL1140V_WhiteRoyalSilver",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 9722422,
+        "modify_date": "2020-09-18T20:11:19Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "ASICS_GEL1140V_WhiteRoyalSilver",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 9722422,
+        "modify_date": "2020-09-18T20:11:19Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 15903955,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "ASICS_GELAce_Pro_Pearl_WhitePink",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 8262940,
+      "archive_sha256": "b291f5c18233ec7cfba47d7039049aef6e366747bede64354ba76884e1824472",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/ASICS_GELAce_Pro_Pearl_WhitePink/1/ASICS_GELAce_Pro_Pearl_WhitePink.zip",
+      "archive_path": ".cache/gso_reference/ASICS_GELAce_Pro_Pearl_WhitePink-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/ASICS_GELAce_Pro_Pearl_WhitePink",
+      "metadata_before": {
+        "name": "ASICS_GELAce_Pro_Pearl_WhitePink",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 8262940,
+        "modify_date": "2020-09-18T20:11:18Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "ASICS_GELAce_Pro_Pearl_WhitePink",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 8262940,
+        "modify_date": "2020-09-18T20:11:18Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 15532675,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 7975207,
+      "archive_sha256": "58ff48dbf266412a4d21ca310eb9ed296681a252d87e4cfe8f4a3bd6319e6c8b",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange/1/ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange.zip",
+      "archive_path": ".cache/gso_reference/ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange",
+      "metadata_before": {
+        "name": "ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7975207,
+        "modify_date": "2020-09-18T20:11:18Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7975207,
+        "modify_date": "2020-09-18T20:11:18Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 14872905,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 7101548,
+      "archive_sha256": "a5df24d9b416cb3305ff5f22749013f0057078d0b1fff573dd70059e27c4de80",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver/1/ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver.zip",
+      "archive_path": ".cache/gso_reference/ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver",
+      "metadata_before": {
+        "name": "ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7101548,
+        "modify_date": "2020-09-18T20:11:18Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7101548,
+        "modify_date": "2020-09-18T20:11:18Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 13417182,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "ASICS_GELChallenger_9_Royal_BlueWhiteBlack",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 7517359,
+      "archive_sha256": "a2dfc86288679a7c45a21623acd08f106f92b5f2f4122322b6867cfda5e5519f",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/ASICS_GELChallenger_9_Royal_BlueWhiteBlack/1/ASICS_GELChallenger_9_Royal_BlueWhiteBlack.zip",
+      "archive_path": ".cache/gso_reference/ASICS_GELChallenger_9_Royal_BlueWhiteBlack-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/ASICS_GELChallenger_9_Royal_BlueWhiteBlack",
+      "metadata_before": {
+        "name": "ASICS_GELChallenger_9_Royal_BlueWhiteBlack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7517359,
+        "modify_date": "2020-09-18T20:11:17Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "ASICS_GELChallenger_9_Royal_BlueWhiteBlack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7517359,
+        "modify_date": "2020-09-18T20:11:17Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 13956110,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "ASICS_GELDirt_Dog_4_SunFlameBlack",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 9212216,
+      "archive_sha256": "df744111a715db68626caf791d44babca99ab85baa36b5927770e9a27a72a3a2",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/ASICS_GELDirt_Dog_4_SunFlameBlack/1/ASICS_GELDirt_Dog_4_SunFlameBlack.zip",
+      "archive_path": ".cache/gso_reference/ASICS_GELDirt_Dog_4_SunFlameBlack-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/ASICS_GELDirt_Dog_4_SunFlameBlack",
+      "metadata_before": {
+        "name": "ASICS_GELDirt_Dog_4_SunFlameBlack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 9212216,
+        "modify_date": "2020-09-18T20:11:17Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "ASICS_GELDirt_Dog_4_SunFlameBlack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 9212216,
+        "modify_date": "2020-09-18T20:11:17Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 16443697,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "ASICS_GELLinksmaster_WhiteCoffeeSand",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 6254793,
+      "archive_sha256": "71fff4323eb53c9f024d70a9856055d856117b5c5dc79d14fd2ef042a68ce9a0",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/ASICS_GELLinksmaster_WhiteCoffeeSand/1/ASICS_GELLinksmaster_WhiteCoffeeSand.zip",
+      "archive_path": ".cache/gso_reference/ASICS_GELLinksmaster_WhiteCoffeeSand-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/ASICS_GELLinksmaster_WhiteCoffeeSand",
+      "metadata_before": {
+        "name": "ASICS_GELLinksmaster_WhiteCoffeeSand",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 6254793,
+        "modify_date": "2020-09-18T20:11:17Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "ASICS_GELLinksmaster_WhiteCoffeeSand",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 6254793,
+        "modify_date": "2020-09-18T20:11:17Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 13128078,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "ASICS_GELLinksmaster_WhiteRasberryGunmetal",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 7545309,
+      "archive_sha256": "066b2222aa63796d414abd03547474f42469e20637825a6c943519288ce94b15",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/ASICS_GELLinksmaster_WhiteRasberryGunmetal/1/ASICS_GELLinksmaster_WhiteRasberryGunmetal.zip",
+      "archive_path": ".cache/gso_reference/ASICS_GELLinksmaster_WhiteRasberryGunmetal-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/ASICS_GELLinksmaster_WhiteRasberryGunmetal",
+      "metadata_before": {
+        "name": "ASICS_GELLinksmaster_WhiteRasberryGunmetal",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7545309,
+        "modify_date": "2020-09-18T20:11:16Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "ASICS_GELLinksmaster_WhiteRasberryGunmetal",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7545309,
+        "modify_date": "2020-09-18T20:11:16Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 13710911,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "ASICS_GELLinksmaster_WhiteSilverCarolina_Blue",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 7437405,
+      "archive_sha256": "0087f83658e6cc686ffa035741f9427aa3cac04451306057512355a0bff7ad6f",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/ASICS_GELLinksmaster_WhiteSilverCarolina_Blue/1/ASICS_GELLinksmaster_WhiteSilverCarolina_Blue.zip",
+      "archive_path": ".cache/gso_reference/ASICS_GELLinksmaster_WhiteSilverCarolina_Blue-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/ASICS_GELLinksmaster_WhiteSilverCarolina_Blue",
+      "metadata_before": {
+        "name": "ASICS_GELLinksmaster_WhiteSilverCarolina_Blue",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7437405,
+        "modify_date": "2020-09-18T20:11:16Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "ASICS_GELLinksmaster_WhiteSilverCarolina_Blue",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7437405,
+        "modify_date": "2020-09-18T20:11:16Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 13877617,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "ASICS_GELResolution_5_Flash_YellowBlackSilver",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 7516878,
+      "archive_sha256": "80c2ea303458f24d3b60e8b62889189d8fcb3ff086d57c7e08ecdac183d0e594",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/ASICS_GELResolution_5_Flash_YellowBlackSilver/1/ASICS_GELResolution_5_Flash_YellowBlackSilver.zip",
+      "archive_path": ".cache/gso_reference/ASICS_GELResolution_5_Flash_YellowBlackSilver-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/ASICS_GELResolution_5_Flash_YellowBlackSilver",
+      "metadata_before": {
+        "name": "ASICS_GELResolution_5_Flash_YellowBlackSilver",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7516878,
+        "modify_date": "2020-09-18T20:11:16Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "ASICS_GELResolution_5_Flash_YellowBlackSilver",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7516878,
+        "modify_date": "2020-09-18T20:11:16Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 14311142,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "ASICS_GELTour_Lyte_WhiteOrchidSilver",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 6484883,
+      "archive_sha256": "063c403a39735f9457c356af3a6666ebe3d12d42f2070d264b189cad8388711d",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/ASICS_GELTour_Lyte_WhiteOrchidSilver/1/ASICS_GELTour_Lyte_WhiteOrchidSilver.zip",
+      "archive_path": ".cache/gso_reference/ASICS_GELTour_Lyte_WhiteOrchidSilver-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/ASICS_GELTour_Lyte_WhiteOrchidSilver",
+      "metadata_before": {
+        "name": "ASICS_GELTour_Lyte_WhiteOrchidSilver",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 6484883,
+        "modify_date": "2020-09-18T20:11:15Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "ASICS_GELTour_Lyte_WhiteOrchidSilver",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 6484883,
+        "modify_date": "2020-09-18T20:11:15Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 12478352,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 8816286,
+      "archive_sha256": "68fbe1216ced18ce1e3ae7688c8e77006fa034c8521bf97f9d48b47edf508bda",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/1/ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack.zip",
+      "archive_path": ".cache/gso_reference/ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack",
+      "metadata_before": {
+        "name": "ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 8816286,
+        "modify_date": "2020-09-18T20:11:15Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 8816286,
+        "modify_date": "2020-09-18T20:11:15Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 13566544,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 7826414,
+      "archive_sha256": "1f99891db035312879ed84aec7ce9687b8c36384b394463805bafe5c383ff061",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V/1/Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V.zip",
+      "archive_path": ".cache/gso_reference/Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V",
+      "metadata_before": {
+        "name": "Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7826414,
+        "modify_date": "2020-09-18T20:11:15Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7826414,
+        "modify_date": "2020-09-18T20:11:15Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 15513833,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 9839081,
+      "archive_sha256": "f5cc7ef6d1b657d71dfbb0e1e2dc542b3c398afe5d47bda111fc7a48e103ecb7",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/1/Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70.zip",
+      "archive_path": ".cache/gso_reference/Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70",
+      "metadata_before": {
+        "name": "Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 9839081,
+        "modify_date": "2020-09-18T20:11:14Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 9839081,
+        "modify_date": "2020-09-18T20:11:14Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 17333342,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 7480383,
+      "archive_sha256": "5b57fa72a2ec04f135a5219bba159bb64c8835e7039c148d1650014741a9766b",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/1/Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats.zip",
+      "archive_path": ".cache/gso_reference/Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats",
+      "metadata_before": {
+        "name": "Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7480383,
+        "modify_date": "2020-09-18T20:11:07Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7480383,
+        "modify_date": "2020-09-18T20:11:07Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 13904954,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN",
+      "category": "shoe",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 5705842,
+      "archive_sha256": "a8529180c0917ccb7bf14d248ff3cea90bd19bedb00c83bdb9f6be5253b74550",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/1/CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN.zip",
+      "archive_path": ".cache/gso_reference/CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN",
+      "metadata_before": {
+        "name": "CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 5705842,
+        "modify_date": "2020-09-18T20:10:54Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 5705842,
+        "modify_date": "2020-09-18T20:10:54Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 13119155,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "Jansport_School_Backpack_Blue_Streak",
+      "category": "backpack",
+      "intended_split": "development",
+      "version": 1,
+      "archive_bytes": 8958755,
+      "archive_sha256": "6789c4bcbf4be4acb57fa8e275e18520a2ff02856613cf30a79a5cdbbb20714a",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/Jansport_School_Backpack_Blue_Streak/1/Jansport_School_Backpack_Blue_Streak.zip",
+      "archive_path": ".cache/gso_reference/Jansport_School_Backpack_Blue_Streak-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/Jansport_School_Backpack_Blue_Streak",
+      "metadata_before": {
+        "name": "Jansport_School_Backpack_Blue_Streak",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 8958755,
+        "modify_date": "2020-09-18T20:10:04Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "Jansport_School_Backpack_Blue_Streak",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 8958755,
+        "modify_date": "2020-09-18T20:10:04Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 14361931,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "Olive_Kids_Birdie_Sidekick_Backpack",
+      "category": "backpack",
+      "intended_split": "development",
+      "version": 1,
+      "archive_bytes": 7792825,
+      "archive_sha256": "9f52e2af5185a343119788450cd38caf14a65b88427b364a2923c01eacd42594",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/Olive_Kids_Birdie_Sidekick_Backpack/1/Olive_Kids_Birdie_Sidekick_Backpack.zip",
+      "archive_path": ".cache/gso_reference/Olive_Kids_Birdie_Sidekick_Backpack-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/Olive_Kids_Birdie_Sidekick_Backpack",
+      "metadata_before": {
+        "name": "Olive_Kids_Birdie_Sidekick_Backpack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7792825,
+        "modify_date": "2020-09-18T20:09:00Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "Olive_Kids_Birdie_Sidekick_Backpack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 7792825,
+        "modify_date": "2020-09-18T20:09:00Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 14088063,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "Olive_Kids_Dinosaur_Land_Sidekick_Backpack",
+      "category": "backpack",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 10060821,
+      "archive_sha256": "960de181187c89b834865fe889f0120bd0082f47abed125a93f138e39b4f5950",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/Olive_Kids_Dinosaur_Land_Sidekick_Backpack/1/Olive_Kids_Dinosaur_Land_Sidekick_Backpack.zip",
+      "archive_path": ".cache/gso_reference/Olive_Kids_Dinosaur_Land_Sidekick_Backpack-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/Olive_Kids_Dinosaur_Land_Sidekick_Backpack",
+      "metadata_before": {
+        "name": "Olive_Kids_Dinosaur_Land_Sidekick_Backpack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 10060821,
+        "modify_date": "2020-09-18T20:08:57Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "Olive_Kids_Dinosaur_Land_Sidekick_Backpack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 10060821,
+        "modify_date": "2020-09-18T20:08:57Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 15258865,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "Olive_Kids_Mermaids_Pack_n_Snack_Backpack",
+      "category": "backpack",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 10752366,
+      "archive_sha256": "ade6a438ea776d1732f1d90a9aae7d1103a6c2f3baf76cfe8ebbfe681d851a02",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/Olive_Kids_Mermaids_Pack_n_Snack_Backpack/1/Olive_Kids_Mermaids_Pack_n_Snack_Backpack.zip",
+      "archive_path": ".cache/gso_reference/Olive_Kids_Mermaids_Pack_n_Snack_Backpack-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/Olive_Kids_Mermaids_Pack_n_Snack_Backpack",
+      "metadata_before": {
+        "name": "Olive_Kids_Mermaids_Pack_n_Snack_Backpack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 10752366,
+        "modify_date": "2020-09-18T20:08:56Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "Olive_Kids_Mermaids_Pack_n_Snack_Backpack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 10752366,
+        "modify_date": "2020-09-18T20:08:56Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 16484434,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    },
+    {
+      "source_name": "Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack",
+      "category": "backpack",
+      "intended_split": "test",
+      "version": 1,
+      "archive_bytes": 8431015,
+      "archive_sha256": "337538a58fc12e5a229f368b2c58a9735f9b687de51ed2b48a66fa56dbd5be06",
+      "archive_url": "https://fuel.gazebosim.org/1.0/GoogleResearch/models/Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack/1/Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack.zip",
+      "archive_path": ".cache/gso_reference/Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack-v1.zip",
+      "extracted_path": ".cache/gso_reference/extracted/Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack",
+      "metadata_before": {
+        "name": "Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 8431015,
+        "modify_date": "2020-09-18T20:08:55Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_after": {
+        "name": "Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack",
+        "owner": "GoogleResearch",
+        "version": 1,
+        "filesize": 8431015,
+        "modify_date": "2020-09-18T20:08:55Z",
+        "license_id": 2,
+        "license_url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "extraction": {
+        "expanded_bytes": 16130781,
+        "data_files": 11,
+        "skipped_non_data_members": []
+      },
+      "licence": "CC-BY-4.0",
+      "attribution": "Google Research",
+      "redistributable": true
+    }
+  ],
+  "model_inference_performed": false
+}

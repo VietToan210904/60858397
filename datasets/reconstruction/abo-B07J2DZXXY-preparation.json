@@ -1,0 +1,42 @@
+{
+  "original_image": "datasets/reconstruction/assets/original/B07J2DZXXY.jpg",
+  "original_sha256": "9df626502990c60e983d0c7a223cbb8ef3e7fa0cd64d65754994ad9820fe5fcb",
+  "original_size": [
+    1969,
+    2560
+  ],
+  "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/04/041b87a1.jpg",
+  "source_dataset": "Amazon Berkeley Objects",
+  "source_id": "B07J2DZXXY",
+  "original_source_metadata_sha256": "2567b8aa90177a0592301657ea65081a97f16cd2fa57bef26529415b3e1574f5",
+  "prepared_image_sha256": "ecc1681664627fbb82cd891545528ae0b07b1368fbf9e578c963cab2c6dca084",
+  "prepared_size": [
+    788,
+    1024
+  ],
+  "max_input_side": 1024,
+  "resize_filter": "PIL LANCZOS",
+  "background_removal": {
+    "library": "rembg",
+    "version": "2.0.57",
+    "model": "u2netp",
+    "model_sha256": "309c8469258dda742793dce0ebea8e6dd393174f89934733ecc8b14c76f4ddd8",
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "alpha_matting": false,
+    "post_process_mask": false
+  },
+  "mask_qa": {
+    "foreground_fraction": 0.2948970891497462,
+    "largest_component_fraction": 1.0,
+    "largest_secondary_component_fraction": 0.0,
+    "component_count": 1
+  },
+  "human_review_status": "pending",
+  "input_kind": "real_catalogue_photo",
+  "synthetic": false,
+  "reference_geometry_available": false,
+  "camera_calibration_available": false,
+  "alignment_known": false
+}

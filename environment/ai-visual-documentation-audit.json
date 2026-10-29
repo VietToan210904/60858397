@@ -1,0 +1,1196 @@
+{
+  "kind": "post_hoc_supplementary_ai_documentation_audit",
+  "created_at_utc": "2026-10-28T23:55:22.469578+00:00",
+  "status": "passed",
+  "source_or_rating_files_modified": false,
+  "protocol_sha256": "299a340bf2fd5f87b8399b62fde3855117a84cf0bf61146474f9a367dd02f7f4",
+  "selection_sha256": "c9854ffcf88fc81f931e677e7137da8b6c7e60096bf26c378f86baa0ddeb6deb",
+  "summary_sha256": "916d1fa32466ac26670c3c080d8a22ae30706be63f775771ec3771567d517da8",
+  "decision_coverage_sha256": "d55b931ee2f4b213b07c33fb7330554723a5df1019d3a64fe1d6d375768b6b2c",
+  "documentation_sha256": "d8169487504d5b8f344fbf846510e32f66ae1192473b3737fab99bf6f019a677",
+  "recomputed_summary_identical": true,
+  "assessment_files_sha256": {
+    "assessments/generation_01.jsonl": "0fc2374730eec37ce0843d9c0848797d221dde83f0d4d7b19679dc154925d4f2",
+    "assessments/generation_02.jsonl": "baeb4dc06f6671e28304dd6d39a3301eec4ad0a01210374e6a7f16d698b80501",
+    "assessments/generation_03.jsonl": "557281245d4cf80c8d1da0edea8c2a225bbb7516531035739c323404912f16a3",
+    "assessments/generation_04.jsonl": "fb8f32bfbde0ee3e503ecbc973f0187d3d468f03ca34dc2fe5757837d023b1ef",
+    "assessments/generation_05.jsonl": "d0db19dc625c5ba9e0a822d1daccc6fbe946be3768450ae2131a1c5b7e9663d4",
+    "assessments/generation_06.jsonl": "38e6f3e95ef603d36cfa9dbb38753c13620a14a44b9590bf74a0a604d1199c88",
+    "assessments/generation_07.jsonl": "51b7d21c47f0652532e39c2486baa0b42100f22eef8c0f33cf807767c42fc11b",
+    "assessments/generation_08.jsonl": "0e30295a27bf05d351069b4e9d82c3a8357e447e17159f5bef6c76c55439b942",
+    "assessments/generation_09.jsonl": "012c6d95507c42afc68b490cf70af43cde4f75c67e2c508a5b7510e652904523",
+    "assessments/generation_10.jsonl": "49ef5e62a2023dcc0a09d211c198d9b7b54ba4334b5f45922d78952373bd41bd",
+    "assessments/generation_11.jsonl": "b66f3c0a8df84aa2969a4d3ec732febc157fef1f815ae60a6c785589613f3df6",
+    "assessments/generation_12.jsonl": "0e2d60c2b2eadcdc3991185a81489c406721049546f43a1433e588fc603cf8a6",
+    "assessments/reconstruction_01.jsonl": "bc2489d52e6fe2dea6a8ad83c2b80fe43efb2d9f8c581941d271bf281f6c62a6",
+    "assessments/reconstruction_02.jsonl": "b61f13d48b8a87c2077fe3b9a9117b2b46f75f161eba9feabb3ae9d9b96e7e69",
+    "assessments/reconstruction_03.jsonl": "29e6dc88de921c38f51755d79ea3ae54663a41676d9ffc71e310e19d0899eb6e",
+    "assessments/reconstruction_04.jsonl": "3d3558b93fee09ef690202144c01ffc5547b1fd59d451e33c8607f6b8841c196"
+  },
+  "n_outputs": 184,
+  "n_unique_assessments": 184,
+  "all_assessment_timestamps_after_export": true,
+  "human_generation_rows": 144,
+  "human_generation_rows_with_any_entered_value": 0,
+  "reconstruction_hidden_surface_verdicts_all_uncertain": true,
+  "decision_coverage": {
+    "kind": "post_hoc_ai_shortlist_denominator_diagnostics",
+    "by_model": {
+      "flux2_klein": {
+        "planned": 72,
+        "positive": 40,
+        "negative": 19,
+        "uncertain": 13,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 59,
+        "unresolved": 13,
+        "conditional_image_positive_rate": 0.6779661016949152,
+        "possible_all_planned_rate_bounds": [
+          0.5555555555555556,
+          0.7361111111111112
+        ]
+      },
+      "sdxl_lightning": {
+        "planned": 72,
+        "positive": 19,
+        "negative": 52,
+        "uncertain": 1,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 71,
+        "unresolved": 1,
+        "conditional_image_positive_rate": 0.2676056338028169,
+        "possible_all_planned_rate_bounds": [
+          0.2638888888888889,
+          0.2777777777777778
+        ]
+      }
+    },
+    "per_prompt": [
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-001",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-002",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-003",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-004",
+        "planned": 3,
+        "positive": 0,
+        "negative": 1,
+        "uncertain": 2,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 1,
+        "unresolved": 2,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-005",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-006",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-007",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-008",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-009",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-010",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-011",
+        "planned": 3,
+        "positive": 0,
+        "negative": 1,
+        "uncertain": 2,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 1,
+        "unresolved": 2,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-012",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-013",
+        "planned": 3,
+        "positive": 2,
+        "negative": 0,
+        "uncertain": 1,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 2,
+        "unresolved": 1,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-014",
+        "planned": 3,
+        "positive": 2,
+        "negative": 0,
+        "uncertain": 1,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 2,
+        "unresolved": 1,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-015",
+        "planned": 3,
+        "positive": 1,
+        "negative": 2,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.3333333333333333,
+        "possible_all_planned_rate_bounds": [
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-016",
+        "planned": 3,
+        "positive": 0,
+        "negative": 1,
+        "uncertain": 2,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 1,
+        "unresolved": 2,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-017",
+        "planned": 3,
+        "positive": 0,
+        "negative": 1,
+        "uncertain": 2,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 1,
+        "unresolved": 2,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-018",
+        "planned": 3,
+        "positive": 0,
+        "negative": 0,
+        "uncertain": 3,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 0,
+        "unresolved": 3,
+        "conditional_image_positive_rate": null,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-019",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-020",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-021",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-022",
+        "planned": 3,
+        "positive": 2,
+        "negative": 1,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.6666666666666666,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-023",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-024",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-001",
+        "planned": 3,
+        "positive": 1,
+        "negative": 2,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.3333333333333333,
+        "possible_all_planned_rate_bounds": [
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-002",
+        "planned": 3,
+        "positive": 2,
+        "negative": 1,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.6666666666666666,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-003",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-004",
+        "planned": 3,
+        "positive": 1,
+        "negative": 2,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.3333333333333333,
+        "possible_all_planned_rate_bounds": [
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-005",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-006",
+        "planned": 3,
+        "positive": 2,
+        "negative": 1,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.6666666666666666,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-007",
+        "planned": 3,
+        "positive": 1,
+        "negative": 2,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.3333333333333333,
+        "possible_all_planned_rate_bounds": [
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-008",
+        "planned": 3,
+        "positive": 1,
+        "negative": 1,
+        "uncertain": 1,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 2,
+        "unresolved": 1,
+        "conditional_image_positive_rate": 0.5,
+        "possible_all_planned_rate_bounds": [
+          0.3333333333333333,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-009",
+        "planned": 3,
+        "positive": 2,
+        "negative": 1,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.6666666666666666,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-010",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-011",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-012",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-013",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-014",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-015",
+        "planned": 3,
+        "positive": 2,
+        "negative": 1,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.6666666666666666,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-016",
+        "planned": 3,
+        "positive": 1,
+        "negative": 2,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.3333333333333333,
+        "possible_all_planned_rate_bounds": [
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-017",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-018",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-019",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-020",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-021",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-022",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-023",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-024",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "matched_pair_coverage": {
+      "planned_matched_input_seed_pairs": 72,
+      "complete_decision_pairs": 58,
+      "flux2_klein_1__sdxl_lightning_0": 24,
+      "flux2_klein_1__sdxl_lightning_1": 15,
+      "unresolved_decision_pairs": 14,
+      "flux2_klein_0__sdxl_lightning_0": 16,
+      "flux2_klein_0__sdxl_lightning_1": 3
+    },
+    "complete_prompt_subset": {
+      "n_complete_prompts": 16,
+      "n_input_seed_pairs": 48,
+      "ai_positive_prompt_mean": {
+        "flux2_klein": 0.6875,
+        "sdxl_lightning": 0.3333333333333333
+      }
+    },
+    "note": "Null decisions remain unresolved. Conditional rates have different observed denominators; bounds are explicit worst/best unresolved-decision scenarios, not imputed scores. Complete-prompt comparisons are an additional coverage diagnostic and do not replace the frozen summary or human assessment."
+  },
+  "selected_examples": [
+    {
+      "selection_reason": "resolved_model_disagreement",
+      "assessment_id": "ai_a583eb93f37f6ef1",
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-001",
+      "seed": 8410,
+      "run_id": "9a379c1a438b447a871f4c16f5e78417",
+      "input_sha256": "d900bed6f5cd3c648c864101b6c707fa0f7fdeb95ca891b42a84535c0ef7cd96",
+      "source_record_sha256": "c8fc8a1554fe539d706c21307f0bc933f6d9d759a21f8844355ba9e2309a624a",
+      "source_artifact_sha256": {
+        "image": "99064ef918e8bdba7a2989ff62eda14d9293dd74a0e831ad6d143adfd1ad7f3f",
+        "frozen_prompts": "e84c1bb98b8a21f66b8ed8a97291dae2791c69f667beab3bee863bcd60283689"
+      },
+      "display": {
+        "path": "images/ai_a583eb93f37f6ef1_image.png",
+        "sha256": "6234a2c2a278991eea0f8ac91b2b2e3a4eee56ce396e2ed2bef9d45b47af4ec7"
+      },
+      "original_evidence_paths": {
+        "image": "results/generation/9a379c1a438b447a871f4c16f5e78417/flux2_klein/gen-001_8410.png"
+      }
+    },
+    {
+      "selection_reason": "resolved_model_disagreement",
+      "assessment_id": "ai_6ea2bb07b3134315",
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-001",
+      "seed": 8410,
+      "run_id": "c72db9e579f046999779f6fba62b7849",
+      "input_sha256": "d900bed6f5cd3c648c864101b6c707fa0f7fdeb95ca891b42a84535c0ef7cd96",
+      "source_record_sha256": "9496654b9231c59023894e529b32413f1bafb723e325267863350479c432eb41",
+      "source_artifact_sha256": {
+        "image": "0549ae88f50e05935245811d7959705ddda4a1760240645c838d19858fecd512"
+      },
+      "display": {
+        "path": "images/ai_6ea2bb07b3134315_image.png",
+        "sha256": "7333994d4fedff769c676ec17350fbd9507f8760df9e64994cd6143f0c31c927"
+      },
+      "original_evidence_paths": {
+        "image": "results\\generation\\c72db9e579f046999779f6fba62b7849\\sdxl_lightning\\gen-001_8410.png"
+      }
+    },
+    {
+      "selection_reason": "both_positive_different_prompt",
+      "assessment_id": "ai_a823c76295567c9f",
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-002",
+      "seed": 8410,
+      "run_id": "9a379c1a438b447a871f4c16f5e78417",
+      "input_sha256": "317dcb45360912e63858854e78225ddb590642d053ea26cc664cd0d994c2bfbb",
+      "source_record_sha256": "56b97ba4fa177ae95f3c1d2f0cb5f30342ddcdbf817eba344b801b077d37b39c",
+      "source_artifact_sha256": {
+        "image": "568f9ab7934a9a0d0dc02021af41a70e305c2676ca0e7ce3d3065180117a3729",
+        "frozen_prompts": "e84c1bb98b8a21f66b8ed8a97291dae2791c69f667beab3bee863bcd60283689"
+      },
+      "display": {
+        "path": "images/ai_a823c76295567c9f_image.png",
+        "sha256": "43ef9ed7f1aba5c361f68bbd59259b1940d2149d1062aa0e37ce29ad15aea11c"
+      },
+      "original_evidence_paths": {
+        "image": "results/generation/9a379c1a438b447a871f4c16f5e78417/flux2_klein/gen-002_8410.png"
+      }
+    },
+    {
+      "selection_reason": "both_positive_different_prompt",
+      "assessment_id": "ai_3b97e29220fd2a2f",
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-002",
+      "seed": 8410,
+      "run_id": "c72db9e579f046999779f6fba62b7849",
+      "input_sha256": "317dcb45360912e63858854e78225ddb590642d053ea26cc664cd0d994c2bfbb",
+      "source_record_sha256": "e5ecc413c1503e39f07b646131a176bf9bab13855c7b12aa09a44be191c85e0b",
+      "source_artifact_sha256": {
+        "image": "4f6965ddc2d2f1b276446d00f318ebda644dd2661ea63a177835be7270db8bd8"
+      },
+      "display": {
+        "path": "images/ai_3b97e29220fd2a2f_image.png",
+        "sha256": "d78aa91f4362ae3fdf581a7b7c1c10471e8e1c3ede9d20f831af0dafb98aa0bc"
+      },
+      "original_evidence_paths": {
+        "image": "results\\generation\\c72db9e579f046999779f6fba62b7849\\sdxl_lightning\\gen-002_8410.png"
+      }
+    },
+    {
+      "selection_reason": "any_uncertain_different_prompt",
+      "assessment_id": "ai_e124ab7d880f204b",
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-004",
+      "seed": 8411,
+      "run_id": "9a379c1a438b447a871f4c16f5e78417",
+      "input_sha256": "7ee86fd65f97696eb43ce4251470bb35ceffbebdd6ee376b5dbf39e7608b8de6",
+      "source_record_sha256": "76be345b761f6cc5895f9b852ef71daa873c51d26200e6e20539db82860f146b",
+      "source_artifact_sha256": {
+        "image": "8199e2c2d4d0e610d74a128350cbb37a6818390631bbff1ba234a3a50c991854",
+        "frozen_prompts": "e84c1bb98b8a21f66b8ed8a97291dae2791c69f667beab3bee863bcd60283689"
+      },
+      "display": {
+        "path": "images/ai_e124ab7d880f204b_image.png",
+        "sha256": "ed4cb52745f2f2520d1056d07976608e024cb94cb181c1a7524dfa8e0d041658"
+      },
+      "original_evidence_paths": {
+        "image": "results/generation/9a379c1a438b447a871f4c16f5e78417/flux2_klein/gen-004_8411.png"
+      }
+    },
+    {
+      "selection_reason": "any_uncertain_different_prompt",
+      "assessment_id": "ai_34853c68d6148131",
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-004",
+      "seed": 8411,
+      "run_id": "c72db9e579f046999779f6fba62b7849",
+      "input_sha256": "7ee86fd65f97696eb43ce4251470bb35ceffbebdd6ee376b5dbf39e7608b8de6",
+      "source_record_sha256": "f8f908758c854838b0ebb74b6a514b101a10d86d8f53b080f665798c61bce5c4",
+      "source_artifact_sha256": {
+        "image": "e21dc9f7727444b7dd17496b9ac402d8e553002eb41cb5c63b7e5295caf0de23"
+      },
+      "display": {
+        "path": "images/ai_34853c68d6148131_image.png",
+        "sha256": "47e4bd0cc81bfde4a8ca690ac00e7274dae01220dd352e4ab68986fcd7afc9cd"
+      },
+      "original_evidence_paths": {
+        "image": "results\\generation\\c72db9e579f046999779f6fba62b7849\\sdxl_lightning\\gen-004_8411.png"
+      }
+    },
+    {
+      "selection_reason": "lowest_joint_four_score_total",
+      "assessment_id": "ai_58f365408e47307a",
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07WRJFN95",
+      "seed": 8410,
+      "run_id": "7685fb6f464d4360a1ebadb8b1994d49",
+      "input_sha256": "e8322744acc611c570b712e96fcfd9ebb8f1711cbc5a988db72409811906bc72",
+      "source_record_sha256": "40fb37b41be0847fc2efc929bcd50192623107884bb7d4f8f6e04b49ff9518ce",
+      "source_artifact_sha256": {
+        "mesh": "391fa151d4e4c9694f7ec38777227c3968707b0fc8ffcb09c422b837cc1b81e2",
+        "prepared_input": "92c49907aad0fc44daf88a2ba332360dca5e90971acdd54a74a8abb287b11470",
+        "input_descriptor": "07ef4ec579d81d66f32ac82d519492756f41bdaf83950eb43e9aa31c654780fb",
+        "render_00": "d1ca3cf5d95999afccd7b71763c06be1bc417163d3650a92635bc88aef31c6bd",
+        "silhouette_00": "436818ba579d6f5c2ef4e258fedefdba2869966d4357dc9fa7235d19dd5d4042",
+        "render_01": "0c58a1effdaa955309c4310904733293b8f051de79c4c6e8c3fcf0816c095248",
+        "silhouette_01": "4ea7ffbd335cbca9981c9160e6a44748f20a1a861e535c83efbdc08e7c6bfc21",
+        "render_02": "2da5a3ff83de9f8c861ede9ead921bb5bd2f84c6d372eb0f7aaae65ddce2c9c6",
+        "silhouette_02": "432c6e5385790fed1382560d638eea381f6f238f8aefd049dc56789c489768e5",
+        "render_03": "96baea799a4826820a9992135afaddffc01900ec3efda07566e0ab57f6d79b41",
+        "silhouette_03": "ca22ddbe560bffbbb4bfc2874576d681494a632976fea22dd44ab736d793c67f",
+        "renders_manifest": "80633da03f66674a7a4b37edba8be9356abb904e7705e4f77ad88232fb3c92fe",
+        "cameras": "41be11dc22dcfb40ecf56f420cf0443a2bcce20d504b8956d33561292b39886d"
+      },
+      "display": {
+        "path": "images/ai_58f365408e47307a_card.png",
+        "sha256": "dc93c17ce6e09b441ec0d64e480f4acbd0702e531447418f64101fd53b49eba1"
+      },
+      "original_evidence_paths": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WRJFN95/mesh.glb",
+        "render_00": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WRJFN95/evaluation/renders/view_00.png",
+        "render_01": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WRJFN95/evaluation/renders/view_01.png",
+        "render_02": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WRJFN95/evaluation/renders/view_02.png",
+        "render_03": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07WRJFN95/evaluation/renders/view_03.png"
+      }
+    },
+    {
+      "selection_reason": "lowest_joint_four_score_total",
+      "assessment_id": "ai_9e681f89ba143dac",
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07WRJFN95",
+      "seed": 8410,
+      "run_id": "d088458f86e447f58e6c81f257cbb027",
+      "input_sha256": "e8322744acc611c570b712e96fcfd9ebb8f1711cbc5a988db72409811906bc72",
+      "source_record_sha256": "85021ef300ac8765eab0b4459b1dc103e47784d17804175d17da06d2646c3bdd",
+      "source_artifact_sha256": {
+        "mesh": "166bf7dd1ab1882b63dd69b013ba5f9bf216f155a34941593b5062b98336a573",
+        "prepared_input": "27177f37ed78fcea791334dcbef1cef0778b8d1b95a859bec5e32f523ff1e12d",
+        "input_descriptor": "07ef4ec579d81d66f32ac82d519492756f41bdaf83950eb43e9aa31c654780fb",
+        "render_00": "1fc0ae23bbb4e3718901974cc79a07006a915dfe6f263d5c236f7da631f474c4",
+        "silhouette_00": "26be5bc63cf14b60f774207e98a324ab69f51091fd9f4dfd5997f51bf973751c",
+        "render_01": "c259db53b17b70b90916f8742d1960673723198924c2a99d2fb61b79f03e4834",
+        "silhouette_01": "d1152ff41905f4e5b9e51271954add881b427e4b028960516d89ba3f8bf5792c",
+        "render_02": "7659cbea42a61eb50c67c6dc0c9251289248194a280714f5b50d19f008045947",
+        "silhouette_02": "bf5fd1580b23f17335a8e9795f04c98e60136fa5bb6c64b20c707ffda8cac021",
+        "render_03": "68d72ffb309411ebaa0da73e10124208db863cceb77b64864e9dae71efd3b4e9",
+        "silhouette_03": "f8b1472926faf13e8fd2cafcf119ff3d99afe058e1237420853bd8c6627f62c9",
+        "renders_manifest": "51664dc0adbff9475b2c2e53803fb7f625c4a5af232e949523978787b7b20f48",
+        "cameras": "41be11dc22dcfb40ecf56f420cf0443a2bcce20d504b8956d33561292b39886d"
+      },
+      "display": {
+        "path": "images/ai_9e681f89ba143dac_card.png",
+        "sha256": "371390a89104645df542a51cc3df1036084d2eed4b1aca9647ca245ce64d1b7a"
+      },
+      "original_evidence_paths": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WRJFN95/mesh.glb",
+        "render_00": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WRJFN95/evaluation/renders/view_00.png",
+        "render_01": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WRJFN95/evaluation/renders/view_01.png",
+        "render_02": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WRJFN95/evaluation/renders/view_02.png",
+        "render_03": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WRJFN95/evaluation/renders/view_03.png"
+      }
+    },
+    {
+      "selection_reason": "highest_joint_four_score_total",
+      "assessment_id": "ai_f55a4411c4379f1c",
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07R79WR4V",
+      "seed": 8410,
+      "run_id": "7685fb6f464d4360a1ebadb8b1994d49",
+      "input_sha256": "10269d7df2a0e12fe212f383b49ceb17ecf34f7b6561476361214eebe58abbac",
+      "source_record_sha256": "ba8d00ab808123d93ad18cbe3d9beabed4e28ef20ebea073fe71bb959976feec",
+      "source_artifact_sha256": {
+        "mesh": "c829974ea45253451762f7f09e67d9f396e27de70f254b50ff01b36422b646eb",
+        "prepared_input": "10900287c2d29cba914f8abd5bd0a950ba33fae9721d7014df8e8745a20a30dd",
+        "input_descriptor": "eec7cd3ea2d1a29ace714ca3cd4d4982b0f0265cce7199f6ff2b275f7216871f",
+        "render_00": "2c3ac5df14a0ccaea0d5562a491f5223572f757bd5ace1e50204f23fd6ab913f",
+        "silhouette_00": "f87c19e55ce1d01480afe51f63ca597f23f3068f205fe2e5ea1563d5219e8dbb",
+        "render_01": "0dc0cd50a9a3a752319d5520842e51eb9878241d90e6aa9bf26114bd689bd124",
+        "silhouette_01": "df14b9aef3bdda04267459f62b535c8271dcc67491d4542989b78dcd5c4c7021",
+        "render_02": "b5ba2cdbb3d32f4fa7b1ef8ef650bcdc28fee472c4a69dd134a718f1c87f3f7d",
+        "silhouette_02": "1a2fba5e40fc958249fc966a665cadb72e75dd97bd0d249e377f9f8779157220",
+        "render_03": "508f0b99bfcd4a8b51a4686590c5a2f21c51c0a48dda06ee40c21822c72225c1",
+        "silhouette_03": "da68a6f26f2251205d2a7cf3ccdca3f36a65fd4f5f09e8d6974df586ebc3205c",
+        "renders_manifest": "d241fe51ab127d5e4a658e8e2e56edf429e5927ece9a159350ef5a584cf9d1c1",
+        "cameras": "41be11dc22dcfb40ecf56f420cf0443a2bcce20d504b8956d33561292b39886d"
+      },
+      "display": {
+        "path": "images/ai_f55a4411c4379f1c_card.png",
+        "sha256": "84cecbde0fc0f56ac7aa15eb4e23cb81cc5e7f96c9538fef53e7807c0bf3ed7c"
+      },
+      "original_evidence_paths": {
+        "mesh": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07R79WR4V/mesh.glb",
+        "render_00": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07R79WR4V/evaluation/renders/view_00.png",
+        "render_01": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07R79WR4V/evaluation/renders/view_01.png",
+        "render_02": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07R79WR4V/evaluation/renders/view_02.png",
+        "render_03": "results/reconstruction/7685fb6f464d4360a1ebadb8b1994d49/sf3d/abo-B07R79WR4V/evaluation/renders/view_03.png"
+      }
+    },
+    {
+      "selection_reason": "highest_joint_four_score_total",
+      "assessment_id": "ai_5ed93dc6e159b7b2",
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07R79WR4V",
+      "seed": 8410,
+      "run_id": "d088458f86e447f58e6c81f257cbb027",
+      "input_sha256": "10269d7df2a0e12fe212f383b49ceb17ecf34f7b6561476361214eebe58abbac",
+      "source_record_sha256": "7ff34e9e085bffb5aa41c2494180dcaadda6d8b2d06fe43e5f90a4d1c2d28501",
+      "source_artifact_sha256": {
+        "mesh": "15f7f7a6d3e1a36d5db0dfbe8bd0c20028c6d9e1907998c586b8422e222ca91c",
+        "prepared_input": "9e770d63457c478648390674d094e2d8f3c8c913616915d69efe2af2ed6310cc",
+        "input_descriptor": "eec7cd3ea2d1a29ace714ca3cd4d4982b0f0265cce7199f6ff2b275f7216871f",
+        "render_00": "8e14c41814039984fb6904246242c6195f77d2cf94844f96b92c9a2442aadd35",
+        "silhouette_00": "050b2bba41c18293965ab92a672ae53d98a5e030e31e6a0adc691872b784d2a5",
+        "render_01": "2f59330ad2f8e88712616ca7d8d3adaf58d184d3cf0936862d98d4dc53b58110",
+        "silhouette_01": "eeb64e03cab31f46f81a640d00b203cdf2ef0a5eef8a939fc3a4d802b535301d",
+        "render_02": "bddf376dd35271350c915bc0cdb888d824fd8fe5b2517e6a59bf13ff4e2c75d0",
+        "silhouette_02": "850df59ce36f037f45b1ac7f327aae96736f32c2366b574c49a950a37d6ea6eb",
+        "render_03": "1b9bd89c43fab32581807f891ee16ede34209daf32a877c37f83a27b23a6b6ad",
+        "silhouette_03": "e679bcde1884f9b1e921c99f3f13bafb2d688ff3f9bec95300a5b74bae5f7975",
+        "renders_manifest": "b6e0d3404ba8f4625037a8ddc1512d6d0634a385660bc37470d42dce164e527f",
+        "cameras": "41be11dc22dcfb40ecf56f420cf0443a2bcce20d504b8956d33561292b39886d"
+      },
+      "display": {
+        "path": "images/ai_5ed93dc6e159b7b2_card.png",
+        "sha256": "abb03335ca72e32b0b8202b369d8df6e6f87ac122de68fcc4071ba1a10e8c749"
+      },
+      "original_evidence_paths": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07R79WR4V/mesh.glb",
+        "render_00": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07R79WR4V/evaluation/renders/view_00.png",
+        "render_01": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07R79WR4V/evaluation/renders/view_01.png",
+        "render_02": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07R79WR4V/evaluation/renders/view_02.png",
+        "render_03": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07R79WR4V/evaluation/renders/view_03.png"
+      }
+    }
+  ],
+  "visual_reinspection": "The named AI assistant independently opened six display images and four reconstruction cards through view_image during this documentation audit. This is a supplementary post-hoc consistency check, not an independent rater study.",
+  "documentation_cautions": [
+    "Shortlist prompt means use23 versus24 scored prompts; image rates use59 versus71 decided outputs. Use raw uncertain counts and matched coverage alongside any comparison.",
+    "Multi-label error categories overlap; their sums are not failing-output denominators.",
+    "SDXL gen-001 seed8410 lettering defect is visible; exact functional clasp interpretation is ambiguous despite the frozen met verdict.",
+    "Generation ordinal anchors match actual human review.html and frozen AI config; legacy docs/QUALITATIVE_REVIEW.md uses different brief paraphrases and should not override either frozen rubric.",
+    "README and several legacy status documents still describe pre-supplement completion status; distinguish unchanged missing original ABO ground truth from separate GSO extension."
+  ],
+  "no_gpu_or_downloads": true,
+  "audit_note": "A first audit assertion used direct Python YAML-versus-JSON object equality; JSON stringifies integer ordinal-anchor keys. JSON-normalized equality passed and all source hashes match; no protocol change or evidence error occurred."
+}

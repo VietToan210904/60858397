@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "2026-10-28T20:00:01.528826+00:00",
+  "model": "sf3d",
+  "model_id": "stabilityai/stable-fast-3d",
+  "resolved_revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+  "download_bytes": 4024309453,
+  "existing_bytes_by_size": 0,
+  "remaining_bytes_by_size": 4024309453,
+  "free_disk_bytes": 360459632640,
+  "destination": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\sf3d",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "size_bytes": 11726,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "b07f871a39b333819b9a986ac2dbb7f6fcb7a95e"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 5430,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "95005aada2bb323518c3c64ee3d78d4f4f339dfb"
+    },
+    {
+      "path": "config.yaml",
+      "size_bytes": 2405,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "4a44aec5e6af76975afcaedae7e888b96412c832"
+    },
+    {
+      "path": "model.safetensors",
+      "size_bytes": 4024289892,
+      "expected_sha256": "a3416e1cf654e7d4f5e75f116cec2c3f0a14501a77d30c2f6068bbda178de388",
+      "expected_git_blob_sha1": null
+    }
+  ],
+  "cache_dir": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\hub",
+  "transport": "bounded_http_ranges",
+  "sha256": {
+    "LICENSE.md": "9b60b9d0411f54d4087484ad4acf28ca6fd9f6a84c30ddacb04de2c623254749",
+    "README.md": "19633d638bc3e9b6fc090a961769e547776c05a372be0b137c3a95c77845d52f",
+    "config.yaml": "5e880cfec3dec28d4e20afe07bfa1799c8a561f56f0532ebf1b4022ae4ddc8e4",
+    "model.safetensors": "a3416e1cf654e7d4f5e75f116cec2c3f0a14501a77d30c2f6068bbda178de388"
+  },
+  "status": "downloaded",
+  "completed_at_utc": "2026-10-28T20:10:53.759747+00:00"
+}

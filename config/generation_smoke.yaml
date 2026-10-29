@@ -1,0 +1,4 @@
+smoke_only: true
+evaluation:
+  generation:
+    dataset_dir: datasets/generation_smoke

@@ -1,0 +1,121 @@
+query_id,query_text,query_category,qrels_complete
+abo-q001,black running shoes,running shoes,false
+abo-q002,white running shoes,running shoes,false
+abo-q003,red running shoes,running shoes,false
+abo-q004,simple running shoes for everyday wear,running shoes,false
+abo-q005,running shoes with a metallic finish,running shoes,false
+abo-q006,running shoes for formal occasions,running shoes,false
+abo-q007,minimalist running shoes,running shoes,false
+abo-q008,lightweight running shoes for travel,running shoes,false
+abo-q009,running shoes with a bold decorative design,running shoes,false
+abo-q010,running shoes in neutral colours,running shoes,false
+abo-q011,black ankle boots,ankle boots,false
+abo-q012,white ankle boots,ankle boots,false
+abo-q013,red ankle boots,ankle boots,false
+abo-q014,simple ankle boots for everyday wear,ankle boots,false
+abo-q015,ankle boots with a metallic finish,ankle boots,false
+abo-q016,ankle boots for formal occasions,ankle boots,false
+abo-q017,minimalist ankle boots,ankle boots,false
+abo-q018,lightweight ankle boots for travel,ankle boots,false
+abo-q019,ankle boots with a bold decorative design,ankle boots,false
+abo-q020,ankle boots in neutral colours,ankle boots,false
+abo-q021,black sandals,sandals,false
+abo-q022,white sandals,sandals,false
+abo-q023,red sandals,sandals,false
+abo-q024,simple sandals for everyday wear,sandals,false
+abo-q025,sandals with a metallic finish,sandals,false
+abo-q026,sandals for formal occasions,sandals,false
+abo-q027,minimalist sandals,sandals,false
+abo-q028,lightweight sandals for travel,sandals,false
+abo-q029,sandals with a bold decorative design,sandals,false
+abo-q030,sandals in neutral colours,sandals,false
+abo-q031,black flat shoes,flat shoes,false
+abo-q032,white flat shoes,flat shoes,false
+abo-q033,red flat shoes,flat shoes,false
+abo-q034,simple flat shoes for everyday wear,flat shoes,false
+abo-q035,flat shoes with a metallic finish,flat shoes,false
+abo-q036,flat shoes for formal occasions,flat shoes,false
+abo-q037,minimalist flat shoes,flat shoes,false
+abo-q038,lightweight flat shoes for travel,flat shoes,false
+abo-q039,flat shoes with a bold decorative design,flat shoes,false
+abo-q040,flat shoes in neutral colours,flat shoes,false
+abo-q041,black handbags,handbags,false
+abo-q042,white handbags,handbags,false
+abo-q043,red handbags,handbags,false
+abo-q044,simple handbags for everyday wear,handbags,false
+abo-q045,handbags with a metallic finish,handbags,false
+abo-q046,handbags for formal occasions,handbags,false
+abo-q047,minimalist handbags,handbags,false
+abo-q048,lightweight handbags for travel,handbags,false
+abo-q049,handbags with a bold decorative design,handbags,false
+abo-q050,handbags in neutral colours,handbags,false
+abo-q051,black backpacks,backpacks,false
+abo-q052,white backpacks,backpacks,false
+abo-q053,red backpacks,backpacks,false
+abo-q054,simple backpacks for everyday wear,backpacks,false
+abo-q055,backpacks with a metallic finish,backpacks,false
+abo-q056,backpacks for formal occasions,backpacks,false
+abo-q057,minimalist backpacks,backpacks,false
+abo-q058,lightweight backpacks for travel,backpacks,false
+abo-q059,backpacks with a bold decorative design,backpacks,false
+abo-q060,backpacks in neutral colours,backpacks,false
+abo-q061,black wallets,wallets,false
+abo-q062,white wallets,wallets,false
+abo-q063,red wallets,wallets,false
+abo-q064,simple wallets for everyday wear,wallets,false
+abo-q065,wallets with a metallic finish,wallets,false
+abo-q066,wallets for formal occasions,wallets,false
+abo-q067,minimalist wallets,wallets,false
+abo-q068,lightweight wallets for travel,wallets,false
+abo-q069,wallets with a bold decorative design,wallets,false
+abo-q070,wallets in neutral colours,wallets,false
+abo-q071,black hats,hats,false
+abo-q072,white hats,hats,false
+abo-q073,red hats,hats,false
+abo-q074,simple hats for everyday wear,hats,false
+abo-q075,hats with a metallic finish,hats,false
+abo-q076,hats for formal occasions,hats,false
+abo-q077,minimalist hats,hats,false
+abo-q078,lightweight hats for travel,hats,false
+abo-q079,hats with a bold decorative design,hats,false
+abo-q080,hats in neutral colours,hats,false
+abo-q081,black earrings,earrings,false
+abo-q082,white earrings,earrings,false
+abo-q083,red earrings,earrings,false
+abo-q084,simple earrings for everyday wear,earrings,false
+abo-q085,earrings with a metallic finish,earrings,false
+abo-q086,earrings for formal occasions,earrings,false
+abo-q087,minimalist earrings,earrings,false
+abo-q088,lightweight earrings for travel,earrings,false
+abo-q089,earrings with a bold decorative design,earrings,false
+abo-q090,earrings in neutral colours,earrings,false
+abo-q091,black necklaces,necklaces,false
+abo-q092,white necklaces,necklaces,false
+abo-q093,red necklaces,necklaces,false
+abo-q094,simple necklaces for everyday wear,necklaces,false
+abo-q095,necklaces with a metallic finish,necklaces,false
+abo-q096,necklaces for formal occasions,necklaces,false
+abo-q097,minimalist necklaces,necklaces,false
+abo-q098,lightweight necklaces for travel,necklaces,false
+abo-q099,necklaces with a bold decorative design,necklaces,false
+abo-q100,necklaces in neutral colours,necklaces,false
+abo-q101,black rings,rings,false
+abo-q102,white rings,rings,false
+abo-q103,red rings,rings,false
+abo-q104,simple rings for everyday wear,rings,false
+abo-q105,rings with a metallic finish,rings,false
+abo-q106,rings for formal occasions,rings,false
+abo-q107,minimalist rings,rings,false
+abo-q108,lightweight rings for travel,rings,false
+abo-q109,rings with a bold decorative design,rings,false
+abo-q110,rings in neutral colours,rings,false
+abo-q111,black casual shoes,casual shoes,false
+abo-q112,white casual shoes,casual shoes,false
+abo-q113,red casual shoes,casual shoes,false
+abo-q114,simple casual shoes for everyday wear,casual shoes,false
+abo-q115,casual shoes with a metallic finish,casual shoes,false
+abo-q116,casual shoes for formal occasions,casual shoes,false
+abo-q117,minimalist casual shoes,casual shoes,false
+abo-q118,lightweight casual shoes for travel,casual shoes,false
+abo-q119,casual shoes with a bold decorative design,casual shoes,false
+abo-q120,casual shoes in neutral colours,casual shoes,false

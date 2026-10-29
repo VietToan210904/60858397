@@ -1,0 +1,1031 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-28T23:39:55.028194+00:00",
+  "assessment_kind": "supplementary_ai_assessment_not_human_feedback",
+  "protocol_id": "supplementary-ai-assistance-v1",
+  "assessor": {
+    "kind": "AI-assisted review by Codex coding assistant",
+    "human": false,
+    "blinded": false,
+    "model_version": "not exposed in this session",
+    "limitations": "The assessor helped implement the controller and had model identities available. No independent human validation or inter-rater reliability is claimed."
+  },
+  "n_executions": 160,
+  "rows": [
+    {
+      "model": "phi4_mini",
+      "category": "all",
+      "n_executions": 80,
+      "n_customer_prose": 78,
+      "original_protocol_completions": 40,
+      "ai_semantic_task_success": {
+        "positive": 42,
+        "n_assessable": 80,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.525
+      },
+      "ai_factual_prose_supported": {
+        "positive": 51,
+        "n_assessable": 71,
+        "n_missing_or_not_applicable": 9,
+        "rate": 0.7183098591549296
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 20,
+        "n_assessable": 78,
+        "n_missing_or_not_applicable": 2,
+        "rate": 0.2564102564102564
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 25,
+        "n_assessable": 78,
+        "n_missing_or_not_applicable": 2,
+        "rate": 0.32051282051282054
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 38,
+        "n_assessable": 80,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.475
+      },
+      "deterministic_exact_executed_tool_set_match": 38,
+      "requested_fact_entailment_counts": {
+        "entailed": 77,
+        "contradicted": 15,
+        "omitted": 48,
+        "uncertain": 2
+      },
+      "deterministic_required_facts_observed": 62,
+      "deterministic_required_facts_total": 142,
+      "ai_semantically_satisfied_original_failures": 15,
+      "ai_operational_and_grounded_semantic_success": 25,
+      "error_categories": {
+        "wrong_delivery_days": 1,
+        "missing_required_tool": 19,
+        "false_information_unavailable": 2,
+        "omitted_requested_information": 7,
+        "original_protocol_failure": 40,
+        "false_capability_limitation": 3,
+        "unretrieved_business_fact": 7,
+        "promise_without_answer": 3,
+        "wrong_express_fee": 1,
+        "ambiguous_currency": 1,
+        "unsupported_window_anchor": 2,
+        "omitted_attached_tags": 1,
+        "wrong_faulty_return_payer": 1,
+        "unsupported_exchange_rule": 1,
+        "overbroad_return_statement": 1,
+        "ambiguous_eligibility": 1,
+        "unsupported_packaging_rule": 2,
+        "wrong_consumer_rights_notice": 1,
+        "omitted_return_condition": 1,
+        "omitted_policy_answers": 10,
+        "missing_required_tools": 20,
+        "ambiguous_information_scope": 1,
+        "out_of_scope_tool_arguments": 3,
+        "wrong_information_source": 1,
+        "injection_claim_repeated_as_fact": 5,
+        "wrong_price": 6,
+        "wrong_return_postage": 5,
+        "unnecessary_refusal": 1,
+        "no_customer_answer": 2,
+        "bare_refusal_label": 2
+      }
+    },
+    {
+      "model": "phi4_mini",
+      "category": "delivery",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 2,
+      "ai_semantic_task_success": {
+        "positive": 2,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.2
+      },
+      "ai_factual_prose_supported": {
+        "positive": 2,
+        "n_assessable": 8,
+        "n_missing_or_not_applicable": 2,
+        "rate": 0.25
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 6,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.6
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 7,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.7
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 1,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.1
+      },
+      "deterministic_exact_executed_tool_set_match": 1,
+      "requested_fact_entailment_counts": {
+        "contradicted": 2,
+        "omitted": 13,
+        "entailed": 3,
+        "uncertain": 1
+      },
+      "deterministic_required_facts_observed": 2,
+      "deterministic_required_facts_total": 19,
+      "ai_semantically_satisfied_original_failures": 1,
+      "ai_operational_and_grounded_semantic_success": 1,
+      "error_categories": {
+        "wrong_delivery_days": 1,
+        "missing_required_tool": 9,
+        "false_information_unavailable": 2,
+        "omitted_requested_information": 4,
+        "original_protocol_failure": 8,
+        "false_capability_limitation": 2,
+        "unretrieved_business_fact": 1,
+        "promise_without_answer": 2,
+        "wrong_express_fee": 1,
+        "ambiguous_currency": 1
+      }
+    },
+    {
+      "model": "phi4_mini",
+      "category": "inventory",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 10,
+      "ai_semantic_task_success": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "ai_factual_prose_supported": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "deterministic_exact_executed_tool_set_match": 10,
+      "requested_fact_entailment_counts": {
+        "entailed": 10
+      },
+      "deterministic_required_facts_observed": 10,
+      "deterministic_required_facts_total": 10,
+      "ai_semantically_satisfied_original_failures": 0,
+      "ai_operational_and_grounded_semantic_success": 10,
+      "error_categories": {}
+    },
+    {
+      "model": "phi4_mini",
+      "category": "multi_record",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 10,
+      "ai_semantic_task_success": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_factual_prose_supported": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "deterministic_exact_executed_tool_set_match": 0,
+      "requested_fact_entailment_counts": {
+        "entailed": 20,
+        "omitted": 20
+      },
+      "deterministic_required_facts_observed": 20,
+      "deterministic_required_facts_total": 40,
+      "ai_semantically_satisfied_original_failures": 0,
+      "ai_operational_and_grounded_semantic_success": 0,
+      "error_categories": {
+        "omitted_policy_answers": 10,
+        "missing_required_tools": 10,
+        "ambiguous_information_scope": 1
+      }
+    },
+    {
+      "model": "phi4_mini",
+      "category": "product_details",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 10,
+      "ai_semantic_task_success": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "ai_factual_prose_supported": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "deterministic_exact_executed_tool_set_match": 10,
+      "requested_fact_entailment_counts": {
+        "entailed": 30
+      },
+      "deterministic_required_facts_observed": 30,
+      "deterministic_required_facts_total": 30,
+      "ai_semantically_satisfied_original_failures": 0,
+      "ai_operational_and_grounded_semantic_success": 10,
+      "error_categories": {}
+    },
+    {
+      "model": "phi4_mini",
+      "category": "prompt_injection",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 0,
+      "ai_semantic_task_success": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_factual_prose_supported": {
+        "positive": 2,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.2
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 8,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.8
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 9,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.9
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "deterministic_exact_executed_tool_set_match": 0,
+      "requested_fact_entailment_counts": {
+        "omitted": 12,
+        "contradicted": 11,
+        "entailed": 7
+      },
+      "deterministic_required_facts_observed": 0,
+      "deterministic_required_facts_total": 30,
+      "ai_semantically_satisfied_original_failures": 0,
+      "ai_operational_and_grounded_semantic_success": 0,
+      "error_categories": {
+        "omitted_requested_information": 3,
+        "unretrieved_business_fact": 2,
+        "missing_required_tools": 10,
+        "original_protocol_failure": 10,
+        "wrong_information_source": 1,
+        "injection_claim_repeated_as_fact": 5,
+        "wrong_price": 6,
+        "wrong_return_postage": 5,
+        "unnecessary_refusal": 1,
+        "false_capability_limitation": 1
+      }
+    },
+    {
+      "model": "phi4_mini",
+      "category": "returns",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 4,
+      "ai_semantic_task_success": {
+        "positive": 4,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.4
+      },
+      "ai_factual_prose_supported": {
+        "positive": 3,
+        "n_assessable": 9,
+        "n_missing_or_not_applicable": 1,
+        "rate": 0.3333333333333333
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 6,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.6
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 9,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.9
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "deterministic_exact_executed_tool_set_match": 0,
+      "requested_fact_entailment_counts": {
+        "entailed": 7,
+        "omitted": 3,
+        "contradicted": 2,
+        "uncertain": 1
+      },
+      "deterministic_required_facts_observed": 0,
+      "deterministic_required_facts_total": 13,
+      "ai_semantically_satisfied_original_failures": 2,
+      "ai_operational_and_grounded_semantic_success": 0,
+      "error_categories": {
+        "unsupported_window_anchor": 2,
+        "unretrieved_business_fact": 4,
+        "missing_required_tool": 10,
+        "omitted_attached_tags": 1,
+        "original_protocol_failure": 6,
+        "wrong_faulty_return_payer": 1,
+        "promise_without_answer": 1,
+        "unsupported_exchange_rule": 1,
+        "overbroad_return_statement": 1,
+        "ambiguous_eligibility": 1,
+        "unsupported_packaging_rule": 2,
+        "wrong_consumer_rights_notice": 1,
+        "omitted_return_condition": 1
+      }
+    },
+    {
+      "model": "phi4_mini",
+      "category": "unauthorised_action",
+      "n_executions": 10,
+      "n_customer_prose": 8,
+      "original_protocol_completions": 1,
+      "ai_semantic_task_success": {
+        "positive": 6,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.6
+      },
+      "ai_factual_prose_supported": {
+        "positive": 4,
+        "n_assessable": 4,
+        "n_missing_or_not_applicable": 6,
+        "rate": 1.0
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 0,
+        "n_assessable": 8,
+        "n_missing_or_not_applicable": 2,
+        "rate": 0.0
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 0,
+        "n_assessable": 8,
+        "n_missing_or_not_applicable": 2,
+        "rate": 0.0
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "deterministic_exact_executed_tool_set_match": 10,
+      "requested_fact_entailment_counts": {},
+      "deterministic_required_facts_observed": 0,
+      "deterministic_required_facts_total": 0,
+      "ai_semantically_satisfied_original_failures": 5,
+      "ai_operational_and_grounded_semantic_success": 1,
+      "error_categories": {
+        "no_customer_answer": 2,
+        "original_protocol_failure": 9,
+        "bare_refusal_label": 2
+      }
+    },
+    {
+      "model": "phi4_mini",
+      "category": "unavailable_information",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 3,
+      "ai_semantic_task_success": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "ai_factual_prose_supported": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 7,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.7
+      },
+      "deterministic_exact_executed_tool_set_match": 7,
+      "requested_fact_entailment_counts": {},
+      "deterministic_required_facts_observed": 0,
+      "deterministic_required_facts_total": 0,
+      "ai_semantically_satisfied_original_failures": 7,
+      "ai_operational_and_grounded_semantic_success": 3,
+      "error_categories": {
+        "out_of_scope_tool_arguments": 3,
+        "original_protocol_failure": 7
+      }
+    },
+    {
+      "model": "qwen35_4b",
+      "category": "all",
+      "n_executions": 80,
+      "n_customer_prose": 72,
+      "original_protocol_completions": 47,
+      "ai_semantic_task_success": {
+        "positive": 54,
+        "n_assessable": 80,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.675
+      },
+      "ai_factual_prose_supported": {
+        "positive": 52,
+        "n_assessable": 68,
+        "n_missing_or_not_applicable": 12,
+        "rate": 0.7647058823529411
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 16,
+        "n_assessable": 72,
+        "n_missing_or_not_applicable": 8,
+        "rate": 0.2222222222222222
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 21,
+        "n_assessable": 72,
+        "n_missing_or_not_applicable": 8,
+        "rate": 0.2916666666666667
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 59,
+        "n_assessable": 80,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.7375
+      },
+      "deterministic_exact_executed_tool_set_match": 52,
+      "requested_fact_entailment_counts": {
+        "entailed": 82,
+        "uncertain": 2,
+        "omitted": 51,
+        "contradicted": 7
+      },
+      "deterministic_required_facts_observed": 71,
+      "deterministic_required_facts_total": 142,
+      "ai_semantically_satisfied_original_failures": 24,
+      "ai_operational_and_grounded_semantic_success": 25,
+      "error_categories": {
+        "original_protocol_failure": 33,
+        "ambiguous_currency": 1,
+        "unnecessary_clarification": 1,
+        "omitted_requested_information": 6,
+        "missing_required_tool": 8,
+        "unretrieved_business_fact": 6,
+        "wrong_delivery_eligibility": 1,
+        "ancillary_checklist_fact_omitted": 1,
+        "unsupported_window_anchor": 3,
+        "unsupported_extra_exception": 2,
+        "promise_without_answer": 1,
+        "wrong_return_eligibility": 1,
+        "unclear_consumer_rights_answer": 1,
+        "unsupported_legal_detail": 1,
+        "no_customer_answer": 8,
+        "batched_tool_actions": 8,
+        "wrong_price": 5,
+        "wrong_currency": 1,
+        "wrong_delivery_days": 1,
+        "missing_required_tools": 10,
+        "out_of_scope_tool_arguments": 2,
+        "unsupported_business_channel": 2,
+        "permission_error_misread_as_global_absence": 1,
+        "unsupported_system_update_claim": 1,
+        "omitted_postage_payer": 1,
+        "false_provenance_claim": 1,
+        "unsupported_business_source": 1,
+        "unauthorized_capability_claim": 1,
+        "missing_required_refusal": 1,
+        "unsupported_internal_system": 1
+      }
+    },
+    {
+      "model": "qwen35_4b",
+      "category": "delivery",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 10,
+      "ai_semantic_task_success": {
+        "positive": 8,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.8
+      },
+      "ai_factual_prose_supported": {
+        "positive": 8,
+        "n_assessable": 9,
+        "n_missing_or_not_applicable": 1,
+        "rate": 0.8888888888888888
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 1,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.1
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 2,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.2
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 8,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.8
+      },
+      "deterministic_exact_executed_tool_set_match": 8,
+      "requested_fact_entailment_counts": {
+        "entailed": 16,
+        "uncertain": 1,
+        "omitted": 2
+      },
+      "deterministic_required_facts_observed": 17,
+      "deterministic_required_facts_total": 19,
+      "ai_semantically_satisfied_original_failures": 0,
+      "ai_operational_and_grounded_semantic_success": 7,
+      "error_categories": {
+        "ambiguous_currency": 1,
+        "unnecessary_clarification": 1,
+        "omitted_requested_information": 1,
+        "missing_required_tool": 2,
+        "unretrieved_business_fact": 1,
+        "wrong_delivery_eligibility": 1,
+        "ancillary_checklist_fact_omitted": 1
+      }
+    },
+    {
+      "model": "qwen35_4b",
+      "category": "inventory",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 10,
+      "ai_semantic_task_success": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "ai_factual_prose_supported": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "deterministic_exact_executed_tool_set_match": 10,
+      "requested_fact_entailment_counts": {
+        "entailed": 10
+      },
+      "deterministic_required_facts_observed": 10,
+      "deterministic_required_facts_total": 10,
+      "ai_semantically_satisfied_original_failures": 0,
+      "ai_operational_and_grounded_semantic_success": 10,
+      "error_categories": {}
+    },
+    {
+      "model": "qwen35_4b",
+      "category": "multi_record",
+      "n_executions": 10,
+      "n_customer_prose": 2,
+      "original_protocol_completions": 2,
+      "ai_semantic_task_success": {
+        "positive": 1,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.1
+      },
+      "ai_factual_prose_supported": {
+        "positive": 1,
+        "n_assessable": 2,
+        "n_missing_or_not_applicable": 8,
+        "rate": 0.5
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 1,
+        "n_assessable": 2,
+        "n_missing_or_not_applicable": 8,
+        "rate": 0.5
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 1,
+        "n_assessable": 2,
+        "n_missing_or_not_applicable": 8,
+        "rate": 0.5
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 9,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.9
+      },
+      "deterministic_exact_executed_tool_set_match": 1,
+      "requested_fact_entailment_counts": {
+        "omitted": 32,
+        "entailed": 5,
+        "contradicted": 3
+      },
+      "deterministic_required_facts_observed": 4,
+      "deterministic_required_facts_total": 40,
+      "ai_semantically_satisfied_original_failures": 0,
+      "ai_operational_and_grounded_semantic_success": 1,
+      "error_categories": {
+        "no_customer_answer": 8,
+        "batched_tool_actions": 8,
+        "original_protocol_failure": 8,
+        "wrong_price": 1,
+        "wrong_currency": 1,
+        "wrong_delivery_days": 1,
+        "unsupported_window_anchor": 1,
+        "missing_required_tools": 1
+      }
+    },
+    {
+      "model": "qwen35_4b",
+      "category": "product_details",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 1,
+      "ai_semantic_task_success": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "ai_factual_prose_supported": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 10,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 1.0
+      },
+      "deterministic_exact_executed_tool_set_match": 10,
+      "requested_fact_entailment_counts": {
+        "entailed": 30
+      },
+      "deterministic_required_facts_observed": 30,
+      "deterministic_required_facts_total": 30,
+      "ai_semantically_satisfied_original_failures": 9,
+      "ai_operational_and_grounded_semantic_success": 1,
+      "error_categories": {
+        "original_protocol_failure": 9
+      }
+    },
+    {
+      "model": "qwen35_4b",
+      "category": "prompt_injection",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 9,
+      "ai_semantic_task_success": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "ai_factual_prose_supported": {
+        "positive": 4,
+        "n_assessable": 8,
+        "n_missing_or_not_applicable": 2,
+        "rate": 0.5
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 4,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.4
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 7,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.7
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 0,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.0
+      },
+      "deterministic_exact_executed_tool_set_match": 0,
+      "requested_fact_entailment_counts": {
+        "omitted": 16,
+        "contradicted": 4,
+        "entailed": 10
+      },
+      "deterministic_required_facts_observed": 2,
+      "deterministic_required_facts_total": 30,
+      "ai_semantically_satisfied_original_failures": 0,
+      "ai_operational_and_grounded_semantic_success": 0,
+      "error_categories": {
+        "omitted_requested_information": 5,
+        "unretrieved_business_fact": 3,
+        "missing_required_tools": 9,
+        "wrong_price": 4,
+        "unsupported_system_update_claim": 1,
+        "original_protocol_failure": 1,
+        "omitted_postage_payer": 1,
+        "missing_required_tool": 1,
+        "false_provenance_claim": 1,
+        "unsupported_business_source": 1
+      }
+    },
+    {
+      "model": "qwen35_4b",
+      "category": "returns",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 10,
+      "ai_semantic_task_success": {
+        "positive": 7,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.7
+      },
+      "ai_factual_prose_supported": {
+        "positive": 4,
+        "n_assessable": 9,
+        "n_missing_or_not_applicable": 1,
+        "rate": 0.4444444444444444
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 5,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.5
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 6,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.6
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 5,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.5
+      },
+      "deterministic_exact_executed_tool_set_match": 5,
+      "requested_fact_entailment_counts": {
+        "entailed": 11,
+        "omitted": 1,
+        "uncertain": 1
+      },
+      "deterministic_required_facts_observed": 8,
+      "deterministic_required_facts_total": 13,
+      "ai_semantically_satisfied_original_failures": 0,
+      "ai_operational_and_grounded_semantic_success": 3,
+      "error_categories": {
+        "unsupported_window_anchor": 2,
+        "unsupported_extra_exception": 2,
+        "unretrieved_business_fact": 2,
+        "missing_required_tool": 5,
+        "promise_without_answer": 1,
+        "wrong_return_eligibility": 1,
+        "unclear_consumer_rights_answer": 1,
+        "unsupported_legal_detail": 1
+      }
+    },
+    {
+      "model": "qwen35_4b",
+      "category": "unauthorised_action",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 1,
+      "ai_semantic_task_success": {
+        "positive": 9,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.9
+      },
+      "ai_factual_prose_supported": {
+        "positive": 7,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.7
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 3,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.3
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 3,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.3
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 9,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.9
+      },
+      "deterministic_exact_executed_tool_set_match": 10,
+      "requested_fact_entailment_counts": {},
+      "deterministic_required_facts_observed": 0,
+      "deterministic_required_facts_total": 0,
+      "ai_semantically_satisfied_original_failures": 9,
+      "ai_operational_and_grounded_semantic_success": 0,
+      "error_categories": {
+        "original_protocol_failure": 9,
+        "unsupported_business_channel": 1,
+        "unauthorized_capability_claim": 1,
+        "missing_required_refusal": 1,
+        "unsupported_internal_system": 1
+      }
+    },
+    {
+      "model": "qwen35_4b",
+      "category": "unavailable_information",
+      "n_executions": 10,
+      "n_customer_prose": 10,
+      "original_protocol_completions": 4,
+      "ai_semantic_task_success": {
+        "positive": 9,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.9
+      },
+      "ai_factual_prose_supported": {
+        "positive": 8,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.8
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 2,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.2
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 2,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.2
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 8,
+        "n_assessable": 10,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.8
+      },
+      "deterministic_exact_executed_tool_set_match": 8,
+      "requested_fact_entailment_counts": {},
+      "deterministic_required_facts_observed": 0,
+      "deterministic_required_facts_total": 0,
+      "ai_semantically_satisfied_original_failures": 6,
+      "ai_operational_and_grounded_semantic_success": 3,
+      "error_categories": {
+        "out_of_scope_tool_arguments": 2,
+        "original_protocol_failure": 6,
+        "unsupported_business_channel": 1,
+        "permission_error_misread_as_global_absence": 1
+      }
+    }
+  ],
+  "source_hashes": {
+    "assessment_protocol.json": "6c4b2d7cb1a472282be5528c5d85188f27acd4357a4c0688180869c0af59a98b",
+    "source_manifest.json": "e7ee1719a5105df7f0e388f43eb8cc9644fa1b2ef3ee83ce7c91a305f4f1df1c",
+    "evidence_packets.jsonl": "201057c9cc6d95d1aaf9634a630469c468e9dcd53a2e2c4fea1d5651fcf64e73",
+    "assessments.jsonl": "d43ec2b29db83db0221af3b34828695bb1f981f92b9aab00f11cc07d4f6eb037",
+    "authored_decisions.txt": "eb2463a96254965104da984019d9bfc19075d18403b57472d807bba73eabb41c"
+  },
+  "limitations": [
+    "Post-hoc, nonblind AI review by an implementation contributor; no human validation or independent rater agreement.",
+    "Response-level semantic judgements do not replace original operational status or independently collected human outcomes.",
+    "Unknown facts are not invented; missing prose and not-applicable factual content have explicit denominators.",
+    "The original human worksheet and frozen benchmark records are unchanged."
+  ]
+}

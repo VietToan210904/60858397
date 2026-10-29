@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "2a8a062fddfde1175f6e926a62c4fefb8a236762b427913221e8877c80b5d7b7",
+    "preparation_metadata": "c4e6c62c4d9c7d5494052002014b6e9a028050108ed03e13a47e0f347daabc35",
+    "reference_mesh": "8031badc6150ae079b359962f6c085ab831cf8c45a21a73acaba766d8699af2d",
+    "source_image": "4436b928b2586ab93ac7567903dae4c41c7754c115d733d5423e3098e033bd50",
+    "view_0_reference_rgb": "ffff1c3b34728661906c5ef623e42d195c1e5efd3326bfe86b9c7fd5be67afa7",
+    "view_0_reference_silhouette": "0cec9e41033f1b2b35cdb85aa021d2a303a8f7e27767d7801114b29afa56326f",
+    "view_1_reference_rgb": "bff8227604a0af0ccf2f36fa929f2b9e6301f31e6cd1fcef487e37a5c41c3ec7",
+    "view_1_reference_silhouette": "e44c72130245d4532d5b0635784e031e8ab39e873dd54ef6a9b849e38035b127",
+    "view_2_reference_rgb": "4172dd2c1abbd69e1c06829b4c18ca22dae9818ee8ac7623eb3b252646e2c3e2",
+    "view_2_reference_silhouette": "5ccc40c5d622de2296a2e83312cdc135d9c80ff7815324dca13a10bcf7286cbf",
+    "view_3_reference_rgb": "78d4d7eaecd9e0d1b44a7f9107b682e3453c4fcb4d5f812fb0c1ebead46f2720",
+    "view_3_reference_silhouette": "2ff5b19ce84cf5aef3b7691893d17a6eec3864388323db4c456024b2af04644d"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-ASICS_GEL1140V_WhiteRoyalSilver/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "4436b928b2586ab93ac7567903dae4c41c7754c115d733d5423e3098e033bd50",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "8031badc6150ae079b359962f6c085ab831cf8c45a21a73acaba766d8699af2d",
+    "object_id": "gso-ASICS_GEL1140V_WhiteRoyalSilver",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-ASICS_GEL1140V_WhiteRoyalSilver/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-ASICS_GEL1140V_WhiteRoyalSilver/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-ASICS_GEL1140V_WhiteRoyalSilver/input.png",
+    "source_revision": "GoogleResearch/ASICS_GEL1140V_WhiteRoyalSilver/v1;zip-sha256:a3097fa4c86521966f3908b11525ebba09eb533e40a1a500c30e05c260f79513"
+  }
+}

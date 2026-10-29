@@ -1,0 +1,279 @@
+{
+  "kind": "post_hoc_supplementary_ai_visual_packet",
+  "protocol_sha256": "299a340bf2fd5f87b8399b62fde3855117a84cf0bf61146474f9a367dd02f7f4",
+  "selection_sha256": "c9854ffcf88fc81f931e677e7137da8b6c7e60096bf26c378f86baa0ddeb6deb",
+  "pair": "generation",
+  "batch_number": 5,
+  "cards": [
+    {
+      "assessment_id": "ai_4dafb7e5efa54556",
+      "pair": "generation",
+      "brief": "Rainy-season campaign featuring one pair of glossy red rain boots and a closed navy umbrella on wet grey paving, subtle reflections, light rain in background, products fully visible, no people and no words.",
+      "criteria": [
+        "pair of red rain boots",
+        "closed navy umbrella",
+        "wet grey paving",
+        "reflections",
+        "fully visible products",
+        "no words"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_4dafb7e5efa54556_image.png",
+          "sha256": "c1f25de870232b67824a81e8c2747f3fd24c0684fb473b0c5a768698462e9e6b"
+        }
+      },
+      "evidence_sha256": {
+        "image": "c1f25de870232b67824a81e8c2747f3fd24c0684fb473b0c5a768698462e9e6b"
+      }
+    },
+    {
+      "assessment_id": "ai_8a5411bafeccfe8b",
+      "pair": "generation",
+      "brief": "Minimal jewellery campaign showing one silver geometric pendant on a fine silver chain, laid in a loose curve over matte charcoal stone, close-up lighting with controlled highlights, no gemstones and no text.",
+      "criteria": [
+        "one silver geometric pendant",
+        "fine silver chain",
+        "charcoal stone",
+        "no gemstones",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_8a5411bafeccfe8b_image.png",
+          "sha256": "f10a7203d9cca249cc294ceae6e92423848c7009847ef89ea61f336da68858bf"
+        }
+      },
+      "evidence_sha256": {
+        "image": "f10a7203d9cca249cc294ceae6e92423848c7009847ef89ea61f336da68858bf"
+      }
+    },
+    {
+      "assessment_id": "ai_a4605cf7ef600536",
+      "pair": "generation",
+      "brief": "Festive evening accessories display: a small silver clutch and black velvet bow hair clip on deep-green satin with soft warm lights behind, restrained elegant composition, no gift boxes, no brand marks and no text.",
+      "criteria": [
+        "silver clutch",
+        "black velvet bow clip",
+        "deep-green satin",
+        "warm lights",
+        "no gift boxes",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_a4605cf7ef600536_image.png",
+          "sha256": "2f903ad0bae6e96d3115fb6b537e1732029e9e30217cd15d1171a614ca3063ad"
+        }
+      },
+      "evidence_sha256": {
+        "image": "2f903ad0bae6e96d3115fb6b537e1732029e9e30217cd15d1171a614ca3063ad"
+      }
+    },
+    {
+      "assessment_id": "ai_2d9e3fc3aaad1cd3",
+      "pair": "generation",
+      "brief": "Fashion editorial of an adult woman wearing a teal tailored trouser suit and flat black loafers in a bright modern gallery, full body, relaxed standing pose, natural proportions, artworks softly blurred, no logos and no text.",
+      "criteria": [
+        "adult woman",
+        "teal trouser suit",
+        "black flat loafers",
+        "gallery",
+        "full body",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_2d9e3fc3aaad1cd3_image.png",
+          "sha256": "76e1aa081211b5f64b01e68f51d285864b79a1703b67c53206d12a93606460f0"
+        }
+      },
+      "evidence_sha256": {
+        "image": "76e1aa081211b5f64b01e68f51d285864b79a1703b67c53206d12a93606460f0"
+      }
+    },
+    {
+      "assessment_id": "ai_41a1ca08e29d15ba",
+      "pair": "generation",
+      "brief": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+      "criteria": [
+        "navy pinstripe blazer",
+        "white shirt",
+        "olive trousers",
+        "brown lace-up shoes",
+        "mustard umbrella in left hand",
+        "full body",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_41a1ca08e29d15ba_image.png",
+          "sha256": "ba5d1f939d3119533ab54f628ae3f9d71c39b91dafc5ae40d9ece908749e0546"
+        }
+      },
+      "evidence_sha256": {
+        "image": "ba5d1f939d3119533ab54f628ae3f9d71c39b91dafc5ae40d9ece908749e0546"
+      }
+    },
+    {
+      "assessment_id": "ai_0c08a97e4f13fe66",
+      "pair": "generation",
+      "brief": "Outdoor editorial portrait of an older adult with short grey hair wearing a plum wool coat and checked scarf in a quiet city garden, knee-up framing, overcast soft light, realistic skin and fabric texture, no text or branding.",
+      "criteria": [
+        "older adult",
+        "short grey hair",
+        "plum wool coat",
+        "checked scarf",
+        "city garden",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_0c08a97e4f13fe66_image.png",
+          "sha256": "621653d1834d57e653da4643dd0bbdc0debc9957ff673a700ecd0e9fa902d157"
+        }
+      },
+      "evidence_sha256": {
+        "image": "621653d1834d57e653da4643dd0bbdc0debc9957ff673a700ecd0e9fa902d157"
+      }
+    },
+    {
+      "assessment_id": "ai_e0d84bb58f12a783",
+      "pair": "generation",
+      "brief": "Fashion editorial of an adult woman wearing a teal tailored trouser suit and flat black loafers in a bright modern gallery, full body, relaxed standing pose, natural proportions, artworks softly blurred, no logos and no text.",
+      "criteria": [
+        "adult woman",
+        "teal trouser suit",
+        "black flat loafers",
+        "gallery",
+        "full body",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_e0d84bb58f12a783_image.png",
+          "sha256": "6735b4d50c7c0204cc9424ef398d1ecb16c7cfa0c8059418bc140f2ffbf5ca11"
+        }
+      },
+      "evidence_sha256": {
+        "image": "6735b4d50c7c0204cc9424ef398d1ecb16c7cfa0c8059418bc140f2ffbf5ca11"
+      }
+    },
+    {
+      "assessment_id": "ai_4d1ddcc011327299",
+      "pair": "generation",
+      "brief": "Minimal jewellery campaign showing one silver geometric pendant on a fine silver chain, laid in a loose curve over matte charcoal stone, close-up lighting with controlled highlights, no gemstones and no text.",
+      "criteria": [
+        "one silver geometric pendant",
+        "fine silver chain",
+        "charcoal stone",
+        "no gemstones",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_4d1ddcc011327299_image.png",
+          "sha256": "2fdc046c018d6cfc6766cfad78df735688060fab6fb39593ca47a198649caa4b"
+        }
+      },
+      "evidence_sha256": {
+        "image": "2fdc046c018d6cfc6766cfad78df735688060fab6fb39593ca47a198649caa4b"
+      }
+    },
+    {
+      "assessment_id": "ai_e570f3fac330566b",
+      "pair": "generation",
+      "brief": "Street-style editorial of an adult man in a cream linen shirt, navy wide-leg trousers and tan sandals walking along a sunlit stone arcade, full-body view, candid movement, realistic clothing folds, no lettering.",
+      "criteria": [
+        "adult man",
+        "cream linen shirt",
+        "navy wide-leg trousers",
+        "tan sandals",
+        "stone arcade",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_e570f3fac330566b_image.png",
+          "sha256": "29f6e6f9074d3ac3f047e4f9314c911559f48fdb1a18e2585ad87c6b7ab9257d"
+        }
+      },
+      "evidence_sha256": {
+        "image": "29f6e6f9074d3ac3f047e4f9314c911559f48fdb1a18e2585ad87c6b7ab9257d"
+      }
+    },
+    {
+      "assessment_id": "ai_4319d3ebb011220a",
+      "pair": "generation",
+      "brief": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+      "criteria": [
+        "exactly three gold rings",
+        "plain band left",
+        "twisted band middle",
+        "one green stone right",
+        "horizontal row",
+        "lavender stone",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_4319d3ebb011220a_image.png",
+          "sha256": "f991ba66928ada6ce91bb4b51279a2cdca96a5870423638c878b01d4507133fd"
+        }
+      },
+      "evidence_sha256": {
+        "image": "f991ba66928ada6ce91bb4b51279a2cdca96a5870423638c878b01d4507133fd"
+      }
+    },
+    {
+      "assessment_id": "ai_696dd56bff99cf66",
+      "pair": "generation",
+      "brief": "Fashion campaign with two adult models side by side: left model in a coral jacket and cream trousers, right model in a cream jacket and coral trousers, both wearing plain white shoes, full body, symmetrical pale-blue studio setting, no lettering.",
+      "criteria": [
+        "two adult models",
+        "coral jacket left",
+        "cream trousers left",
+        "cream jacket right",
+        "coral trousers right",
+        "white shoes",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_696dd56bff99cf66_image.png",
+          "sha256": "8f8ed55e6d2c0d927392b1228cc3b07b9b1506aa27d122c5e8381bde617d66bc"
+        }
+      },
+      "evidence_sha256": {
+        "image": "8f8ed55e6d2c0d927392b1228cc3b07b9b1506aa27d122c5e8381bde617d66bc"
+      }
+    },
+    {
+      "assessment_id": "ai_b041286699d406f8",
+      "pair": "generation",
+      "brief": "Evening fashion editorial of an adult with medium-brown skin wearing a flowing emerald midi dress and silver flats on a softly lit rooftop terrace, full body, modest neckline, natural hands, city lights in background, no text.",
+      "criteria": [
+        "adult with medium-brown skin",
+        "emerald midi dress",
+        "silver flats",
+        "modest neckline",
+        "rooftop terrace",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_b041286699d406f8_image.png",
+          "sha256": "fed24c1d10ca222dd04596d18f6a489ac281600534dd0077c41bf805f801d442"
+        }
+      },
+      "evidence_sha256": {
+        "image": "fed24c1d10ca222dd04596d18f6a489ac281600534dd0077c41bf805f801d442"
+      }
+    }
+  ],
+  "contact_sheet": {
+    "path": "batches/generation_05.png",
+    "sha256": "7b2c42816809bf75e4ac3433be2f546e4b0daec34832c45cd0b65b2ea8d5000f",
+    "layout": "4 columns, 3 rows; each image 512x512 beneath its ID"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-10-28T17:11:39.193066+00:00",
+  "model": "qwen35_4b",
+  "observed_warning": "The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d",
+  "native_torch_fallback": true,
+  "torch_version": "2.11.0+cu128",
+  "transformers_version": "5.5.0",
+  "optional_packages": {
+    "flash-linear-attention": null,
+    "causal-conv1d": null,
+    "mamba-ssm": null,
+    "bitsandbytes": null
+  },
+  "attn_implementation": "sdpa",
+  "precision": "bfloat16",
+  "quantization": "none",
+  "warning_transcript": "environment\\qwen-final-evaluation-20261028.log",
+  "note": "The exact native Transformers warning is preserved. No optional CUDA kernels, drivers, toolkits, quantization packages, or checkpoint substitutions were installed to alter this condition.",
+  "completed_transcript_sha256": "46f0f519d5dea261f4377add35aa3131af75ec820fff02196e40c3095a1d44b6",
+  "transcript_complete_at_utc": "2026-10-28T17:20:13.051898+00:00"
+}

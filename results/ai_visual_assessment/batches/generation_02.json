@@ -1,0 +1,279 @@
+{
+  "kind": "post_hoc_supplementary_ai_visual_packet",
+  "protocol_sha256": "299a340bf2fd5f87b8399b62fde3855117a84cf0bf61146474f9a367dd02f7f4",
+  "selection_sha256": "c9854ffcf88fc81f931e677e7137da8b6c7e60096bf26c378f86baa0ddeb6deb",
+  "pair": "generation",
+  "batch_number": 2,
+  "cards": [
+    {
+      "assessment_id": "ai_5d1958e16f75032a",
+      "pair": "generation",
+      "brief": "Outdoor editorial portrait of an older adult with short grey hair wearing a plum wool coat and checked scarf in a quiet city garden, knee-up framing, overcast soft light, realistic skin and fabric texture, no text or branding.",
+      "criteria": [
+        "older adult",
+        "short grey hair",
+        "plum wool coat",
+        "checked scarf",
+        "city garden",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_5d1958e16f75032a_image.png",
+          "sha256": "77e530eadcb187f3d348c7760a51fd6e6d8028dcd9f43572f17e1fbbc3d56129"
+        }
+      },
+      "evidence_sha256": {
+        "image": "77e530eadcb187f3d348c7760a51fd6e6d8028dcd9f43572f17e1fbbc3d56129"
+      }
+    },
+    {
+      "assessment_id": "ai_321733e3f40956fa",
+      "pair": "generation",
+      "brief": "Overhead fashion campaign flat lay containing exactly four items: a sky-blue cotton shirt, beige pleated trousers, white trainers and a tan belt, arranged without overlap on ivory paper, each item fully visible, no text or logos.",
+      "criteria": [
+        "exactly four fashion items",
+        "sky-blue shirt",
+        "beige pleated trousers",
+        "white trainers",
+        "tan belt",
+        "no overlap or text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_321733e3f40956fa_image.png",
+          "sha256": "688da5211ee968285af2a424dc58ff0daa9069ce0d289257a68eb449fe4fbad2"
+        }
+      },
+      "evidence_sha256": {
+        "image": "688da5211ee968285af2a424dc58ff0daa9069ce0d289257a68eb449fe4fbad2"
+      }
+    },
+    {
+      "assessment_id": "ai_dd48f05cc7647880",
+      "pair": "generation",
+      "brief": "Evening fashion editorial of an adult with medium-brown skin wearing a flowing emerald midi dress and silver flats on a softly lit rooftop terrace, full body, modest neckline, natural hands, city lights in background, no text.",
+      "criteria": [
+        "adult with medium-brown skin",
+        "emerald midi dress",
+        "silver flats",
+        "modest neckline",
+        "rooftop terrace",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_dd48f05cc7647880_image.png",
+          "sha256": "aa35218f82174a4f7f8d10ab334a8c0565211a6ccc81d65d4465537099b2fe93"
+        }
+      },
+      "evidence_sha256": {
+        "image": "aa35218f82174a4f7f8d10ab334a8c0565211a6ccc81d65d4465537099b2fe93"
+      }
+    },
+    {
+      "assessment_id": "ai_21ce0b42fcb392a4",
+      "pair": "generation",
+      "brief": "Summer holiday product campaign with tan woven sandals and a straw shoulder bag beside a rolled cream beach towel on clean pale sand, blue sea blurred behind, no people, no logos or words.",
+      "criteria": [
+        "tan woven sandals",
+        "straw shoulder bag",
+        "cream towel",
+        "pale sand",
+        "sea background",
+        "no people or words"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_21ce0b42fcb392a4_image.png",
+          "sha256": "f6743c989694f3f8ccc3df3da699e2116f182113508effb605518493b79351aa"
+        }
+      },
+      "evidence_sha256": {
+        "image": "f6743c989694f3f8ccc3df3da699e2116f182113508effb605518493b79351aa"
+      }
+    },
+    {
+      "assessment_id": "ai_5fa781bfc29c3222",
+      "pair": "generation",
+      "brief": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+      "criteria": [
+        "one burgundy handbag",
+        "brass clasp",
+        "short top handle",
+        "ivory plinth",
+        "empty space above",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_5fa781bfc29c3222_image.png",
+          "sha256": "055ce94dc6f37b4d7b1dd9327e94b3b50f8ab24c5cf6b3052a5c9cf977db996e"
+        }
+      },
+      "evidence_sha256": {
+        "image": "055ce94dc6f37b4d7b1dd9327e94b3b50f8ab24c5cf6b3052a5c9cf977db996e"
+      }
+    },
+    {
+      "assessment_id": "ai_53641876a772fb7d",
+      "pair": "generation",
+      "brief": "Autumn fashion still life showing a burnt-orange beret, chocolate-brown ankle boots and a folded oatmeal cardigan on a dark wooden bench with a few dry leaves, warm side light, clear product separation, no lettering.",
+      "criteria": [
+        "orange beret",
+        "brown ankle boots",
+        "oatmeal cardigan",
+        "dark wooden bench",
+        "dry leaves",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_53641876a772fb7d_image.png",
+          "sha256": "97cc932304430df142106a0f03331e79c5db6c9a68a230f75157a0b57bfda1e2"
+        }
+      },
+      "evidence_sha256": {
+        "image": "97cc932304430df142106a0f03331e79c5db6c9a68a230f75157a0b57bfda1e2"
+      }
+    },
+    {
+      "assessment_id": "ai_704c32e72801d3f6",
+      "pair": "generation",
+      "brief": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+      "criteria": [
+        "exactly three gold rings",
+        "plain band left",
+        "twisted band middle",
+        "one green stone right",
+        "horizontal row",
+        "lavender stone",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_704c32e72801d3f6_image.png",
+          "sha256": "c53af0b474b6eff33f9b9c68095b9b2c9af7c812da99b8f11a5f4d00607952f5"
+        }
+      },
+      "evidence_sha256": {
+        "image": "c53af0b474b6eff33f9b9c68095b9b2c9af7c812da99b8f11a5f4d00607952f5"
+      }
+    },
+    {
+      "assessment_id": "ai_1c02e9959893c61b",
+      "pair": "generation",
+      "brief": "Fashion editorial of an adult woman wearing a teal tailored trouser suit and flat black loafers in a bright modern gallery, full body, relaxed standing pose, natural proportions, artworks softly blurred, no logos and no text.",
+      "criteria": [
+        "adult woman",
+        "teal trouser suit",
+        "black flat loafers",
+        "gallery",
+        "full body",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_1c02e9959893c61b_image.png",
+          "sha256": "43a4f8780fa274cc753e996f7e0e59ffd40ffee1465f88352fd10e6bc486d686"
+        }
+      },
+      "evidence_sha256": {
+        "image": "43a4f8780fa274cc753e996f7e0e59ffd40ffee1465f88352fd10e6bc486d686"
+      }
+    },
+    {
+      "assessment_id": "ai_5c57cf9e2a0d877f",
+      "pair": "generation",
+      "brief": "Overhead fashion campaign flat lay containing exactly four items: a sky-blue cotton shirt, beige pleated trousers, white trainers and a tan belt, arranged without overlap on ivory paper, each item fully visible, no text or logos.",
+      "criteria": [
+        "exactly four fashion items",
+        "sky-blue shirt",
+        "beige pleated trousers",
+        "white trainers",
+        "tan belt",
+        "no overlap or text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_5c57cf9e2a0d877f_image.png",
+          "sha256": "4fcc1c339da33c4c4917e2431ea4b4ab7449c5a3fb530bfd45ae191a3c15abf0"
+        }
+      },
+      "evidence_sha256": {
+        "image": "4fcc1c339da33c4c4917e2431ea4b4ab7449c5a3fb530bfd45ae191a3c15abf0"
+      }
+    },
+    {
+      "assessment_id": "ai_7a8338526313a503",
+      "pair": "generation",
+      "brief": "Outdoor editorial portrait of an older adult with short grey hair wearing a plum wool coat and checked scarf in a quiet city garden, knee-up framing, overcast soft light, realistic skin and fabric texture, no text or branding.",
+      "criteria": [
+        "older adult",
+        "short grey hair",
+        "plum wool coat",
+        "checked scarf",
+        "city garden",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_7a8338526313a503_image.png",
+          "sha256": "bfd428becd6fa3f6fe4dc9c5e2096bc3c76afe0615189ac8ce53b54deb7826a3"
+        }
+      },
+      "evidence_sha256": {
+        "image": "bfd428becd6fa3f6fe4dc9c5e2096bc3c76afe0615189ac8ce53b54deb7826a3"
+      }
+    },
+    {
+      "assessment_id": "ai_d2306c280fa1d4ad",
+      "pair": "generation",
+      "brief": "Overhead product photograph of tortoiseshell sunglasses with dark brown lenses and a folded cream cotton pouch on sand-coloured paper, balanced symmetrical composition, realistic materials, no printed branding.",
+      "criteria": [
+        "tortoiseshell sunglasses",
+        "brown lenses",
+        "cream pouch",
+        "overhead view",
+        "sand-coloured paper",
+        "no branding"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_d2306c280fa1d4ad_image.png",
+          "sha256": "7992dd065bfb05cd3052153e1a593ddcb90c6106dec0429a0627f51f556b68a4"
+        }
+      },
+      "evidence_sha256": {
+        "image": "7992dd065bfb05cd3052153e1a593ddcb90c6106dec0429a0627f51f556b68a4"
+      }
+    },
+    {
+      "assessment_id": "ai_248f27b3765b90db",
+      "pair": "generation",
+      "brief": "Festive evening accessories display: a small silver clutch and black velvet bow hair clip on deep-green satin with soft warm lights behind, restrained elegant composition, no gift boxes, no brand marks and no text.",
+      "criteria": [
+        "silver clutch",
+        "black velvet bow clip",
+        "deep-green satin",
+        "warm lights",
+        "no gift boxes",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_248f27b3765b90db_image.png",
+          "sha256": "d371b489c710e9d784f3b0f90bfdad009ecfa2a81d07bc9a1daa8351417cfa0b"
+        }
+      },
+      "evidence_sha256": {
+        "image": "d371b489c710e9d784f3b0f90bfdad009ecfa2a81d07bc9a1daa8351417cfa0b"
+      }
+    }
+  ],
+  "contact_sheet": {
+    "path": "batches/generation_02.png",
+    "sha256": "5de65fbbbec98d1261e506958ae199d58a67885b3f4b21fd0f472a03807a728d",
+    "layout": "4 columns, 3 rows; each image 512x512 beneath its ID"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "recorded_at_utc": "2026-10-28T20:05:19.568085+00:00",
+  "licence": "CC-BY-4.0",
+  "official_licence_url": "https://amazon-berkeley-objects.s3.amazonaws.com/LICENSE-CC-BY-4.0.txt",
+  "licence_sha256": "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec",
+  "asset_attribution": "Amazon.com",
+  "dataset_attribution": "Matthieu Guillaumin; Thomas Dideriksen; Kenan Deng; Himanshu Arora; Arnab Dhua; Xi (Brian) Zhang; Tomas Yago-Vicente; Jasmine Collins; Shubham Goel; Jitendra Malik",
+  "changes": "Original archived photos resized preserving aspect ratio; transparent alpha produced by CPU rembg2.0.57 U2NetP. Model-specific foreground crops/resizes may appear as prepared_input.png under results. No 3D reference or camera calibration inferred.",
+  "redistributable": true,
+  "scope": "The two listed smoke-set original S3 photos, prepared RGBA inputs, and model-specific crop/resize copies under results; no model weights.",
+  "objects": [
+    "abo-B00MWQC5Y4",
+    "abo-B06W9GB1JR"
+  ],
+  "case_selection_or_pixels_changed_by_rights_update": false,
+  "prior_conservative_manifests_archived_in": "environment/reconstruction-smoke-before-explicit-redistribution-*",
+  "dataset_attribution_source": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html#attribution",
+  "publication_citation": "Collins et al., ABO: Dataset and Benchmarks for Real-World 3D Object Understanding, CVPR 2022"
+}

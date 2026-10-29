@@ -1,0 +1,3 @@
+C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\timm\models\layers\__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+SF3D class and backbone/estimator modules imported offline; no model weights loaded

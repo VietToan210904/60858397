@@ -1,0 +1,61 @@
+{
+  "interpretation": "Supplementary independently normalized shape views, with explicitly reference-assisted rigid alignment where labelled",
+  "per_view": [
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.4579073583238672,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/61d98128/unaligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.13907535217925687,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/61d98128/unaligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.3909948258779494,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/61d98128/unaligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.1533232281475357,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/61d98128/unaligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/reference_views/view_03_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.5938641964816861,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/61d98128/rigid_aligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.6869531019565431,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/61d98128/rigid_aligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.5086541572306696,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/61d98128/rigid_aligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.6580376538740044,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/61d98128/rigid_aligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/reference_views/view_03_mask.png"
+    }
+  ]
+}

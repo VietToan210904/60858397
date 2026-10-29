@@ -1,0 +1,5 @@
+--- a/texture_baker/texture_baker/csrc/baker_kernel.cu
++++ b/texture_baker/texture_baker/csrc/baker_kernel.cu
+@@ -4,1 +4,1 @@
+-#include <torch/extension.h>
++#include <torch/types.h>

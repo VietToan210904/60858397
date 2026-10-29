@@ -1,0 +1,1 @@
+review_id,reviewer_id,reviewed_at,blinded_output_id,prompt_id,output_path,prompt_adherence,visual_coherence,composition,usability,usable,error_categories,observation,evidence_reference,selection_rule

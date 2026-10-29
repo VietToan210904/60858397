@@ -1,0 +1,279 @@
+{
+  "kind": "post_hoc_supplementary_ai_visual_packet",
+  "protocol_sha256": "299a340bf2fd5f87b8399b62fde3855117a84cf0bf61146474f9a367dd02f7f4",
+  "selection_sha256": "c9854ffcf88fc81f931e677e7137da8b6c7e60096bf26c378f86baa0ddeb6deb",
+  "pair": "generation",
+  "batch_number": 6,
+  "cards": [
+    {
+      "assessment_id": "ai_4d26811cea390185",
+      "pair": "generation",
+      "brief": "Minimal jewellery campaign showing one silver geometric pendant on a fine silver chain, laid in a loose curve over matte charcoal stone, close-up lighting with controlled highlights, no gemstones and no text.",
+      "criteria": [
+        "one silver geometric pendant",
+        "fine silver chain",
+        "charcoal stone",
+        "no gemstones",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_4d26811cea390185_image.png",
+          "sha256": "db2f2519fa98abf489a24ae98566f3335a64877727768f3e25ff2d56e621db29"
+        }
+      },
+      "evidence_sha256": {
+        "image": "db2f2519fa98abf489a24ae98566f3335a64877727768f3e25ff2d56e621db29"
+      }
+    },
+    {
+      "assessment_id": "ai_81f3a46c6e3c7d38",
+      "pair": "generation",
+      "brief": "Single cobalt-blue ankle boot with square toe and low block heel on a pale peach seamless studio background, side profile, suede texture, sharp product outline, no other products and no text.",
+      "criteria": [
+        "single cobalt-blue boot",
+        "square toe",
+        "low block heel",
+        "suede texture",
+        "peach background",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_81f3a46c6e3c7d38_image.png",
+          "sha256": "f381d8cbdc4a059916383365377baf05f5fc28334fdf93dcd04a9fa775cb0e11"
+        }
+      },
+      "evidence_sha256": {
+        "image": "f381d8cbdc4a059916383365377baf05f5fc28334fdf93dcd04a9fa775cb0e11"
+      }
+    },
+    {
+      "assessment_id": "ai_1f0068d969f8641f",
+      "pair": "generation",
+      "brief": "Autumn fashion still life showing a burnt-orange beret, chocolate-brown ankle boots and a folded oatmeal cardigan on a dark wooden bench with a few dry leaves, warm side light, clear product separation, no lettering.",
+      "criteria": [
+        "orange beret",
+        "brown ankle boots",
+        "oatmeal cardigan",
+        "dark wooden bench",
+        "dry leaves",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_1f0068d969f8641f_image.png",
+          "sha256": "95d223d60426c24b2b8e26ef45a1075bfd253228a23268b5e0edcc0ea9af000e"
+        }
+      },
+      "evidence_sha256": {
+        "image": "95d223d60426c24b2b8e26ef45a1075bfd253228a23268b5e0edcc0ea9af000e"
+      }
+    },
+    {
+      "assessment_id": "ai_172d49bdfc108d88",
+      "pair": "generation",
+      "brief": "Outdoor editorial portrait of an older adult with short grey hair wearing a plum wool coat and checked scarf in a quiet city garden, knee-up framing, overcast soft light, realistic skin and fabric texture, no text or branding.",
+      "criteria": [
+        "older adult",
+        "short grey hair",
+        "plum wool coat",
+        "checked scarf",
+        "city garden",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_172d49bdfc108d88_image.png",
+          "sha256": "03b161012f024fd341985e6941d5b8216e843de5a5797f64375e7630b97dc77e"
+        }
+      },
+      "evidence_sha256": {
+        "image": "03b161012f024fd341985e6941d5b8216e843de5a5797f64375e7630b97dc77e"
+      }
+    },
+    {
+      "assessment_id": "ai_079dbb5ccf8b5be8",
+      "pair": "generation",
+      "brief": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+      "criteria": [
+        "navy pinstripe blazer",
+        "white shirt",
+        "olive trousers",
+        "brown lace-up shoes",
+        "mustard umbrella in left hand",
+        "full body",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_079dbb5ccf8b5be8_image.png",
+          "sha256": "ed6c9976447b1b6c0d09fd176f015f0f3b3aaf08c955abae2275d24d05951086"
+        }
+      },
+      "evidence_sha256": {
+        "image": "ed6c9976447b1b6c0d09fd176f015f0f3b3aaf08c955abae2275d24d05951086"
+      }
+    },
+    {
+      "assessment_id": "ai_3b97e29220fd2a2f",
+      "pair": "generation",
+      "brief": "Premium product photograph of a pair of white low-top trainers with forest-green heel tabs and off-white rubber soles, viewed at a slight overhead angle against pale grey, crisp realistic stitching, no visible logos or words.",
+      "criteria": [
+        "pair of white low-top trainers",
+        "green heel tabs",
+        "off-white soles",
+        "grey background",
+        "no logos or words"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_3b97e29220fd2a2f_image.png",
+          "sha256": "d78aa91f4362ae3fdf581a7b7c1c10471e8e1c3ede9d20f831af0dafb98aa0bc"
+        }
+      },
+      "evidence_sha256": {
+        "image": "d78aa91f4362ae3fdf581a7b7c1c10471e8e1c3ede9d20f831af0dafb98aa0bc"
+      }
+    },
+    {
+      "assessment_id": "ai_92f47c1163e3e4b9",
+      "pair": "generation",
+      "brief": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+      "criteria": [
+        "navy pinstripe blazer",
+        "white shirt",
+        "olive trousers",
+        "brown lace-up shoes",
+        "mustard umbrella in left hand",
+        "full body",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_92f47c1163e3e4b9_image.png",
+          "sha256": "6e4842004caddd4d05d2a524cb0f383458b5651497c9b219dbaf70395fcb6d3d"
+        }
+      },
+      "evidence_sha256": {
+        "image": "6e4842004caddd4d05d2a524cb0f383458b5651497c9b219dbaf70395fcb6d3d"
+      }
+    },
+    {
+      "assessment_id": "ai_d594db6559198ef0",
+      "pair": "generation",
+      "brief": "Studio editorial of two adult friends with different body sizes wearing monochrome black casual outfits and distinctive red crossbody bags, full body against pale blue, relaxed poses, both bags visible, no lettering.",
+      "criteria": [
+        "two adults",
+        "different body sizes",
+        "black outfits",
+        "two red crossbody bags",
+        "pale blue background",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_d594db6559198ef0_image.png",
+          "sha256": "dce6c449812e0823e01bc7e5277c54e857e47c6df2228405b5d8f647718dc474"
+        }
+      },
+      "evidence_sha256": {
+        "image": "dce6c449812e0823e01bc7e5277c54e857e47c6df2228405b5d8f647718dc474"
+      }
+    },
+    {
+      "assessment_id": "ai_b4de581b5f2a235b",
+      "pair": "generation",
+      "brief": "Street-style editorial of an adult man in a cream linen shirt, navy wide-leg trousers and tan sandals walking along a sunlit stone arcade, full-body view, candid movement, realistic clothing folds, no lettering.",
+      "criteria": [
+        "adult man",
+        "cream linen shirt",
+        "navy wide-leg trousers",
+        "tan sandals",
+        "stone arcade",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_b4de581b5f2a235b_image.png",
+          "sha256": "89e06c247b05fb39f702acd8ff71b27c79fab80d0528e0befc8e9f46771e7d13"
+        }
+      },
+      "evidence_sha256": {
+        "image": "89e06c247b05fb39f702acd8ff71b27c79fab80d0528e0befc8e9f46771e7d13"
+      }
+    },
+    {
+      "assessment_id": "ai_01497cd07cff42e2",
+      "pair": "generation",
+      "brief": "Overhead product photograph of tortoiseshell sunglasses with dark brown lenses and a folded cream cotton pouch on sand-coloured paper, balanced symmetrical composition, realistic materials, no printed branding.",
+      "criteria": [
+        "tortoiseshell sunglasses",
+        "brown lenses",
+        "cream pouch",
+        "overhead view",
+        "sand-coloured paper",
+        "no branding"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_01497cd07cff42e2_image.png",
+          "sha256": "ebf7f6b0789529f1a87db9904322e64cec041b6723cc05d92bd3d8efc1e0c8c8"
+        }
+      },
+      "evidence_sha256": {
+        "image": "ebf7f6b0789529f1a87db9904322e64cec041b6723cc05d92bd3d8efc1e0c8c8"
+      }
+    },
+    {
+      "assessment_id": "ai_bb8d1e0813d32724",
+      "pair": "generation",
+      "brief": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+      "criteria": [
+        "one burgundy handbag",
+        "brass clasp",
+        "short top handle",
+        "ivory plinth",
+        "empty space above",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_bb8d1e0813d32724_image.png",
+          "sha256": "5eb503007852036491a6ea09fc4e12267bde11a2098ce86c63be57806742c722"
+        }
+      },
+      "evidence_sha256": {
+        "image": "5eb503007852036491a6ea09fc4e12267bde11a2098ce86c63be57806742c722"
+      }
+    },
+    {
+      "assessment_id": "ai_2b8408cbc3d069eb",
+      "pair": "generation",
+      "brief": "Fashion campaign with two adult models side by side: left model in a coral jacket and cream trousers, right model in a cream jacket and coral trousers, both wearing plain white shoes, full body, symmetrical pale-blue studio setting, no lettering.",
+      "criteria": [
+        "two adult models",
+        "coral jacket left",
+        "cream trousers left",
+        "cream jacket right",
+        "coral trousers right",
+        "white shoes",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_2b8408cbc3d069eb_image.png",
+          "sha256": "f01af0a281020e52f1ac49c9961e99c655485e6d6bb1a48280148bad8cc2d208"
+        }
+      },
+      "evidence_sha256": {
+        "image": "f01af0a281020e52f1ac49c9961e99c655485e6d6bb1a48280148bad8cc2d208"
+      }
+    }
+  ],
+  "contact_sheet": {
+    "path": "batches/generation_06.png",
+    "sha256": "d96017113fbd360ad40578b222cb2e6613a7878050371060f06eeb40e19fd17a",
+    "layout": "4 columns, 3 rows; each image 512x512 beneath its ID"
+  }
+}

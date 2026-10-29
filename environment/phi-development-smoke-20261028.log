@@ -1,0 +1,32 @@
+This model config has set a `rope_parameters['original_max_position_embeddings']` field, to be used together with `max_position_embeddings` to determine a scaling factor. Please set the `factor` field of `rope_parameters`with this ratio instead -- we recommend the use of this field over `original_max_position_embeddings`, as it is compatible with most model architectures.
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading weights:   0%|          | 0/194 [00:00<?, ?it/s]
+Loading weights:   1%|          | 1/194 [00:00<00:44,  4.34it/s]
+Loading weights:   7%|6         | 13/194 [00:00<00:03, 47.37it/s]
+Loading weights:  13%|#2        | 25/194 [00:00<00:02, 72.12it/s]
+Loading weights:  19%|#9        | 37/194 [00:00<00:01, 86.99it/s]
+Loading weights:  25%|##5       | 49/194 [00:00<00:01, 96.79it/s]
+Loading weights:  31%|###1      | 61/194 [00:00<00:01, 103.41it/s]
+Loading weights:  38%|###7      | 73/194 [00:00<00:01, 106.54it/s]
+Loading weights:  44%|####3     | 85/194 [00:00<00:01, 107.35it/s]
+Loading weights:  50%|#####     | 97/194 [00:01<00:00, 109.02it/s]
+Loading weights:  56%|#####6    | 109/194 [00:01<00:00, 109.37it/s]
+Loading weights:  62%|######2   | 121/194 [00:01<00:00, 104.13it/s]
+Loading weights:  68%|######8   | 132/194 [00:01<00:00, 98.83it/s] 
+Loading weights:  74%|#######3  | 143/194 [00:01<00:00, 93.16it/s]
+Loading weights:  79%|#######9  | 154/194 [00:01<00:00, 91.45it/s]
+Loading weights:  86%|########5 | 166/194 [00:01<00:00, 91.53it/s]
+Loading weights:  91%|######### | 176/194 [00:01<00:00, 92.06it/s]
+Loading weights:  96%|#########5| 186/194 [00:02<00:00, 81.72it/s]
+Loading weights: 100%|##########| 194/194 [00:02<00:00, 89.78it/s]
+[
+  {
+    "pair": "assistance",
+    "success": 1,
+    "failed": 1,
+    "blocked": 0,
+    "resumed": 0,
+    "records": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\assistance\\records.jsonl"
+  }
+]

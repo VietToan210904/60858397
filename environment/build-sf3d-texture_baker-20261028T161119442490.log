@@ -1,0 +1,89 @@
+'vswhere.exe' is not recognized as an internal or external command,
+operable program or batch file.
+**********************************************************************
+** Visual Studio 2026 Developer Command Prompt v18.0
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Processing c:\users\tonyh_yxuq8za\60858397_evaluation\vendor\sf3d\texture_baker
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: texture_baker
+  Building wheel for texture_baker (setup.py): started
+  Building wheel for texture_baker (setup.py): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  python setup.py bdist_wheel did not run successfully.
+  exit code: 1
+  
+  [60 lines of output]
+  [<setuptools.extension.Extension('texture_baker._C') at 0x25eaf82d5d0>]
+  C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\wheel\bdist_wheel.py:4: FutureWarning: The 'wheel' package is no longer the canonical location of the 'bdist_wheel' command, and will be removed in a future release. Please update to setuptools v70.1 or later which contains an integrated version of this command.
+    warn(
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build\lib.win-amd64-cpython-311
+  creating build\lib.win-amd64-cpython-311\texture_baker
+  copying .\texture_baker\baker.py -> build\lib.win-amd64-cpython-311\texture_baker
+  copying .\texture_baker\__init__.py -> build\lib.win-amd64-cpython-311\texture_baker
+  creating build\lib.win-amd64-cpython-311\texture_baker\csrc
+  copying .\texture_baker\csrc\baker.h -> build\lib.win-amd64-cpython-311\texture_baker\csrc
+  copying .\texture_baker\csrc\baker_kernel.metal -> build\lib.win-amd64-cpython-311\texture_baker\csrc
+  running build_ext
+  Traceback (most recent call last):
+    File "<string>", line 2, in <module>
+    File "<pip-setuptools-caller>", line 34, in <module>
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\setup.py", line 116, in <module>
+      setup(
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\__init__.py", line 104, in setup
+      return distutils.core.setup(**attrs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\core.py", line 184, in setup
+      return run_commands(dist)
+             ^^^^^^^^^^^^^^^^^^
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\core.py", line 200, in run_commands
+      dist.run_commands()
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\dist.py", line 969, in run_commands
+      self.run_command(cmd)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\dist.py", line 967, in run_command
+      super().run_command(command)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\dist.py", line 988, in run_command
+      cmd_obj.run()
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\wheel\_bdist_wheel.py", line 390, in run
+      self.run_command("build")
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\cmd.py", line 316, in run_command
+      self.distribution.run_command(command)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\dist.py", line 967, in run_command
+      super().run_command(command)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\dist.py", line 988, in run_command
+      cmd_obj.run()
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\command\build.py", line 132, in run
+      self.run_command(cmd_name)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\cmd.py", line 316, in run_command
+      self.distribution.run_command(command)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\dist.py", line 967, in run_command
+      super().run_command(command)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\dist.py", line 988, in run_command
+      cmd_obj.run()
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\command\build_ext.py", line 91, in run
+      _build_ext.run(self)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\command\build_ext.py", line 359, in run
+      self.build_extensions()
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\torch\utils\cpp_extension.py", line 689, in build_extensions
+      compiler_name, compiler_version = self._check_abi()
+                                        ^^^^^^^^^^^^^^^^^
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\torch\utils\cpp_extension.py", line 1224, in _check_abi
+      raise UserWarning(msg)
+  UserWarning: It seems that the VC environment is activated but DISTUTILS_USE_SDK is not set.This may lead to multiple activations of the VC env.Please set `DISTUTILS_USE_SDK=1` and try again.
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for texture_baker
+  Running setup.py clean for texture_baker
+Failed to build texture_baker
+ERROR: Could not build wheels for texture_baker, which is required to install pyproject.toml-based projects
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: python.exe -m pip install --upgrade pip

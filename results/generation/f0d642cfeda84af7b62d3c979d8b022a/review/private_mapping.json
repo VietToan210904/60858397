@@ -1,0 +1,10 @@
+[
+  {
+    "review_id": "image_2514ee174241bd26",
+    "run_id": "f0d642cfeda84af7b62d3c979d8b022a",
+    "model": "flux2_klein",
+    "case_id": "dev-gen-001",
+    "seed": 8410,
+    "image": "results/generation/f0d642cfeda84af7b62d3c979d8b022a/flux2_klein/dev-gen-001_8410.png"
+  }
+]

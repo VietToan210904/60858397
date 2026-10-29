@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-10-28T19:59:48.273701+00:00",
+  "checks": [
+    {
+      "model": "spar3d",
+      "model_id": "stabilityai/stable-point-aware-3d",
+      "revision": "5699918cb34f55cd7d828493d2725f3038313761",
+      "access_granted": true,
+      "resolved_revision": "5699918cb34f55cd7d828493d2725f3038313761"
+    },
+    {
+      "model": "sf3d",
+      "model_id": "stabilityai/stable-fast-3d",
+      "revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+      "access_granted": true,
+      "resolved_revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778"
+    }
+  ]
+}

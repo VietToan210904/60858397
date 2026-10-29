@@ -1,0 +1,20 @@
+{
+  "copied_source": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.cache\\package-validation\\20261029T000627305598\\StyleSphere_Evaluation\\src\\stylesphere\\reporting\\verification.py",
+  "integrity_passed": false,
+  "checked_original_records": 928,
+  "errors": [
+    "Completion receipt: FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\tonyh_yxuq8za\\\\60858397_Evaluation\\\\.cache\\\\package-validation\\\\20261029T000627305598\\\\StyleSphere_Evaluation\\\\.cache\\\\package-validation\\\\20261029T000627305598\\\\StyleSphere_Evaluation\\\\src\\\\stylesphere\\\\reporting\\\\completion.py'"
+  ],
+  "requested_component_complete": false,
+  "legacy_primary_benchmark_complete": false,
+  "legacy_validation_findings": 524,
+  "archive_sha256": "8760807686fc83bc0aeb393532e2a743ec475d7364f5ee1575e17a92319d4b82",
+  "archive_bytes": 1237893711,
+  "extracted_root": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.cache\\package-validation\\20261029T000627305598\\StyleSphere_Evaluation",
+  "archive_member_count": 5074,
+  "member_hashes_verified_before_validation": 5073,
+  "expanded_bytes": 1477939406,
+  "subprocess_returncode": 1,
+  "validated_at_utc": "2026-10-29T00:07:32.285419+00:00",
+  "note": "All archived file hashes matched after fresh extraction. Copied-source verification then regenerates only its own verification receipt; original project evidence is untouched."
+}

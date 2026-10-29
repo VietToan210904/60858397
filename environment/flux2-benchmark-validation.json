@@ -1,0 +1,98 @@
+{
+  "checked_at_utc": "2026-10-28T17:31:34.348968+00:00",
+  "run_id": "9a379c1a438b447a871f4c16f5e78417",
+  "n_records": 72,
+  "success": 72,
+  "failed": 0,
+  "blocked": 0,
+  "n_prompts": 24,
+  "seeds": [
+    8410,
+    8411,
+    8412
+  ],
+  "protocol_sha256": [
+    "36989e9326c8fa9769a3d07636ef0cf79b11e5196794d1d0a5e2d4c00c580857"
+  ],
+  "all_human_review_fields_blank": true,
+  "raw_records_sha256_before": "a5e220ed946c09b85e4f32f49d0dd932f68cb7c3381143e3cd594a3ac707d443",
+  "raw_records_sha256_after": "a5e220ed946c09b85e4f32f49d0dd932f68cb7c3381143e3cd594a3ac707d443",
+  "prompt_binding": null,
+  "prompt_binding_sha256": null,
+  "inference_s": {
+    "total": 406.238239199738,
+    "mean": 5.642197766663028,
+    "median": 5.588672199985012,
+    "min": 5.369104999990668,
+    "max": 7.0177302999654785
+  },
+  "peak_allocated_mb": 9196.83935546875,
+  "peak_reserved_mb": 10430.0,
+  "errors": [],
+  "quality_ratings": "No human scores assigned by this audit",
+  "source_sha256_verified": {
+    "src/stylesphere/generation/runner.py": "bd79763aeb067af6fec632e8e7eec18c7c8c35dbb7326de8e7304050cd63cc00",
+    "src/stylesphere/generation/worker.py": "2eea2b409d51471d662598290e35960e958955c4b93407c477a15503a033877a",
+    "src/stylesphere/generation/provenance.py": "a154db6836eb72f41cb8328e31fe2841d81bb6d4d8c50d96267d70969c1f4eb9",
+    "src/stylesphere/generation/review.py": "ce9a24dc2ba0b3eca37d448d03b0618c1e5c3aa348f426a76250d4e7eaee89d4"
+  },
+  "runtime_precision": {
+    "checkpoint_format": "official_scaled_fp8",
+    "diffusion_parameter_dtype_counts": {
+      "torch.bfloat16": 3875544576,
+      "torch.float32": 80
+    },
+    "native_fp8_api": "torch.nn.functional.scaled_mm",
+    "quantized_payload_dtype_counts": {
+      "torch.float8_e4m3fn": 3680501760
+    },
+    "fp8_matmul_dispatch": {
+      "scope": "cumulative native FP8 dispatch across warmup and measured inference; no backend selection changes",
+      "attempts": 23360,
+      "successes": 23360,
+      "failures": 0
+    },
+    "comfy_kitchen_backends": {
+      "ascend": {
+        "available": false,
+        "disabled": false,
+        "unavailable_reason": "torch-npu is not installed: No module named 'torch_npu'"
+      },
+      "cuda": {
+        "available": true,
+        "disabled": true,
+        "unavailable_reason": null
+      },
+      "hip": {
+        "available": false,
+        "disabled": false,
+        "unavailable_reason": "PyTorch ROCm/HIP runtime not available"
+      },
+      "eager": {
+        "available": true,
+        "disabled": false,
+        "unavailable_reason": null
+      },
+      "triton": {
+        "available": false,
+        "disabled": true,
+        "unavailable_reason": "ImportError: No module named 'triton'"
+      }
+    }
+  },
+  "runtime_precision_identical_all_records": true,
+  "all_artifact_paths_relative_posix": true,
+  "checkpoint_revision": "5b4408e59397a4a37ccb46afe426d8ed86379441",
+  "comfy_source_revision": "4845e7a3ffc48a6961f15824239e9042cc7d4ad1",
+  "libraries": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "5.5.0",
+    "huggingface-hub": "1.9.2",
+    "safetensors": "0.7.0",
+    "numpy": "2.4.2",
+    "Pillow": "12.2.0",
+    "comfy-kitchen": "0.2.40",
+    "comfy-aimdo": "0.6.0"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "protocol_id": "supplementary-ai-retrieval-proxy-v1",
+  "frozen_before_ratings": true,
+  "human_ground_truth": false,
+  "assessor": "Nonblind Codex AI coding assistants, implementation contributors; identities available but predicted rankings withheld until product annotations are fixed. No human validation or inter-rater reliability claim.",
+  "purpose": "Complete 600-product by 120-query AI proxy relevance matrix, separate from unchanged human qrels and original benchmark.",
+  "evidence": "One actual catalogue photograph and exact cached multilingual ABO listing values per product. No model predictions/scores/rankings, cloud API or GPU inference used for labels.",
+  "type_keys": [
+    "running_shoes",
+    "ankle_boots",
+    "sandals",
+    "flat_shoes",
+    "handbags",
+    "backpacks",
+    "wallets",
+    "hats",
+    "earrings",
+    "necklaces",
+    "rings",
+    "casual_shoes"
+  ],
+  "trait_keys": [
+    "black",
+    "white",
+    "red",
+    "simple_everyday",
+    "metallic_finish",
+    "formal",
+    "minimalist",
+    "travel_appearance",
+    "bold_decorative",
+    "neutral"
+  ],
+  "type_definitions": {
+    "running_shoes": "Visibly athletic trainer/running-shoe appearance or explicit source identification; no performance guarantee.",
+    "ankle_boots": "Boot with shaft at/just above ankle, below mid-calf; uncertain if crop prevents shaft judgement.",
+    "sandals": "Open construction with sandal straps/open toe or heel; not a closed dress shoe.",
+    "flat_shoes": "Dress flats, low/no-heel loafers or ballet-style shoes; athletic trainers are not classified as dress flats.",
+    "casual_shoes": "Everyday leisure trainers, slip-ons or informal closed lace-ups; may overlap running-shoe appearance.",
+    "handbags": "Handheld, shoulder, crossbody or tote bag; excludes backpack and wallet.",
+    "backpacks": "Back-carried bag with shoulder straps.",
+    "wallets": "Wallet/cardholder/purse for money or cards, rather than a handbag.",
+    "hats": "Headwear including cap, beanie and brimmed hat.",
+    "earrings": "Ear jewellery, including studs, hoops and drops.",
+    "necklaces": "Necklace/pendant chain; exclude visually identified bracelet or anklet even in a mixed source category.",
+    "rings": "Finger ring, including plain bands and decorative rings."
+  },
+  "trait_scale": {
+    "0": "Absent or conflicting with requested visual attribute",
+    "1": "Weak/partial match, such as an accent colour or limited style resemblance",
+    "2": "Clear dominant/strong visual or explicit-source match",
+    "null": "Cannot assess; retain uncertainty rather than inventing a negative"
+  },
+  "trait_definitions": {
+    "black": "Visible black principal areas; accent only is weak.",
+    "white": "Visible white/ivory principal areas; accent only is weak.",
+    "red": "Visible red/burgundy principal areas; orange/pink are not automatically red.",
+    "neutral": "Subdued black, white, grey, beige, tan, brown, navy or conventional gold/silver tones dominate.",
+    "simple_everyday": "Uncomplicated practical everyday styling for the product class; not a durability/function measurement.",
+    "metallic_finish": "Visible reflective metallic finish; metal material alone does not prove visible sheen.",
+    "formal": "Dressy/elegant occasion appearance appropriate to its product class; subjective appearance proxy.",
+    "minimalist": "Restrained clean design with limited ornamentation; plain does not imply measured quality.",
+    "travel_appearance": "Compact/simple or visibly portable/practical appearance for its class. Does not establish physical weight, comfort, airline acceptance or travel performance.",
+    "bold_decorative": "Prominent pattern, sculptural form, conspicuous embellishment or decorative motif; mere brightness alone can be weak."
+  },
+  "qrels_rules": {
+    "definite_wrong_type": 0,
+    "uncertain_type": null,
+    "matched_type_trait_0": 0,
+    "matched_type_trait_1": 1,
+    "matched_type_trait_2": 3,
+    "matched_type_unknown_trait": null,
+    "travel_exception": "For lightweight-for-travel queries, trait2 gives2 unless an exact source citation explicitly supports lightweight, when3 is permitted. Unknown physical weight is always disclosed; ordinary traits have no grade2 by design."
+  },
+  "metrics": {
+    "useful_relevance_threshold": 2,
+    "graded_gain": "2**grade - 1",
+    "k": 10,
+    "metrics": "AI-proxy nDCG@10, MRR@10, Hit@10, precision@10, recall@10 using only known AI-proxy relevant denominator; coverage@10 and all-catalogue-complete flag. Never call this objective/human Recall.",
+    "unknowns": "Report sensitivity using all unknown grades0 and all unknown grades3; these are two scenario estimates, not necessarily tight nDCG bounds."
+  },
+  "invariants": [
+    "Do not change catalogue, queries, original human qrels, original model outputs or frozen runtime.",
+    "Annotate products independently of predicted rankings; freeze all profiles before score access.",
+    "Every product has an authored visual note, confidence, exact image hash, and explicit uncertainty.",
+    "Exact multilingual source citations retain language tags; an unknown source property stays unknown."
+  ]
+}

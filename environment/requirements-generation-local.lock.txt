@@ -1,0 +1,5 @@
+click==8.5.0
+diffusers==0.37.0
+hf-xet==1.7.1
+huggingface_hub==1.9.2
+safetensors==0.7.0

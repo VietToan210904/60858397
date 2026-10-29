@@ -1,0 +1,230 @@
+{
+  "accessed_at_utc": "2026-10-28T16:08:21.709321+00:00",
+  "dataset": "Amazon Berkeley Objects",
+  "licence": "CC-BY-4.0",
+  "attribution": "Amazon.com; Guillaumin, Dideriksen, Deng, Arora, Collins and Malik",
+  "objects": [
+    {
+      "object_id": "abo-B00MWQC5Y4",
+      "source_url": "https://m.media-amazon.com/images/I/81HFgiem1LL.jpg",
+      "listing": {
+        "brand": [
+          {
+            "language_tag": "en_CA",
+            "value": "Lara + Lillian"
+          }
+        ],
+        "color": [
+          {
+            "language_tag": "en_CA",
+            "standardized_values": [
+              "Brown"
+            ],
+            "value": "Tan"
+          }
+        ],
+        "fabric_type": [
+          {
+            "language_tag": "en_CA",
+            "value": "Leather"
+          }
+        ],
+        "item_id": "B00MWQC5Y4",
+        "item_name": [
+          {
+            "language_tag": "en_CA",
+            "value": "Lara + Lillian Women's Tori Riding Boot, Tan, 10 M US"
+          }
+        ],
+        "product_type": [
+          {
+            "value": "SHOES"
+          }
+        ],
+        "style": [
+          {
+            "language_tag": "en_CA",
+            "value": "Riding Boots"
+          }
+        ],
+        "main_image_id": "81HFgiem1LL",
+        "other_image_id": [
+          "716c2sD9OKL",
+          "61O0EE8VSfL",
+          "81YadM9hJsL",
+          "810uiwqo-+L",
+          "7128unqj1uL"
+        ],
+        "color_code": [
+          "#A67B5B"
+        ],
+        "country": "CA",
+        "marketplace": "Amazon",
+        "domain_name": "amazon.ca",
+        "node": [
+          {
+            "node_id": 10287465011,
+            "node_name": "/Categories/Women/Clothing"
+          },
+          {
+            "node_id": 10293424011,
+            "node_name": "/Categories/Women/Shoes/Boots"
+          }
+        ]
+      },
+      "source_image": "datasets/reconstruction_smoke/assets/B00MWQC5Y4-source.jpg",
+      "source_sha256": "c0b8c898df5c6b7d7095594ec96280fd9761259d6ac6d1f8a73ce7e5c33b3598",
+      "source_bytes": 264226,
+      "etag": null,
+      "last_modified": "Fri, 03 Jun 2016 00:14:23 GMT",
+      "geometry_eligible": false,
+      "silhouette_eligible": false,
+      "render_similarity_eligible": false,
+      "archive_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/91/91575c1a.jpg",
+      "archive_etag": "\"828d9b601c8067ccf09eb0fbfeda5907\"",
+      "archive_sha256": "c0b8c898df5c6b7d7095594ec96280fd9761259d6ac6d1f8a73ce7e5c33b3598",
+      "archive_bytes": 264226,
+      "archive_matches_cdn_bytes": true
+    },
+    {
+      "object_id": "abo-B06W9GB1JR",
+      "source_url": "https://m.media-amazon.com/images/I/81K8KqT7QiL.jpg",
+      "listing": {
+        "brand": [
+          {
+            "language_tag": "es_MX",
+            "value": "The Fix"
+          }
+        ],
+        "bullet_point": [
+          {
+            "language_tag": "es_MX",
+            "value": "Los paneles de gamuza y texturas de textura rugosa aportan un sutil toque mixto a esta bolsa de piel con correa para el hombro. Borlas con flecos en el cierre de cord\u00f3n."
+          },
+          {
+            "language_tag": "es_MX",
+            "value": "Panel de base rectangular mantiene la forma estructurada."
+          },
+          {
+            "language_tag": "es_MX",
+            "value": "1 slip interior y 1 bolsillo interior con cierre."
+          },
+          {
+            "language_tag": "es_MX",
+            "value": "Hardware dorado"
+          },
+          {
+            "language_tag": "es_MX",
+            "value": "Altura: 10 pulgadas, longitud: 8.5 pulgadas, Profundidad: 5 pulgadas."
+          },
+          {
+            "language_tag": "es_MX",
+            "value": "Esta bolsa se adapta a un tel\u00e9fono inteligente, cosm\u00e9ticos, portafolios de tama\u00f1o completo y llaves."
+          }
+        ],
+        "color": [
+          {
+            "language_tag": "es_MX",
+            "standardized_values": [
+              "Azul"
+            ],
+            "value": "Marino"
+          }
+        ],
+        "fabric_type": [
+          {
+            "language_tag": "es_MX",
+            "value": "cuero/gamuza"
+          }
+        ],
+        "item_id": "B06W9GB1JR",
+        "item_name": [
+          {
+            "language_tag": "es_MX",
+            "value": "Amazon Brand The Fix Mckenzie Bolso cruzado de gamuza y piel, Mckenzie - Bolso bandolera de ante y piel, Marino, One Size"
+          }
+        ],
+        "item_weight": [
+          {
+            "normalized_value": {
+              "unit": "pounds",
+              "value": 0.91875
+            },
+            "unit": "ounces",
+            "value": 14.7
+          }
+        ],
+        "model_number": [
+          {
+            "value": "GH24219"
+          }
+        ],
+        "model_year": [
+          {
+            "value": 2017
+          }
+        ],
+        "product_type": [
+          {
+            "value": "HANDBAG"
+          }
+        ],
+        "style": [
+          {
+            "language_tag": "es_MX",
+            "value": "Mckenzie - Bolso bandolera de ante y piel"
+          }
+        ],
+        "main_image_id": "81K8KqT7QiL",
+        "other_image_id": [
+          "91iJJ4WytTL",
+          "815zAjymhYL",
+          "81ngpwiaIhL",
+          "81wFnnGfUkL",
+          "715bHgbSGYL"
+        ],
+        "item_keywords": [
+          {
+            "language_tag": "es_MX",
+            "value": "accesorios bolso bolso bolso bolso sacos para mujer mujer carteras"
+          },
+          {
+            "language_tag": "es_MX",
+            "value": "dise\u00f1ador de moda de trabajo desgaste de negocios oficina oto\u00f1o primavera superior regalos para ella"
+          }
+        ],
+        "color_code": [
+          "#252440"
+        ],
+        "country": "MX",
+        "marketplace": "Amazon",
+        "domain_name": "amazon.com.mx",
+        "node": [
+          {
+            "node_id": 14093212011,
+            "node_name": "/Categor\u00edas/Mujeres/Bolsas de Mano y al Hombro/Bolsas Hobos y al Hombro"
+          }
+        ]
+      },
+      "source_image": "datasets/reconstruction_smoke/assets/B06W9GB1JR-source.jpg",
+      "source_sha256": "1a00ef8c69494606453db76fd98bde0599bd82422d65e46724b7c5b35bbd699f",
+      "source_bytes": 516956,
+      "etag": null,
+      "last_modified": "Wed, 12 Apr 2017 14:05:00 GMT",
+      "geometry_eligible": false,
+      "silhouette_eligible": false,
+      "render_similarity_eligible": false,
+      "archive_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/e0/e0a9add7.jpg",
+      "archive_etag": "\"f5ded11950e6745fd201f4661255a085\"",
+      "archive_sha256": "1a00ef8c69494606453db76fd98bde0599bd82422d65e46724b7c5b35bbd699f",
+      "archive_bytes": 516956,
+      "archive_matches_cdn_bytes": true
+    }
+  ],
+  "licence_sha256": "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec",
+  "free_disk_bytes_before": 394307002368,
+  "source_metadata_path": ".cache/abo/listings_0.json.gz",
+  "source_metadata_sha256": "c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+  "limitation": "These real fashion photos have no linked reference geometry or calibrated camera; no geometric or view-reference metrics are eligible.",
+  "images_metadata_sha256": "915263ef354d7a5d3503e899e610082f510c0011cccd5b4dc4f4c5efa86ef539"
+}

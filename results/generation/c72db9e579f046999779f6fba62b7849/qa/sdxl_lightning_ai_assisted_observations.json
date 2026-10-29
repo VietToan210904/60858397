@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-28T16:55:38.116611+00:00",
+  "assessor": "AI assistant visual inspection",
+  "run_id": "c72db9e579f046999779f6fba62b7849",
+  "model": "sdxl_lightning",
+  "seed": 8410,
+  "scope": "Post-run qualitative inspection of originals selected by the first-prompt-per-category rule. No human score, usable decision, population estimate or commercial recommendation.",
+  "selection_manifest": "results/generation/c72db9e579f046999779f6fba62b7849/qa/sdxl_lightning_contact_sheet_manifest.json",
+  "selection_manifest_sha256": "6c2fa55339b297e2cc976593c4245d4c6e25092252808971e675a3ad9e5893ec",
+  "observations": [
+    {
+      "case_id": "gen-001",
+      "visible": [
+        "One burgundy handbag on an ivory platform with gold-coloured hardware and empty space above.",
+        "Small gold lettering-like glyphs appear on the lower front of the bag despite the no-lettering instruction.",
+        "A tall top handle and additional shoulder strap are visible; the requested short handle and specific clasp need human adjudication."
+      ]
+    },
+    {
+      "case_id": "gen-007",
+      "visible": [
+        "A full-body adult-presenting woman in a teal trouser suit and black flat loafers stands in a gallery-like room with framed artworks.",
+        "No obvious lettering is visible at the inspected resolution."
+      ],
+      "limits": [
+        "No numerical coherence, anatomy or usability grade assigned."
+      ]
+    },
+    {
+      "case_id": "gen-013",
+      "visible": [
+        "The main hat appears mint green with a lavender band, rather than the requested pale-yellow bucket hat.",
+        "No lavender canvas tote is visible.",
+        "White daisies and other flowers are visible; the foreground surface appears beige while the background is mint."
+      ]
+    },
+    {
+      "case_id": "gen-019",
+      "visible": [
+        "The flat lay includes a sky-blue shirt, beige trousers and white trainers.",
+        "An extra tan hat, a brown lace-up shoe pair and small accessories are also visible, conflicting with the exactly-four-items brief.",
+        "No tan belt is clearly visible; label-like glyphs appear inside the shirt collar."
+      ]
+    }
+  ],
+  "human_rating_fields_modified": false,
+  "numerical_quality_scores_assigned": false
+}

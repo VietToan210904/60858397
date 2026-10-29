@@ -1,0 +1,24 @@
+{
+  "model": "flux2_klein",
+  "model_config": {
+    "pair": "generation",
+    "model_id": "black-forest-labs/FLUX.2-klein-4b-fp8",
+    "revision": "5b4408e59397a4a37ccb46afe426d8ed86379441",
+    "precision": "fp8",
+    "steps": 4,
+    "guidance_scale": 1.0,
+    "local_files_only": true,
+    "licence": "Apache-2.0"
+  },
+  "cases": [
+    {
+      "case_id": "gen-001",
+      "prompt": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\483a6eb4bcd34c99b8da6126b1af7639\\flux2_klein\\gen-001_8410.png"
+    }
+  ],
+  "warmup_runs": 1,
+  "width": 1024,
+  "height": 1024
+}

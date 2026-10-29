@@ -1,0 +1,17 @@
+WARNING:root:WARNING: You need pytorch with cu130 or higher to use optimized CUDA operations.
+WARNING WARNING WARNING
+If you are on nvidia 20 series and above it is required that you update your pytorch to cu130 or higher.
+
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+ 25%|##5       | 1/4 [00:01<00:03,  1.01s/it]
+ 50%|#####     | 2/4 [00:01<00:01,  1.54it/s]
+ 75%|#######5  | 3/4 [00:01<00:00,  1.77it/s]
+100%|##########| 4/4 [00:02<00:00,  1.89it/s]
+100%|##########| 4/4 [00:02<00:00,  1.70it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+ 50%|#####     | 2/4 [00:00<00:00,  3.74it/s]
+ 75%|#######5  | 3/4 [00:01<00:00,  2.86it/s]
+100%|##########| 4/4 [00:01<00:00,  2.53it/s]
+100%|##########| 4/4 [00:01<00:00,  2.72it/s]

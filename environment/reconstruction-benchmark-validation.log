@@ -1,0 +1,129 @@
+<stdin>:141: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{
+  "receipt": "environment/reconstruction-benchmark-validation.json",
+  "integrity_passed": false,
+  "errors": [
+    "worker request cases:sf3d",
+    "worker request cases:spar3d"
+  ],
+  "models": {
+    "sf3d": {
+      "run_id": "7685fb6f464d4360a1ebadb8b1994d49",
+      "records": 20,
+      "status_counts": {
+        "success": 20
+      },
+      "successful_execution_rate": 1.0,
+      "glb_export_rate": 1.0,
+      "zero_degenerate_mesh_valid_count": 19,
+      "zero_degenerate_mesh_valid_rate": 0.95,
+      "watertight_meshes": 0,
+      "invalid_mesh_flags": [
+        {
+          "case_id": "abo-B07XPHD4LK",
+          "mesh_degenerate_faces": 1,
+          "mesh_faces": 17152
+        }
+      ],
+      "timings_s": {
+        "preprocessing_s": {
+          "n": 20,
+          "mean": 0.0546460250072414,
+          "median": 0.0561926000227686,
+          "total": 1.092920500144828,
+          "min": 0.031101600034162402,
+          "max": 0.09577489999355748
+        },
+        "inference_s": {
+          "n": 20,
+          "mean": 0.6777561599941692,
+          "median": 0.6472783499921206,
+          "total": 13.555123199883383,
+          "min": 0.5726962999906391,
+          "max": 0.9115954999579117
+        },
+        "export_s": {
+          "n": 20,
+          "mean": 0.019614080007886513,
+          "median": 0.018694300000788644,
+          "total": 0.3922816001577303,
+          "min": 0.01541449996875599,
+          "max": 0.029499900003429502
+        },
+        "end_to_end_s": {
+          "n": 20,
+          "mean": 0.7530683800054249,
+          "median": 0.7285263000230771,
+          "total": 15.061367600108497,
+          "min": 0.630491699965205,
+          "max": 0.9943036999902688
+        }
+      },
+      "model_load_s": 7.254798199981451,
+      "warmup_excluded_s": [
+        1.7450683999923058
+      ],
+      "max_peak_allocated_mib": 6128.98291015625,
+      "max_peak_reserved_mib": 7342.0,
+      "artifact_count": 260,
+      "rgb_views": 80,
+      "silhouette_masks": 80
+    },
+    "spar3d": {
+      "run_id": "d088458f86e447f58e6c81f257cbb027",
+      "records": 20,
+      "status_counts": {
+        "success": 20
+      },
+      "successful_execution_rate": 1.0,
+      "glb_export_rate": 1.0,
+      "zero_degenerate_mesh_valid_count": 20,
+      "zero_degenerate_mesh_valid_rate": 1.0,
+      "watertight_meshes": 0,
+      "invalid_mesh_flags": [],
+      "timings_s": {
+        "preprocessing_s": {
+          "n": 20,
+          "mean": 0.0567788649990689,
+          "median": 0.05965859998832457,
+          "total": 1.135577299981378,
+          "min": 0.03169410000555217,
+          "max": 0.09624629997415468
+        },
+        "inference_s": {
+          "n": 20,
+          "mean": 12.709199215000263,
+          "median": 12.509349699976156,
+          "total": 254.18398430000525,
+          "min": 12.052283500030171,
+          "max": 15.210370200045872
+        },
+        "export_s": {
+          "n": 20,
+          "mean": 0.020752430008724333,
+          "median": 0.019030200026463717,
+          "total": 0.41504860017448664,
+          "min": 0.01559090003138408,
+          "max": 0.044259400048758835
+        },
+        "end_to_end_s": {
+          "n": 20,
+          "mean": 12.787617285002488,
+          "median": 12.585479600005783,
+          "total": 255.75234570004977,
+          "min": 12.1394980000332,
+          "max": 15.333680399984587
+        }
+      },
+      "model_load_s": 0.5499797000084072,
+      "warmup_excluded_s": [
+        19.537351200007834
+      ],
+      "max_peak_allocated_mib": 8021.24658203125,
+      "max_peak_reserved_mib": 8484.0,
+      "artifact_count": 260,
+      "rgb_views": 80,
+      "silhouette_masks": 80
+    }
+  }
+}

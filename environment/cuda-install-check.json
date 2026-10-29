@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-10-28T15:47:49.312265+00:00",
+  "executable": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Scripts\\python.exe",
+  "torch_file": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages\\torch\\__init__.py",
+  "torch_version": "2.11.0+cu128",
+  "compiled_cuda": "12.8",
+  "cuda_available": true,
+  "device_count": 1,
+  "devices": [
+    {
+      "index": 0,
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "compute_capability": [
+        8,
+        9
+      ],
+      "free_bytes": 11606687744,
+      "total_bytes": 12878086144
+    }
+  ],
+  "model_inference_executed": false
+}

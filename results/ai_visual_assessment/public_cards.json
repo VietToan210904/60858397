@@ -1,0 +1,4942 @@
+[
+  {
+    "assessment_id": "ai_1bde314334426b2d",
+    "pair": "generation",
+    "brief": "Overhead product photograph of tortoiseshell sunglasses with dark brown lenses and a folded cream cotton pouch on sand-coloured paper, balanced symmetrical composition, realistic materials, no printed branding.",
+    "criteria": [
+      "tortoiseshell sunglasses",
+      "brown lenses",
+      "cream pouch",
+      "overhead view",
+      "sand-coloured paper",
+      "no branding"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_1bde314334426b2d_image.png",
+        "sha256": "9cc43eeffb62259e90c5af633c4d1230e6183201b1c6c97d5c7f97003ec7b38c"
+      }
+    },
+    "evidence_sha256": {
+      "image": "9cc43eeffb62259e90c5af633c4d1230e6183201b1c6c97d5c7f97003ec7b38c"
+    }
+  },
+  {
+    "assessment_id": "ai_10e814d0a4acbf5a",
+    "pair": "generation",
+    "brief": "Evening fashion editorial of an adult with medium-brown skin wearing a flowing emerald midi dress and silver flats on a softly lit rooftop terrace, full body, modest neckline, natural hands, city lights in background, no text.",
+    "criteria": [
+      "adult with medium-brown skin",
+      "emerald midi dress",
+      "silver flats",
+      "modest neckline",
+      "rooftop terrace",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_10e814d0a4acbf5a_image.png",
+        "sha256": "6a4552a3b9bf6d491d9cece298d8ea62150146e46f59501dec8d9555ebc46a91"
+      }
+    },
+    "evidence_sha256": {
+      "image": "6a4552a3b9bf6d491d9cece298d8ea62150146e46f59501dec8d9555ebc46a91"
+    }
+  },
+  {
+    "assessment_id": "ai_1b016c350f0b1509",
+    "pair": "generation",
+    "brief": "Fashion campaign with two adult models side by side: left model in a coral jacket and cream trousers, right model in a cream jacket and coral trousers, both wearing plain white shoes, full body, symmetrical pale-blue studio setting, no lettering.",
+    "criteria": [
+      "two adult models",
+      "coral jacket left",
+      "cream trousers left",
+      "cream jacket right",
+      "coral trousers right",
+      "white shoes",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_1b016c350f0b1509_image.png",
+        "sha256": "d62cd0628e823d95f92a409507300f276d27472e636ef2fbef5c7f6160f40f54"
+      }
+    },
+    "evidence_sha256": {
+      "image": "d62cd0628e823d95f92a409507300f276d27472e636ef2fbef5c7f6160f40f54"
+    }
+  },
+  {
+    "assessment_id": "ai_6513ee142272c353",
+    "pair": "generation",
+    "brief": "Fashion editorial of an adult woman wearing a teal tailored trouser suit and flat black loafers in a bright modern gallery, full body, relaxed standing pose, natural proportions, artworks softly blurred, no logos and no text.",
+    "criteria": [
+      "adult woman",
+      "teal trouser suit",
+      "black flat loafers",
+      "gallery",
+      "full body",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_6513ee142272c353_image.png",
+        "sha256": "df27488cd0aa2686660e166e3b7c9dff0196b90f2523b2daafc7840ce8978d23"
+      }
+    },
+    "evidence_sha256": {
+      "image": "df27488cd0aa2686660e166e3b7c9dff0196b90f2523b2daafc7840ce8978d23"
+    }
+  },
+  {
+    "assessment_id": "ai_6ea2bb07b3134315",
+    "pair": "generation",
+    "brief": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+    "criteria": [
+      "one burgundy handbag",
+      "brass clasp",
+      "short top handle",
+      "ivory plinth",
+      "empty space above",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_6ea2bb07b3134315_image.png",
+        "sha256": "7333994d4fedff769c676ec17350fbd9507f8760df9e64994cd6143f0c31c927"
+      }
+    },
+    "evidence_sha256": {
+      "image": "7333994d4fedff769c676ec17350fbd9507f8760df9e64994cd6143f0c31c927"
+    }
+  },
+  {
+    "assessment_id": "ai_f045990fe9acc802",
+    "pair": "generation",
+    "brief": "Rainy-season campaign featuring one pair of glossy red rain boots and a closed navy umbrella on wet grey paving, subtle reflections, light rain in background, products fully visible, no people and no words.",
+    "criteria": [
+      "pair of red rain boots",
+      "closed navy umbrella",
+      "wet grey paving",
+      "reflections",
+      "fully visible products",
+      "no words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_f045990fe9acc802_image.png",
+        "sha256": "3fec0afd3bd98b90da89455c970428714de548dc04138ccbd9c11ba7553dd3a5"
+      }
+    },
+    "evidence_sha256": {
+      "image": "3fec0afd3bd98b90da89455c970428714de548dc04138ccbd9c11ba7553dd3a5"
+    }
+  },
+  {
+    "assessment_id": "ai_42f327fb7012c3c9",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_42f327fb7012c3c9_input.png",
+        "sha256": "f5889087f77601a2e3c79f36039339e6e9d9c300d42709fa0cfc9b89ec2f54db"
+      },
+      "view_00": {
+        "path": "images/ai_42f327fb7012c3c9_view_00.png",
+        "sha256": "09aad6fc2ebf77803dd042a8e80ce6fee46ce50f11981c49e5b0f7dbaf1b484a"
+      },
+      "view_01": {
+        "path": "images/ai_42f327fb7012c3c9_view_01.png",
+        "sha256": "fbd06fc2bf39ed72581c31223d22efcfcf0086a4bf46ec95f4ae4a7882c5fb73"
+      },
+      "view_02": {
+        "path": "images/ai_42f327fb7012c3c9_view_02.png",
+        "sha256": "92d89e9685725c195c6392208856881bcfb9e6aea9103afd8751df0239a8e40b"
+      },
+      "view_03": {
+        "path": "images/ai_42f327fb7012c3c9_view_03.png",
+        "sha256": "334bb9bf2be840da13f8e34a7b92f02f66f003fdb945a14a059acfa55708215e"
+      }
+    },
+    "evidence_sha256": {
+      "input": "f5889087f77601a2e3c79f36039339e6e9d9c300d42709fa0cfc9b89ec2f54db",
+      "view_00": "09aad6fc2ebf77803dd042a8e80ce6fee46ce50f11981c49e5b0f7dbaf1b484a",
+      "view_01": "fbd06fc2bf39ed72581c31223d22efcfcf0086a4bf46ec95f4ae4a7882c5fb73",
+      "view_02": "92d89e9685725c195c6392208856881bcfb9e6aea9103afd8751df0239a8e40b",
+      "view_03": "334bb9bf2be840da13f8e34a7b92f02f66f003fdb945a14a059acfa55708215e"
+    },
+    "card_image": {
+      "path": "images/ai_42f327fb7012c3c9_card.png",
+      "sha256": "0ec1a480b388a436ba525c7c07bd6ab3d523da69aab09c3ffcab0b079c0c9e6d"
+    }
+  },
+  {
+    "assessment_id": "ai_74e8175c1e7b81cc",
+    "pair": "generation",
+    "brief": "Spring accessories campaign: a pale-yellow bucket hat and lavender canvas tote beside fresh white daisies on a mint studio floor, soft morning light, cheerful restrained palette, only two fashion products, no text.",
+    "criteria": [
+      "yellow bucket hat",
+      "lavender canvas tote",
+      "white daisies",
+      "mint floor",
+      "two fashion products",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_74e8175c1e7b81cc_image.png",
+        "sha256": "6ccece5d5b28f22b22a46a16b2b25625e2d42319e2423c080bf7cb77b580440a"
+      }
+    },
+    "evidence_sha256": {
+      "image": "6ccece5d5b28f22b22a46a16b2b25625e2d42319e2423c080bf7cb77b580440a"
+    }
+  },
+  {
+    "assessment_id": "ai_731ea96051c6ab73",
+    "pair": "generation",
+    "brief": "Overhead product photograph of tortoiseshell sunglasses with dark brown lenses and a folded cream cotton pouch on sand-coloured paper, balanced symmetrical composition, realistic materials, no printed branding.",
+    "criteria": [
+      "tortoiseshell sunglasses",
+      "brown lenses",
+      "cream pouch",
+      "overhead view",
+      "sand-coloured paper",
+      "no branding"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_731ea96051c6ab73_image.png",
+        "sha256": "cbe2a70c8e6cb8c3e54f5366f2e8eff001e2cca576282c53f4f011ca48e47b03"
+      }
+    },
+    "evidence_sha256": {
+      "image": "cbe2a70c8e6cb8c3e54f5366f2e8eff001e2cca576282c53f4f011ca48e47b03"
+    }
+  },
+  {
+    "assessment_id": "ai_e2d308cc61e8cec3",
+    "pair": "generation",
+    "brief": "Outdoor editorial portrait of an older adult with short grey hair wearing a plum wool coat and checked scarf in a quiet city garden, knee-up framing, overcast soft light, realistic skin and fabric texture, no text or branding.",
+    "criteria": [
+      "older adult",
+      "short grey hair",
+      "plum wool coat",
+      "checked scarf",
+      "city garden",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_e2d308cc61e8cec3_image.png",
+        "sha256": "465d9422bc6f75e996c1352830ada4990b1039d2f7df7a3b4e15c82b88c96637"
+      }
+    },
+    "evidence_sha256": {
+      "image": "465d9422bc6f75e996c1352830ada4990b1039d2f7df7a3b4e15c82b88c96637"
+    }
+  },
+  {
+    "assessment_id": "ai_4fa0a3ecfe8cad4a",
+    "pair": "generation",
+    "brief": "Overhead fashion campaign flat lay containing exactly four items: a sky-blue cotton shirt, beige pleated trousers, white trainers and a tan belt, arranged without overlap on ivory paper, each item fully visible, no text or logos.",
+    "criteria": [
+      "exactly four fashion items",
+      "sky-blue shirt",
+      "beige pleated trousers",
+      "white trainers",
+      "tan belt",
+      "no overlap or text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_4fa0a3ecfe8cad4a_image.png",
+        "sha256": "40314981548c4e73d7cc8dcf2c974f4b098a456bfd505c3a10ee3e3ad0f021e6"
+      }
+    },
+    "evidence_sha256": {
+      "image": "40314981548c4e73d7cc8dcf2c974f4b098a456bfd505c3a10ee3e3ad0f021e6"
+    }
+  },
+  {
+    "assessment_id": "ai_4428741890b6ec85",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_4428741890b6ec85_input.png",
+        "sha256": "1e7733bdafaa739e93805e7eefbf9ff677a9ecb6cb1282970c9e1035eadcd2c2"
+      },
+      "view_00": {
+        "path": "images/ai_4428741890b6ec85_view_00.png",
+        "sha256": "08416db84520b49d3cfba50c49fd5541b0d804f217c395c857374d820e1be622"
+      },
+      "view_01": {
+        "path": "images/ai_4428741890b6ec85_view_01.png",
+        "sha256": "1b67af9a83d8807b58baaa8eeee665e64cf44be8ecb9ef5aec3a7470b22544a3"
+      },
+      "view_02": {
+        "path": "images/ai_4428741890b6ec85_view_02.png",
+        "sha256": "9a4bf93208135f76424b6062d09f4b0016a1be77bb8f4360adb0cefcf5615efa"
+      },
+      "view_03": {
+        "path": "images/ai_4428741890b6ec85_view_03.png",
+        "sha256": "858d5dc2546f566a7d8a3ce5dc209da677305baf9f5d551094f611e7a418c244"
+      }
+    },
+    "evidence_sha256": {
+      "input": "1e7733bdafaa739e93805e7eefbf9ff677a9ecb6cb1282970c9e1035eadcd2c2",
+      "view_00": "08416db84520b49d3cfba50c49fd5541b0d804f217c395c857374d820e1be622",
+      "view_01": "1b67af9a83d8807b58baaa8eeee665e64cf44be8ecb9ef5aec3a7470b22544a3",
+      "view_02": "9a4bf93208135f76424b6062d09f4b0016a1be77bb8f4360adb0cefcf5615efa",
+      "view_03": "858d5dc2546f566a7d8a3ce5dc209da677305baf9f5d551094f611e7a418c244"
+    },
+    "card_image": {
+      "path": "images/ai_4428741890b6ec85_card.png",
+      "sha256": "78a0a6807442a57e1284ba5bb7c6034b6a2a37e149fb2c987f09a2298125cdf7"
+    }
+  },
+  {
+    "assessment_id": "ai_d852312f9dda80b7",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_d852312f9dda80b7_input.png",
+        "sha256": "8849401fd6e253dfe1e06b4773eea3eadb068d1ffa1b8be5b6384b0c1e54cdf4"
+      },
+      "view_00": {
+        "path": "images/ai_d852312f9dda80b7_view_00.png",
+        "sha256": "bc93198d0362d5861e08415f891187d6b3126a1ede4a5f93c9079dbb26e7a6e9"
+      },
+      "view_01": {
+        "path": "images/ai_d852312f9dda80b7_view_01.png",
+        "sha256": "c45a1e97b31a3080750b2aeeb736471a8b36d08ecb6ce7d09966c2bbd33f89e2"
+      },
+      "view_02": {
+        "path": "images/ai_d852312f9dda80b7_view_02.png",
+        "sha256": "20e1e11235cb88776d4063cbbed999ebc5c770fe490a468e15a06a51219abbe3"
+      },
+      "view_03": {
+        "path": "images/ai_d852312f9dda80b7_view_03.png",
+        "sha256": "fe8fe74c6b099c1a65df6dbbad4b209831643737fce2689f85c3b113333e9130"
+      }
+    },
+    "evidence_sha256": {
+      "input": "8849401fd6e253dfe1e06b4773eea3eadb068d1ffa1b8be5b6384b0c1e54cdf4",
+      "view_00": "bc93198d0362d5861e08415f891187d6b3126a1ede4a5f93c9079dbb26e7a6e9",
+      "view_01": "c45a1e97b31a3080750b2aeeb736471a8b36d08ecb6ce7d09966c2bbd33f89e2",
+      "view_02": "20e1e11235cb88776d4063cbbed999ebc5c770fe490a468e15a06a51219abbe3",
+      "view_03": "fe8fe74c6b099c1a65df6dbbad4b209831643737fce2689f85c3b113333e9130"
+    },
+    "card_image": {
+      "path": "images/ai_d852312f9dda80b7_card.png",
+      "sha256": "667c65c74f898a943ad4e498012222921e38c2cdce54a898a05297ebbc436ce9"
+    }
+  },
+  {
+    "assessment_id": "ai_a927dbbbcec0cb96",
+    "pair": "generation",
+    "brief": "Premium product photograph of a pair of white low-top trainers with forest-green heel tabs and off-white rubber soles, viewed at a slight overhead angle against pale grey, crisp realistic stitching, no visible logos or words.",
+    "criteria": [
+      "pair of white low-top trainers",
+      "green heel tabs",
+      "off-white soles",
+      "grey background",
+      "no logos or words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_a927dbbbcec0cb96_image.png",
+        "sha256": "be855f0f8537066e827871a72d7adeb7291538c21e3ead80667c37f8157e5d4f"
+      }
+    },
+    "evidence_sha256": {
+      "image": "be855f0f8537066e827871a72d7adeb7291538c21e3ead80667c37f8157e5d4f"
+    }
+  },
+  {
+    "assessment_id": "ai_df823c710cb95eaf",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_df823c710cb95eaf_input.png",
+        "sha256": "7086ba35b51cd1365589f9ab70e2b726634c5147d978623bf299ed70d7f05c52"
+      },
+      "view_00": {
+        "path": "images/ai_df823c710cb95eaf_view_00.png",
+        "sha256": "12f0930af576cd29779086392d989b68bf48df0d5b3f445e1e4accc3bab2d8b5"
+      },
+      "view_01": {
+        "path": "images/ai_df823c710cb95eaf_view_01.png",
+        "sha256": "f1420d275bcba3617e2212315eefce1a0b1be257cd9253f55fdae8ee6b7ac76b"
+      },
+      "view_02": {
+        "path": "images/ai_df823c710cb95eaf_view_02.png",
+        "sha256": "7cbd47bee5a2731a50165c8376c5f8a62b746d83c760b87a97ef72856532c974"
+      },
+      "view_03": {
+        "path": "images/ai_df823c710cb95eaf_view_03.png",
+        "sha256": "a12761728dd9dd559d1c0f7ea71c44b122f16cfc2b65aa4d40e718ec01e933b1"
+      }
+    },
+    "evidence_sha256": {
+      "input": "7086ba35b51cd1365589f9ab70e2b726634c5147d978623bf299ed70d7f05c52",
+      "view_00": "12f0930af576cd29779086392d989b68bf48df0d5b3f445e1e4accc3bab2d8b5",
+      "view_01": "f1420d275bcba3617e2212315eefce1a0b1be257cd9253f55fdae8ee6b7ac76b",
+      "view_02": "7cbd47bee5a2731a50165c8376c5f8a62b746d83c760b87a97ef72856532c974",
+      "view_03": "a12761728dd9dd559d1c0f7ea71c44b122f16cfc2b65aa4d40e718ec01e933b1"
+    },
+    "card_image": {
+      "path": "images/ai_df823c710cb95eaf_card.png",
+      "sha256": "7655da3ffe6a22db956ffe206ecdc9ad3fb2bf5358ea7829306c3f763a6759ba"
+    }
+  },
+  {
+    "assessment_id": "ai_918f69028406e470",
+    "pair": "generation",
+    "brief": "Autumn fashion still life showing a burnt-orange beret, chocolate-brown ankle boots and a folded oatmeal cardigan on a dark wooden bench with a few dry leaves, warm side light, clear product separation, no lettering.",
+    "criteria": [
+      "orange beret",
+      "brown ankle boots",
+      "oatmeal cardigan",
+      "dark wooden bench",
+      "dry leaves",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_918f69028406e470_image.png",
+        "sha256": "70e8a8c38aaa7a05a7ba1f07bf66a607a9878ccec1573228e5dbaba4a0f785ab"
+      }
+    },
+    "evidence_sha256": {
+      "image": "70e8a8c38aaa7a05a7ba1f07bf66a607a9878ccec1573228e5dbaba4a0f785ab"
+    }
+  },
+  {
+    "assessment_id": "ai_5d1958e16f75032a",
+    "pair": "generation",
+    "brief": "Outdoor editorial portrait of an older adult with short grey hair wearing a plum wool coat and checked scarf in a quiet city garden, knee-up framing, overcast soft light, realistic skin and fabric texture, no text or branding.",
+    "criteria": [
+      "older adult",
+      "short grey hair",
+      "plum wool coat",
+      "checked scarf",
+      "city garden",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_5d1958e16f75032a_image.png",
+        "sha256": "77e530eadcb187f3d348c7760a51fd6e6d8028dcd9f43572f17e1fbbc3d56129"
+      }
+    },
+    "evidence_sha256": {
+      "image": "77e530eadcb187f3d348c7760a51fd6e6d8028dcd9f43572f17e1fbbc3d56129"
+    }
+  },
+  {
+    "assessment_id": "ai_321733e3f40956fa",
+    "pair": "generation",
+    "brief": "Overhead fashion campaign flat lay containing exactly four items: a sky-blue cotton shirt, beige pleated trousers, white trainers and a tan belt, arranged without overlap on ivory paper, each item fully visible, no text or logos.",
+    "criteria": [
+      "exactly four fashion items",
+      "sky-blue shirt",
+      "beige pleated trousers",
+      "white trainers",
+      "tan belt",
+      "no overlap or text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_321733e3f40956fa_image.png",
+        "sha256": "688da5211ee968285af2a424dc58ff0daa9069ce0d289257a68eb449fe4fbad2"
+      }
+    },
+    "evidence_sha256": {
+      "image": "688da5211ee968285af2a424dc58ff0daa9069ce0d289257a68eb449fe4fbad2"
+    }
+  },
+  {
+    "assessment_id": "ai_dd48f05cc7647880",
+    "pair": "generation",
+    "brief": "Evening fashion editorial of an adult with medium-brown skin wearing a flowing emerald midi dress and silver flats on a softly lit rooftop terrace, full body, modest neckline, natural hands, city lights in background, no text.",
+    "criteria": [
+      "adult with medium-brown skin",
+      "emerald midi dress",
+      "silver flats",
+      "modest neckline",
+      "rooftop terrace",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_dd48f05cc7647880_image.png",
+        "sha256": "aa35218f82174a4f7f8d10ab334a8c0565211a6ccc81d65d4465537099b2fe93"
+      }
+    },
+    "evidence_sha256": {
+      "image": "aa35218f82174a4f7f8d10ab334a8c0565211a6ccc81d65d4465537099b2fe93"
+    }
+  },
+  {
+    "assessment_id": "ai_21ce0b42fcb392a4",
+    "pair": "generation",
+    "brief": "Summer holiday product campaign with tan woven sandals and a straw shoulder bag beside a rolled cream beach towel on clean pale sand, blue sea blurred behind, no people, no logos or words.",
+    "criteria": [
+      "tan woven sandals",
+      "straw shoulder bag",
+      "cream towel",
+      "pale sand",
+      "sea background",
+      "no people or words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_21ce0b42fcb392a4_image.png",
+        "sha256": "f6743c989694f3f8ccc3df3da699e2116f182113508effb605518493b79351aa"
+      }
+    },
+    "evidence_sha256": {
+      "image": "f6743c989694f3f8ccc3df3da699e2116f182113508effb605518493b79351aa"
+    }
+  },
+  {
+    "assessment_id": "ai_671038afc6c112c7",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_671038afc6c112c7_input.png",
+        "sha256": "95d4011020af2dde1a0c4b1b70e7008f4d82d58776cd907f34d6fee8996d98b7"
+      },
+      "view_00": {
+        "path": "images/ai_671038afc6c112c7_view_00.png",
+        "sha256": "91850244144d3688163dc3a9f878cb6ee53212a4f813480e7f0ae226aab5c869"
+      },
+      "view_01": {
+        "path": "images/ai_671038afc6c112c7_view_01.png",
+        "sha256": "da875d4351ca80124e90cd32167961155a077cb753d5884b841e087a2cfbdec3"
+      },
+      "view_02": {
+        "path": "images/ai_671038afc6c112c7_view_02.png",
+        "sha256": "0f993409ce5e181afbd5c6495234b24c53a36b66126f0e5e9fac27d299d99d2c"
+      },
+      "view_03": {
+        "path": "images/ai_671038afc6c112c7_view_03.png",
+        "sha256": "0249e9a8a1311123dc2e431283543f38ca4c8031535c8479aad382a5c35f0a07"
+      }
+    },
+    "evidence_sha256": {
+      "input": "95d4011020af2dde1a0c4b1b70e7008f4d82d58776cd907f34d6fee8996d98b7",
+      "view_00": "91850244144d3688163dc3a9f878cb6ee53212a4f813480e7f0ae226aab5c869",
+      "view_01": "da875d4351ca80124e90cd32167961155a077cb753d5884b841e087a2cfbdec3",
+      "view_02": "0f993409ce5e181afbd5c6495234b24c53a36b66126f0e5e9fac27d299d99d2c",
+      "view_03": "0249e9a8a1311123dc2e431283543f38ca4c8031535c8479aad382a5c35f0a07"
+    },
+    "card_image": {
+      "path": "images/ai_671038afc6c112c7_card.png",
+      "sha256": "5173421e817a764a9a147bfe6ff5a4a10b52f24f48365e4de520ed74d9133269"
+    }
+  },
+  {
+    "assessment_id": "ai_5fa781bfc29c3222",
+    "pair": "generation",
+    "brief": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+    "criteria": [
+      "one burgundy handbag",
+      "brass clasp",
+      "short top handle",
+      "ivory plinth",
+      "empty space above",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_5fa781bfc29c3222_image.png",
+        "sha256": "055ce94dc6f37b4d7b1dd9327e94b3b50f8ab24c5cf6b3052a5c9cf977db996e"
+      }
+    },
+    "evidence_sha256": {
+      "image": "055ce94dc6f37b4d7b1dd9327e94b3b50f8ab24c5cf6b3052a5c9cf977db996e"
+    }
+  },
+  {
+    "assessment_id": "ai_9e681f89ba143dac",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_9e681f89ba143dac_input.png",
+        "sha256": "7b42c9207de8415e3d0fe4210569efcef70f82438b490b1b88f2eab81a803424"
+      },
+      "view_00": {
+        "path": "images/ai_9e681f89ba143dac_view_00.png",
+        "sha256": "1fc0ae23bbb4e3718901974cc79a07006a915dfe6f263d5c236f7da631f474c4"
+      },
+      "view_01": {
+        "path": "images/ai_9e681f89ba143dac_view_01.png",
+        "sha256": "c259db53b17b70b90916f8742d1960673723198924c2a99d2fb61b79f03e4834"
+      },
+      "view_02": {
+        "path": "images/ai_9e681f89ba143dac_view_02.png",
+        "sha256": "7659cbea42a61eb50c67c6dc0c9251289248194a280714f5b50d19f008045947"
+      },
+      "view_03": {
+        "path": "images/ai_9e681f89ba143dac_view_03.png",
+        "sha256": "68d72ffb309411ebaa0da73e10124208db863cceb77b64864e9dae71efd3b4e9"
+      }
+    },
+    "evidence_sha256": {
+      "input": "7b42c9207de8415e3d0fe4210569efcef70f82438b490b1b88f2eab81a803424",
+      "view_00": "1fc0ae23bbb4e3718901974cc79a07006a915dfe6f263d5c236f7da631f474c4",
+      "view_01": "c259db53b17b70b90916f8742d1960673723198924c2a99d2fb61b79f03e4834",
+      "view_02": "7659cbea42a61eb50c67c6dc0c9251289248194a280714f5b50d19f008045947",
+      "view_03": "68d72ffb309411ebaa0da73e10124208db863cceb77b64864e9dae71efd3b4e9"
+    },
+    "card_image": {
+      "path": "images/ai_9e681f89ba143dac_card.png",
+      "sha256": "371390a89104645df542a51cc3df1036084d2eed4b1aca9647ca245ce64d1b7a"
+    }
+  },
+  {
+    "assessment_id": "ai_53641876a772fb7d",
+    "pair": "generation",
+    "brief": "Autumn fashion still life showing a burnt-orange beret, chocolate-brown ankle boots and a folded oatmeal cardigan on a dark wooden bench with a few dry leaves, warm side light, clear product separation, no lettering.",
+    "criteria": [
+      "orange beret",
+      "brown ankle boots",
+      "oatmeal cardigan",
+      "dark wooden bench",
+      "dry leaves",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_53641876a772fb7d_image.png",
+        "sha256": "97cc932304430df142106a0f03331e79c5db6c9a68a230f75157a0b57bfda1e2"
+      }
+    },
+    "evidence_sha256": {
+      "image": "97cc932304430df142106a0f03331e79c5db6c9a68a230f75157a0b57bfda1e2"
+    }
+  },
+  {
+    "assessment_id": "ai_704c32e72801d3f6",
+    "pair": "generation",
+    "brief": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+    "criteria": [
+      "exactly three gold rings",
+      "plain band left",
+      "twisted band middle",
+      "one green stone right",
+      "horizontal row",
+      "lavender stone",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_704c32e72801d3f6_image.png",
+        "sha256": "c53af0b474b6eff33f9b9c68095b9b2c9af7c812da99b8f11a5f4d00607952f5"
+      }
+    },
+    "evidence_sha256": {
+      "image": "c53af0b474b6eff33f9b9c68095b9b2c9af7c812da99b8f11a5f4d00607952f5"
+    }
+  },
+  {
+    "assessment_id": "ai_1c02e9959893c61b",
+    "pair": "generation",
+    "brief": "Fashion editorial of an adult woman wearing a teal tailored trouser suit and flat black loafers in a bright modern gallery, full body, relaxed standing pose, natural proportions, artworks softly blurred, no logos and no text.",
+    "criteria": [
+      "adult woman",
+      "teal trouser suit",
+      "black flat loafers",
+      "gallery",
+      "full body",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_1c02e9959893c61b_image.png",
+        "sha256": "43a4f8780fa274cc753e996f7e0e59ffd40ffee1465f88352fd10e6bc486d686"
+      }
+    },
+    "evidence_sha256": {
+      "image": "43a4f8780fa274cc753e996f7e0e59ffd40ffee1465f88352fd10e6bc486d686"
+    }
+  },
+  {
+    "assessment_id": "ai_815918b637011ffb",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_815918b637011ffb_input.png",
+        "sha256": "a4c9ce67c36256dd0a5c027ebe36f706a8d9a34a71da7e473000070080900951"
+      },
+      "view_00": {
+        "path": "images/ai_815918b637011ffb_view_00.png",
+        "sha256": "6aafdb4327014e7d276a240c9687041dba3328ffbd85d22ff68760794228f7a8"
+      },
+      "view_01": {
+        "path": "images/ai_815918b637011ffb_view_01.png",
+        "sha256": "a90f8ee33fbb95d3914866cb8bca26c5f17d3dba14faa645c5a9747e7e9af914"
+      },
+      "view_02": {
+        "path": "images/ai_815918b637011ffb_view_02.png",
+        "sha256": "5838758442c5ae64758a355f694680caf0b05d92939125995b23ecbf49f61915"
+      },
+      "view_03": {
+        "path": "images/ai_815918b637011ffb_view_03.png",
+        "sha256": "859ccede077688ee00c244b18060b97f5385f9935ca9a027e492205bc9e512e5"
+      }
+    },
+    "evidence_sha256": {
+      "input": "a4c9ce67c36256dd0a5c027ebe36f706a8d9a34a71da7e473000070080900951",
+      "view_00": "6aafdb4327014e7d276a240c9687041dba3328ffbd85d22ff68760794228f7a8",
+      "view_01": "a90f8ee33fbb95d3914866cb8bca26c5f17d3dba14faa645c5a9747e7e9af914",
+      "view_02": "5838758442c5ae64758a355f694680caf0b05d92939125995b23ecbf49f61915",
+      "view_03": "859ccede077688ee00c244b18060b97f5385f9935ca9a027e492205bc9e512e5"
+    },
+    "card_image": {
+      "path": "images/ai_815918b637011ffb_card.png",
+      "sha256": "d18be50879d32be2594a7e26819580f205586bb4b9dd82e43859b5950e2e9124"
+    }
+  },
+  {
+    "assessment_id": "ai_5c57cf9e2a0d877f",
+    "pair": "generation",
+    "brief": "Overhead fashion campaign flat lay containing exactly four items: a sky-blue cotton shirt, beige pleated trousers, white trainers and a tan belt, arranged without overlap on ivory paper, each item fully visible, no text or logos.",
+    "criteria": [
+      "exactly four fashion items",
+      "sky-blue shirt",
+      "beige pleated trousers",
+      "white trainers",
+      "tan belt",
+      "no overlap or text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_5c57cf9e2a0d877f_image.png",
+        "sha256": "4fcc1c339da33c4c4917e2431ea4b4ab7449c5a3fb530bfd45ae191a3c15abf0"
+      }
+    },
+    "evidence_sha256": {
+      "image": "4fcc1c339da33c4c4917e2431ea4b4ab7449c5a3fb530bfd45ae191a3c15abf0"
+    }
+  },
+  {
+    "assessment_id": "ai_7a8338526313a503",
+    "pair": "generation",
+    "brief": "Outdoor editorial portrait of an older adult with short grey hair wearing a plum wool coat and checked scarf in a quiet city garden, knee-up framing, overcast soft light, realistic skin and fabric texture, no text or branding.",
+    "criteria": [
+      "older adult",
+      "short grey hair",
+      "plum wool coat",
+      "checked scarf",
+      "city garden",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_7a8338526313a503_image.png",
+        "sha256": "bfd428becd6fa3f6fe4dc9c5e2096bc3c76afe0615189ac8ce53b54deb7826a3"
+      }
+    },
+    "evidence_sha256": {
+      "image": "bfd428becd6fa3f6fe4dc9c5e2096bc3c76afe0615189ac8ce53b54deb7826a3"
+    }
+  },
+  {
+    "assessment_id": "ai_d2306c280fa1d4ad",
+    "pair": "generation",
+    "brief": "Overhead product photograph of tortoiseshell sunglasses with dark brown lenses and a folded cream cotton pouch on sand-coloured paper, balanced symmetrical composition, realistic materials, no printed branding.",
+    "criteria": [
+      "tortoiseshell sunglasses",
+      "brown lenses",
+      "cream pouch",
+      "overhead view",
+      "sand-coloured paper",
+      "no branding"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_d2306c280fa1d4ad_image.png",
+        "sha256": "7992dd065bfb05cd3052153e1a593ddcb90c6106dec0429a0627f51f556b68a4"
+      }
+    },
+    "evidence_sha256": {
+      "image": "7992dd065bfb05cd3052153e1a593ddcb90c6106dec0429a0627f51f556b68a4"
+    }
+  },
+  {
+    "assessment_id": "ai_248f27b3765b90db",
+    "pair": "generation",
+    "brief": "Festive evening accessories display: a small silver clutch and black velvet bow hair clip on deep-green satin with soft warm lights behind, restrained elegant composition, no gift boxes, no brand marks and no text.",
+    "criteria": [
+      "silver clutch",
+      "black velvet bow clip",
+      "deep-green satin",
+      "warm lights",
+      "no gift boxes",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_248f27b3765b90db_image.png",
+        "sha256": "d371b489c710e9d784f3b0f90bfdad009ecfa2a81d07bc9a1daa8351417cfa0b"
+      }
+    },
+    "evidence_sha256": {
+      "image": "d371b489c710e9d784f3b0f90bfdad009ecfa2a81d07bc9a1daa8351417cfa0b"
+    }
+  },
+  {
+    "assessment_id": "ai_038ce3a5dc9db013",
+    "pair": "generation",
+    "brief": "Studio editorial of two adult friends with different body sizes wearing monochrome black casual outfits and distinctive red crossbody bags, full body against pale blue, relaxed poses, both bags visible, no lettering.",
+    "criteria": [
+      "two adults",
+      "different body sizes",
+      "black outfits",
+      "two red crossbody bags",
+      "pale blue background",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_038ce3a5dc9db013_image.png",
+        "sha256": "8744cdfaf424abfaf5f474b9de1819501ae4233d73d18243a78b674664d1d77c"
+      }
+    },
+    "evidence_sha256": {
+      "image": "8744cdfaf424abfaf5f474b9de1819501ae4233d73d18243a78b674664d1d77c"
+    }
+  },
+  {
+    "assessment_id": "ai_54f16b3c7f6ee1a6",
+    "pair": "generation",
+    "brief": "Summer holiday product campaign with tan woven sandals and a straw shoulder bag beside a rolled cream beach towel on clean pale sand, blue sea blurred behind, no people, no logos or words.",
+    "criteria": [
+      "tan woven sandals",
+      "straw shoulder bag",
+      "cream towel",
+      "pale sand",
+      "sea background",
+      "no people or words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_54f16b3c7f6ee1a6_image.png",
+        "sha256": "2b73910fa21423e53919909edb78228322a08a5cfcd4cb6a0be51be867758795"
+      }
+    },
+    "evidence_sha256": {
+      "image": "2b73910fa21423e53919909edb78228322a08a5cfcd4cb6a0be51be867758795"
+    }
+  },
+  {
+    "assessment_id": "ai_e926f7c9b87c87c0",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_e926f7c9b87c87c0_input.png",
+        "sha256": "2503f0a8200c1f0860ecd8b62cacdb857e711ae5e8733de907d18a4b9bb2d02e"
+      },
+      "view_00": {
+        "path": "images/ai_e926f7c9b87c87c0_view_00.png",
+        "sha256": "567af8ef11636a948722b37576baab0ebd7af41f4262a804ab5ff94ae3d0b67f"
+      },
+      "view_01": {
+        "path": "images/ai_e926f7c9b87c87c0_view_01.png",
+        "sha256": "962e8f798cec42f0ad39a7a2627e5b29c5eab4d5a4cd9d0fc04392ae2c404038"
+      },
+      "view_02": {
+        "path": "images/ai_e926f7c9b87c87c0_view_02.png",
+        "sha256": "df10ca618648d60b3ec689e03f441b8bcf5ae4bf6ec37f91ebbdb7b6799dedaa"
+      },
+      "view_03": {
+        "path": "images/ai_e926f7c9b87c87c0_view_03.png",
+        "sha256": "7b869cf11f276e4f9889e8d526ed458c8c602c368c23cd30f4aed6a5d2c1add8"
+      }
+    },
+    "evidence_sha256": {
+      "input": "2503f0a8200c1f0860ecd8b62cacdb857e711ae5e8733de907d18a4b9bb2d02e",
+      "view_00": "567af8ef11636a948722b37576baab0ebd7af41f4262a804ab5ff94ae3d0b67f",
+      "view_01": "962e8f798cec42f0ad39a7a2627e5b29c5eab4d5a4cd9d0fc04392ae2c404038",
+      "view_02": "df10ca618648d60b3ec689e03f441b8bcf5ae4bf6ec37f91ebbdb7b6799dedaa",
+      "view_03": "7b869cf11f276e4f9889e8d526ed458c8c602c368c23cd30f4aed6a5d2c1add8"
+    },
+    "card_image": {
+      "path": "images/ai_e926f7c9b87c87c0_card.png",
+      "sha256": "d55699fb4f90093fc269ac061522bb9b08f17f952f818d6345ad9145e3265805"
+    }
+  },
+  {
+    "assessment_id": "ai_f80b68f4fa7b9e1f",
+    "pair": "generation",
+    "brief": "Minimal display of a black backpack with two visible front pockets, a silver zipper and one orange pull tab, standing beside a transparent water bottle on a white cube, pale green backdrop, no people, no logos and no text.",
+    "criteria": [
+      "black backpack",
+      "two front pockets",
+      "silver zipper",
+      "orange pull tab",
+      "transparent bottle",
+      "white cube",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_f80b68f4fa7b9e1f_image.png",
+        "sha256": "574161fb9cbf83c81b0ec71a43225f13d2a862d57309e9cb140d5701db1140c3"
+      }
+    },
+    "evidence_sha256": {
+      "image": "574161fb9cbf83c81b0ec71a43225f13d2a862d57309e9cb140d5701db1140c3"
+    }
+  },
+  {
+    "assessment_id": "ai_d2e27457d97183ff",
+    "pair": "generation",
+    "brief": "Accessible fashion editorial featuring an adult wheelchair user in a rust-coloured trench coat, dark jeans and white trainers in an airy railway concourse, complete wheelchair visible, natural seated pose, respectful confident portrait, no text.",
+    "criteria": [
+      "adult wheelchair user",
+      "rust trench coat",
+      "dark jeans",
+      "white trainers",
+      "complete wheelchair",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_d2e27457d97183ff_image.png",
+        "sha256": "8f254b2be692b38b9b8917c56fbb55cd85039b1eafbceb942d0fcf1ec961c1c0"
+      }
+    },
+    "evidence_sha256": {
+      "image": "8f254b2be692b38b9b8917c56fbb55cd85039b1eafbceb942d0fcf1ec961c1c0"
+    }
+  },
+  {
+    "assessment_id": "ai_d5d48797bcf0266c",
+    "pair": "generation",
+    "brief": "Two structured handbags on separate circular plinths: a small red bag with silver clasp on the left and a larger black bag with gold clasp on the right, matching three-quarter angles, neutral grey background, no text.",
+    "criteria": [
+      "two handbags",
+      "small red bag left",
+      "silver clasp left",
+      "larger black bag right",
+      "gold clasp right",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_d5d48797bcf0266c_image.png",
+        "sha256": "e6e3b8d87bbcf6ed5da05515ec7163353df836673bb69b6aadaab30a92fb2211"
+      }
+    },
+    "evidence_sha256": {
+      "image": "e6e3b8d87bbcf6ed5da05515ec7163353df836673bb69b6aadaab30a92fb2211"
+    }
+  },
+  {
+    "assessment_id": "ai_a5cd7182cd3170d6",
+    "pair": "generation",
+    "brief": "Single cobalt-blue ankle boot with square toe and low block heel on a pale peach seamless studio background, side profile, suede texture, sharp product outline, no other products and no text.",
+    "criteria": [
+      "single cobalt-blue boot",
+      "square toe",
+      "low block heel",
+      "suede texture",
+      "peach background",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_a5cd7182cd3170d6_image.png",
+        "sha256": "9b9fd1bb6111ac858b0b0f093bcd4c38536a48c78a375223fa565be356e7f068"
+      }
+    },
+    "evidence_sha256": {
+      "image": "9b9fd1bb6111ac858b0b0f093bcd4c38536a48c78a375223fa565be356e7f068"
+    }
+  },
+  {
+    "assessment_id": "ai_5cc0cda04d18c09e",
+    "pair": "generation",
+    "brief": "Winter campaign of a navy quilted jacket on a plain mannequin torso with a mustard scarf draped around the collar, frosted window behind, soft studio lighting, no human face, no snow covering the products and no text.",
+    "criteria": [
+      "navy quilted jacket",
+      "plain mannequin torso",
+      "mustard scarf",
+      "frosted window",
+      "uncovered products",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_5cc0cda04d18c09e_image.png",
+        "sha256": "7c519ac766dd0b2fe981330c94c0f89fb5676b5b8da4329e567c66fde1bba6cc"
+      }
+    },
+    "evidence_sha256": {
+      "image": "7c519ac766dd0b2fe981330c94c0f89fb5676b5b8da4329e567c66fde1bba6cc"
+    }
+  },
+  {
+    "assessment_id": "ai_a823c76295567c9f",
+    "pair": "generation",
+    "brief": "Premium product photograph of a pair of white low-top trainers with forest-green heel tabs and off-white rubber soles, viewed at a slight overhead angle against pale grey, crisp realistic stitching, no visible logos or words.",
+    "criteria": [
+      "pair of white low-top trainers",
+      "green heel tabs",
+      "off-white soles",
+      "grey background",
+      "no logos or words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_a823c76295567c9f_image.png",
+        "sha256": "43ef9ed7f1aba5c361f68bbd59259b1940d2149d1062aa0e37ce29ad15aea11c"
+      }
+    },
+    "evidence_sha256": {
+      "image": "43ef9ed7f1aba5c361f68bbd59259b1940d2149d1062aa0e37ce29ad15aea11c"
+    }
+  },
+  {
+    "assessment_id": "ai_776afbab29244dd3",
+    "pair": "generation",
+    "brief": "Minimal display of a black backpack with two visible front pockets, a silver zipper and one orange pull tab, standing beside a transparent water bottle on a white cube, pale green backdrop, no people, no logos and no text.",
+    "criteria": [
+      "black backpack",
+      "two front pockets",
+      "silver zipper",
+      "orange pull tab",
+      "transparent bottle",
+      "white cube",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_776afbab29244dd3_image.png",
+        "sha256": "4137ef88a52c139dccf577f14c6b2e24273eecde87876709d8bf82bc6d88f009"
+      }
+    },
+    "evidence_sha256": {
+      "image": "4137ef88a52c139dccf577f14c6b2e24273eecde87876709d8bf82bc6d88f009"
+    }
+  },
+  {
+    "assessment_id": "ai_5255d898c98852d0",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_5255d898c98852d0_input.png",
+        "sha256": "3736b7acf53105e8b42eb31f33c8e32d2b35fa9b5d03e256a8578fb998dc9a2f"
+      },
+      "view_00": {
+        "path": "images/ai_5255d898c98852d0_view_00.png",
+        "sha256": "be1cd8c8977e8ce5f56533fbb8b7dfb5f748e05326747f3f5a21ef821830537e"
+      },
+      "view_01": {
+        "path": "images/ai_5255d898c98852d0_view_01.png",
+        "sha256": "261fe16af5115ed05e5240af9b970d558643b83d66e80a6f3545bcbb5e4497d7"
+      },
+      "view_02": {
+        "path": "images/ai_5255d898c98852d0_view_02.png",
+        "sha256": "627e9bafed8f65b61a679accaa62dcd4f704ab0f8048a01e2f5b42a4b70f9c12"
+      },
+      "view_03": {
+        "path": "images/ai_5255d898c98852d0_view_03.png",
+        "sha256": "74edf688a8fae161e165ba5e81a2631aab0fdcb86edc7a7132b0d6338aaa0ae6"
+      }
+    },
+    "evidence_sha256": {
+      "input": "3736b7acf53105e8b42eb31f33c8e32d2b35fa9b5d03e256a8578fb998dc9a2f",
+      "view_00": "be1cd8c8977e8ce5f56533fbb8b7dfb5f748e05326747f3f5a21ef821830537e",
+      "view_01": "261fe16af5115ed05e5240af9b970d558643b83d66e80a6f3545bcbb5e4497d7",
+      "view_02": "627e9bafed8f65b61a679accaa62dcd4f704ab0f8048a01e2f5b42a4b70f9c12",
+      "view_03": "74edf688a8fae161e165ba5e81a2631aab0fdcb86edc7a7132b0d6338aaa0ae6"
+    },
+    "card_image": {
+      "path": "images/ai_5255d898c98852d0_card.png",
+      "sha256": "03de50d060ba32e197e19b1d62ba7a8f091850d03c7bd4a40af6955f4cef30e8"
+    }
+  },
+  {
+    "assessment_id": "ai_7804d555ca7072b4",
+    "pair": "generation",
+    "brief": "Single cobalt-blue ankle boot with square toe and low block heel on a pale peach seamless studio background, side profile, suede texture, sharp product outline, no other products and no text.",
+    "criteria": [
+      "single cobalt-blue boot",
+      "square toe",
+      "low block heel",
+      "suede texture",
+      "peach background",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_7804d555ca7072b4_image.png",
+        "sha256": "ef2211de45a75c3c72a981839df29dbce695f5c1a9b7134db26505ae24ad9ed6"
+      }
+    },
+    "evidence_sha256": {
+      "image": "ef2211de45a75c3c72a981839df29dbce695f5c1a9b7134db26505ae24ad9ed6"
+    }
+  },
+  {
+    "assessment_id": "ai_d59c931b5aa8a60a",
+    "pair": "generation",
+    "brief": "Minimal jewellery campaign showing one silver geometric pendant on a fine silver chain, laid in a loose curve over matte charcoal stone, close-up lighting with controlled highlights, no gemstones and no text.",
+    "criteria": [
+      "one silver geometric pendant",
+      "fine silver chain",
+      "charcoal stone",
+      "no gemstones",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_d59c931b5aa8a60a_image.png",
+        "sha256": "e4b87aa7958b169c7a115588f282bbe3023e13c49836abba5dfbb3feb18f7f96"
+      }
+    },
+    "evidence_sha256": {
+      "image": "e4b87aa7958b169c7a115588f282bbe3023e13c49836abba5dfbb3feb18f7f96"
+    }
+  },
+  {
+    "assessment_id": "ai_26ada500be6a045f",
+    "pair": "generation",
+    "brief": "Autumn fashion still life showing a burnt-orange beret, chocolate-brown ankle boots and a folded oatmeal cardigan on a dark wooden bench with a few dry leaves, warm side light, clear product separation, no lettering.",
+    "criteria": [
+      "orange beret",
+      "brown ankle boots",
+      "oatmeal cardigan",
+      "dark wooden bench",
+      "dry leaves",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_26ada500be6a045f_image.png",
+        "sha256": "4d085bb8e7435bbd39f559d9b08a9e96454e56ad294bcb99be4ecec537d7fe90"
+      }
+    },
+    "evidence_sha256": {
+      "image": "4d085bb8e7435bbd39f559d9b08a9e96454e56ad294bcb99be4ecec537d7fe90"
+    }
+  },
+  {
+    "assessment_id": "ai_353afd2035245776",
+    "pair": "generation",
+    "brief": "Accessible fashion editorial featuring an adult wheelchair user in a rust-coloured trench coat, dark jeans and white trainers in an airy railway concourse, complete wheelchair visible, natural seated pose, respectful confident portrait, no text.",
+    "criteria": [
+      "adult wheelchair user",
+      "rust trench coat",
+      "dark jeans",
+      "white trainers",
+      "complete wheelchair",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_353afd2035245776_image.png",
+        "sha256": "e64784fa71495827adc3b59d7a07653e2fcdc97bcaaef80d579aba15ff3b2d0f"
+      }
+    },
+    "evidence_sha256": {
+      "image": "e64784fa71495827adc3b59d7a07653e2fcdc97bcaaef80d579aba15ff3b2d0f"
+    }
+  },
+  {
+    "assessment_id": "ai_7800a58783334790",
+    "pair": "generation",
+    "brief": "Outdoor editorial portrait of an older adult with short grey hair wearing a plum wool coat and checked scarf in a quiet city garden, knee-up framing, overcast soft light, realistic skin and fabric texture, no text or branding.",
+    "criteria": [
+      "older adult",
+      "short grey hair",
+      "plum wool coat",
+      "checked scarf",
+      "city garden",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_7800a58783334790_image.png",
+        "sha256": "759d761990332ef3f73ebe10c5ebc5f4ea4998a4fe22c562b2b0c4fb7a0fae9f"
+      }
+    },
+    "evidence_sha256": {
+      "image": "759d761990332ef3f73ebe10c5ebc5f4ea4998a4fe22c562b2b0c4fb7a0fae9f"
+    }
+  },
+  {
+    "assessment_id": "ai_c681dc706731e810",
+    "pair": "generation",
+    "brief": "Two structured handbags on separate circular plinths: a small red bag with silver clasp on the left and a larger black bag with gold clasp on the right, matching three-quarter angles, neutral grey background, no text.",
+    "criteria": [
+      "two handbags",
+      "small red bag left",
+      "silver clasp left",
+      "larger black bag right",
+      "gold clasp right",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_c681dc706731e810_image.png",
+        "sha256": "f79ce4d6db2a0a54ae206ce5056ed5db0f6c7fcad2e57611c4dedfc0f45c5593"
+      }
+    },
+    "evidence_sha256": {
+      "image": "f79ce4d6db2a0a54ae206ce5056ed5db0f6c7fcad2e57611c4dedfc0f45c5593"
+    }
+  },
+  {
+    "assessment_id": "ai_1fc8e968ff1779f3",
+    "pair": "generation",
+    "brief": "Minimal display of a black backpack with two visible front pockets, a silver zipper and one orange pull tab, standing beside a transparent water bottle on a white cube, pale green backdrop, no people, no logos and no text.",
+    "criteria": [
+      "black backpack",
+      "two front pockets",
+      "silver zipper",
+      "orange pull tab",
+      "transparent bottle",
+      "white cube",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_1fc8e968ff1779f3_image.png",
+        "sha256": "c306acb098c933b05f453e0a55d3ec54f2af339e5ddd5e110a8339b7f6129ad9"
+      }
+    },
+    "evidence_sha256": {
+      "image": "c306acb098c933b05f453e0a55d3ec54f2af339e5ddd5e110a8339b7f6129ad9"
+    }
+  },
+  {
+    "assessment_id": "ai_658d2b13f08b30fd",
+    "pair": "generation",
+    "brief": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+    "criteria": [
+      "one burgundy handbag",
+      "brass clasp",
+      "short top handle",
+      "ivory plinth",
+      "empty space above",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_658d2b13f08b30fd_image.png",
+        "sha256": "bb34f2a2ae5e7c2239e93e61168fee9fc0be601dcc7497e89d0f0aa3902bcd1c"
+      }
+    },
+    "evidence_sha256": {
+      "image": "bb34f2a2ae5e7c2239e93e61168fee9fc0be601dcc7497e89d0f0aa3902bcd1c"
+    }
+  },
+  {
+    "assessment_id": "ai_f55a4411c4379f1c",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_f55a4411c4379f1c_input.png",
+        "sha256": "3dd25556ca27d0631717b658ddb037404e067b77c6ff5cadf10aa0a8c6fcc29c"
+      },
+      "view_00": {
+        "path": "images/ai_f55a4411c4379f1c_view_00.png",
+        "sha256": "2c3ac5df14a0ccaea0d5562a491f5223572f757bd5ace1e50204f23fd6ab913f"
+      },
+      "view_01": {
+        "path": "images/ai_f55a4411c4379f1c_view_01.png",
+        "sha256": "0dc0cd50a9a3a752319d5520842e51eb9878241d90e6aa9bf26114bd689bd124"
+      },
+      "view_02": {
+        "path": "images/ai_f55a4411c4379f1c_view_02.png",
+        "sha256": "b5ba2cdbb3d32f4fa7b1ef8ef650bcdc28fee472c4a69dd134a718f1c87f3f7d"
+      },
+      "view_03": {
+        "path": "images/ai_f55a4411c4379f1c_view_03.png",
+        "sha256": "508f0b99bfcd4a8b51a4686590c5a2f21c51c0a48dda06ee40c21822c72225c1"
+      }
+    },
+    "evidence_sha256": {
+      "input": "3dd25556ca27d0631717b658ddb037404e067b77c6ff5cadf10aa0a8c6fcc29c",
+      "view_00": "2c3ac5df14a0ccaea0d5562a491f5223572f757bd5ace1e50204f23fd6ab913f",
+      "view_01": "0dc0cd50a9a3a752319d5520842e51eb9878241d90e6aa9bf26114bd689bd124",
+      "view_02": "b5ba2cdbb3d32f4fa7b1ef8ef650bcdc28fee472c4a69dd134a718f1c87f3f7d",
+      "view_03": "508f0b99bfcd4a8b51a4686590c5a2f21c51c0a48dda06ee40c21822c72225c1"
+    },
+    "card_image": {
+      "path": "images/ai_f55a4411c4379f1c_card.png",
+      "sha256": "84cecbde0fc0f56ac7aa15eb4e23cb81cc5e7f96c9538fef53e7807c0bf3ed7c"
+    }
+  },
+  {
+    "assessment_id": "ai_c1e94d1ecd3befae",
+    "pair": "generation",
+    "brief": "Winter campaign of a navy quilted jacket on a plain mannequin torso with a mustard scarf draped around the collar, frosted window behind, soft studio lighting, no human face, no snow covering the products and no text.",
+    "criteria": [
+      "navy quilted jacket",
+      "plain mannequin torso",
+      "mustard scarf",
+      "frosted window",
+      "uncovered products",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_c1e94d1ecd3befae_image.png",
+        "sha256": "dc3110f05b1bd7bf81d35960134de45c350bf66eefd311cad8ac3e0e8d311713"
+      }
+    },
+    "evidence_sha256": {
+      "image": "dc3110f05b1bd7bf81d35960134de45c350bf66eefd311cad8ac3e0e8d311713"
+    }
+  },
+  {
+    "assessment_id": "ai_5bb066c1b1af6937",
+    "pair": "generation",
+    "brief": "Folded camel knitted scarf beside matching knitted gloves on a light oak tabletop, cable-knit texture clearly visible, natural window light, calm winter accessory product advertisement, no people and no lettering.",
+    "criteria": [
+      "camel scarf",
+      "matching gloves",
+      "cable-knit texture",
+      "oak tabletop",
+      "no people",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_5bb066c1b1af6937_image.png",
+        "sha256": "f6de0bb20323734c6da61e53b69d125d900868c1ebfe118d8719a03687f30e93"
+      }
+    },
+    "evidence_sha256": {
+      "image": "f6de0bb20323734c6da61e53b69d125d900868c1ebfe118d8719a03687f30e93"
+    }
+  },
+  {
+    "assessment_id": "ai_9c4ac72cf8368b05",
+    "pair": "generation",
+    "brief": "Overhead product photograph of tortoiseshell sunglasses with dark brown lenses and a folded cream cotton pouch on sand-coloured paper, balanced symmetrical composition, realistic materials, no printed branding.",
+    "criteria": [
+      "tortoiseshell sunglasses",
+      "brown lenses",
+      "cream pouch",
+      "overhead view",
+      "sand-coloured paper",
+      "no branding"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_9c4ac72cf8368b05_image.png",
+        "sha256": "b0b3c1573807716374e4bf3bc5e838005128f72e3c540786d6305d95e8dca934"
+      }
+    },
+    "evidence_sha256": {
+      "image": "b0b3c1573807716374e4bf3bc5e838005128f72e3c540786d6305d95e8dca934"
+    }
+  },
+  {
+    "assessment_id": "ai_6b5e59fa27f4f418",
+    "pair": "generation",
+    "brief": "Overhead fashion campaign flat lay containing exactly four items: a sky-blue cotton shirt, beige pleated trousers, white trainers and a tan belt, arranged without overlap on ivory paper, each item fully visible, no text or logos.",
+    "criteria": [
+      "exactly four fashion items",
+      "sky-blue shirt",
+      "beige pleated trousers",
+      "white trainers",
+      "tan belt",
+      "no overlap or text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_6b5e59fa27f4f418_image.png",
+        "sha256": "c3e256ad08cab10fd507ee049ea0870664166e239902d94d52873d7bf728d3b9"
+      }
+    },
+    "evidence_sha256": {
+      "image": "c3e256ad08cab10fd507ee049ea0870664166e239902d94d52873d7bf728d3b9"
+    }
+  },
+  {
+    "assessment_id": "ai_fe793a4659d0214c",
+    "pair": "generation",
+    "brief": "Street-style editorial of an adult man in a cream linen shirt, navy wide-leg trousers and tan sandals walking along a sunlit stone arcade, full-body view, candid movement, realistic clothing folds, no lettering.",
+    "criteria": [
+      "adult man",
+      "cream linen shirt",
+      "navy wide-leg trousers",
+      "tan sandals",
+      "stone arcade",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_fe793a4659d0214c_image.png",
+        "sha256": "b0b11d0117675c3152c3d4cd51927f390f98988b78511bdd3c62b0933508ee8c"
+      }
+    },
+    "evidence_sha256": {
+      "image": "b0b11d0117675c3152c3d4cd51927f390f98988b78511bdd3c62b0933508ee8c"
+    }
+  },
+  {
+    "assessment_id": "ai_c5813269032d8fea",
+    "pair": "generation",
+    "brief": "Fashion campaign with two adult models side by side: left model in a coral jacket and cream trousers, right model in a cream jacket and coral trousers, both wearing plain white shoes, full body, symmetrical pale-blue studio setting, no lettering.",
+    "criteria": [
+      "two adult models",
+      "coral jacket left",
+      "cream trousers left",
+      "cream jacket right",
+      "coral trousers right",
+      "white shoes",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_c5813269032d8fea_image.png",
+        "sha256": "224ea131459447f52c2a37e33668dd2405f66aca0457d09a179b4ce5430fc84e"
+      }
+    },
+    "evidence_sha256": {
+      "image": "224ea131459447f52c2a37e33668dd2405f66aca0457d09a179b4ce5430fc84e"
+    }
+  },
+  {
+    "assessment_id": "ai_047fc8d95d3e50c7",
+    "pair": "generation",
+    "brief": "Winter campaign of a navy quilted jacket on a plain mannequin torso with a mustard scarf draped around the collar, frosted window behind, soft studio lighting, no human face, no snow covering the products and no text.",
+    "criteria": [
+      "navy quilted jacket",
+      "plain mannequin torso",
+      "mustard scarf",
+      "frosted window",
+      "uncovered products",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_047fc8d95d3e50c7_image.png",
+        "sha256": "745e4692cc00dafe831b3c59e5fc1dc31bd01c438ad7e90bc676c1a49034416b"
+      }
+    },
+    "evidence_sha256": {
+      "image": "745e4692cc00dafe831b3c59e5fc1dc31bd01c438ad7e90bc676c1a49034416b"
+    }
+  },
+  {
+    "assessment_id": "ai_4dafb7e5efa54556",
+    "pair": "generation",
+    "brief": "Rainy-season campaign featuring one pair of glossy red rain boots and a closed navy umbrella on wet grey paving, subtle reflections, light rain in background, products fully visible, no people and no words.",
+    "criteria": [
+      "pair of red rain boots",
+      "closed navy umbrella",
+      "wet grey paving",
+      "reflections",
+      "fully visible products",
+      "no words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_4dafb7e5efa54556_image.png",
+        "sha256": "c1f25de870232b67824a81e8c2747f3fd24c0684fb473b0c5a768698462e9e6b"
+      }
+    },
+    "evidence_sha256": {
+      "image": "c1f25de870232b67824a81e8c2747f3fd24c0684fb473b0c5a768698462e9e6b"
+    }
+  },
+  {
+    "assessment_id": "ai_8a5411bafeccfe8b",
+    "pair": "generation",
+    "brief": "Minimal jewellery campaign showing one silver geometric pendant on a fine silver chain, laid in a loose curve over matte charcoal stone, close-up lighting with controlled highlights, no gemstones and no text.",
+    "criteria": [
+      "one silver geometric pendant",
+      "fine silver chain",
+      "charcoal stone",
+      "no gemstones",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_8a5411bafeccfe8b_image.png",
+        "sha256": "f10a7203d9cca249cc294ceae6e92423848c7009847ef89ea61f336da68858bf"
+      }
+    },
+    "evidence_sha256": {
+      "image": "f10a7203d9cca249cc294ceae6e92423848c7009847ef89ea61f336da68858bf"
+    }
+  },
+  {
+    "assessment_id": "ai_a4605cf7ef600536",
+    "pair": "generation",
+    "brief": "Festive evening accessories display: a small silver clutch and black velvet bow hair clip on deep-green satin with soft warm lights behind, restrained elegant composition, no gift boxes, no brand marks and no text.",
+    "criteria": [
+      "silver clutch",
+      "black velvet bow clip",
+      "deep-green satin",
+      "warm lights",
+      "no gift boxes",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_a4605cf7ef600536_image.png",
+        "sha256": "2f903ad0bae6e96d3115fb6b537e1732029e9e30217cd15d1171a614ca3063ad"
+      }
+    },
+    "evidence_sha256": {
+      "image": "2f903ad0bae6e96d3115fb6b537e1732029e9e30217cd15d1171a614ca3063ad"
+    }
+  },
+  {
+    "assessment_id": "ai_c76ef6393c668cf3",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_c76ef6393c668cf3_input.png",
+        "sha256": "129f04c7b37182217606ccb3bab1de127e8d8dc590b59d47432908d747ac200b"
+      },
+      "view_00": {
+        "path": "images/ai_c76ef6393c668cf3_view_00.png",
+        "sha256": "dc6fa0e5f3e66d347fabed90431c889e5317a77095e5ff675f0941300b02c44d"
+      },
+      "view_01": {
+        "path": "images/ai_c76ef6393c668cf3_view_01.png",
+        "sha256": "91df3d89eebdbc0cd4aebd2c63aaf8190bafe4c2074bf40721efdacf48f9c882"
+      },
+      "view_02": {
+        "path": "images/ai_c76ef6393c668cf3_view_02.png",
+        "sha256": "082f149090cbc36899ae7334dbcabd94cdcdad7b70369e8181b513e6975ce76e"
+      },
+      "view_03": {
+        "path": "images/ai_c76ef6393c668cf3_view_03.png",
+        "sha256": "c7f23d3516f38c02a6d4ad68ad1b803153ddbe4b6392eade1a33534cf7867ddb"
+      }
+    },
+    "evidence_sha256": {
+      "input": "129f04c7b37182217606ccb3bab1de127e8d8dc590b59d47432908d747ac200b",
+      "view_00": "dc6fa0e5f3e66d347fabed90431c889e5317a77095e5ff675f0941300b02c44d",
+      "view_01": "91df3d89eebdbc0cd4aebd2c63aaf8190bafe4c2074bf40721efdacf48f9c882",
+      "view_02": "082f149090cbc36899ae7334dbcabd94cdcdad7b70369e8181b513e6975ce76e",
+      "view_03": "c7f23d3516f38c02a6d4ad68ad1b803153ddbe4b6392eade1a33534cf7867ddb"
+    },
+    "card_image": {
+      "path": "images/ai_c76ef6393c668cf3_card.png",
+      "sha256": "bbcc4be646889d3811659607d74b9beeb82943094d532dc5d4a6579051de0356"
+    }
+  },
+  {
+    "assessment_id": "ai_3474571cb6afde34",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_3474571cb6afde34_input.png",
+        "sha256": "22de0a76335b0d0f0e25a8f4bc074341004e53c6aa4a6537c967f4ccd882e9d4"
+      },
+      "view_00": {
+        "path": "images/ai_3474571cb6afde34_view_00.png",
+        "sha256": "af49bfc6327f67ec089b8a02ab89d7b9924428894a3e9ed4468382c5231cc46f"
+      },
+      "view_01": {
+        "path": "images/ai_3474571cb6afde34_view_01.png",
+        "sha256": "42a233d7e29e4b0e5614e6cb88db6456053eb773f7b2ccdfac5f2c27c13f365e"
+      },
+      "view_02": {
+        "path": "images/ai_3474571cb6afde34_view_02.png",
+        "sha256": "df4715001be46558a3e4a5b13ddbac65fab15fae4ecc92038789f7adb6f7a0d4"
+      },
+      "view_03": {
+        "path": "images/ai_3474571cb6afde34_view_03.png",
+        "sha256": "efc9fe0f48f6be09d9f662b22c13b9e628f020ba5e3e45849dbc9d0e4edcc905"
+      }
+    },
+    "evidence_sha256": {
+      "input": "22de0a76335b0d0f0e25a8f4bc074341004e53c6aa4a6537c967f4ccd882e9d4",
+      "view_00": "af49bfc6327f67ec089b8a02ab89d7b9924428894a3e9ed4468382c5231cc46f",
+      "view_01": "42a233d7e29e4b0e5614e6cb88db6456053eb773f7b2ccdfac5f2c27c13f365e",
+      "view_02": "df4715001be46558a3e4a5b13ddbac65fab15fae4ecc92038789f7adb6f7a0d4",
+      "view_03": "efc9fe0f48f6be09d9f662b22c13b9e628f020ba5e3e45849dbc9d0e4edcc905"
+    },
+    "card_image": {
+      "path": "images/ai_3474571cb6afde34_card.png",
+      "sha256": "b4e1f0a9a0b97645ddc17f6f174404a022fb847623dc2b95ba060b5702a0b738"
+    }
+  },
+  {
+    "assessment_id": "ai_2d9e3fc3aaad1cd3",
+    "pair": "generation",
+    "brief": "Fashion editorial of an adult woman wearing a teal tailored trouser suit and flat black loafers in a bright modern gallery, full body, relaxed standing pose, natural proportions, artworks softly blurred, no logos and no text.",
+    "criteria": [
+      "adult woman",
+      "teal trouser suit",
+      "black flat loafers",
+      "gallery",
+      "full body",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_2d9e3fc3aaad1cd3_image.png",
+        "sha256": "76e1aa081211b5f64b01e68f51d285864b79a1703b67c53206d12a93606460f0"
+      }
+    },
+    "evidence_sha256": {
+      "image": "76e1aa081211b5f64b01e68f51d285864b79a1703b67c53206d12a93606460f0"
+    }
+  },
+  {
+    "assessment_id": "ai_41a1ca08e29d15ba",
+    "pair": "generation",
+    "brief": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+    "criteria": [
+      "navy pinstripe blazer",
+      "white shirt",
+      "olive trousers",
+      "brown lace-up shoes",
+      "mustard umbrella in left hand",
+      "full body",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_41a1ca08e29d15ba_image.png",
+        "sha256": "ba5d1f939d3119533ab54f628ae3f9d71c39b91dafc5ae40d9ece908749e0546"
+      }
+    },
+    "evidence_sha256": {
+      "image": "ba5d1f939d3119533ab54f628ae3f9d71c39b91dafc5ae40d9ece908749e0546"
+    }
+  },
+  {
+    "assessment_id": "ai_0c08a97e4f13fe66",
+    "pair": "generation",
+    "brief": "Outdoor editorial portrait of an older adult with short grey hair wearing a plum wool coat and checked scarf in a quiet city garden, knee-up framing, overcast soft light, realistic skin and fabric texture, no text or branding.",
+    "criteria": [
+      "older adult",
+      "short grey hair",
+      "plum wool coat",
+      "checked scarf",
+      "city garden",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_0c08a97e4f13fe66_image.png",
+        "sha256": "621653d1834d57e653da4643dd0bbdc0debc9957ff673a700ecd0e9fa902d157"
+      }
+    },
+    "evidence_sha256": {
+      "image": "621653d1834d57e653da4643dd0bbdc0debc9957ff673a700ecd0e9fa902d157"
+    }
+  },
+  {
+    "assessment_id": "ai_e0d84bb58f12a783",
+    "pair": "generation",
+    "brief": "Fashion editorial of an adult woman wearing a teal tailored trouser suit and flat black loafers in a bright modern gallery, full body, relaxed standing pose, natural proportions, artworks softly blurred, no logos and no text.",
+    "criteria": [
+      "adult woman",
+      "teal trouser suit",
+      "black flat loafers",
+      "gallery",
+      "full body",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_e0d84bb58f12a783_image.png",
+        "sha256": "6735b4d50c7c0204cc9424ef398d1ecb16c7cfa0c8059418bc140f2ffbf5ca11"
+      }
+    },
+    "evidence_sha256": {
+      "image": "6735b4d50c7c0204cc9424ef398d1ecb16c7cfa0c8059418bc140f2ffbf5ca11"
+    }
+  },
+  {
+    "assessment_id": "ai_4d1ddcc011327299",
+    "pair": "generation",
+    "brief": "Minimal jewellery campaign showing one silver geometric pendant on a fine silver chain, laid in a loose curve over matte charcoal stone, close-up lighting with controlled highlights, no gemstones and no text.",
+    "criteria": [
+      "one silver geometric pendant",
+      "fine silver chain",
+      "charcoal stone",
+      "no gemstones",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_4d1ddcc011327299_image.png",
+        "sha256": "2fdc046c018d6cfc6766cfad78df735688060fab6fb39593ca47a198649caa4b"
+      }
+    },
+    "evidence_sha256": {
+      "image": "2fdc046c018d6cfc6766cfad78df735688060fab6fb39593ca47a198649caa4b"
+    }
+  },
+  {
+    "assessment_id": "ai_e570f3fac330566b",
+    "pair": "generation",
+    "brief": "Street-style editorial of an adult man in a cream linen shirt, navy wide-leg trousers and tan sandals walking along a sunlit stone arcade, full-body view, candid movement, realistic clothing folds, no lettering.",
+    "criteria": [
+      "adult man",
+      "cream linen shirt",
+      "navy wide-leg trousers",
+      "tan sandals",
+      "stone arcade",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_e570f3fac330566b_image.png",
+        "sha256": "29f6e6f9074d3ac3f047e4f9314c911559f48fdb1a18e2585ad87c6b7ab9257d"
+      }
+    },
+    "evidence_sha256": {
+      "image": "29f6e6f9074d3ac3f047e4f9314c911559f48fdb1a18e2585ad87c6b7ab9257d"
+    }
+  },
+  {
+    "assessment_id": "ai_4319d3ebb011220a",
+    "pair": "generation",
+    "brief": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+    "criteria": [
+      "exactly three gold rings",
+      "plain band left",
+      "twisted band middle",
+      "one green stone right",
+      "horizontal row",
+      "lavender stone",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_4319d3ebb011220a_image.png",
+        "sha256": "f991ba66928ada6ce91bb4b51279a2cdca96a5870423638c878b01d4507133fd"
+      }
+    },
+    "evidence_sha256": {
+      "image": "f991ba66928ada6ce91bb4b51279a2cdca96a5870423638c878b01d4507133fd"
+    }
+  },
+  {
+    "assessment_id": "ai_696dd56bff99cf66",
+    "pair": "generation",
+    "brief": "Fashion campaign with two adult models side by side: left model in a coral jacket and cream trousers, right model in a cream jacket and coral trousers, both wearing plain white shoes, full body, symmetrical pale-blue studio setting, no lettering.",
+    "criteria": [
+      "two adult models",
+      "coral jacket left",
+      "cream trousers left",
+      "cream jacket right",
+      "coral trousers right",
+      "white shoes",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_696dd56bff99cf66_image.png",
+        "sha256": "8f8ed55e6d2c0d927392b1228cc3b07b9b1506aa27d122c5e8381bde617d66bc"
+      }
+    },
+    "evidence_sha256": {
+      "image": "8f8ed55e6d2c0d927392b1228cc3b07b9b1506aa27d122c5e8381bde617d66bc"
+    }
+  },
+  {
+    "assessment_id": "ai_b041286699d406f8",
+    "pair": "generation",
+    "brief": "Evening fashion editorial of an adult with medium-brown skin wearing a flowing emerald midi dress and silver flats on a softly lit rooftop terrace, full body, modest neckline, natural hands, city lights in background, no text.",
+    "criteria": [
+      "adult with medium-brown skin",
+      "emerald midi dress",
+      "silver flats",
+      "modest neckline",
+      "rooftop terrace",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_b041286699d406f8_image.png",
+        "sha256": "fed24c1d10ca222dd04596d18f6a489ac281600534dd0077c41bf805f801d442"
+      }
+    },
+    "evidence_sha256": {
+      "image": "fed24c1d10ca222dd04596d18f6a489ac281600534dd0077c41bf805f801d442"
+    }
+  },
+  {
+    "assessment_id": "ai_4d26811cea390185",
+    "pair": "generation",
+    "brief": "Minimal jewellery campaign showing one silver geometric pendant on a fine silver chain, laid in a loose curve over matte charcoal stone, close-up lighting with controlled highlights, no gemstones and no text.",
+    "criteria": [
+      "one silver geometric pendant",
+      "fine silver chain",
+      "charcoal stone",
+      "no gemstones",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_4d26811cea390185_image.png",
+        "sha256": "db2f2519fa98abf489a24ae98566f3335a64877727768f3e25ff2d56e621db29"
+      }
+    },
+    "evidence_sha256": {
+      "image": "db2f2519fa98abf489a24ae98566f3335a64877727768f3e25ff2d56e621db29"
+    }
+  },
+  {
+    "assessment_id": "ai_81f3a46c6e3c7d38",
+    "pair": "generation",
+    "brief": "Single cobalt-blue ankle boot with square toe and low block heel on a pale peach seamless studio background, side profile, suede texture, sharp product outline, no other products and no text.",
+    "criteria": [
+      "single cobalt-blue boot",
+      "square toe",
+      "low block heel",
+      "suede texture",
+      "peach background",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_81f3a46c6e3c7d38_image.png",
+        "sha256": "f381d8cbdc4a059916383365377baf05f5fc28334fdf93dcd04a9fa775cb0e11"
+      }
+    },
+    "evidence_sha256": {
+      "image": "f381d8cbdc4a059916383365377baf05f5fc28334fdf93dcd04a9fa775cb0e11"
+    }
+  },
+  {
+    "assessment_id": "ai_78877e60b4b27746",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_78877e60b4b27746_input.png",
+        "sha256": "57cfeea2841be63ed1440469a8ef47e9451444e0674b85cb1bf06dfdbb8abc12"
+      },
+      "view_00": {
+        "path": "images/ai_78877e60b4b27746_view_00.png",
+        "sha256": "029926634d428d1d79f613f16f85199ea6f8a262b0ed77bea8e3780b197b5c33"
+      },
+      "view_01": {
+        "path": "images/ai_78877e60b4b27746_view_01.png",
+        "sha256": "5b58d7771c9380a6ba66d5474bc63ddc7420d4d8f7ecbdb5630b5d34931eb8a1"
+      },
+      "view_02": {
+        "path": "images/ai_78877e60b4b27746_view_02.png",
+        "sha256": "c10102cd52e358bdd836d2f202b6029a54a24fca62bbe0143036af83d801ffb4"
+      },
+      "view_03": {
+        "path": "images/ai_78877e60b4b27746_view_03.png",
+        "sha256": "a34f5403cd9f45cca98cb774c2ae090a206ec8a0b4bbdc8b4e92ce69124c4254"
+      }
+    },
+    "evidence_sha256": {
+      "input": "57cfeea2841be63ed1440469a8ef47e9451444e0674b85cb1bf06dfdbb8abc12",
+      "view_00": "029926634d428d1d79f613f16f85199ea6f8a262b0ed77bea8e3780b197b5c33",
+      "view_01": "5b58d7771c9380a6ba66d5474bc63ddc7420d4d8f7ecbdb5630b5d34931eb8a1",
+      "view_02": "c10102cd52e358bdd836d2f202b6029a54a24fca62bbe0143036af83d801ffb4",
+      "view_03": "a34f5403cd9f45cca98cb774c2ae090a206ec8a0b4bbdc8b4e92ce69124c4254"
+    },
+    "card_image": {
+      "path": "images/ai_78877e60b4b27746_card.png",
+      "sha256": "82982e1669a6961208a9ce245b8fe37c59243f4dd14e2be52b4df61246ca9589"
+    }
+  },
+  {
+    "assessment_id": "ai_1f0068d969f8641f",
+    "pair": "generation",
+    "brief": "Autumn fashion still life showing a burnt-orange beret, chocolate-brown ankle boots and a folded oatmeal cardigan on a dark wooden bench with a few dry leaves, warm side light, clear product separation, no lettering.",
+    "criteria": [
+      "orange beret",
+      "brown ankle boots",
+      "oatmeal cardigan",
+      "dark wooden bench",
+      "dry leaves",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_1f0068d969f8641f_image.png",
+        "sha256": "95d223d60426c24b2b8e26ef45a1075bfd253228a23268b5e0edcc0ea9af000e"
+      }
+    },
+    "evidence_sha256": {
+      "image": "95d223d60426c24b2b8e26ef45a1075bfd253228a23268b5e0edcc0ea9af000e"
+    }
+  },
+  {
+    "assessment_id": "ai_172d49bdfc108d88",
+    "pair": "generation",
+    "brief": "Outdoor editorial portrait of an older adult with short grey hair wearing a plum wool coat and checked scarf in a quiet city garden, knee-up framing, overcast soft light, realistic skin and fabric texture, no text or branding.",
+    "criteria": [
+      "older adult",
+      "short grey hair",
+      "plum wool coat",
+      "checked scarf",
+      "city garden",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_172d49bdfc108d88_image.png",
+        "sha256": "03b161012f024fd341985e6941d5b8216e843de5a5797f64375e7630b97dc77e"
+      }
+    },
+    "evidence_sha256": {
+      "image": "03b161012f024fd341985e6941d5b8216e843de5a5797f64375e7630b97dc77e"
+    }
+  },
+  {
+    "assessment_id": "ai_787c85d349498413",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_787c85d349498413_input.png",
+        "sha256": "45e4cff2020e16efa1c3fd68ed13918e7f58d426966cc7073edf0db5711d482d"
+      },
+      "view_00": {
+        "path": "images/ai_787c85d349498413_view_00.png",
+        "sha256": "b8c8afb7300f6f6c792d6f99055b0ed7aae1a21b987a2e35194ff431a733c2e7"
+      },
+      "view_01": {
+        "path": "images/ai_787c85d349498413_view_01.png",
+        "sha256": "473d02431c9ec53061ad51166c7f8ba192f855a9b3a85b5f525439353f766b92"
+      },
+      "view_02": {
+        "path": "images/ai_787c85d349498413_view_02.png",
+        "sha256": "cb64eebf0fa716589dbc36ef61a1a02111a96ad8b8ba0ed3c84d1191d11de4b1"
+      },
+      "view_03": {
+        "path": "images/ai_787c85d349498413_view_03.png",
+        "sha256": "2c76fdd664830fa7e0546549acde809670fd734a0ae7c27f43e579a205dc4851"
+      }
+    },
+    "evidence_sha256": {
+      "input": "45e4cff2020e16efa1c3fd68ed13918e7f58d426966cc7073edf0db5711d482d",
+      "view_00": "b8c8afb7300f6f6c792d6f99055b0ed7aae1a21b987a2e35194ff431a733c2e7",
+      "view_01": "473d02431c9ec53061ad51166c7f8ba192f855a9b3a85b5f525439353f766b92",
+      "view_02": "cb64eebf0fa716589dbc36ef61a1a02111a96ad8b8ba0ed3c84d1191d11de4b1",
+      "view_03": "2c76fdd664830fa7e0546549acde809670fd734a0ae7c27f43e579a205dc4851"
+    },
+    "card_image": {
+      "path": "images/ai_787c85d349498413_card.png",
+      "sha256": "ec7e3e7f662069e1dbef93c8cfaba592b86c8d3412689ca3ab618913cf919909"
+    }
+  },
+  {
+    "assessment_id": "ai_079dbb5ccf8b5be8",
+    "pair": "generation",
+    "brief": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+    "criteria": [
+      "navy pinstripe blazer",
+      "white shirt",
+      "olive trousers",
+      "brown lace-up shoes",
+      "mustard umbrella in left hand",
+      "full body",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_079dbb5ccf8b5be8_image.png",
+        "sha256": "ed6c9976447b1b6c0d09fd176f015f0f3b3aaf08c955abae2275d24d05951086"
+      }
+    },
+    "evidence_sha256": {
+      "image": "ed6c9976447b1b6c0d09fd176f015f0f3b3aaf08c955abae2275d24d05951086"
+    }
+  },
+  {
+    "assessment_id": "ai_3b97e29220fd2a2f",
+    "pair": "generation",
+    "brief": "Premium product photograph of a pair of white low-top trainers with forest-green heel tabs and off-white rubber soles, viewed at a slight overhead angle against pale grey, crisp realistic stitching, no visible logos or words.",
+    "criteria": [
+      "pair of white low-top trainers",
+      "green heel tabs",
+      "off-white soles",
+      "grey background",
+      "no logos or words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_3b97e29220fd2a2f_image.png",
+        "sha256": "d78aa91f4362ae3fdf581a7b7c1c10471e8e1c3ede9d20f831af0dafb98aa0bc"
+      }
+    },
+    "evidence_sha256": {
+      "image": "d78aa91f4362ae3fdf581a7b7c1c10471e8e1c3ede9d20f831af0dafb98aa0bc"
+    }
+  },
+  {
+    "assessment_id": "ai_92f47c1163e3e4b9",
+    "pair": "generation",
+    "brief": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+    "criteria": [
+      "navy pinstripe blazer",
+      "white shirt",
+      "olive trousers",
+      "brown lace-up shoes",
+      "mustard umbrella in left hand",
+      "full body",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_92f47c1163e3e4b9_image.png",
+        "sha256": "6e4842004caddd4d05d2a524cb0f383458b5651497c9b219dbaf70395fcb6d3d"
+      }
+    },
+    "evidence_sha256": {
+      "image": "6e4842004caddd4d05d2a524cb0f383458b5651497c9b219dbaf70395fcb6d3d"
+    }
+  },
+  {
+    "assessment_id": "ai_d594db6559198ef0",
+    "pair": "generation",
+    "brief": "Studio editorial of two adult friends with different body sizes wearing monochrome black casual outfits and distinctive red crossbody bags, full body against pale blue, relaxed poses, both bags visible, no lettering.",
+    "criteria": [
+      "two adults",
+      "different body sizes",
+      "black outfits",
+      "two red crossbody bags",
+      "pale blue background",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_d594db6559198ef0_image.png",
+        "sha256": "dce6c449812e0823e01bc7e5277c54e857e47c6df2228405b5d8f647718dc474"
+      }
+    },
+    "evidence_sha256": {
+      "image": "dce6c449812e0823e01bc7e5277c54e857e47c6df2228405b5d8f647718dc474"
+    }
+  },
+  {
+    "assessment_id": "ai_48c38c5f48247946",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_48c38c5f48247946_input.png",
+        "sha256": "22de0a76335b0d0f0e25a8f4bc074341004e53c6aa4a6537c967f4ccd882e9d4"
+      },
+      "view_00": {
+        "path": "images/ai_48c38c5f48247946_view_00.png",
+        "sha256": "4d8be049f2a5008e13bda60bcc997a8cedb4de003cd9bede676fdf528b4214a5"
+      },
+      "view_01": {
+        "path": "images/ai_48c38c5f48247946_view_01.png",
+        "sha256": "96fa39430295e82624e989cfc4c1ebe088400bed896b70b9f50c3eeecc9186cf"
+      },
+      "view_02": {
+        "path": "images/ai_48c38c5f48247946_view_02.png",
+        "sha256": "5226ccdd76071f0155e3543665e3a92279fa4c1b174b39007fe251a703642af1"
+      },
+      "view_03": {
+        "path": "images/ai_48c38c5f48247946_view_03.png",
+        "sha256": "bd2cd8d29feddb409368b190e55dbfe8f7199b28126fff13993fc904f37311cc"
+      }
+    },
+    "evidence_sha256": {
+      "input": "22de0a76335b0d0f0e25a8f4bc074341004e53c6aa4a6537c967f4ccd882e9d4",
+      "view_00": "4d8be049f2a5008e13bda60bcc997a8cedb4de003cd9bede676fdf528b4214a5",
+      "view_01": "96fa39430295e82624e989cfc4c1ebe088400bed896b70b9f50c3eeecc9186cf",
+      "view_02": "5226ccdd76071f0155e3543665e3a92279fa4c1b174b39007fe251a703642af1",
+      "view_03": "bd2cd8d29feddb409368b190e55dbfe8f7199b28126fff13993fc904f37311cc"
+    },
+    "card_image": {
+      "path": "images/ai_48c38c5f48247946_card.png",
+      "sha256": "8518b76a962f832f90dc977e08d700c8e0c0bc54c7904d3047f366448595ed53"
+    }
+  },
+  {
+    "assessment_id": "ai_b4de581b5f2a235b",
+    "pair": "generation",
+    "brief": "Street-style editorial of an adult man in a cream linen shirt, navy wide-leg trousers and tan sandals walking along a sunlit stone arcade, full-body view, candid movement, realistic clothing folds, no lettering.",
+    "criteria": [
+      "adult man",
+      "cream linen shirt",
+      "navy wide-leg trousers",
+      "tan sandals",
+      "stone arcade",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_b4de581b5f2a235b_image.png",
+        "sha256": "89e06c247b05fb39f702acd8ff71b27c79fab80d0528e0befc8e9f46771e7d13"
+      }
+    },
+    "evidence_sha256": {
+      "image": "89e06c247b05fb39f702acd8ff71b27c79fab80d0528e0befc8e9f46771e7d13"
+    }
+  },
+  {
+    "assessment_id": "ai_01497cd07cff42e2",
+    "pair": "generation",
+    "brief": "Overhead product photograph of tortoiseshell sunglasses with dark brown lenses and a folded cream cotton pouch on sand-coloured paper, balanced symmetrical composition, realistic materials, no printed branding.",
+    "criteria": [
+      "tortoiseshell sunglasses",
+      "brown lenses",
+      "cream pouch",
+      "overhead view",
+      "sand-coloured paper",
+      "no branding"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_01497cd07cff42e2_image.png",
+        "sha256": "ebf7f6b0789529f1a87db9904322e64cec041b6723cc05d92bd3d8efc1e0c8c8"
+      }
+    },
+    "evidence_sha256": {
+      "image": "ebf7f6b0789529f1a87db9904322e64cec041b6723cc05d92bd3d8efc1e0c8c8"
+    }
+  },
+  {
+    "assessment_id": "ai_d5a5f381bfa841a5",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_d5a5f381bfa841a5_input.png",
+        "sha256": "129f04c7b37182217606ccb3bab1de127e8d8dc590b59d47432908d747ac200b"
+      },
+      "view_00": {
+        "path": "images/ai_d5a5f381bfa841a5_view_00.png",
+        "sha256": "1ed9112842b38cb2f7cf461bdf19f83ab97f21af92fdb1ae4ec19e9bf5ecef67"
+      },
+      "view_01": {
+        "path": "images/ai_d5a5f381bfa841a5_view_01.png",
+        "sha256": "e6bd1483a42d8fa992775d0cad029e4838bd261fb5cc472984c0bdd3b43dcd1c"
+      },
+      "view_02": {
+        "path": "images/ai_d5a5f381bfa841a5_view_02.png",
+        "sha256": "7863fed3fb6b5368e8a7434157a8de17a6e3641c62359daf5dc91b6994299522"
+      },
+      "view_03": {
+        "path": "images/ai_d5a5f381bfa841a5_view_03.png",
+        "sha256": "40812f4e3d1ad5b57c35a4a64c64a6376de6bce2cb0e3f7b57d1f6a25130ab85"
+      }
+    },
+    "evidence_sha256": {
+      "input": "129f04c7b37182217606ccb3bab1de127e8d8dc590b59d47432908d747ac200b",
+      "view_00": "1ed9112842b38cb2f7cf461bdf19f83ab97f21af92fdb1ae4ec19e9bf5ecef67",
+      "view_01": "e6bd1483a42d8fa992775d0cad029e4838bd261fb5cc472984c0bdd3b43dcd1c",
+      "view_02": "7863fed3fb6b5368e8a7434157a8de17a6e3641c62359daf5dc91b6994299522",
+      "view_03": "40812f4e3d1ad5b57c35a4a64c64a6376de6bce2cb0e3f7b57d1f6a25130ab85"
+    },
+    "card_image": {
+      "path": "images/ai_d5a5f381bfa841a5_card.png",
+      "sha256": "a96497a4184857eec6a8c917f53e228754e21a67f50d1e6c6e97e49334064efb"
+    }
+  },
+  {
+    "assessment_id": "ai_bb8d1e0813d32724",
+    "pair": "generation",
+    "brief": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+    "criteria": [
+      "one burgundy handbag",
+      "brass clasp",
+      "short top handle",
+      "ivory plinth",
+      "empty space above",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_bb8d1e0813d32724_image.png",
+        "sha256": "5eb503007852036491a6ea09fc4e12267bde11a2098ce86c63be57806742c722"
+      }
+    },
+    "evidence_sha256": {
+      "image": "5eb503007852036491a6ea09fc4e12267bde11a2098ce86c63be57806742c722"
+    }
+  },
+  {
+    "assessment_id": "ai_2b8408cbc3d069eb",
+    "pair": "generation",
+    "brief": "Fashion campaign with two adult models side by side: left model in a coral jacket and cream trousers, right model in a cream jacket and coral trousers, both wearing plain white shoes, full body, symmetrical pale-blue studio setting, no lettering.",
+    "criteria": [
+      "two adult models",
+      "coral jacket left",
+      "cream trousers left",
+      "cream jacket right",
+      "coral trousers right",
+      "white shoes",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_2b8408cbc3d069eb_image.png",
+        "sha256": "f01af0a281020e52f1ac49c9961e99c655485e6d6bb1a48280148bad8cc2d208"
+      }
+    },
+    "evidence_sha256": {
+      "image": "f01af0a281020e52f1ac49c9961e99c655485e6d6bb1a48280148bad8cc2d208"
+    }
+  },
+  {
+    "assessment_id": "ai_27558730518e095b",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_27558730518e095b_input.png",
+        "sha256": "a4c9ce67c36256dd0a5c027ebe36f706a8d9a34a71da7e473000070080900951"
+      },
+      "view_00": {
+        "path": "images/ai_27558730518e095b_view_00.png",
+        "sha256": "ef2a380b2d21debcc9b9cd7ff613c5997581d81e2cab57bdf5ea4cea7afe3a47"
+      },
+      "view_01": {
+        "path": "images/ai_27558730518e095b_view_01.png",
+        "sha256": "0b2140c6a5d1468a9ade559d5b70561ca10766e32f21ca689ca75431790c7574"
+      },
+      "view_02": {
+        "path": "images/ai_27558730518e095b_view_02.png",
+        "sha256": "8a993eaf228f8867e341ef2bd12f115eb209c934e94d9d6cf867468f0ba39c11"
+      },
+      "view_03": {
+        "path": "images/ai_27558730518e095b_view_03.png",
+        "sha256": "e8d2dde90aa50374a589f72dbe2967c3a0bd79b5593179ef15e362c44770cc35"
+      }
+    },
+    "evidence_sha256": {
+      "input": "a4c9ce67c36256dd0a5c027ebe36f706a8d9a34a71da7e473000070080900951",
+      "view_00": "ef2a380b2d21debcc9b9cd7ff613c5997581d81e2cab57bdf5ea4cea7afe3a47",
+      "view_01": "0b2140c6a5d1468a9ade559d5b70561ca10766e32f21ca689ca75431790c7574",
+      "view_02": "8a993eaf228f8867e341ef2bd12f115eb209c934e94d9d6cf867468f0ba39c11",
+      "view_03": "e8d2dde90aa50374a589f72dbe2967c3a0bd79b5593179ef15e362c44770cc35"
+    },
+    "card_image": {
+      "path": "images/ai_27558730518e095b_card.png",
+      "sha256": "aa7f4465d6b2d5b6934cb4dfc29998cb8750d25cfa6631d4301a571f4fade46e"
+    }
+  },
+  {
+    "assessment_id": "ai_05a7d50be8964757",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_05a7d50be8964757_input.png",
+        "sha256": "45a6ad5bf9b55a7b6e0cd65deedd942362c75784c92d5c405e452b9cf5ae982a"
+      },
+      "view_00": {
+        "path": "images/ai_05a7d50be8964757_view_00.png",
+        "sha256": "8b65847019759aa2136500dd38119249602cacc097a4a101d5cdf107a3c2ffd4"
+      },
+      "view_01": {
+        "path": "images/ai_05a7d50be8964757_view_01.png",
+        "sha256": "46fd8a4da343a4d53589ac5e1f223b74f0982f910a0bf2fc70f260a8586fc296"
+      },
+      "view_02": {
+        "path": "images/ai_05a7d50be8964757_view_02.png",
+        "sha256": "6aca65f15705529743943b1a759e321414534a41166dedf4f89ffdb174989fd9"
+      },
+      "view_03": {
+        "path": "images/ai_05a7d50be8964757_view_03.png",
+        "sha256": "b194500ea06806eb498836630a4969af963571df9d3597a5c1f8164b04cd0284"
+      }
+    },
+    "evidence_sha256": {
+      "input": "45a6ad5bf9b55a7b6e0cd65deedd942362c75784c92d5c405e452b9cf5ae982a",
+      "view_00": "8b65847019759aa2136500dd38119249602cacc097a4a101d5cdf107a3c2ffd4",
+      "view_01": "46fd8a4da343a4d53589ac5e1f223b74f0982f910a0bf2fc70f260a8586fc296",
+      "view_02": "6aca65f15705529743943b1a759e321414534a41166dedf4f89ffdb174989fd9",
+      "view_03": "b194500ea06806eb498836630a4969af963571df9d3597a5c1f8164b04cd0284"
+    },
+    "card_image": {
+      "path": "images/ai_05a7d50be8964757_card.png",
+      "sha256": "b3182f147bb36305680e1aa6aba637b90d93dbad8d3659d95624b4e1a50e7d3b"
+    }
+  },
+  {
+    "assessment_id": "ai_923b1f725d70e88d",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_923b1f725d70e88d_input.png",
+        "sha256": "45a6ad5bf9b55a7b6e0cd65deedd942362c75784c92d5c405e452b9cf5ae982a"
+      },
+      "view_00": {
+        "path": "images/ai_923b1f725d70e88d_view_00.png",
+        "sha256": "0722a72c634bd6f06a8a7352e1dbc304d5a37f3724577ebc3e4280e6ab6b26d0"
+      },
+      "view_01": {
+        "path": "images/ai_923b1f725d70e88d_view_01.png",
+        "sha256": "a6d1048354528cc11c65efd9f7d1a3f4c3d37626d42b72727a7403bc6acd947a"
+      },
+      "view_02": {
+        "path": "images/ai_923b1f725d70e88d_view_02.png",
+        "sha256": "f80649c7babf58ca766ad95bc83e86c6fa7b74838db7cbfb5a1eb1e44e0d2b3f"
+      },
+      "view_03": {
+        "path": "images/ai_923b1f725d70e88d_view_03.png",
+        "sha256": "3a71f475052847d7aa13a5a7075fdd0aa7a83d1ebaed47bcdc9cfc51d02999f5"
+      }
+    },
+    "evidence_sha256": {
+      "input": "45a6ad5bf9b55a7b6e0cd65deedd942362c75784c92d5c405e452b9cf5ae982a",
+      "view_00": "0722a72c634bd6f06a8a7352e1dbc304d5a37f3724577ebc3e4280e6ab6b26d0",
+      "view_01": "a6d1048354528cc11c65efd9f7d1a3f4c3d37626d42b72727a7403bc6acd947a",
+      "view_02": "f80649c7babf58ca766ad95bc83e86c6fa7b74838db7cbfb5a1eb1e44e0d2b3f",
+      "view_03": "3a71f475052847d7aa13a5a7075fdd0aa7a83d1ebaed47bcdc9cfc51d02999f5"
+    },
+    "card_image": {
+      "path": "images/ai_923b1f725d70e88d_card.png",
+      "sha256": "8e18528a1a9753d93aa053f213857eef44a4d1badd0da30e5d0b9083da027124"
+    }
+  },
+  {
+    "assessment_id": "ai_3a76a7fe4e7a8183",
+    "pair": "generation",
+    "brief": "Autumn fashion still life showing a burnt-orange beret, chocolate-brown ankle boots and a folded oatmeal cardigan on a dark wooden bench with a few dry leaves, warm side light, clear product separation, no lettering.",
+    "criteria": [
+      "orange beret",
+      "brown ankle boots",
+      "oatmeal cardigan",
+      "dark wooden bench",
+      "dry leaves",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_3a76a7fe4e7a8183_image.png",
+        "sha256": "303ecd4ab2fcd31d899a7269382a7491ba92159d8180d5b761240d2f0056a3bd"
+      }
+    },
+    "evidence_sha256": {
+      "image": "303ecd4ab2fcd31d899a7269382a7491ba92159d8180d5b761240d2f0056a3bd"
+    }
+  },
+  {
+    "assessment_id": "ai_0f288ee8da82ec8f",
+    "pair": "generation",
+    "brief": "Two structured handbags on separate circular plinths: a small red bag with silver clasp on the left and a larger black bag with gold clasp on the right, matching three-quarter angles, neutral grey background, no text.",
+    "criteria": [
+      "two handbags",
+      "small red bag left",
+      "silver clasp left",
+      "larger black bag right",
+      "gold clasp right",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_0f288ee8da82ec8f_image.png",
+        "sha256": "c57b18dcf1a8b043ea3f2c9bbe8941daef2891f1650353301ea074464d296e1b"
+      }
+    },
+    "evidence_sha256": {
+      "image": "c57b18dcf1a8b043ea3f2c9bbe8941daef2891f1650353301ea074464d296e1b"
+    }
+  },
+  {
+    "assessment_id": "ai_e034ce325ea3ea18",
+    "pair": "generation",
+    "brief": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+    "criteria": [
+      "exactly three gold rings",
+      "plain band left",
+      "twisted band middle",
+      "one green stone right",
+      "horizontal row",
+      "lavender stone",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_e034ce325ea3ea18_image.png",
+        "sha256": "14c74a7da45e1fc1ee1e38cea65e9cf34b9d98ce832925a2ff32bc68e0c9dcae"
+      }
+    },
+    "evidence_sha256": {
+      "image": "14c74a7da45e1fc1ee1e38cea65e9cf34b9d98ce832925a2ff32bc68e0c9dcae"
+    }
+  },
+  {
+    "assessment_id": "ai_741d52f78bdafc32",
+    "pair": "generation",
+    "brief": "Evening fashion editorial of an adult with medium-brown skin wearing a flowing emerald midi dress and silver flats on a softly lit rooftop terrace, full body, modest neckline, natural hands, city lights in background, no text.",
+    "criteria": [
+      "adult with medium-brown skin",
+      "emerald midi dress",
+      "silver flats",
+      "modest neckline",
+      "rooftop terrace",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_741d52f78bdafc32_image.png",
+        "sha256": "0889a8e938df1d41803ba7f7dfa2851f78a7128418e905f4437cf725210af0ac"
+      }
+    },
+    "evidence_sha256": {
+      "image": "0889a8e938df1d41803ba7f7dfa2851f78a7128418e905f4437cf725210af0ac"
+    }
+  },
+  {
+    "assessment_id": "ai_c88c29d1c3338603",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_c88c29d1c3338603_input.png",
+        "sha256": "681098039eb350fc5158215c21b86f49904ded174d3fa22e20600d959be1018f"
+      },
+      "view_00": {
+        "path": "images/ai_c88c29d1c3338603_view_00.png",
+        "sha256": "962bcd5372c29f8b02ea8f4978b24094c6002271ff5db6ac57e0d3779ae60dbc"
+      },
+      "view_01": {
+        "path": "images/ai_c88c29d1c3338603_view_01.png",
+        "sha256": "fd680a61d6af0e9525ab8f556971fe5f36361a566b48342f74d491df1518a228"
+      },
+      "view_02": {
+        "path": "images/ai_c88c29d1c3338603_view_02.png",
+        "sha256": "8e349d9636add1777908aa419e93529ce45e3f4d7aaadce1efcfeef1c6b1d039"
+      },
+      "view_03": {
+        "path": "images/ai_c88c29d1c3338603_view_03.png",
+        "sha256": "4e7b9ca1249423a20807639eb8856844290611f35e7b59e8693d462bdb361bea"
+      }
+    },
+    "evidence_sha256": {
+      "input": "681098039eb350fc5158215c21b86f49904ded174d3fa22e20600d959be1018f",
+      "view_00": "962bcd5372c29f8b02ea8f4978b24094c6002271ff5db6ac57e0d3779ae60dbc",
+      "view_01": "fd680a61d6af0e9525ab8f556971fe5f36361a566b48342f74d491df1518a228",
+      "view_02": "8e349d9636add1777908aa419e93529ce45e3f4d7aaadce1efcfeef1c6b1d039",
+      "view_03": "4e7b9ca1249423a20807639eb8856844290611f35e7b59e8693d462bdb361bea"
+    },
+    "card_image": {
+      "path": "images/ai_c88c29d1c3338603_card.png",
+      "sha256": "21f402b06effd5a00da4beccdfe753642717458daddbe86fd3e0589b135d2c6f"
+    }
+  },
+  {
+    "assessment_id": "ai_4c2667d0ca856527",
+    "pair": "generation",
+    "brief": "Minimal display of a black backpack with two visible front pockets, a silver zipper and one orange pull tab, standing beside a transparent water bottle on a white cube, pale green backdrop, no people, no logos and no text.",
+    "criteria": [
+      "black backpack",
+      "two front pockets",
+      "silver zipper",
+      "orange pull tab",
+      "transparent bottle",
+      "white cube",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_4c2667d0ca856527_image.png",
+        "sha256": "5867344dfe5a46568b3699dc6b3453cc752d3dcd1b0898b9146b4362f6ed1964"
+      }
+    },
+    "evidence_sha256": {
+      "image": "5867344dfe5a46568b3699dc6b3453cc752d3dcd1b0898b9146b4362f6ed1964"
+    }
+  },
+  {
+    "assessment_id": "ai_4faaec15ec4e8a25",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_4faaec15ec4e8a25_input.png",
+        "sha256": "9b3efa709e0cccfb041978beed586943bc3531a541248efa93f8d00865caaa89"
+      },
+      "view_00": {
+        "path": "images/ai_4faaec15ec4e8a25_view_00.png",
+        "sha256": "fca5f611ddc5122ccdebc50ed1ca71630c2d46a8924ebec22e56033b251dda7c"
+      },
+      "view_01": {
+        "path": "images/ai_4faaec15ec4e8a25_view_01.png",
+        "sha256": "4d7bff7fe0e2f5a91a3646c08259f28b9274462aaa831875e17c439553b90727"
+      },
+      "view_02": {
+        "path": "images/ai_4faaec15ec4e8a25_view_02.png",
+        "sha256": "785cd81f118d0c7e94e407cfd77afb0ebc104f2350f05f7d66d52092fe845e12"
+      },
+      "view_03": {
+        "path": "images/ai_4faaec15ec4e8a25_view_03.png",
+        "sha256": "8d8ceaddcd0c1ab774b75723077763052f0edf4bdc691916d6c80c4fd29b9ea2"
+      }
+    },
+    "evidence_sha256": {
+      "input": "9b3efa709e0cccfb041978beed586943bc3531a541248efa93f8d00865caaa89",
+      "view_00": "fca5f611ddc5122ccdebc50ed1ca71630c2d46a8924ebec22e56033b251dda7c",
+      "view_01": "4d7bff7fe0e2f5a91a3646c08259f28b9274462aaa831875e17c439553b90727",
+      "view_02": "785cd81f118d0c7e94e407cfd77afb0ebc104f2350f05f7d66d52092fe845e12",
+      "view_03": "8d8ceaddcd0c1ab774b75723077763052f0edf4bdc691916d6c80c4fd29b9ea2"
+    },
+    "card_image": {
+      "path": "images/ai_4faaec15ec4e8a25_card.png",
+      "sha256": "424949db044fa9c20ed0e426ed6b84ddbacde1616b93ebc360f9d3c7e552e125"
+    }
+  },
+  {
+    "assessment_id": "ai_a2643ea41c1fa716",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_a2643ea41c1fa716_input.png",
+        "sha256": "f5889087f77601a2e3c79f36039339e6e9d9c300d42709fa0cfc9b89ec2f54db"
+      },
+      "view_00": {
+        "path": "images/ai_a2643ea41c1fa716_view_00.png",
+        "sha256": "da18b480eb24d69594a309e71e9289c57ab7a98922119ef25cbf8c5b21b28bea"
+      },
+      "view_01": {
+        "path": "images/ai_a2643ea41c1fa716_view_01.png",
+        "sha256": "6f5563a2ceb4428a1e7eb253c6af50449a486d68d17850506312af91b44e6054"
+      },
+      "view_02": {
+        "path": "images/ai_a2643ea41c1fa716_view_02.png",
+        "sha256": "0154927f00fb6cd594805760defb52c8d3dc40f268866c1ce4fff14739d734f3"
+      },
+      "view_03": {
+        "path": "images/ai_a2643ea41c1fa716_view_03.png",
+        "sha256": "d65084afc967b7e60c38a0a45421d1f30e5350ac24a2285a262eb8e7425c6a7d"
+      }
+    },
+    "evidence_sha256": {
+      "input": "f5889087f77601a2e3c79f36039339e6e9d9c300d42709fa0cfc9b89ec2f54db",
+      "view_00": "da18b480eb24d69594a309e71e9289c57ab7a98922119ef25cbf8c5b21b28bea",
+      "view_01": "6f5563a2ceb4428a1e7eb253c6af50449a486d68d17850506312af91b44e6054",
+      "view_02": "0154927f00fb6cd594805760defb52c8d3dc40f268866c1ce4fff14739d734f3",
+      "view_03": "d65084afc967b7e60c38a0a45421d1f30e5350ac24a2285a262eb8e7425c6a7d"
+    },
+    "card_image": {
+      "path": "images/ai_a2643ea41c1fa716_card.png",
+      "sha256": "ff7b5d81fd1a32112eb750cb3ae55ba39689419d78b357a26df58bceaf8e4c3d"
+    }
+  },
+  {
+    "assessment_id": "ai_be2c36bd9fd00828",
+    "pair": "generation",
+    "brief": "Accessible fashion editorial featuring an adult wheelchair user in a rust-coloured trench coat, dark jeans and white trainers in an airy railway concourse, complete wheelchair visible, natural seated pose, respectful confident portrait, no text.",
+    "criteria": [
+      "adult wheelchair user",
+      "rust trench coat",
+      "dark jeans",
+      "white trainers",
+      "complete wheelchair",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_be2c36bd9fd00828_image.png",
+        "sha256": "aea4a02ffde47a3779d75953dc3fec64517c8622b4101ca8bd5df316422b6d77"
+      }
+    },
+    "evidence_sha256": {
+      "image": "aea4a02ffde47a3779d75953dc3fec64517c8622b4101ca8bd5df316422b6d77"
+    }
+  },
+  {
+    "assessment_id": "ai_a583eb93f37f6ef1",
+    "pair": "generation",
+    "brief": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+    "criteria": [
+      "one burgundy handbag",
+      "brass clasp",
+      "short top handle",
+      "ivory plinth",
+      "empty space above",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_a583eb93f37f6ef1_image.png",
+        "sha256": "6234a2c2a278991eea0f8ac91b2b2e3a4eee56ce396e2ed2bef9d45b47af4ec7"
+      }
+    },
+    "evidence_sha256": {
+      "image": "6234a2c2a278991eea0f8ac91b2b2e3a4eee56ce396e2ed2bef9d45b47af4ec7"
+    }
+  },
+  {
+    "assessment_id": "ai_2f321d6ec5647638",
+    "pair": "generation",
+    "brief": "Minimal display of a black backpack with two visible front pockets, a silver zipper and one orange pull tab, standing beside a transparent water bottle on a white cube, pale green backdrop, no people, no logos and no text.",
+    "criteria": [
+      "black backpack",
+      "two front pockets",
+      "silver zipper",
+      "orange pull tab",
+      "transparent bottle",
+      "white cube",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_2f321d6ec5647638_image.png",
+        "sha256": "f23c85165e4ca9cb7e50dcea264531f96ec986408415f2e8e172a559bd93efa5"
+      }
+    },
+    "evidence_sha256": {
+      "image": "f23c85165e4ca9cb7e50dcea264531f96ec986408415f2e8e172a559bd93efa5"
+    }
+  },
+  {
+    "assessment_id": "ai_da53765f0253836f",
+    "pair": "generation",
+    "brief": "Premium product photograph of a pair of white low-top trainers with forest-green heel tabs and off-white rubber soles, viewed at a slight overhead angle against pale grey, crisp realistic stitching, no visible logos or words.",
+    "criteria": [
+      "pair of white low-top trainers",
+      "green heel tabs",
+      "off-white soles",
+      "grey background",
+      "no logos or words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_da53765f0253836f_image.png",
+        "sha256": "a7945eb0baccf8d68c5ba099d93f3e722e162e06c271f1720c82f0e135decc43"
+      }
+    },
+    "evidence_sha256": {
+      "image": "a7945eb0baccf8d68c5ba099d93f3e722e162e06c271f1720c82f0e135decc43"
+    }
+  },
+  {
+    "assessment_id": "ai_9a386381fa7bfcb7",
+    "pair": "generation",
+    "brief": "Single cobalt-blue ankle boot with square toe and low block heel on a pale peach seamless studio background, side profile, suede texture, sharp product outline, no other products and no text.",
+    "criteria": [
+      "single cobalt-blue boot",
+      "square toe",
+      "low block heel",
+      "suede texture",
+      "peach background",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_9a386381fa7bfcb7_image.png",
+        "sha256": "474403a520857a60ddb1e41cd23467849c982c09a863e85804b6e9d5e5066833"
+      }
+    },
+    "evidence_sha256": {
+      "image": "474403a520857a60ddb1e41cd23467849c982c09a863e85804b6e9d5e5066833"
+    }
+  },
+  {
+    "assessment_id": "ai_99679b6897d30b17",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_99679b6897d30b17_input.png",
+        "sha256": "b95c8d7bde9d406cf544bdf3fa40a8275c96b4ae48db9dd9d8e487e543b73fcf"
+      },
+      "view_00": {
+        "path": "images/ai_99679b6897d30b17_view_00.png",
+        "sha256": "8f75ad06ba74d237db45d78d6f2d120829c54cc7dd53c8a9904280baa9a8d54b"
+      },
+      "view_01": {
+        "path": "images/ai_99679b6897d30b17_view_01.png",
+        "sha256": "49816c2a18e7f0185586f5458240f781d40605a2f87210497b027e7acc995223"
+      },
+      "view_02": {
+        "path": "images/ai_99679b6897d30b17_view_02.png",
+        "sha256": "37494ba737b42d6a5cf88fada717f3283112ce2eae9c47d658b63c5c100cc86c"
+      },
+      "view_03": {
+        "path": "images/ai_99679b6897d30b17_view_03.png",
+        "sha256": "3fa11f194a84420b78105a93da5067a3e808fbc777344aa9a8ad14ac21578bd9"
+      }
+    },
+    "evidence_sha256": {
+      "input": "b95c8d7bde9d406cf544bdf3fa40a8275c96b4ae48db9dd9d8e487e543b73fcf",
+      "view_00": "8f75ad06ba74d237db45d78d6f2d120829c54cc7dd53c8a9904280baa9a8d54b",
+      "view_01": "49816c2a18e7f0185586f5458240f781d40605a2f87210497b027e7acc995223",
+      "view_02": "37494ba737b42d6a5cf88fada717f3283112ce2eae9c47d658b63c5c100cc86c",
+      "view_03": "3fa11f194a84420b78105a93da5067a3e808fbc777344aa9a8ad14ac21578bd9"
+    },
+    "card_image": {
+      "path": "images/ai_99679b6897d30b17_card.png",
+      "sha256": "7e86f744f29f242d70897f6b037180af64cbf061b5820b2a13176950e21a92cb"
+    }
+  },
+  {
+    "assessment_id": "ai_1d07b249989f8cda",
+    "pair": "generation",
+    "brief": "Two structured handbags on separate circular plinths: a small red bag with silver clasp on the left and a larger black bag with gold clasp on the right, matching three-quarter angles, neutral grey background, no text.",
+    "criteria": [
+      "two handbags",
+      "small red bag left",
+      "silver clasp left",
+      "larger black bag right",
+      "gold clasp right",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_1d07b249989f8cda_image.png",
+        "sha256": "f29d5754308a647d32a9856e6e0ba29a1fed1cd3cd3fb8a4c0ee92d63e52ef06"
+      }
+    },
+    "evidence_sha256": {
+      "image": "f29d5754308a647d32a9856e6e0ba29a1fed1cd3cd3fb8a4c0ee92d63e52ef06"
+    }
+  },
+  {
+    "assessment_id": "ai_e4d89c50f7723815",
+    "pair": "generation",
+    "brief": "Street-style editorial of an adult man in a cream linen shirt, navy wide-leg trousers and tan sandals walking along a sunlit stone arcade, full-body view, candid movement, realistic clothing folds, no lettering.",
+    "criteria": [
+      "adult man",
+      "cream linen shirt",
+      "navy wide-leg trousers",
+      "tan sandals",
+      "stone arcade",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_e4d89c50f7723815_image.png",
+        "sha256": "90609eea25833540dc13e513e873a9f08e57743e017d1d2d23951ccc7cbbaca1"
+      }
+    },
+    "evidence_sha256": {
+      "image": "90609eea25833540dc13e513e873a9f08e57743e017d1d2d23951ccc7cbbaca1"
+    }
+  },
+  {
+    "assessment_id": "ai_9d56bfd9f66b1751",
+    "pair": "generation",
+    "brief": "Rainy-season campaign featuring one pair of glossy red rain boots and a closed navy umbrella on wet grey paving, subtle reflections, light rain in background, products fully visible, no people and no words.",
+    "criteria": [
+      "pair of red rain boots",
+      "closed navy umbrella",
+      "wet grey paving",
+      "reflections",
+      "fully visible products",
+      "no words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_9d56bfd9f66b1751_image.png",
+        "sha256": "147bb477103f099d094a6f3ce6b742ce741b37b4ead2ca741135bdfe68cc62fe"
+      }
+    },
+    "evidence_sha256": {
+      "image": "147bb477103f099d094a6f3ce6b742ce741b37b4ead2ca741135bdfe68cc62fe"
+    }
+  },
+  {
+    "assessment_id": "ai_0d633615cd8305f2",
+    "pair": "generation",
+    "brief": "Spring accessories campaign: a pale-yellow bucket hat and lavender canvas tote beside fresh white daisies on a mint studio floor, soft morning light, cheerful restrained palette, only two fashion products, no text.",
+    "criteria": [
+      "yellow bucket hat",
+      "lavender canvas tote",
+      "white daisies",
+      "mint floor",
+      "two fashion products",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_0d633615cd8305f2_image.png",
+        "sha256": "4a49a4fc27a84091a242f2966fe27f7957ef5a6130e1c773ce9f426f14ac98de"
+      }
+    },
+    "evidence_sha256": {
+      "image": "4a49a4fc27a84091a242f2966fe27f7957ef5a6130e1c773ce9f426f14ac98de"
+    }
+  },
+  {
+    "assessment_id": "ai_b3619dedb825c082",
+    "pair": "generation",
+    "brief": "Minimal jewellery campaign showing one silver geometric pendant on a fine silver chain, laid in a loose curve over matte charcoal stone, close-up lighting with controlled highlights, no gemstones and no text.",
+    "criteria": [
+      "one silver geometric pendant",
+      "fine silver chain",
+      "charcoal stone",
+      "no gemstones",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_b3619dedb825c082_image.png",
+        "sha256": "950e064db551e9610face5cda250572ab774c3863666785ac992b94d5e855430"
+      }
+    },
+    "evidence_sha256": {
+      "image": "950e064db551e9610face5cda250572ab774c3863666785ac992b94d5e855430"
+    }
+  },
+  {
+    "assessment_id": "ai_6ed16a56c247405f",
+    "pair": "generation",
+    "brief": "Fashion editorial of an adult woman wearing a teal tailored trouser suit and flat black loafers in a bright modern gallery, full body, relaxed standing pose, natural proportions, artworks softly blurred, no logos and no text.",
+    "criteria": [
+      "adult woman",
+      "teal trouser suit",
+      "black flat loafers",
+      "gallery",
+      "full body",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_6ed16a56c247405f_image.png",
+        "sha256": "30f44b6483018e142287588de7f98f84e0564ad2a51c0a73c0a0144429b055a6"
+      }
+    },
+    "evidence_sha256": {
+      "image": "30f44b6483018e142287588de7f98f84e0564ad2a51c0a73c0a0144429b055a6"
+    }
+  },
+  {
+    "assessment_id": "ai_58f365408e47307a",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_58f365408e47307a_input.png",
+        "sha256": "7b42c9207de8415e3d0fe4210569efcef70f82438b490b1b88f2eab81a803424"
+      },
+      "view_00": {
+        "path": "images/ai_58f365408e47307a_view_00.png",
+        "sha256": "d1ca3cf5d95999afccd7b71763c06be1bc417163d3650a92635bc88aef31c6bd"
+      },
+      "view_01": {
+        "path": "images/ai_58f365408e47307a_view_01.png",
+        "sha256": "0c58a1effdaa955309c4310904733293b8f051de79c4c6e8c3fcf0816c095248"
+      },
+      "view_02": {
+        "path": "images/ai_58f365408e47307a_view_02.png",
+        "sha256": "2da5a3ff83de9f8c861ede9ead921bb5bd2f84c6d372eb0f7aaae65ddce2c9c6"
+      },
+      "view_03": {
+        "path": "images/ai_58f365408e47307a_view_03.png",
+        "sha256": "96baea799a4826820a9992135afaddffc01900ec3efda07566e0ab57f6d79b41"
+      }
+    },
+    "evidence_sha256": {
+      "input": "7b42c9207de8415e3d0fe4210569efcef70f82438b490b1b88f2eab81a803424",
+      "view_00": "d1ca3cf5d95999afccd7b71763c06be1bc417163d3650a92635bc88aef31c6bd",
+      "view_01": "0c58a1effdaa955309c4310904733293b8f051de79c4c6e8c3fcf0816c095248",
+      "view_02": "2da5a3ff83de9f8c861ede9ead921bb5bd2f84c6d372eb0f7aaae65ddce2c9c6",
+      "view_03": "96baea799a4826820a9992135afaddffc01900ec3efda07566e0ab57f6d79b41"
+    },
+    "card_image": {
+      "path": "images/ai_58f365408e47307a_card.png",
+      "sha256": "dc93c17ce6e09b441ec0d64e480f4acbd0702e531447418f64101fd53b49eba1"
+    }
+  },
+  {
+    "assessment_id": "ai_6994c1419042423b",
+    "pair": "generation",
+    "brief": "Summer holiday product campaign with tan woven sandals and a straw shoulder bag beside a rolled cream beach towel on clean pale sand, blue sea blurred behind, no people, no logos or words.",
+    "criteria": [
+      "tan woven sandals",
+      "straw shoulder bag",
+      "cream towel",
+      "pale sand",
+      "sea background",
+      "no people or words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_6994c1419042423b_image.png",
+        "sha256": "5e73479969ef21fa08da5c3470fd9993d8d89bbbea1da294fd336f94da862837"
+      }
+    },
+    "evidence_sha256": {
+      "image": "5e73479969ef21fa08da5c3470fd9993d8d89bbbea1da294fd336f94da862837"
+    }
+  },
+  {
+    "assessment_id": "ai_60edde9a542da1a2",
+    "pair": "generation",
+    "brief": "Studio editorial of two adult friends with different body sizes wearing monochrome black casual outfits and distinctive red crossbody bags, full body against pale blue, relaxed poses, both bags visible, no lettering.",
+    "criteria": [
+      "two adults",
+      "different body sizes",
+      "black outfits",
+      "two red crossbody bags",
+      "pale blue background",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_60edde9a542da1a2_image.png",
+        "sha256": "851b99169049fe852a33f29658f961ed8ac54c9920ca42070e3f4c527b81e423"
+      }
+    },
+    "evidence_sha256": {
+      "image": "851b99169049fe852a33f29658f961ed8ac54c9920ca42070e3f4c527b81e423"
+    }
+  },
+  {
+    "assessment_id": "ai_ad90b4bf5fecbc23",
+    "pair": "generation",
+    "brief": "Festive evening accessories display: a small silver clutch and black velvet bow hair clip on deep-green satin with soft warm lights behind, restrained elegant composition, no gift boxes, no brand marks and no text.",
+    "criteria": [
+      "silver clutch",
+      "black velvet bow clip",
+      "deep-green satin",
+      "warm lights",
+      "no gift boxes",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_ad90b4bf5fecbc23_image.png",
+        "sha256": "079e92df373ba369bed330a4b59f69f5f3ff12c47625b5d0aeba988463c319b6"
+      }
+    },
+    "evidence_sha256": {
+      "image": "079e92df373ba369bed330a4b59f69f5f3ff12c47625b5d0aeba988463c319b6"
+    }
+  },
+  {
+    "assessment_id": "ai_cb0553693665c354",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_cb0553693665c354_input.png",
+        "sha256": "3736b7acf53105e8b42eb31f33c8e32d2b35fa9b5d03e256a8578fb998dc9a2f"
+      },
+      "view_00": {
+        "path": "images/ai_cb0553693665c354_view_00.png",
+        "sha256": "c6f5d88182e23ffe76acc8512078096940a707e5dd43349ed05ad5db8ab5d731"
+      },
+      "view_01": {
+        "path": "images/ai_cb0553693665c354_view_01.png",
+        "sha256": "5f8484b2c9e79ab6c51ce2b9ec82a06eb174d1a48ab1cbd590cfcfbb0f42539b"
+      },
+      "view_02": {
+        "path": "images/ai_cb0553693665c354_view_02.png",
+        "sha256": "d7fc1f7c21ac3e3389b79f3534cd32a8adfee5c8c27f49c8c9b6eace631d7676"
+      },
+      "view_03": {
+        "path": "images/ai_cb0553693665c354_view_03.png",
+        "sha256": "438378090323509f8564c0e4adcd3b736092d04addfeaa947b6106827b5672dd"
+      }
+    },
+    "evidence_sha256": {
+      "input": "3736b7acf53105e8b42eb31f33c8e32d2b35fa9b5d03e256a8578fb998dc9a2f",
+      "view_00": "c6f5d88182e23ffe76acc8512078096940a707e5dd43349ed05ad5db8ab5d731",
+      "view_01": "5f8484b2c9e79ab6c51ce2b9ec82a06eb174d1a48ab1cbd590cfcfbb0f42539b",
+      "view_02": "d7fc1f7c21ac3e3389b79f3534cd32a8adfee5c8c27f49c8c9b6eace631d7676",
+      "view_03": "438378090323509f8564c0e4adcd3b736092d04addfeaa947b6106827b5672dd"
+    },
+    "card_image": {
+      "path": "images/ai_cb0553693665c354_card.png",
+      "sha256": "4b07aaba6ff4f1874b10467a5f73e4225c342254996535c628048470819f191d"
+    }
+  },
+  {
+    "assessment_id": "ai_fe9bd01aa1834444",
+    "pair": "generation",
+    "brief": "Premium product photograph of a pair of white low-top trainers with forest-green heel tabs and off-white rubber soles, viewed at a slight overhead angle against pale grey, crisp realistic stitching, no visible logos or words.",
+    "criteria": [
+      "pair of white low-top trainers",
+      "green heel tabs",
+      "off-white soles",
+      "grey background",
+      "no logos or words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_fe9bd01aa1834444_image.png",
+        "sha256": "970e0b647c86dfeb8ca5849b02dc8d9e1772ac9ec479795937e112da22728025"
+      }
+    },
+    "evidence_sha256": {
+      "image": "970e0b647c86dfeb8ca5849b02dc8d9e1772ac9ec479795937e112da22728025"
+    }
+  },
+  {
+    "assessment_id": "ai_e4d3d41147c39404",
+    "pair": "generation",
+    "brief": "Street-style editorial of an adult man in a cream linen shirt, navy wide-leg trousers and tan sandals walking along a sunlit stone arcade, full-body view, candid movement, realistic clothing folds, no lettering.",
+    "criteria": [
+      "adult man",
+      "cream linen shirt",
+      "navy wide-leg trousers",
+      "tan sandals",
+      "stone arcade",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_e4d3d41147c39404_image.png",
+        "sha256": "b5cda4ca5217e2cc2f9e46d9a2c00580524935768f2688af04b645b25c938e43"
+      }
+    },
+    "evidence_sha256": {
+      "image": "b5cda4ca5217e2cc2f9e46d9a2c00580524935768f2688af04b645b25c938e43"
+    }
+  },
+  {
+    "assessment_id": "ai_e124ab7d880f204b",
+    "pair": "generation",
+    "brief": "Folded camel knitted scarf beside matching knitted gloves on a light oak tabletop, cable-knit texture clearly visible, natural window light, calm winter accessory product advertisement, no people and no lettering.",
+    "criteria": [
+      "camel scarf",
+      "matching gloves",
+      "cable-knit texture",
+      "oak tabletop",
+      "no people",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_e124ab7d880f204b_image.png",
+        "sha256": "ed4cb52745f2f2520d1056d07976608e024cb94cb181c1a7524dfa8e0d041658"
+      }
+    },
+    "evidence_sha256": {
+      "image": "ed4cb52745f2f2520d1056d07976608e024cb94cb181c1a7524dfa8e0d041658"
+    }
+  },
+  {
+    "assessment_id": "ai_affe56a4e4f5d2e4",
+    "pair": "generation",
+    "brief": "Rainy-season campaign featuring one pair of glossy red rain boots and a closed navy umbrella on wet grey paving, subtle reflections, light rain in background, products fully visible, no people and no words.",
+    "criteria": [
+      "pair of red rain boots",
+      "closed navy umbrella",
+      "wet grey paving",
+      "reflections",
+      "fully visible products",
+      "no words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_affe56a4e4f5d2e4_image.png",
+        "sha256": "27e188151c3c437b58ce0e92bf53cfdea7f3791b65bf16c78d68756718e8603e"
+      }
+    },
+    "evidence_sha256": {
+      "image": "27e188151c3c437b58ce0e92bf53cfdea7f3791b65bf16c78d68756718e8603e"
+    }
+  },
+  {
+    "assessment_id": "ai_24823111f78d89c3",
+    "pair": "generation",
+    "brief": "Fashion editorial of an adult woman wearing a teal tailored trouser suit and flat black loafers in a bright modern gallery, full body, relaxed standing pose, natural proportions, artworks softly blurred, no logos and no text.",
+    "criteria": [
+      "adult woman",
+      "teal trouser suit",
+      "black flat loafers",
+      "gallery",
+      "full body",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_24823111f78d89c3_image.png",
+        "sha256": "7e3a52f1fa560ebec9dfc08c9b3af11574e9eaa5f894c21c2f83b0ac7dcd2dd3"
+      }
+    },
+    "evidence_sha256": {
+      "image": "7e3a52f1fa560ebec9dfc08c9b3af11574e9eaa5f894c21c2f83b0ac7dcd2dd3"
+    }
+  },
+  {
+    "assessment_id": "ai_01348e5b6246c750",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_01348e5b6246c750_input.png",
+        "sha256": "681098039eb350fc5158215c21b86f49904ded174d3fa22e20600d959be1018f"
+      },
+      "view_00": {
+        "path": "images/ai_01348e5b6246c750_view_00.png",
+        "sha256": "2032df6c7b68d878c354be900115c1ba6831278e9521039e3bca25c7495ac6be"
+      },
+      "view_01": {
+        "path": "images/ai_01348e5b6246c750_view_01.png",
+        "sha256": "3954bfbd1ed21144c57a701eb9f45501396ed3a427bd7fccb310227f4338bf72"
+      },
+      "view_02": {
+        "path": "images/ai_01348e5b6246c750_view_02.png",
+        "sha256": "36e8044ab08ba6cab7d4a817d72054d33bba424c1ece9b0a3ec408dcd29014e5"
+      },
+      "view_03": {
+        "path": "images/ai_01348e5b6246c750_view_03.png",
+        "sha256": "39c7846fe0c1484529f2e39fd7db0e9e87d5ab79f38c57d55f4e79cd79b0dfaa"
+      }
+    },
+    "evidence_sha256": {
+      "input": "681098039eb350fc5158215c21b86f49904ded174d3fa22e20600d959be1018f",
+      "view_00": "2032df6c7b68d878c354be900115c1ba6831278e9521039e3bca25c7495ac6be",
+      "view_01": "3954bfbd1ed21144c57a701eb9f45501396ed3a427bd7fccb310227f4338bf72",
+      "view_02": "36e8044ab08ba6cab7d4a817d72054d33bba424c1ece9b0a3ec408dcd29014e5",
+      "view_03": "39c7846fe0c1484529f2e39fd7db0e9e87d5ab79f38c57d55f4e79cd79b0dfaa"
+    },
+    "card_image": {
+      "path": "images/ai_01348e5b6246c750_card.png",
+      "sha256": "24d997b15c379d80d591689e2eef42574c07115406eeb762a27e04febdf37d4a"
+    }
+  },
+  {
+    "assessment_id": "ai_4dece5215244ff70",
+    "pair": "generation",
+    "brief": "Single cobalt-blue ankle boot with square toe and low block heel on a pale peach seamless studio background, side profile, suede texture, sharp product outline, no other products and no text.",
+    "criteria": [
+      "single cobalt-blue boot",
+      "square toe",
+      "low block heel",
+      "suede texture",
+      "peach background",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_4dece5215244ff70_image.png",
+        "sha256": "a7df7b4c7efb22fb855acfef59a361944e25dfa988aef2ff82067a1e3ae57ba8"
+      }
+    },
+    "evidence_sha256": {
+      "image": "a7df7b4c7efb22fb855acfef59a361944e25dfa988aef2ff82067a1e3ae57ba8"
+    }
+  },
+  {
+    "assessment_id": "ai_bc915ceb7f8273a4",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_bc915ceb7f8273a4_input.png",
+        "sha256": "2503f0a8200c1f0860ecd8b62cacdb857e711ae5e8733de907d18a4b9bb2d02e"
+      },
+      "view_00": {
+        "path": "images/ai_bc915ceb7f8273a4_view_00.png",
+        "sha256": "07be1df49dae1feb360801c076fded770c5ca769cccb4302b1049d6fb6f194e0"
+      },
+      "view_01": {
+        "path": "images/ai_bc915ceb7f8273a4_view_01.png",
+        "sha256": "c2e6cca7e7aa29e98513d6c9b38c7c9544c75f2be20c451a63c9fce437f8171c"
+      },
+      "view_02": {
+        "path": "images/ai_bc915ceb7f8273a4_view_02.png",
+        "sha256": "ec3b38750bee8eee574997e1b8a1869ad25dff6d64291d1c89345f7f6f7efa20"
+      },
+      "view_03": {
+        "path": "images/ai_bc915ceb7f8273a4_view_03.png",
+        "sha256": "5ac63daeae63ba2db14ce91f32c85b0db2e21c4e4ddfb11dbbfdc59928d25642"
+      }
+    },
+    "evidence_sha256": {
+      "input": "2503f0a8200c1f0860ecd8b62cacdb857e711ae5e8733de907d18a4b9bb2d02e",
+      "view_00": "07be1df49dae1feb360801c076fded770c5ca769cccb4302b1049d6fb6f194e0",
+      "view_01": "c2e6cca7e7aa29e98513d6c9b38c7c9544c75f2be20c451a63c9fce437f8171c",
+      "view_02": "ec3b38750bee8eee574997e1b8a1869ad25dff6d64291d1c89345f7f6f7efa20",
+      "view_03": "5ac63daeae63ba2db14ce91f32c85b0db2e21c4e4ddfb11dbbfdc59928d25642"
+    },
+    "card_image": {
+      "path": "images/ai_bc915ceb7f8273a4_card.png",
+      "sha256": "46e9417b5d27f006efbf4a9c6662d3bd9cf77f77cf973d46a9d163592c32c5c5"
+    }
+  },
+  {
+    "assessment_id": "ai_83c9e4eacb7198db",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_83c9e4eacb7198db_input.png",
+        "sha256": "b95c8d7bde9d406cf544bdf3fa40a8275c96b4ae48db9dd9d8e487e543b73fcf"
+      },
+      "view_00": {
+        "path": "images/ai_83c9e4eacb7198db_view_00.png",
+        "sha256": "6fb363245c1669bdd1bcfdb3c2065ec36a663ab9caca8780763b0edaeab1fcdf"
+      },
+      "view_01": {
+        "path": "images/ai_83c9e4eacb7198db_view_01.png",
+        "sha256": "d2b5fc0d493f8b8a70a3b5f53f7e6b9c2446000196362920a9753584a2fb4a18"
+      },
+      "view_02": {
+        "path": "images/ai_83c9e4eacb7198db_view_02.png",
+        "sha256": "7a337ebce8cb9ee4eb2ca59dced1befb0e80107d7f1a9bd1be7b3de6b133cadb"
+      },
+      "view_03": {
+        "path": "images/ai_83c9e4eacb7198db_view_03.png",
+        "sha256": "aec4c3d218384cd654e9b6817546bf1ea58a7f64f8f7aa58c20329a8c04104f0"
+      }
+    },
+    "evidence_sha256": {
+      "input": "b95c8d7bde9d406cf544bdf3fa40a8275c96b4ae48db9dd9d8e487e543b73fcf",
+      "view_00": "6fb363245c1669bdd1bcfdb3c2065ec36a663ab9caca8780763b0edaeab1fcdf",
+      "view_01": "d2b5fc0d493f8b8a70a3b5f53f7e6b9c2446000196362920a9753584a2fb4a18",
+      "view_02": "7a337ebce8cb9ee4eb2ca59dced1befb0e80107d7f1a9bd1be7b3de6b133cadb",
+      "view_03": "aec4c3d218384cd654e9b6817546bf1ea58a7f64f8f7aa58c20329a8c04104f0"
+    },
+    "card_image": {
+      "path": "images/ai_83c9e4eacb7198db_card.png",
+      "sha256": "2af131bdd887f8c0f0f9f6c452695b068befe3ae0748b4053c4b4539889ccf45"
+    }
+  },
+  {
+    "assessment_id": "ai_73e8dd4cebafa627",
+    "pair": "generation",
+    "brief": "Evening fashion editorial of an adult with medium-brown skin wearing a flowing emerald midi dress and silver flats on a softly lit rooftop terrace, full body, modest neckline, natural hands, city lights in background, no text.",
+    "criteria": [
+      "adult with medium-brown skin",
+      "emerald midi dress",
+      "silver flats",
+      "modest neckline",
+      "rooftop terrace",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_73e8dd4cebafa627_image.png",
+        "sha256": "4e573144c5290269335e21691d2b3fd7e0e247d256509277daf11e20ed906fbc"
+      }
+    },
+    "evidence_sha256": {
+      "image": "4e573144c5290269335e21691d2b3fd7e0e247d256509277daf11e20ed906fbc"
+    }
+  },
+  {
+    "assessment_id": "ai_dff1a991229f6a9b",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_dff1a991229f6a9b_input.png",
+        "sha256": "89a7cf99ec83e275f35cc7f657cccc10631685511338b89569db2b450c935dcf"
+      },
+      "view_00": {
+        "path": "images/ai_dff1a991229f6a9b_view_00.png",
+        "sha256": "68eaad45ee30494325e11679dee0261f93b788292ddd08e3d869ed1efb4ad28d"
+      },
+      "view_01": {
+        "path": "images/ai_dff1a991229f6a9b_view_01.png",
+        "sha256": "02f137c1fd752d92eb836e218224218cbd94dc506408c5e23995f945e44de6b4"
+      },
+      "view_02": {
+        "path": "images/ai_dff1a991229f6a9b_view_02.png",
+        "sha256": "3bfb7319995e611c0574026595b2ff14c8a8c7607fa8ab2ea09144d9072527f9"
+      },
+      "view_03": {
+        "path": "images/ai_dff1a991229f6a9b_view_03.png",
+        "sha256": "972e6845e75be6b6a47cd59b8153820977cc6e6806fc0463fa5171b786dbbfb8"
+      }
+    },
+    "evidence_sha256": {
+      "input": "89a7cf99ec83e275f35cc7f657cccc10631685511338b89569db2b450c935dcf",
+      "view_00": "68eaad45ee30494325e11679dee0261f93b788292ddd08e3d869ed1efb4ad28d",
+      "view_01": "02f137c1fd752d92eb836e218224218cbd94dc506408c5e23995f945e44de6b4",
+      "view_02": "3bfb7319995e611c0574026595b2ff14c8a8c7607fa8ab2ea09144d9072527f9",
+      "view_03": "972e6845e75be6b6a47cd59b8153820977cc6e6806fc0463fa5171b786dbbfb8"
+    },
+    "card_image": {
+      "path": "images/ai_dff1a991229f6a9b_card.png",
+      "sha256": "959ff86c078819f44faa0efea4f9c3bc020131b3cc1028303dd52b8fd37e14a1"
+    }
+  },
+  {
+    "assessment_id": "ai_2f4d803b64ff73f8",
+    "pair": "generation",
+    "brief": "Two structured handbags on separate circular plinths: a small red bag with silver clasp on the left and a larger black bag with gold clasp on the right, matching three-quarter angles, neutral grey background, no text.",
+    "criteria": [
+      "two handbags",
+      "small red bag left",
+      "silver clasp left",
+      "larger black bag right",
+      "gold clasp right",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_2f4d803b64ff73f8_image.png",
+        "sha256": "d2f2896868be086164705c1dbf65b185ea3b0838af6471241f5780c77ce4ce76"
+      }
+    },
+    "evidence_sha256": {
+      "image": "d2f2896868be086164705c1dbf65b185ea3b0838af6471241f5780c77ce4ce76"
+    }
+  },
+  {
+    "assessment_id": "ai_cb098dde6c57899e",
+    "pair": "generation",
+    "brief": "Festive evening accessories display: a small silver clutch and black velvet bow hair clip on deep-green satin with soft warm lights behind, restrained elegant composition, no gift boxes, no brand marks and no text.",
+    "criteria": [
+      "silver clutch",
+      "black velvet bow clip",
+      "deep-green satin",
+      "warm lights",
+      "no gift boxes",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_cb098dde6c57899e_image.png",
+        "sha256": "628ea91199d896a61e416215c2de6bf03175717f7756d4cd74b30954d6dc0d7f"
+      }
+    },
+    "evidence_sha256": {
+      "image": "628ea91199d896a61e416215c2de6bf03175717f7756d4cd74b30954d6dc0d7f"
+    }
+  },
+  {
+    "assessment_id": "ai_6cf0c1adb790f8b5",
+    "pair": "generation",
+    "brief": "Rainy-season campaign featuring one pair of glossy red rain boots and a closed navy umbrella on wet grey paving, subtle reflections, light rain in background, products fully visible, no people and no words.",
+    "criteria": [
+      "pair of red rain boots",
+      "closed navy umbrella",
+      "wet grey paving",
+      "reflections",
+      "fully visible products",
+      "no words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_6cf0c1adb790f8b5_image.png",
+        "sha256": "38f504902fcc10850af279ad6c8e44d7dbff618b4d74cf19def8164c6b143a7a"
+      }
+    },
+    "evidence_sha256": {
+      "image": "38f504902fcc10850af279ad6c8e44d7dbff618b4d74cf19def8164c6b143a7a"
+    }
+  },
+  {
+    "assessment_id": "ai_ea1474b784ba97b1",
+    "pair": "generation",
+    "brief": "Summer holiday product campaign with tan woven sandals and a straw shoulder bag beside a rolled cream beach towel on clean pale sand, blue sea blurred behind, no people, no logos or words.",
+    "criteria": [
+      "tan woven sandals",
+      "straw shoulder bag",
+      "cream towel",
+      "pale sand",
+      "sea background",
+      "no people or words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_ea1474b784ba97b1_image.png",
+        "sha256": "a79d0a6d1c592d047c4c7dbc98b6c52a3358ef93661f337ed0617191e23a2f91"
+      }
+    },
+    "evidence_sha256": {
+      "image": "a79d0a6d1c592d047c4c7dbc98b6c52a3358ef93661f337ed0617191e23a2f91"
+    }
+  },
+  {
+    "assessment_id": "ai_6c9e44a718dfc5ad",
+    "pair": "generation",
+    "brief": "Spring accessories campaign: a pale-yellow bucket hat and lavender canvas tote beside fresh white daisies on a mint studio floor, soft morning light, cheerful restrained palette, only two fashion products, no text.",
+    "criteria": [
+      "yellow bucket hat",
+      "lavender canvas tote",
+      "white daisies",
+      "mint floor",
+      "two fashion products",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_6c9e44a718dfc5ad_image.png",
+        "sha256": "77b309b64209c85c35337de2f5e9c7952fc2ffad3d47f1ef7d3551713a498b26"
+      }
+    },
+    "evidence_sha256": {
+      "image": "77b309b64209c85c35337de2f5e9c7952fc2ffad3d47f1ef7d3551713a498b26"
+    }
+  },
+  {
+    "assessment_id": "ai_68c7a7ec8b40c425",
+    "pair": "generation",
+    "brief": "Accessible fashion editorial featuring an adult wheelchair user in a rust-coloured trench coat, dark jeans and white trainers in an airy railway concourse, complete wheelchair visible, natural seated pose, respectful confident portrait, no text.",
+    "criteria": [
+      "adult wheelchair user",
+      "rust trench coat",
+      "dark jeans",
+      "white trainers",
+      "complete wheelchair",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_68c7a7ec8b40c425_image.png",
+        "sha256": "eea076e7eace35ea782696ae438458f370cff86e0245c2b499588e448968d760"
+      }
+    },
+    "evidence_sha256": {
+      "image": "eea076e7eace35ea782696ae438458f370cff86e0245c2b499588e448968d760"
+    }
+  },
+  {
+    "assessment_id": "ai_c370f6b0752e2afc",
+    "pair": "generation",
+    "brief": "Street-style editorial of an adult man in a cream linen shirt, navy wide-leg trousers and tan sandals walking along a sunlit stone arcade, full-body view, candid movement, realistic clothing folds, no lettering.",
+    "criteria": [
+      "adult man",
+      "cream linen shirt",
+      "navy wide-leg trousers",
+      "tan sandals",
+      "stone arcade",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_c370f6b0752e2afc_image.png",
+        "sha256": "3b45204082d25642adaf0945ed2d8c3bc3f16df3ed6355d319e28ef85c3e7c35"
+      }
+    },
+    "evidence_sha256": {
+      "image": "3b45204082d25642adaf0945ed2d8c3bc3f16df3ed6355d319e28ef85c3e7c35"
+    }
+  },
+  {
+    "assessment_id": "ai_91a5ea43b0c2f7cb",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_91a5ea43b0c2f7cb_input.png",
+        "sha256": "1e7733bdafaa739e93805e7eefbf9ff677a9ecb6cb1282970c9e1035eadcd2c2"
+      },
+      "view_00": {
+        "path": "images/ai_91a5ea43b0c2f7cb_view_00.png",
+        "sha256": "2de7af090c3f48558078e141676f12e022179bc8255ee61efedc4750f2bd0fa1"
+      },
+      "view_01": {
+        "path": "images/ai_91a5ea43b0c2f7cb_view_01.png",
+        "sha256": "ae6948492b07b788d746d86cdacc2a9df77fd8faf1212447560e1d0659f5cb01"
+      },
+      "view_02": {
+        "path": "images/ai_91a5ea43b0c2f7cb_view_02.png",
+        "sha256": "9123b9d31a580cd974f7c9163dcb1df124852f9b7fc55423e577458f54aa5b49"
+      },
+      "view_03": {
+        "path": "images/ai_91a5ea43b0c2f7cb_view_03.png",
+        "sha256": "a8d6815efc1ccccb87f9322f3d373e8d25873d280cc6f1b9025e063239b61cfa"
+      }
+    },
+    "evidence_sha256": {
+      "input": "1e7733bdafaa739e93805e7eefbf9ff677a9ecb6cb1282970c9e1035eadcd2c2",
+      "view_00": "2de7af090c3f48558078e141676f12e022179bc8255ee61efedc4750f2bd0fa1",
+      "view_01": "ae6948492b07b788d746d86cdacc2a9df77fd8faf1212447560e1d0659f5cb01",
+      "view_02": "9123b9d31a580cd974f7c9163dcb1df124852f9b7fc55423e577458f54aa5b49",
+      "view_03": "a8d6815efc1ccccb87f9322f3d373e8d25873d280cc6f1b9025e063239b61cfa"
+    },
+    "card_image": {
+      "path": "images/ai_91a5ea43b0c2f7cb_card.png",
+      "sha256": "83601e2ba1072b56de76c4b0e568992c7cbf8303ed4fc1611dc00fafaba69319"
+    }
+  },
+  {
+    "assessment_id": "ai_05fea37c98b36131",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_05fea37c98b36131_input.png",
+        "sha256": "290c3408e3d53d0176ddf60cb821e7939e87d7d7fa81fbc5a16976e94b51420d"
+      },
+      "view_00": {
+        "path": "images/ai_05fea37c98b36131_view_00.png",
+        "sha256": "506ffe072619c8f973923ae31eed8306e78ead0ad794c787db47cd00510545c2"
+      },
+      "view_01": {
+        "path": "images/ai_05fea37c98b36131_view_01.png",
+        "sha256": "d26c956d8490049545ce97ff42a70d0772ce7a8609113af5784b486b61f68014"
+      },
+      "view_02": {
+        "path": "images/ai_05fea37c98b36131_view_02.png",
+        "sha256": "b5dfb2d5ff14d7ebf5daec5b4561b6a83a6b21ea13c9f085104fb4acdce665a3"
+      },
+      "view_03": {
+        "path": "images/ai_05fea37c98b36131_view_03.png",
+        "sha256": "11c16ba57cd326ef5d40d7dddd354edd7bd66642a584f4f5cebf68a4be5dcabc"
+      }
+    },
+    "evidence_sha256": {
+      "input": "290c3408e3d53d0176ddf60cb821e7939e87d7d7fa81fbc5a16976e94b51420d",
+      "view_00": "506ffe072619c8f973923ae31eed8306e78ead0ad794c787db47cd00510545c2",
+      "view_01": "d26c956d8490049545ce97ff42a70d0772ce7a8609113af5784b486b61f68014",
+      "view_02": "b5dfb2d5ff14d7ebf5daec5b4561b6a83a6b21ea13c9f085104fb4acdce665a3",
+      "view_03": "11c16ba57cd326ef5d40d7dddd354edd7bd66642a584f4f5cebf68a4be5dcabc"
+    },
+    "card_image": {
+      "path": "images/ai_05fea37c98b36131_card.png",
+      "sha256": "f049ed72df9898e2807d9758298f4c9dae3612fea08e1e22c63d26629ca9411b"
+    }
+  },
+  {
+    "assessment_id": "ai_a9c004c5db1daa44",
+    "pair": "generation",
+    "brief": "Folded camel knitted scarf beside matching knitted gloves on a light oak tabletop, cable-knit texture clearly visible, natural window light, calm winter accessory product advertisement, no people and no lettering.",
+    "criteria": [
+      "camel scarf",
+      "matching gloves",
+      "cable-knit texture",
+      "oak tabletop",
+      "no people",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_a9c004c5db1daa44_image.png",
+        "sha256": "51c2d667773c6df80f3f07b12ae8a7d436e6558ebd6cdba12e2f2a703cfe9984"
+      }
+    },
+    "evidence_sha256": {
+      "image": "51c2d667773c6df80f3f07b12ae8a7d436e6558ebd6cdba12e2f2a703cfe9984"
+    }
+  },
+  {
+    "assessment_id": "ai_e193ce157a727b3f",
+    "pair": "generation",
+    "brief": "Fashion campaign with two adult models side by side: left model in a coral jacket and cream trousers, right model in a cream jacket and coral trousers, both wearing plain white shoes, full body, symmetrical pale-blue studio setting, no lettering.",
+    "criteria": [
+      "two adult models",
+      "coral jacket left",
+      "cream trousers left",
+      "cream jacket right",
+      "coral trousers right",
+      "white shoes",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_e193ce157a727b3f_image.png",
+        "sha256": "0d7a3afbef676d9d92cbb3ce51441cd1894e9e02fb638300d54e89639dc0034e"
+      }
+    },
+    "evidence_sha256": {
+      "image": "0d7a3afbef676d9d92cbb3ce51441cd1894e9e02fb638300d54e89639dc0034e"
+    }
+  },
+  {
+    "assessment_id": "ai_ef5a7becfc3b3aa3",
+    "pair": "generation",
+    "brief": "Festive evening accessories display: a small silver clutch and black velvet bow hair clip on deep-green satin with soft warm lights behind, restrained elegant composition, no gift boxes, no brand marks and no text.",
+    "criteria": [
+      "silver clutch",
+      "black velvet bow clip",
+      "deep-green satin",
+      "warm lights",
+      "no gift boxes",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_ef5a7becfc3b3aa3_image.png",
+        "sha256": "70d2116b9b07fa9a83ca3a5288cbba251a8fdf179f17c8acdba579f5ef666c99"
+      }
+    },
+    "evidence_sha256": {
+      "image": "70d2116b9b07fa9a83ca3a5288cbba251a8fdf179f17c8acdba579f5ef666c99"
+    }
+  },
+  {
+    "assessment_id": "ai_801d6b58d46e2115",
+    "pair": "generation",
+    "brief": "Fashion campaign with two adult models side by side: left model in a coral jacket and cream trousers, right model in a cream jacket and coral trousers, both wearing plain white shoes, full body, symmetrical pale-blue studio setting, no lettering.",
+    "criteria": [
+      "two adult models",
+      "coral jacket left",
+      "cream trousers left",
+      "cream jacket right",
+      "coral trousers right",
+      "white shoes",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_801d6b58d46e2115_image.png",
+        "sha256": "e93e57026ee5109b135d30cd523f8aa84f8bb17cd92422d61f4183a3436de985"
+      }
+    },
+    "evidence_sha256": {
+      "image": "e93e57026ee5109b135d30cd523f8aa84f8bb17cd92422d61f4183a3436de985"
+    }
+  },
+  {
+    "assessment_id": "ai_9db64ae08ca290b1",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_9db64ae08ca290b1_input.png",
+        "sha256": "9b3efa709e0cccfb041978beed586943bc3531a541248efa93f8d00865caaa89"
+      },
+      "view_00": {
+        "path": "images/ai_9db64ae08ca290b1_view_00.png",
+        "sha256": "8122990396aa8263210c8bdf1e9500ede5c0cf593816827dec01e521522531c3"
+      },
+      "view_01": {
+        "path": "images/ai_9db64ae08ca290b1_view_01.png",
+        "sha256": "0092e53f43e6f8d288de87696b85586d66c48496507247209f654c379dececf3"
+      },
+      "view_02": {
+        "path": "images/ai_9db64ae08ca290b1_view_02.png",
+        "sha256": "63cb627e32ba4fa43321b564cf2fd1e931ddb65a64ed1724eb9ec3e8295f46f6"
+      },
+      "view_03": {
+        "path": "images/ai_9db64ae08ca290b1_view_03.png",
+        "sha256": "f23221e2c165d987023b09fe769b795efe0cb1eb6efd0c518490acfe1e4488ae"
+      }
+    },
+    "evidence_sha256": {
+      "input": "9b3efa709e0cccfb041978beed586943bc3531a541248efa93f8d00865caaa89",
+      "view_00": "8122990396aa8263210c8bdf1e9500ede5c0cf593816827dec01e521522531c3",
+      "view_01": "0092e53f43e6f8d288de87696b85586d66c48496507247209f654c379dececf3",
+      "view_02": "63cb627e32ba4fa43321b564cf2fd1e931ddb65a64ed1724eb9ec3e8295f46f6",
+      "view_03": "f23221e2c165d987023b09fe769b795efe0cb1eb6efd0c518490acfe1e4488ae"
+    },
+    "card_image": {
+      "path": "images/ai_9db64ae08ca290b1_card.png",
+      "sha256": "40eadfbdfcf9e07e3e7aeb951641e3c5c48028f4717337ca1c43b8e5d7714e67"
+    }
+  },
+  {
+    "assessment_id": "ai_b3372281945e0686",
+    "pair": "generation",
+    "brief": "Studio editorial of two adult friends with different body sizes wearing monochrome black casual outfits and distinctive red crossbody bags, full body against pale blue, relaxed poses, both bags visible, no lettering.",
+    "criteria": [
+      "two adults",
+      "different body sizes",
+      "black outfits",
+      "two red crossbody bags",
+      "pale blue background",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_b3372281945e0686_image.png",
+        "sha256": "0ad95bc6543e91f9aba87637d85976752f4b4edbb664a4e276de45b9e30ab8d2"
+      }
+    },
+    "evidence_sha256": {
+      "image": "0ad95bc6543e91f9aba87637d85976752f4b4edbb664a4e276de45b9e30ab8d2"
+    }
+  },
+  {
+    "assessment_id": "ai_049552ad6c88187b",
+    "pair": "generation",
+    "brief": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+    "criteria": [
+      "navy pinstripe blazer",
+      "white shirt",
+      "olive trousers",
+      "brown lace-up shoes",
+      "mustard umbrella in left hand",
+      "full body",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_049552ad6c88187b_image.png",
+        "sha256": "88b275e9f8cad1380e34552b23e814593a493782ce2a4e46fa9e78df30647a84"
+      }
+    },
+    "evidence_sha256": {
+      "image": "88b275e9f8cad1380e34552b23e814593a493782ce2a4e46fa9e78df30647a84"
+    }
+  },
+  {
+    "assessment_id": "ai_747a65b4efa6c62a",
+    "pair": "generation",
+    "brief": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+    "criteria": [
+      "one burgundy handbag",
+      "brass clasp",
+      "short top handle",
+      "ivory plinth",
+      "empty space above",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_747a65b4efa6c62a_image.png",
+        "sha256": "dacee9e7b928f90af35eaa55c866c6c554436786d77c99db6f0bd54129b23e9d"
+      }
+    },
+    "evidence_sha256": {
+      "image": "dacee9e7b928f90af35eaa55c866c6c554436786d77c99db6f0bd54129b23e9d"
+    }
+  },
+  {
+    "assessment_id": "ai_47476d0ac0a4c40f",
+    "pair": "generation",
+    "brief": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+    "criteria": [
+      "exactly three gold rings",
+      "plain band left",
+      "twisted band middle",
+      "one green stone right",
+      "horizontal row",
+      "lavender stone",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_47476d0ac0a4c40f_image.png",
+        "sha256": "7b757d913ebe532a9991c0a170e496e36a6085b0da03e5bec955ac6a29f0be75"
+      }
+    },
+    "evidence_sha256": {
+      "image": "7b757d913ebe532a9991c0a170e496e36a6085b0da03e5bec955ac6a29f0be75"
+    }
+  },
+  {
+    "assessment_id": "ai_34853c68d6148131",
+    "pair": "generation",
+    "brief": "Folded camel knitted scarf beside matching knitted gloves on a light oak tabletop, cable-knit texture clearly visible, natural window light, calm winter accessory product advertisement, no people and no lettering.",
+    "criteria": [
+      "camel scarf",
+      "matching gloves",
+      "cable-knit texture",
+      "oak tabletop",
+      "no people",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_34853c68d6148131_image.png",
+        "sha256": "47e4bd0cc81bfde4a8ca690ac00e7274dae01220dd352e4ab68986fcd7afc9cd"
+      }
+    },
+    "evidence_sha256": {
+      "image": "47e4bd0cc81bfde4a8ca690ac00e7274dae01220dd352e4ab68986fcd7afc9cd"
+    }
+  },
+  {
+    "assessment_id": "ai_bec5d6dbbd2b3c57",
+    "pair": "generation",
+    "brief": "Festive evening accessories display: a small silver clutch and black velvet bow hair clip on deep-green satin with soft warm lights behind, restrained elegant composition, no gift boxes, no brand marks and no text.",
+    "criteria": [
+      "silver clutch",
+      "black velvet bow clip",
+      "deep-green satin",
+      "warm lights",
+      "no gift boxes",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_bec5d6dbbd2b3c57_image.png",
+        "sha256": "ea14a0c160f3b1d3ffc30a8dcb0edfc6aa6db6076772aa219904a122730feaf7"
+      }
+    },
+    "evidence_sha256": {
+      "image": "ea14a0c160f3b1d3ffc30a8dcb0edfc6aa6db6076772aa219904a122730feaf7"
+    }
+  },
+  {
+    "assessment_id": "ai_f2e54e4400022d75",
+    "pair": "generation",
+    "brief": "Spring accessories campaign: a pale-yellow bucket hat and lavender canvas tote beside fresh white daisies on a mint studio floor, soft morning light, cheerful restrained palette, only two fashion products, no text.",
+    "criteria": [
+      "yellow bucket hat",
+      "lavender canvas tote",
+      "white daisies",
+      "mint floor",
+      "two fashion products",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_f2e54e4400022d75_image.png",
+        "sha256": "8cd44cfc480e83941d78c80dd256e04bd8ddf751e9e26b4c1be1b5b1287ba665"
+      }
+    },
+    "evidence_sha256": {
+      "image": "8cd44cfc480e83941d78c80dd256e04bd8ddf751e9e26b4c1be1b5b1287ba665"
+    }
+  },
+  {
+    "assessment_id": "ai_d381ab3573d58473",
+    "pair": "generation",
+    "brief": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+    "criteria": [
+      "exactly three gold rings",
+      "plain band left",
+      "twisted band middle",
+      "one green stone right",
+      "horizontal row",
+      "lavender stone",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_d381ab3573d58473_image.png",
+        "sha256": "ebe9cc75352bec89bca3b54b98e2cc647d326af828f189610b7fc714b7be3871"
+      }
+    },
+    "evidence_sha256": {
+      "image": "ebe9cc75352bec89bca3b54b98e2cc647d326af828f189610b7fc714b7be3871"
+    }
+  },
+  {
+    "assessment_id": "ai_0839de1221033edf",
+    "pair": "generation",
+    "brief": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+    "criteria": [
+      "navy pinstripe blazer",
+      "white shirt",
+      "olive trousers",
+      "brown lace-up shoes",
+      "mustard umbrella in left hand",
+      "full body",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_0839de1221033edf_image.png",
+        "sha256": "9b78cda26c9a3ef4073da91087a560d87aa38485e3bbf987cd8befcc240b9390"
+      }
+    },
+    "evidence_sha256": {
+      "image": "9b78cda26c9a3ef4073da91087a560d87aa38485e3bbf987cd8befcc240b9390"
+    }
+  },
+  {
+    "assessment_id": "ai_d810366a5f522bb7",
+    "pair": "generation",
+    "brief": "Overhead fashion campaign flat lay containing exactly four items: a sky-blue cotton shirt, beige pleated trousers, white trainers and a tan belt, arranged without overlap on ivory paper, each item fully visible, no text or logos.",
+    "criteria": [
+      "exactly four fashion items",
+      "sky-blue shirt",
+      "beige pleated trousers",
+      "white trainers",
+      "tan belt",
+      "no overlap or text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_d810366a5f522bb7_image.png",
+        "sha256": "4e3da9e0dff076fdbd97af11bf48e1a9036059e6188cbad5ab6427b65c0ba708"
+      }
+    },
+    "evidence_sha256": {
+      "image": "4e3da9e0dff076fdbd97af11bf48e1a9036059e6188cbad5ab6427b65c0ba708"
+    }
+  },
+  {
+    "assessment_id": "ai_fed3d7fbe48fd6c0",
+    "pair": "generation",
+    "brief": "Single cobalt-blue ankle boot with square toe and low block heel on a pale peach seamless studio background, side profile, suede texture, sharp product outline, no other products and no text.",
+    "criteria": [
+      "single cobalt-blue boot",
+      "square toe",
+      "low block heel",
+      "suede texture",
+      "peach background",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_fed3d7fbe48fd6c0_image.png",
+        "sha256": "4db33b3635a3990e0765f06d366c189a2db07ec31c868ba73feeced25d9614ab"
+      }
+    },
+    "evidence_sha256": {
+      "image": "4db33b3635a3990e0765f06d366c189a2db07ec31c868ba73feeced25d9614ab"
+    }
+  },
+  {
+    "assessment_id": "ai_1cf1313a211243a0",
+    "pair": "generation",
+    "brief": "Spring accessories campaign: a pale-yellow bucket hat and lavender canvas tote beside fresh white daisies on a mint studio floor, soft morning light, cheerful restrained palette, only two fashion products, no text.",
+    "criteria": [
+      "yellow bucket hat",
+      "lavender canvas tote",
+      "white daisies",
+      "mint floor",
+      "two fashion products",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_1cf1313a211243a0_image.png",
+        "sha256": "4d3f2ba1422af217fd772b58bdef7821c4c3bc5527d50d857dcddc0997cb9856"
+      }
+    },
+    "evidence_sha256": {
+      "image": "4d3f2ba1422af217fd772b58bdef7821c4c3bc5527d50d857dcddc0997cb9856"
+    }
+  },
+  {
+    "assessment_id": "ai_5ed93dc6e159b7b2",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_5ed93dc6e159b7b2_input.png",
+        "sha256": "3dd25556ca27d0631717b658ddb037404e067b77c6ff5cadf10aa0a8c6fcc29c"
+      },
+      "view_00": {
+        "path": "images/ai_5ed93dc6e159b7b2_view_00.png",
+        "sha256": "8e14c41814039984fb6904246242c6195f77d2cf94844f96b92c9a2442aadd35"
+      },
+      "view_01": {
+        "path": "images/ai_5ed93dc6e159b7b2_view_01.png",
+        "sha256": "2f59330ad2f8e88712616ca7d8d3adaf58d184d3cf0936862d98d4dc53b58110"
+      },
+      "view_02": {
+        "path": "images/ai_5ed93dc6e159b7b2_view_02.png",
+        "sha256": "bddf376dd35271350c915bc0cdb888d824fd8fe5b2517e6a59bf13ff4e2c75d0"
+      },
+      "view_03": {
+        "path": "images/ai_5ed93dc6e159b7b2_view_03.png",
+        "sha256": "1b9bd89c43fab32581807f891ee16ede34209daf32a877c37f83a27b23a6b6ad"
+      }
+    },
+    "evidence_sha256": {
+      "input": "3dd25556ca27d0631717b658ddb037404e067b77c6ff5cadf10aa0a8c6fcc29c",
+      "view_00": "8e14c41814039984fb6904246242c6195f77d2cf94844f96b92c9a2442aadd35",
+      "view_01": "2f59330ad2f8e88712616ca7d8d3adaf58d184d3cf0936862d98d4dc53b58110",
+      "view_02": "bddf376dd35271350c915bc0cdb888d824fd8fe5b2517e6a59bf13ff4e2c75d0",
+      "view_03": "1b9bd89c43fab32581807f891ee16ede34209daf32a877c37f83a27b23a6b6ad"
+    },
+    "card_image": {
+      "path": "images/ai_5ed93dc6e159b7b2_card.png",
+      "sha256": "abb03335ca72e32b0b8202b369d8df6e6f87ac122de68fcc4071ba1a10e8c749"
+    }
+  },
+  {
+    "assessment_id": "ai_2723dc4377ab924a",
+    "pair": "generation",
+    "brief": "Minimal jewellery campaign showing one silver geometric pendant on a fine silver chain, laid in a loose curve over matte charcoal stone, close-up lighting with controlled highlights, no gemstones and no text.",
+    "criteria": [
+      "one silver geometric pendant",
+      "fine silver chain",
+      "charcoal stone",
+      "no gemstones",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_2723dc4377ab924a_image.png",
+        "sha256": "dd36fa93bca46458536a0b913cd2fac79e5db67650a69616072f31bb91ad6211"
+      }
+    },
+    "evidence_sha256": {
+      "image": "dd36fa93bca46458536a0b913cd2fac79e5db67650a69616072f31bb91ad6211"
+    }
+  },
+  {
+    "assessment_id": "ai_533546f9a67fa1ad",
+    "pair": "generation",
+    "brief": "Evening fashion editorial of an adult with medium-brown skin wearing a flowing emerald midi dress and silver flats on a softly lit rooftop terrace, full body, modest neckline, natural hands, city lights in background, no text.",
+    "criteria": [
+      "adult with medium-brown skin",
+      "emerald midi dress",
+      "silver flats",
+      "modest neckline",
+      "rooftop terrace",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_533546f9a67fa1ad_image.png",
+        "sha256": "d620647290404fccbb1cdf2dfe24c38f5ee19f68479adb823785514f07e2478d"
+      }
+    },
+    "evidence_sha256": {
+      "image": "d620647290404fccbb1cdf2dfe24c38f5ee19f68479adb823785514f07e2478d"
+    }
+  },
+  {
+    "assessment_id": "ai_9a893fc1c16ea6b5",
+    "pair": "generation",
+    "brief": "Winter campaign of a navy quilted jacket on a plain mannequin torso with a mustard scarf draped around the collar, frosted window behind, soft studio lighting, no human face, no snow covering the products and no text.",
+    "criteria": [
+      "navy quilted jacket",
+      "plain mannequin torso",
+      "mustard scarf",
+      "frosted window",
+      "uncovered products",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_9a893fc1c16ea6b5_image.png",
+        "sha256": "da59bc126b9dacfb55c7788cd750fdf1fad1163258db105e8253b4895a879406"
+      }
+    },
+    "evidence_sha256": {
+      "image": "da59bc126b9dacfb55c7788cd750fdf1fad1163258db105e8253b4895a879406"
+    }
+  },
+  {
+    "assessment_id": "ai_12d1871d8bb358c8",
+    "pair": "generation",
+    "brief": "Studio editorial of two adult friends with different body sizes wearing monochrome black casual outfits and distinctive red crossbody bags, full body against pale blue, relaxed poses, both bags visible, no lettering.",
+    "criteria": [
+      "two adults",
+      "different body sizes",
+      "black outfits",
+      "two red crossbody bags",
+      "pale blue background",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_12d1871d8bb358c8_image.png",
+        "sha256": "197f50046af42f52191af06ce16060208b329d3a117dd384beed5e889359eefb"
+      }
+    },
+    "evidence_sha256": {
+      "image": "197f50046af42f52191af06ce16060208b329d3a117dd384beed5e889359eefb"
+    }
+  },
+  {
+    "assessment_id": "ai_53b348f7023c19a9",
+    "pair": "generation",
+    "brief": "Studio editorial of two adult friends with different body sizes wearing monochrome black casual outfits and distinctive red crossbody bags, full body against pale blue, relaxed poses, both bags visible, no lettering.",
+    "criteria": [
+      "two adults",
+      "different body sizes",
+      "black outfits",
+      "two red crossbody bags",
+      "pale blue background",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_53b348f7023c19a9_image.png",
+        "sha256": "8668eb7ee4a8ab087490c0199512df45cb9e70b75f38a4f2a04713b0ec561609"
+      }
+    },
+    "evidence_sha256": {
+      "image": "8668eb7ee4a8ab087490c0199512df45cb9e70b75f38a4f2a04713b0ec561609"
+    }
+  },
+  {
+    "assessment_id": "ai_a775abceac6ddca5",
+    "pair": "generation",
+    "brief": "Accessible fashion editorial featuring an adult wheelchair user in a rust-coloured trench coat, dark jeans and white trainers in an airy railway concourse, complete wheelchair visible, natural seated pose, respectful confident portrait, no text.",
+    "criteria": [
+      "adult wheelchair user",
+      "rust trench coat",
+      "dark jeans",
+      "white trainers",
+      "complete wheelchair",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_a775abceac6ddca5_image.png",
+        "sha256": "6b650d7547b337fc7851eecc99dec382f178aad8d8831a26dd24a72a778293f6"
+      }
+    },
+    "evidence_sha256": {
+      "image": "6b650d7547b337fc7851eecc99dec382f178aad8d8831a26dd24a72a778293f6"
+    }
+  },
+  {
+    "assessment_id": "ai_641b02d1fdcb03ac",
+    "pair": "generation",
+    "brief": "Accessible fashion editorial featuring an adult wheelchair user in a rust-coloured trench coat, dark jeans and white trainers in an airy railway concourse, complete wheelchair visible, natural seated pose, respectful confident portrait, no text.",
+    "criteria": [
+      "adult wheelchair user",
+      "rust trench coat",
+      "dark jeans",
+      "white trainers",
+      "complete wheelchair",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_641b02d1fdcb03ac_image.png",
+        "sha256": "8aba19244eaf5b5fa54dbcd0105feda4f188da8435481e5794d9d243f76a01df"
+      }
+    },
+    "evidence_sha256": {
+      "image": "8aba19244eaf5b5fa54dbcd0105feda4f188da8435481e5794d9d243f76a01df"
+    }
+  },
+  {
+    "assessment_id": "ai_f6f0243fa838a155",
+    "pair": "generation",
+    "brief": "Rainy-season campaign featuring one pair of glossy red rain boots and a closed navy umbrella on wet grey paving, subtle reflections, light rain in background, products fully visible, no people and no words.",
+    "criteria": [
+      "pair of red rain boots",
+      "closed navy umbrella",
+      "wet grey paving",
+      "reflections",
+      "fully visible products",
+      "no words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_f6f0243fa838a155_image.png",
+        "sha256": "498aaadf741f6733b2408bf1316092a43d4414e12a87f5b90186ca0a90d8be33"
+      }
+    },
+    "evidence_sha256": {
+      "image": "498aaadf741f6733b2408bf1316092a43d4414e12a87f5b90186ca0a90d8be33"
+    }
+  },
+  {
+    "assessment_id": "ai_8b481d84ea11d65a",
+    "pair": "generation",
+    "brief": "Overhead product photograph of tortoiseshell sunglasses with dark brown lenses and a folded cream cotton pouch on sand-coloured paper, balanced symmetrical composition, realistic materials, no printed branding.",
+    "criteria": [
+      "tortoiseshell sunglasses",
+      "brown lenses",
+      "cream pouch",
+      "overhead view",
+      "sand-coloured paper",
+      "no branding"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_8b481d84ea11d65a_image.png",
+        "sha256": "60f4a548ee3f2d5f14cbd90d12c1b3bdeeda6d5b2bbe6eeb408e99235d33f8ea"
+      }
+    },
+    "evidence_sha256": {
+      "image": "60f4a548ee3f2d5f14cbd90d12c1b3bdeeda6d5b2bbe6eeb408e99235d33f8ea"
+    }
+  },
+  {
+    "assessment_id": "ai_a38d71b3cb08627b",
+    "pair": "generation",
+    "brief": "Minimal display of a black backpack with two visible front pockets, a silver zipper and one orange pull tab, standing beside a transparent water bottle on a white cube, pale green backdrop, no people, no logos and no text.",
+    "criteria": [
+      "black backpack",
+      "two front pockets",
+      "silver zipper",
+      "orange pull tab",
+      "transparent bottle",
+      "white cube",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_a38d71b3cb08627b_image.png",
+        "sha256": "e0b91f4a3216dac5438ab850449d7c60f694f191ce253d2613c6843ee3e0cc61"
+      }
+    },
+    "evidence_sha256": {
+      "image": "e0b91f4a3216dac5438ab850449d7c60f694f191ce253d2613c6843ee3e0cc61"
+    }
+  },
+  {
+    "assessment_id": "ai_4462f43c78cfdead",
+    "pair": "generation",
+    "brief": "Summer holiday product campaign with tan woven sandals and a straw shoulder bag beside a rolled cream beach towel on clean pale sand, blue sea blurred behind, no people, no logos or words.",
+    "criteria": [
+      "tan woven sandals",
+      "straw shoulder bag",
+      "cream towel",
+      "pale sand",
+      "sea background",
+      "no people or words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_4462f43c78cfdead_image.png",
+        "sha256": "d0244d04535d1bd97271850069b7161e84b1575fdcc76bc99c3dc5e52edacdbf"
+      }
+    },
+    "evidence_sha256": {
+      "image": "d0244d04535d1bd97271850069b7161e84b1575fdcc76bc99c3dc5e52edacdbf"
+    }
+  },
+  {
+    "assessment_id": "ai_2f4a0f2e3b2515a4",
+    "pair": "generation",
+    "brief": "Spring accessories campaign: a pale-yellow bucket hat and lavender canvas tote beside fresh white daisies on a mint studio floor, soft morning light, cheerful restrained palette, only two fashion products, no text.",
+    "criteria": [
+      "yellow bucket hat",
+      "lavender canvas tote",
+      "white daisies",
+      "mint floor",
+      "two fashion products",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_2f4a0f2e3b2515a4_image.png",
+        "sha256": "f279324ce63376821d5cde27a39ba867fe9b9e2a5845692035b1333a8843f219"
+      }
+    },
+    "evidence_sha256": {
+      "image": "f279324ce63376821d5cde27a39ba867fe9b9e2a5845692035b1333a8843f219"
+    }
+  },
+  {
+    "assessment_id": "ai_974b4769379027c5",
+    "pair": "generation",
+    "brief": "Adult model wearing a navy pinstripe blazer, white shirt, olive trousers and brown lace-up shoes, holding a closed mustard umbrella in the left hand, full body in a plain light-grey studio, natural anatomy, no lettering.",
+    "criteria": [
+      "navy pinstripe blazer",
+      "white shirt",
+      "olive trousers",
+      "brown lace-up shoes",
+      "mustard umbrella in left hand",
+      "full body",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_974b4769379027c5_image.png",
+        "sha256": "e951b7558a9cad3f6487cde0e8343c0bab8e4946c8ca2c30c33e1cfc786b1072"
+      }
+    },
+    "evidence_sha256": {
+      "image": "e951b7558a9cad3f6487cde0e8343c0bab8e4946c8ca2c30c33e1cfc786b1072"
+    }
+  },
+  {
+    "assessment_id": "ai_247b4f53ad907994",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_247b4f53ad907994_input.png",
+        "sha256": "290c3408e3d53d0176ddf60cb821e7939e87d7d7fa81fbc5a16976e94b51420d"
+      },
+      "view_00": {
+        "path": "images/ai_247b4f53ad907994_view_00.png",
+        "sha256": "dc640a09629eeec79ea2994125e99cac39ba89fece0e85cfb8daae27d52404b7"
+      },
+      "view_01": {
+        "path": "images/ai_247b4f53ad907994_view_01.png",
+        "sha256": "8bfb59fc69cabf1e615b1b693496d724e34c959e17411d3328109809a75bd5d5"
+      },
+      "view_02": {
+        "path": "images/ai_247b4f53ad907994_view_02.png",
+        "sha256": "ab71eb02e66877e680d84536fd6b7354550251cba3aea705738de9b83b15a1e7"
+      },
+      "view_03": {
+        "path": "images/ai_247b4f53ad907994_view_03.png",
+        "sha256": "71e7f3ae97088f2abb6a02620aee76f8dc12990143110e695128c00f2dc0df11"
+      }
+    },
+    "evidence_sha256": {
+      "input": "290c3408e3d53d0176ddf60cb821e7939e87d7d7fa81fbc5a16976e94b51420d",
+      "view_00": "dc640a09629eeec79ea2994125e99cac39ba89fece0e85cfb8daae27d52404b7",
+      "view_01": "8bfb59fc69cabf1e615b1b693496d724e34c959e17411d3328109809a75bd5d5",
+      "view_02": "ab71eb02e66877e680d84536fd6b7354550251cba3aea705738de9b83b15a1e7",
+      "view_03": "71e7f3ae97088f2abb6a02620aee76f8dc12990143110e695128c00f2dc0df11"
+    },
+    "card_image": {
+      "path": "images/ai_247b4f53ad907994_card.png",
+      "sha256": "7c0d28430a1aa46804fa1e1eaad7595901379c73a69eee83ebf22daad0ff0e12"
+    }
+  },
+  {
+    "assessment_id": "ai_d7324ff74530f132",
+    "pair": "generation",
+    "brief": "Premium product photograph of a pair of white low-top trainers with forest-green heel tabs and off-white rubber soles, viewed at a slight overhead angle against pale grey, crisp realistic stitching, no visible logos or words.",
+    "criteria": [
+      "pair of white low-top trainers",
+      "green heel tabs",
+      "off-white soles",
+      "grey background",
+      "no logos or words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_d7324ff74530f132_image.png",
+        "sha256": "7e1141a568863eb73ff075704006594fc9c64063fa88c44670f2ace716f907c3"
+      }
+    },
+    "evidence_sha256": {
+      "image": "7e1141a568863eb73ff075704006594fc9c64063fa88c44670f2ace716f907c3"
+    }
+  },
+  {
+    "assessment_id": "ai_6ce47f7825d232bd",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_6ce47f7825d232bd_input.png",
+        "sha256": "8849401fd6e253dfe1e06b4773eea3eadb068d1ffa1b8be5b6384b0c1e54cdf4"
+      },
+      "view_00": {
+        "path": "images/ai_6ce47f7825d232bd_view_00.png",
+        "sha256": "e906e55886fc6ca0ca65fc966100a572e1e10ebfc911dca5d1bbed95315b081e"
+      },
+      "view_01": {
+        "path": "images/ai_6ce47f7825d232bd_view_01.png",
+        "sha256": "eb21ee8ec9ea96f3d533f136f767304fb9a5c84faaebe172b362bf59c97d29b9"
+      },
+      "view_02": {
+        "path": "images/ai_6ce47f7825d232bd_view_02.png",
+        "sha256": "f21ef2c8e55bbd5a116dde1e147e013d51e009630aa7a8c8eccfb7449122c483"
+      },
+      "view_03": {
+        "path": "images/ai_6ce47f7825d232bd_view_03.png",
+        "sha256": "65e27f13d7a24c4687a4216b3e35230968ce3926f252cdeb4df959341a75e79f"
+      }
+    },
+    "evidence_sha256": {
+      "input": "8849401fd6e253dfe1e06b4773eea3eadb068d1ffa1b8be5b6384b0c1e54cdf4",
+      "view_00": "e906e55886fc6ca0ca65fc966100a572e1e10ebfc911dca5d1bbed95315b081e",
+      "view_01": "eb21ee8ec9ea96f3d533f136f767304fb9a5c84faaebe172b362bf59c97d29b9",
+      "view_02": "f21ef2c8e55bbd5a116dde1e147e013d51e009630aa7a8c8eccfb7449122c483",
+      "view_03": "65e27f13d7a24c4687a4216b3e35230968ce3926f252cdeb4df959341a75e79f"
+    },
+    "card_image": {
+      "path": "images/ai_6ce47f7825d232bd_card.png",
+      "sha256": "35444988dc511f079b5a24a95a4131a60511c2d706aae584c62c4722518552fc"
+    }
+  },
+  {
+    "assessment_id": "ai_4a6b832ba420bedf",
+    "pair": "generation",
+    "brief": "Folded camel knitted scarf beside matching knitted gloves on a light oak tabletop, cable-knit texture clearly visible, natural window light, calm winter accessory product advertisement, no people and no lettering.",
+    "criteria": [
+      "camel scarf",
+      "matching gloves",
+      "cable-knit texture",
+      "oak tabletop",
+      "no people",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_4a6b832ba420bedf_image.png",
+        "sha256": "970a78c67e67c7f7afa88fc59bd27b72ad1c52d74797e8f22ab4c252713b496c"
+      }
+    },
+    "evidence_sha256": {
+      "image": "970a78c67e67c7f7afa88fc59bd27b72ad1c52d74797e8f22ab4c252713b496c"
+    }
+  },
+  {
+    "assessment_id": "ai_f2261bd5027597b9",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_f2261bd5027597b9_input.png",
+        "sha256": "95d4011020af2dde1a0c4b1b70e7008f4d82d58776cd907f34d6fee8996d98b7"
+      },
+      "view_00": {
+        "path": "images/ai_f2261bd5027597b9_view_00.png",
+        "sha256": "20510cfab6f1f92ff64cf117392f3fe5a602b96ba0b80ab48f03ff2058f0c83c"
+      },
+      "view_01": {
+        "path": "images/ai_f2261bd5027597b9_view_01.png",
+        "sha256": "ab41e64023b2d1554abb249854c8c1cb91293b6ea9f641d2ce2885de2033131a"
+      },
+      "view_02": {
+        "path": "images/ai_f2261bd5027597b9_view_02.png",
+        "sha256": "c3666b511c8357d28f5ef7f097aa657973c426df93ac481c3014fa48683b9a4f"
+      },
+      "view_03": {
+        "path": "images/ai_f2261bd5027597b9_view_03.png",
+        "sha256": "1d37f8a3d025408a006add271c8ea487496cc1cd73fa7c426b6034bb2bbf8ab4"
+      }
+    },
+    "evidence_sha256": {
+      "input": "95d4011020af2dde1a0c4b1b70e7008f4d82d58776cd907f34d6fee8996d98b7",
+      "view_00": "20510cfab6f1f92ff64cf117392f3fe5a602b96ba0b80ab48f03ff2058f0c83c",
+      "view_01": "ab41e64023b2d1554abb249854c8c1cb91293b6ea9f641d2ce2885de2033131a",
+      "view_02": "c3666b511c8357d28f5ef7f097aa657973c426df93ac481c3014fa48683b9a4f",
+      "view_03": "1d37f8a3d025408a006add271c8ea487496cc1cd73fa7c426b6034bb2bbf8ab4"
+    },
+    "card_image": {
+      "path": "images/ai_f2261bd5027597b9_card.png",
+      "sha256": "91c3f796a0198567afe83d7eb4ca5ad874c813c42a9932be4f09becb6d021c47"
+    }
+  },
+  {
+    "assessment_id": "ai_ad4bc4eefb91af5c",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_ad4bc4eefb91af5c_input.png",
+        "sha256": "45e4cff2020e16efa1c3fd68ed13918e7f58d426966cc7073edf0db5711d482d"
+      },
+      "view_00": {
+        "path": "images/ai_ad4bc4eefb91af5c_view_00.png",
+        "sha256": "86aa5d7ab6a1e1da7e82d25fd8daf25e26e206ce5ee97eb4d08d09224437bb0b"
+      },
+      "view_01": {
+        "path": "images/ai_ad4bc4eefb91af5c_view_01.png",
+        "sha256": "a6e09d12e7dbcf8c70b40a67c13041916f101a73aceaa50e6ea8462f5f117831"
+      },
+      "view_02": {
+        "path": "images/ai_ad4bc4eefb91af5c_view_02.png",
+        "sha256": "1a7d849a3a88405076052de02c8fac5877b0ab5b02a7682fdbe9c76d42ecc7ae"
+      },
+      "view_03": {
+        "path": "images/ai_ad4bc4eefb91af5c_view_03.png",
+        "sha256": "4686cd72f9cf5b64afcf6d2799ef2882164214f73daa8af723cd0f00521beb55"
+      }
+    },
+    "evidence_sha256": {
+      "input": "45e4cff2020e16efa1c3fd68ed13918e7f58d426966cc7073edf0db5711d482d",
+      "view_00": "86aa5d7ab6a1e1da7e82d25fd8daf25e26e206ce5ee97eb4d08d09224437bb0b",
+      "view_01": "a6e09d12e7dbcf8c70b40a67c13041916f101a73aceaa50e6ea8462f5f117831",
+      "view_02": "1a7d849a3a88405076052de02c8fac5877b0ab5b02a7682fdbe9c76d42ecc7ae",
+      "view_03": "4686cd72f9cf5b64afcf6d2799ef2882164214f73daa8af723cd0f00521beb55"
+    },
+    "card_image": {
+      "path": "images/ai_ad4bc4eefb91af5c_card.png",
+      "sha256": "898dc4fdc6510bbbddee4ea3876d4fbb4becd8e628183bdfae8317c9394abac9"
+    }
+  },
+  {
+    "assessment_id": "ai_bafac5b225584239",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_bafac5b225584239_input.png",
+        "sha256": "89a7cf99ec83e275f35cc7f657cccc10631685511338b89569db2b450c935dcf"
+      },
+      "view_00": {
+        "path": "images/ai_bafac5b225584239_view_00.png",
+        "sha256": "cbf1583e1d2934c6d7d13eb4e7632962b146159bc15e90ebaed605c15a8fcb4f"
+      },
+      "view_01": {
+        "path": "images/ai_bafac5b225584239_view_01.png",
+        "sha256": "c6e9f7552ef379767719aae409bbcfa66d15884170d4ed14b065f37bb2bcfdec"
+      },
+      "view_02": {
+        "path": "images/ai_bafac5b225584239_view_02.png",
+        "sha256": "12a935cab6dce57834b63acb92dc07f8b02d9cb24158cc255c712ab641366cf1"
+      },
+      "view_03": {
+        "path": "images/ai_bafac5b225584239_view_03.png",
+        "sha256": "d6c7047528fd59fa71e066f2fd6cecc7b3de32606849179ef0bf250c18ad0533"
+      }
+    },
+    "evidence_sha256": {
+      "input": "89a7cf99ec83e275f35cc7f657cccc10631685511338b89569db2b450c935dcf",
+      "view_00": "cbf1583e1d2934c6d7d13eb4e7632962b146159bc15e90ebaed605c15a8fcb4f",
+      "view_01": "c6e9f7552ef379767719aae409bbcfa66d15884170d4ed14b065f37bb2bcfdec",
+      "view_02": "12a935cab6dce57834b63acb92dc07f8b02d9cb24158cc255c712ab641366cf1",
+      "view_03": "d6c7047528fd59fa71e066f2fd6cecc7b3de32606849179ef0bf250c18ad0533"
+    },
+    "card_image": {
+      "path": "images/ai_bafac5b225584239_card.png",
+      "sha256": "66ce904c39352686374aad81488d3e0c0770f3c8c6026baed57208383d243b91"
+    }
+  },
+  {
+    "assessment_id": "ai_e8fae920012d4e85",
+    "pair": "generation",
+    "brief": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+    "criteria": [
+      "exactly three gold rings",
+      "plain band left",
+      "twisted band middle",
+      "one green stone right",
+      "horizontal row",
+      "lavender stone",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_e8fae920012d4e85_image.png",
+        "sha256": "c11d89cf0c9b03bbbc2375157ffbbdeb408d6cb07f86ed98aee9fac97e233651"
+      }
+    },
+    "evidence_sha256": {
+      "image": "c11d89cf0c9b03bbbc2375157ffbbdeb408d6cb07f86ed98aee9fac97e233651"
+    }
+  },
+  {
+    "assessment_id": "ai_67069eb33b0cb401",
+    "pair": "generation",
+    "brief": "Winter campaign of a navy quilted jacket on a plain mannequin torso with a mustard scarf draped around the collar, frosted window behind, soft studio lighting, no human face, no snow covering the products and no text.",
+    "criteria": [
+      "navy quilted jacket",
+      "plain mannequin torso",
+      "mustard scarf",
+      "frosted window",
+      "uncovered products",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_67069eb33b0cb401_image.png",
+        "sha256": "1350f1eadbb8a91913726b7353f2779f7a012f97170efc10bc2082cf94540896"
+      }
+    },
+    "evidence_sha256": {
+      "image": "1350f1eadbb8a91913726b7353f2779f7a012f97170efc10bc2082cf94540896"
+    }
+  },
+  {
+    "assessment_id": "ai_bad5078da497691d",
+    "pair": "generation",
+    "brief": "Winter campaign of a navy quilted jacket on a plain mannequin torso with a mustard scarf draped around the collar, frosted window behind, soft studio lighting, no human face, no snow covering the products and no text.",
+    "criteria": [
+      "navy quilted jacket",
+      "plain mannequin torso",
+      "mustard scarf",
+      "frosted window",
+      "uncovered products",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_bad5078da497691d_image.png",
+        "sha256": "22bc8a67cd1810908ad6ad1b5d3ad5908f0804b3f5cbb4f46fdf090481d9b7af"
+      }
+    },
+    "evidence_sha256": {
+      "image": "22bc8a67cd1810908ad6ad1b5d3ad5908f0804b3f5cbb4f46fdf090481d9b7af"
+    }
+  },
+  {
+    "assessment_id": "ai_c17ae2206bf5450d",
+    "pair": "generation",
+    "brief": "Autumn fashion still life showing a burnt-orange beret, chocolate-brown ankle boots and a folded oatmeal cardigan on a dark wooden bench with a few dry leaves, warm side light, clear product separation, no lettering.",
+    "criteria": [
+      "orange beret",
+      "brown ankle boots",
+      "oatmeal cardigan",
+      "dark wooden bench",
+      "dry leaves",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_c17ae2206bf5450d_image.png",
+        "sha256": "5d5e42521cd52a2d392e5349ac40057ae5a84431f0415167bc7874636c122f61"
+      }
+    },
+    "evidence_sha256": {
+      "image": "5d5e42521cd52a2d392e5349ac40057ae5a84431f0415167bc7874636c122f61"
+    }
+  },
+  {
+    "assessment_id": "ai_b75b3142093a9797",
+    "pair": "generation",
+    "brief": "Folded camel knitted scarf beside matching knitted gloves on a light oak tabletop, cable-knit texture clearly visible, natural window light, calm winter accessory product advertisement, no people and no lettering.",
+    "criteria": [
+      "camel scarf",
+      "matching gloves",
+      "cable-knit texture",
+      "oak tabletop",
+      "no people",
+      "no lettering"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_b75b3142093a9797_image.png",
+        "sha256": "3d18829853a703121f8eef5dcaa796aad721a960b9c9190c27a8644bb09c0fae"
+      }
+    },
+    "evidence_sha256": {
+      "image": "3d18829853a703121f8eef5dcaa796aad721a960b9c9190c27a8644bb09c0fae"
+    }
+  },
+  {
+    "assessment_id": "ai_563386ce76f7b515",
+    "pair": "generation",
+    "brief": "Two structured handbags on separate circular plinths: a small red bag with silver clasp on the left and a larger black bag with gold clasp on the right, matching three-quarter angles, neutral grey background, no text.",
+    "criteria": [
+      "two handbags",
+      "small red bag left",
+      "silver clasp left",
+      "larger black bag right",
+      "gold clasp right",
+      "no text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_563386ce76f7b515_image.png",
+        "sha256": "cd63f50159f6ec91d356a2de2b97b9eda2eebe516a1952f58a53d6fb106c351e"
+      }
+    },
+    "evidence_sha256": {
+      "image": "cd63f50159f6ec91d356a2de2b97b9eda2eebe516a1952f58a53d6fb106c351e"
+    }
+  },
+  {
+    "assessment_id": "ai_06920e8993c09bec",
+    "pair": "generation",
+    "brief": "Summer holiday product campaign with tan woven sandals and a straw shoulder bag beside a rolled cream beach towel on clean pale sand, blue sea blurred behind, no people, no logos or words.",
+    "criteria": [
+      "tan woven sandals",
+      "straw shoulder bag",
+      "cream towel",
+      "pale sand",
+      "sea background",
+      "no people or words"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_06920e8993c09bec_image.png",
+        "sha256": "7112c8a7b92ef955554dd81dc21a8c6f55ef7ab5d4dec0b05f944b335a1667a7"
+      }
+    },
+    "evidence_sha256": {
+      "image": "7112c8a7b92ef955554dd81dc21a8c6f55ef7ab5d4dec0b05f944b335a1667a7"
+    }
+  },
+  {
+    "assessment_id": "ai_2aa9fe559fcfc240",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_2aa9fe559fcfc240_input.png",
+        "sha256": "57cfeea2841be63ed1440469a8ef47e9451444e0674b85cb1bf06dfdbb8abc12"
+      },
+      "view_00": {
+        "path": "images/ai_2aa9fe559fcfc240_view_00.png",
+        "sha256": "182106565b513afa0f4d1bb65fde524b4288a3bb5d82b38346f797ceadf4b4f2"
+      },
+      "view_01": {
+        "path": "images/ai_2aa9fe559fcfc240_view_01.png",
+        "sha256": "96d4ddf4bd71ea0d49b0f53fa34c42d19028ee7c5e6fd0189952b80b559c83b6"
+      },
+      "view_02": {
+        "path": "images/ai_2aa9fe559fcfc240_view_02.png",
+        "sha256": "3fcb65b0cf251f04a9b47ec101e32a8773a69d80dacd9a4f54c38575a15190db"
+      },
+      "view_03": {
+        "path": "images/ai_2aa9fe559fcfc240_view_03.png",
+        "sha256": "315a82dc4efdd4daddc04c5c29450ada2191b4b4ed09438729f15173c0cfb2e0"
+      }
+    },
+    "evidence_sha256": {
+      "input": "57cfeea2841be63ed1440469a8ef47e9451444e0674b85cb1bf06dfdbb8abc12",
+      "view_00": "182106565b513afa0f4d1bb65fde524b4288a3bb5d82b38346f797ceadf4b4f2",
+      "view_01": "96d4ddf4bd71ea0d49b0f53fa34c42d19028ee7c5e6fd0189952b80b559c83b6",
+      "view_02": "3fcb65b0cf251f04a9b47ec101e32a8773a69d80dacd9a4f54c38575a15190db",
+      "view_03": "315a82dc4efdd4daddc04c5c29450ada2191b4b4ed09438729f15173c0cfb2e0"
+    },
+    "card_image": {
+      "path": "images/ai_2aa9fe559fcfc240_card.png",
+      "sha256": "74af29338b513620de27800403c4fa7b3dc93177580ec934d073c691decb00d3"
+    }
+  },
+  {
+    "assessment_id": "ai_f7e440b8ba1b759c",
+    "pair": "generation",
+    "brief": "Overhead fashion campaign flat lay containing exactly four items: a sky-blue cotton shirt, beige pleated trousers, white trainers and a tan belt, arranged without overlap on ivory paper, each item fully visible, no text or logos.",
+    "criteria": [
+      "exactly four fashion items",
+      "sky-blue shirt",
+      "beige pleated trousers",
+      "white trainers",
+      "tan belt",
+      "no overlap or text"
+    ],
+    "display_assets": {
+      "image": {
+        "path": "images/ai_f7e440b8ba1b759c_image.png",
+        "sha256": "9a2a01e006e0e924ff3dfd859370ec6704132ee1161b1be4a388e04051a021ba"
+      }
+    },
+    "evidence_sha256": {
+      "image": "9a2a01e006e0e924ff3dfd859370ec6704132ee1161b1be4a388e04051a021ba"
+    }
+  },
+  {
+    "assessment_id": "ai_7b445805f60afe95",
+    "pair": "reconstruction",
+    "brief": "Compare the source photograph with four model-generated object previews.",
+    "criteria": [
+      "visible_object_type_and_major_parts",
+      "visible_colour_and_texture_similarity",
+      "cross_view_structural_coherence",
+      "unseen_surface_correctness"
+    ],
+    "display_assets": {
+      "input": {
+        "path": "images/ai_7b445805f60afe95_input.png",
+        "sha256": "7086ba35b51cd1365589f9ab70e2b726634c5147d978623bf299ed70d7f05c52"
+      },
+      "view_00": {
+        "path": "images/ai_7b445805f60afe95_view_00.png",
+        "sha256": "2bb250fed572844a0dcfcfc5cedfd0185e42604bc67be0dceacca7027809c7d8"
+      },
+      "view_01": {
+        "path": "images/ai_7b445805f60afe95_view_01.png",
+        "sha256": "d28c93fefe5e2dde201a1ecd4a28f4a4bfab0530bfbcc5b98cea1d4e59e6f390"
+      },
+      "view_02": {
+        "path": "images/ai_7b445805f60afe95_view_02.png",
+        "sha256": "73b1d2420989fbec5bf823e12bee8e76ca221e3e26a1522c2b595ee0df3cf883"
+      },
+      "view_03": {
+        "path": "images/ai_7b445805f60afe95_view_03.png",
+        "sha256": "2d3124faa9926a425f03ba6a6e0360dce3d2ae5b8a64a96f8a0cfd8f2d2d1a90"
+      }
+    },
+    "evidence_sha256": {
+      "input": "7086ba35b51cd1365589f9ab70e2b726634c5147d978623bf299ed70d7f05c52",
+      "view_00": "2bb250fed572844a0dcfcfc5cedfd0185e42604bc67be0dceacca7027809c7d8",
+      "view_01": "d28c93fefe5e2dde201a1ecd4a28f4a4bfab0530bfbcc5b98cea1d4e59e6f390",
+      "view_02": "73b1d2420989fbec5bf823e12bee8e76ca221e3e26a1522c2b595ee0df3cf883",
+      "view_03": "2d3124faa9926a425f03ba6a6e0360dce3d2ae5b8a64a96f8a0cfd8f2d2d1a90"
+    },
+    "card_image": {
+      "path": "images/ai_7b445805f60afe95_card.png",
+      "sha256": "221ea55876dfa01d2bc54f274a5833ca5c32e8cff9c81fbc26c1e1e4d22483d6"
+    }
+  }
+]

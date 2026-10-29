@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-10-28T16:00:54.975109+00:00",
+  "existing_token_present": true,
+  "terms_accepted_by_script": false,
+  "free_disk_bytes": 400346128384,
+  "models": [
+    {
+      "repo_id": "stabilityai/stable-point-aware-3d",
+      "revision": "5699918cb34f55cd7d828493d2725f3038313761",
+      "gated": "auto",
+      "licence": "other",
+      "files": [
+        {
+          "filename": "config.yaml",
+          "bytes": 3996
+        },
+        {
+          "filename": "model.safetensors",
+          "bytes": 7326949440
+        }
+      ],
+      "anonymous": {
+        "config_access": "blocked",
+        "error_type": "GatedRepoError",
+        "http_status": 401
+      },
+      "existing_user_auth": {
+        "config_access": "blocked",
+        "error_type": "GatedRepoError",
+        "http_status": 401
+      }
+    },
+    {
+      "repo_id": "stabilityai/stable-fast-3d",
+      "revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+      "gated": "auto",
+      "licence": "other",
+      "files": [
+        {
+          "filename": "config.yaml",
+          "bytes": 2405
+        },
+        {
+          "filename": "model.safetensors",
+          "bytes": 4024289892
+        }
+      ],
+      "anonymous": {
+        "config_access": "blocked",
+        "error_type": "GatedRepoError",
+        "http_status": 401
+      },
+      "existing_user_auth": {
+        "config_access": "blocked",
+        "error_type": "GatedRepoError",
+        "http_status": 401
+      }
+    }
+  ]
+}

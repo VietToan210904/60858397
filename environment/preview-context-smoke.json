@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-10-28T20:07:15.151070+00:00",
+  "diagnostic_only": true,
+  "synthetic_fixture": true,
+  "benchmark_result": false,
+  "scene": "unit box, 64x64, one standard camera",
+  "graphics": {
+    "vendor": "NVIDIA Corporation",
+    "renderer": "NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2",
+    "version": "4.6.0 NVIDIA 610.88"
+  },
+  "numpy": "1.26.4",
+  "pyrender": "0.1.45",
+  "foreground_pixels": 1515,
+  "rendering_source_sha256": "d1e7b31204764b1e3f8bdc5ce53519e4847ef4a455562c23cc9dd9236daa63a1",
+  "artifacts": {
+    "environment\\preview-context-smoke\\view_00.png": "827435088d365cd8dd281054caf51381e2dd08fbe7590fc90f20ecc7d0ce3efb",
+    "environment\\preview-context-smoke\\view_00_mask.png": "aeab6922c1403a56a662b534905d256934c80d536cec44c1a25ea6d48324123d"
+  }
+}

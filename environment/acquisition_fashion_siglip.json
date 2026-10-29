@@ -1,0 +1,49 @@
+{
+  "timestamp_utc": "2026-10-28T15:34:15.617790+00:00",
+  "model": "fashion_siglip",
+  "model_id": "Marqo/marqo-fashionSigLIP",
+  "resolved_revision": "c56244cc94f92419e8369fa71efdaf403b124ce8",
+  "download_bytes": 815902644,
+  "free_disk_bytes": 402350419968,
+  "destination": "models\\fashion_siglip",
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 7287
+    },
+    {
+      "path": "open_clip_config.json",
+      "size_bytes": 881
+    },
+    {
+      "path": "open_clip_model.safetensors",
+      "size_bytes": 812658408
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size_bytes": 2533
+    },
+    {
+      "path": "spiece.model",
+      "size_bytes": 791656
+    },
+    {
+      "path": "tokenizer.json",
+      "size_bytes": 2421300
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 20579
+    }
+  ],
+  "status": "downloaded",
+  "sha256": {
+    "README.md": "34efcd14c3a139d0591a26843ff06692b87726071faca297a3ce154364398977",
+    "open_clip_config.json": "bf024fad1091ed3280e48f8ff2dcdf68785abaa56dad02588c0feed1a6529c42",
+    "open_clip_model.safetensors": "88908200434959fa3154ef79d408aac33341e8797fe5ca8ca6f0463aab32e6b3",
+    "special_tokens_map.json": "acc196266a358dbcf2445f7b18f610c3c8763a5f0fdbf753f6aa0607631e7ba9",
+    "spiece.model": "d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86",
+    "tokenizer.json": "5bc9b16db0e7adf5c9a2bd57f8f9c8e6ebdaabe75679cc956d007f78036d5b4a",
+    "tokenizer_config.json": "0724d06763bf8fa5464c3e964fa754d00c5953e49239554f3385677db09956ed"
+  }
+}

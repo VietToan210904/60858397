@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-28T23:44:14.086632+00:00",
+  "purpose": "Supplementary AI visual/source assessment, not human qrels",
+  "rankings_read": false,
+  "order": "lexicographic product_id, 25 images per sheet",
+  "n_products": 600,
+  "source_sha256": {
+    "catalogue": "5a67c285d781e5572c24655c934373601e9a015a127d792086e75f1737839047",
+    "queries": "fdf3a5617413a26f56e2051d9d491ea5fef718d4a47c796abda7669440a173a4",
+    "original_human_qrels": "bd7165716ada5828e40e8c095e3dea483f3a5dd66f7fcda052350eb769bb6740",
+    "multilingual_source": "c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324"
+  },
+  "product_evidence_sha256": "ac72ec1ca6be82346a2021141b938bcd9a8a40c2d6b8be8eb3b05c0538d50a73",
+  "product_evidence_canonical_sha256": "107195df794fa1060a863d388fbaab098c844aa72caef07dd68836baf88382bc",
+  "sheet_sha256": {
+    "batch-01.jpg": "8c24173ec8eafaafd3c8881d6830df61f2760708624a217c7884c33b2bb1bdd2",
+    "batch-02.jpg": "f92ee7c97a16281e496eb18af12233840f7ce0dad1c79659f9136b0145fdaba4",
+    "batch-03.jpg": "4200adef9042765d36ebda4cae06c6cb24e5374ed2034d0d7e9cbd19b0bc6529",
+    "batch-04.jpg": "6bfacdd1d174f5496398883ea3d35f6dc1a68aa90d37efc27d17f2f3bae5fb49",
+    "batch-05.jpg": "59cd8ff2722cb4d7d65b0ed35c81782bc503c79e9b01d238434a1685827b93e6",
+    "batch-06.jpg": "1970a47e525b6049f73ad9572d71acb3e75c3704cfc0034b4f4cf10f7b9666c6",
+    "batch-07.jpg": "165d662f810bb8423f405f9b82e1281cdf83b7e426391e7538a9bea0a522a2f5",
+    "batch-08.jpg": "f757621d512017d55dca1c0c233fe97293cc01102359cab64d9f909c796a799b",
+    "batch-09.jpg": "df9a729ee826dfd52cea1daf20f3f2de4304ca394c6c59e8f8fb51e51f054696",
+    "batch-10.jpg": "9984989838f7682ede4fe11651e052384a198b3d4c04f57cb4cd7804b8c18a9a",
+    "batch-11.jpg": "ca3927b3d9c8a9b01713a5c32e5554ed48fbe2ae013c3372eccbeaf7bd8e7986",
+    "batch-12.jpg": "6a5cbfc089d6d2978f9d5e56a7c4f85fb7bcaee43cf7d40fbcbc3968143de61e",
+    "batch-13.jpg": "737b9113a38dc8cb3c2e3a1068e757748e289766859e4e60b84c0b58c4dc3312",
+    "batch-14.jpg": "ad4dd19b10119c51d7e4d61c2cb09e0ec726123af360c51f6e4e2d59dd47fae8",
+    "batch-15.jpg": "31f7005a3807771f212403044b1c99e5932321e7524ac5c6e6f0546bfa4112e1",
+    "batch-16.jpg": "7e2342dbf94df34f8528590389c1731992cb4582a5f19b31dbf3acd240f5d3ec",
+    "batch-17.jpg": "19f6030fc91de301cccff34ae58bc77011f5d9e150b15326d168b62ff83d3f92",
+    "batch-18.jpg": "b277bf9a7db50d7e33b8311a7df313e1d35e20980a5bdb548765031833e970c6",
+    "batch-19.jpg": "cc7a99aeb339941c9b34d49de1f6449eba13eb36bc24b680f6f3ef09acce7c34",
+    "batch-20.jpg": "9c37fec6083d68ef0ab6af07497d48a46800c89ae24b9c96d855c31bd2206b52",
+    "batch-21.jpg": "730b3565093c25375b6dbf4a19a8a2bb4e0b107a1d515934e011c6ba26079670",
+    "batch-22.jpg": "21aff5ff5a9fdb593113c4bbc3a71b9fe95cfe9be948592eb02a61cb18908d29",
+    "batch-23.jpg": "81c1f7478b70baa574e9b5895d9fec9001578cc4afadeeb8ce4496421750040a",
+    "batch-24.jpg": "fa0a38dfc248844d3e403f6185fe7bce87bd021067bfb76d372c3c57157c09fc"
+  },
+  "implementation_sha256": "c71cd720da3b1ebee5137fe92cb84bb4fd66a27aede74f138b9a33fb9b07fc00"
+}

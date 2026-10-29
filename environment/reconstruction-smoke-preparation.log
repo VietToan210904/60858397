@@ -1,0 +1,24 @@
+{
+  "prepared": [
+    {
+      "object_id": "abo-B00MWQC5Y4",
+      "input_sha256": "0f01dd7337405ca593f307fbdfe1d5999dc30527dc6608a898d65803b0807b2d",
+      "prepared_size": [
+        551,
+        1024
+      ]
+    },
+    {
+      "object_id": "abo-B06W9GB1JR",
+      "input_sha256": "dccaf6257a8151e9b4255b71a7ba608ad47368c53659675aa5ba7ed18d1b80ae",
+      "prepared_size": [
+        774,
+        1024
+      ]
+    }
+  ],
+  "background_model_bytes": 4574861,
+  "gpu_inference_performed": false,
+  "geometric_metrics_eligible": false,
+  "human_review_status": "pending"
+}

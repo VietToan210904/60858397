@@ -1,0 +1,5 @@
+smoke_only: true
+evaluation:
+  assistance:
+    dataset_dir: datasets/assistance_smoke
+    smoke_scenarios: 2

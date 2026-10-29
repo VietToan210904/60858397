@@ -1,0 +1,61 @@
+# Native workstation deployment. Auxiliary paths resolve relative to each models/<key> weights directory.
+# Binary hashes identify this exact reviewed build; a marker rebuild must record its own corresponding hashes.
+models:
+  spar3d:
+    checkout: vendor/SPAR3D
+    source_revision: fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1
+    python: .venv-spar3d/Scripts/python.exe
+    weights_path: models/spar3d
+    checkpoint_files:
+      config.yaml:
+        size_bytes: 3996
+        git_blob_sha1: 691b7b50f13599b03ea5eaaa5fdc01316c31bbf5
+      model.safetensors:
+        size_bytes: 7326949440
+        sha256: 62673b63fd9dad425e74b213ffe8501262d9621d5174310ac33017747be31f58
+    auxiliary:
+      dinov2: &id001
+        path: ../dinov2_large
+        repo_id: facebook/dinov2-large
+        revision: 47b73eefe95e8d44ec3623f8890bd894b6ea2d6c
+        model_sha256: 399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23
+        config_sha256: 12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0
+      alpha_clip:
+        path: ../spar3d_clip/ViT-L-14-336px.pt
+        sha256: 3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02
+    extension_build:
+      receipt: ../../environment/native-build-spar3d.json
+      receipt_sha256: 92d8c9f603c11c376003077b2e85ce312107b178dc94be742914dffc170730fc
+      patch_sha256: c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d
+      binary_sha256:
+        texture_baker._C: a2423056b11192d0bd798d07d62448adb60604bae823ccbea74998afc9f2ae66
+        uv_unwrapper._C: ca22c8966e3b38e96f0421786f30cb6ade642ea5fe8d5becc752920eb24ff9ea
+  sf3d:
+    checkout: vendor/SF3D
+    source_revision: ff21fc491b4dc5314bf6734c7c0dabd86b5f5bb2
+    python: .venv-sf3d/Scripts/python.exe
+    weights_path: models/sf3d
+    checkpoint_files:
+      config.yaml:
+        size_bytes: 2405
+        git_blob_sha1: 4a44aec5e6af76975afcaedae7e888b96412c832
+      model.safetensors:
+        size_bytes: 4024289892
+        sha256: a3416e1cf654e7d4f5e75f116cec2c3f0a14501a77d30c2f6068bbda178de388
+    auxiliary:
+      dinov2: *id001
+      open_clip:
+        path: ../sf3d_clip/open_clip_pytorch_model.bin
+        repo_id: laion/CLIP-ViT-B-32-laion2B-s34B-b79K
+        revision: 1a25a446712ba5ee05982a381eed697ef9b435cf
+        sha256: 1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad
+    extension_build:
+      receipt: ../../environment/native-build-sf3d.json
+      receipt_sha256: 50954cff8269fcb9a82b152494180216949c13cb4de2ee9ff59811283e25930f
+      patch_sha256: c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d
+      binary_sha256:
+        texture_baker._C: eef43fa5997bda2424daeac5c0c43ca8f478d0a93cf320f0e144428fda36b3cc
+        uv_unwrapper._C: 94c74559ace87ac666526d49e16f3f4cbab55c20ce269c34c5d18a53d97d2120
+evaluation:
+  reconstruction:
+    dataset_dir: datasets/reconstruction

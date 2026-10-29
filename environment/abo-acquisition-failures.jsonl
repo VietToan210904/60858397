@@ -1,0 +1,1 @@
+{"timestamp_utc": "2026-10-28T16:12:44.258386+00:00", "type": "ReadTimeout", "message": "Initial600image acquisition encountered TLS handshake/read timeout against official global S3 endpoint;249successful images preserved; retried using official regional endpoint with persistent sessions and bounded retries", "model_inference_attempted": false}

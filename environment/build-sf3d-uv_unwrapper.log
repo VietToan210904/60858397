@@ -1,0 +1,21 @@
+'vswhere.exe' is not recognized as an internal or external command,
+operable program or batch file.
+**********************************************************************
+** Visual Studio 2026 Developer Command Prompt v18.0
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Processing c:\users\tonyh_yxuq8za\60858397_evaluation\vendor\sf3d\uv_unwrapper
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: uv_unwrapper
+  Building wheel for uv_unwrapper (setup.py): started
+  Building wheel for uv_unwrapper (setup.py): finished with status 'done'
+  Created wheel for uv_unwrapper: filename=uv_unwrapper-0.0.1-cp311-cp311-win_amd64.whl size=117968 sha256=03de100a04cabf6bd72d14f32f4291047d308413e56a26490775a98f2a0166b3
+  Stored in directory: C:\Users\tonyh_yxuq8za\AppData\Local\Temp\pip-ephem-wheel-cache-6tjye83e\wheels\ed\16\d8\375e77f9e9d0f4846afbe43f6193d5e2cd439f1bc3623400c9
+Successfully built uv_unwrapper
+Installing collected packages: uv_unwrapper
+Successfully installed uv_unwrapper-0.0.1
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: python.exe -m pip install --upgrade pip

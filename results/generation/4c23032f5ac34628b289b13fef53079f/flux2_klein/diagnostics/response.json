@@ -1,0 +1,8 @@
+{
+  "results": [],
+  "status": "blocked",
+  "python": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "torch_version": "2.11.0+cpu",
+  "cuda_version": null,
+  "error": "RuntimeError: CUDA unavailable: torch=2.11.0+cpu, compiled_cuda=None; local GPU execution required"
+}

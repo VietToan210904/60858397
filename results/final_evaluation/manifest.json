@@ -1,0 +1,23 @@
+{
+  "generated_at_utc": "2026-10-29T00:02:52.520383+00:00",
+  "source_sha256": {
+    "src/stylesphere/reporting/final_report.py": "1f17cb630792e78dbba56697584dc0826abe66647ea812f9df15468c970a8631",
+    "results/retrieval/ai_assessment/v1/summary.json": "cebf2a94a422e89dd9b7f3df8a50b339dad53731adba383263e34ca91a621ee8",
+    "results/ai_visual_assessment/summary.json": "916d1fa32466ac26670c3c080d8a22ae30706be63f775771ec3771567d517da8",
+    "results/ai_visual_assessment/decision_coverage.json": "d55b931ee2f4b213b07c33fb7330554723a5df1019d3a64fe1d6d375768b6b2c",
+    "results/assistance/ai_assessment/v1/summary.json": "c8a325a58a1fbcb644d1d484bdf3036f458401b35a6ca55d136217e70bd5da35",
+    "results/reference_test/reference_summary.json": "f1b523c04d8123d3220d9803a371b442bac2bf1d2fbfe86e132887dec712e763",
+    "results/retrieval/records.jsonl": "a6a04f3a52e6080f5cfa8060a0fe9d4b5a50d0f1c04c14c8177c74be93fe3d23",
+    "results/generation/records.jsonl": "a5e220ed946c09b85e4f32f49d0dd932f68cb7c3381143e3cd594a3ac707d443",
+    "results/assistance/records.jsonl": "a4de4c4880f399e3aa9218f8e1084dce920557f93c7ad8ab5369a42561c01dd1",
+    "results/reconstruction/records.jsonl": "c90b97c30eb1149626e941e3457e5313f87c5191b02280feec70c6b40d6de001"
+  },
+  "generated_sha256": {
+    "assistance_paired_comparisons.csv": "8eac88e05dfe496428bb15745f38f81d9f64276d955c1a00df7c700bb19ac53d",
+    "deployment_results.csv": "24b92e5d1280865e3af9852190295960802d3500b3996b1dc189dbda742a0fe6",
+    "quality_overview.png": "5bc0972c8b9ab8755cf72273e921ca2715ea9211275548d12a76c37394cb81e9",
+    "quality_overview.svg": "7c7ade1b38f2e4fcbcb617f3ddbceb637cc98f14ffde6404574c57797071c10c",
+    "REPORT.md": "3794d9bc6b744ac9f3c29c586c1a2aaabd174029c5f1d33db6411787d7602838",
+    "summary.json": "21316bdded073a1159a53607ff39f8726f545a3b7ae68969f3ee56ea94c29696"
+  }
+}

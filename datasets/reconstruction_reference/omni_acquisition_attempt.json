@@ -1,0 +1,59 @@
+{
+  "source": "OmniObject3D",
+  "official_repo_commit": "d1e05fa62759089298c25bcccf83c94d718375c4",
+  "official_repo": "https://github.com/omniobject3d/OmniObject3D",
+  "licence": "CC-BY-4.0",
+  "network_cap_bytes": 3000000000,
+  "expansion_cap_bytes": 20000000000,
+  "archives": [],
+  "version_check_status": "before_metadata_checked_after_pending",
+  "disk_preflight": {
+    "free_bytes": 342445056000,
+    "required_upper_bound_bytes": 22637956419
+  },
+  "planned_official_archives": [
+    {
+      "category": "shoe",
+      "file_id": "1ymHpMULSCdgvwJU6--wLMVvsNczD31X9",
+      "revision": "0BzPUStBk3iXMK3VhYTBWKzV5YjJIZlNCZU1mWHpVQ2JrSyt3PQ",
+      "size_bytes": 1516939144,
+      "modified_time": "2023-10-16T01:51:44.000Z"
+    },
+    {
+      "category": "handbag",
+      "file_id": "1jLEH2_VHNSf6x0QZxeEczWoFLfozwuEC",
+      "revision": "0BzPUStBk3iXMNFUyUXBVaE1iU1JxVzEzQVUvRkNQVnVSbjljPQ",
+      "size_bytes": 1121017275,
+      "modified_time": "2023-10-15T20:21:49.000Z"
+    }
+  ],
+  "attempts": [
+    {
+      "category": "shoe",
+      "at_utc": "2026-10-28T23:39:35.549351+00:00",
+      "status": "blocked",
+      "archive_binary_bytes": 0,
+      "error": "Official provider quota exceeded; no bypass attempted",
+      "provider_notice": {
+        "type": "quota_exceeded",
+        "body_bytes": 2040,
+        "body_sha256": "685cd59217b429028be6b972e6f77b8e254f87e9d10f3c7bee13faa9560f31c1",
+        "message": "Too many users have viewed or downloaded this file recently; may take up to24hours. No quota bypass attempted."
+      }
+    },
+    {
+      "category": "handbag",
+      "at_utc": "2026-10-28T23:39:38.676926+00:00",
+      "status": "blocked",
+      "archive_binary_bytes": 0,
+      "error": "Official provider quota exceeded; no bypass attempted",
+      "provider_notice": {
+        "type": "quota_exceeded",
+        "body_bytes": 2040,
+        "body_sha256": "321af9e660d91099fb0969c234d8d84029a35dd6724677e5fda3bf81e896baf0",
+        "message": "Too many users have viewed or downloaded this file recently; may take up to24hours. No quota bypass attempted."
+      }
+    }
+  ],
+  "status": "blocked_no_archive_downloaded"
+}

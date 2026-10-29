@@ -1,0 +1,172 @@
+{
+  "checked_at_utc": "2026-10-28T23:57:04.110335+00:00",
+  "integrity_passed": true,
+  "freeze_id": "e1dc8ade7523a3d1ef68da4dffa2aed358e9594e5fa77be91349d5f87c6d67ff",
+  "freeze_precedes_development": true,
+  "interpretation": "Explicit independently normalized shape, additional reference-assisted rigid pose alignment, no absolute reconstruction accuracy",
+  "checks": [
+    "Actual mesh deterministic surface resampling",
+    "Raw source/checkpoint/library/native/input/artifact bindings",
+    "Independent measurement and registration points",
+    "Proper rigid transforms and selected fixed trial",
+    "Recomputed Chamfer/F-scores and4view silhouette IoU"
+  ],
+  "splits": {
+    "development": {
+      "raw_attempts": 8,
+      "scored_objects_checked": 8,
+      "expected_executions": 8,
+      "coverage_complete": true,
+      "models": {
+        "sf3d": {
+          "attempts": 4,
+          "successful_exports": 4,
+          "failed": 0,
+          "blocked": 0,
+          "mean_inference_s": 0.6964365749881836,
+          "recorded_model_load_s_values": [
+            7.819900800008327
+          ],
+          "mean_preprocessing_s": 0.01561412498995196,
+          "mean_export_s": 0.024111899998388253,
+          "mean_end_to_end_s_excluding_load_warmup": 0.7370015249762218,
+          "peak_allocated_mib": 6128.98291015625,
+          "peak_reserved_mib": 7342.0,
+          "checkpoint_revision": [
+            "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778"
+          ],
+          "source_revision": [
+            "ff21fc491b4dc5314bf6734c7c0dabd86b5f5bb2"
+          ],
+          "runner_source_sha256": [
+            "2e2233d0a72e1ab55c2e7b0b576931c10f56cf8fe99f0711916a296f0a970b90"
+          ],
+          "adapter_source_sha256": [
+            "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351"
+          ],
+          "run_ids": [
+            "0f18ef300df440d584b95ff45fdd86f0"
+          ]
+        },
+        "spar3d": {
+          "attempts": 4,
+          "successful_exports": 4,
+          "failed": 0,
+          "blocked": 0,
+          "mean_inference_s": 13.679171424970264,
+          "recorded_model_load_s_values": [
+            0.5689908000058495
+          ],
+          "mean_preprocessing_s": 0.013513900004909374,
+          "mean_export_s": 0.028653525005211122,
+          "mean_end_to_end_s_excluding_load_warmup": 13.722324000002118,
+          "peak_allocated_mib": 8019.16455078125,
+          "peak_reserved_mib": 8482.0,
+          "checkpoint_revision": [
+            "5699918cb34f55cd7d828493d2725f3038313761"
+          ],
+          "source_revision": [
+            "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1"
+          ],
+          "runner_source_sha256": [
+            "2e2233d0a72e1ab55c2e7b0b576931c10f56cf8fe99f0711916a296f0a970b90"
+          ],
+          "adapter_source_sha256": [
+            "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351"
+          ],
+          "run_ids": [
+            "61d912c9c72d4f11b53f32c71eae5ba6"
+          ]
+        }
+      }
+    },
+    "test": {
+      "raw_attempts": 40,
+      "scored_objects_checked": 40,
+      "expected_executions": 40,
+      "coverage_complete": true,
+      "models": {
+        "sf3d": {
+          "attempts": 20,
+          "successful_exports": 20,
+          "failed": 0,
+          "blocked": 0,
+          "mean_inference_s": 0.676589934999356,
+          "recorded_model_load_s_values": [
+            6.936709300032817
+          ],
+          "mean_preprocessing_s": 0.008266360001289285,
+          "mean_export_s": 0.021797284999047407,
+          "mean_end_to_end_s_excluding_load_warmup": 0.7075891449960181,
+          "peak_allocated_mib": 6128.98291015625,
+          "peak_reserved_mib": 7344.0,
+          "checkpoint_revision": [
+            "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778"
+          ],
+          "source_revision": [
+            "ff21fc491b4dc5314bf6734c7c0dabd86b5f5bb2"
+          ],
+          "runner_source_sha256": [
+            "2e2233d0a72e1ab55c2e7b0b576931c10f56cf8fe99f0711916a296f0a970b90"
+          ],
+          "adapter_source_sha256": [
+            "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351"
+          ],
+          "run_ids": [
+            "8d68cead20e9425e8cdc98ebf8504fda"
+          ]
+        },
+        "spar3d": {
+          "attempts": 20,
+          "successful_exports": 20,
+          "failed": 0,
+          "blocked": 0,
+          "mean_inference_s": 13.352631570002995,
+          "recorded_model_load_s_values": [
+            0.6761927999905311
+          ],
+          "mean_preprocessing_s": 0.00919574000290595,
+          "mean_export_s": 0.023360524998861366,
+          "mean_end_to_end_s_excluding_load_warmup": 13.386085550001008,
+          "peak_allocated_mib": 8021.24658203125,
+          "peak_reserved_mib": 8484.0,
+          "checkpoint_revision": [
+            "5699918cb34f55cd7d828493d2725f3038313761"
+          ],
+          "source_revision": [
+            "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1"
+          ],
+          "runner_source_sha256": [
+            "2e2233d0a72e1ab55c2e7b0b576931c10f56cf8fe99f0711916a296f0a970b90"
+          ],
+          "adapter_source_sha256": [
+            "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351"
+          ],
+          "run_ids": [
+            "80c4ff1fec9449ee8c86a8507e4f858d"
+          ]
+        }
+      }
+    }
+  },
+  "errors": [],
+  "test_authorization_precedes_all_test_records": true,
+  "source_sha256": {
+    "environment/reference_benchmark_freeze.json": "1a685a9e1bae1fc7af6bb1518f05a36dffe80d73651b48d79c8de66aa8c87cfb",
+    "environment/reference_benchmark_test_authorization.json": "c367e737c011129cf6895b1ac04b15f244e83359d3f172774b7848175d4ea58b",
+    "config/reconstruction_reference_protocol.json": "e9548dc2670075e7a430d5bbdda8850ddcb2e29c4a5b4cde451aa3add7410596",
+    "datasets/reconstruction_reference/objects.csv": "d8447abd8f68e7f05e9faab3db32ced4940b4112b6ecc63b19c23c788d990197",
+    "datasets/reconstruction_reference/development/objects.csv": "734e450bc4d9b33ac8ec5b8ddeaf7b3bc74f5e8cb59ff4f1f603b101ed99615a",
+    "datasets/reconstruction_reference/preparation_manifest.json": "35357cddf57e626db9046b9d977531007ecfef8746acc63ef66cbb517e59fe5c",
+    "scripts/verify_reference_geometry.py": "f8cd78c33c28616c19299bbee2a8fd34d11f3289c65e6ce4ed64f8f8bcf979e8",
+    "src/stylesphere/reconstruction/reference_benchmark.py": "a9e977f948fab67325716999559a92edb5b702c1f6758809cde481ba381269c7",
+    "results/reference_development/reconstruction/records.jsonl": "8b75bedf15c1e8f21f1cb5067c84b99589da1218ff4139d1abaae588c2432597",
+    "results/reference_development/reference_metrics.jsonl": "2abc7b877c90f2b251965e5caf07b963fec09e983a788f2f7f9441566d69e3d4",
+    "results/reference_development/reference_summary.json": "65f2a2dfc08e4b1e6b36376f9be4fcb142b6bf730f5ed2c4076e9bda6ce7f9fd",
+    "results/reference_development/reference_per_case.csv": "d386a26801619b4aeb7e7b1ca35ddd5d3c5bcc875aae022686d34eb6de4e4e9e",
+    "results/reference_test/reconstruction/records.jsonl": "a0fc8d1b4347aedbd9f4cbe4e45865c7849aeeb29c4fdbfb518827cd2172af4a",
+    "results/reference_test/reference_metrics.jsonl": "cadd4ff509937e389e5a7284125463ae3d5f3e4edec69709289d5f6e27c7cf40",
+    "results/reference_test/reference_summary.json": "f1b523c04d8123d3220d9803a371b442bac2bf1d2fbfe86e132887dec712e763",
+    "results/reference_test/reference_per_case.csv": "ac1ebbb587d9422069836f8c956f5d4c1993087777b4ba75ea7c2327af3eed35"
+  }
+}

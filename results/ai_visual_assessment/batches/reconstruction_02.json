@@ -1,0 +1,537 @@
+{
+  "kind": "post_hoc_supplementary_ai_visual_packet",
+  "protocol_sha256": "299a340bf2fd5f87b8399b62fde3855117a84cf0bf61146474f9a367dd02f7f4",
+  "selection_sha256": "c9854ffcf88fc81f931e677e7137da8b6c7e60096bf26c378f86baa0ddeb6deb",
+  "pair": "reconstruction",
+  "batch_number": 2,
+  "cards": [
+    {
+      "assessment_id": "ai_78877e60b4b27746",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_78877e60b4b27746_input.png",
+          "sha256": "57cfeea2841be63ed1440469a8ef47e9451444e0674b85cb1bf06dfdbb8abc12"
+        },
+        "view_00": {
+          "path": "images/ai_78877e60b4b27746_view_00.png",
+          "sha256": "029926634d428d1d79f613f16f85199ea6f8a262b0ed77bea8e3780b197b5c33"
+        },
+        "view_01": {
+          "path": "images/ai_78877e60b4b27746_view_01.png",
+          "sha256": "5b58d7771c9380a6ba66d5474bc63ddc7420d4d8f7ecbdb5630b5d34931eb8a1"
+        },
+        "view_02": {
+          "path": "images/ai_78877e60b4b27746_view_02.png",
+          "sha256": "c10102cd52e358bdd836d2f202b6029a54a24fca62bbe0143036af83d801ffb4"
+        },
+        "view_03": {
+          "path": "images/ai_78877e60b4b27746_view_03.png",
+          "sha256": "a34f5403cd9f45cca98cb774c2ae090a206ec8a0b4bbdc8b4e92ce69124c4254"
+        }
+      },
+      "evidence_sha256": {
+        "input": "57cfeea2841be63ed1440469a8ef47e9451444e0674b85cb1bf06dfdbb8abc12",
+        "view_00": "029926634d428d1d79f613f16f85199ea6f8a262b0ed77bea8e3780b197b5c33",
+        "view_01": "5b58d7771c9380a6ba66d5474bc63ddc7420d4d8f7ecbdb5630b5d34931eb8a1",
+        "view_02": "c10102cd52e358bdd836d2f202b6029a54a24fca62bbe0143036af83d801ffb4",
+        "view_03": "a34f5403cd9f45cca98cb774c2ae090a206ec8a0b4bbdc8b4e92ce69124c4254"
+      },
+      "card_image": {
+        "path": "images/ai_78877e60b4b27746_card.png",
+        "sha256": "82982e1669a6961208a9ce245b8fe37c59243f4dd14e2be52b4df61246ca9589"
+      }
+    },
+    {
+      "assessment_id": "ai_787c85d349498413",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_787c85d349498413_input.png",
+          "sha256": "45e4cff2020e16efa1c3fd68ed13918e7f58d426966cc7073edf0db5711d482d"
+        },
+        "view_00": {
+          "path": "images/ai_787c85d349498413_view_00.png",
+          "sha256": "b8c8afb7300f6f6c792d6f99055b0ed7aae1a21b987a2e35194ff431a733c2e7"
+        },
+        "view_01": {
+          "path": "images/ai_787c85d349498413_view_01.png",
+          "sha256": "473d02431c9ec53061ad51166c7f8ba192f855a9b3a85b5f525439353f766b92"
+        },
+        "view_02": {
+          "path": "images/ai_787c85d349498413_view_02.png",
+          "sha256": "cb64eebf0fa716589dbc36ef61a1a02111a96ad8b8ba0ed3c84d1191d11de4b1"
+        },
+        "view_03": {
+          "path": "images/ai_787c85d349498413_view_03.png",
+          "sha256": "2c76fdd664830fa7e0546549acde809670fd734a0ae7c27f43e579a205dc4851"
+        }
+      },
+      "evidence_sha256": {
+        "input": "45e4cff2020e16efa1c3fd68ed13918e7f58d426966cc7073edf0db5711d482d",
+        "view_00": "b8c8afb7300f6f6c792d6f99055b0ed7aae1a21b987a2e35194ff431a733c2e7",
+        "view_01": "473d02431c9ec53061ad51166c7f8ba192f855a9b3a85b5f525439353f766b92",
+        "view_02": "cb64eebf0fa716589dbc36ef61a1a02111a96ad8b8ba0ed3c84d1191d11de4b1",
+        "view_03": "2c76fdd664830fa7e0546549acde809670fd734a0ae7c27f43e579a205dc4851"
+      },
+      "card_image": {
+        "path": "images/ai_787c85d349498413_card.png",
+        "sha256": "ec7e3e7f662069e1dbef93c8cfaba592b86c8d3412689ca3ab618913cf919909"
+      }
+    },
+    {
+      "assessment_id": "ai_48c38c5f48247946",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_48c38c5f48247946_input.png",
+          "sha256": "22de0a76335b0d0f0e25a8f4bc074341004e53c6aa4a6537c967f4ccd882e9d4"
+        },
+        "view_00": {
+          "path": "images/ai_48c38c5f48247946_view_00.png",
+          "sha256": "4d8be049f2a5008e13bda60bcc997a8cedb4de003cd9bede676fdf528b4214a5"
+        },
+        "view_01": {
+          "path": "images/ai_48c38c5f48247946_view_01.png",
+          "sha256": "96fa39430295e82624e989cfc4c1ebe088400bed896b70b9f50c3eeecc9186cf"
+        },
+        "view_02": {
+          "path": "images/ai_48c38c5f48247946_view_02.png",
+          "sha256": "5226ccdd76071f0155e3543665e3a92279fa4c1b174b39007fe251a703642af1"
+        },
+        "view_03": {
+          "path": "images/ai_48c38c5f48247946_view_03.png",
+          "sha256": "bd2cd8d29feddb409368b190e55dbfe8f7199b28126fff13993fc904f37311cc"
+        }
+      },
+      "evidence_sha256": {
+        "input": "22de0a76335b0d0f0e25a8f4bc074341004e53c6aa4a6537c967f4ccd882e9d4",
+        "view_00": "4d8be049f2a5008e13bda60bcc997a8cedb4de003cd9bede676fdf528b4214a5",
+        "view_01": "96fa39430295e82624e989cfc4c1ebe088400bed896b70b9f50c3eeecc9186cf",
+        "view_02": "5226ccdd76071f0155e3543665e3a92279fa4c1b174b39007fe251a703642af1",
+        "view_03": "bd2cd8d29feddb409368b190e55dbfe8f7199b28126fff13993fc904f37311cc"
+      },
+      "card_image": {
+        "path": "images/ai_48c38c5f48247946_card.png",
+        "sha256": "8518b76a962f832f90dc977e08d700c8e0c0bc54c7904d3047f366448595ed53"
+      }
+    },
+    {
+      "assessment_id": "ai_d5a5f381bfa841a5",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_d5a5f381bfa841a5_input.png",
+          "sha256": "129f04c7b37182217606ccb3bab1de127e8d8dc590b59d47432908d747ac200b"
+        },
+        "view_00": {
+          "path": "images/ai_d5a5f381bfa841a5_view_00.png",
+          "sha256": "1ed9112842b38cb2f7cf461bdf19f83ab97f21af92fdb1ae4ec19e9bf5ecef67"
+        },
+        "view_01": {
+          "path": "images/ai_d5a5f381bfa841a5_view_01.png",
+          "sha256": "e6bd1483a42d8fa992775d0cad029e4838bd261fb5cc472984c0bdd3b43dcd1c"
+        },
+        "view_02": {
+          "path": "images/ai_d5a5f381bfa841a5_view_02.png",
+          "sha256": "7863fed3fb6b5368e8a7434157a8de17a6e3641c62359daf5dc91b6994299522"
+        },
+        "view_03": {
+          "path": "images/ai_d5a5f381bfa841a5_view_03.png",
+          "sha256": "40812f4e3d1ad5b57c35a4a64c64a6376de6bce2cb0e3f7b57d1f6a25130ab85"
+        }
+      },
+      "evidence_sha256": {
+        "input": "129f04c7b37182217606ccb3bab1de127e8d8dc590b59d47432908d747ac200b",
+        "view_00": "1ed9112842b38cb2f7cf461bdf19f83ab97f21af92fdb1ae4ec19e9bf5ecef67",
+        "view_01": "e6bd1483a42d8fa992775d0cad029e4838bd261fb5cc472984c0bdd3b43dcd1c",
+        "view_02": "7863fed3fb6b5368e8a7434157a8de17a6e3641c62359daf5dc91b6994299522",
+        "view_03": "40812f4e3d1ad5b57c35a4a64c64a6376de6bce2cb0e3f7b57d1f6a25130ab85"
+      },
+      "card_image": {
+        "path": "images/ai_d5a5f381bfa841a5_card.png",
+        "sha256": "a96497a4184857eec6a8c917f53e228754e21a67f50d1e6c6e97e49334064efb"
+      }
+    },
+    {
+      "assessment_id": "ai_27558730518e095b",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_27558730518e095b_input.png",
+          "sha256": "a4c9ce67c36256dd0a5c027ebe36f706a8d9a34a71da7e473000070080900951"
+        },
+        "view_00": {
+          "path": "images/ai_27558730518e095b_view_00.png",
+          "sha256": "ef2a380b2d21debcc9b9cd7ff613c5997581d81e2cab57bdf5ea4cea7afe3a47"
+        },
+        "view_01": {
+          "path": "images/ai_27558730518e095b_view_01.png",
+          "sha256": "0b2140c6a5d1468a9ade559d5b70561ca10766e32f21ca689ca75431790c7574"
+        },
+        "view_02": {
+          "path": "images/ai_27558730518e095b_view_02.png",
+          "sha256": "8a993eaf228f8867e341ef2bd12f115eb209c934e94d9d6cf867468f0ba39c11"
+        },
+        "view_03": {
+          "path": "images/ai_27558730518e095b_view_03.png",
+          "sha256": "e8d2dde90aa50374a589f72dbe2967c3a0bd79b5593179ef15e362c44770cc35"
+        }
+      },
+      "evidence_sha256": {
+        "input": "a4c9ce67c36256dd0a5c027ebe36f706a8d9a34a71da7e473000070080900951",
+        "view_00": "ef2a380b2d21debcc9b9cd7ff613c5997581d81e2cab57bdf5ea4cea7afe3a47",
+        "view_01": "0b2140c6a5d1468a9ade559d5b70561ca10766e32f21ca689ca75431790c7574",
+        "view_02": "8a993eaf228f8867e341ef2bd12f115eb209c934e94d9d6cf867468f0ba39c11",
+        "view_03": "e8d2dde90aa50374a589f72dbe2967c3a0bd79b5593179ef15e362c44770cc35"
+      },
+      "card_image": {
+        "path": "images/ai_27558730518e095b_card.png",
+        "sha256": "aa7f4465d6b2d5b6934cb4dfc29998cb8750d25cfa6631d4301a571f4fade46e"
+      }
+    },
+    {
+      "assessment_id": "ai_05a7d50be8964757",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_05a7d50be8964757_input.png",
+          "sha256": "45a6ad5bf9b55a7b6e0cd65deedd942362c75784c92d5c405e452b9cf5ae982a"
+        },
+        "view_00": {
+          "path": "images/ai_05a7d50be8964757_view_00.png",
+          "sha256": "8b65847019759aa2136500dd38119249602cacc097a4a101d5cdf107a3c2ffd4"
+        },
+        "view_01": {
+          "path": "images/ai_05a7d50be8964757_view_01.png",
+          "sha256": "46fd8a4da343a4d53589ac5e1f223b74f0982f910a0bf2fc70f260a8586fc296"
+        },
+        "view_02": {
+          "path": "images/ai_05a7d50be8964757_view_02.png",
+          "sha256": "6aca65f15705529743943b1a759e321414534a41166dedf4f89ffdb174989fd9"
+        },
+        "view_03": {
+          "path": "images/ai_05a7d50be8964757_view_03.png",
+          "sha256": "b194500ea06806eb498836630a4969af963571df9d3597a5c1f8164b04cd0284"
+        }
+      },
+      "evidence_sha256": {
+        "input": "45a6ad5bf9b55a7b6e0cd65deedd942362c75784c92d5c405e452b9cf5ae982a",
+        "view_00": "8b65847019759aa2136500dd38119249602cacc097a4a101d5cdf107a3c2ffd4",
+        "view_01": "46fd8a4da343a4d53589ac5e1f223b74f0982f910a0bf2fc70f260a8586fc296",
+        "view_02": "6aca65f15705529743943b1a759e321414534a41166dedf4f89ffdb174989fd9",
+        "view_03": "b194500ea06806eb498836630a4969af963571df9d3597a5c1f8164b04cd0284"
+      },
+      "card_image": {
+        "path": "images/ai_05a7d50be8964757_card.png",
+        "sha256": "b3182f147bb36305680e1aa6aba637b90d93dbad8d3659d95624b4e1a50e7d3b"
+      }
+    },
+    {
+      "assessment_id": "ai_923b1f725d70e88d",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_923b1f725d70e88d_input.png",
+          "sha256": "45a6ad5bf9b55a7b6e0cd65deedd942362c75784c92d5c405e452b9cf5ae982a"
+        },
+        "view_00": {
+          "path": "images/ai_923b1f725d70e88d_view_00.png",
+          "sha256": "0722a72c634bd6f06a8a7352e1dbc304d5a37f3724577ebc3e4280e6ab6b26d0"
+        },
+        "view_01": {
+          "path": "images/ai_923b1f725d70e88d_view_01.png",
+          "sha256": "a6d1048354528cc11c65efd9f7d1a3f4c3d37626d42b72727a7403bc6acd947a"
+        },
+        "view_02": {
+          "path": "images/ai_923b1f725d70e88d_view_02.png",
+          "sha256": "f80649c7babf58ca766ad95bc83e86c6fa7b74838db7cbfb5a1eb1e44e0d2b3f"
+        },
+        "view_03": {
+          "path": "images/ai_923b1f725d70e88d_view_03.png",
+          "sha256": "3a71f475052847d7aa13a5a7075fdd0aa7a83d1ebaed47bcdc9cfc51d02999f5"
+        }
+      },
+      "evidence_sha256": {
+        "input": "45a6ad5bf9b55a7b6e0cd65deedd942362c75784c92d5c405e452b9cf5ae982a",
+        "view_00": "0722a72c634bd6f06a8a7352e1dbc304d5a37f3724577ebc3e4280e6ab6b26d0",
+        "view_01": "a6d1048354528cc11c65efd9f7d1a3f4c3d37626d42b72727a7403bc6acd947a",
+        "view_02": "f80649c7babf58ca766ad95bc83e86c6fa7b74838db7cbfb5a1eb1e44e0d2b3f",
+        "view_03": "3a71f475052847d7aa13a5a7075fdd0aa7a83d1ebaed47bcdc9cfc51d02999f5"
+      },
+      "card_image": {
+        "path": "images/ai_923b1f725d70e88d_card.png",
+        "sha256": "8e18528a1a9753d93aa053f213857eef44a4d1badd0da30e5d0b9083da027124"
+      }
+    },
+    {
+      "assessment_id": "ai_c88c29d1c3338603",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_c88c29d1c3338603_input.png",
+          "sha256": "681098039eb350fc5158215c21b86f49904ded174d3fa22e20600d959be1018f"
+        },
+        "view_00": {
+          "path": "images/ai_c88c29d1c3338603_view_00.png",
+          "sha256": "962bcd5372c29f8b02ea8f4978b24094c6002271ff5db6ac57e0d3779ae60dbc"
+        },
+        "view_01": {
+          "path": "images/ai_c88c29d1c3338603_view_01.png",
+          "sha256": "fd680a61d6af0e9525ab8f556971fe5f36361a566b48342f74d491df1518a228"
+        },
+        "view_02": {
+          "path": "images/ai_c88c29d1c3338603_view_02.png",
+          "sha256": "8e349d9636add1777908aa419e93529ce45e3f4d7aaadce1efcfeef1c6b1d039"
+        },
+        "view_03": {
+          "path": "images/ai_c88c29d1c3338603_view_03.png",
+          "sha256": "4e7b9ca1249423a20807639eb8856844290611f35e7b59e8693d462bdb361bea"
+        }
+      },
+      "evidence_sha256": {
+        "input": "681098039eb350fc5158215c21b86f49904ded174d3fa22e20600d959be1018f",
+        "view_00": "962bcd5372c29f8b02ea8f4978b24094c6002271ff5db6ac57e0d3779ae60dbc",
+        "view_01": "fd680a61d6af0e9525ab8f556971fe5f36361a566b48342f74d491df1518a228",
+        "view_02": "8e349d9636add1777908aa419e93529ce45e3f4d7aaadce1efcfeef1c6b1d039",
+        "view_03": "4e7b9ca1249423a20807639eb8856844290611f35e7b59e8693d462bdb361bea"
+      },
+      "card_image": {
+        "path": "images/ai_c88c29d1c3338603_card.png",
+        "sha256": "21f402b06effd5a00da4beccdfe753642717458daddbe86fd3e0589b135d2c6f"
+      }
+    },
+    {
+      "assessment_id": "ai_4faaec15ec4e8a25",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_4faaec15ec4e8a25_input.png",
+          "sha256": "9b3efa709e0cccfb041978beed586943bc3531a541248efa93f8d00865caaa89"
+        },
+        "view_00": {
+          "path": "images/ai_4faaec15ec4e8a25_view_00.png",
+          "sha256": "fca5f611ddc5122ccdebc50ed1ca71630c2d46a8924ebec22e56033b251dda7c"
+        },
+        "view_01": {
+          "path": "images/ai_4faaec15ec4e8a25_view_01.png",
+          "sha256": "4d7bff7fe0e2f5a91a3646c08259f28b9274462aaa831875e17c439553b90727"
+        },
+        "view_02": {
+          "path": "images/ai_4faaec15ec4e8a25_view_02.png",
+          "sha256": "785cd81f118d0c7e94e407cfd77afb0ebc104f2350f05f7d66d52092fe845e12"
+        },
+        "view_03": {
+          "path": "images/ai_4faaec15ec4e8a25_view_03.png",
+          "sha256": "8d8ceaddcd0c1ab774b75723077763052f0edf4bdc691916d6c80c4fd29b9ea2"
+        }
+      },
+      "evidence_sha256": {
+        "input": "9b3efa709e0cccfb041978beed586943bc3531a541248efa93f8d00865caaa89",
+        "view_00": "fca5f611ddc5122ccdebc50ed1ca71630c2d46a8924ebec22e56033b251dda7c",
+        "view_01": "4d7bff7fe0e2f5a91a3646c08259f28b9274462aaa831875e17c439553b90727",
+        "view_02": "785cd81f118d0c7e94e407cfd77afb0ebc104f2350f05f7d66d52092fe845e12",
+        "view_03": "8d8ceaddcd0c1ab774b75723077763052f0edf4bdc691916d6c80c4fd29b9ea2"
+      },
+      "card_image": {
+        "path": "images/ai_4faaec15ec4e8a25_card.png",
+        "sha256": "424949db044fa9c20ed0e426ed6b84ddbacde1616b93ebc360f9d3c7e552e125"
+      }
+    },
+    {
+      "assessment_id": "ai_a2643ea41c1fa716",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_a2643ea41c1fa716_input.png",
+          "sha256": "f5889087f77601a2e3c79f36039339e6e9d9c300d42709fa0cfc9b89ec2f54db"
+        },
+        "view_00": {
+          "path": "images/ai_a2643ea41c1fa716_view_00.png",
+          "sha256": "da18b480eb24d69594a309e71e9289c57ab7a98922119ef25cbf8c5b21b28bea"
+        },
+        "view_01": {
+          "path": "images/ai_a2643ea41c1fa716_view_01.png",
+          "sha256": "6f5563a2ceb4428a1e7eb253c6af50449a486d68d17850506312af91b44e6054"
+        },
+        "view_02": {
+          "path": "images/ai_a2643ea41c1fa716_view_02.png",
+          "sha256": "0154927f00fb6cd594805760defb52c8d3dc40f268866c1ce4fff14739d734f3"
+        },
+        "view_03": {
+          "path": "images/ai_a2643ea41c1fa716_view_03.png",
+          "sha256": "d65084afc967b7e60c38a0a45421d1f30e5350ac24a2285a262eb8e7425c6a7d"
+        }
+      },
+      "evidence_sha256": {
+        "input": "f5889087f77601a2e3c79f36039339e6e9d9c300d42709fa0cfc9b89ec2f54db",
+        "view_00": "da18b480eb24d69594a309e71e9289c57ab7a98922119ef25cbf8c5b21b28bea",
+        "view_01": "6f5563a2ceb4428a1e7eb253c6af50449a486d68d17850506312af91b44e6054",
+        "view_02": "0154927f00fb6cd594805760defb52c8d3dc40f268866c1ce4fff14739d734f3",
+        "view_03": "d65084afc967b7e60c38a0a45421d1f30e5350ac24a2285a262eb8e7425c6a7d"
+      },
+      "card_image": {
+        "path": "images/ai_a2643ea41c1fa716_card.png",
+        "sha256": "ff7b5d81fd1a32112eb750cb3ae55ba39689419d78b357a26df58bceaf8e4c3d"
+      }
+    },
+    {
+      "assessment_id": "ai_99679b6897d30b17",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_99679b6897d30b17_input.png",
+          "sha256": "b95c8d7bde9d406cf544bdf3fa40a8275c96b4ae48db9dd9d8e487e543b73fcf"
+        },
+        "view_00": {
+          "path": "images/ai_99679b6897d30b17_view_00.png",
+          "sha256": "8f75ad06ba74d237db45d78d6f2d120829c54cc7dd53c8a9904280baa9a8d54b"
+        },
+        "view_01": {
+          "path": "images/ai_99679b6897d30b17_view_01.png",
+          "sha256": "49816c2a18e7f0185586f5458240f781d40605a2f87210497b027e7acc995223"
+        },
+        "view_02": {
+          "path": "images/ai_99679b6897d30b17_view_02.png",
+          "sha256": "37494ba737b42d6a5cf88fada717f3283112ce2eae9c47d658b63c5c100cc86c"
+        },
+        "view_03": {
+          "path": "images/ai_99679b6897d30b17_view_03.png",
+          "sha256": "3fa11f194a84420b78105a93da5067a3e808fbc777344aa9a8ad14ac21578bd9"
+        }
+      },
+      "evidence_sha256": {
+        "input": "b95c8d7bde9d406cf544bdf3fa40a8275c96b4ae48db9dd9d8e487e543b73fcf",
+        "view_00": "8f75ad06ba74d237db45d78d6f2d120829c54cc7dd53c8a9904280baa9a8d54b",
+        "view_01": "49816c2a18e7f0185586f5458240f781d40605a2f87210497b027e7acc995223",
+        "view_02": "37494ba737b42d6a5cf88fada717f3283112ce2eae9c47d658b63c5c100cc86c",
+        "view_03": "3fa11f194a84420b78105a93da5067a3e808fbc777344aa9a8ad14ac21578bd9"
+      },
+      "card_image": {
+        "path": "images/ai_99679b6897d30b17_card.png",
+        "sha256": "7e86f744f29f242d70897f6b037180af64cbf061b5820b2a13176950e21a92cb"
+      }
+    },
+    {
+      "assessment_id": "ai_58f365408e47307a",
+      "pair": "reconstruction",
+      "brief": "Compare the source photograph with four model-generated object previews.",
+      "criteria": [
+        "visible_object_type_and_major_parts",
+        "visible_colour_and_texture_similarity",
+        "cross_view_structural_coherence",
+        "unseen_surface_correctness"
+      ],
+      "display_assets": {
+        "input": {
+          "path": "images/ai_58f365408e47307a_input.png",
+          "sha256": "7b42c9207de8415e3d0fe4210569efcef70f82438b490b1b88f2eab81a803424"
+        },
+        "view_00": {
+          "path": "images/ai_58f365408e47307a_view_00.png",
+          "sha256": "d1ca3cf5d95999afccd7b71763c06be1bc417163d3650a92635bc88aef31c6bd"
+        },
+        "view_01": {
+          "path": "images/ai_58f365408e47307a_view_01.png",
+          "sha256": "0c58a1effdaa955309c4310904733293b8f051de79c4c6e8c3fcf0816c095248"
+        },
+        "view_02": {
+          "path": "images/ai_58f365408e47307a_view_02.png",
+          "sha256": "2da5a3ff83de9f8c861ede9ead921bb5bd2f84c6d372eb0f7aaae65ddce2c9c6"
+        },
+        "view_03": {
+          "path": "images/ai_58f365408e47307a_view_03.png",
+          "sha256": "96baea799a4826820a9992135afaddffc01900ec3efda07566e0ab57f6d79b41"
+        }
+      },
+      "evidence_sha256": {
+        "input": "7b42c9207de8415e3d0fe4210569efcef70f82438b490b1b88f2eab81a803424",
+        "view_00": "d1ca3cf5d95999afccd7b71763c06be1bc417163d3650a92635bc88aef31c6bd",
+        "view_01": "0c58a1effdaa955309c4310904733293b8f051de79c4c6e8c3fcf0816c095248",
+        "view_02": "2da5a3ff83de9f8c861ede9ead921bb5bd2f84c6d372eb0f7aaae65ddce2c9c6",
+        "view_03": "96baea799a4826820a9992135afaddffc01900ec3efda07566e0ab57f6d79b41"
+      },
+      "card_image": {
+        "path": "images/ai_58f365408e47307a_card.png",
+        "sha256": "dc93c17ce6e09b441ec0d64e480f4acbd0702e531447418f64101fd53b49eba1"
+      }
+    }
+  ]
+}

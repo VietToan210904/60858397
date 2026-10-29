@@ -1,0 +1,4 @@
+smoke_only: true
+evaluation:
+  reconstruction:
+    dataset_dir: datasets/reconstruction_smoke

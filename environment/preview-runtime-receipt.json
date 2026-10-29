@@ -1,0 +1,188 @@
+{
+  "timestamp_utc": "2026-10-28T20:06:22.736239+00:00",
+  "executable": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Scripts\\python.exe",
+  "sys_path": [
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\DLLs",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\src",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Roaming\\Python\\Python311\\site-packages",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\win32",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\win32\\lib",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pythonwin"
+  ],
+  "overlay_target": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay",
+  "pth": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\stylesphere-preview-runtime.pth",
+  "pth_sha256": "d54c4624a4b39badb3ffd2aa913bb7e002fcb2593e8f9a1e5b7067449afe09ca",
+  "packages": {
+    "numpy": {
+      "version": "1.26.4",
+      "module_origin": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay\\numpy\\__init__.py",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay",
+      "module_file_sha256": "150b19558caf78c0e3cc6994ec652399e972595ca649cea1a69c801ef23e4b1c"
+    },
+    "pyrender": {
+      "version": "0.1.45",
+      "module_origin": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay\\pyrender\\__init__.py",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay",
+      "module_file_sha256": "b875d1997398966a71fbec96b51b908c05cf3327848abd8688379a6de713e0cb"
+    },
+    "pyglet": {
+      "version": "1.5.31",
+      "module_origin": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay\\pyglet\\__init__.py",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay",
+      "module_file_sha256": "1d533ee4568a645d1d3a5d27f1412209db5aa956c949f987f883b5ad57e74c19"
+    },
+    "PyOpenGL": {
+      "version": "3.1.0",
+      "module_origin": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay\\OpenGL\\__init__.py",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay",
+      "module_file_sha256": "a118ebd692e51c28ebe83b853c69af5e969c2835af331a8e99cc423fc2559b65"
+    },
+    "freetype-py": {
+      "version": "2.5.1",
+      "module_origin": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay\\freetype\\__init__.py",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay",
+      "module_file_sha256": "aa2baf011511f89f04e8a135e6d398cd46bf86a3892add185177fccb88e66470"
+    },
+    "imageio": {
+      "version": "2.37.3",
+      "module_origin": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay\\imageio\\__init__.py",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay",
+      "module_file_sha256": "ecaac692e8aaf94db9e3f5e0afc52a363afb0a47f7cd240d3037e7b28f732126"
+    }
+  },
+  "inherited_read_only_packages": {
+    "scipy": {
+      "version": "1.17.1",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
+    },
+    "trimesh": {
+      "version": "4.12.2",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages"
+    },
+    "torch": {
+      "version": "2.11.0+cu128",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages"
+    },
+    "Pillow": {
+      "version": "12.2.0",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
+    },
+    "networkx": {
+      "version": "3.6.1",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
+    },
+    "six": {
+      "version": "1.17.0",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
+    },
+    "pip": {
+      "version": "24.0",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages"
+    },
+    "setuptools": {
+      "version": "81.0.0",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages"
+    },
+    "wheel": {
+      "version": "0.48.0",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages"
+    }
+  },
+  "official_selected_artifacts": [
+    {
+      "package": "numpy",
+      "version": "1.26.4",
+      "filename": "numpy-1.26.4-cp311-cp311-win_amd64.whl",
+      "official_url": "https://files.pythonhosted.org/packages/3f/6b/5610004206cf7f8e7ad91c5a85a8c71b2f2f8051a0c0c4d5916b76d6cbb2/numpy-1.26.4-cp311-cp311-win_amd64.whl",
+      "sha256": "cd25bcecc4974d09257ffcd1f098ee778f7834c3ad767fe5db785be9a4aa9cb2",
+      "size_bytes": 15811913,
+      "pypi_metadata_url": "https://pypi.org/pypi/numpy/1.26.4/json"
+    },
+    {
+      "package": "pyrender",
+      "version": "0.1.45",
+      "filename": "pyrender-0.1.45-py3-none-any.whl",
+      "official_url": "https://files.pythonhosted.org/packages/28/88/174c28b9d3d03cf6d8edb6f637458f30f1cf1a2bd7a617cbd9dadb1740f6/pyrender-0.1.45-py3-none-any.whl",
+      "sha256": "5cf751d1f21fba4640e830cef3a0b5a95ed0f05677bf92c6b8330056b4023aeb",
+      "size_bytes": 1214061,
+      "pypi_metadata_url": "https://pypi.org/pypi/pyrender/0.1.45/json"
+    },
+    {
+      "package": "pyglet",
+      "version": "1.5.31",
+      "filename": "pyglet-1.5.31-py3-none-any.whl",
+      "official_url": "https://files.pythonhosted.org/packages/e2/43/46aa0ab49f2f5145d201780c7595cf0c305fb4fb5d00d6639792a3d0e770/pyglet-1.5.31-py3-none-any.whl",
+      "sha256": "f68413564bbec380e4815898fef0fb7a4a494dc3f8718bfbf28ce2a802634c88",
+      "size_bytes": 1143660,
+      "pypi_metadata_url": "https://pypi.org/pypi/pyglet/1.5.31/json"
+    },
+    {
+      "package": "PyOpenGL",
+      "version": "3.1.0",
+      "filename": "PyOpenGL-3.1.0.zip",
+      "official_url": "https://files.pythonhosted.org/packages/ce/33/ef0e3b40a3f4cbfcfb93511652673fb19d07bafac0611f01f6237d1978ed/PyOpenGL-3.1.0.zip",
+      "sha256": "efa4e39a49b906ccbe66758812ca81ced13a6f26931ab2ba2dba2750c016c0d0",
+      "size_bytes": 2189623,
+      "pypi_metadata_url": "https://pypi.org/pypi/PyOpenGL/3.1.0/json"
+    },
+    {
+      "package": "freetype-py",
+      "version": "2.5.1",
+      "filename": "freetype_py-2.5.1-py3-none-win_amd64.whl",
+      "official_url": "https://files.pythonhosted.org/packages/93/6e/bd7fbfacca077bc6f34f1a1109800a2c41ab50f4704d3a0507ba41009915/freetype_py-2.5.1-py3-none-win_amd64.whl",
+      "sha256": "0b7f8e0342779f65ca13ef8bc103938366fecade23e6bb37cb671c2b8ad7f124",
+      "size_bytes": 814608,
+      "pypi_metadata_url": "https://pypi.org/pypi/freetype-py/2.5.1/json"
+    },
+    {
+      "package": "ImageIO",
+      "version": "2.37.3",
+      "filename": "imageio-2.37.3-py3-none-any.whl",
+      "official_url": "https://files.pythonhosted.org/packages/49/fa/391e437a34e55095173dca5f24070d89cbc233ff85bf1c29c93248c6588d/imageio-2.37.3-py3-none-any.whl",
+      "sha256": "46f5bb8522cd421c0f5ae104d8268f569d856b29eb1a13b92829d1970f32c9f0",
+      "size_bytes": 317646,
+      "pypi_metadata_url": "https://pypi.org/pypi/imageio/2.37.3/json"
+    }
+  ],
+  "download_bytes_selected_artifacts": 21491511,
+  "locally_built_wheels": [
+    {
+      "path": ".cache\\pip-preview\\wheels\\2f\\37\\f5\\f88cd3dddf75bc3ce608e44bf8a79078c408bf1f351a50818e\\pyopengl-3.1.0-py3-none-any.whl",
+      "size_bytes": 1749357,
+      "sha256": "7353d18f90abf0d2c11c184981763fcf4e5773ab2cf5741e9af11cc2de1d2a25"
+    }
+  ],
+  "pip_install_report": "environment/preview-pip-install-report.json",
+  "pip_install_report_sha256": "7daf02b3eb659017e11614b194324c052f3c557758c17e6dc371edcf6cd6b7aa",
+  "pip_install_transcript": "environment/preview-install.log",
+  "pip_install_transcript_sha256": "f46e0219eaee35afd6ed4d349cfc7042fe5bccfd9ed8127ef0deeedbe2d460bf",
+  "checks": {
+    "all_six_pins_imported_from_overlay": true,
+    "numpy_infty_available": true,
+    "scipy_numpy_cpu_distance_passed": true,
+    "trimesh_cpu_box_passed": true,
+    "torch_numpy_cpu_bridge_passed": true,
+    "pyglet_shadow_window_disabled": true,
+    "pyglet_current_context_is_none": true,
+    "pyglet_shadow_window_is_none": true,
+    "torch_cuda_initialized": false,
+    "renderer_window_or_context_constructed": false,
+    "gpu_inference_or_rendering_executed": false
+  },
+  "note": "Official PyPI six-pin target overlay only. Pip used --target absolute-project-path --ignore-installed --no-deps --no-build-isolation, project cache/report, disabled keyring, and no-input. No inherited/global package uninstall, authentication-store access, model download, CUDA driver/toolkit installation, OpenGL context creation, or GPU work was performed. Actual rendering still requires a root-coordinated context smoke.",
+  "original_retrieval_numpy_after_install": {
+    "version": "2.4.2",
+    "module_origin": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\__init__.py"
+  },
+  "cli_help_transcript": "environment/preview-cli-help.txt",
+  "cli_help_transcript_sha256": "6db58ee3dfa2ff864d94d93b7f07b708f21cdd31f780dd92c9b94ab6564c1155"
+}

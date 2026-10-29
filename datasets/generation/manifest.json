@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "pair": "generation",
+  "prepared_at_utc": "2026-10-28T15:38:00.824641+00:00",
+  "seed": 8410,
+  "model_inference_performed": false,
+  "inputs": {
+    "prompts.jsonl": {
+      "sha256": "e84c1bb98b8a21f66b8ed8a97291dae2791c69f667beab3bee863bcd60283689",
+      "bytes": 11749
+    }
+  },
+  "source_inputs": {},
+  "redistributable_assets_default": false,
+  "details": {
+    "prompt_count": 24,
+    "input_kind": "authored hypothetical creative briefs; not generated images or ratings"
+  }
+}

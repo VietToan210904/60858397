@@ -1,0 +1,13 @@
+{
+  "status": "restored_missing",
+  "restored_images": 8,
+  "downloaded_bytes_this_invocation": 162603,
+  "catalogue_count": 8,
+  "source_revision": "b9d0e6c9c14337620e442c93f40f7906942fe893",
+  "source_manifest_unchanged": true,
+  "test": "real pinned image restoration in isolated temporary directory",
+  "images_sha256_matched": 8,
+  "original_smoke_input_files_unchanged": true,
+  "temporary_manifest_byte_identical": true,
+  "exit_code": 0
+}

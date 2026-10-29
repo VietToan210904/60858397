@@ -1,0 +1,175 @@
+{
+  "model": "sf3d",
+  "model_id": "stabilityai/stable-fast-3d",
+  "model_config": {
+    "pair": "reconstruction",
+    "model_id": "stabilityai/stable-fast-3d",
+    "revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+    "precision": "model_native",
+    "local_files_only": true,
+    "licence": "Stability-AI-Community",
+    "checkout": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\vendor\\SF3D",
+    "source_revision": "ff21fc491b4dc5314bf6734c7c0dabd86b5f5bb2",
+    "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Scripts\\python.exe",
+    "weights_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\sf3d",
+    "auxiliary": {
+      "dinov2": {
+        "path": "../dinov2_large",
+        "repo_id": "facebook/dinov2-large",
+        "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+        "model_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+        "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0"
+      },
+      "open_clip": {
+        "path": "../sf3d_clip/open_clip_pytorch_model.bin",
+        "repo_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+        "revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+        "sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad"
+      }
+    },
+    "extension_build": {
+      "receipt": "../../environment/native-build-sf3d.json",
+      "receipt_sha256": "50954cff8269fcb9a82b152494180216949c13cb4de2ee9ff59811283e25930f",
+      "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+      "binary_sha256": {
+        "texture_baker._C": "eef43fa5997bda2424daeac5c0c43ca8f478d0a93cf320f0e144428fda36b3cc",
+        "uv_unwrapper._C": "94c74559ace87ac666526d49e16f3f4cbab55c20ce269c34c5d18a53d97d2120"
+      }
+    },
+    "checkpoint_files": {
+      "config.yaml": {
+        "size_bytes": 2405,
+        "git_blob_sha1": "4a44aec5e6af76975afcaedae7e888b96412c832"
+      },
+      "model.safetensors": {
+        "size_bytes": 4024289892,
+        "sha256": "a3416e1cf654e7d4f5e75f116cec2c3f0a14501a77d30c2f6068bbda178de388"
+      }
+    }
+  },
+  "project_root": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation",
+  "warmup_runs": 1,
+  "texture_resolution": 1024,
+  "cases": [
+    {
+      "case_id": "gso-ASICS_GEL1140V_WhiteBlackSilver",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-ASICS_GEL1140V_WhiteBlackSilver\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-ASICS_GEL1140V_WhiteBlackSilver\\mesh.glb"
+    },
+    {
+      "case_id": "gso-ASICS_GEL1140V_WhiteRoyalSilver",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-ASICS_GEL1140V_WhiteRoyalSilver\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-ASICS_GEL1140V_WhiteRoyalSilver\\mesh.glb"
+    },
+    {
+      "case_id": "gso-ASICS_GELAce_Pro_Pearl_WhitePink",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-ASICS_GELAce_Pro_Pearl_WhitePink\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-ASICS_GELAce_Pro_Pearl_WhitePink\\mesh.glb"
+    },
+    {
+      "case_id": "gso-ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange\\mesh.glb"
+    },
+    {
+      "case_id": "gso-ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver\\mesh.glb"
+    },
+    {
+      "case_id": "gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack\\mesh.glb"
+    },
+    {
+      "case_id": "gso-ASICS_GELDirt_Dog_4_SunFlameBlack",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-ASICS_GELDirt_Dog_4_SunFlameBlack\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-ASICS_GELDirt_Dog_4_SunFlameBlack\\mesh.glb"
+    },
+    {
+      "case_id": "gso-ASICS_GELLinksmaster_WhiteCoffeeSand",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-ASICS_GELLinksmaster_WhiteCoffeeSand\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-ASICS_GELLinksmaster_WhiteCoffeeSand\\mesh.glb"
+    },
+    {
+      "case_id": "gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal\\mesh.glb"
+    },
+    {
+      "case_id": "gso-ASICS_GELLinksmaster_WhiteSilverCarolina_Blue",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-ASICS_GELLinksmaster_WhiteSilverCarolina_Blue\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-ASICS_GELLinksmaster_WhiteSilverCarolina_Blue\\mesh.glb"
+    },
+    {
+      "case_id": "gso-ASICS_GELResolution_5_Flash_YellowBlackSilver",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-ASICS_GELResolution_5_Flash_YellowBlackSilver\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-ASICS_GELResolution_5_Flash_YellowBlackSilver\\mesh.glb"
+    },
+    {
+      "case_id": "gso-ASICS_GELTour_Lyte_WhiteOrchidSilver",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-ASICS_GELTour_Lyte_WhiteOrchidSilver\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-ASICS_GELTour_Lyte_WhiteOrchidSilver\\mesh.glb"
+    },
+    {
+      "case_id": "gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack\\mesh.glb"
+    },
+    {
+      "case_id": "gso-Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V\\mesh.glb"
+    },
+    {
+      "case_id": "gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70\\mesh.glb"
+    },
+    {
+      "case_id": "gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats\\mesh.glb"
+    },
+    {
+      "case_id": "gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN\\mesh.glb"
+    },
+    {
+      "case_id": "gso-Olive_Kids_Dinosaur_Land_Sidekick_Backpack",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-Olive_Kids_Dinosaur_Land_Sidekick_Backpack\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-Olive_Kids_Dinosaur_Land_Sidekick_Backpack\\mesh.glb"
+    },
+    {
+      "case_id": "gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack\\mesh.glb"
+    },
+    {
+      "case_id": "gso-Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_test\\reconstruction\\8d68cead20e9425e8cdc98ebf8504fda\\sf3d\\gso-Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack\\mesh.glb"
+    }
+  ]
+}

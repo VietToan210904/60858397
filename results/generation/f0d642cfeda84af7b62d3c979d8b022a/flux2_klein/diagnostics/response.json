@@ -1,0 +1,87 @@
+{
+  "results": [
+    {
+      "case_id": "dev-gen-001",
+      "seed": 8410,
+      "status": "success",
+      "timings": {
+        "inference_s": 8.527802199998405,
+        "model_load_s": 14.659866200003307
+      },
+      "metrics": {
+        "peak_allocated_mb": 9100.83935546875,
+        "peak_reserved_mb": 10430.0
+      },
+      "artifacts": {
+        "image": "results\\generation\\f0d642cfeda84af7b62d3c979d8b022a\\flux2_klein\\dev-gen-001_8410.png"
+      },
+      "error": null
+    }
+  ],
+  "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-comfy\\Scripts\\python.exe",
+  "torch_version": "2.11.0+cu128",
+  "cuda_version": "12.8",
+  "libraries": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "5.5.0",
+    "huggingface-hub": "1.9.2",
+    "safetensors": "0.7.0",
+    "numpy": "2.4.2",
+    "Pillow": "12.2.0",
+    "comfy-kitchen": "0.2.40",
+    "comfy-aimdo": "0.6.0"
+  },
+  "compute_capability": [
+    8,
+    9
+  ],
+  "device": "NVIDIA GeForce RTX 4070 SUPER",
+  "source_revision": "4845e7a3ffc48a6961f15824239e9042cc7d4ad1",
+  "source_dirty": false,
+  "resolved_checkpoint_revision": "5b4408e59397a4a37ccb46afe426d8ed86379441",
+  "runtime_precision": {
+    "checkpoint_format": "official_scaled_fp8",
+    "diffusion_parameter_dtype_counts": {
+      "torch.bfloat16": 3875544576,
+      "torch.float32": 80
+    },
+    "native_fp8_api": "torch.nn.functional.scaled_mm",
+    "quantized_payload_dtype_counts": {
+      "torch.float8_e4m3fn": 3680501760
+    },
+    "fp8_matmul_dispatch": {
+      "scope": "cumulative native FP8 dispatch across warmup and measured inference; no backend selection changes",
+      "attempts": 640,
+      "successes": 640,
+      "failures": 0
+    },
+    "comfy_kitchen_backends": {
+      "eager": {
+        "available": true,
+        "disabled": false,
+        "unavailable_reason": null
+      },
+      "cuda": {
+        "available": true,
+        "disabled": true,
+        "unavailable_reason": null
+      },
+      "hip": {
+        "available": false,
+        "disabled": false,
+        "unavailable_reason": "PyTorch ROCm/HIP runtime not available"
+      },
+      "ascend": {
+        "available": false,
+        "disabled": false,
+        "unavailable_reason": "torch-npu is not installed: No module named 'torch_npu'"
+      },
+      "triton": {
+        "available": false,
+        "disabled": true,
+        "unavailable_reason": "ImportError: No module named 'triton'"
+      }
+    }
+  }
+}

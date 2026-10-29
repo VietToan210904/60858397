@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "3e67f47eab7b0ee88bdaa11c2ddc5c4ab7bbcc645693840da57abab6b6718f45",
+    "preparation_metadata": "be6e41aca388c682546c09a306becf07583f828f3efae94030cf31504138715e",
+    "reference_mesh": "06904e7704938b9133ac0be71bf7e683fcf89fdda7cea5e6a7257fbc8cf49685",
+    "source_image": "8e7f5ea88a43bf07afe4d01fe98b2b689703f4753afdb9a10332a5767c8a19a2",
+    "view_0_reference_rgb": "b33ab1786ba1fae1819f767eb3084b84c119a88805a7e59fdb944af59c583f5e",
+    "view_0_reference_silhouette": "d366e28440014d431c69dd56b99f18bb74361b8883d817a78215d97e7ac76470",
+    "view_1_reference_rgb": "5b04aede30460357373166aec0daa7eba07674200246829ce0f7752a92ca26c5",
+    "view_1_reference_silhouette": "22d8eb124177f44a514b42886585c8ffa15710d25596f5723ede7540d7c853b4",
+    "view_2_reference_rgb": "b25c4ea4ad25ec43ca1859b9d02e03a06d229d48dedaae56a574397210e5fef1",
+    "view_2_reference_silhouette": "c94cccd1d107170b3514b6f23eab91af752e078e8abbbc1a52769582dcca8650",
+    "view_3_reference_rgb": "c4854da659bee83446935d4416a65b1c1b59ed73172c97d4e16a03cc67053fe2",
+    "view_3_reference_silhouette": "5e49e8aa2c8a8784017ba200c5efb70b1a4c83e8cfce24529c97349ade2b0af2"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteSilverCarolina_Blue/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "8e7f5ea88a43bf07afe4d01fe98b2b689703f4753afdb9a10332a5767c8a19a2",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "06904e7704938b9133ac0be71bf7e683fcf89fdda7cea5e6a7257fbc8cf49685",
+    "object_id": "gso-ASICS_GELLinksmaster_WhiteSilverCarolina_Blue",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteSilverCarolina_Blue/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteSilverCarolina_Blue/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-ASICS_GELLinksmaster_WhiteSilverCarolina_Blue/input.png",
+    "source_revision": "GoogleResearch/ASICS_GELLinksmaster_WhiteSilverCarolina_Blue/v1;zip-sha256:0087f83658e6cc686ffa035741f9427aa3cac04451306057512355a0bff7ad6f"
+  }
+}

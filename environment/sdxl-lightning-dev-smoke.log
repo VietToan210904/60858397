@@ -1,0 +1,16 @@
+[
+  {
+    "pair": "generation",
+    "run_id": "781ea670cda64582989fdcad8483bb3e",
+    "records": 1,
+    "resumed": 0,
+    "success": 1,
+    "blocked": 0,
+    "failed": 0,
+    "review": {
+      "images": 1,
+      "ratings_csv": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\781ea670cda64582989fdcad8483bb3e\\review\\ratings.csv",
+      "review_html": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\781ea670cda64582989fdcad8483bb3e\\review\\review.html"
+    }
+  }
+]

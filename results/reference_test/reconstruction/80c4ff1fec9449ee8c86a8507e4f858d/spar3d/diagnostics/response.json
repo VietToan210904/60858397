@@ -1,0 +1,474 @@
+{
+  "results": [
+    {
+      "case_id": "gso-ASICS_GEL1140V_WhiteBlackSilver",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.078708100016229,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.03159269999014214,
+        "preprocessing_s": 0.012592299957759678,
+        "end_to_end_s": 13.123815499944612,
+        "warmup_excluded_s": 16.709129800030496
+      },
+      "metrics": {
+        "peak_allocated_mb": 8019.16455078125,
+        "peak_reserved_mb": 8460.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GEL1140V_WhiteBlackSilver/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GEL1140V_WhiteBlackSilver/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-ASICS_GEL1140V_WhiteRoyalSilver",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.447985300037544,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.01957920001586899,
+        "preprocessing_s": 0.00656800001161173,
+        "end_to_end_s": 13.474881200003438
+      },
+      "metrics": {
+        "peak_allocated_mb": 8017.16064453125,
+        "peak_reserved_mb": 8482.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GEL1140V_WhiteRoyalSilver/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GEL1140V_WhiteRoyalSilver/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-ASICS_GELAce_Pro_Pearl_WhitePink",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.536322699976154,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.01966240000911057,
+        "preprocessing_s": 0.006771899992600083,
+        "end_to_end_s": 13.563544400036335
+      },
+      "metrics": {
+        "peak_allocated_mb": 8018.60205078125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELAce_Pro_Pearl_WhitePink/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELAce_Pro_Pearl_WhitePink/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.395334400003776,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.023641299980226904,
+        "preprocessing_s": 0.006498900009319186,
+        "end_to_end_s": 13.426284699991811
+      },
+      "metrics": {
+        "peak_allocated_mb": 8017.99658203125,
+        "peak_reserved_mb": 8482.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.897852000023704,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.02107590000377968,
+        "preprocessing_s": 0.007031199987977743,
+        "end_to_end_s": 12.926909099973273
+      },
+      "metrics": {
+        "peak_allocated_mb": 8021.12158203125,
+        "peak_reserved_mb": 8482.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.518691399949603,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.02009339997312054,
+        "preprocessing_s": 0.0066915000206790864,
+        "end_to_end_s": 12.546203200006858
+      },
+      "metrics": {
+        "peak_allocated_mb": 8017.99658203125,
+        "peak_reserved_mb": 8482.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-ASICS_GELDirt_Dog_4_SunFlameBlack",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.953677300014533,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.027835499960929155,
+        "preprocessing_s": 0.0061292999889701605,
+        "end_to_end_s": 12.988396600005217
+      },
+      "metrics": {
+        "peak_allocated_mb": 8021.12158203125,
+        "peak_reserved_mb": 8484.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELDirt_Dog_4_SunFlameBlack/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELDirt_Dog_4_SunFlameBlack/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-ASICS_GELLinksmaster_WhiteCoffeeSand",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.397772399999667,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.01905940001597628,
+        "preprocessing_s": 0.007955100038088858,
+        "end_to_end_s": 13.425579400034621
+      },
+      "metrics": {
+        "peak_allocated_mb": 8015.47705078125,
+        "peak_reserved_mb": 8482.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELLinksmaster_WhiteCoffeeSand/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.231413699977566,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.019631700008176267,
+        "preprocessing_s": 0.006667100009508431,
+        "end_to_end_s": 13.258492499997374
+      },
+      "metrics": {
+        "peak_allocated_mb": 8021.12158203125,
+        "peak_reserved_mb": 8484.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELLinksmaster_WhiteRasberryGunmetal/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-ASICS_GELLinksmaster_WhiteSilverCarolina_Blue",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.932238300039899,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.018252999987453222,
+        "preprocessing_s": 0.007380199967883527,
+        "end_to_end_s": 12.95865489996504
+      },
+      "metrics": {
+        "peak_allocated_mb": 8017.99658203125,
+        "peak_reserved_mb": 8484.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELLinksmaster_WhiteSilverCarolina_Blue/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELLinksmaster_WhiteSilverCarolina_Blue/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-ASICS_GELResolution_5_Flash_YellowBlackSilver",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.793560500023887,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.024156999948900193,
+        "preprocessing_s": 0.006120400037616491,
+        "end_to_end_s": 13.824639200000092
+      },
+      "metrics": {
+        "peak_allocated_mb": 8018.60205078125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELResolution_5_Flash_YellowBlackSilver/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELResolution_5_Flash_YellowBlackSilver/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-ASICS_GELTour_Lyte_WhiteOrchidSilver",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.17917329998454,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.018810699984896928,
+        "preprocessing_s": 0.0067526999628171325,
+        "end_to_end_s": 13.205548700003419
+      },
+      "metrics": {
+        "peak_allocated_mb": 8015.47705078125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELTour_Lyte_WhiteOrchidSilver/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_GELTour_Lyte_WhiteOrchidSilver/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.519792500010226,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.021061900013592094,
+        "preprocessing_s": 0.005785200046375394,
+        "end_to_end_s": 12.547338200034574
+      },
+      "metrics": {
+        "peak_allocated_mb": 8018.60205078125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.563827800040599,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.0246167000150308,
+        "preprocessing_s": 0.0067343999980948865,
+        "end_to_end_s": 13.596023400023114
+      },
+      "metrics": {
+        "peak_allocated_mb": 8015.47705078125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70",
+      "status": "success",
+      "timings": {
+        "inference_s": 14.705631699995138,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.03493050002725795,
+        "preprocessing_s": 0.008673699980136007,
+        "end_to_end_s": 14.750199600006454
+      },
+      "metrics": {
+        "peak_allocated_mb": 8018.60205078125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats",
+      "status": "success",
+      "timings": {
+        "inference_s": 14.078334699966945,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.024683800002094358,
+        "preprocessing_s": 0.016458500002045184,
+        "end_to_end_s": 14.121312999981456
+      },
+      "metrics": {
+        "peak_allocated_mb": 8021.24658203125,
+        "peak_reserved_mb": 8468.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN",
+      "status": "success",
+      "timings": {
+        "inference_s": 14.139685500005726,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.020436700026039034,
+        "preprocessing_s": 0.006800200033467263,
+        "end_to_end_s": 14.167847900011111
+      },
+      "metrics": {
+        "peak_allocated_mb": 8019.70703125,
+        "peak_reserved_mb": 8484.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-Olive_Kids_Dinosaur_Land_Sidekick_Backpack",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.93580929999007,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.02113339997595176,
+        "preprocessing_s": 0.013104100013151765,
+        "end_to_end_s": 12.970796999987215
+      },
+      "metrics": {
+        "peak_allocated_mb": 8016.64501953125,
+        "peak_reserved_mb": 8458.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-Olive_Kids_Dinosaur_Land_Sidekick_Backpack/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-Olive_Kids_Dinosaur_Land_Sidekick_Backpack/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.749128399998881,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.034905800013802946,
+        "preprocessing_s": 0.015040699974633753,
+        "end_to_end_s": 13.800238299998455
+      },
+      "metrics": {
+        "peak_allocated_mb": 8016.73486328125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "gso-Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.997692100005224,
+        "model_load_s": 0.6761927999905311,
+        "export_s": 0.02204950002487749,
+        "preprocessing_s": 0.024159400025382638,
+        "end_to_end_s": 13.045004200015683
+      },
+      "metrics": {
+        "peak_allocated_mb": 8009.92236328125,
+        "peak_reserved_mb": 8484.0
+      },
+      "artifacts": {
+        "mesh": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack/mesh.glb",
+        "prepared_input": "results/reference_test/reconstruction/80c4ff1fec9449ee8c86a8507e4f858d/spar3d/gso-Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack/prepared_input.png"
+      },
+      "error": null
+    }
+  ],
+  "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Scripts\\python.exe",
+  "adapter_source_sha256": "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351",
+  "seed_policy": "Reset Python/NumPy/Torch/CUDA seed immediately before each measured inference, after excluded warmup",
+  "torch_version": "2.11.0+cu128",
+  "cuda_version": "12.8",
+  "libraries": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "Pillow": "12.2.0",
+    "transformers": "4.42.3",
+    "omegaconf": "2.3.0",
+    "trimesh": "4.4.1",
+    "safetensors": "0.7.0",
+    "huggingface-hub": "0.23.4",
+    "clip": "1.0",
+    "alpha-clip": "1.0",
+    "open-clip-torch": "3.3.0"
+  },
+  "checkpoint_provenance": {
+    "revision": "5699918cb34f55cd7d828493d2725f3038313761",
+    "files": {
+      "config.yaml": {
+        "size_bytes": 3996,
+        "sha256": "2795e11a7a6cb381a442e07abfdb5a3c0cc20e711c6e7e349ba73bf343c2ebdd"
+      },
+      "model.safetensors": {
+        "size_bytes": 7326949440,
+        "sha256": "62673b63fd9dad425e74b213ffe8501262d9621d5174310ac33017747be31f58"
+      }
+    }
+  },
+  "native_extension_provenance": {
+    "receipt_sha256": "92d8c9f603c11c376003077b2e85ce312107b178dc94be742914dffc170730fc",
+    "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+    "artifacts": {
+      "texture_baker._C": {
+        "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\texture_baker\\_C.cp311-win_amd64.pyd",
+        "sha256": "a2423056b11192d0bd798d07d62448adb60604bae823ccbea74998afc9f2ae66"
+      },
+      "uv_unwrapper._C": {
+        "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\uv_unwrapper\\_C.cp311-win_amd64.pyd",
+        "sha256": "ca22c8966e3b38e96f0421786f30cb6ade642ea5fe8d5becc752920eb24ff9ea"
+      }
+    }
+  },
+  "auxiliary_provenance": {
+    "dinov2": {
+      "repo_id": "facebook/dinov2-large",
+      "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+      "weights_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+      "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+      "configuration_paths": [
+        "image_tokenizer.pretrained_model_name_or_path",
+        "pdiff_image_tokenizer.pretrained_model_name_or_path"
+      ]
+    },
+    "alpha_clip": {
+      "model": "OpenAI ViT-L/14@336px",
+      "sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+    },
+    "operational_config_sha256": "8bdf9d16222055b7ed0a0b3920bb5501b5d8149c61f085a6bf16bd6fed9ea3ec",
+    "changes": "Only local initialization asset paths; architecture, kernels and final model weights unchanged"
+  },
+  "device": "NVIDIA GeForce RTX 4070 SUPER",
+  "source_revision": "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1",
+  "source_dirty": false,
+  "resolved_checkpoint_revision": "5699918cb34f55cd7d828493d2725f3038313761"
+}

@@ -1,0 +1,11 @@
+{
+  "zip_sha256": "e31f0ba8f0979a8aa069c2fc211dd2f24e90c09214a029fa0d0b3fccd4c78026",
+  "archive_members_checked": 1499,
+  "extracted_root": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.cache\\package-validation\\20261028T170059\\StyleSphere_Evaluation",
+  "verify_exit_code": 0,
+  "integrity_passed": true,
+  "checked_records": 651,
+  "errors": [],
+  "pending_count": 456,
+  "note": "Used extracted src through PYTHONPATH; all archived member hashes checked before extraction."
+}

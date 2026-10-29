@@ -1,0 +1,411 @@
+{
+  "source": "official PyPI version JSON; no credentials required or used",
+  "packages": [
+    {
+      "package": "numpy",
+      "version": "1.26.4",
+      "metadata_url": "https://pypi.org/pypi/numpy/1.26.4/json",
+      "files": [
+        {
+          "filename": "numpy-1.26.4-cp310-cp310-macosx_10_9_x86_64.whl",
+          "size_bytes": 20631468,
+          "sha256": "9ff0f4f29c51e2803569d7a51c2304de5554655a60c5d776e35b4a41413830d0",
+          "url": "https://files.pythonhosted.org/packages/a7/94/ace0fdea5241a27d13543ee117cbc65868e82213fb31a8eb7fe9ff23f313/numpy-1.26.4-cp310-cp310-macosx_10_9_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp310-cp310-macosx_11_0_arm64.whl",
+          "size_bytes": 13966411,
+          "sha256": "2e4ee3380d6de9c9ec04745830fd9e2eccb3e6cf790d39d7b98ffd19b0dd754a",
+          "url": "https://files.pythonhosted.org/packages/20/f7/b24208eba89f9d1b58c1668bc6c8c4fd472b20c45573cb767f59d49fb0f6/numpy-1.26.4-cp310-cp310-macosx_11_0_arm64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "size_bytes": 14219016,
+          "sha256": "d209d8969599b27ad20994c8e41936ee0964e6da07478d6c35016bc386b66ad4",
+          "url": "https://files.pythonhosted.org/packages/fc/a5/4beee6488160798683eed5bdb7eead455892c3b4e1f78d79d8d3f3b084ac/numpy-1.26.4-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "size_bytes": 18240889,
+          "sha256": "ffa75af20b44f8dba823498024771d5ac50620e6915abac414251bd971b4529f",
+          "url": "https://files.pythonhosted.org/packages/4b/d7/ecf66c1cd12dc28b4040b15ab4d17b773b87fa9d29ca16125de01adb36cd/numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp310-cp310-musllinux_1_1_aarch64.whl",
+          "size_bytes": 13876746,
+          "sha256": "62b8e4b1e28009ef2846b4c7852046736bab361f7aeadeb6a5b89ebec3c7055a",
+          "url": "https://files.pythonhosted.org/packages/24/03/6f229fe3187546435c4f6f89f6d26c129d4f5bed40552899fcf1f0bf9e50/numpy-1.26.4-cp310-cp310-musllinux_1_1_aarch64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp310-cp310-musllinux_1_1_x86_64.whl",
+          "size_bytes": 18078620,
+          "sha256": "a4abb4f9001ad2858e7ac189089c42178fcce737e4169dc61321660f1a96c7d2",
+          "url": "https://files.pythonhosted.org/packages/39/fe/39ada9b094f01f5a35486577c848fe274e374bbf8d8f472e1423a0bbd26d/numpy-1.26.4-cp310-cp310-musllinux_1_1_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp310-cp310-win32.whl",
+          "size_bytes": 5972659,
+          "sha256": "bfe25acf8b437eb2a8b2d49d443800a5f18508cd811fea3181723922a8a82b07",
+          "url": "https://files.pythonhosted.org/packages/d5/ef/6ad11d51197aad206a9ad2286dc1aac6a378059e06e8cf22cd08ed4f20dc/numpy-1.26.4-cp310-cp310-win32.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp310-cp310-win_amd64.whl",
+          "size_bytes": 15808905,
+          "sha256": "b97fe8060236edf3662adfc2c633f56a08ae30560c56310562cb4f95500022d5",
+          "url": "https://files.pythonhosted.org/packages/19/77/538f202862b9183f54108557bfda67e17603fc560c384559e769321c9d92/numpy-1.26.4-cp310-cp310-win_amd64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp311-cp311-macosx_10_9_x86_64.whl",
+          "size_bytes": 20630554,
+          "sha256": "4c66707fabe114439db9068ee468c26bbdf909cac0fb58686a42a24de1760c71",
+          "url": "https://files.pythonhosted.org/packages/11/57/baae43d14fe163fa0e4c47f307b6b2511ab8d7d30177c491960504252053/numpy-1.26.4-cp311-cp311-macosx_10_9_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp311-cp311-macosx_11_0_arm64.whl",
+          "size_bytes": 13997127,
+          "sha256": "edd8b5fe47dab091176d21bb6de568acdd906d1887a4584a15a9a96a1dca06ef",
+          "url": "https://files.pythonhosted.org/packages/1a/2e/151484f49fd03944c4a3ad9c418ed193cfd02724e138ac8a9505d056c582/numpy-1.26.4-cp311-cp311-macosx_11_0_arm64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "size_bytes": 14222994,
+          "sha256": "7ab55401287bfec946ced39700c053796e7cc0e3acbef09993a9ad2adba6ca6e",
+          "url": "https://files.pythonhosted.org/packages/79/ae/7e5b85136806f9dadf4878bf73cf223fe5c2636818ba3ab1c585d0403164/numpy-1.26.4-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "size_bytes": 18252005,
+          "sha256": "666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5",
+          "url": "https://files.pythonhosted.org/packages/3a/d0/edc009c27b406c4f9cbc79274d6e46d634d139075492ad055e3d68445925/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp311-cp311-musllinux_1_1_aarch64.whl",
+          "size_bytes": 13885297,
+          "sha256": "96ff0b2ad353d8f990b63294c8986f1ec3cb19d749234014f4e7eb0112ceba5a",
+          "url": "https://files.pythonhosted.org/packages/09/bf/2b1aaf8f525f2923ff6cfcf134ae5e750e279ac65ebf386c75a0cf6da06a/numpy-1.26.4-cp311-cp311-musllinux_1_1_aarch64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp311-cp311-musllinux_1_1_x86_64.whl",
+          "size_bytes": 18093567,
+          "sha256": "60dedbb91afcbfdc9bc0b1f3f402804070deed7392c23eb7a7f07fa857868e8a",
+          "url": "https://files.pythonhosted.org/packages/df/a0/4e0f14d847cfc2a633a1c8621d00724f3206cfeddeb66d35698c4e2cf3d2/numpy-1.26.4-cp311-cp311-musllinux_1_1_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp311-cp311-win32.whl",
+          "size_bytes": 5968812,
+          "sha256": "1af303d6b2210eb850fcf03064d364652b7120803a0b872f5211f5234b399f20",
+          "url": "https://files.pythonhosted.org/packages/d2/b7/a734c733286e10a7f1a8ad1ae8c90f2d33bf604a96548e0a4a3a6739b468/numpy-1.26.4-cp311-cp311-win32.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp311-cp311-win_amd64.whl",
+          "size_bytes": 15811913,
+          "sha256": "cd25bcecc4974d09257ffcd1f098ee778f7834c3ad767fe5db785be9a4aa9cb2",
+          "url": "https://files.pythonhosted.org/packages/3f/6b/5610004206cf7f8e7ad91c5a85a8c71b2f2f8051a0c0c4d5916b76d6cbb2/numpy-1.26.4-cp311-cp311-win_amd64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp312-cp312-macosx_10_9_x86_64.whl",
+          "size_bytes": 20335901,
+          "sha256": "b3ce300f3644fb06443ee2222c2201dd3a89ea6040541412b8fa189341847218",
+          "url": "https://files.pythonhosted.org/packages/95/12/8f2020a8e8b8383ac0177dc9570aad031a3beb12e38847f7129bacd96228/numpy-1.26.4-cp312-cp312-macosx_10_9_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp312-cp312-macosx_11_0_arm64.whl",
+          "size_bytes": 13685868,
+          "sha256": "03a8c78d01d9781b28a6989f6fa1bb2c4f2d51201cf99d3dd875df6fbd96b23b",
+          "url": "https://files.pythonhosted.org/packages/75/5b/ca6c8bd14007e5ca171c7c03102d17b4f4e0ceb53957e8c44343a9546dcc/numpy-1.26.4-cp312-cp312-macosx_11_0_arm64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "size_bytes": 13925109,
+          "sha256": "9fad7dcb1aac3c7f0584a5a8133e3a43eeb2fe127f47e3632d43d677c66c102b",
+          "url": "https://files.pythonhosted.org/packages/79/f8/97f10e6755e2a7d027ca783f63044d5b1bc1ae7acb12afe6a9b4286eac17/numpy-1.26.4-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "size_bytes": 17950613,
+          "sha256": "675d61ffbfa78604709862923189bad94014bef562cc35cf61d3a07bba02a7ed",
+          "url": "https://files.pythonhosted.org/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp312-cp312-musllinux_1_1_aarch64.whl",
+          "size_bytes": 13572172,
+          "sha256": "ab47dbe5cc8210f55aa58e4805fe224dac469cde56b9f731a4c098b91917159a",
+          "url": "https://files.pythonhosted.org/packages/4c/0c/9c603826b6465e82591e05ca230dfc13376da512b25ccd0894709b054ed0/numpy-1.26.4-cp312-cp312-musllinux_1_1_aarch64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp312-cp312-musllinux_1_1_x86_64.whl",
+          "size_bytes": 17786643,
+          "sha256": "1dda2e7b4ec9dd512f84935c5f126c8bd8b9f2fc001e9f54af255e8c5f16b0e0",
+          "url": "https://files.pythonhosted.org/packages/76/8c/2ba3902e1a0fc1c74962ea9bb33a534bb05984ad7ff9515bf8d07527cadd/numpy-1.26.4-cp312-cp312-musllinux_1_1_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp312-cp312-win32.whl",
+          "size_bytes": 5677803,
+          "sha256": "50193e430acfc1346175fcbdaa28ffec49947a06918b7b92130744e81e640110",
+          "url": "https://files.pythonhosted.org/packages/28/4a/46d9e65106879492374999e76eb85f87b15328e06bd1550668f79f7b18c6/numpy-1.26.4-cp312-cp312-win32.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp312-cp312-win_amd64.whl",
+          "size_bytes": 15517754,
+          "sha256": "08beddf13648eb95f8d867350f6a018a4be2e5ad54c8d8caed89ebca558b2818",
+          "url": "https://files.pythonhosted.org/packages/16/2e/86f24451c2d530c88daf997cb8d6ac622c1d40d19f5a031ed68a4b73a374/numpy-1.26.4-cp312-cp312-win_amd64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp39-cp39-macosx_10_9_x86_64.whl",
+          "size_bytes": 20636301,
+          "sha256": "7349ab0fa0c429c82442a27a9673fc802ffdb7c7775fad780226cb234965e53c",
+          "url": "https://files.pythonhosted.org/packages/7d/24/ce71dc08f06534269f66e73c04f5709ee024a1afe92a7b6e1d73f158e1f8/numpy-1.26.4-cp39-cp39-macosx_10_9_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp39-cp39-macosx_11_0_arm64.whl",
+          "size_bytes": 13971216,
+          "sha256": "52b8b60467cd7dd1e9ed082188b4e6bb35aa5cdd01777621a1658910745b90be",
+          "url": "https://files.pythonhosted.org/packages/ae/8c/ab03a7c25741f9ebc92684a20125fbc9fc1b8e1e700beb9197d750fdff88/numpy-1.26.4-cp39-cp39-macosx_11_0_arm64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "size_bytes": 14226281,
+          "sha256": "d5241e0a80d808d70546c697135da2c613f30e28251ff8307eb72ba696945764",
+          "url": "https://files.pythonhosted.org/packages/6d/64/c3bcdf822269421d85fe0d64ba972003f9bb4aa9a419da64b86856c9961f/numpy-1.26.4-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "size_bytes": 18249516,
+          "sha256": "f870204a840a60da0b12273ef34f7051e98c3b5961b61b0c2c1be6dfd64fbcd3",
+          "url": "https://files.pythonhosted.org/packages/54/30/c2a907b9443cf42b90c17ad10c1e8fa801975f01cb9764f3f8eb8aea638b/numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp39-cp39-musllinux_1_1_aarch64.whl",
+          "size_bytes": 13882132,
+          "sha256": "679b0076f67ecc0138fd2ede3a8fd196dddc2ad3254069bcb9faf9a79b1cebcd",
+          "url": "https://files.pythonhosted.org/packages/43/12/01a563fc44c07095996d0129b8899daf89e4742146f7044cdbdb3101c57f/numpy-1.26.4-cp39-cp39-musllinux_1_1_aarch64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp39-cp39-musllinux_1_1_x86_64.whl",
+          "size_bytes": 18084181,
+          "sha256": "47711010ad8555514b434df65f7d7b076bb8261df1ca9bb78f53d3b2db02e95c",
+          "url": "https://files.pythonhosted.org/packages/16/ee/9df80b06680aaa23fc6c31211387e0db349e0e36d6a63ba3bd78c5acdf11/numpy-1.26.4-cp39-cp39-musllinux_1_1_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp39-cp39-win32.whl",
+          "size_bytes": 5976360,
+          "sha256": "a354325ee03388678242a4d7ebcd08b5c727033fcff3b2f536aea978e15ee9e6",
+          "url": "https://files.pythonhosted.org/packages/28/7d/4b92e2fe20b214ffca36107f1a3e75ef4c488430e64de2d9af5db3a4637d/numpy-1.26.4-cp39-cp39-win32.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-cp39-cp39-win_amd64.whl",
+          "size_bytes": 15814633,
+          "sha256": "3373d5d70a5fe74a2c1bb6d2cfd9609ecf686d47a2d7b1d37a8f3b6bf6003aea",
+          "url": "https://files.pythonhosted.org/packages/b5/42/054082bd8220bbf6f297f982f0a8f5479fcbc55c8b511d928df07b965869/numpy-1.26.4-cp39-cp39-win_amd64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-pp39-pypy39_pp73-macosx_10_9_x86_64.whl",
+          "size_bytes": 20455961,
+          "sha256": "afedb719a9dcfc7eaf2287b839d8198e06dcd4cb5d276a3df279231138e83d30",
+          "url": "https://files.pythonhosted.org/packages/3f/72/3df6c1c06fc83d9cfe381cccb4be2532bbd38bf93fbc9fad087b6687f1c0/numpy-1.26.4-pp39-pypy39_pp73-macosx_10_9_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "size_bytes": 18061071,
+          "sha256": "95a7476c59002f2f6c590b9b7b998306fba6a5aa646b1e22ddfeaf8f78c3a29c",
+          "url": "https://files.pythonhosted.org/packages/8e/02/570545bac308b58ffb21adda0f4e220ba716fb658a63c151daecc3293350/numpy-1.26.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4-pp39-pypy39_pp73-win_amd64.whl",
+          "size_bytes": 15709730,
+          "sha256": "7e50d0a0cc3189f9cb0aeb3a6a6af18c16f59f004b866cd2be1c14b36134a4a0",
+          "url": "https://files.pythonhosted.org/packages/f4/5f/fafd8c51235f60d49f7a88e2275e13971e90555b67da52dd6416caec32fe/numpy-1.26.4-pp39-pypy39_pp73-win_amd64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "numpy-1.26.4.tar.gz",
+          "size_bytes": 15786129,
+          "sha256": "2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010",
+          "url": "https://files.pythonhosted.org/packages/65/6e/09db70a523a96d25e115e71cc56a6f9031e7b8cd166c1ac8438307c14058/numpy-1.26.4.tar.gz",
+          "packagetype": "sdist"
+        }
+      ]
+    },
+    {
+      "package": "pyrender",
+      "version": "0.1.45",
+      "metadata_url": "https://pypi.org/pypi/pyrender/0.1.45/json",
+      "files": [
+        {
+          "filename": "pyrender-0.1.45-py3-none-any.whl",
+          "size_bytes": 1214061,
+          "sha256": "5cf751d1f21fba4640e830cef3a0b5a95ed0f05677bf92c6b8330056b4023aeb",
+          "url": "https://files.pythonhosted.org/packages/28/88/174c28b9d3d03cf6d8edb6f637458f30f1cf1a2bd7a617cbd9dadb1740f6/pyrender-0.1.45-py3-none-any.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "pyrender-0.1.45.tar.gz",
+          "size_bytes": 1202386,
+          "sha256": "284b2432bf6832f05c5216c4b979ceb514ea78163bf53b8ce2bdf0069cb3b92e",
+          "url": "https://files.pythonhosted.org/packages/4d/5a/2a3e5bfd83071a81e02291288391e0fa2c85d1c6765357f4de2dbc27bca6/pyrender-0.1.45.tar.gz",
+          "packagetype": "sdist"
+        }
+      ]
+    },
+    {
+      "package": "pyglet",
+      "version": "1.5.31",
+      "metadata_url": "https://pypi.org/pypi/pyglet/1.5.31/json",
+      "files": [
+        {
+          "filename": "pyglet-1.5.31-py3-none-any.whl",
+          "size_bytes": 1143660,
+          "sha256": "f68413564bbec380e4815898fef0fb7a4a494dc3f8718bfbf28ce2a802634c88",
+          "url": "https://files.pythonhosted.org/packages/e2/43/46aa0ab49f2f5145d201780c7595cf0c305fb4fb5d00d6639792a3d0e770/pyglet-1.5.31-py3-none-any.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "pyglet-1.5.31.zip",
+          "size_bytes": 6900712,
+          "sha256": "a5e422b4c27b0fc99e92103bf493109cca5c18143583b868b3b4631a98ae9417",
+          "url": "https://files.pythonhosted.org/packages/f7/c0/59130a7edbcc8f84e35870b00a712538ca05415ff02d17181277b8ef8f05/pyglet-1.5.31.zip",
+          "packagetype": "sdist"
+        }
+      ]
+    },
+    {
+      "package": "PyOpenGL",
+      "version": "3.1.0",
+      "metadata_url": "https://pypi.org/pypi/PyOpenGL/3.1.0/json",
+      "files": [
+        {
+          "filename": "PyOpenGL-3.1.0.tar.gz",
+          "size_bytes": 1172688,
+          "sha256": "9b47c5c3a094fa518ca88aeed35ae75834d53e4285512c61879f67a48c94ddaf",
+          "url": "https://files.pythonhosted.org/packages/9c/1d/4544708aaa89f26c97cc09450bb333a23724a320923e74d73e028b3560f9/PyOpenGL-3.1.0.tar.gz",
+          "packagetype": "sdist"
+        },
+        {
+          "filename": "PyOpenGL-3.1.0.win32.exe",
+          "size_bytes": 2111161,
+          "sha256": "5b3a14a4e4c87cf25ca41bc5878583df0e434624b13fcc55d1a672f79ad1b76f",
+          "url": "https://files.pythonhosted.org/packages/35/0e/1e72ecc33d37f4e371cfbb3a5708c571d74f286f95e3f69f3ca55238fa03/PyOpenGL-3.1.0.win32.exe",
+          "packagetype": "bdist_wininst"
+        },
+        {
+          "filename": "PyOpenGL-3.1.0.zip",
+          "size_bytes": 2189623,
+          "sha256": "efa4e39a49b906ccbe66758812ca81ced13a6f26931ab2ba2dba2750c016c0d0",
+          "url": "https://files.pythonhosted.org/packages/ce/33/ef0e3b40a3f4cbfcfb93511652673fb19d07bafac0611f01f6237d1978ed/PyOpenGL-3.1.0.zip",
+          "packagetype": "sdist"
+        }
+      ]
+    },
+    {
+      "package": "freetype-py",
+      "version": "2.5.1",
+      "metadata_url": "https://pypi.org/pypi/freetype-py/2.5.1/json",
+      "files": [
+        {
+          "filename": "freetype_py-2.5.1-py3-none-macosx_10_9_universal2.whl",
+          "size_bytes": 1747885,
+          "sha256": "d01ded2557694f06aa0413f3400c0c0b2b5ebcaabeef7aaf3d756be44f51e90b",
+          "url": "https://files.pythonhosted.org/packages/38/a8/258dd138ebe60c79cd8cfaa6d021599208a33f0175a5e29b01f60c9ab2c7/freetype_py-2.5.1-py3-none-macosx_10_9_universal2.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "freetype_py-2.5.1-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "size_bytes": 1051055,
+          "sha256": "5d2f6b3d68496797da23204b3b9c4e77e67559c80390fc0dc8b3f454ae1cd819",
+          "url": "https://files.pythonhosted.org/packages/a2/93/280ad06dc944e40789b0a641492321a2792db82edda485369cbc59d14366/freetype_py-2.5.1-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "freetype_py-2.5.1-py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+          "size_bytes": 1043856,
+          "sha256": "289b443547e03a4f85302e3ac91376838e0d11636050166662a4f75e3087ed0b",
+          "url": "https://files.pythonhosted.org/packages/b6/36/853cad240ec63e21a37a512ee19c896b655ce1772d803a3dd80fccfe63fe/freetype_py-2.5.1-py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "freetype_py-2.5.1-py3-none-musllinux_1_1_aarch64.whl",
+          "size_bytes": 1108180,
+          "sha256": "cd3bfdbb7e1a84818cfbc8025fca3096f4f2afcd5d4641184bf0a3a2e6f97bbf",
+          "url": "https://files.pythonhosted.org/packages/93/6f/fcc1789e42b8c6617c3112196d68e87bfe7d957d80812d3c24d639782dcb/freetype_py-2.5.1-py3-none-musllinux_1_1_aarch64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "freetype_py-2.5.1-py3-none-musllinux_1_1_x86_64.whl",
+          "size_bytes": 1106792,
+          "sha256": "3c1aefc4f0d5b7425f014daccc5fdc7c6f914fb7d6a695cc684f1c09cd8c1660",
+          "url": "https://files.pythonhosted.org/packages/2a/1b/161d3a6244b8a820aef188e4397a750d4a8196316809576d015f26594296/freetype_py-2.5.1-py3-none-musllinux_1_1_x86_64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "freetype_py-2.5.1-py3-none-win_amd64.whl",
+          "size_bytes": 814608,
+          "sha256": "0b7f8e0342779f65ca13ef8bc103938366fecade23e6bb37cb671c2b8ad7f124",
+          "url": "https://files.pythonhosted.org/packages/93/6e/bd7fbfacca077bc6f34f1a1109800a2c41ab50f4704d3a0507ba41009915/freetype_py-2.5.1-py3-none-win_amd64.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "freetype-py-2.5.1.zip",
+          "size_bytes": 851738,
+          "sha256": "cfe2686a174d0dd3d71a9d8ee9bf6a2c23f5872385cf8ce9f24af83d076e2fbd",
+          "url": "https://files.pythonhosted.org/packages/d0/9c/61ba17f846b922c2d6d101cc886b0e8fb597c109cedfcb39b8c5d2304b54/freetype-py-2.5.1.zip",
+          "packagetype": "sdist"
+        }
+      ]
+    },
+    {
+      "package": "imageio",
+      "version": "2.37.3",
+      "metadata_url": "https://pypi.org/pypi/imageio/2.37.3/json",
+      "files": [
+        {
+          "filename": "imageio-2.37.3-py3-none-any.whl",
+          "size_bytes": 317646,
+          "sha256": "46f5bb8522cd421c0f5ae104d8268f569d856b29eb1a13b92829d1970f32c9f0",
+          "url": "https://files.pythonhosted.org/packages/49/fa/391e437a34e55095173dca5f24070d89cbc233ff85bf1c29c93248c6588d/imageio-2.37.3-py3-none-any.whl",
+          "packagetype": "bdist_wheel"
+        },
+        {
+          "filename": "imageio-2.37.3.tar.gz",
+          "size_bytes": 389673,
+          "sha256": "bbb37efbfc4c400fcd534b367b91fcd66d5da639aaa138034431a1c5e0a41451",
+          "url": "https://files.pythonhosted.org/packages/b1/84/93bcd1300216ea50811cee96873b84a1bebf8d0489ffaf7f2a3756bab866/imageio-2.37.3.tar.gz",
+          "packagetype": "sdist"
+        }
+      ]
+    }
+  ]
+}

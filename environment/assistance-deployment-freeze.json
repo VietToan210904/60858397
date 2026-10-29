@@ -1,0 +1,88 @@
+{
+  "frozen_at_utc": "2026-10-28T17:05:02.373017+00:00",
+  "freeze_id": "7931919622bb0b46034bc5c0f7fdb711cfe6a4dbacdc7dae26185b52958616ae",
+  "source_sha256": {
+    "src/stylesphere/assistance/runner.py": "0df17e35c288575b7b3825b8f3a27b2705abd0c64839d30e72b1c3bf57e6113b",
+    "src/stylesphere/assistance/adapters.py": "05e03891539f5a5e78a5379a6d2d17e10baef0f6c175468674f13e3896778bc6",
+    "src/stylesphere/assistance/tools.py": "163f90d991425d805a79f61acae252ec594e5558076f434385940e91dfb37dad",
+    "src/stylesphere/assistance/validation.py": "72dc8d702b4684576827b6e3ab1ebb2594f44cc3980831c2dc716633e8f7fe76",
+    "src/stylesphere/assistance/verification.py": "b0dcf40b226966b38e8a633d8402d15b81146995478c6516685a76269c858d1c",
+    "src/stylesphere/common/runtime.py": "8794ec20a0ee678301eef285c180d9c893625ce8a7870fda7a196979f66c0a6e",
+    "src/stylesphere/common/io.py": "e82ef94266ade15d86cb75d0b940b0c3256feaf8453cf1ecee1546783b15a271"
+  },
+  "source_snapshot": "environment\\assistance_source_snapshot\\7931919622bb0b46",
+  "deployment_protocol": {
+    "models": {
+      "phi4_mini": {
+        "pair": "assistance",
+        "model_id": "microsoft/Phi-4-mini-instruct",
+        "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+        "precision": "bfloat16",
+        "quantization": "none",
+        "local_files_only": true,
+        "trust_remote_code": false,
+        "licence": "MIT",
+        "local_path": "models/phi4_mini"
+      },
+      "qwen35_4b": {
+        "pair": "assistance",
+        "model_id": "Qwen/Qwen3.5-4B",
+        "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+        "precision": "bfloat16",
+        "quantization": "none",
+        "enable_thinking": false,
+        "local_files_only": true,
+        "trust_remote_code": false,
+        "licence": "Apache-2.0",
+        "local_path": "models/qwen35_4b"
+      }
+    },
+    "evaluation": {
+      "controller_protocol_version": 2,
+      "max_steps": 6,
+      "max_new_tokens": 512,
+      "temperature": 0.0
+    },
+    "warmup_runs": 1,
+    "seed": 8410
+  },
+  "final_dataset_sha256": {
+    "knowledge_base.json": "9090a086a1c19a0e8ac8f7ccd8306a4d0baed5f9a150d75d30df373cdccaa882",
+    "scenarios.jsonl": "d3332ad12644b6285ba911cc48f9624fa429bae17228c8870e69beded4df084a"
+  },
+  "checkpoint_receipts": {
+    "phi4_mini": {
+      "path": "environment\\acquisition_phi4_mini.json",
+      "sha256": "03da7f102b93585d31224ff4981f417c74c8e4f955fe4a6287b3a7ecc0dc0795",
+      "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+      "weight_sha256": {
+        "model-00001-of-00002.safetensors": "bc703090b63eda16f639fa4de7ac54635c23105ab1da2f6ec4d3403151d38ee6",
+        "model-00002-of-00002.safetensors": "7ff79b9d2d31076bac2663393451f6530f4fc8ca49b09002116c92c373dba983"
+      }
+    },
+    "qwen35_4b": {
+      "path": "environment\\acquisition_qwen35_4b.json",
+      "sha256": "cc1749b9645e5af5787bd5ed4d859c0f8921ca418ec788e50d776b2711fcc4de",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "weight_sha256": {
+        "model.safetensors-00001-of-00002.safetensors": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+        "model.safetensors-00002-of-00002.safetensors": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188"
+      }
+    }
+  },
+  "development_runs": {
+    "phi_v1": "738aa2b6705f432b8c7230b11592e22a",
+    "phi_v2": "56d1395a49dd48ea9498ab83ef4e845c",
+    "qwen_v2": "82d199a8286e40e79f4513669fd7fa4e"
+  },
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "5.5.0",
+    "accelerate": "1.13.0",
+    "huggingface-hub": "1.9.2"
+  },
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "executable": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-assistance\\Scripts\\python.exe",
+  "note": "Both deployments fit native bf16 with no quantization. Qwen uses native torch fallback without optional DeltaNet fast kernels; text-only inputs and thinking disabled. Development cases are independent of the final80. This freeze precedes final model outputs; no human grades were supplied."
+}

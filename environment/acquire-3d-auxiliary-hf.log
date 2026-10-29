@@ -1,0 +1,18 @@
+{
+  "selected_bytes": 1822754351,
+  "free_disk_before": 374373339136,
+  "selected": [
+    "dinov2_large",
+    "sf3d_clip"
+  ]
+}
+{"status": "file_verified", "path": "README.md", "bytes": 3033, "sha256": null, "reused": false}
+{"status": "file_verified", "path": "config.json", "bytes": 549, "sha256": null, "reused": false}
+{"status": "file_verified", "path": "model.safetensors", "bytes": 1217522888, "sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23", "reused": false}
+{"status": "download_complete", "model_id": "facebook/dinov2-large", "files": 3}
+Verified dinov2_large
+{"status": "file_verified", "path": "README.md", "bytes": 7464, "sha256": null, "reused": false}
+{"status": "file_verified", "path": "open_clip_config.json", "bytes": 604, "sha256": null, "reused": false}
+{"status": "file_verified", "path": "open_clip_pytorch_model.bin", "bytes": 605219813, "sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad", "reused": false}
+{"status": "download_complete", "model_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K", "files": 3}
+Verified sf3d_clip

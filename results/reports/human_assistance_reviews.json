@@ -1,0 +1,9 @@
+{
+  "source": "independent human assessments; blank rows are not observations",
+  "worksheet": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\assistance\\human_assessments.csv",
+  "binary_decision_rule": "unanimous nonblank votes per scenario; disagreement missing pending documented human adjudication; vote rates supplementary",
+  "eligible_executions": 87,
+  "n_assessments": 0,
+  "models": [],
+  "per_case": []
+}

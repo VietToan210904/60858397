@@ -1,0 +1,24 @@
+{
+  "timestamp_utc": "2026-10-28T17:20:13.033044+00:00",
+  "run_id": "ae13ded36915404e929fa8428f956235",
+  "model": "qwen35_4b",
+  "case_count": 80,
+  "status_counts": {
+    "failed": 33,
+    "success": 47
+  },
+  "failure_types": {
+    "JSONDecodeError": 17,
+    "ValueError": 16
+  },
+  "integrity_errors": [],
+  "frozen_source_errors": [],
+  "all_attempts_have_timings": true,
+  "parameter_dtype_counts": {
+    "torch.bfloat16": 4539265536
+  },
+  "parameter_device_counts": {
+    "cuda:0": 4539265536
+  },
+  "note": "Trace replay and hashes establish internal evidence consistency, not human task success or semantic correctness of every prose claim."
+}

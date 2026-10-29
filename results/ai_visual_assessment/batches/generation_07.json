@@ -1,0 +1,280 @@
+{
+  "kind": "post_hoc_supplementary_ai_visual_packet",
+  "protocol_sha256": "299a340bf2fd5f87b8399b62fde3855117a84cf0bf61146474f9a367dd02f7f4",
+  "selection_sha256": "c9854ffcf88fc81f931e677e7137da8b6c7e60096bf26c378f86baa0ddeb6deb",
+  "pair": "generation",
+  "batch_number": 7,
+  "cards": [
+    {
+      "assessment_id": "ai_3a76a7fe4e7a8183",
+      "pair": "generation",
+      "brief": "Autumn fashion still life showing a burnt-orange beret, chocolate-brown ankle boots and a folded oatmeal cardigan on a dark wooden bench with a few dry leaves, warm side light, clear product separation, no lettering.",
+      "criteria": [
+        "orange beret",
+        "brown ankle boots",
+        "oatmeal cardigan",
+        "dark wooden bench",
+        "dry leaves",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_3a76a7fe4e7a8183_image.png",
+          "sha256": "303ecd4ab2fcd31d899a7269382a7491ba92159d8180d5b761240d2f0056a3bd"
+        }
+      },
+      "evidence_sha256": {
+        "image": "303ecd4ab2fcd31d899a7269382a7491ba92159d8180d5b761240d2f0056a3bd"
+      }
+    },
+    {
+      "assessment_id": "ai_0f288ee8da82ec8f",
+      "pair": "generation",
+      "brief": "Two structured handbags on separate circular plinths: a small red bag with silver clasp on the left and a larger black bag with gold clasp on the right, matching three-quarter angles, neutral grey background, no text.",
+      "criteria": [
+        "two handbags",
+        "small red bag left",
+        "silver clasp left",
+        "larger black bag right",
+        "gold clasp right",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_0f288ee8da82ec8f_image.png",
+          "sha256": "c57b18dcf1a8b043ea3f2c9bbe8941daef2891f1650353301ea074464d296e1b"
+        }
+      },
+      "evidence_sha256": {
+        "image": "c57b18dcf1a8b043ea3f2c9bbe8941daef2891f1650353301ea074464d296e1b"
+      }
+    },
+    {
+      "assessment_id": "ai_e034ce325ea3ea18",
+      "pair": "generation",
+      "brief": "Jewellery campaign displaying exactly three separate gold rings in a horizontal row on matte lavender stone: a plain band on the left, a twisted band in the middle, and a ring with one green stone on the right, no text.",
+      "criteria": [
+        "exactly three gold rings",
+        "plain band left",
+        "twisted band middle",
+        "one green stone right",
+        "horizontal row",
+        "lavender stone",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_e034ce325ea3ea18_image.png",
+          "sha256": "14c74a7da45e1fc1ee1e38cea65e9cf34b9d98ce832925a2ff32bc68e0c9dcae"
+        }
+      },
+      "evidence_sha256": {
+        "image": "14c74a7da45e1fc1ee1e38cea65e9cf34b9d98ce832925a2ff32bc68e0c9dcae"
+      }
+    },
+    {
+      "assessment_id": "ai_741d52f78bdafc32",
+      "pair": "generation",
+      "brief": "Evening fashion editorial of an adult with medium-brown skin wearing a flowing emerald midi dress and silver flats on a softly lit rooftop terrace, full body, modest neckline, natural hands, city lights in background, no text.",
+      "criteria": [
+        "adult with medium-brown skin",
+        "emerald midi dress",
+        "silver flats",
+        "modest neckline",
+        "rooftop terrace",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_741d52f78bdafc32_image.png",
+          "sha256": "0889a8e938df1d41803ba7f7dfa2851f78a7128418e905f4437cf725210af0ac"
+        }
+      },
+      "evidence_sha256": {
+        "image": "0889a8e938df1d41803ba7f7dfa2851f78a7128418e905f4437cf725210af0ac"
+      }
+    },
+    {
+      "assessment_id": "ai_4c2667d0ca856527",
+      "pair": "generation",
+      "brief": "Minimal display of a black backpack with two visible front pockets, a silver zipper and one orange pull tab, standing beside a transparent water bottle on a white cube, pale green backdrop, no people, no logos and no text.",
+      "criteria": [
+        "black backpack",
+        "two front pockets",
+        "silver zipper",
+        "orange pull tab",
+        "transparent bottle",
+        "white cube",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_4c2667d0ca856527_image.png",
+          "sha256": "5867344dfe5a46568b3699dc6b3453cc752d3dcd1b0898b9146b4362f6ed1964"
+        }
+      },
+      "evidence_sha256": {
+        "image": "5867344dfe5a46568b3699dc6b3453cc752d3dcd1b0898b9146b4362f6ed1964"
+      }
+    },
+    {
+      "assessment_id": "ai_be2c36bd9fd00828",
+      "pair": "generation",
+      "brief": "Accessible fashion editorial featuring an adult wheelchair user in a rust-coloured trench coat, dark jeans and white trainers in an airy railway concourse, complete wheelchair visible, natural seated pose, respectful confident portrait, no text.",
+      "criteria": [
+        "adult wheelchair user",
+        "rust trench coat",
+        "dark jeans",
+        "white trainers",
+        "complete wheelchair",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_be2c36bd9fd00828_image.png",
+          "sha256": "aea4a02ffde47a3779d75953dc3fec64517c8622b4101ca8bd5df316422b6d77"
+        }
+      },
+      "evidence_sha256": {
+        "image": "aea4a02ffde47a3779d75953dc3fec64517c8622b4101ca8bd5df316422b6d77"
+      }
+    },
+    {
+      "assessment_id": "ai_a583eb93f37f6ef1",
+      "pair": "generation",
+      "brief": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+      "criteria": [
+        "one burgundy handbag",
+        "brass clasp",
+        "short top handle",
+        "ivory plinth",
+        "empty space above",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_a583eb93f37f6ef1_image.png",
+          "sha256": "6234a2c2a278991eea0f8ac91b2b2e3a4eee56ce396e2ed2bef9d45b47af4ec7"
+        }
+      },
+      "evidence_sha256": {
+        "image": "6234a2c2a278991eea0f8ac91b2b2e3a4eee56ce396e2ed2bef9d45b47af4ec7"
+      }
+    },
+    {
+      "assessment_id": "ai_2f321d6ec5647638",
+      "pair": "generation",
+      "brief": "Minimal display of a black backpack with two visible front pockets, a silver zipper and one orange pull tab, standing beside a transparent water bottle on a white cube, pale green backdrop, no people, no logos and no text.",
+      "criteria": [
+        "black backpack",
+        "two front pockets",
+        "silver zipper",
+        "orange pull tab",
+        "transparent bottle",
+        "white cube",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_2f321d6ec5647638_image.png",
+          "sha256": "f23c85165e4ca9cb7e50dcea264531f96ec986408415f2e8e172a559bd93efa5"
+        }
+      },
+      "evidence_sha256": {
+        "image": "f23c85165e4ca9cb7e50dcea264531f96ec986408415f2e8e172a559bd93efa5"
+      }
+    },
+    {
+      "assessment_id": "ai_da53765f0253836f",
+      "pair": "generation",
+      "brief": "Premium product photograph of a pair of white low-top trainers with forest-green heel tabs and off-white rubber soles, viewed at a slight overhead angle against pale grey, crisp realistic stitching, no visible logos or words.",
+      "criteria": [
+        "pair of white low-top trainers",
+        "green heel tabs",
+        "off-white soles",
+        "grey background",
+        "no logos or words"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_da53765f0253836f_image.png",
+          "sha256": "a7945eb0baccf8d68c5ba099d93f3e722e162e06c271f1720c82f0e135decc43"
+        }
+      },
+      "evidence_sha256": {
+        "image": "a7945eb0baccf8d68c5ba099d93f3e722e162e06c271f1720c82f0e135decc43"
+      }
+    },
+    {
+      "assessment_id": "ai_9a386381fa7bfcb7",
+      "pair": "generation",
+      "brief": "Single cobalt-blue ankle boot with square toe and low block heel on a pale peach seamless studio background, side profile, suede texture, sharp product outline, no other products and no text.",
+      "criteria": [
+        "single cobalt-blue boot",
+        "square toe",
+        "low block heel",
+        "suede texture",
+        "peach background",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_9a386381fa7bfcb7_image.png",
+          "sha256": "474403a520857a60ddb1e41cd23467849c982c09a863e85804b6e9d5e5066833"
+        }
+      },
+      "evidence_sha256": {
+        "image": "474403a520857a60ddb1e41cd23467849c982c09a863e85804b6e9d5e5066833"
+      }
+    },
+    {
+      "assessment_id": "ai_1d07b249989f8cda",
+      "pair": "generation",
+      "brief": "Two structured handbags on separate circular plinths: a small red bag with silver clasp on the left and a larger black bag with gold clasp on the right, matching three-quarter angles, neutral grey background, no text.",
+      "criteria": [
+        "two handbags",
+        "small red bag left",
+        "silver clasp left",
+        "larger black bag right",
+        "gold clasp right",
+        "no text"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_1d07b249989f8cda_image.png",
+          "sha256": "f29d5754308a647d32a9856e6e0ba29a1fed1cd3cd3fb8a4c0ee92d63e52ef06"
+        }
+      },
+      "evidence_sha256": {
+        "image": "f29d5754308a647d32a9856e6e0ba29a1fed1cd3cd3fb8a4c0ee92d63e52ef06"
+      }
+    },
+    {
+      "assessment_id": "ai_e4d89c50f7723815",
+      "pair": "generation",
+      "brief": "Street-style editorial of an adult man in a cream linen shirt, navy wide-leg trousers and tan sandals walking along a sunlit stone arcade, full-body view, candid movement, realistic clothing folds, no lettering.",
+      "criteria": [
+        "adult man",
+        "cream linen shirt",
+        "navy wide-leg trousers",
+        "tan sandals",
+        "stone arcade",
+        "no lettering"
+      ],
+      "display_assets": {
+        "image": {
+          "path": "images/ai_e4d89c50f7723815_image.png",
+          "sha256": "90609eea25833540dc13e513e873a9f08e57743e017d1d2d23951ccc7cbbaca1"
+        }
+      },
+      "evidence_sha256": {
+        "image": "90609eea25833540dc13e513e873a9f08e57743e017d1d2d23951ccc7cbbaca1"
+      }
+    }
+  ],
+  "contact_sheet": {
+    "path": "batches/generation_07.png",
+    "sha256": "861754ce7cf36aade9c0b574fca26d3d89034e491fb072bf1407ab83f1286cba",
+    "layout": "4 columns, 3 rows; each image 512x512 beneath its ID"
+  }
+}

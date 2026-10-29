@@ -1,0 +1,37 @@
+{
+  "model": "sf3d",
+  "roots": [
+    "torch",
+    "torchvision",
+    "setuptools",
+    "wheel",
+    "ninja",
+    "numpy",
+    "scipy",
+    "pillow",
+    "packaging",
+    "einops",
+    "jaxtyping",
+    "omegaconf",
+    "transformers",
+    "trimesh",
+    "huggingface-hub",
+    "safetensors",
+    "open-clip-torch",
+    "rembg",
+    "gpytoolbox",
+    "pynanoinstantmeshes"
+  ],
+  "omitted_shared_or_reviewed_sources": [
+    "alpha-clip",
+    "clip",
+    "torch",
+    "torchvision"
+  ],
+  "missing_declared_dependencies": [],
+  "unused_flet_gui_cli_dependencies_not_in_runtime": [],
+  "observed_constraint_mismatches": [],
+  "pinned_packages": 60,
+  "cold_install_verified": false,
+  "note": "Observed imports/builds/kernel checks are verified separately; a fresh-extraction installation has not been executed in this run."
+}

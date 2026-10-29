@@ -1,0 +1,41 @@
+WARNING: Ignoring invalid distribution ~uggingface-hub (C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\site-packages)
+Collecting huggingface-hub==1.9.2
+  Downloading huggingface_hub-1.9.2-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: filelock>=3.10.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub==1.9.2) (3.25.2)
+Requirement already satisfied: fsspec>=2023.5.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub==1.9.2) (2026.2.0)
+Requirement already satisfied: hf-xet<2.0.0,>=1.4.3 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub==1.9.2) (1.7.1)
+Requirement already satisfied: httpx<1,>=0.23.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub==1.9.2) (0.28.1)
+Requirement already satisfied: packaging>=20.9 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub==1.9.2) (26.0)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub==1.9.2) (6.0.3)
+Requirement already satisfied: tqdm>=4.42.1 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub==1.9.2) (4.67.3)
+Requirement already satisfied: typer in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub==1.9.2) (0.24.1)
+Requirement already satisfied: typing-extensions>=4.1.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub==1.9.2) (4.15.0)
+Requirement already satisfied: anyio in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from httpx<1,>=0.23.0->huggingface-hub==1.9.2) (4.12.1)
+Requirement already satisfied: certifi in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from httpx<1,>=0.23.0->huggingface-hub==1.9.2) (2026.2.25)
+Requirement already satisfied: httpcore==1.* in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from httpx<1,>=0.23.0->huggingface-hub==1.9.2) (1.0.9)
+Requirement already satisfied: idna in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from httpx<1,>=0.23.0->huggingface-hub==1.9.2) (3.18)
+Requirement already satisfied: h11>=0.16 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from httpcore==1.*->httpx<1,>=0.23.0->huggingface-hub==1.9.2) (0.16.0)
+Requirement already satisfied: colorama in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from tqdm>=4.42.1->huggingface-hub==1.9.2) (0.4.6)
+Requirement already satisfied: click>=8.2.1 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from typer->huggingface-hub==1.9.2) (8.5.0)
+Requirement already satisfied: shellingham>=1.3.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from typer->huggingface-hub==1.9.2) (1.5.4)
+Requirement already satisfied: rich>=12.3.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from typer->huggingface-hub==1.9.2) (14.3.3)
+Requirement already satisfied: annotated-doc>=0.0.2 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from typer->huggingface-hub==1.9.2) (0.0.4)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from rich>=12.3.0->typer->huggingface-hub==1.9.2) (4.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from rich>=12.3.0->typer->huggingface-hub==1.9.2) (2.19.2)
+Requirement already satisfied: mdurl~=0.1 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from markdown-it-py>=2.2.0->rich>=12.3.0->typer->huggingface-hub==1.9.2) (0.1.2)
+Downloading huggingface_hub-1.9.2-py3-none-any.whl (637 kB)
+   ---------------------------------------- 637.3/637.3 kB 5.7 MB/s eta 0:00:00
+WARNING: Ignoring invalid distribution ~uggingface-hub (C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\site-packages)
+Installing collected packages: huggingface-hub
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+flashrag-dev 0.3.0.dev0 requires chonkie<1.1.0,>=1.0.2, which is not installed.
+flashrag-dev 0.3.0.dev0 requires fschat, which is not installed.
+flashrag-dev 0.3.0.dev0 requires gradio>=5.0.0, which is not installed.
+flashrag-dev 0.3.0.dev0 requires jieba, which is not installed.
+flashrag-dev 0.3.0.dev0 requires rouge-chinese, which is not installed.
+flashrag-dev 0.3.0.dev0 requires spacy, which is not installed.
+flashrag-dev 0.3.0.dev0 requires streamlit, which is not installed.
+Successfully installed huggingface-hub-1.9.2
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-comfy\Scripts\python.exe -m pip install --upgrade pip

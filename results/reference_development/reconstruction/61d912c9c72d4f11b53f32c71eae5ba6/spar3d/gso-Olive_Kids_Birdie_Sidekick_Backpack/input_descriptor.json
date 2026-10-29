@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "3ff7ee20add5fef5533de7936fce64f05e0a2e9c545990c2d11e41d0401d6b70",
+    "preparation_metadata": "8d37801212131e6fbfcc67bd4169863d1d8ee6f5aaa3f3d93978b5132f9707bb",
+    "reference_mesh": "5802fa07903bab27527dfd7b4956283a77b36a9f7089782a8d2e33925f349d0d",
+    "source_image": "449a3430f472d990d235ae4a72ad3e964d42355bd45912830182fe235955813d",
+    "view_0_reference_rgb": "652c8c77084c99492e35a9d2d7780125cd4da5054e62f3f08bff88e477f50792",
+    "view_0_reference_silhouette": "67d5a448f79ac93846f4ad69194d1dc4343363dff938cb600f601d7a22b948c0",
+    "view_1_reference_rgb": "69d51734957e241e8a54b917de32330f8081d8d6c063c7cf52afe540753d9f8e",
+    "view_1_reference_silhouette": "f931c075fa1b4d5e1aaee413c1e1ab8ff3196b483ace7e9bc1bdd2f17af9b431",
+    "view_2_reference_rgb": "76560faaa559e0c5c696ac35af45a3e57daff0c5d1387b2fca2214aab526c20c",
+    "view_2_reference_silhouette": "50b6871cb21866cec2eb192ca40a5098b9542322d177ac5c0c48a5c39ce8351f",
+    "view_3_reference_rgb": "12fd808755768867976af94cd4ec6c6c8d8fc21bb1ddc0804d3ee9a4f64c206d",
+    "view_3_reference_silhouette": "3a487283e524725bf65466b8c2b12536e5388624c2542996e4ef360c770c8736"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Birdie_Sidekick_Backpack/camera_info.json",
+    "category": "backpack",
+    "geometry_eligible": "false",
+    "image_sha256": "449a3430f472d990d235ae4a72ad3e964d42355bd45912830182fe235955813d",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "5802fa07903bab27527dfd7b4956283a77b36a9f7089782a8d2e33925f349d0d",
+    "object_id": "gso-Olive_Kids_Birdie_Sidekick_Backpack",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Birdie_Sidekick_Backpack/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Birdie_Sidekick_Backpack/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Birdie_Sidekick_Backpack/input.png",
+    "source_revision": "GoogleResearch/Olive_Kids_Birdie_Sidekick_Backpack/v1;zip-sha256:9f52e2af5185a343119788450cd38caf14a65b88427b364a2923c01eacd42594"
+  }
+}

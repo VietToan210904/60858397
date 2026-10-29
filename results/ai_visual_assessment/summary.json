@@ -1,0 +1,1910 @@
+{
+  "kind": "post_hoc_supplementary_ai_visual_summary",
+  "protocol_sha256": "299a340bf2fd5f87b8399b62fde3855117a84cf0bf61146474f9a367dd02f7f4",
+  "selection_sha256": "c9854ffcf88fc81f931e677e7137da8b6c7e60096bf26c378f86baa0ddeb6deb",
+  "assessment_files_sha256": {
+    "assessments/generation_01.jsonl": "0fc2374730eec37ce0843d9c0848797d221dde83f0d4d7b19679dc154925d4f2",
+    "assessments/generation_02.jsonl": "baeb4dc06f6671e28304dd6d39a3301eec4ad0a01210374e6a7f16d698b80501",
+    "assessments/generation_03.jsonl": "557281245d4cf80c8d1da0edea8c2a225bbb7516531035739c323404912f16a3",
+    "assessments/generation_04.jsonl": "fb8f32bfbde0ee3e503ecbc973f0187d3d468f03ca34dc2fe5757837d023b1ef",
+    "assessments/generation_05.jsonl": "d0db19dc625c5ba9e0a822d1daccc6fbe946be3768450ae2131a1c5b7e9663d4",
+    "assessments/generation_06.jsonl": "38e6f3e95ef603d36cfa9dbb38753c13620a14a44b9590bf74a0a604d1199c88",
+    "assessments/generation_07.jsonl": "51b7d21c47f0652532e39c2486baa0b42100f22eef8c0f33cf807767c42fc11b",
+    "assessments/generation_08.jsonl": "0e30295a27bf05d351069b4e9d82c3a8357e447e17159f5bef6c76c55439b942",
+    "assessments/generation_09.jsonl": "012c6d95507c42afc68b490cf70af43cde4f75c67e2c508a5b7510e652904523",
+    "assessments/generation_10.jsonl": "49ef5e62a2023dcc0a09d211c198d9b7b54ba4334b5f45922d78952373bd41bd",
+    "assessments/generation_11.jsonl": "b66f3c0a8df84aa2969a4d3ec732febc157fef1f815ae60a6c785589613f3df6",
+    "assessments/generation_12.jsonl": "0e2d60c2b2eadcdc3991185a81489c406721049546f43a1433e588fc603cf8a6",
+    "assessments/reconstruction_01.jsonl": "bc2489d52e6fe2dea6a8ad83c2b80fe43efb2d9f8c581941d271bf281f6c62a6",
+    "assessments/reconstruction_02.jsonl": "b61f13d48b8a87c2077fe3b9a9117b2b46f75f161eba9feabb3ae9d9b96e7e69",
+    "assessments/reconstruction_03.jsonl": "29e6dc88de921c38f51755d79ea3ae54663a41676d9ffc71e310e19d0899eb6e",
+    "assessments/reconstruction_04.jsonl": "3d3558b93fee09ef690202144c01ffc5547b1fd59d451e33c8607f6b8841c196"
+  },
+  "n_outputs": 184,
+  "n_assessments": 184,
+  "n_missing": 0,
+  "models": [
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "coverage": {
+        "planned_outputs": 72,
+        "assessed_outputs": 72,
+        "confidence_high": 55,
+        "observed_error_none_observed": 51,
+        "criteria_total": 438,
+        "criteria_met": 399,
+        "confidence_medium": 17,
+        "criteria_uncertain": 16,
+        "observed_error_missing_mandatory_attributes": 18,
+        "criteria_absent": 23,
+        "observed_error_prompt_mismatch": 1,
+        "observed_error_other": 2,
+        "observed_error_incorrect_object_structure": 2
+      },
+      "metrics": {
+        "ai_prompt_adherence": {
+          "mean": 4.458333333333333,
+          "n_clusters": 24
+        },
+        "ai_visual_coherence": {
+          "mean": 4.888888888888889,
+          "n_clusters": 24
+        },
+        "ai_composition": {
+          "mean": 4.888888888888889,
+          "n_clusters": 24
+        },
+        "ai_usability_rating": {
+          "mean": 4.305555555555556,
+          "n_clusters": 24
+        },
+        "ai_usable_concept_rate": {
+          "mean": 0.6086956521739131,
+          "n_clusters": 23
+        }
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "coverage": {
+        "planned_outputs": 72,
+        "assessed_outputs": 72,
+        "confidence_medium": 13,
+        "observed_error_missing_mandatory_attributes": 35,
+        "criteria_total": 438,
+        "criteria_met": 294,
+        "criteria_absent": 132,
+        "criteria_uncertain": 12,
+        "confidence_high": 59,
+        "observed_error_prompt_mismatch": 23,
+        "observed_error_none_observed": 19,
+        "observed_error_incorrect_object_structure": 3,
+        "observed_error_other": 1
+      },
+      "metrics": {
+        "ai_prompt_adherence": {
+          "mean": 3.069444444444444,
+          "n_clusters": 24
+        },
+        "ai_visual_coherence": {
+          "mean": 4.611111111111112,
+          "n_clusters": 24
+        },
+        "ai_composition": {
+          "mean": 4.263888888888889,
+          "n_clusters": 24
+        },
+        "ai_usability_rating": {
+          "mean": 2.972222222222222,
+          "n_clusters": 24
+        },
+        "ai_usable_concept_rate": {
+          "mean": 0.2708333333333333,
+          "n_clusters": 24
+        }
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "coverage": {
+        "planned_outputs": 20,
+        "assessed_outputs": 20,
+        "confidence_medium": 20,
+        "observed_error_incorrect_texture": 8,
+        "criteria_total": 80,
+        "criteria_met": 34,
+        "criteria_absent": 13,
+        "criteria_uncertain": 33,
+        "observed_error_other": 10,
+        "observed_error_distorted_shape": 5,
+        "observed_error_missing_geometry": 2
+      },
+      "metrics": {
+        "ai_visible_input_fidelity": {
+          "mean": 3.15,
+          "n_clusters": 20
+        },
+        "ai_shape_coherence": {
+          "mean": 3.1,
+          "n_clusters": 20
+        },
+        "ai_texture_coherence": {
+          "mean": 2.45,
+          "n_clusters": 20
+        },
+        "ai_multiview_consistency": {
+          "mean": 3.25,
+          "n_clusters": 20
+        }
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "coverage": {
+        "planned_outputs": 20,
+        "assessed_outputs": 20,
+        "confidence_medium": 20,
+        "observed_error_missing_geometry": 5,
+        "observed_error_distorted_shape": 15,
+        "observed_error_incorrect_texture": 11,
+        "criteria_total": 80,
+        "criteria_absent": 30,
+        "criteria_uncertain": 28,
+        "criteria_met": 22,
+        "observed_error_other": 3
+      },
+      "metrics": {
+        "ai_visible_input_fidelity": {
+          "mean": 2.7,
+          "n_clusters": 20
+        },
+        "ai_shape_coherence": {
+          "mean": 2.4,
+          "n_clusters": 20
+        },
+        "ai_texture_coherence": {
+          "mean": 2.15,
+          "n_clusters": 20
+        },
+        "ai_multiview_consistency": {
+          "mean": 2.55,
+          "n_clusters": 20
+        }
+      }
+    }
+  ],
+  "per_prompt_or_object": [
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-001",
+      "metrics": {
+        "ai_prompt_adherence": 5.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 5.0,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-002",
+      "metrics": {
+        "ai_prompt_adherence": 5.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 5.0,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-003",
+      "metrics": {
+        "ai_prompt_adherence": 5.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 5.0,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-004",
+      "metrics": {
+        "ai_prompt_adherence": 3.6666666666666665,
+        "ai_visual_coherence": 4.666666666666667,
+        "ai_composition": 4.333333333333333,
+        "ai_usability_rating": 3.3333333333333335,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 1
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-005",
+      "metrics": {
+        "ai_prompt_adherence": 4.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 3.6666666666666665,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-006",
+      "metrics": {
+        "ai_prompt_adherence": 5.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 5.0,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-007",
+      "metrics": {
+        "ai_prompt_adherence": 5.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 5.0,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-008",
+      "metrics": {
+        "ai_prompt_adherence": 5.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 5.0,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-009",
+      "metrics": {
+        "ai_prompt_adherence": 5.0,
+        "ai_visual_coherence": 4.333333333333333,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 4.333333333333333,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-010",
+      "metrics": {
+        "ai_prompt_adherence": 5.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 5.0,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-011",
+      "metrics": {
+        "ai_prompt_adherence": 3.6666666666666665,
+        "ai_visual_coherence": 4.666666666666667,
+        "ai_composition": 4.666666666666667,
+        "ai_usability_rating": 3.3333333333333335,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 1
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-012",
+      "metrics": {
+        "ai_prompt_adherence": 5.0,
+        "ai_visual_coherence": 4.666666666666667,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 4.666666666666667,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-013",
+      "metrics": {
+        "ai_prompt_adherence": 4.666666666666667,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 4.666666666666667,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 2
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-014",
+      "metrics": {
+        "ai_prompt_adherence": 4.666666666666667,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 4.666666666666667,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 2
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-015",
+      "metrics": {
+        "ai_prompt_adherence": 4.333333333333333,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 4.333333333333333,
+        "ai_usable_concept_rate": 0.3333333333333333
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-016",
+      "metrics": {
+        "ai_prompt_adherence": 4.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 4.0,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 1
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-017",
+      "metrics": {
+        "ai_prompt_adherence": 3.6666666666666665,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 3.6666666666666665,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 1
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-018",
+      "metrics": {
+        "ai_prompt_adherence": 4.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 4.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-019",
+      "metrics": {
+        "ai_prompt_adherence": 3.0,
+        "ai_visual_coherence": 4.333333333333333,
+        "ai_composition": 3.6666666666666665,
+        "ai_usability_rating": 2.6666666666666665,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-020",
+      "metrics": {
+        "ai_prompt_adherence": 5.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 5.0,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-021",
+      "metrics": {
+        "ai_prompt_adherence": 4.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 3.3333333333333335,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-022",
+      "metrics": {
+        "ai_prompt_adherence": 4.333333333333333,
+        "ai_visual_coherence": 4.666666666666667,
+        "ai_composition": 4.666666666666667,
+        "ai_usability_rating": 4.0,
+        "ai_usable_concept_rate": 0.6666666666666666
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-023",
+      "metrics": {
+        "ai_prompt_adherence": 4.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 3.6666666666666665,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "case_id": "gen-024",
+      "metrics": {
+        "ai_prompt_adherence": 5.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 5.0,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-001",
+      "metrics": {
+        "ai_prompt_adherence": 4.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 4.333333333333333,
+        "ai_usability_rating": 4.0,
+        "ai_usable_concept_rate": 0.3333333333333333
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-002",
+      "metrics": {
+        "ai_prompt_adherence": 4.0,
+        "ai_visual_coherence": 4.333333333333333,
+        "ai_composition": 4.666666666666667,
+        "ai_usability_rating": 4.0,
+        "ai_usable_concept_rate": 0.6666666666666666
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-003",
+      "metrics": {
+        "ai_prompt_adherence": 5.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 5.0,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-004",
+      "metrics": {
+        "ai_prompt_adherence": 3.6666666666666665,
+        "ai_visual_coherence": 4.0,
+        "ai_composition": 4.666666666666667,
+        "ai_usability_rating": 2.6666666666666665,
+        "ai_usable_concept_rate": 0.3333333333333333
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-005",
+      "metrics": {
+        "ai_prompt_adherence": 1.3333333333333333,
+        "ai_visual_coherence": 4.666666666666667,
+        "ai_composition": 3.6666666666666665,
+        "ai_usability_rating": 1.3333333333333333,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-006",
+      "metrics": {
+        "ai_prompt_adherence": 4.666666666666667,
+        "ai_visual_coherence": 4.666666666666667,
+        "ai_composition": 4.666666666666667,
+        "ai_usability_rating": 4.333333333333333,
+        "ai_usable_concept_rate": 0.6666666666666666
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-007",
+      "metrics": {
+        "ai_prompt_adherence": 4.333333333333333,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 4.333333333333333,
+        "ai_usability_rating": 4.333333333333333,
+        "ai_usable_concept_rate": 0.3333333333333333
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-008",
+      "metrics": {
+        "ai_prompt_adherence": 3.6666666666666665,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 4.666666666666667,
+        "ai_usability_rating": 3.6666666666666665,
+        "ai_usable_concept_rate": 0.5
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 2
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-009",
+      "metrics": {
+        "ai_prompt_adherence": 4.333333333333333,
+        "ai_visual_coherence": 4.666666666666667,
+        "ai_composition": 4.666666666666667,
+        "ai_usability_rating": 4.0,
+        "ai_usable_concept_rate": 0.6666666666666666
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-010",
+      "metrics": {
+        "ai_prompt_adherence": 5.0,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 5.0,
+        "ai_usability_rating": 5.0,
+        "ai_usable_concept_rate": 1.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-011",
+      "metrics": {
+        "ai_prompt_adherence": 2.3333333333333335,
+        "ai_visual_coherence": 4.666666666666667,
+        "ai_composition": 4.0,
+        "ai_usability_rating": 2.3333333333333335,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-012",
+      "metrics": {
+        "ai_prompt_adherence": 2.6666666666666665,
+        "ai_visual_coherence": 4.333333333333333,
+        "ai_composition": 4.666666666666667,
+        "ai_usability_rating": 2.6666666666666665,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-013",
+      "metrics": {
+        "ai_prompt_adherence": 1.3333333333333333,
+        "ai_visual_coherence": 4.0,
+        "ai_composition": 3.6666666666666665,
+        "ai_usability_rating": 1.3333333333333333,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-014",
+      "metrics": {
+        "ai_prompt_adherence": 2.6666666666666665,
+        "ai_visual_coherence": 4.666666666666667,
+        "ai_composition": 4.0,
+        "ai_usability_rating": 2.6666666666666665,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-015",
+      "metrics": {
+        "ai_prompt_adherence": 3.6666666666666665,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 4.666666666666667,
+        "ai_usability_rating": 3.6666666666666665,
+        "ai_usable_concept_rate": 0.6666666666666666
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-016",
+      "metrics": {
+        "ai_prompt_adherence": 3.3333333333333335,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 4.666666666666667,
+        "ai_usability_rating": 3.3333333333333335,
+        "ai_usable_concept_rate": 0.3333333333333333
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-017",
+      "metrics": {
+        "ai_prompt_adherence": 2.6666666666666665,
+        "ai_visual_coherence": 4.333333333333333,
+        "ai_composition": 4.0,
+        "ai_usability_rating": 2.3333333333333335,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-018",
+      "metrics": {
+        "ai_prompt_adherence": 2.3333333333333335,
+        "ai_visual_coherence": 4.666666666666667,
+        "ai_composition": 4.0,
+        "ai_usability_rating": 2.0,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-019",
+      "metrics": {
+        "ai_prompt_adherence": 2.0,
+        "ai_visual_coherence": 4.333333333333333,
+        "ai_composition": 4.0,
+        "ai_usability_rating": 2.0,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-020",
+      "metrics": {
+        "ai_prompt_adherence": 2.0,
+        "ai_visual_coherence": 3.3333333333333335,
+        "ai_composition": 3.6666666666666665,
+        "ai_usability_rating": 2.0,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-021",
+      "metrics": {
+        "ai_prompt_adherence": 2.3333333333333335,
+        "ai_visual_coherence": 4.666666666666667,
+        "ai_composition": 4.0,
+        "ai_usability_rating": 2.3333333333333335,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-022",
+      "metrics": {
+        "ai_prompt_adherence": 1.3333333333333333,
+        "ai_visual_coherence": 4.666666666666667,
+        "ai_composition": 3.6666666666666665,
+        "ai_usability_rating": 1.3333333333333333,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-023",
+      "metrics": {
+        "ai_prompt_adherence": 2.6666666666666665,
+        "ai_visual_coherence": 5.0,
+        "ai_composition": 4.0,
+        "ai_usability_rating": 2.6666666666666665,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "case_id": "gen-024",
+      "metrics": {
+        "ai_prompt_adherence": 2.3333333333333335,
+        "ai_visual_coherence": 4.666666666666667,
+        "ai_composition": 3.6666666666666665,
+        "ai_usability_rating": 2.3333333333333335,
+        "ai_usable_concept_rate": 0.0
+      },
+      "n_scored_outputs": {
+        "ai_prompt_adherence": 3,
+        "ai_visual_coherence": 3,
+        "ai_composition": 3,
+        "ai_usability_rating": 3,
+        "ai_usable_concept_rate": 3
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B06W9GB1JR",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07CMD9X29",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07J2DZXXY",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07JHFZVLV",
+      "metrics": {
+        "ai_visible_input_fidelity": 2.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 1.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07PGK6BKK",
+      "metrics": {
+        "ai_visible_input_fidelity": 2.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07PWXRWBC",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 4.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07R79WR4V",
+      "metrics": {
+        "ai_visible_input_fidelity": 4.0,
+        "ai_shape_coherence": 4.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 4.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07VS296PR",
+      "metrics": {
+        "ai_visible_input_fidelity": 2.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07WRJFN95",
+      "metrics": {
+        "ai_visible_input_fidelity": 2.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07WRJG24S",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07WTMZ8N7",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07WTMZ91M",
+      "metrics": {
+        "ai_visible_input_fidelity": 4.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07WVRFRR2",
+      "metrics": {
+        "ai_visible_input_fidelity": 4.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07XBZR7SR",
+      "metrics": {
+        "ai_visible_input_fidelity": 4.0,
+        "ai_shape_coherence": 4.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 4.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07XF6F7X7",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07XPHD4LK",
+      "metrics": {
+        "ai_visible_input_fidelity": 4.0,
+        "ai_shape_coherence": 4.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 4.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B07YV78XJW",
+      "metrics": {
+        "ai_visible_input_fidelity": 4.0,
+        "ai_shape_coherence": 4.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 4.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B081HNQQWP",
+      "metrics": {
+        "ai_visible_input_fidelity": 4.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 4.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B084LLWDFH",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 4.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 4.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "case_id": "abo-B086YY3KQG",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 4.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 4.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B06W9GB1JR",
+      "metrics": {
+        "ai_visible_input_fidelity": 2.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 1.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07CMD9X29",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 4.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 4.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07J2DZXXY",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07JHFZVLV",
+      "metrics": {
+        "ai_visible_input_fidelity": 2.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 1.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07PGK6BKK",
+      "metrics": {
+        "ai_visible_input_fidelity": 2.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 1.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07PWXRWBC",
+      "metrics": {
+        "ai_visible_input_fidelity": 4.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07R79WR4V",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07VS296PR",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07WRJFN95",
+      "metrics": {
+        "ai_visible_input_fidelity": 2.0,
+        "ai_shape_coherence": 1.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07WRJG24S",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07WTMZ8N7",
+      "metrics": {
+        "ai_visible_input_fidelity": 2.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07WTMZ91M",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07WVRFRR2",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07XBZR7SR",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07XF6F7X7",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 3.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07XPHD4LK",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B07YV78XJW",
+      "metrics": {
+        "ai_visible_input_fidelity": 2.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B081HNQQWP",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 2.0,
+        "ai_texture_coherence": 3.0,
+        "ai_multiview_consistency": 2.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B084LLWDFH",
+      "metrics": {
+        "ai_visible_input_fidelity": 2.0,
+        "ai_shape_coherence": 3.0,
+        "ai_texture_coherence": 1.0,
+        "ai_multiview_consistency": 4.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "case_id": "abo-B086YY3KQG",
+      "metrics": {
+        "ai_visible_input_fidelity": 3.0,
+        "ai_shape_coherence": 4.0,
+        "ai_texture_coherence": 2.0,
+        "ai_multiview_consistency": 4.0
+      },
+      "n_scored_outputs": {
+        "ai_visible_input_fidelity": 1,
+        "ai_shape_coherence": 1,
+        "ai_texture_coherence": 1,
+        "ai_multiview_consistency": 1
+      }
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "pair": "generation",
+      "metric": "ai_composition",
+      "model_a": "flux2_klein",
+      "model_b": "sdxl_lightning",
+      "matched_outputs": 72,
+      "n_clusters": 24,
+      "mean_difference_a_minus_b": 0.625,
+      "ci_low": 0.4305555555555554,
+      "ci_high": 0.8194444444444445,
+      "confidence": 0.95,
+      "iterations": 2000,
+      "seed": 8410,
+      "relative_difference": 0.14657980456026057
+    },
+    {
+      "pair": "generation",
+      "metric": "ai_prompt_adherence",
+      "model_a": "flux2_klein",
+      "model_b": "sdxl_lightning",
+      "matched_outputs": 72,
+      "n_clusters": 24,
+      "mean_difference_a_minus_b": 1.388888888888889,
+      "ci_low": 1.0,
+      "ci_high": 1.7916666666666667,
+      "confidence": 0.95,
+      "iterations": 2000,
+      "seed": 8410,
+      "relative_difference": 0.45248868778280543
+    },
+    {
+      "pair": "generation",
+      "metric": "ai_usability_rating",
+      "model_a": "flux2_klein",
+      "model_b": "sdxl_lightning",
+      "matched_outputs": 72,
+      "n_clusters": 24,
+      "mean_difference_a_minus_b": 1.3333333333333333,
+      "ci_low": 0.9722222222222222,
+      "ci_high": 1.6944444444444446,
+      "confidence": 0.95,
+      "iterations": 2000,
+      "seed": 8410,
+      "relative_difference": 0.44859813084112116
+    },
+    {
+      "pair": "generation",
+      "metric": "ai_usable_concept_rate",
+      "model_a": "flux2_klein",
+      "model_b": "sdxl_lightning",
+      "matched_outputs": 58,
+      "n_clusters": 23,
+      "mean_difference_a_minus_b": 0.3115942028985508,
+      "ci_low": 0.10851449275362349,
+      "ci_high": 0.5144927536231885,
+      "confidence": 0.95,
+      "iterations": 2000,
+      "seed": 8410,
+      "relative_difference": 1.0487804878048783
+    },
+    {
+      "pair": "generation",
+      "metric": "ai_visual_coherence",
+      "model_a": "flux2_klein",
+      "model_b": "sdxl_lightning",
+      "matched_outputs": 72,
+      "n_clusters": 24,
+      "mean_difference_a_minus_b": 0.27777777777777773,
+      "ci_low": 0.12499999999999989,
+      "ci_high": 0.4447916666666648,
+      "confidence": 0.95,
+      "iterations": 2000,
+      "seed": 8410,
+      "relative_difference": 0.060240963855421464
+    },
+    {
+      "pair": "reconstruction",
+      "metric": "ai_multiview_consistency",
+      "model_a": "sf3d",
+      "model_b": "spar3d",
+      "matched_outputs": 20,
+      "n_clusters": 20,
+      "mean_difference_a_minus_b": 0.7,
+      "ci_low": 0.3,
+      "ci_high": 1.1,
+      "confidence": 0.95,
+      "iterations": 2000,
+      "seed": 8410,
+      "relative_difference": 0.2745098039215687
+    },
+    {
+      "pair": "reconstruction",
+      "metric": "ai_shape_coherence",
+      "model_a": "sf3d",
+      "model_b": "spar3d",
+      "matched_outputs": 20,
+      "n_clusters": 20,
+      "mean_difference_a_minus_b": 0.7,
+      "ci_low": 0.35,
+      "ci_high": 1.05,
+      "confidence": 0.95,
+      "iterations": 2000,
+      "seed": 8410,
+      "relative_difference": 0.29166666666666674
+    },
+    {
+      "pair": "reconstruction",
+      "metric": "ai_texture_coherence",
+      "model_a": "sf3d",
+      "model_b": "spar3d",
+      "matched_outputs": 20,
+      "n_clusters": 20,
+      "mean_difference_a_minus_b": 0.3,
+      "ci_low": 0.05,
+      "ci_high": 0.55,
+      "confidence": 0.95,
+      "iterations": 2000,
+      "seed": 8410,
+      "relative_difference": 0.13953488372093037
+    },
+    {
+      "pair": "reconstruction",
+      "metric": "ai_visible_input_fidelity",
+      "model_a": "sf3d",
+      "model_b": "spar3d",
+      "matched_outputs": 20,
+      "n_clusters": 20,
+      "mean_difference_a_minus_b": 0.45,
+      "ci_low": 0.15,
+      "ci_high": 0.75,
+      "confidence": 0.95,
+      "iterations": 2000,
+      "seed": 8410,
+      "relative_difference": 0.16666666666666655
+    }
+  ],
+  "interpretation": "AI observations and ordinal summaries only; not human feedback, primary usable-concept results, calibrated quality, reference-geometry accuracy or commercial approval. Confidence intervals cover sampled prompt/object variability, not AI assessor bias."
+}

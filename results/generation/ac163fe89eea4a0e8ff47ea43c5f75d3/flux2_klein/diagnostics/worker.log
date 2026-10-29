@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\src\stylesphere\generation\worker.py", line 122, in main
+    raise RuntimeError(f"CUDA unavailable: torch={torch.__version__}, compiled_cuda={torch.version.cuda}; local GPU execution required")
+RuntimeError: CUDA unavailable: torch=2.11.0+cpu, compiled_cuda=None; local GPU execution required

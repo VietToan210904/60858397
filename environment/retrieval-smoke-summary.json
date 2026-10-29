@@ -1,0 +1,16 @@
+{
+  "fashion_siglip": {
+    "mode": "smoke",
+    "queries": 4,
+    "mean_query_inference_ms": 6.661225008429028,
+    "peak_allocated_mib": 788.90185546875,
+    "quality_metrics_available": false
+  },
+  "siglip2": {
+    "mode": "smoke",
+    "queries": 4,
+    "mean_query_inference_ms": 12.553075008327141,
+    "peak_allocated_mib": 1445.576171875,
+    "quality_metrics_available": false
+  }
+}

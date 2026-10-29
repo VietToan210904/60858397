@@ -1,0 +1,20 @@
+{
+  "integrity_passed": true,
+  "errors": [],
+  "receipt_sha256": "b04ebd92e00a3e2fcc247ff006dad3e984d7a536e93669fbaea77cdfd722ca07",
+  "corrected_request_checks": {
+    "sf3d": {
+      "request_cases": 20,
+      "each_frozen_case_exactly_once": true,
+      "seed_and_source_and_mesh_paths_match": true,
+      "request_sha256": "b66a3551acd9a1f1211022c53659a90527db2716a616213d3780220347ee184f"
+    },
+    "spar3d": {
+      "request_cases": 20,
+      "each_frozen_case_exactly_once": true,
+      "seed_and_source_and_mesh_paths_match": true,
+      "request_sha256": "3f9a4523f04e99caa6e55c10ebb4c9ef27436dc821c277321a151d4b63a665d8"
+    }
+  },
+  "selected_records_digest": "b51585c42434afa2e3e15313e664ac67c794990356ac888e51463fcdaf5dd270"
+}

@@ -1,0 +1,4 @@
+metric,difference,n_matched_attempts,n_clusters,mean_difference_a_minus_b,ci_low,ci_high,confidence,iterations,seed,relative_difference
+semantic_task_success,qwen35_4b_minus_phi4_mini,80,8,0.15000000000000002,0.012500000000000004,0.3125,0.95,2000,8410,0.28571428571428575
+operational_completion,qwen35_4b_minus_phi4_mini,80,8,0.0875,-0.36249999999999993,0.5125,0.95,2000,8410,0.17500000000000004
+operational_grounded_semantic_success,qwen35_4b_minus_phi4_mini,80,8,-1.3877787807814457e-17,-0.3125,0.24999999999999997,0.95,2000,8410,0.0

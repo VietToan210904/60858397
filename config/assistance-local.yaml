@@ -1,0 +1,14 @@
+# Shared local acquisition; same official pinned checkpoints as config/models.yaml.
+models:
+  phi4_mini:
+    local_path: models/phi4_mini
+    precision: bfloat16
+    quantization: none
+  qwen35_4b:
+    local_path: models/qwen35_4b
+    precision: bfloat16
+    quantization: none
+    enable_thinking: false
+evaluation:
+  assistance:
+    controller_protocol_version: 2

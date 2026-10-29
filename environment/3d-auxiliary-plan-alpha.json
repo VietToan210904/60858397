@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-28T16:58:22.825668+00:00",
+  "approval": "User approved remaining official assets within 50-60 GB project budget",
+  "selected_bytes": 934088680,
+  "free_disk_before": 362993217536,
+  "workers": 2,
+  "range_chunk_bytes": 8388608,
+  "gpu_inference_performed": false,
+  "plans": {
+    "spar3d_clip": {
+      "model_id": "OpenAI/CLIP-ViT-L-14-336px",
+      "resolved_revision": "ef9262bc539728bf8ef2dfe9c402ae12bbfcd9ff",
+      "destination": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\spar3d_clip",
+      "source_identity": "Official URL plus SHA256, source revision records reviewed AlphaCLIP loader",
+      "files": [
+        {
+          "path": "ViT-L-14-336px.pt",
+          "source_url": "https://openaipublic.azureedge.net/clip/models/3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02/ViT-L-14-336px.pt",
+          "size_bytes": 934088680,
+          "expected_sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+        }
+      ]
+    }
+  }
+}

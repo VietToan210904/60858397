@@ -1,0 +1,153 @@
+cond_image_size: 512
+isosurface_resolution: 160
+isosurface_threshold: 9.5
+radius: 0.87
+scale_factor_xyz: 9.0
+scale_factor_rgb: 9.0
+bias_xyz: 0.0
+bias_rgb: -4.5
+train_time_steps: 1024
+inference_time_steps: 32
+mean_type: epsilon
+var_type: fixed_small
+diffu_sched: sigmoid
+diffu_sched_exp: 12.0
+guidance_scale: 3.0
+sigma_max: 120.0
+s_churn: 5.0
+pdiff_camera_embedder_cls: spar3d.models.camera.LinearCameraEmbedder
+pdiff_camera_embedder:
+  in_channels: 25
+  out_channels: 768
+  conditions:
+  - c2w_cond
+  - intrinsic_normed_cond
+pdiff_image_tokenizer_cls: spar3d.models.tokenizers.image.DINOV2SingleImageTokenizer
+pdiff_image_tokenizer:
+  pretrained_model_name_or_path: C:\Users\tonyh_yxuq8za\60858397_Evaluation\models\dinov2_large
+  width: 512
+  height: 512
+  modulation_cond_dim: 768
+pdiff_backbone_cls: spar3d.models.transformers.point_diffusion.PointEDenoiser
+pdiff_backbone:
+  in_channels: 6
+  out_channels: 6
+  num_attention_heads: 16
+  num_layers: 24
+  width: 1024
+  cond_dim: 1024
+camera_embedder_cls: spar3d.models.camera.LinearCameraEmbedder
+camera_embedder:
+  in_channels: 25
+  out_channels: 768
+  conditions:
+  - c2w_cond
+  - intrinsic_normed_cond
+image_tokenizer_cls: spar3d.models.tokenizers.image.DINOV2SingleImageTokenizer
+image_tokenizer:
+  pretrained_model_name_or_path: C:\Users\tonyh_yxuq8za\60858397_Evaluation\models\dinov2_large
+  width: 512
+  height: 512
+  modulation_cond_dim: 768
+point_embedder_cls: spar3d.models.tokenizers.point.TransformerPointTokenizer
+point_embedder:
+  in_channels: 6
+  out_channels: 1024
+  num_attention_heads: 16
+  attention_head_dim: 32
+  num_layers: 12
+tokenizer_cls: spar3d.models.tokenizers.triplane.TriplaneLearnablePositionalEmbedding
+tokenizer:
+  plane_size: 96
+  num_channels: 1024
+backbone_cls: spar3d.models.transformers.backbone.TwoStreamInterleaveTransformer
+backbone:
+  num_attention_heads: 16
+  attention_head_dim: 64
+  raw_triplane_channels: 1024
+  triplane_channels: 1024
+  raw_image_channels: 1024
+  num_latents: 1792
+  num_blocks: 4
+  num_basic_blocks: 3
+post_processor_cls: spar3d.models.network.PixelShuffleUpsampleNetwork
+post_processor:
+  in_channels: 1024
+  out_channels: 40
+  scale_factor: 4
+  conv_layers: 4
+decoder_cls: spar3d.models.network.MaterialMLP
+decoder:
+  in_channels: 120
+  n_neurons: 64
+  activation: silu
+  heads:
+  - name: density
+    out_channels: 1
+    n_hidden_layers: 2
+    output_activation: trunc_exp
+  - name: features
+    out_channels: 3
+    n_hidden_layers: 3
+    output_activation: sigmoid
+  - name: perturb_normal
+    out_channels: 3
+    n_hidden_layers: 3
+    output_activation: normalize_channel_last
+  - name: vertex_offset
+    out_channels: 3
+    n_hidden_layers: 2
+image_estimator_cls: spar3d.models.image_estimator.clip_based_estimator.ClipBasedHeadEstimator
+image_estimator:
+  heads:
+  - name: roughness
+    out_channels: 1
+    n_hidden_layers: 3
+    output_activation: linear
+    distribution_eval: mean
+    add_to_decoder_features: true
+    output_bias: 1.0
+    shape:
+    - -1
+    - 1
+    - 1
+  - name: metallic
+    out_channels: 1
+    n_hidden_layers: 3
+    output_activation: linear
+    distribution_eval: mode
+    add_to_decoder_features: true
+    output_bias: 1.0
+    shape:
+    - -1
+    - 1
+    - 1
+  model: C:\Users\tonyh_yxuq8za\60858397_Evaluation\models\spar3d_clip\ViT-L-14-336px.pt
+global_estimator_cls: spar3d.models.global_estimator.reni_estimator.ReniLatentCodeEstimator
+global_estimator:
+  triplane_features: 1024
+  n_layers: 2
+  pool: max
+  reni_env_config:
+    reni_config:
+      axis_of_invariance: z
+      conditioning: Attention
+      encoded_input: Directions
+      equivariance: SO2
+      first_omega_0: 30.0
+      fixed_decoder: false
+      hidden_features: 128
+      hidden_layers: 9
+      hidden_omega_0: 30.0
+      invariant_function: VN
+      last_layer_linear: true
+      latent_dim: 49
+      mapping_features: 128
+      mapping_layers: 5
+      num_attention_heads: 8
+      num_attention_layers: 6
+      old_implementation: false
+      out_features: 3
+      output_activation: exp
+      positional_encoding: NeRF
+    resolution: 64

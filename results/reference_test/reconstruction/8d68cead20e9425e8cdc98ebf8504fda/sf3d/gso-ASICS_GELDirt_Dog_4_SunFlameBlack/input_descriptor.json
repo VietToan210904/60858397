@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "00cfc5cd8f3d02e4f2acd7c7a542740778000a94c3a154cbc67b44d51e3a36a8",
+    "preparation_metadata": "943b371e8e590d96d32a89269592e64b6310ee5e8ccb7d5d1db507c10fe12804",
+    "reference_mesh": "fc184ff8f3ea5a21ea49409601742e2827cdcd11d708e23f984da46d9aa11e06",
+    "source_image": "3cec955aceafa400fed60c66aa698e8e4212bb7d7914f6ade9361724d16fd3a4",
+    "view_0_reference_rgb": "fb8f6c9b22ebb048f627cea8f0bd5a7113684a4f13aed17af9210e054727859a",
+    "view_0_reference_silhouette": "7f56f4adaf02a10482ca9102279a5f1ac19b373e702c4ad82602912a68f29bb1",
+    "view_1_reference_rgb": "6baf419fc5998a939ff7883812554386752c7d5a341ea59d09cd026492063490",
+    "view_1_reference_silhouette": "cccf5afa25542aa7f1070775272667f5c587db0f3fbc0d99b322ed4969da32f5",
+    "view_2_reference_rgb": "01ebca02700cde4414a8572e5ba2d6a574c511476d31c8f0408b5c9c749216d9",
+    "view_2_reference_silhouette": "4aa75f3f0475b7605da4c437b27f143be4c06ab34fc17db10d7cfee0a741a286",
+    "view_3_reference_rgb": "ca2f16c219cc2463549152c40f5f679c483740a1e10ecac21b788b54f99424dc",
+    "view_3_reference_silhouette": "82ab9c34b3e5105ff385f52dc7b6acf22cdc33ae994f79b17c443d9ce3b5130d"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-ASICS_GELDirt_Dog_4_SunFlameBlack/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "3cec955aceafa400fed60c66aa698e8e4212bb7d7914f6ade9361724d16fd3a4",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "fc184ff8f3ea5a21ea49409601742e2827cdcd11d708e23f984da46d9aa11e06",
+    "object_id": "gso-ASICS_GELDirt_Dog_4_SunFlameBlack",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-ASICS_GELDirt_Dog_4_SunFlameBlack/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-ASICS_GELDirt_Dog_4_SunFlameBlack/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-ASICS_GELDirt_Dog_4_SunFlameBlack/input.png",
+    "source_revision": "GoogleResearch/ASICS_GELDirt_Dog_4_SunFlameBlack/v1;zip-sha256:df744111a715db68626caf791d44babca99ab85baa36b5927770e9a27a72a3a2"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "source": "results/reference_test/reference_metrics.jsonl",
+  "source_sha256": "cadd4ff509937e389e5a7284125463ae3d5f3e4edec69709289d5f6e27c7cf40",
+  "paired_test_objects": 20,
+  "development_included": false,
+  "matplotlib_version": "3.10.8",
+  "outputs": {
+    "figures/reference_geometry_comparison.png": "3256d39036e5911cddf7b0d3a1bb25fd22bb1701403bfac53087e37344d07da8",
+    "figures/reference_geometry_comparison.pdf": "3d24dd6dfed8e9e987c6e22331595caf4a65d74fe419eb912ac25b356beaaeaa"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "fashion_siglip",
+  "model_id": "Marqo/marqo-fashionSigLIP",
+  "checkpoint_revision": "c56244cc94f92419e8369fa71efdaf403b124ce8",
+  "input_sha256": "e31b2824fab0ab27c6cd5a815e3bb0e4cf9233b8edeebeaca11f614751bc4ddc",
+  "catalogue_count": 600,
+  "embedding_dimension": 768,
+  "indexing_s": 2.728371200035326,
+  "preprocessing_s": 0.8756658998900093,
+  "inference_s": 1.75781699991785,
+  "peak_allocated_mb": 844.0732421875,
+  "peak_reserved_mb": 942.0,
+  "index_sha256": "4a17b7fe36b2e78d5cd0f4c082661deb473b5433d7b229e44f8146f5e1afa8f7",
+  "warmup_runs": 1,
+  "tokenizer_revision": "41f575766f40e752fdd1383e9565b7f02388c1c4"
+}

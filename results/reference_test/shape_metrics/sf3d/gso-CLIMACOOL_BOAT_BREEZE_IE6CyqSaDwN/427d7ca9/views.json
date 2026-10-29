@@ -1,0 +1,61 @@
+{
+  "interpretation": "Supplementary independently normalized shape views, with explicitly reference-assisted rigid alignment where labelled",
+  "per_view": [
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.4558810857389056,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/427d7ca9/unaligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.34726166328600405,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/427d7ca9/unaligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.3531871935390828,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/427d7ca9/unaligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.3811477107934535,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/427d7ca9/unaligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/reference_views/view_03_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.6075941206807632,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/427d7ca9/rigid_aligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.5040039658328249,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/427d7ca9/rigid_aligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.5990892645499345,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/427d7ca9/rigid_aligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.5503559848915333,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/427d7ca9/rigid_aligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/reference_views/view_03_mask.png"
+    }
+  ]
+}

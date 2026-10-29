@@ -1,0 +1,154 @@
+{
+  "renders": [
+    {
+      "view_id": "azimuth_000",
+      "image": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_00.png",
+      "silhouette": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_00_mask.png",
+      "camera": {
+        "view_id": "azimuth_000",
+        "camera_to_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9396926207859083,
+            0.34202014332566866,
+            0.8550503583141718
+          ],
+          [
+            0.0,
+            -0.34202014332566866,
+            0.9396926207859083,
+            2.3492315519647713
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "width": 512,
+        "height": 512,
+        "yfov": 0.7853981633974483
+      }
+    },
+    {
+      "view_id": "azimuth_090",
+      "image": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_01.png",
+      "silhouette": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_01_mask.png",
+      "camera": {
+        "view_id": "azimuth_090",
+        "camera_to_world": [
+          [
+            6.123233995736765e-17,
+            -0.34202014332566866,
+            0.9396926207859083,
+            2.3492315519647713
+          ],
+          [
+            0.0,
+            0.9396926207859083,
+            0.34202014332566866,
+            0.8550503583141718
+          ],
+          [
+            -1.0,
+            -2.094269368838495e-17,
+            5.75395780113925e-17,
+            1.4384894502848128e-16
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "width": 512,
+        "height": 512,
+        "yfov": 0.7853981633974483
+      }
+    },
+    {
+      "view_id": "azimuth_180",
+      "image": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_02.png",
+      "silhouette": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_02_mask.png",
+      "camera": {
+        "view_id": "azimuth_180",
+        "camera_to_world": [
+          [
+            -1.0,
+            -4.18853873767699e-17,
+            1.15079156022785e-16,
+            2.8769789005696257e-16
+          ],
+          [
+            0.0,
+            0.9396926207859083,
+            0.34202014332566866,
+            0.8550503583141718
+          ],
+          [
+            -1.224646799147353e-16,
+            0.34202014332566866,
+            -0.9396926207859083,
+            -2.3492315519647713
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "width": 512,
+        "height": 512,
+        "yfov": 0.7853981633974483
+      }
+    },
+    {
+      "view_id": "azimuth_270",
+      "image": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_03.png",
+      "silhouette": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/evaluation/renders/view_03_mask.png",
+      "camera": {
+        "view_id": "azimuth_270",
+        "camera_to_world": [
+          [
+            -1.8369701987210297e-16,
+            0.34202014332566866,
+            -0.9396926207859083,
+            -2.3492315519647713
+          ],
+          [
+            0.0,
+            0.9396926207859083,
+            0.34202014332566866,
+            0.8550503583141718
+          ],
+          [
+            1.0,
+            6.282808106515485e-17,
+            -1.7261873403417752e-16,
+            -4.3154683508544385e-16
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "width": 512,
+        "height": 512,
+        "yfov": 0.7853981633974483
+      }
+    }
+  ],
+  "per_view_metrics": [],
+  "preview_normalized": true
+}

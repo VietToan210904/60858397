@@ -1,0 +1,61 @@
+{
+  "checked_at_utc": "2026-10-28T16:31:36.356713+00:00",
+  "approval": "User approved remaining official assets within 50-60 GB project budget",
+  "selected_bytes": 1822754351,
+  "free_disk_before": 374373339136,
+  "workers": 2,
+  "range_chunk_bytes": 8388608,
+  "gpu_inference_performed": false,
+  "plans": {
+    "dinov2_large": {
+      "model_id": "facebook/dinov2-large",
+      "resolved_revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+      "destination": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\dinov2_large",
+      "files": [
+        {
+          "path": "README.md",
+          "size_bytes": 3033,
+          "expected_sha256": null,
+          "expected_git_blob_sha1": "3d7671e166807a113f7f8d3e1b79ebf0c32bc85d"
+        },
+        {
+          "path": "config.json",
+          "size_bytes": 549,
+          "expected_sha256": null,
+          "expected_git_blob_sha1": "5def28dd2a0ecb2561a4649703f13c4dc595ee95"
+        },
+        {
+          "path": "model.safetensors",
+          "size_bytes": 1217522888,
+          "expected_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+          "expected_git_blob_sha1": null
+        }
+      ]
+    },
+    "sf3d_clip": {
+      "model_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+      "resolved_revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+      "destination": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\sf3d_clip",
+      "files": [
+        {
+          "path": "README.md",
+          "size_bytes": 7464,
+          "expected_sha256": null,
+          "expected_git_blob_sha1": "f98c15535900ca2429412e47fdee969e15f4bd23"
+        },
+        {
+          "path": "open_clip_config.json",
+          "size_bytes": 604,
+          "expected_sha256": null,
+          "expected_git_blob_sha1": "1b6eff34f99870baea40be64f7cab5443677efce"
+        },
+        {
+          "path": "open_clip_pytorch_model.bin",
+          "size_bytes": 605219813,
+          "expected_sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad",
+          "expected_git_blob_sha1": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+WARNING:root:WARNING: You need pytorch with cu130 or higher to use optimized CUDA operations.
+WARNING WARNING WARNING
+If you are on nvidia 20 series and above it is required that you update your pytorch to cu130 or higher.
+
+{
+  "scope": "CPU-only offline tokenizer preflight, no model inference or GPU use",
+  "tokenizers": {
+    "qwen3_4b": {
+      "sequences": 1,
+      "lengths": [
+        512
+      ]
+    }
+  }
+}

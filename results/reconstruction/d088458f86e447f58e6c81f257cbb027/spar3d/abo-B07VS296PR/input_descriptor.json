@@ -1,0 +1,23 @@
+{
+  "file_sha256": {
+    "preparation_metadata": "ef1b3f22335f8e777c6adbacf8dd9916555061788c1fb25de60f493ca0655f68",
+    "source_image": "aa3625c7e1feb794c2ea65175baffb7234abeb25bb37c45f68bb85f9bb9a3c57"
+  },
+  "manifest": {
+    "camera_info": "",
+    "category": "SHOES",
+    "geometry_eligible": "false",
+    "image_sha256": "aa3625c7e1feb794c2ea65175baffb7234abeb25bb37c45f68bb85f9bb9a3c57",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "",
+    "object_id": "abo-B07VS296PR",
+    "preparation_metadata": "datasets/reconstruction/abo-B07VS296PR-preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Amazon Berkeley Objects",
+    "source_image": "datasets/reconstruction/assets/prepared/abo-B07VS296PR.png",
+    "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324"
+  }
+}

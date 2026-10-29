@@ -1,0 +1,53 @@
+{
+  "timestamp_utc": "2026-10-28T17:23:47.342672+00:00",
+  "run_id": "ae13ded36915404e929fa8428f956235",
+  "model": "qwen35_4b",
+  "torch_version": "2.11.0+cu128",
+  "physical_device_diagnostic": "environment\\cuda-install-check.json",
+  "physical_device_diagnostic_sha256": "ea630c6af3849188f72b80f4c12a3a62fa52f5dedf6d76d8a19ce941d22264c1",
+  "reported_device_capacity_bytes": 12878086144,
+  "reported_device_capacity_mib": 12281.5,
+  "counter_source": "src\\stylesphere\\common\\runtime.py",
+  "counter_source_sha256": "8794ec20a0ee678301eef285c180d9c893625ce8a7870fda7a196979f66c0a6e",
+  "frozen_runtime_source_unchanged": true,
+  "source_records_sha256": "a4de4c4880f399e3aa9218f8e1084dce920557f93c7ad8ab5369a42561c01dd1",
+  "peak_counters": {
+    "peak_allocated_mb": {
+      "value_mib": 12179.82861328125,
+      "api": "torch.cuda.max_memory_allocated",
+      "case_id": "assist-042",
+      "trace": "results\\assistance\\qwen35_4b\\049b82888165ab32\\c04c0738650fa917\\assist-042.ae13ded36915404e929fa8428f956235.json",
+      "trace_sha256": "ad2444b4ec41fd060ecca2a18193f1989ec72d184774a99aaea71815ea2d06b8",
+      "trace_turn_peaks_mib": [
+        8797.99853515625,
+        9297.7138671875,
+        10338.55712890625,
+        12179.82861328125
+      ]
+    },
+    "peak_reserved_mb": {
+      "value_mib": 13800.0,
+      "api": "torch.cuda.max_memory_reserved",
+      "case_id": "assist-058",
+      "trace": "results\\assistance\\qwen35_4b\\049b82888165ab32\\c04c0738650fa917\\assist-058.ae13ded36915404e929fa8428f956235.json",
+      "trace_sha256": "558982a8fb32d039d1b20a23b960ddf68800a303639c5033c9d28490578fc1db",
+      "trace_turn_peaks_mib": [
+        13798.0,
+        13800.0
+      ]
+    }
+  },
+  "cuda_oom_failures": 0,
+  "interpretation": [
+    "Raw allocator counters are retained without clamping. Values use MiB (bytes divided by 2**20), despite the legacy _mb field suffix.",
+    "max_memory_allocated tracks tensor allocations; max_memory_reserved tracks caching-allocator managed memory. Counter peaks include the existing model/cache allocation baseline at the measurement start, not incremental allocation alone.",
+    "These counters do not independently establish physical device residency. The final allocated peak is near reported device capacity and the reserved counter exceeds it.",
+    "The full run completed without a recorded CUDA OOM, but it does not establish an all-resident fit with spare physical VRAM.",
+    "Windows paging, shared-memory residency, oversubscription, per-process residency, and system-wide concurrent memory were not measured. No cause for the counter/capacity difference is asserted."
+  ],
+  "official_sources": [
+    "https://docs.pytorch.org/docs/2.11/generated/torch.cuda.memory.max_memory_allocated.html",
+    "https://docs.pytorch.org/docs/2.11/generated/torch.cuda.memory.max_memory_reserved.html",
+    "https://docs.pytorch.org/docs/2.11/notes/cuda.html#memory-management"
+  ]
+}

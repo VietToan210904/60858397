@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "kind": "post_run_exact_input_binding",
+  "run_id": "781ea670cda64582989fdcad8483bb3e",
+  "frozen_prompts": "results/generation/781ea670cda64582989fdcad8483bb3e/evidence/prompts.jsonl",
+  "frozen_prompts_sha256": "036b5c3e6dc115a8a0ea8cfaf1752d3fc93b5ba4f8c7a52829fc73b6ca9070ab",
+  "record_bindings": [
+    {
+      "record_sha256": "ab4138f66255a852c588c596c896bc93c31008e103ebcc2fa5403e41de95acef",
+      "model": "sdxl_lightning",
+      "case_id": "dev-gen-001",
+      "seed": 8410,
+      "protocol_sha256": "7db8793058b6427f735627206853f8fd7e82c80ea3755c46468f5670c358de8d",
+      "input_sha256": "4ddeb4436ba38c9f047d3b092bb689eed28ca083ffd548800d90a6f4a211a0f4"
+    }
+  ],
+  "audited_at_utc": "2026-10-28T16:53:22.111862+00:00"
+}

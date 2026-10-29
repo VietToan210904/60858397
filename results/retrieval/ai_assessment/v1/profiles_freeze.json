@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "frozen_at_utc": "2026-10-28T23:50:51.024778+00:00",
+  "n_products": 600,
+  "rankings_read": false,
+  "protocol_sha256": "f4471fae3d7bbcf89bb7819e0cbbdbd012cb9c7ee1fffdbbbcb7c2a0f8c3fac5",
+  "profiles_sha256": "fca0655f560531c8bbba093fe159e3ceebb1eb00baf97a76ea1f196100ba4d6c",
+  "annotation_source_sha256": {
+    "assistant-13-24.jsonl": "5edb179ebbe81e1c006e8bee7ab36abf0c3b446adff97f147ffc3915a429c481",
+    "root-01-08.jsonl": "2eace2bf9a9806b5354ce0dd1ee649ac0eb0da7adbd814e25b1dca24803ebd4d",
+    "visual-agent-09-12.jsonl": "3c134aa21d9fb705fef5f5011713ef773016da5404bad433b4f38589b19b9af3"
+  },
+  "evidence_manifest_sha256": "ec0e1996734f811f05758e39a355dc29530f70359c6a326742a88704f7a80dd2",
+  "implementation_sha256": "ea265b0d9cb3c744c5f1c422007686d56b8cd0958845e8c629c29a48128b2b61"
+}

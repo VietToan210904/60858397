@@ -1,0 +1,49 @@
+This model config has set a `rope_parameters['original_max_position_embeddings']` field, to be used together with `max_position_embeddings` to determine a scaling factor. Please set the `factor` field of `rope_parameters`with this ratio instead -- we recommend the use of this field over `original_max_position_embeddings`, as it is compatible with most model architectures.
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading weights:   0%|          | 0/194 [00:00<?, ?it/s]
+Loading weights:   1%|          | 1/194 [00:00<03:08,  1.02it/s]
+Loading weights:   1%|1         | 2/194 [00:01<01:30,  2.13it/s]
+Loading weights:   5%|5         | 10/194 [00:01<00:14, 13.12it/s]
+Loading weights:   8%|8         | 16/194 [00:01<00:09, 19.62it/s]
+Loading weights:  11%|#1        | 22/194 [00:01<00:06, 25.31it/s]
+Loading weights:  14%|#4        | 28/194 [00:01<00:05, 29.95it/s]
+Loading weights:  18%|#7        | 34/194 [00:01<00:04, 32.17it/s]
+Loading weights:  21%|##        | 40/194 [00:01<00:04, 35.22it/s]
+Loading weights:  24%|##3       | 46/194 [00:02<00:03, 37.42it/s]
+Loading weights:  27%|##6       | 52/194 [00:02<00:03, 39.67it/s]
+Loading weights:  30%|##9       | 58/194 [00:02<00:03, 41.39it/s]
+Loading weights:  33%|###2      | 64/194 [00:02<00:03, 42.47it/s]
+Loading weights:  36%|###6      | 70/194 [00:02<00:02, 42.96it/s]
+Loading weights:  39%|###9      | 76/194 [00:02<00:02, 42.76it/s]
+Loading weights:  42%|####2     | 82/194 [00:02<00:02, 43.51it/s]
+Loading weights:  45%|####5     | 88/194 [00:03<00:02, 43.28it/s]
+Loading weights:  48%|####8     | 94/194 [00:03<00:02, 44.49it/s]
+Loading weights:  52%|#####1    | 100/194 [00:03<00:02, 44.01it/s]
+Loading weights:  55%|#####4    | 106/194 [00:03<00:02, 43.84it/s]
+Loading weights:  58%|#####7    | 112/194 [00:03<00:01, 44.45it/s]
+Loading weights:  61%|######    | 118/194 [00:03<00:01, 45.14it/s]
+Loading weights:  64%|######3   | 124/194 [00:03<00:01, 45.84it/s]
+Loading weights:  67%|######7   | 130/194 [00:03<00:01, 46.18it/s]
+Loading weights:  70%|#######   | 136/194 [00:04<00:01, 46.55it/s]
+Loading weights:  73%|#######3  | 142/194 [00:04<00:01, 46.98it/s]
+Loading weights:  76%|#######6  | 148/194 [00:04<00:00, 47.23it/s]
+Loading weights:  79%|#######8  | 153/194 [00:04<00:00, 44.79it/s]
+Loading weights:  82%|########2 | 160/194 [00:04<00:00, 45.36it/s]
+Loading weights:  86%|########5 | 166/194 [00:04<00:00, 40.74it/s]
+Loading weights:  89%|########8 | 172/194 [00:04<00:00, 38.38it/s]
+Loading weights:  91%|######### | 176/194 [00:05<00:00, 38.48it/s]
+Loading weights:  93%|#########2| 180/194 [00:05<00:00, 38.74it/s]
+Loading weights:  95%|#########4| 184/194 [00:05<00:00, 33.70it/s]
+Loading weights:  98%|#########7| 190/194 [00:05<00:00, 35.30it/s]
+Loading weights: 100%|##########| 194/194 [00:05<00:00, 35.12it/s]
+[
+  {
+    "pair": "assistance",
+    "success": 40,
+    "failed": 40,
+    "blocked": 0,
+    "resumed": 0,
+    "records": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\assistance\\records.jsonl"
+  }
+]

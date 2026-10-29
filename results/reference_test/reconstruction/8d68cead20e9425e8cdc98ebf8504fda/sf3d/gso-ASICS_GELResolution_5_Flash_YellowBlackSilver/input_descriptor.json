@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "8bcd1a0c9969b8e1e7f434dfd49422439c0678b0d785673edf4c5b46966982cb",
+    "preparation_metadata": "a9ad5c85052d9f61be4b162993086a451dd2dd4a99cf061f099b95dd7292ca23",
+    "reference_mesh": "11895c1f8e0e1324be28b95a6fa794f755e6181f680b8c8d32743a85b6e221fb",
+    "source_image": "d1e646979c030fc39dfbcdcbe57b6a022303f7b5aa38069d33f164a397c9df08",
+    "view_0_reference_rgb": "13c777ad0d679ac1307a2f743a99e6a0e7f28e962e7cba7b7dfc3a2e6b5be8e0",
+    "view_0_reference_silhouette": "9627f889a9fdc94e7683ce593762080f529ba98dae465c9e0471b97360ba7ae1",
+    "view_1_reference_rgb": "12a0eadafcd5bd19101159e612554748b91ab6e1e420a17bfd971cd69f726e59",
+    "view_1_reference_silhouette": "3b6a7647052eddb2631ab984d2d1bd7fee26276e93eaf44ef14dcc63fa34c4a3",
+    "view_2_reference_rgb": "d12719d6a4f9e5a05d4d1a08248e3ef842021649900906b81b483667d69d7180",
+    "view_2_reference_silhouette": "39a9bbe3c5d1954de2b88dec7347ac324b5b4b684f18cbc29697b49b7f417fcb",
+    "view_3_reference_rgb": "ff4f5020901553d136f33dc2c33bd6cb5dbbf3b21fb5bde04d5d6c3cc3c0f76a",
+    "view_3_reference_silhouette": "46371b5afba81ff40e4b0bce0570af3078ce3a450a0d0243c5b70cabecd4657d"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-ASICS_GELResolution_5_Flash_YellowBlackSilver/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "d1e646979c030fc39dfbcdcbe57b6a022303f7b5aa38069d33f164a397c9df08",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "11895c1f8e0e1324be28b95a6fa794f755e6181f680b8c8d32743a85b6e221fb",
+    "object_id": "gso-ASICS_GELResolution_5_Flash_YellowBlackSilver",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-ASICS_GELResolution_5_Flash_YellowBlackSilver/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-ASICS_GELResolution_5_Flash_YellowBlackSilver/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-ASICS_GELResolution_5_Flash_YellowBlackSilver/input.png",
+    "source_revision": "GoogleResearch/ASICS_GELResolution_5_Flash_YellowBlackSilver/v1;zip-sha256:80c2ea303458f24d3b60e8b62889189d8fcb3ff086d57c7e08ecdac183d0e594"
+  }
+}

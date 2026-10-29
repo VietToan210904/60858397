@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-28T16:52:43.303123+00:00",
+  "run_id": "c72db9e579f046999779f6fba62b7849",
+  "n_records": 72,
+  "success": 72,
+  "failed": 0,
+  "blocked": 0,
+  "n_prompts": 24,
+  "seeds": [
+    8410,
+    8411,
+    8412
+  ],
+  "protocol_sha256": [
+    "36989e9326c8fa9769a3d07636ef0cf79b11e5196794d1d0a5e2d4c00c580857"
+  ],
+  "all_human_review_fields_blank": true,
+  "raw_records_sha256_before": "f0362e9df17f6708b0ceca65ff265bbe8d1dbd41f567327f6ace5a0929c2a32c",
+  "raw_records_sha256_after": "f0362e9df17f6708b0ceca65ff265bbe8d1dbd41f567327f6ace5a0929c2a32c",
+  "prompt_binding": "results/generation/c72db9e579f046999779f6fba62b7849/evidence/prompt_binding.json",
+  "prompt_binding_sha256": "bacec7f1ca5e694997a4385e9122b1740545cfa5cae308f47dc2f66ac0f16439",
+  "inference_s": {
+    "total": 272.6009577001678,
+    "mean": 3.78612441250233,
+    "median": 3.742379350005649,
+    "min": 3.4780436999863014,
+    "max": 4.61878139997134
+  },
+  "peak_allocated_mb": 5190.650390625,
+  "peak_reserved_mb": 7482.0,
+  "errors": [],
+  "quality_ratings": "No human scores assigned by this audit"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://download.pytorch.org/whl/cu128/torch-2.11.0%2Bcu128-cp311-cp311-win_amd64.whl",
+  "index": "https://download.pytorch.org/whl/cu128/torch/",
+  "index_link": "https://download-r2.pytorch.org/whl/cu128/torch-2.11.0%2Bcu128-cp311-cp311-win_amd64.whl#sha256=90ef0c2454e5296a9fb021ddd42252e4ce1abe2c0a4988a173ef90a6cded0bf5",
+  "bytes": 2753148611,
+  "sha256": "90ef0c2454e5296a9fb021ddd42252e4ce1abe2c0a4988a173ef90a6cded0bf5",
+  "verified_at_utc": "2026-10-28T15:46:31.200321+00:00"
+}

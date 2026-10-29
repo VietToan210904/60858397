@@ -1,0 +1,10 @@
+{
+  "texture_baker._C": {
+    "file": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Lib\\site-packages\\texture_baker\\_C.cp311-win_amd64.pyd",
+    "sha256": "eef43fa5997bda2424daeac5c0c43ca8f478d0a93cf320f0e144428fda36b3cc"
+  },
+  "uv_unwrapper._C": {
+    "file": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Lib\\site-packages\\uv_unwrapper\\_C.cp311-win_amd64.pyd",
+    "sha256": "94c74559ace87ac666526d49e16f3f4cbab55c20ce269c34c5d18a53d97d2120"
+  }
+}

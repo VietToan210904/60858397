@@ -1,0 +1,176 @@
+{
+  "timestamp_utc": "2026-10-28T16:59:33.033233+00:00",
+  "approval": "User authorized remaining official checkpoint/dependency downloads up to 50-60 GB; no drivers/toolkits",
+  "total_selected_bytes": 19393067944,
+  "free_bytes_before": 362005762048,
+  "assets": {
+    "sdxl_lightning": {
+      "model_id": "ByteDance/SDXL-Lightning",
+      "revision": "c9a24f48e1c025556787b0c58dd67a091ece2e44",
+      "files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 14143,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "README.md",
+          "bytes": 6527,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "sdxl_lightning_4step_unet.safetensors",
+          "bytes": 5135149736,
+          "official_lfs_sha256": "39a90a8a2a25c1372633c1e8eb1a96f85eab937bcb58cfc6ec9baf66242ec23c"
+        }
+      ],
+      "expected_bytes": 5135170406
+    },
+    "sdxl_base_components": {
+      "model_id": "stabilityai/stable-diffusion-xl-base-1.0",
+      "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+      "files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 14109,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "README.md",
+          "bytes": 8668,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "model_index.json",
+          "bytes": 609,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "scheduler/scheduler_config.json",
+          "bytes": 479,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "text_encoder/config.json",
+          "bytes": 565,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "text_encoder/model.fp16.safetensors",
+          "bytes": 246144152,
+          "official_lfs_sha256": "660c6f5b1abae9dc498ac2d21e1347d2abdb0cf6c0c0c8576cd796491d9a6cdd"
+        },
+        {
+          "path": "text_encoder_2/config.json",
+          "bytes": 575,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "text_encoder_2/model.fp16.safetensors",
+          "bytes": 1389382176,
+          "official_lfs_sha256": "ec310df2af79c318e24d20511b601a591ca8cd4f1fce1d8dff822a356bcdb1f4"
+        },
+        {
+          "path": "tokenizer/merges.txt",
+          "bytes": 524619,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "tokenizer/special_tokens_map.json",
+          "bytes": 472,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "tokenizer/tokenizer_config.json",
+          "bytes": 737,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "tokenizer/vocab.json",
+          "bytes": 1059962,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "tokenizer_2/merges.txt",
+          "bytes": 524619,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "tokenizer_2/special_tokens_map.json",
+          "bytes": 460,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "tokenizer_2/tokenizer_config.json",
+          "bytes": 725,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "tokenizer_2/vocab.json",
+          "bytes": 1059962,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "unet/config.json",
+          "bytes": 1680,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "vae/config.json",
+          "bytes": 642,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "vae/diffusion_pytorch_model.fp16.safetensors",
+          "bytes": 167335342,
+          "official_lfs_sha256": "bcb60880a46b63dea58e9bc591abe15f8350bde47b405f9c38f4be70c6161e68"
+        }
+      ],
+      "expected_bytes": 1806060553
+    },
+    "flux2_klein_fp8": {
+      "model_id": "black-forest-labs/FLUX.2-klein-4b-fp8",
+      "revision": "5b4408e59397a4a37ccb46afe426d8ed86379441",
+      "files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 9584,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "README.md",
+          "bytes": 7778,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "flux-2-klein-4b-fp8.safetensors",
+          "bytes": 4070624520,
+          "official_lfs_sha256": "97ed34fe0567e436200f2faee3939b88f2b5d99f8af2a4dc16532c4245c0ccb6"
+        }
+      ],
+      "expected_bytes": 4070641882
+    },
+    "flux2_klein_components": {
+      "model_id": "Comfy-Org/flux2-klein-4B",
+      "revision": "5b3abca5c0dc1ecd4eaf3340868d09063fc1c965",
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 1763,
+          "official_lfs_sha256": null
+        },
+        {
+          "path": "split_files/text_encoders/qwen_3_4b.safetensors",
+          "bytes": 8044982048,
+          "official_lfs_sha256": "6c671498573ac2f7a5501502ccce8d2b08ea6ca2f661c458e708f36b36edfc5a"
+        },
+        {
+          "path": "split_files/vae/flux2-vae.safetensors",
+          "bytes": 336211292,
+          "official_lfs_sha256": "868fe7b343cc8f3a19dbcfcafbc3d5f888802be3f89bd81b65b3621a066ce8f3"
+        }
+      ],
+      "expected_bytes": 8381195103
+    }
+  }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "pair": "retrieval",
+    "success": 0,
+    "failed": 0,
+    "blocked": 2,
+    "resumed": 0,
+    "records": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\retrieval\\records.jsonl"
+  },
+  {
+    "pair": "generation",
+    "run_id": "ac163fe89eea4a0e8ff47ea43c5f75d3",
+    "records": 2,
+    "resumed": 0,
+    "success": 0,
+    "blocked": 2,
+    "failed": 0,
+    "review": {
+      "images": 0,
+      "ratings_csv": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\ac163fe89eea4a0e8ff47ea43c5f75d3\\review\\ratings.csv",
+      "review_html": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\ac163fe89eea4a0e8ff47ea43c5f75d3\\review\\review.html"
+    }
+  },
+  {
+    "pair": "assistance",
+    "success": 0,
+    "failed": 0,
+    "blocked": 4,
+    "resumed": 0,
+    "records": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\assistance\\records.jsonl"
+  },
+  {
+    "pair": "reconstruction",
+    "run_id": "1335234b017e40519405fcdfcdf7ed9c",
+    "records": 2,
+    "resumed": 0,
+    "success": 0,
+    "blocked": 2,
+    "failed": 0
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-28T16:55:22.815057+00:00",
+  "run_id": "c72db9e579f046999779f6fba62b7849",
+  "model": "sdxl_lightning",
+  "selection_rule": "Lexicographically first prompt_id within each frozen category, seed8410 by default; no selection by output quality",
+  "inspection_scope": "Post-run technical/qualitative AI-assisted QA only; not a human grade or representative quality estimate",
+  "thumbnail_transform": "RGB conversion and deterministic512x512LANCZOS downsample; original images unchanged",
+  "image": "results/generation/c72db9e579f046999779f6fba62b7849/qa/sdxl_lightning_first_per_category.png",
+  "image_sha256": "2c3376ec1af85c717c66633414cf51d4910337982df2ea4bafe6dfa7cf8a61fd",
+  "sources": [
+    {
+      "case_id": "gen-001",
+      "category": "product_focused",
+      "seed": 8410,
+      "source_image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-001_8410.png",
+      "source_image_sha256": "0549ae88f50e05935245811d7959705ddda4a1760240645c838d19858fecd512",
+      "mandatory_criteria": [
+        "one burgundy handbag",
+        "brass clasp",
+        "short top handle",
+        "ivory plinth",
+        "empty space above",
+        "no lettering"
+      ]
+    },
+    {
+      "case_id": "gen-007",
+      "category": "editorial",
+      "seed": 8410,
+      "source_image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-007_8410.png",
+      "source_image_sha256": "03ab8072f0c22b6311466fce089b172070559b8e0e46d5dafe61ba5dd46e753b",
+      "mandatory_criteria": [
+        "adult woman",
+        "teal trouser suit",
+        "black flat loafers",
+        "gallery",
+        "full body",
+        "no text"
+      ]
+    },
+    {
+      "case_id": "gen-013",
+      "category": "seasonal",
+      "seed": 8410,
+      "source_image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-013_8410.png",
+      "source_image_sha256": "5b78e485c2807bb84e032ca73ffb4c1b8fe470e863db0e7135838cb10efdb177",
+      "mandatory_criteria": [
+        "yellow bucket hat",
+        "lavender canvas tote",
+        "white daisies",
+        "mint floor",
+        "two fashion products",
+        "no text"
+      ]
+    },
+    {
+      "case_id": "gen-019",
+      "category": "multi_attribute",
+      "seed": 8410,
+      "source_image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-019_8410.png",
+      "source_image_sha256": "bde383952527dd24915b941205023ed9fcfeaf22555a4ee795f1eb1aa26220d0",
+      "mandatory_criteria": [
+        "exactly four fashion items",
+        "sky-blue shirt",
+        "beige pleated trousers",
+        "white trainers",
+        "tan belt",
+        "no overlap or text"
+      ]
+    }
+  ]
+}

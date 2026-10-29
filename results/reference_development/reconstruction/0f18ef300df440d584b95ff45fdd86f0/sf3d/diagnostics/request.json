@@ -1,0 +1,79 @@
+{
+  "model": "sf3d",
+  "model_id": "stabilityai/stable-fast-3d",
+  "model_config": {
+    "pair": "reconstruction",
+    "model_id": "stabilityai/stable-fast-3d",
+    "revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+    "precision": "model_native",
+    "local_files_only": true,
+    "licence": "Stability-AI-Community",
+    "checkout": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\vendor\\SF3D",
+    "source_revision": "ff21fc491b4dc5314bf6734c7c0dabd86b5f5bb2",
+    "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-sf3d\\Scripts\\python.exe",
+    "weights_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\sf3d",
+    "auxiliary": {
+      "dinov2": {
+        "path": "../dinov2_large",
+        "repo_id": "facebook/dinov2-large",
+        "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+        "model_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+        "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0"
+      },
+      "open_clip": {
+        "path": "../sf3d_clip/open_clip_pytorch_model.bin",
+        "repo_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+        "revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+        "sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad"
+      }
+    },
+    "extension_build": {
+      "receipt": "../../environment/native-build-sf3d.json",
+      "receipt_sha256": "50954cff8269fcb9a82b152494180216949c13cb4de2ee9ff59811283e25930f",
+      "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+      "binary_sha256": {
+        "texture_baker._C": "eef43fa5997bda2424daeac5c0c43ca8f478d0a93cf320f0e144428fda36b3cc",
+        "uv_unwrapper._C": "94c74559ace87ac666526d49e16f3f4cbab55c20ce269c34c5d18a53d97d2120"
+      }
+    },
+    "checkpoint_files": {
+      "config.yaml": {
+        "size_bytes": 2405,
+        "git_blob_sha1": "4a44aec5e6af76975afcaedae7e888b96412c832"
+      },
+      "model.safetensors": {
+        "size_bytes": 4024289892,
+        "sha256": "a3416e1cf654e7d4f5e75f116cec2c3f0a14501a77d30c2f6068bbda178de388"
+      }
+    }
+  },
+  "project_root": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation",
+  "warmup_runs": 1,
+  "texture_resolution": 1024,
+  "cases": [
+    {
+      "case_id": "gso-11pro_SL_TRX_FG",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-11pro_SL_TRX_FG\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_development\\reconstruction\\0f18ef300df440d584b95ff45fdd86f0\\sf3d\\gso-11pro_SL_TRX_FG\\mesh.glb"
+    },
+    {
+      "case_id": "gso-AMBERLIGHT_UP_W",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-AMBERLIGHT_UP_W\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_development\\reconstruction\\0f18ef300df440d584b95ff45fdd86f0\\sf3d\\gso-AMBERLIGHT_UP_W\\mesh.glb"
+    },
+    {
+      "case_id": "gso-Jansport_School_Backpack_Blue_Streak",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-Jansport_School_Backpack_Blue_Streak\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_development\\reconstruction\\0f18ef300df440d584b95ff45fdd86f0\\sf3d\\gso-Jansport_School_Backpack_Blue_Streak\\mesh.glb"
+    },
+    {
+      "case_id": "gso-Olive_Kids_Birdie_Sidekick_Backpack",
+      "source_image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\datasets\\reconstruction_reference\\assets\\gso-Olive_Kids_Birdie_Sidekick_Backpack\\input.png",
+      "seed": 8410,
+      "mesh": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\reference_development\\reconstruction\\0f18ef300df440d584b95ff45fdd86f0\\sf3d\\gso-Olive_Kids_Birdie_Sidekick_Backpack\\mesh.glb"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+-r requirements-core.txt
+trimesh>=4.6,<5
+pyrender>=0.1.45,<0.2
+# SPAR3D and SF3D each require their official isolated environment.

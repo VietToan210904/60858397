@@ -1,0 +1,55 @@
+# Acquisition is deliberately separate from prepare: no dataset/weight auto-downloads.
+schema_version: 1
+checked_date: '2026-10-29'
+sources:
+  fashion200k:
+    repository: Marqo/fashion200k
+    official_url: https://huggingface.co/datasets/Marqo/fashion200k
+    upstream_url: https://github.com/xthan/fashion-200k
+    revision: b9d0e6c9c14337620e442c93f40f7906942fe893
+    observed_short_revision: b9d0e6c
+    declared_licence: Apache-2.0
+    licence_caveat: Repository licence does not independently establish every underlying retail-image right.
+    compressed_bytes_dataset_card: 3466991670
+    uncompressed_bytes_dataset_card: 4235530432
+    selected_categories: [dresses, jackets, pants, skirts, tops]
+    source_assets_included: smoke-only-eight-images
+    redistributable_assets_default: false
+  abo:
+    official_url: https://registry.opendata.aws/amazon-berkeley-objects/
+    documentation_url: https://amazon-berkeley-objects.s3.amazonaws.com/index.html
+    bucket: s3://amazon-berkeley-objects
+    region: us-east-1
+    declared_licence: CC-BY-4.0
+    licence_note: All assets updated from CC BY-NC to CC BY in 2023; use current licence copy.
+    source_revision: null  # Record accessed date, object key, ETag/version and local SHA256.
+    approximate_archive_sizes_decimal_GB:
+      listings: 0.083
+      images_small: 3
+      images_original: 110
+      spins: 40
+      models_3d: 154
+    selected_categories: [handbag, shoes, backpack, sunglasses, watch]
+    source_assets_included: false
+    redistributable_assets_default: false
+  omniobject3d:
+    official_url: https://omniobject3d.github.io/
+    repository: https://github.com/omniobject3d/OmniObject3D
+    data_repository: omniobject3d/OmniObject3D-New
+    declared_licence: CC-BY-4.0
+    access: OpenXLab signup/login or official linked Google Drive; follow current access terms.
+    approximate_full_compressed_TB: 1.2
+    source_revision: null
+    selected_categories: [bag, shoe, hat]
+    source_assets_included: false
+    redistributable_assets_default: false
+preparation:
+  network_access: false
+  acquisition_approval_threshold_GB: 5
+  sample_seed: 8410
+  catalogue_size: 600
+  query_count: 120
+  reconstruction_object_count: 24
+  generation_prompt_count: 24
+  generation_seeds: [8410, 8411, 8412]
+  assistance_scenario_count: 80

@@ -1,0 +1,893 @@
+{
+  "kind": "post_hoc_ai_shortlist_denominator_diagnostics",
+  "by_model": {
+    "flux2_klein": {
+      "planned": 72,
+      "positive": 40,
+      "negative": 19,
+      "uncertain": 13,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 59,
+      "unresolved": 13,
+      "conditional_image_positive_rate": 0.6779661016949152,
+      "possible_all_planned_rate_bounds": [
+        0.5555555555555556,
+        0.7361111111111112
+      ]
+    },
+    "sdxl_lightning": {
+      "planned": 72,
+      "positive": 19,
+      "negative": 52,
+      "uncertain": 1,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 71,
+      "unresolved": 1,
+      "conditional_image_positive_rate": 0.2676056338028169,
+      "possible_all_planned_rate_bounds": [
+        0.2638888888888889,
+        0.2777777777777778
+      ]
+    }
+  },
+  "per_prompt": [
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-001",
+      "planned": 3,
+      "positive": 3,
+      "negative": 0,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-002",
+      "planned": 3,
+      "positive": 3,
+      "negative": 0,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-003",
+      "planned": 3,
+      "positive": 3,
+      "negative": 0,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-004",
+      "planned": 3,
+      "positive": 0,
+      "negative": 1,
+      "uncertain": 2,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 1,
+      "unresolved": 2,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.6666666666666666
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-005",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-006",
+      "planned": 3,
+      "positive": 3,
+      "negative": 0,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-007",
+      "planned": 3,
+      "positive": 3,
+      "negative": 0,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-008",
+      "planned": 3,
+      "positive": 3,
+      "negative": 0,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-009",
+      "planned": 3,
+      "positive": 3,
+      "negative": 0,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-010",
+      "planned": 3,
+      "positive": 3,
+      "negative": 0,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-011",
+      "planned": 3,
+      "positive": 0,
+      "negative": 1,
+      "uncertain": 2,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 1,
+      "unresolved": 2,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.6666666666666666
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-012",
+      "planned": 3,
+      "positive": 3,
+      "negative": 0,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-013",
+      "planned": 3,
+      "positive": 2,
+      "negative": 0,
+      "uncertain": 1,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 2,
+      "unresolved": 1,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        0.6666666666666666,
+        1.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-014",
+      "planned": 3,
+      "positive": 2,
+      "negative": 0,
+      "uncertain": 1,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 2,
+      "unresolved": 1,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        0.6666666666666666,
+        1.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-015",
+      "planned": 3,
+      "positive": 1,
+      "negative": 2,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.3333333333333333,
+      "possible_all_planned_rate_bounds": [
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-016",
+      "planned": 3,
+      "positive": 0,
+      "negative": 1,
+      "uncertain": 2,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 1,
+      "unresolved": 2,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.6666666666666666
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-017",
+      "planned": 3,
+      "positive": 0,
+      "negative": 1,
+      "uncertain": 2,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 1,
+      "unresolved": 2,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.6666666666666666
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-018",
+      "planned": 3,
+      "positive": 0,
+      "negative": 0,
+      "uncertain": 3,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 0,
+      "unresolved": 3,
+      "conditional_image_positive_rate": null,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-019",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-020",
+      "planned": 3,
+      "positive": 3,
+      "negative": 0,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-021",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-022",
+      "planned": 3,
+      "positive": 2,
+      "negative": 1,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.6666666666666666,
+      "possible_all_planned_rate_bounds": [
+        0.6666666666666666,
+        0.6666666666666666
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-023",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "flux2_klein",
+      "case_id": "gen-024",
+      "planned": 3,
+      "positive": 3,
+      "negative": 0,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-001",
+      "planned": 3,
+      "positive": 1,
+      "negative": 2,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.3333333333333333,
+      "possible_all_planned_rate_bounds": [
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-002",
+      "planned": 3,
+      "positive": 2,
+      "negative": 1,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.6666666666666666,
+      "possible_all_planned_rate_bounds": [
+        0.6666666666666666,
+        0.6666666666666666
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-003",
+      "planned": 3,
+      "positive": 3,
+      "negative": 0,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-004",
+      "planned": 3,
+      "positive": 1,
+      "negative": 2,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.3333333333333333,
+      "possible_all_planned_rate_bounds": [
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-005",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-006",
+      "planned": 3,
+      "positive": 2,
+      "negative": 1,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.6666666666666666,
+      "possible_all_planned_rate_bounds": [
+        0.6666666666666666,
+        0.6666666666666666
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-007",
+      "planned": 3,
+      "positive": 1,
+      "negative": 2,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.3333333333333333,
+      "possible_all_planned_rate_bounds": [
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-008",
+      "planned": 3,
+      "positive": 1,
+      "negative": 1,
+      "uncertain": 1,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 2,
+      "unresolved": 1,
+      "conditional_image_positive_rate": 0.5,
+      "possible_all_planned_rate_bounds": [
+        0.3333333333333333,
+        0.6666666666666666
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-009",
+      "planned": 3,
+      "positive": 2,
+      "negative": 1,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.6666666666666666,
+      "possible_all_planned_rate_bounds": [
+        0.6666666666666666,
+        0.6666666666666666
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-010",
+      "planned": 3,
+      "positive": 3,
+      "negative": 0,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 1.0,
+      "possible_all_planned_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-011",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-012",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-013",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-014",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-015",
+      "planned": 3,
+      "positive": 2,
+      "negative": 1,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.6666666666666666,
+      "possible_all_planned_rate_bounds": [
+        0.6666666666666666,
+        0.6666666666666666
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-016",
+      "planned": 3,
+      "positive": 1,
+      "negative": 2,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.3333333333333333,
+      "possible_all_planned_rate_bounds": [
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-017",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-018",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-019",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-020",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-021",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-022",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-023",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "sdxl_lightning",
+      "case_id": "gen-024",
+      "planned": 3,
+      "positive": 0,
+      "negative": 3,
+      "uncertain": 0,
+      "abstained": 0,
+      "missing": 0,
+      "decided": 3,
+      "unresolved": 0,
+      "conditional_image_positive_rate": 0.0,
+      "possible_all_planned_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "matched_pair_coverage": {
+    "planned_matched_input_seed_pairs": 72,
+    "complete_decision_pairs": 58,
+    "flux2_klein_1__sdxl_lightning_0": 24,
+    "flux2_klein_1__sdxl_lightning_1": 15,
+    "unresolved_decision_pairs": 14,
+    "flux2_klein_0__sdxl_lightning_0": 16,
+    "flux2_klein_0__sdxl_lightning_1": 3
+  },
+  "complete_prompt_subset": {
+    "n_complete_prompts": 16,
+    "n_input_seed_pairs": 48,
+    "ai_positive_prompt_mean": {
+      "flux2_klein": 0.6875,
+      "sdxl_lightning": 0.3333333333333333
+    }
+  },
+  "note": "Null decisions remain unresolved. Conditional rates have different observed denominators; bounds are explicit worst/best unresolved-decision scenarios, not imputed scores. Complete-prompt comparisons are an additional coverage diagnostic and do not replace the frozen summary or human assessment.",
+  "generated_at_utc": "2026-10-28T23:42:43.617092+00:00",
+  "protocol_sha256": "299a340bf2fd5f87b8399b62fde3855117a84cf0bf61146474f9a367dd02f7f4",
+  "selection_sha256": "c9854ffcf88fc81f931e677e7137da8b6c7e60096bf26c378f86baa0ddeb6deb",
+  "assessment_files_sha256": {
+    "assessments/generation_01.jsonl": "0fc2374730eec37ce0843d9c0848797d221dde83f0d4d7b19679dc154925d4f2",
+    "assessments/generation_02.jsonl": "baeb4dc06f6671e28304dd6d39a3301eec4ad0a01210374e6a7f16d698b80501",
+    "assessments/generation_03.jsonl": "557281245d4cf80c8d1da0edea8c2a225bbb7516531035739c323404912f16a3",
+    "assessments/generation_04.jsonl": "fb8f32bfbde0ee3e503ecbc973f0187d3d468f03ca34dc2fe5757837d023b1ef",
+    "assessments/generation_05.jsonl": "d0db19dc625c5ba9e0a822d1daccc6fbe946be3768450ae2131a1c5b7e9663d4",
+    "assessments/generation_06.jsonl": "38e6f3e95ef603d36cfa9dbb38753c13620a14a44b9590bf74a0a604d1199c88",
+    "assessments/generation_07.jsonl": "51b7d21c47f0652532e39c2486baa0b42100f22eef8c0f33cf807767c42fc11b",
+    "assessments/generation_08.jsonl": "0e30295a27bf05d351069b4e9d82c3a8357e447e17159f5bef6c76c55439b942",
+    "assessments/generation_09.jsonl": "012c6d95507c42afc68b490cf70af43cde4f75c67e2c508a5b7510e652904523",
+    "assessments/generation_10.jsonl": "49ef5e62a2023dcc0a09d211c198d9b7b54ba4334b5f45922d78952373bd41bd",
+    "assessments/generation_11.jsonl": "b66f3c0a8df84aa2969a4d3ec732febc157fef1f815ae60a6c785589613f3df6",
+    "assessments/generation_12.jsonl": "0e2d60c2b2eadcdc3991185a81489c406721049546f43a1433e588fc603cf8a6",
+    "assessments/reconstruction_01.jsonl": "bc2489d52e6fe2dea6a8ad83c2b80fe43efb2d9f8c581941d271bf281f6c62a6",
+    "assessments/reconstruction_02.jsonl": "b61f13d48b8a87c2077fe3b9a9117b2b46f75f161eba9feabb3ae9d9b96e7e69",
+    "assessments/reconstruction_03.jsonl": "29e6dc88de921c38f51755d79ea3ae54663a41676d9ffc71e310e19d0899eb6e",
+    "assessments/reconstruction_04.jsonl": "3d3558b93fee09ef690202144c01ffc5547b1fd59d451e33c8607f6b8841c196"
+  },
+  "helper_source_sha256": "fb23f1ec22b86549fd2a0e385fd8496f8805c72bd347eb2b41874fb696425c48"
+}

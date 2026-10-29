@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "0b7dc7dc6852f5aac59383d3cd897ad7caf0636a1abbb0eb926584092fe80483",
+    "preparation_metadata": "68efd5dc879f75217fcff37d03b73391959518c706bedad13b9723a367992352",
+    "reference_mesh": "579892538662e15a087ea1347c1d2af437fc36b3d95cae14de9fa938903fad7d",
+    "source_image": "1fb8e5c03a2b4d290be1974786f66f97023b04aadb40faabfeb787f3534f1b1b",
+    "view_0_reference_rgb": "2ace7534956ebd2929db9f9930e5e5901a678ac6f8247a4c270b8e069c2745b4",
+    "view_0_reference_silhouette": "4ef633330e50157efab9889b50060c2fe747ae660736b4ab1af284b8a767ff20",
+    "view_1_reference_rgb": "634fbffa5c79effc6e4a849f6d7a150f3e1b423aba2afa860ad19a9ccdd0a859",
+    "view_1_reference_silhouette": "0730ca2cec6b6b7f65be4403fd3dba4c51e86e6bdfbb461563fddb3992d2a547",
+    "view_2_reference_rgb": "1b8043b874f1082f3145eccb81c0bb7291cd8628d7da8b24090e2fa666a752fd",
+    "view_2_reference_silhouette": "fe5113ab7ce37aa29392b3c2f62daa52537472047b14b6186206cd62db061512",
+    "view_3_reference_rgb": "08b4e36982e3771303ada27068bfd778e74297254c235b8516019122e7b82bb6",
+    "view_3_reference_silhouette": "9f23caf14647f1696f25fb2e2571bbe8423401bd5bab73a1072d556e3914c780"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/camera_info.json",
+    "category": "backpack",
+    "geometry_eligible": "false",
+    "image_sha256": "1fb8e5c03a2b4d290be1974786f66f97023b04aadb40faabfeb787f3534f1b1b",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "579892538662e15a087ea1347c1d2af437fc36b3d95cae14de9fa938903fad7d",
+    "object_id": "gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Mermaids_Pack_n_Snack_Backpack/input.png",
+    "source_revision": "GoogleResearch/Olive_Kids_Mermaids_Pack_n_Snack_Backpack/v1;zip-sha256:ade6a438ea776d1732f1d90a9aae7d1103a6c2f3baf76cfe8ebbfe681d851a02"
+  }
+}

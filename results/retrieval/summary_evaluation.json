@@ -1,0 +1,53 @@
+{
+  "mode": "evaluation",
+  "input_sha256": "e31b2824fab0ab27c6cd5a815e3bb0e4cf9233b8edeebeaca11f614751bc4ddc",
+  "config_sha256": "e64825107ec0b85cd8a8bafa1fd84e973beae7a1ae7f4a97bf7b8b29efc69a8b",
+  "models": {
+    "fashion_siglip": {
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": null,
+          "eligible_queries": 0
+        },
+        "mrr": {
+          "mean": null,
+          "eligible_queries": 0
+        },
+        "hit_at_5": {
+          "mean": null,
+          "eligible_queries": 0
+        },
+        "recall_at_10": {
+          "mean": null,
+          "eligible_queries": 0
+        }
+      },
+      "query_count": 120,
+      "failed_query_rate": 0.0,
+      "blocked_count": 0
+    },
+    "siglip2": {
+      "metrics": {
+        "ndcg_at_10": {
+          "mean": null,
+          "eligible_queries": 0
+        },
+        "mrr": {
+          "mean": null,
+          "eligible_queries": 0
+        },
+        "hit_at_5": {
+          "mean": null,
+          "eligible_queries": 0
+        },
+        "recall_at_10": {
+          "mean": null,
+          "eligible_queries": 0
+        }
+      },
+      "query_count": 120,
+      "failed_query_rate": 0.0,
+      "blocked_count": 0
+    }
+  }
+}

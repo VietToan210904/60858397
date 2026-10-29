@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "pair": "retrieval",
+  "prepared_at_utc": "2026-10-28T16:33:21.180501+00:00",
+  "seed": 8410,
+  "model_inference_performed": false,
+  "inputs": {
+    "ABO_ATTRIBUTION.md": {
+      "sha256": "2352bc38c74061dcd022c6f8f5f7b5cc9138c601aef4443057feeef0a7ad2cf5",
+      "bytes": 1912
+    },
+    "ABO_LICENSE.txt": {
+      "sha256": "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec",
+      "bytes": 14527
+    },
+    "abo_metadata.jsonl": {
+      "sha256": "2567b8aa90177a0592301657ea65081a97f16cd2fa57bef26529415b3e1574f5",
+      "bytes": 394675
+    },
+    "annotation_candidates.csv": {
+      "sha256": "52a05c906748758e4270df00a52a4a6070b5367a7de88ac9fcff06cedf64b33f",
+      "bytes": 404668
+    },
+    "catalogue.csv": {
+      "sha256": "5a67c285d781e5572c24655c934373601e9a015a127d792086e75f1737839047",
+      "bytes": 236857
+    },
+    "controlled_queries.csv": {
+      "sha256": "fdf3a5617413a26f56e2051d9d491ea5fef718d4a47c796abda7669440a173a4",
+      "bytes": 6287
+    },
+    "controlled_query_design.json": {
+      "sha256": "beec09dbdbc1f7727ebbc4b6dfd891132c5edc9a59d04bcc24ab83c98c4d94ca",
+      "bytes": 443
+    },
+    "qrels.csv": {
+      "sha256": "bd7165716ada5828e40e8c095e3dea483f3a5dd66f7fcda052350eb769bb6740",
+      "bytes": 60
+    },
+    "queries.csv": {
+      "sha256": "fdf3a5617413a26f56e2051d9d491ea5fef718d4a47c796abda7669440a173a4",
+      "bytes": 6287
+    }
+  },
+  "source_inputs": {
+    "metadata_path": {
+      "path": "datasets/retrieval/abo_metadata.jsonl",
+      "sha256": "2567b8aa90177a0592301657ea65081a97f16cd2fa57bef26529415b3e1574f5"
+    },
+    "queries_path": {
+      "path": "datasets/retrieval/controlled_queries.csv",
+      "sha256": "fdf3a5617413a26f56e2051d9d491ea5fef718d4a47c796abda7669440a173a4"
+    }
+  },
+  "redistributable_assets_default": false,
+  "details": {
+    "catalogue_count": 600,
+    "query_count": 120,
+    "judgement_count": 0,
+    "imported": false,
+    "annotation_pool_method": "seeded independent random order; no model scores",
+    "annotation_pool_size_per_query": 30,
+    "input_kind": "real catalogue and controlled queries; relevance eligibility depends on independent human qrels",
+    "selection_seed": 8410
+  }
+}

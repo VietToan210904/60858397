@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "purpose": "real-model smoke inference only; not final benchmark",
+  "source": "https://huggingface.co/datasets/Marqo/fashion200k",
+  "source_revision": "b9d0e6c9c14337620e442c93f40f7906942fe893",
+  "accessed_at_utc": "2026-10-28T15:38:30.042839+00:00",
+  "planned_max_download_bytes": 100000000,
+  "downloaded_bytes": 186032,
+  "selection": {
+    "method": "predeclared fixed row offsets",
+    "offsets": [
+      0,
+      25000,
+      50000,
+      75000,
+      100000,
+      125000,
+      150000,
+      175000
+    ]
+  },
+  "source_card_sha256": "93b15b15d70f7fb8da844b652aeaecfa63a8c24065b0542c0a57d6309f9da5ac",
+  "source_card_url": "https://huggingface.co/datasets/Marqo/fashion200k/resolve/b9d0e6c9c14337620e442c93f40f7906942fe893/README.md",
+  "assets": [
+    {
+      "product_id": "p-0265e069aac977f3",
+      "source_id": "51727804_0",
+      "row_index": 0,
+      "url_without_signed_query": "https://datasets-server.huggingface.co/cached-assets/Marqo/fashion200k/--/b9d0e6c9c14337620e442c93f40f7906942fe893/--/default/data/0/image/image.jpg",
+      "image_sha256": "0e90200481f4b45a2ae760687bfe72fb3fb186ab6821fc9fc41443a188212792",
+      "bytes": 9951
+    },
+    {
+      "product_id": "p-5d0c6b853107506d",
+      "source_id": "90074852_1",
+      "row_index": 25000,
+      "url_without_signed_query": "https://datasets-server.huggingface.co/cached-assets/Marqo/fashion200k/--/b9d0e6c9c14337620e442c93f40f7906942fe893/--/default/data/25000/image/image.jpg",
+      "image_sha256": "40b94bf0173aa9f8cc22435cd2745ab17d6c0d0d05fbaed6bc73cfe59c83196e",
+      "bytes": 14134
+    },
+    {
+      "product_id": "p-8ebf595fa503fca8",
+      "source_id": "75722305_3",
+      "row_index": 50000,
+      "url_without_signed_query": "https://datasets-server.huggingface.co/cached-assets/Marqo/fashion200k/--/b9d0e6c9c14337620e442c93f40f7906942fe893/--/default/data/50000/image/image.jpg",
+      "image_sha256": "4842bad54a45b944a186690b5c5ae0f9fe190d27d11ebbb800cbed61b1613817",
+      "bytes": 64420
+    },
+    {
+      "product_id": "p-4b402a741ec48ecb",
+      "source_id": "89548868_1",
+      "row_index": 75000,
+      "url_without_signed_query": "https://datasets-server.huggingface.co/cached-assets/Marqo/fashion200k/--/b9d0e6c9c14337620e442c93f40f7906942fe893/--/default/data/75000/image/image.jpg",
+      "image_sha256": "4c3d3b741b029dd321c32117efd8c23f004271b63b5e83ed143101bbbd43fc3e",
+      "bytes": 8912
+    },
+    {
+      "product_id": "p-ea13d6bab51429ef",
+      "source_id": "90847383_0",
+      "row_index": 100000,
+      "url_without_signed_query": "https://datasets-server.huggingface.co/cached-assets/Marqo/fashion200k/--/b9d0e6c9c14337620e442c93f40f7906942fe893/--/default/data/100000/image/image.jpg",
+      "image_sha256": "084bd534a539d87c54a6c045bd4cf30ca8f8c9154ebc19fcdece988cb8b9d311",
+      "bytes": 14270
+    },
+    {
+      "product_id": "p-96a20d1dd037987c",
+      "source_id": "91229887_1",
+      "row_index": 125000,
+      "url_without_signed_query": "https://datasets-server.huggingface.co/cached-assets/Marqo/fashion200k/--/b9d0e6c9c14337620e442c93f40f7906942fe893/--/default/data/125000/image/image.jpg",
+      "image_sha256": "b421437931042de5d7e62c124427e0a65f96fa761f1ad342e6afe005fbb3c1b2",
+      "bytes": 17161
+    },
+    {
+      "product_id": "p-7471e6a72b414df1",
+      "source_id": "90975517_3",
+      "row_index": 150000,
+      "url_without_signed_query": "https://datasets-server.huggingface.co/cached-assets/Marqo/fashion200k/--/b9d0e6c9c14337620e442c93f40f7906942fe893/--/default/data/150000/image/image.jpg",
+      "image_sha256": "0af117cd9d4eb7e1afc9acbaf63ce690a441956fd3479591b8050eb7cc7fdc39",
+      "bytes": 16305
+    },
+    {
+      "product_id": "p-37d6f2eb29667538",
+      "source_id": "91243929_1",
+      "row_index": 175000,
+      "url_without_signed_query": "https://datasets-server.huggingface.co/cached-assets/Marqo/fashion200k/--/b9d0e6c9c14337620e442c93f40f7906942fe893/--/default/data/175000/image/image.jpg",
+      "image_sha256": "528162475f16f6e461f14b126ee11e3d3f391fb4bab8b8cd9994ab370578ae24",
+      "bytes": 5396
+    }
+  ],
+  "catalogue_count": 8,
+  "query_count": 4,
+  "judgement_count": 0,
+  "metrics_eligible": false,
+  "redistributable_assets": false,
+  "synthetic": false,
+  "limitation": "Known evaluation exposure to FashionSigLIP; eight convenience cases cannot establish retrieval quality.",
+  "licence_record": {
+    "filename": "SOURCE_LICENSE_APACHE_2_0.txt",
+    "source_url": "https://raw.githubusercontent.com/xthan/fashion-200k/ea5d434db7a4b23743048559ce7950050051d77e/LICENSE",
+    "source_revision": "ea5d434db7a4b23743048559ce7950050051d77e",
+    "sha256": "279b28acc4db88f7ccc1781af54f8c3fdcf1f9baa874f543f74e8074c1d52a30"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "pair": "reconstruction",
+  "prepared_at_utc": "2026-10-28T16:26:36.463105+00:00",
+  "seed": 8410,
+  "model_inference_performed": false,
+  "inputs": {
+    "abo-B06W9GB1JR-preparation.json": {
+      "sha256": "ec0f061e8d216ea216f0e3fcd510b9abb81b9aaa4c7d024c2ff20c4cb9de3844",
+      "bytes": 1462
+    },
+    "abo-B07CMD9X29-preparation.json": {
+      "sha256": "a8ba6d0c89477c8ab9c23dff6099c056607a05a9089eb571201af0b3a6438717",
+      "bytes": 1432
+    },
+    "abo-B07J2DZXXY-preparation.json": {
+      "sha256": "58defd75ff5c40aa84369c233872b407067d8b25eae92cc4f0a07e688074bf08",
+      "bytes": 1430
+    },
+    "abo-B07JHFZVLV-preparation.json": {
+      "sha256": "5a9b9bdbcbaeb38fb1eed20e27a4c017949080fc61b745960152b3170cdc667f",
+      "bytes": 1465
+    },
+    "abo-B07PGK6BKK-preparation.json": {
+      "sha256": "a93fc142a7055175063a456285f059e1c63c92f2d2ef5ece1de97a9fe42f968a",
+      "bytes": 1430
+    },
+    "abo-B07PWXRWBC-preparation.json": {
+      "sha256": "29ca3c5e83edc05ae2c9e4d20fe16682519f03bb1d1d95ed6a243f3d9dbb67bd",
+      "bytes": 1430
+    },
+    "abo-B07R79WR4V-preparation.json": {
+      "sha256": "371b0e9a02510d2fbf6fe0ef079a656afb6c2e87169bad7444d3e828cd546dae",
+      "bytes": 1429
+    },
+    "abo-B07VS296PR-preparation.json": {
+      "sha256": "ef1b3f22335f8e777c6adbacf8dd9916555061788c1fb25de60f493ca0655f68",
+      "bytes": 1430
+    },
+    "abo-B07WRJFN95-preparation.json": {
+      "sha256": "3091699d6b845cdb85d59d2557671c0523977575b8d119d45da557951101cfb9",
+      "bytes": 1463
+    },
+    "abo-B07WRJG24S-preparation.json": {
+      "sha256": "eea7899bc5800cd684df83ddc436305fae73f65ee01f024e9b210013407f4fae",
+      "bytes": 1430
+    },
+    "abo-B07WTMZ8N7-preparation.json": {
+      "sha256": "7ed5bedecb249c6258acb76ee885ca02be66231a3a9064d0bc53130359a0f869",
+      "bytes": 1430
+    },
+    "abo-B07WTMZ91M-preparation.json": {
+      "sha256": "ebf269b7f28a2cedaed0e556e84a54510805c263e263a4d44fdc4f1fb1d93350",
+      "bytes": 1430
+    },
+    "abo-B07WVRFRR2-preparation.json": {
+      "sha256": "24f0d37f346e5204e303210e96dbd655300314ec283669d8787e4b299cb7f8bb",
+      "bytes": 1430
+    },
+    "abo-B07XBZR7SR-preparation.json": {
+      "sha256": "cdd599818427122e974fab43b5f013e1f570e3e1f5acc8690fc8dd7db728660b",
+      "bytes": 1430
+    },
+    "abo-B07XF6F7X7-preparation.json": {
+      "sha256": "81f4761500599dff5277003907b92a98b2c21c2bedb204c91a997766a4a519a4",
+      "bytes": 1430
+    },
+    "abo-B07XPHD4LK-preparation.json": {
+      "sha256": "984db3d9e83dfdd3227a5f88654a4c66f3ad2f0fe774837fc12724c521921452",
+      "bytes": 1464
+    },
+    "abo-B07YV78XJW-preparation.json": {
+      "sha256": "8a655d442eb69d0c764918af4e508c2e6f0dab0707a51b2dfd5efa099da8631b",
+      "bytes": 1429
+    },
+    "abo-B081HNQQWP-preparation.json": {
+      "sha256": "6093121c0c46b57557b11c7bb4a5f4bea8d3bf8dec1a53b18990ef0a8f8074cf",
+      "bytes": 1431
+    },
+    "abo-B084LLWDFH-preparation.json": {
+      "sha256": "862f078352f724344007562e923cc8453d0d629beb16b3cdb9bc7e7e91386642",
+      "bytes": 1431
+    },
+    "abo-B086YY3KQG-preparation.json": {
+      "sha256": "2096626f199bfa745751cfe31210a08b95acf9ed4ccb2682b72abc709428152c",
+      "bytes": 1429
+    },
+    "objects.csv": {
+      "sha256": "4dc3897c5df79dd2092d83965d6c85ae966bd876409270547a391d072abd9189",
+      "bytes": 6921
+    },
+    "quality_ledger.json": {
+      "sha256": "ad3bbcd0b85f31d38425e2982391638749ecdf546099feb7c21f8e2c40f4aa99",
+      "bytes": 16412
+    },
+    "RIGHTS_AND_ATTRIBUTION.json": {
+      "sha256": "fee65ef93dabcf68d7f963afc4da74eb326163585523b42e93f83ca37e0ce3f0",
+      "bytes": 1750
+    },
+    "selection_plan.json": {
+      "sha256": "c989ef5b26390827e938330502e99a7af51a47c09435c7a5694283a7b7b29022",
+      "bytes": 4870
+    },
+    "SOURCE_LICENSE_CC_BY_4_0.txt": {
+      "sha256": "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec",
+      "bytes": 14527
+    },
+    "source_objects.jsonl": {
+      "sha256": "724ca6702d2d4dc0076cc41d244aaca18461225e42668652092400f6bbf57eaa",
+      "bytes": 10955
+    }
+  },
+  "source_inputs": {
+    "metadata_path": {
+      "path": "datasets/reconstruction/source_objects.jsonl",
+      "sha256": "724ca6702d2d4dc0076cc41d244aaca18461225e42668652092400f6bbf57eaa"
+    }
+  },
+  "redistributable_assets_default": false,
+  "details": {
+    "object_count": 20,
+    "imported": false,
+    "input_kind": "real source assets required; empty manifest is a template",
+    "selection_seed": 8410
+  },
+  "rights_update": "Explicit CC BY4.0 redistribution record added before model outputs; cases and prepared pixels unchanged; initial conservative manifests archived.",
+  "attribution_update": "Complete official dataset-builder credit list added before model inference; selection and source/prepared image bytes unchanged."
+}

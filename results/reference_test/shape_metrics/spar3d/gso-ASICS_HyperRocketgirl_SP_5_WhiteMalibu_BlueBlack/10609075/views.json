@@ -1,0 +1,61 @@
+{
+  "interpretation": "Supplementary independently normalized shape views, with explicitly reference-assisted rigid alignment where labelled",
+  "per_view": [
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.36316345288848906,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/10609075/unaligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.08034276512537382,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/10609075/unaligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.33565230127055035,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/10609075/unaligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.04679435715104943,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/10609075/unaligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/reference_views/view_03_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.4909416683257018,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/10609075/rigid_aligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.12187378514966957,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/10609075/rigid_aligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.3489955171841275,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/10609075/rigid_aligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.5672333848531684,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/10609075/rigid_aligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/reference_views/view_03_mask.png"
+    }
+  ]
+}

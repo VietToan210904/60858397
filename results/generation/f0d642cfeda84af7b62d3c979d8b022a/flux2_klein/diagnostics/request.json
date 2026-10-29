@@ -1,0 +1,30 @@
+{
+  "model": "flux2_klein",
+  "model_config": {
+    "pair": "generation",
+    "model_id": "black-forest-labs/FLUX.2-klein-4b-fp8",
+    "revision": "5b4408e59397a4a37ccb46afe426d8ed86379441",
+    "precision": "fp8",
+    "steps": 4,
+    "guidance_scale": 1.0,
+    "local_files_only": true,
+    "licence": "Apache-2.0",
+    "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-comfy\\Scripts\\python.exe",
+    "checkout": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\vendor\\ComfyUI",
+    "source_revision": "4845e7a3ffc48a6961f15824239e9042cc7d4ad1",
+    "checkpoint": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\hub\\models--black-forest-labs--FLUX.2-klein-4b-fp8\\snapshots\\5b4408e59397a4a37ccb46afe426d8ed86379441\\flux-2-klein-4b-fp8.safetensors",
+    "text_encoder": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\hub\\models--Comfy-Org--flux2-klein-4B\\snapshots\\5b3abca5c0dc1ecd4eaf3340868d09063fc1c965\\split_files\\text_encoders\\qwen_3_4b.safetensors",
+    "vae": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\hub\\models--Comfy-Org--flux2-klein-4B\\snapshots\\5b3abca5c0dc1ecd4eaf3340868d09063fc1c965\\split_files\\vae\\flux2-vae.safetensors"
+  },
+  "cases": [
+    {
+      "case_id": "dev-gen-001",
+      "prompt": "Studio photograph of one plain tan leather loafer on an ivory background, three-quarter view, soft side lighting, no lettering.",
+      "seed": 8410,
+      "image": "results/generation/f0d642cfeda84af7b62d3c979d8b022a/flux2_klein/dev-gen-001_8410.png"
+    }
+  ],
+  "warmup_runs": 1,
+  "width": 1024,
+  "height": 1024
+}

@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-28T16:11:19.442490+00:00",
+  "model": "sf3d",
+  "source_revision": "ff21fc491b4dc5314bf6734c7c0dabd86b5f5bb2",
+  "python": ".venv-sf3d/Scripts/python.exe",
+  "cuda_toolkit": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6",
+  "vcvars_version": "14.44",
+  "torch_cuda_arch_list": "8.9",
+  "use_native_arch": false,
+  "max_jobs": 2,
+  "system_components_installed": false,
+  "gpu_inference_performed": false,
+  "extensions": [
+    {
+      "extension": "uv_unwrapper",
+      "returncode": 0,
+      "elapsed_seconds": 24.730474499985576,
+      "log": "environment/build-sf3d-uv_unwrapper.log"
+    },
+    {
+      "extension": "texture_baker",
+      "returncode": 1,
+      "elapsed_seconds": 43.252009799994994,
+      "log": "environment/build-sf3d-texture_baker.log"
+    }
+  ]
+}

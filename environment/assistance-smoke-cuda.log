@@ -1,0 +1,10 @@
+[
+  {
+    "pair": "assistance",
+    "success": 0,
+    "failed": 0,
+    "blocked": 4,
+    "resumed": 0,
+    "records": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\assistance\\records.jsonl"
+  }
+]

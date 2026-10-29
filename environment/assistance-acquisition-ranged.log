@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<stdin>", line 13, in <module>
+  File "C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\src\stylesphere\common\acquisition.py", line 48, in acquire
+    from huggingface_hub import snapshot_download
+ModuleNotFoundError: No module named 'huggingface_hub'

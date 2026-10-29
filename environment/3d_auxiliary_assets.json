@@ -1,0 +1,63 @@
+{
+  "note": "Potential official default initializers, confirm actual gated config before acquisition; not substitute models",
+  "assets": [
+    {
+      "repo_id": "facebook/dinov2-large",
+      "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+      "licence": "apache-2.0",
+      "files": [
+        {
+          "filename": "config.json",
+          "bytes": 549
+        },
+        {
+          "filename": "model.safetensors",
+          "bytes": 1217522888
+        },
+        {
+          "filename": "pytorch_model.bin",
+          "bytes": 1217614569
+        }
+      ]
+    },
+    {
+      "repo_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+      "revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+      "licence": "mit",
+      "files": [
+        {
+          "filename": "config.json",
+          "bytes": 4355
+        },
+        {
+          "filename": "model.safetensors",
+          "bytes": 605157884
+        },
+        {
+          "filename": "open_clip_config.json",
+          "bytes": 604
+        },
+        {
+          "filename": "open_clip_model.safetensors",
+          "bytes": 605143316
+        },
+        {
+          "filename": "open_clip_pytorch_model.bin",
+          "bytes": 605219813
+        },
+        {
+          "filename": "pytorch_model.bin",
+          "bytes": 605239073
+        }
+      ]
+    },
+    {
+      "type": "openai_clip_initialisation",
+      "model": "ViT-L/14@336px",
+      "source_url": "https://openaipublic.azureedge.net/clip/models/3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02/ViT-L-14-336px.pt",
+      "expected_sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02",
+      "source_code_revision": "ef9262bc539728bf8ef2dfe9c402ae12bbfcd9ff",
+      "downloaded": false
+    }
+  ]
+}

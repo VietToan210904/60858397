@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "88da38c410a1d57fec3f45a9017671689850ca9e6166f0ec32b02342a37c58e6",
+    "preparation_metadata": "e6118629dbc850af1e348543ab7bfd4ea235ebe4d38895b098b8e29c3e650a0b",
+    "reference_mesh": "17f58f80e15ab46e2ab4cdcfbcf5ab50991fb498243af7aadc91439af6402798",
+    "source_image": "0ed7ac2edee04c730e5b48f7d34633d60b0b54e2ce0b0583cf1499653490754c",
+    "view_0_reference_rgb": "999aca7a60b411f8c4f90c3758642f52bce9369a4ea2ae4888aee349b070b36c",
+    "view_0_reference_silhouette": "81a08764dd56153a923fd29c6d6231da82ca0505c2b74a293938a326444401aa",
+    "view_1_reference_rgb": "394074165f0a6bc917312bad7895bec0a54bf53a94da7b44a856b9fc302b29c8",
+    "view_1_reference_silhouette": "eb57f62ca75cba2b0620c5feb5170664a3b822b1d30b0247d126bc5f37797cf0",
+    "view_2_reference_rgb": "dfe95e8f4069804ebd77d8df0543c2ab9621ab0af8f7f7999b4d12a74ca4f00c",
+    "view_2_reference_silhouette": "217da7aa7ff0e1c378dd3d8b9c0e6908ad6ad510fbc4af705d6f13c91c382c06",
+    "view_3_reference_rgb": "3b896d71cf30e41e3bf3aa30f2630820f890ab9c2582ef3a0363e37049c66f1f",
+    "view_3_reference_silhouette": "3c53c6c68f36e2121de60dd6b0cd4b4a38233e3bf075ac9047ed572bed01c40b"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "0ed7ac2edee04c730e5b48f7d34633d60b0b54e2ce0b0583cf1499653490754c",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "17f58f80e15ab46e2ab4cdcfbcf5ab50991fb498243af7aadc91439af6402798",
+    "object_id": "gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/input.png",
+    "source_revision": "GoogleResearch/CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/v1;zip-sha256:a8529180c0917ccb7bf14d248ff3cea90bd19bedb00c83bdb9f6be5253b74550"
+  }
+}

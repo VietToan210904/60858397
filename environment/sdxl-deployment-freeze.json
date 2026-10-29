@@ -1,0 +1,54 @@
+{
+  "frozen_at_utc": "2026-10-28T16:43:56.388310+00:00",
+  "model": "sdxl_lightning",
+  "scope": "Full24predefinedcampaignbriefsx3seeds; deploymentsettingsfrozenafterseparate_development_smoke",
+  "model_config": {
+    "pair": "generation",
+    "model_id": "ByteDance/SDXL-Lightning",
+    "revision": "c9a24f48e1c025556787b0c58dd67a091ece2e44",
+    "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "base_revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "checkpoint": "sdxl_lightning_4step_unet.safetensors",
+    "precision": "float16",
+    "steps": 4,
+    "guidance_scale": 0.0,
+    "scheduler": "EulerDiscreteScheduler",
+    "timestep_spacing": "trailing",
+    "local_files_only": true,
+    "licence": "openrail++",
+    "python": ".venv-generation/Scripts/python.exe",
+    "cache_dir": "models/hub",
+    "cpu_offload": true
+  },
+  "generation": {
+    "repeats": 3,
+    "width": 1024,
+    "height": 1024
+  },
+  "warmup_runs": 1,
+  "seeds": [
+    8410,
+    8411,
+    8412
+  ],
+  "dataset_sha256": "e84c1bb98b8a21f66b8ed8a97291dae2791c69f667beab3bee863bcd60283689",
+  "source_sha256": {
+    "src/stylesphere/generation/worker.py": "376a678bf9df88f8fa25d15860c764f87fde256cd21f51a70fedbe5af8eda1ac",
+    "src/stylesphere/generation/runner.py": "ed25e3d68b2e533b1577977b0e04bb60b2b79b0edf022aff3d3e37c9a5c31fe4"
+  },
+  "effective_packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "Pillow": "12.2.0",
+    "transformers": "5.5.0",
+    "huggingface-hub": "1.9.2",
+    "safetensors": "0.7.0",
+    "accelerate": "1.13.0",
+    "diffusers": "0.37.0",
+    "tokenizers": "0.22.2",
+    "sentencepiece": "0.2.1"
+  },
+  "human_ratings": "blank until independent human review"
+}

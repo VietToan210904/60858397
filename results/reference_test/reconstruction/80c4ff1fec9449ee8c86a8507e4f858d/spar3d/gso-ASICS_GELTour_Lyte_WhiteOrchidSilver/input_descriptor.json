@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "b78a008821486f774fae295e0894ba0bc430c2f7e1b73854734effaa543b2d5b",
+    "preparation_metadata": "407390fde3579fe1ca4e82800ba0a7d643bae184510fb1106a77535a9a47b403",
+    "reference_mesh": "8822ea3eb6527ae625a099bc9cb40efb784a2beffa13ed217bc2d67f53f946d9",
+    "source_image": "fcfdad455b727d7318e8293c7ec7311cc81ff2cdf492913a59a6842d5268f5e1",
+    "view_0_reference_rgb": "43a3f6eb52c3774abf122a0e34ea3ce44a89f46710c023da38fc274fe0080eef",
+    "view_0_reference_silhouette": "e1be1e7ea76cec2647c79b7a3125abfa10eaa3ce77d2ead481a28ae8a6fb342c",
+    "view_1_reference_rgb": "91a1a19ee36ef65afff0cc51b88fdbf4e25cb892bc116d28c3e33fda142093dc",
+    "view_1_reference_silhouette": "5e2539a4261bb8a19537409ef71334f18dbec77d00f5f438d6c26ccef09b9e30",
+    "view_2_reference_rgb": "b93ab56d73e44561fff0905297e70547f1cfa373e78efae459324254265f4121",
+    "view_2_reference_silhouette": "25b7f9d2345c3f06ec90a8da019b704e17c44960c9e51ac4654d1cbe57fb94a6",
+    "view_3_reference_rgb": "69fa32751374b909686d3eb1f4ffd612471e25dcdc737d0ffd0ffc99d0f0c93a",
+    "view_3_reference_silhouette": "7da1913aaf87b72340da061b515cd7c6bfc160cff62b14e2366d0c2596f4b87f"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-ASICS_GELTour_Lyte_WhiteOrchidSilver/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "fcfdad455b727d7318e8293c7ec7311cc81ff2cdf492913a59a6842d5268f5e1",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "8822ea3eb6527ae625a099bc9cb40efb784a2beffa13ed217bc2d67f53f946d9",
+    "object_id": "gso-ASICS_GELTour_Lyte_WhiteOrchidSilver",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-ASICS_GELTour_Lyte_WhiteOrchidSilver/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-ASICS_GELTour_Lyte_WhiteOrchidSilver/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-ASICS_GELTour_Lyte_WhiteOrchidSilver/input.png",
+    "source_revision": "GoogleResearch/ASICS_GELTour_Lyte_WhiteOrchidSilver/v1;zip-sha256:063c403a39735f9457c356af3a6666ebe3d12d42f2070d264b189cad8388711d"
+  }
+}

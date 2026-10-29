@@ -1,0 +1,34 @@
+{
+  "timestamp_utc": "2026-10-28T15:38:32.309485+00:00",
+  "model": "fashion_tokenizer",
+  "model_id": "timm/ViT-B-16-SigLIP",
+  "resolved_revision": "41f575766f40e752fdd1383e9565b7f02388c1c4",
+  "download_bytes": 2448891,
+  "free_disk_bytes": 399341633536,
+  "destination": "models\\fashion_tokenizer",
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 3149
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size_bytes": 2200
+    },
+    {
+      "path": "tokenizer.json",
+      "size_bytes": 2422934
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 20608
+    }
+  ],
+  "status": "downloaded",
+  "sha256": {
+    "README.md": "3f107b93d5752803759965e0fe7e34e04d3dd6bd6fae901151181c2fdcff1288",
+    "special_tokens_map.json": "3a60d3bb0808e7e629845031c2d720d33c2aceee1a6c535255de15d45b9f1ac7",
+    "tokenizer.json": "83051c8005acc696637fe0c62c711ecee4b59083b4cf07ff9ad5f637eb2a3d2a",
+    "tokenizer_config.json": "8571e0cf70f7ae095c5c544ab94b7967e94c79262202d61604da10cbe426cecb"
+  }
+}

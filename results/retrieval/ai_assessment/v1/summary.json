@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-28T23:51:03.211284+00:00",
+  "assessment_kind": "supplementary_AI_proxy_not_human_ground_truth",
+  "n_queries": 120,
+  "n_model_queries": 240,
+  "run_ids": [
+    "24512250744c475fb358342058a8a043"
+  ],
+  "rows": [
+    {
+      "model": "fashion_siglip",
+      "n_queries": 120,
+      "metrics": {
+        "known_labels_unknown_zero_gain": {
+          "ndcg_at_10": {
+            "mean": 0.7822980618076177,
+            "n_assessable": 115,
+            "n_missing": 5
+          },
+          "mrr_at_10": {
+            "mean": 0.7711441798941798,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "hit_at_10": {
+            "mean": 0.8666666666666667,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "precision_at_10": {
+            "mean": 0.49166666666666686,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "recall_at_10": {
+            "mean": 0.5298597608020216,
+            "n_assessable": 104,
+            "n_missing": 16
+          },
+          "n_relevant": {
+            "mean": 19.741666666666667,
+            "n_assessable": 120,
+            "n_missing": 0
+          }
+        },
+        "all_unknown_grade3_sensitivity": {
+          "ndcg_at_10": {
+            "mean": 0.6885496485586723,
+            "n_assessable": 119,
+            "n_missing": 1
+          },
+          "mrr_at_10": {
+            "mean": 0.79551917989418,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "hit_at_10": {
+            "mean": 0.9083333333333333,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "precision_at_10": {
+            "mean": 0.5133333333333335,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "recall_at_10": {
+            "mean": 0.41958079821970695,
+            "n_assessable": 117,
+            "n_missing": 3
+          },
+          "n_relevant": {
+            "mean": 21.575,
+            "n_assessable": 120,
+            "n_missing": 0
+          }
+        },
+        "conservative_bounds": {
+          "ndcg_at_10_lower": {
+            "mean": 0.653092825008586,
+            "n_assessable": 119,
+            "n_missing": 1
+          },
+          "ndcg_at_10_upper": {
+            "mean": 0.8162968276065244,
+            "n_assessable": 119,
+            "n_missing": 1
+          },
+          "hit_at_10_lower": {
+            "mean": 0.8666666666666667,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "hit_at_10_upper": {
+            "mean": 0.9083333333333333,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "mrr_at_10_lower": {
+            "mean": 0.7711441798941798,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "mrr_at_10_upper": {
+            "mean": 0.79551917989418,
+            "n_assessable": 120,
+            "n_missing": 0
+          }
+        }
+      },
+      "mean_judged_coverage_at_10": 0.9783333333333334,
+      "n_queries_all_catalogue_complete": 50
+    },
+    {
+      "model": "siglip2",
+      "n_queries": 120,
+      "metrics": {
+        "known_labels_unknown_zero_gain": {
+          "ndcg_at_10": {
+            "mean": 0.7648789389389241,
+            "n_assessable": 115,
+            "n_missing": 5
+          },
+          "mrr_at_10": {
+            "mean": 0.7341765873015872,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "hit_at_10": {
+            "mean": 0.8666666666666667,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "precision_at_10": {
+            "mean": 0.4808333333333335,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "recall_at_10": {
+            "mean": 0.5328119007418924,
+            "n_assessable": 104,
+            "n_missing": 16
+          },
+          "n_relevant": {
+            "mean": 19.741666666666667,
+            "n_assessable": 120,
+            "n_missing": 0
+          }
+        },
+        "all_unknown_grade3_sensitivity": {
+          "ndcg_at_10": {
+            "mean": 0.6804718587892091,
+            "n_assessable": 119,
+            "n_missing": 1
+          },
+          "mrr_at_10": {
+            "mean": 0.7601587301587303,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "hit_at_10": {
+            "mean": 0.9333333333333333,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "precision_at_10": {
+            "mean": 0.5116666666666668,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "recall_at_10": {
+            "mean": 0.451310544211508,
+            "n_assessable": 117,
+            "n_missing": 3
+          },
+          "n_relevant": {
+            "mean": 21.575,
+            "n_assessable": 120,
+            "n_missing": 0
+          }
+        },
+        "conservative_bounds": {
+          "ndcg_at_10_lower": {
+            "mean": 0.6329937623583649,
+            "n_assessable": 119,
+            "n_missing": 1
+          },
+          "ndcg_at_10_upper": {
+            "mean": 0.8168433651628869,
+            "n_assessable": 119,
+            "n_missing": 1
+          },
+          "hit_at_10_lower": {
+            "mean": 0.8666666666666667,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "hit_at_10_upper": {
+            "mean": 0.9333333333333333,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "mrr_at_10_lower": {
+            "mean": 0.7341765873015872,
+            "n_assessable": 120,
+            "n_missing": 0
+          },
+          "mrr_at_10_upper": {
+            "mean": 0.7601587301587303,
+            "n_assessable": 120,
+            "n_missing": 0
+          }
+        }
+      },
+      "mean_judged_coverage_at_10": 0.9691666666666667,
+      "n_queries_all_catalogue_complete": 50
+    }
+  ],
+  "source_records_snapshot_sha256": "a6a04f3a52e6080f5cfa8060a0fe9d4b5a50d0f1c04c14c8177c74be93fe3d23",
+  "paired_comparisons": [
+    {
+      "scenario": "known_labels_unknown_zero_gain",
+      "metric": "ndcg_at_10",
+      "difference": "siglip2_minus_fashion_siglip",
+      "paired_mean_difference": -0.017419122868693314,
+      "cluster_bootstrap_95_percentile_interval": [
+        -0.0392673568038274,
+        0.004208119371097409
+      ],
+      "n_paired_queries": 115,
+      "n_assessable_query_family_clusters": 12,
+      "n_planned_query_family_clusters": 12,
+      "bootstrap_repetitions": 2000,
+      "bootstrap_seed": 8410,
+      "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+    },
+    {
+      "scenario": "known_labels_unknown_zero_gain",
+      "metric": "mrr_at_10",
+      "difference": "siglip2_minus_fashion_siglip",
+      "paired_mean_difference": -0.036967592592592594,
+      "cluster_bootstrap_95_percentile_interval": [
+        -0.06670014880952381,
+        0.0017170965608465376
+      ],
+      "n_paired_queries": 120,
+      "n_assessable_query_family_clusters": 12,
+      "n_planned_query_family_clusters": 12,
+      "bootstrap_repetitions": 2000,
+      "bootstrap_seed": 8410,
+      "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+    },
+    {
+      "scenario": "known_labels_unknown_zero_gain",
+      "metric": "hit_at_10",
+      "difference": "siglip2_minus_fashion_siglip",
+      "paired_mean_difference": 0.0,
+      "cluster_bootstrap_95_percentile_interval": [
+        0.0,
+        0.0
+      ],
+      "n_paired_queries": 120,
+      "n_assessable_query_family_clusters": 12,
+      "n_planned_query_family_clusters": 12,
+      "bootstrap_repetitions": 2000,
+      "bootstrap_seed": 8410,
+      "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+    },
+    {
+      "scenario": "known_labels_unknown_zero_gain",
+      "metric": "precision_at_10",
+      "difference": "siglip2_minus_fashion_siglip",
+      "paired_mean_difference": -0.010833333333333335,
+      "cluster_bootstrap_95_percentile_interval": [
+        -0.034166666666666665,
+        0.010833333333333334
+      ],
+      "n_paired_queries": 120,
+      "n_assessable_query_family_clusters": 12,
+      "n_planned_query_family_clusters": 12,
+      "bootstrap_repetitions": 2000,
+      "bootstrap_seed": 8410,
+      "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+    },
+    {
+      "scenario": "known_labels_unknown_zero_gain",
+      "metric": "recall_at_10",
+      "difference": "siglip2_minus_fashion_siglip",
+      "paired_mean_difference": 0.0029521399398709813,
+      "cluster_bootstrap_95_percentile_interval": [
+        -0.0205910882471876,
+        0.026994346229903418
+      ],
+      "n_paired_queries": 104,
+      "n_assessable_query_family_clusters": 12,
+      "n_planned_query_family_clusters": 12,
+      "bootstrap_repetitions": 2000,
+      "bootstrap_seed": 8410,
+      "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+    },
+    {
+      "scenario": "all_unknown_grade3_sensitivity",
+      "metric": "ndcg_at_10",
+      "difference": "siglip2_minus_fashion_siglip",
+      "paired_mean_difference": -0.008077789769463184,
+      "cluster_bootstrap_95_percentile_interval": [
+        -0.03332910083310748,
+        0.02294578103230328
+      ],
+      "n_paired_queries": 119,
+      "n_assessable_query_family_clusters": 12,
+      "n_planned_query_family_clusters": 12,
+      "bootstrap_repetitions": 2000,
+      "bootstrap_seed": 8410,
+      "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+    },
+    {
+      "scenario": "all_unknown_grade3_sensitivity",
+      "metric": "mrr_at_10",
+      "difference": "siglip2_minus_fashion_siglip",
+      "paired_mean_difference": -0.03536044973544974,
+      "cluster_bootstrap_95_percentile_interval": [
+        -0.07964285714285713,
+        0.01973784722222212
+      ],
+      "n_paired_queries": 120,
+      "n_assessable_query_family_clusters": 12,
+      "n_planned_query_family_clusters": 12,
+      "bootstrap_repetitions": 2000,
+      "bootstrap_seed": 8410,
+      "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+    },
+    {
+      "scenario": "all_unknown_grade3_sensitivity",
+      "metric": "hit_at_10",
+      "difference": "siglip2_minus_fashion_siglip",
+      "paired_mean_difference": 0.025,
+      "cluster_bootstrap_95_percentile_interval": [
+        0.0,
+        0.05854166666666553
+      ],
+      "n_paired_queries": 120,
+      "n_assessable_query_family_clusters": 12,
+      "n_planned_query_family_clusters": 12,
+      "bootstrap_repetitions": 2000,
+      "bootstrap_seed": 8410,
+      "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+    },
+    {
+      "scenario": "all_unknown_grade3_sensitivity",
+      "metric": "precision_at_10",
+      "difference": "siglip2_minus_fashion_siglip",
+      "paired_mean_difference": -0.001666666666666665,
+      "cluster_bootstrap_95_percentile_interval": [
+        -0.025833333333333337,
+        0.02166666666666666
+      ],
+      "n_paired_queries": 120,
+      "n_assessable_query_family_clusters": 12,
+      "n_planned_query_family_clusters": 12,
+      "bootstrap_repetitions": 2000,
+      "bootstrap_seed": 8410,
+      "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+    },
+    {
+      "scenario": "all_unknown_grade3_sensitivity",
+      "metric": "recall_at_10",
+      "difference": "siglip2_minus_fashion_siglip",
+      "paired_mean_difference": 0.03172974599180115,
+      "cluster_bootstrap_95_percentile_interval": [
+        -0.008318405739966601,
+        0.09116226744569272
+      ],
+      "n_paired_queries": 117,
+      "n_assessable_query_family_clusters": 12,
+      "n_planned_query_family_clusters": 12,
+      "bootstrap_repetitions": 2000,
+      "bootstrap_seed": 8410,
+      "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+    }
+  ],
+  "score_sha256": "11792f7b048c4a3a9b01a6e5a2da90ef626ef9bcc66d8b62531789a39de07efb",
+  "qrels_manifest_sha256": "9754d0d0571709e12f8adcf81fe639234647ff53bb8be6117b0ee58fa94c2319",
+  "profiles_freeze_sha256": "d14266fb0d7fc1b2487127f31a361a949acdc560eb016f15fd9e923352b21db9",
+  "implementation_sha256": "ea265b0d9cb3c744c5f1c422007686d56b8cd0958845e8c629c29a48128b2b61",
+  "limitations": [
+    "Nonblind Codex AI coding assistants, implementation contributors; identities available but predicted rankings withheld until product annotations are fixed. No human validation or inter-rater reliability claim.",
+    "Scores are AI visual/source proxies, not human relevance or objective ground truth.",
+    "Lightweight/travel is an appearance proxy with explicit-source exception; weight/performance were not measured.",
+    "Unknowns remain null in qrels; main scores use known labels with zero unknown gain and disclose top10 coverage.",
+    "All-unknown0 and all-unknown3 are sensitivity scenarios, while separately reported conservative nDCG bounds allow independent unknown assignments.",
+    "Recall uses only known AI-proxy relevant items; no original primary human quality field is populated."
+  ]
+}

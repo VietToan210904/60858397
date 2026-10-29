@@ -1,0 +1,94 @@
+{
+  "results": [
+    {
+      "case_id": "abo-B00MWQC5Y4",
+      "status": "success",
+      "timings": {
+        "inference_s": 14.15266680001514,
+        "model_load_s": 0.6667597999912687,
+        "export_s": 0.034193100000265986,
+        "preprocessing_s": 0.05338529997970909,
+        "end_to_end_s": 14.24117569992086,
+        "warmup_excluded_s": 20.262075300037395
+      },
+      "metrics": {
+        "peak_allocated_mb": 8019.16455078125,
+        "peak_reserved_mb": 8460.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/mesh.glb",
+        "prepared_input": "results/reconstruction/beffe85dbbc14673babc7b7a0a9822b8/spar3d/abo-B00MWQC5Y4/prepared_input.png"
+      },
+      "error": null
+    }
+  ],
+  "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Scripts\\python.exe",
+  "adapter_source_sha256": "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351",
+  "seed_policy": "Reset Python/NumPy/Torch/CUDA seed immediately before each measured inference, after excluded warmup",
+  "torch_version": "2.11.0+cu128",
+  "cuda_version": "12.8",
+  "libraries": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "Pillow": "12.2.0",
+    "transformers": "4.42.3",
+    "omegaconf": "2.3.0",
+    "trimesh": "4.4.1",
+    "safetensors": "0.7.0",
+    "huggingface-hub": "0.23.4",
+    "clip": "1.0",
+    "alpha-clip": "1.0",
+    "open-clip-torch": "3.3.0"
+  },
+  "checkpoint_provenance": {
+    "revision": "5699918cb34f55cd7d828493d2725f3038313761",
+    "files": {
+      "config.yaml": {
+        "size_bytes": 3996,
+        "sha256": "2795e11a7a6cb381a442e07abfdb5a3c0cc20e711c6e7e349ba73bf343c2ebdd"
+      },
+      "model.safetensors": {
+        "size_bytes": 7326949440,
+        "sha256": "62673b63fd9dad425e74b213ffe8501262d9621d5174310ac33017747be31f58"
+      }
+    }
+  },
+  "native_extension_provenance": {
+    "receipt_sha256": "92d8c9f603c11c376003077b2e85ce312107b178dc94be742914dffc170730fc",
+    "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+    "artifacts": {
+      "texture_baker._C": {
+        "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\texture_baker\\_C.cp311-win_amd64.pyd",
+        "sha256": "a2423056b11192d0bd798d07d62448adb60604bae823ccbea74998afc9f2ae66"
+      },
+      "uv_unwrapper._C": {
+        "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\uv_unwrapper\\_C.cp311-win_amd64.pyd",
+        "sha256": "ca22c8966e3b38e96f0421786f30cb6ade642ea5fe8d5becc752920eb24ff9ea"
+      }
+    }
+  },
+  "auxiliary_provenance": {
+    "dinov2": {
+      "repo_id": "facebook/dinov2-large",
+      "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+      "weights_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+      "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+      "configuration_paths": [
+        "image_tokenizer.pretrained_model_name_or_path",
+        "pdiff_image_tokenizer.pretrained_model_name_or_path"
+      ]
+    },
+    "alpha_clip": {
+      "model": "OpenAI ViT-L/14@336px",
+      "sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+    },
+    "operational_config_sha256": "8bdf9d16222055b7ed0a0b3920bb5501b5d8149c61f085a6bf16bd6fed9ea3ec",
+    "changes": "Only local initialization asset paths; architecture, kernels and final model weights unchanged"
+  },
+  "device": "NVIDIA GeForce RTX 4070 SUPER",
+  "source_revision": "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1",
+  "source_dirty": false,
+  "resolved_checkpoint_revision": "5699918cb34f55cd7d828493d2725f3038313761"
+}

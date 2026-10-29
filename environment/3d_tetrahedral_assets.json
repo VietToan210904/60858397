@@ -1,0 +1,34 @@
+[
+  {
+    "model": "SF3D",
+    "path": "vendor\\SF3D\\load\\tets\\160_tets.npz",
+    "bytes": 15408790,
+    "sha256": "1f4be37efc604d28d55a1a78c2aabefeeab7e63149f541aa45f9dd858ee35bb9",
+    "members": [
+      {
+        "name": "vertices.npy",
+        "bytes": 12861296
+      },
+      {
+        "name": "indices.npy",
+        "bytes": 95086592
+      }
+    ]
+  },
+  {
+    "model": "SPAR3D",
+    "path": "vendor\\SPAR3D\\load\\tets\\160_tets.npz",
+    "bytes": 15408790,
+    "sha256": "1f4be37efc604d28d55a1a78c2aabefeeab7e63149f541aa45f9dd858ee35bb9",
+    "members": [
+      {
+        "name": "vertices.npy",
+        "bytes": 12861296
+      },
+      {
+        "name": "indices.npy",
+        "bytes": 95086592
+      }
+    ]
+  }
+]

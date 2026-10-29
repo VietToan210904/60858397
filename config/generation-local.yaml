@@ -1,0 +1,16 @@
+# Exact official assets approved by the user; weights remain outside submission.
+models:
+  sdxl_lightning:
+    python: .venv-generation/Scripts/python.exe
+    revision: c9a24f48e1c025556787b0c58dd67a091ece2e44
+    base_revision: 462165984030d82259a11f4367a4eed129e94a7b
+    cache_dir: models/hub
+    cpu_offload: true
+  flux2_klein:
+    python: .venv-comfy/Scripts/python.exe
+    revision: 5b4408e59397a4a37ccb46afe426d8ed86379441
+    checkout: vendor/ComfyUI
+    source_revision: 4845e7a3ffc48a6961f15824239e9042cc7d4ad1
+    checkpoint: models/hub/models--black-forest-labs--FLUX.2-klein-4b-fp8/snapshots/5b4408e59397a4a37ccb46afe426d8ed86379441/flux-2-klein-4b-fp8.safetensors
+    text_encoder: models/hub/models--Comfy-Org--flux2-klein-4B/snapshots/5b3abca5c0dc1ecd4eaf3340868d09063fc1c965/split_files/text_encoders/qwen_3_4b.safetensors
+    vae: models/hub/models--Comfy-Org--flux2-klein-4B/snapshots/5b3abca5c0dc1ecd4eaf3340868d09063fc1c965/split_files/vae/flux2-vae.safetensors

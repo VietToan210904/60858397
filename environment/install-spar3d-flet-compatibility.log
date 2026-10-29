@@ -1,0 +1,16 @@
+Collecting flet==0.24.1
+  Downloading flet-0.24.1-py3-none-win_amd64.whl.metadata (3.2 kB)
+Collecting flet-core==0.24.1
+  Downloading flet_core-0.24.1-py3-none-any.whl.metadata (971 bytes)
+Collecting flet-runtime==0.24.1
+  Downloading flet_runtime-0.24.1-py3-none-any.whl.metadata (1.1 kB)
+Downloading flet-0.24.1-py3-none-win_amd64.whl (42.7 MB)
+   ---------------------------------------- 42.7/42.7 MB 788.5 kB/s eta 0:00:00
+Downloading flet_core-0.24.1-py3-none-any.whl (412 kB)
+   -------------------------------------- 412.2/412.2 kB 334.1 kB/s eta 0:00:00
+Downloading flet_runtime-0.24.1-py3-none-any.whl (19 kB)
+Installing collected packages: flet-runtime, flet-core, flet
+Successfully installed flet-0.24.1 flet-core-0.24.1 flet-runtime-0.24.1
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-spar3d\Scripts\python.exe -m pip install --upgrade pip

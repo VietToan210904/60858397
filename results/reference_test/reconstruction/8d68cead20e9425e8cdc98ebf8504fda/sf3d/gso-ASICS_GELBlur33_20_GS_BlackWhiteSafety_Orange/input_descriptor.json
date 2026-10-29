@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "ffc6e1800d1a18d017b6b7b2b283230412bdd9c1a521f46ae678ea9da458e0cb",
+    "preparation_metadata": "db4757028024227b42adc6f0680e365ce8d3f2d8c63a051abd08872ee82860de",
+    "reference_mesh": "d3f6fc7868f7335f540436b6444b5f4a68214db84592deb4c72641fc2bf562b5",
+    "source_image": "de3e27da4ffa510145a2a905f64ce9fd668882676593473f4b9db0bdc4527ed5",
+    "view_0_reference_rgb": "d55a3aca63fa727fd4517c050d55382ed7b2f3f02fce426b9f1b679d32ec0db8",
+    "view_0_reference_silhouette": "1b38ef293c98bafc10d57c5de3fcf9b476210ab892b53af9f69705844ba3fe20",
+    "view_1_reference_rgb": "b88e97835bb477b7e0d9497a1e6500b49789f52281489af822cef6d80caa0c76",
+    "view_1_reference_silhouette": "a5dda69605ef04b120cf76c13ed1d6d19132360ff2f07365ace40ce577c9fea2",
+    "view_2_reference_rgb": "a5be8f933d857fd5313d862ecf2be6f1c70fd84252ae082d9fc7b94b1e42f0c6",
+    "view_2_reference_silhouette": "9e45a79c1205dcadfc49410ada2d3a6117c90cb308c16e00bbdec48cdd7d24dc",
+    "view_3_reference_rgb": "a2cd011d58f8f380e30f71758d5f640ddcc4ed8e2597f30d21f235f6935d37a2",
+    "view_3_reference_silhouette": "a8307f0f2acc95b7d1b67903022b21afb8ee6a409b1e04357c49dc9353ef6ab4"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "de3e27da4ffa510145a2a905f64ce9fd668882676593473f4b9db0bdc4527ed5",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "d3f6fc7868f7335f540436b6444b5f4a68214db84592deb4c72641fc2bf562b5",
+    "object_id": "gso-ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange/input.png",
+    "source_revision": "GoogleResearch/ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange/v1;zip-sha256:58ff48dbf266412a4d21ca310eb9ed296681a252d87e4cfe8f4a3bd6319e6c8b"
+  }
+}

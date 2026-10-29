@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/Comfy-Org/ComfyUI",
+  "commit": "4845e7a3ffc48a6961f15824239e9042cc7d4ad1",
+  "reviewed_files_sha256": {
+    "nodes.py": "776f549a05fc068eca20a9edc1602c6f1b80cfbbf5153bc44ba371a55fbb13be",
+    "folder_paths.py": "045a2ea987c0c7bcb0e47cbc46826ee34e82179562c85123f35ea3ff1c3e7ac4",
+    "comfy/sd.py": "b5dcb5d1156a1f4e5fb9b32ef684105cca27298416f8abe494eafac75a4d2863",
+    "comfy/cli_args.py": "c88f737c65915bd19ff04be68d151c0794b03b09e50dcb4fcd088647eb796f4a",
+    "comfy/options.py": "aabe096061929158c3472c4c7ddccc96dfc443b035aa2b80cdba7b6e1624d2de",
+    "comfy_extras/nodes_flux.py": "e6fe6d10e7b538c6bb8d1edbba6688242e2f9b0cb69b9a06bfbde3c4e51d14e6",
+    "comfy_extras/nodes_custom_sampler.py": "913d776b5e696c70b77b8184f2af504533fbff2fad62a05cef4ecba87975f0bf",
+    "app/governance.py": "59eb805f9bd3fa0a5ab03836267bb7876af69ad6ec33e28162295383a73e411e"
+  },
+  "review": "Core loaders, sampler, scheduler and import entry points reviewed before execution; no custom node/manager initialization or server is invoked; local model paths only.",
+  "gpu_execution_performed": false
+}

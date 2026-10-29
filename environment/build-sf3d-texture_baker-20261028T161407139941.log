@@ -1,0 +1,130 @@
+'vswhere.exe' is not recognized as an internal or external command,
+operable program or batch file.
+**********************************************************************
+** Visual Studio 2026 Developer Command Prompt v18.0
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Processing c:\users\tonyh_yxuq8za\60858397_evaluation\vendor\sf3d\texture_baker
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: texture_baker
+  Building wheel for texture_baker (setup.py): started
+  Building wheel for texture_baker (setup.py): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  python setup.py bdist_wheel did not run successfully.
+  exit code: 1
+  
+  [101 lines of output]
+  [<setuptools.extension.Extension('texture_baker._C') at 0x292113055d0>]
+  C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\wheel\bdist_wheel.py:4: FutureWarning: The 'wheel' package is no longer the canonical location of the 'bdist_wheel' command, and will be removed in a future release. Please update to setuptools v70.1 or later which contains an integrated version of this command.
+    warn(
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build\lib.win-amd64-cpython-311
+  creating build\lib.win-amd64-cpython-311\texture_baker
+  copying .\texture_baker\baker.py -> build\lib.win-amd64-cpython-311\texture_baker
+  copying .\texture_baker\__init__.py -> build\lib.win-amd64-cpython-311\texture_baker
+  creating build\lib.win-amd64-cpython-311\texture_baker\csrc
+  copying .\texture_baker\csrc\baker.h -> build\lib.win-amd64-cpython-311\texture_baker\csrc
+  copying .\texture_baker\csrc\baker_kernel.metal -> build\lib.win-amd64-cpython-311\texture_baker\csrc
+  running build_ext
+  W1029 03:11:51.334000 23652 torch\utils\cpp_extension.py:546] The detected CUDA version (12.6) has a minor version mismatch with the version that was used to compile PyTorch (12.8). Most likely this shouldn't be a problem.
+  building 'texture_baker._C' extension
+  creating C:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\build\temp.win-amd64-cpython-311
+  creating C:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\build\temp.win-amd64-cpython-311\Release
+  creating C:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\build\temp.win-amd64-cpython-311\Release\texture_baker
+  creating C:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\build\temp.win-amd64-cpython-311\Release\texture_baker\csrc
+  [1/2] cl /showIncludes /nologo /O2 /W3 /GL /DNDEBUG /MD -DTHRUST_IGNORE_CUB_VERSION_CHECK -IC:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\torch\include -IC:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\torch\include\torch\csrc\api\include "-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -IC:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\include -IC:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\include -IC:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Include "-IC:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.44.35207\include" "-IC:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" /MD /wd4819 /wd4251 /wd4244 /wd4267 /wd4275 /wd4018 /wd4190 /wd4624 /wd4067 /wd4068 /EHsc -c C:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\texture_baker\csrc\baker.cpp /FoC:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\build\temp.win-amd64-cpython-311\Release\texture_baker\csrc\baker.obj -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_C /std:c++17
+  [2/2] C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc -MD -MF C:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\build\temp.win-amd64-cpython-311\Release\texture_baker\csrc\baker_kernel.obj.d -std=c++17 -Xcompiler /MD -Xcompiler /wd4819 -Xcompiler /wd4251 -Xcompiler /wd4244 -Xcompiler /wd4267 -Xcompiler /wd4275 -Xcompiler /wd4018 -Xcompiler /wd4190 -Xcompiler /wd4624 -Xcompiler /wd4067 -Xcompiler /wd4068 -Xcompiler /EHsc --use-local-env -Xcudafe --diag_suppress=base_class_has_different_dll_interface -Xcudafe --diag_suppress=field_without_dll_interface -Xcudafe --diag_suppress=dll_interface_conflict_none_assumed -Xcudafe --diag_suppress=dll_interface_conflict_dllexport_assumed -DTHRUST_IGNORE_CUB_VERSION_CHECK -IC:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\torch\include -IC:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\torch\include\torch\csrc\api\include "-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -IC:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\include -IC:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\include -IC:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Include "-IC:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.44.35207\include" "-IC:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -c C:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\texture_baker\csrc\baker_kernel.cu -o C:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\build\temp.win-amd64-cpython-311\Release\texture_baker\csrc\baker_kernel.obj -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -O3 -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_C -gencode=arch=compute_89,code=sm_89
+  FAILED: [code=2] C:/Users/tonyh_yxuq8za/60858397_Evaluation/vendor/SF3D/texture_baker/build/temp.win-amd64-cpython-311/Release/texture_baker/csrc/baker_kernel.obj
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc -MD -MF C:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\build\temp.win-amd64-cpython-311\Release\texture_baker\csrc\baker_kernel.obj.d -std=c++17 -Xcompiler /MD -Xcompiler /wd4819 -Xcompiler /wd4251 -Xcompiler /wd4244 -Xcompiler /wd4267 -Xcompiler /wd4275 -Xcompiler /wd4018 -Xcompiler /wd4190 -Xcompiler /wd4624 -Xcompiler /wd4067 -Xcompiler /wd4068 -Xcompiler /EHsc --use-local-env -Xcudafe --diag_suppress=base_class_has_different_dll_interface -Xcudafe --diag_suppress=field_without_dll_interface -Xcudafe --diag_suppress=dll_interface_conflict_none_assumed -Xcudafe --diag_suppress=dll_interface_conflict_dllexport_assumed -DTHRUST_IGNORE_CUB_VERSION_CHECK -IC:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\torch\include -IC:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\torch\include\torch\csrc\api\include "-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -IC:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\include -IC:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\include -IC:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Include "-IC:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.44.35207\include" "-IC:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -c C:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\texture_baker\csrc\baker_kernel.cu -o C:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\build\temp.win-amd64-cpython-311\Release\texture_baker\csrc\baker_kernel.obj -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -O3 -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_C -gencode=arch=compute_89,code=sm_89
+  baker_kernel.cu
+  tmpxft_0000839c_00000000-7_baker_kernel.cudafe1.cpp
+  C:/Users/tonyh_yxuq8za/60858397_Evaluation/.venv-retrieval/Lib/site-packages/torch/include\torch/csrc/dynamo/compiled_autograd.h(1143): error C2872: 'std': ambiguous symbol
+  C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.44.35207/include\valarray(20): note: could be 'std'
+  C:/Users/tonyh_yxuq8za/60858397_Evaluation/.venv-retrieval/Lib/site-packages/torch/include\torch/csrc/dynamo/compiled_autograd.h(1143): note: or       'std'
+  C:/Users/tonyh_yxuq8za/60858397_Evaluation/.venv-retrieval/Lib/site-packages/torch/include\torch/csrc/dynamo/compiled_autograd.h(1143): note: the template instantiation context (the oldest one first) is
+  C:/Users/tonyh_yxuq8za/60858397_Evaluation/.venv-retrieval/Lib/site-packages/torch/include\torch/csrc/dynamo/compiled_autograd.h(1190): note: see reference to class template instantiation 'torch::dynamo::autograd::IValuePacker<__int64>' being compiled
+  C:/Users/tonyh_yxuq8za/60858397_Evaluation/.venv-retrieval/Lib/site-packages/torch/include\torch/csrc/dynamo/compiled_autograd.h(1117): note: while compiling class template member function 'c10::TypePtr torch::dynamo::autograd::IValuePacker<__int64>::packed_type(void)'
+  C:/Users/tonyh_yxuq8za/60858397_Evaluation/.venv-retrieval/Lib/site-packages/torch/include\torch/csrc/dynamo/compiled_autograd.h(1190): note: see the first reference to 'torch::dynamo::autograd::IValuePacker<__int64>::packed_type' in 'torch::dynamo::autograd::IValuePacker<unsigned __int64>::packed_type'
+  ninja: build stopped: subcommand failed.
+  Traceback (most recent call last):
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\torch\utils\cpp_extension.py", line 2774, in _run_ninja_build
+      subprocess.run(
+    File "C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 571, in run
+      raise CalledProcessError(retcode, process.args,
+  subprocess.CalledProcessError: Command '['ninja', '-v', '-j', '2']' returned non-zero exit status 2.
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "<string>", line 2, in <module>
+    File "<pip-setuptools-caller>", line 34, in <module>
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\vendor\SF3D\texture_baker\setup.py", line 116, in <module>
+      setup(
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\__init__.py", line 104, in setup
+      return distutils.core.setup(**attrs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\core.py", line 184, in setup
+      return run_commands(dist)
+             ^^^^^^^^^^^^^^^^^^
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\core.py", line 200, in run_commands
+      dist.run_commands()
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\dist.py", line 969, in run_commands
+      self.run_command(cmd)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\dist.py", line 967, in run_command
+      super().run_command(command)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\dist.py", line 988, in run_command
+      cmd_obj.run()
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\wheel\_bdist_wheel.py", line 390, in run
+      self.run_command("build")
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\cmd.py", line 316, in run_command
+      self.distribution.run_command(command)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\dist.py", line 967, in run_command
+      super().run_command(command)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\dist.py", line 988, in run_command
+      cmd_obj.run()
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\command\build.py", line 132, in run
+      self.run_command(cmd_name)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\cmd.py", line 316, in run_command
+      self.distribution.run_command(command)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\dist.py", line 967, in run_command
+      super().run_command(command)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\dist.py", line 988, in run_command
+      cmd_obj.run()
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\command\build_ext.py", line 91, in run
+      _build_ext.run(self)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\command\build_ext.py", line 359, in run
+      self.build_extensions()
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\torch\utils\cpp_extension.py", line 1184, in build_extensions
+      build_ext.build_extensions(self)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\command\build_ext.py", line 479, in build_extensions
+      self._build_extensions_serial()
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\command\build_ext.py", line 505, in _build_extensions_serial
+      self.build_extension(ext)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\command\build_ext.py", line 252, in build_extension
+      _build_ext.build_extension(self, ext)
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Lib\site-packages\setuptools\_distutils\command\build_ext.py", line 560, in build_extension
+      objects = self.compiler.compile(
+                ^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\torch\utils\cpp_extension.py", line 1153, in win_wrap_ninja_compile
+      _write_ninja_file_and_compile_objects(
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\torch\utils\cpp_extension.py", line 2361, in _write_ninja_file_and_compile_objects
+      _run_ninja_build(
+    File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-retrieval\Lib\site-packages\torch\utils\cpp_extension.py", line 2791, in _run_ninja_build
+      raise RuntimeError(message) from e
+  RuntimeError: Error compiling objects for extension
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for texture_baker
+  Running setup.py clean for texture_baker
+Failed to build texture_baker
+ERROR: Could not build wheels for texture_baker, which is required to install pyproject.toml-based projects
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: python.exe -m pip install --upgrade pip

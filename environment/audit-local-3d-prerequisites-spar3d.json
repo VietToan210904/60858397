@@ -1,0 +1,32 @@
+{
+  "model": "spar3d",
+  "source_revision": "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1",
+  "source_dirty": false,
+  "torch": "2.11.0+cu128",
+  "compiled_cuda": "12.8",
+  "native_build": {
+    "receipt_sha256": "92d8c9f603c11c376003077b2e85ce312107b178dc94be742914dffc170730fc",
+    "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+    "artifacts": {
+      "texture_baker._C": {
+        "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\texture_baker\\_C.cp311-win_amd64.pyd",
+        "sha256": "a2423056b11192d0bd798d07d62448adb60604bae823ccbea74998afc9f2ae66"
+      },
+      "uv_unwrapper._C": {
+        "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\uv_unwrapper\\_C.cp311-win_amd64.pyd",
+        "sha256": "ca22c8966e3b38e96f0421786f30cb6ade642ea5fe8d5becc752920eb24ff9ea"
+      }
+    }
+  },
+  "initializer_hashes_verified": true,
+  "checkpoint": {
+    "status": "pending_authorized_local_acquisition",
+    "missing_files": [
+      "config.yaml",
+      "model.safetensors"
+    ]
+  },
+  "model_weights_loaded": false,
+  "gpu_inference_performed": false,
+  "network_access_performed": false
+}

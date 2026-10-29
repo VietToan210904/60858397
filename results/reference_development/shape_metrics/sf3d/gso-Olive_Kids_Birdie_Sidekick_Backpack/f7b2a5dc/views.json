@@ -1,0 +1,61 @@
+{
+  "interpretation": "Supplementary independently normalized shape views, with explicitly reference-assisted rigid alignment where labelled",
+  "per_view": [
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.9124198527665638,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Olive_Kids_Birdie_Sidekick_Backpack/f7b2a5dc/unaligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Birdie_Sidekick_Backpack/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.7598324650117478,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Olive_Kids_Birdie_Sidekick_Backpack/f7b2a5dc/unaligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Birdie_Sidekick_Backpack/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.929345901929545,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Olive_Kids_Birdie_Sidekick_Backpack/f7b2a5dc/unaligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Birdie_Sidekick_Backpack/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.7789873086484365,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Olive_Kids_Birdie_Sidekick_Backpack/f7b2a5dc/unaligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Birdie_Sidekick_Backpack/reference_views/view_03_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.8961559439398611,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Olive_Kids_Birdie_Sidekick_Backpack/f7b2a5dc/rigid_aligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Birdie_Sidekick_Backpack/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.7546081472556208,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Olive_Kids_Birdie_Sidekick_Backpack/f7b2a5dc/rigid_aligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Birdie_Sidekick_Backpack/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.9123747276688453,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Olive_Kids_Birdie_Sidekick_Backpack/f7b2a5dc/rigid_aligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Birdie_Sidekick_Backpack/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.7833642079995825,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Olive_Kids_Birdie_Sidekick_Backpack/f7b2a5dc/rigid_aligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Birdie_Sidekick_Backpack/reference_views/view_03_mask.png"
+    }
+  ]
+}

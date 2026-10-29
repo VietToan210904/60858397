@@ -1,0 +1,39 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/723 [00:00<11:06,  1.08it/s]
+Loading weights:   4%|3         | 26/723 [00:01<00:21, 33.16it/s]
+Loading weights:   6%|5         | 40/723 [00:01<00:14, 48.73it/s]
+Loading weights:   9%|8         | 64/723 [00:01<00:07, 82.91it/s]
+Loading weights:  11%|#1        | 81/723 [00:01<00:06, 98.19it/s]
+Loading weights:  14%|#3        | 99/723 [00:01<00:05, 112.70it/s]
+Loading weights:  18%|#7        | 128/723 [00:01<00:04, 148.19it/s]
+Loading weights:  20%|##        | 147/723 [00:01<00:04, 126.37it/s]
+Loading weights:  23%|##2       | 163/723 [00:01<00:04, 125.02it/s]
+Loading weights:  25%|##4       | 178/723 [00:02<00:04, 122.42it/s]
+Loading weights:  27%|##6       | 192/723 [00:02<00:04, 116.48it/s]
+Loading weights:  28%|##8       | 205/723 [00:02<00:04, 109.26it/s]
+Loading weights:  31%|###       | 223/723 [00:02<00:04, 120.32it/s]
+Loading weights:  33%|###2      | 238/723 [00:02<00:03, 121.99it/s]
+Loading weights:  35%|###4      | 252/723 [00:02<00:04, 112.47it/s]
+Loading weights:  37%|###7      | 270/723 [00:02<00:03, 126.76it/s]
+Loading weights:  40%|####      | 292/723 [00:02<00:02, 145.34it/s]
+Loading weights:  43%|####3     | 311/723 [00:03<00:02, 155.40it/s]
+Loading weights:  46%|####5     | 332/723 [00:03<00:02, 168.99it/s]
+Loading weights:  50%|####9     | 358/723 [00:03<00:01, 192.89it/s]
+Loading weights:  53%|#####2    | 380/723 [00:03<00:01, 198.49it/s]
+Loading weights:  55%|#####5    | 401/723 [00:03<00:01, 197.09it/s]
+Loading weights:  58%|#####8    | 421/723 [00:03<00:01, 173.68it/s]
+Loading weights:  76%|#######6  | 550/723 [00:03<00:00, 466.79it/s]
+Loading weights:  97%|#########6| 698/723 [00:03<00:00, 737.34it/s]
+Loading weights: 100%|##########| 723/723 [00:03<00:00, 187.14it/s]
+[
+  {
+    "pair": "assistance",
+    "success": 2,
+    "failed": 0,
+    "blocked": 0,
+    "resumed": 0,
+    "records": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\assistance\\records.jsonl"
+  }
+]

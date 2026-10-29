@@ -1,0 +1,303 @@
+# AI-authored visual assessments, viewed sheets13-24 after protocol freeze.
+# index|matched types (comma; - none)|uncertain types (- none)|nonzero trait ratings (omitted visible traits explicitly0; ? means unknown)|confidence|actual visual evidence/uncertainty
+# explicit_lightweight_source_indices:523
+301|-|-|black2 simple_everyday1 metallic_finish1 formal2 minimalist1 bold_decorative1 neutral2|high|Glossy black peep-toe platform pump with a tall block heel; neither dress flat nor ankle boot.
+302|sandals|-|black1 simple_everyday2 minimalist1 travel_appearance2 bold_decorative1|high|Flat pink-and-black striped slide; open construction and pronounced bright footbed.
+303|rings|-|simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral1|high|Silver-tone ring with a conspicuous row of five yellow stones.
+304|rings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Slender silver-tone band and small central clear-stone cluster.
+305|rings|-|white1 red1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral1|high|Curved silver-tone ring with white pearl-like beads and a red-stone stripe.
+306|sandals|-|simple_everyday2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Tan flat sandal with multiple narrow front straps and low heel.
+307|flat_shoes,casual_shoes|-|simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 neutral2|high|Low silver metallic loafer with a small bow; closed low shoe rather than sandal.
+308|rings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Silver-tone solitaire ring with one prominent clear round stone.
+309|earrings|-|black1 simple_everyday1 metallic_finish1 formal1 travel_appearance2 bold_decorative2|high|Round dangling earrings with a conspicuous yellow-and-purple floral motif.
+310|handbags|-|simple_everyday2 metallic_finish1 formal1 minimalist2 travel_appearance2 neutral1|high|Small pale-pink structured crossbody bag with simple zipped front and thin strap.
+311|earrings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Pair of large clear round stud earrings in restrained silver-tone settings.
+312|sandals|-|simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Brown flat thong sandal with narrow ankle strap and simple construction.
+313|earrings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Round pale-blue/clear halo studs, with small surrounding stones.
+314|wallets|-|black2 simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Plain compact black bifold wallet with a small fastening tab.
+315|earrings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral1|high|Green centre stones with clear-stone circular halos in silver-tone stud settings.
+316|earrings|-|white1 simple_everyday1 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Dangling silver-tone peace-symbol earrings with sparkling stone decoration.
+317|rings|-|simple_everyday1 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative2 neutral1|high|Fine silver-tone ring topped by a blue decorative dragonfly motif.
+318|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral1|high|Wide multi-band ring with large clear centre stone and blue accents.
+319|flat_shoes,casual_shoes|-|simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Tan closed-toe espadrille-style slip-on with flat sole; source category sandal does not match the visible closed upper.
+320|earrings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Clear square solitaire studs in small warm-metal settings.
+321|earrings|-|simple_everyday1 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Gold-tone open-leaf drop earrings with an obvious decorative leaf shape.
+322|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Silver-tone three-stone ring with a larger clear central stone.
+323|hats|-|black2 simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Plain black knitted beanie with a folded ribbed edge.
+324|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral2|high|Ornate silver-tone halo ring with large centre stone and decorated shoulders.
+325|sandals|-|simple_everyday1 formal1 minimalist1 bold_decorative1 neutral2|high|Tan open-toe wedge sandal with ankle buckle and thick woven-looking wedge; portability/comfort not established, travel appearance rated absent.
+326|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral1|high|Silver-tone ring with two conspicuous blue pear-shaped stones and a curved clear-stone band.
+327|handbags|-|simple_everyday2 minimalist2 travel_appearance2|high|Plain yellow shoulder tote with long straps and small metal detail.
+328|handbags|-|simple_everyday2 minimalist2 travel_appearance2|high|Aqua tote with tan handles; restrained unpatterned body.
+329|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Large clear square stones in a silver-tone three-stone ring.
+330|backpacks|-|black1 simple_everyday1 travel_appearance2 bold_decorative1 neutral2|high|Olive-and-black framed hiking backpack with multiple pockets and straps; large size does not establish low weight.
+331|necklaces|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 neutral2|high|Fine silver-tone twisted chain necklace with no large pendant.
+332|-|-|simple_everyday1 metallic_finish1 formal2 minimalist1 bold_decorative1 neutral2|high|Grey textured open-toe high block-heel mule; not a flat or enclosed ankle boot.
+333|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Silver-tone ring with a row of five clear square stones.
+334|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Three square central stones and smaller shoulder stones in a silver-tone ring.
+335|handbags|-|simple_everyday2 metallic_finish1 formal1 minimalist1 travel_appearance1 bold_decorative1 neutral2|high|Tan quilted shoulder handbag with a small matching pouch; decorative chevron seams.
+336|ankle_boots|-|simple_everyday2 formal1 minimalist2 travel_appearance1 neutral2|high|Brown Chelsea ankle boot with elastic side panel and low block heel.
+337|running_shoes,casual_shoes|-|black1 white1 red1 simple_everyday2 minimalist1 travel_appearance2 bold_decorative1 neutral1|high|Grey athletic lace-up trainer with red lining and white sole; source explicitly identifies running shoes, not measured performance.
+338|earrings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Small warm-metal hoop earrings lined with clear stones.
+339|-|hats|black1 red1 simple_everyday1 travel_appearance2 bold_decorative2|medium|Printed tubular face/neck gaiters rather than visible hats; source permits headband/headwear use, so hat compatibility remains uncertain.
+340|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral2|high|Ornate square-halo silver-tone ring with decorated shoulders.
+341|necklaces|-|white1 simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Fine chain with a small pale-blue flower pendant; chain and scale support necklace identity.
+342|ankle_boots|-|simple_everyday2 minimalist2 travel_appearance1 neutral2|high|Tan suede-looking lace-up chukka ankle boot with flat low heel.
+343|-|hats|black1 simple_everyday1 travel_appearance2 bold_decorative2|medium|Blue printed neck gaiter/face-covering with ear loops; no cap crown or brim is visible, and multiuse headwear identity is uncertain.
+344|necklaces|-|black1 simple_everyday1 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative2 neutral1|high|Dog-tag pendant with blue/black panel and conspicuous silver-tone cross on a chain.
+345|ankle_boots|-|white2 simple_everyday1 metallic_finish1 formal2 minimalist1 bold_decorative1 neutral2|high|White high block-heel open-toe bootie with ankle coverage and decorative buckle; source confirms bootie.
+346|-|-|simple_everyday2 minimalist1 travel_appearance1 bold_decorative2 neutral1|high|Green camouflage closed-toe open-back house slipper, not a dress flat, athletic trainer or sandal.
+347|ankle_boots|-|simple_everyday2 formal1 minimalist2 travel_appearance1 neutral2|high|Grey ankle boot with modest block heel and unornamented upper.
+348|necklaces|-|simple_everyday1 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Silver-tone chain with a conspicuous openwork horse pendant.
+349|casual_shoes|-|black2 simple_everyday2 formal1 minimalist1 travel_appearance2 neutral2|high|Black low boat-style lace-up shoe with stitched toe and brown sole; informal closed shoe.
+350|rings|-|white1 simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral1|high|Thin silver-tone eternity band alternating small clear and yellow stones.
+351|ankle_boots|-|simple_everyday2 formal1 minimalist2 travel_appearance1 neutral2|high|Plain beige Chelsea ankle boot with low dark heel.
+352|earrings|-|red1 simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral1|high|Small gold-tone hoops with a pink-red stone stripe; accent rather than predominantly red.
+353|casual_shoes|running_shoes|black1 white2 simple_everyday1 minimalist1 travel_appearance1 bold_decorative2 neutral1|medium|White/black/yellow chunky platform fashion trainer; athletic performance and running-specific suitability unestablished.
+354|handbags|-|simple_everyday2 formal1 minimalist1 travel_appearance1 bold_decorative1 neutral2|high|Tan shoulder tote with narrow decorative perforated lower panel.
+355|casual_shoes|running_shoes|white1 simple_everyday1 metallic_finish2 minimalist1 travel_appearance2 bold_decorative2 neutral1|medium|Pink-silver sequined slip-on sneaker with chunky sole; reflective finish clear, running identity uncertain.
+356|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral2|high|Tall ornate silver-tone loop ring with a pearl-like centre and many clear stones.
+357|earrings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 neutral2|high|Small round clear bezel-set stud earrings with simple silver-tone rims.
+358|ankle_boots|-|simple_everyday2 formal1 minimalist1 travel_appearance1 bold_decorative1 neutral2|high|Brown low-heel ankle boot with a prominent brass-tone side buckle.
+359|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Silver-tone two-band solitaire/chevron ring set with clear stones.
+360|casual_shoes|-|black2 simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Plain black low lace-up sneaker with flat sole and subdued styling; not a dress flat.
+361|earrings|-|simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Broad silver-tone hoop earrings with a narrow geometric Greek-key stripe.
+362|necklaces|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Fine chain with small outline-shaped pendant; source identifies a New Jersey necklace.
+363|hats|-|simple_everyday1 minimalist1 travel_appearance1 bold_decorative1 neutral2|high|Dark navy padded trapper hat with fur-like lining and face/ear coverage; bulky not visibly lightweight.
+364|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral2|high|Several stacked gold-tone bands with clear stones and beaded edges.
+365|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Silver-tone three-stone ring, with large clear central stone.
+366|running_shoes,casual_shoes|-|black2 white1 simple_everyday2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Black mesh-looking athletic walking trainer with white/grey overlays and sole; running label denotes appearance only.
+367|ankle_boots|-|red1 simple_everyday1 formal1 minimalist2 travel_appearance1 neutral1|high|Reddish-brown pointed-toe ankle boot with medium block heel.
+368|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Broad silver-tone band with a row of five clear cushion-like stones.
+369|flat_shoes|-|simple_everyday1 formal2 minimalist1 travel_appearance1 bold_decorative1 neutral2|medium|Brown low dress shoe with two monk-strap buckles; classified as low-heel dress footwear rather than athletic or boot.
+370|ankle_boots|-|black2 simple_everyday1 formal2 minimalist2 travel_appearance1 neutral2|high|Black pointed ankle boot with small kitten heel and restrained upper.
+371|sandals|-|simple_everyday2 minimalist1 travel_appearance2 bold_decorative1 neutral1|high|Flat open sandal with broad striped strap and teal/olive thong straps.
+372|earrings|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 neutral2|high|Two slender curved silver-tone ear-crawler bars with no large ornament.
+373|rings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Very thin silver-tone eternity band of small clear stones.
+374|casual_shoes|-|white2 simple_everyday2 metallic_finish1 minimalist2 travel_appearance1 neutral2|high|White high-top lace-up casual trainer with pale metallic-looking side panels; not a running-specific shoe or ankle boot.
+375|sandals|-|simple_everyday2 metallic_finish2 minimalist2 travel_appearance2 neutral2|high|Flat silver metallic thong sandal with thin ankle straps.
+376|hats|-|black2 red1 white1 simple_everyday2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Black cable-knit beanie with narrow grey and burgundy cuff stripes.
+377|necklaces|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 neutral2|high|Fine silver-tone chain and tiny plain Pennsylvania-shaped pendant.
+378|necklaces|-|simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Silver-tone Figaro-link necklace with substantial alternating links.
+379|necklaces|-|simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Simple polished silver-tone heart locket on a fine chain.
+380|handbags|-|simple_everyday1 metallic_finish2 formal1 minimalist1 travel_appearance1 bold_decorative2 neutral1|high|Shiny deep-blue rectangular satchel with handles and shoulder strap.
+381|sandals|-|simple_everyday1 minimalist1 travel_appearance1 bold_decorative1 neutral2|high|Beige broad-strap platform/wedge sandal with thick sole.
+382|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Plain silver-tone band with one large clear solitaire stone.
+383|handbags|-|simple_everyday2 formal1 minimalist2 travel_appearance2 neutral2|high|Simple beige tapered shoulder tote without a visible pattern.
+384|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Fine silver-tone ring with round centre stone and narrow shoulder baguettes.
+385|sandals|-|black2 simple_everyday2 minimalist1 travel_appearance2 neutral2|high|Black open sports sandal with adjustable broad straps and rugged sole; actual weight unknown.
+386|sandals|-|simple_everyday2 minimalist1 travel_appearance2 bold_decorative2|high|Blue/green striped thong flip-flops, despite source SHOES category.
+387|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral2|high|Clear solitaire ring with ornate stone-set shoulders and raised gallery.
+388|earrings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 neutral2|high|Simple pair of round clear diamond-like studs.
+389|wallets|-|red1 simple_everyday2 metallic_finish1 minimalist1 travel_appearance2 bold_decorative2 neutral1|high|Compact coral-pink wallet with tan triangular panels and round metal charm.
+390|necklaces|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 neutral2|high|Fine chain with a simple outline-heart pendant.
+391|rings|-|simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Silver-tone intersecting bands with a tiny blue-stone accent.
+392|earrings|-|simple_everyday2 metallic_finish1 formal2 minimalist2 travel_appearance2 bold_decorative1|high|Large round purple gemstone studs in small gold-tone settings.
+393|sandals|-|black2 simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Flat black broad-strap sandal with tan footbed and ankle fastening.
+394|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral2|high|Large ornate two-ring halo set with multiple curved stone rows.
+395|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Silver-tone three-stone ring with clear centre and small side stones.
+396|earrings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2|high|Bright aqua round studs with clear-stone halos and warm-metal rims.
+397|handbags|-|simple_everyday2 metallic_finish1 formal1 minimalist2 travel_appearance2 neutral2|high|Grey rectangular zip-around wristlet clutch; visible strap rather than backpack straps.
+398|handbags|-|simple_everyday2 minimalist1 travel_appearance2 bold_decorative1 neutral1|high|Pale-blue and grey striped tote with blue handles and base.
+399|ankle_boots|-|simple_everyday2 minimalist1 travel_appearance1 neutral2|high|Brown lace-up ankle work-style boot with side zip and low heel.
+400|flat_shoes|-|simple_everyday2 metallic_finish1 formal1 minimalist2 travel_appearance2 neutral2|high|Low beige ballet flat with small toe bow; title says gold glitter, but photo shows only a subdued sheen.
+401|wallets|-|black2 simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Open black bifold wallet with card slots; coloured cards are incidental contents rather than body colours.
+402|-|-|black2 simple_everyday1 formal2 minimalist2 neutral2|high|Plain black knee-high boot, clearly taller than the ankle-boot query class.
+403|flat_shoes|-|black2 simple_everyday2 formal1 minimalist2 travel_appearance2 neutral2|high|Black ballet flat with small bow and minimal heel.
+404|-|-|simple_everyday1 formal2 minimalist1 bold_decorative1 neutral2|high|Olive tall slouch boot reaching well above ankle with a high heel.
+405|-|-|white1 simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 neutral2|high|Short fine chain with sliding closure and spaced stones; exact source identifies a bracelet, not a necklace.
+406|ankle_boots|-|black2 simple_everyday1 formal2 minimalist2 neutral2|high|Black pointed ankle boot with tall stiletto heel and plain stretch upper.
+407|-|-|simple_everyday1 minimalist2 travel_appearance2 neutral2|high|Plain dark neck/face gaiter with ear loops; neither brimmed hat nor beanie visible.
+408|handbags|wallets|simple_everyday1 metallic_finish1 formal1 minimalist1 travel_appearance2 bold_decorative1|medium|Pink envelope clutch with large bow; title says clutch while source category says wallet, so wallet compatibility remains uncertain.
+409|sandals|-|simple_everyday2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Olive crossed broad straps on a flat pale sole, open-back slide sandal.
+410|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral1|high|Silver-tone eternity ring alternating large blue and clear stones.
+411|sandals|-|simple_everyday1 formal1 minimalist1 bold_decorative1|high|Yellow crossed-strap slingback on a high woven wedge; not visibly compact travel footwear.
+412|earrings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Clear square stones suspended from thin silver-tone leverback hooks.
+413|ankle_boots|-|simple_everyday2 formal1 minimalist2 travel_appearance1 neutral2|high|Plain tan ankle boot with low block heel and pointed toe.
+414|necklaces|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 neutral2|high|Fine chain with a restrained silver-tone wishbone pendant.
+415|earrings|-|red2 simple_everyday2 metallic_finish1 formal2 minimalist2 travel_appearance2 bold_decorative1|medium|Photo shows deep-red faceted round studs; English source says aquamarine, so visible colour takes precedence and mismatch is retained.
+416|earrings|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 neutral2|high|Large slender plain silver-tone hoop earrings.
+417|necklaces|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 neutral2|high|Fine warm-metal chain with a narrow plain vertical bar pendant.
+418|sandals|-|simple_everyday1 formal1 minimalist1 bold_decorative1 neutral2|high|Navy peep-toe slingback sandal with thick high cork-like wedge.
+419|earrings|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 neutral2|high|Thin plain rose-gold-tone hoop earrings.
+420|earrings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Square clear centre studs with small rectangular side stones.
+421|earrings|-|white1 simple_everyday1 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Silver-tone dangling cat-silhouette charms on thin hooks.
+422|necklaces|-|simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 neutral2|high|Fine chain with a very small round clear solitaire pendant.
+423|earrings|-|simple_everyday2 metallic_finish1 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral1|high|Round pale yellow-green faceted studs with small gold-tone claws.
+424|flat_shoes,casual_shoes|-|simple_everyday2 formal1 minimalist2 travel_appearance2|high|Pale-blue soft low loafer with restrained strap detail and flat heel.
+425|sandals|-|simple_everyday1 formal2 minimalist2 neutral2|high|Beige thin-toe-strap high block-heel sandal with ankle strap.
+426|ankle_boots|-|red1 simple_everyday1 formal2 minimalist2 bold_decorative1|high|Deep magenta ankle boot with high block heel; colour only weakly resembles requested red.
+427|flat_shoes|-|black1 simple_everyday2 formal2 minimalist1 travel_appearance1 bold_decorative1 neutral2|high|Low dark navy brogue with perforated detailing and small heel; navy is not a strong black match.
+428|-|-|red2 simple_everyday1 formal2 minimalist2 neutral1|high|Burgundy pointed-toe kitten-heel pump, neither flat nor boot.
+429|sandals|-|white2 simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Off-white thin-lattice slide sandal with flat sole.
+430|necklaces|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Fine gold-tone chain with a slim cursive letter-b pendant.
+431|running_shoes,casual_shoes|-|simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Grey knit-looking athletic slip-on with broad elastic bands; exact title identifies running shoes, without proving performance.
+432|backpacks|-|simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Plain rectangular grey backpack with front compartment; title explicitly says travel backpack but gives no observed weight.
+433|necklaces|-|simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Silver-tone chain with small infinity/Faith script pendant.
+434|backpacks|-|black1 red2 simple_everyday2 minimalist2 travel_appearance2|high|Plain red backpack with black straps and simple zip compartments.
+435|ankle_boots|-|simple_everyday2 formal1 minimalist2 travel_appearance1 neutral2|high|Tan Chelsea ankle boot with elastic side and medium block heel.
+436|earrings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Large clear square solitaire stud earrings.
+437|-|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 neutral2|high|Short chain of small gold-tone beads with clasp; source explicitly describes a bracelet, not necklace.
+438|necklaces|-|red1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral1|high|Substantial four-lobed flower pendant with multicoloured small stones and dark decorative border.
+439|hats|-|black1 white2 simple_everyday2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|White flat-brim cap with black brim and prominent star logo.
+440|earrings|-|red1 white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral1|high|Small pink-red studs with curved clear-stone jacket bars in gold-tone settings.
+441|rings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Silver-tone band with a channel row of small clear square stones.
+442|necklaces|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 neutral2|high|Fine chain with a single small clear round solitaire pendant.
+443|earrings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Silver-tone small hoops with interchangeable pearl-like and clear-stone drops.
+444|ankle_boots|-|black2 simple_everyday1 formal2 minimalist2 travel_appearance1 neutral2|high|Plain black side-zip ankle boot with medium-high block heel.
+445|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Silver-tone ring with three conspicuously large clear square stones.
+446|casual_shoes|-|white1 simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Navy low lace-up casual sneaker with white sole; not visibly running-specific.
+447|necklaces|-|simple_everyday1 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Outline-heart pendant with small gold-tone inner heart and inscription.
+448|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral1|high|Ornate silver-tone halo ring set with a large bright-blue centre stone.
+449|sandals|-|black1 red2 simple_everyday2 minimalist2 travel_appearance2|high|Red thong flip-flops with black straps, despite source SHOES category.
+450|earrings|-|simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Gold-tone hoop earrings with conspicuous open filigree scrollwork.
+451|ankle_boots|-|black2 simple_everyday2 formal2 minimalist1 travel_appearance1 neutral2|high|Black lace-up ankle boot with low heel and small front perforations.
+452|-|hats|black2 white1 simple_everyday1 travel_appearance2 bold_decorative2 neutral2|medium|Black-and-white skull-print tubular face scarf; source also lists headband/headwear, not a visible hat shape.
+453|backpacks|-|red2 simple_everyday2 minimalist1 travel_appearance2 bold_decorative1 neutral1|high|Red and grey sports backpack with compartments and shoulder straps.
+454|-|-|simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Thin rigid engraved silver-tone bangle; source calls it a bracelet, outside necklace query class.
+455|earrings|-|black1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Gold-tone knotted disc drops with dark inset Celtic interlacing.
+456|rings|-|simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Broad gold-tone band with engraved religious text and small cross.
+457|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Gold-tone band with seven clear round stones across the top.
+458|hats|-|white2 black1 simple_everyday2 minimalist2 travel_appearance2 neutral2|high|White baseball cap with a small black square logo.
+459|sandals|-|red2 simple_everyday1 metallic_finish1 formal2 bold_decorative2|high|Red strappy pointed-front sandal with open side/heel, magenta ankle strap and high stiletto; source confirms sandal.
+460|necklaces|-|simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral1|high|Fine warm-metal chain and small pink-toned heart pendant with stone border.
+461|sandals|-|simple_everyday1 formal2 minimalist2 neutral2|high|Plain tan thin-toe-strap sandal with high block heel and ankle strap.
+462|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Silver-tone ring with five large clear square stones.
+463|earrings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Simple large round clear solitaire studs.
+464|handbags|-|white2 simple_everyday2 metallic_finish1 formal1 minimalist2 travel_appearance1 neutral2|high|Plain off-white structured handbag with two short handles.
+465|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral2|high|Ornate silver-tone halo ring set with clear centre and decorated curved bands.
+466|casual_shoes|-|simple_everyday2 minimalist1 travel_appearance2 neutral2|high|Olive-brown low boat shoe with toe stitching and flat light sole.
+467|handbags|-|simple_everyday1 metallic_finish1 formal1 minimalist1 travel_appearance1 bold_decorative1|high|Pale-pink quilted shoulder bag with decorative chain handle.
+468|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Silver-tone ring with large pearl-like centre and small shoulder stones.
+469|necklaces|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 neutral2|high|Fine gold-tone chain with tiny plain state-shaped pendant.
+470|necklaces|-|simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Silver-tone heart locket with faint engraving on one side.
+471|earrings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Round clear centre studs with gold-tone and clear-stone halos.
+472|ankle_boots|-|black2 simple_everyday2 formal1 minimalist2 travel_appearance1 neutral2|high|Plain black low-heel Chelsea ankle boot with elastic side.
+473|sandals|-|white2 simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Flat sandal with two broad white bands and slingback strap.
+474|necklaces|-|simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Interlocking silver-tone outline-heart pendant on a chain.
+475|casual_shoes,flat_shoes|-|white1 simple_everyday2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|medium|Tan/olive low lace-up with white sole and brogue-like trim; source says formal shoe, visible style spans casual and low dress footwear.
+476|sandals|-|simple_everyday1 metallic_finish2 formal2 minimalist2 travel_appearance1 neutral2|high|Silver mirror-finish thin-strap sandal with modest stiletto heel.
+477|earrings|-|white1 red1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2|high|Bright pink pear-shaped centre studs with clear-stone halos; red is a weak rather than exact colour match.
+478|ankle_boots|-|simple_everyday2 minimalist2 travel_appearance1 neutral2|high|Tan Chelsea ankle boot with flat thick gum sole.
+479|handbags|-|simple_everyday2 formal1 minimalist2 travel_appearance1|high|Plain pale-pink shoulder handbag with handles and long detachable strap.
+480|necklaces|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 neutral2|high|Fine silver-tone chain with small round bezel-set clear solitaire.
+481|necklaces|-|simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral1|high|Warm-metal chain with pale-pink pear centre and clear-stone halo pendant.
+482|earrings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Clear square stone drops on simple silver-tone leverback hooks.
+483|handbags|-|simple_everyday2 metallic_finish1 formal1 minimalist2 travel_appearance2 neutral2|high|Beige rectangular flap clutch with small clasp; source explicitly calls it a clutch.
+484|ankle_boots|-|simple_everyday2 minimalist2 travel_appearance1 neutral2|high|Dark brown suede-looking Chelsea ankle boot with low heel.
+485|handbags|-|simple_everyday2 formal1 minimalist2 travel_appearance2|high|Plain pale-blue rectangular flap clutch; title identifies clutch rather than a card wallet.
+486|sandals|-|white2 simple_everyday2 metallic_finish1 minimalist1 travel_appearance2 neutral2|high|White/silver children's open sandal with hook-and-loop straps and perforated sections.
+487|-|-|black2 simple_everyday2 metallic_finish1 minimalist2 travel_appearance2 neutral2|high|Adjustable black cord bracelet with small metal initial, outside necklace/ring query types.
+488|-|hats|white1 red2 simple_everyday1 travel_appearance2 bold_decorative2|medium|American-flag neck/face gaiter with ear loops; source mentions beanie as multiuse but no hat crown is shown.
+489|handbags|-|simple_everyday2 formal1 minimalist2 travel_appearance2 neutral2|high|Taupe shoulder tote with tan trim and slim straps; actual photo colours take precedence over title pink.
+490|sandals|-|simple_everyday1 formal2 minimalist2 neutral2|high|Tan barely-there ankle-strap sandal with slim high heel.
+491|-|ankle_boots|simple_everyday1 formal2 minimalist2 bold_decorative1|medium|Bright blue pointed sock boot with narrow heel; shaft height approaches lower calf, so ankle-boot identity is uncertain.
+492|necklaces|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Silver-tone cross pendant with small gold-tone heart detail and clear stones.
+493|handbags|-|simple_everyday2 metallic_finish1 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Navy bucket crossbody handbag with drawstring tassels and shoulder strap.
+494|sandals|-|simple_everyday2 minimalist1 travel_appearance2 neutral2|high|Brown flat children's sandal with several narrow toe straps and ankle fastening.
+495|ankle_boots|-|simple_everyday2 formal1 minimalist2 travel_appearance1 neutral2|high|Plain taupe ankle boot with low block heel.
+496|handbags|-|simple_everyday2 formal1 minimalist2 travel_appearance2 neutral1|high|Pale sage-green rectangular flap clutch, visibly compact and plain.
+497|necklaces|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Small pale-blue oval pendant with clear-stone halo on a fine chain.
+498|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral2|high|Wide silver-tone intertwined wave ring densely set with small stones.
+499|hats|-|simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Plain dark navy baseball cap without conspicuous decoration.
+500|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Silver-tone ring with three large clear square stones.
+501|ankle_boots|-|simple_everyday2 minimalist2 travel_appearance1 neutral2|high|Brown/khaki suede-looking lace-up ankle boot with flat low heel.
+502|running_shoes,casual_shoes|-|white1 simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Navy knit-looking slip-on athletic shoe with white sole; source explicitly identifies running shoes.
+503|handbags|-|black2 simple_everyday2 metallic_finish1 minimalist2 travel_appearance2 neutral2|high|Black flap crossbody handbag with pale-pink strap and small gold-tone badge.
+504|earrings|-|simple_everyday2 metallic_finish1 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral1|high|Square faceted green/brown multitone gemstone studs in silver-tone settings.
+505|ankle_boots|-|simple_everyday2 formal1 minimalist1 travel_appearance1 bold_decorative1 neutral2|high|Brown Chelsea-style ankle boot with side buckle and block heel.
+506|rings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Thin silver-tone eternity band with small clear stones.
+507|-|-|black2 simple_everyday2 formal1 minimalist2 neutral2|high|Tall black riding-style boot extending near knee; not ankle-height footwear.
+508|hats|-|black1 simple_everyday2 minimalist1 travel_appearance1 neutral2|high|Wide-brim natural straw sun hat with thin dark trim; foldability and actual weight unmeasured.
+509|necklaces|-|red1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral1|high|Large round gold-tone openwork pendant with several multicoloured stones.
+510|earrings|-|red1 simple_everyday1 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative2|high|Small pink-red stone cross stud earrings in gold-tone settings.
+511|earrings|-|simple_everyday1 metallic_finish2 formal1 travel_appearance2 bold_decorative2 neutral1|high|Blue-and-gold flower-like studs with a visible decorative centre motif.
+512|rings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Rose-gold-tone simple band with clear heart-shaped solitaire.
+513|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Gold-tone ring with five clear round stones across the top.
+514|rings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 neutral2|high|Thin silver-tone band with a restrained channel row of clear stones.
+515|earrings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|medium|Photo shows clear square drop studs and narrow stone-set bars, despite source title mentioning red; visual hue governs traits.
+516|-|-|black2 white1 simple_everyday1 travel_appearance2 bold_decorative2 neutral1|high|Turquoise/white geometric printed neck/face gaiter with ear loops, not a visible hat.
+517|earrings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 neutral2|high|Small round clear studs with simple silver-tone prongs.
+518|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral2|high|Open looping silver-tone ring with large pearl-like centre and stone-set curved arms.
+519|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral1|high|Silver-tone band with alternating yellow and clear round stones.
+520|casual_shoes|-|white1 simple_everyday2 minimalist1 travel_appearance2 neutral2|high|Tan low boat shoe with moccasin stitching and thick pale flat sole.
+521|ankle_boots|-|black2 simple_everyday2 minimalist2 travel_appearance1 neutral2|high|Black low Chelsea ankle boot with tan sole edge.
+522|running_shoes,casual_shoes|-|white1 simple_everyday2 minimalist2 travel_appearance2 neutral1|high|Blue knit sock-like athletic slip-on with white sole; source identifies running shoes but performance remains untested.
+523|earrings|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 neutral2|high|Plain elongated silver-tone hoops; exact English title explicitly calls them Lightweight Paddle Back 20mm Hoop Earrings.
+524|earrings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2|high|Purple heart-outline studs with small pearl-like drops and gold-tone edges.
+525|earrings|-|simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1|high|Tiny aqua-stone half-hoops in gold-tone settings; visible turquoise not white despite source wording.
+526|earrings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist1 travel_appearance2 neutral2|high|Tiny square gold-tone stud rims containing clear round stones.
+527|ankle_boots|-|black2 simple_everyday2 minimalist1 travel_appearance1 bold_decorative1 neutral2|high|Black low ankle boot with narrow buckle strap.
+528|necklaces|-|black1 simple_everyday1 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Silver-tone cross pendant with prominent black inset border on chain.
+529|earrings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Gold-tone diamond-shaped studs densely filled with small clear stones.
+530|rings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Rose-gold-tone simple band with a large clear round solitaire.
+531|handbags|-|simple_everyday2 metallic_finish1 formal1 minimalist1 travel_appearance1 bold_decorative1|high|Pale-pink tote with long handles, front strap clasp and small circular charm.
+532|earrings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2|high|Blue heart-shaped centre studs surrounded by clear-stone halos.
+533|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Photo is clearly an ornate full eternity ring; source title's earrings wording does not override visible ring form.
+534|earrings|-|simple_everyday2 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1|high|Small blue cushion-cut drops on thin silver-tone leverback hooks.
+535|ankle_boots|-|simple_everyday2 formal1 minimalist2 travel_appearance1 neutral2|high|Plain beige low-heel Chelsea ankle boot.
+536|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral1|high|Crossed silver-tone stone-set arms and small blue centre stone form a broad X ring.
+537|earrings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 neutral2|high|Small clear round solitaire studs with simple settings.
+538|necklaces|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Rose-gold-tone square halo pendant with clear square centre on fine chain.
+539|earrings|-|red1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1|high|Small pink centre studs and gold/clear halo rims; red resemblance is weak, not dominant red.
+540|-|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Short broad five-row silver-tone chain bracelet with clasp; not a necklace.
+541|casual_shoes|-|white1 simple_everyday2 minimalist2 travel_appearance1 neutral2|high|Navy canvas high-top lace-up sneaker with white rubber toe/sole, not running-specific or ankle boot.
+542|-|-|simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Short Figaro-link chain with clasp; exact title says 9-inch bracelet, outside necklace class.
+543|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Silver-tone three-stone raised-gallery ring with a large clear centre.
+544|backpacks|-|simple_everyday2 minimalist1 travel_appearance2 bold_decorative1|high|Blue sports backpack with light upper panel and front elastic lacing.
+545|earrings|-|simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Gold-tone oval filigree drop earrings with conspicuous swirling cutouts.
+546|sandals|-|black2 simple_everyday2 minimalist1 travel_appearance2 neutral2|high|Black sports sandal with patterned broad ankle strap and flat rugged sole.
+547|necklaces,earrings,rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Jewellery set visibly includes a square-stone pendant necklace, matching studs and a ring; bundle can match all three query types.
+548|ankle_boots|-|black2 simple_everyday2 formal1 minimalist2 travel_appearance1 neutral2|high|Plain black low chukka ankle boot with narrow laces and low heel.
+549|wallets|-|black2 simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Plain slim black cardholder with several stitched card slots.
+550|handbags|-|black2 white1 simple_everyday2 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Black shoulder tote with narrow multicoloured plaid lines and long plain handles.
+551|earrings|-|white1 red1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2|high|White pearl-like centres surrounded by pink-red flower petals in gold-tone stud settings.
+552|handbags|-|simple_everyday2 metallic_finish1 formal1 minimalist1 travel_appearance1 bold_decorative1 neutral2|high|Navy tote with grey handles, decorative square lower panels and tassel/metal charm.
+553|sandals|-|simple_everyday1 metallic_finish1 formal2 minimalist2 neutral2|high|Rose-beige thin-strap sandal on tall block heel.
+554|ankle_boots|-|simple_everyday2 formal1 minimalist2 travel_appearance1 neutral2|high|Plain tan Chelsea ankle boot with narrow black elastic panel and low heel.
+555|sandals|-|black2 simple_everyday1 formal2 minimalist2 neutral2|high|Black thin-strap open sandal with high block heel and ankle fastening.
+556|necklaces|-|simple_everyday1 metallic_finish1 formal1 travel_appearance2 bold_decorative2|high|Oval pendant with full-colour religious figure and flower decoration on a chain.
+557|necklaces|-|simple_everyday1 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Large round silver-tone religious medallion and substantial chain.
+558|wallets|-|white1 simple_everyday2 metallic_finish1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Cream/tan patchwork flap wallet with fine perforated stripe details.
+559|ankle_boots|-|black2 simple_everyday2 formal1 minimalist1 travel_appearance1 bold_decorative1 neutral2|high|Dark brown/black Chelsea ankle boot with subtle brogue perforations and low heel.
+560|earrings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Clear cushion-cut solitaire studs in simple silver-tone settings.
+561|hats|-|black2 simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Plain dark charcoal knitted beanie with narrow ribbed edge.
+562|-|-|red1 simple_everyday1 travel_appearance2 bold_decorative2|high|Yellow/orange floral neck gaiter, described as bandana/headband rather than a visible hat.
+563|necklaces|-|white1 simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Fine chain with a small silver-tone stone-set cross pendant.
+564|handbags|-|simple_everyday2 metallic_finish1 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral1|high|Pale-blue/grey flap crossbody handbag with decorative central rosette and circular charm.
+565|sandals|-|red2 simple_everyday1 metallic_finish1 formal2 bold_decorative2|high|Red and magenta ankle-strap sandal with cutout front and tall stiletto heel; visually near duplicate of459.
+566|ankle_boots|-|black2 simple_everyday2 formal1 minimalist2 travel_appearance1 neutral2|high|Plain black low-heel Chelsea ankle boot.
+567|necklaces|-|simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Fine chain with a small openwork family-tree pendant.
+568|necklaces|-|simple_everyday2 metallic_finish2 formal1 minimalist2 travel_appearance2 neutral2|high|Fine silver-tone box-link chain necklace; exact title gives16-inch necklace length.
+569|rings|-|simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral1|high|Thin gold-tone ring with bright teal round solitaire and beaded rim.
+570|ankle_boots|-|black2 simple_everyday1 metallic_finish1 formal2 minimalist1 bold_decorative1 neutral2|high|Black open-toe high block-heel bootie with ankle coverage and decorative pearl-like buckle.
+571|casual_shoes|-|black2 white1 simple_everyday2 minimalist2 travel_appearance2 neutral2|medium|Photo shows dark charcoal low lace-up sneaker with white sole; title says White, so visible body colour takes precedence.
+572|ankle_boots|-|simple_everyday2 formal1 minimalist2 travel_appearance1 neutral2|high|Dark chocolate ankle boot with medium tan stacked block heel.
+573|hats|-|simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Plain navy knitted slouch beanie.
+574|earrings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Large thin silver-tone hoop earrings with a row of clear stones.
+575|handbags|-|simple_everyday1 metallic_finish1 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Grey envelope clutch with pale decorative flap strip, oval clasp and chain/shoulder strap.
+576|wallets|-|simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Slim dark-brown card wallet with several card slots; exposed cards and cash are incidental contents.
+577|rings|-|simple_everyday2 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral1|high|Silver-tone crossed-band ring with a fine row of green stones.
+578|necklaces|-|black1 simple_everyday1 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Large silver-tone cross pendant with prominent black patterned inset.
+579|sandals|-|black2 simple_everyday1 metallic_finish1 minimalist1 travel_appearance2 bold_decorative2 neutral2|high|Black flat slide with broad strap covered in raised dark studs.
+580|flat_shoes,casual_shoes|-|simple_everyday2 formal1 minimalist2 travel_appearance2 neutral2|medium|Plain brown low lace-up suede-looking shoe with low heel; spans restrained dress-flat and casual styling.
+581|ankle_boots|-|black2 simple_everyday1 metallic_finish1 formal1 bold_decorative2 neutral2|high|Black western ankle boot with conspicuous silver-tone patterned side panel.
+582|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral2|high|Very large clear rectangular centre stone on a silver-tone stone-set band.
+583|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral2|high|Raised clear halo centre with two small pearl-like side accents on a silver-tone ring.
+584|ankle_boots|-|black2 simple_everyday2 minimalist2 travel_appearance1 neutral2|high|Black plain chukka ankle boot with tan low heel.
+585|rings|-|white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2 neutral2|high|Wide silver-tone multi-band ring with curving clear-stone rows and central stone.
+586|flat_shoes|-|simple_everyday2 formal1 minimalist2 travel_appearance2 neutral2|high|Plain tan ballet flat with gathered upper edge and low sole.
+587|sandals|-|black1 simple_everyday2 minimalist2 travel_appearance2 neutral2|high|Flat sandal with brown front band, black broad middle band and back strap.
+588|earrings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Large clear square solitaire studs held by small gold-tone claws.
+589|ankle_boots|-|black2 simple_everyday2 minimalist2 travel_appearance1 neutral2|high|Plain black Chelsea ankle boot with thick tan sole edge.
+590|earrings|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Large round clear solitaire stud earrings.
+591|handbags|-|black2 simple_everyday2 minimalist2 travel_appearance2 neutral2|medium|Black rectangular laptop briefcase with handles and shoulder strap; treated as handheld/shoulder bag under the broad fixed bag definition.
+592|earrings|-|red2 white1 simple_everyday1 metallic_finish2 formal2 travel_appearance2 bold_decorative2|high|Deep-red heart-shaped stones framed by clear-stone silver-tone halos.
+593|handbags|-|simple_everyday2 metallic_finish1 formal1 minimalist1 travel_appearance1 bold_decorative1 neutral2|high|Camel shoulder handbag with textured side panels and plain central panel.
+594|earrings|-|white1 simple_everyday2 metallic_finish1 formal2 minimalist2 travel_appearance2 neutral2|high|Small pale pearl-like drops on thin hooks; slight photo colour cast prevents stronger precise hue inference.
+595|necklaces|-|white1 simple_everyday2 metallic_finish2 formal2 minimalist2 travel_appearance2 bold_decorative1 neutral2|high|Polished silver-tone teardrop pendant holding a clear round centre stone.
+596|rings|-|simple_everyday1 metallic_finish2 formal1 minimalist1 travel_appearance2 bold_decorative1 neutral1|high|Silver-tone bypass ring with five purple round stones.
+597|sandals|-|simple_everyday1 metallic_finish2 formal2 bold_decorative2 neutral1|high|Gold-tone platform sandal with glitter-covered tall heel, sole edge and ankle strap.
+598|rings|-|white1 simple_everyday1 metallic_finish2 formal2 minimalist1 travel_appearance2 bold_decorative1 neutral2|high|Silver-tone solitaire ring with narrow baguette shoulder stones.
+599|backpacks|-|black1 simple_everyday2 minimalist1 travel_appearance2 bold_decorative2 neutral1|high|Blue/grey/black camouflage backpack with simple rounded front compartment.
+600|earrings|-|black2 simple_everyday2 metallic_finish1 formal2 minimalist2 travel_appearance2 neutral2|high|Black cushion-cut faceted stud stones with small silver-tone prong settings.

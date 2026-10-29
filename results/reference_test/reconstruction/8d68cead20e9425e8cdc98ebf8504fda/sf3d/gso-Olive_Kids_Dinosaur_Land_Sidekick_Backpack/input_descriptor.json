@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "58aae07d8ab12800a8460c9a34503d4eefaf3b59205352fe5625cecb7ffc9547",
+    "preparation_metadata": "bf0c2f9168972321e4705b8e22560ebef02279c2a5710c1bfe8cff987bf822ed",
+    "reference_mesh": "b3b5344408e06d5208fd05a21bb5f4e8405524cf38283bcc52c6ff8b830baef4",
+    "source_image": "196bf4046ebe41dd564248ecf503d8edb0e7a63ba3eaa90a758f112a8796454e",
+    "view_0_reference_rgb": "e2fee554a933e174aac2473df67540341eac2ebdd9d3298720849ab2122aa158",
+    "view_0_reference_silhouette": "7222a05f63502c00eb949bce7a17dfa2b1614ce0a08c46714ea01d2670786f68",
+    "view_1_reference_rgb": "7c5c26849de3bfb32f64ecaa5b011c334dc957fbf74c1f7e824dcbbf8e39707b",
+    "view_1_reference_silhouette": "5668402d4a70c09d40a84be7478502250d8590c4db4afd0804cf0aef1b9c7b10",
+    "view_2_reference_rgb": "aacc3dfea14f28db4aa33f6fcd9bd1685771ecf5c18ebdc4e2c7cd63c31eaee7",
+    "view_2_reference_silhouette": "57c82ab29c2939b608c1fc2462b5eec87ea11f0ec03775e0b7543c0d2adf7210",
+    "view_3_reference_rgb": "92055918ff970dcfc3a3f1a72f6fbf4464829169be1c08a517a3bb77cb9006ff",
+    "view_3_reference_silhouette": "0ef60902e4dcf2bc38c95ea5a0cc340761eb7e14262b68afc5558dc9f30321f9"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Dinosaur_Land_Sidekick_Backpack/camera_info.json",
+    "category": "backpack",
+    "geometry_eligible": "false",
+    "image_sha256": "196bf4046ebe41dd564248ecf503d8edb0e7a63ba3eaa90a758f112a8796454e",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "b3b5344408e06d5208fd05a21bb5f4e8405524cf38283bcc52c6ff8b830baef4",
+    "object_id": "gso-Olive_Kids_Dinosaur_Land_Sidekick_Backpack",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Dinosaur_Land_Sidekick_Backpack/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Dinosaur_Land_Sidekick_Backpack/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-Olive_Kids_Dinosaur_Land_Sidekick_Backpack/input.png",
+    "source_revision": "GoogleResearch/Olive_Kids_Dinosaur_Land_Sidekick_Backpack/v1;zip-sha256:960de181187c89b834865fe889f0120bd0082f47abed125a93f138e39b4f5950"
+  }
+}

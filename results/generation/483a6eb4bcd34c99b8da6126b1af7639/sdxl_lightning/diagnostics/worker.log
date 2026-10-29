@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\src\stylesphere\generation\worker.py", line 127, in main
+    adapter, loading = measure(torch, lambda: adapter_cls(config))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\src\stylesphere\generation\worker.py", line 21, in measure
+    result = fn()
+             ^^^^
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\src\stylesphere\generation\worker.py", line 127, in <lambda>
+    adapter, loading = measure(torch, lambda: adapter_cls(config))
+                                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tonyh_yxuq8za\60858397_Evaluation\src\stylesphere\generation\worker.py", line 31, in __init__
+    from diffusers import EulerDiscreteScheduler, StableDiffusionXLPipeline, UNet2DConditionModel
+ModuleNotFoundError: No module named 'diffusers'

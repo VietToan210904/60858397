@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-10-28T23:56:05.114332+00:00",
+  "integrity_passed": true,
+  "raw_records_before": 40,
+  "raw_records_after": 40,
+  "raw_records_sha256_before": "a0fc8d1b4347aedbd9f4cbe4e45865c7849aeeb29c4fdbfb518827cd2172af4a",
+  "raw_records_sha256_after": "a0fc8d1b4347aedbd9f4cbe4e45865c7849aeeb29c4fdbfb518827cd2172af4a",
+  "new_worker_requests": 0,
+  "models": {
+    "sf3d": {
+      "pair": "reconstruction",
+      "run_id": "c5a8a799e60548bb809b1be370be09b3",
+      "records": 20,
+      "resumed": 20,
+      "success": 20,
+      "blocked": 0,
+      "failed": 0
+    },
+    "spar3d": {
+      "pair": "reconstruction",
+      "run_id": "28ab291b57f4452191d4f4232eb1d436",
+      "records": 20,
+      "resumed": 20,
+      "success": 20,
+      "blocked": 0,
+      "failed": 0
+    }
+  }
+}

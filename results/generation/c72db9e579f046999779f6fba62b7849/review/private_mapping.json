@@ -1,0 +1,578 @@
+[
+  {
+    "review_id": "image_26aa11bde3f35674",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-012",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-012_8410.png"
+  },
+  {
+    "review_id": "image_d2e1d0ec794d3f25",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-002",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-002_8412.png"
+  },
+  {
+    "review_id": "image_ca5bbcc54b55cb29",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-016",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-016_8412.png"
+  },
+  {
+    "review_id": "image_eb8a198c622809ea",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-001",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-001_8410.png"
+  },
+  {
+    "review_id": "image_c18d87e27332a8a8",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-012",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-012_8412.png"
+  },
+  {
+    "review_id": "image_bd404015dd654cb0",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-008",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-008_8412.png"
+  },
+  {
+    "review_id": "image_46908d8ce654dc30",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-015",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-015_8411.png"
+  },
+  {
+    "review_id": "image_bcb664231559c711",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-005",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-005_8412.png"
+  },
+  {
+    "review_id": "image_8de7764679a1aebe",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-022",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-022_8412.png"
+  },
+  {
+    "review_id": "image_6b64c67973ac10dd",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-021",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-021_8411.png"
+  },
+  {
+    "review_id": "image_a46bb3c568399753",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-001",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-001_8411.png"
+  },
+  {
+    "review_id": "image_aa53071adacc690f",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-013",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-013_8410.png"
+  },
+  {
+    "review_id": "image_6a631764bf3aaa60",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-009",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-009_8412.png"
+  },
+  {
+    "review_id": "image_bdfaf5201a315de2",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-011",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-011_8411.png"
+  },
+  {
+    "review_id": "image_2f6cacf2bccbdd7d",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-001",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-001_8412.png"
+  },
+  {
+    "review_id": "image_dd70558ba8d1bad1",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-013",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-013_8412.png"
+  },
+  {
+    "review_id": "image_60f4f939cf99c5e2",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-010",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-010_8411.png"
+  },
+  {
+    "review_id": "image_91ce202f485b4d68",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-021",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-021_8412.png"
+  },
+  {
+    "review_id": "image_98603f0c1ee04fa6",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-012",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-012_8411.png"
+  },
+  {
+    "review_id": "image_e774e112daf2177d",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-011",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-011_8412.png"
+  },
+  {
+    "review_id": "image_8fc33d00fe114852",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-024",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-024_8410.png"
+  },
+  {
+    "review_id": "image_73704a50a43c7f9a",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-018",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-018_8411.png"
+  },
+  {
+    "review_id": "image_9cbc845c55262466",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-004",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-004_8412.png"
+  },
+  {
+    "review_id": "image_bfa68ae8412f2309",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-011",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-011_8410.png"
+  },
+  {
+    "review_id": "image_3d2d9a7fe7539af4",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-009",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-009_8411.png"
+  },
+  {
+    "review_id": "image_6685d9b1189a6141",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-021",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-021_8410.png"
+  },
+  {
+    "review_id": "image_2a7139cd1e756a6f",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-004",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-004_8410.png"
+  },
+  {
+    "review_id": "image_6530650d89387c62",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-017",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-017_8412.png"
+  },
+  {
+    "review_id": "image_bded1f5776efce43",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-017",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-017_8411.png"
+  },
+  {
+    "review_id": "image_dd6021cf5ec5140f",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-015",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-015_8412.png"
+  },
+  {
+    "review_id": "image_3c04a48737b6721a",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-014",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-014_8410.png"
+  },
+  {
+    "review_id": "image_1ce4324548472817",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-016",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-016_8411.png"
+  },
+  {
+    "review_id": "image_0ffdd9a0ad24ace3",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-007",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-007_8410.png"
+  },
+  {
+    "review_id": "image_c1ddea4dc4566a68",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-020",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-020_8410.png"
+  },
+  {
+    "review_id": "image_5b3eb36e9597daab",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-007",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-007_8412.png"
+  },
+  {
+    "review_id": "image_d95cfcd609d6f012",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-018",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-018_8410.png"
+  },
+  {
+    "review_id": "image_70d4bfda0b7ada68",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-024",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-024_8412.png"
+  },
+  {
+    "review_id": "image_5ad31398779b2494",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-006",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-006_8411.png"
+  },
+  {
+    "review_id": "image_3dd3dccc4126526f",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-023",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-023_8410.png"
+  },
+  {
+    "review_id": "image_0b8b1c0935cf9b14",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-005",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-005_8411.png"
+  },
+  {
+    "review_id": "image_c4c8949bb5624083",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-008",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-008_8410.png"
+  },
+  {
+    "review_id": "image_3f2134f462b4ccae",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-024",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-024_8411.png"
+  },
+  {
+    "review_id": "image_5373d7aae1ccbdf6",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-016",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-016_8410.png"
+  },
+  {
+    "review_id": "image_a80c531fc7b4cba0",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-023",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-023_8411.png"
+  },
+  {
+    "review_id": "image_5f8ca06afd23fd45",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-017",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-017_8410.png"
+  },
+  {
+    "review_id": "image_a409724ae1443c8f",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-010",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-010_8412.png"
+  },
+  {
+    "review_id": "image_08992e93e1ce3d6f",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-003",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-003_8411.png"
+  },
+  {
+    "review_id": "image_fb8da37ba5d4f95c",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-015",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-015_8410.png"
+  },
+  {
+    "review_id": "image_41ddd88b9bc1490a",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-003",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-003_8412.png"
+  },
+  {
+    "review_id": "image_a19a49c738d11ab1",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-003",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-003_8410.png"
+  },
+  {
+    "review_id": "image_984b07277d427294",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-009",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-009_8410.png"
+  },
+  {
+    "review_id": "image_86b54c0fcaa2a810",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-005",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-005_8410.png"
+  },
+  {
+    "review_id": "image_77d4d8bf1fcc8db2",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-002",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-002_8410.png"
+  },
+  {
+    "review_id": "image_9bb0e17ca79956c9",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-006",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-006_8412.png"
+  },
+  {
+    "review_id": "image_217c96163e482249",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-004",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-004_8411.png"
+  },
+  {
+    "review_id": "image_b82118d011d7827f",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-010",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-010_8410.png"
+  },
+  {
+    "review_id": "image_06236efbb8c2be7e",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-006",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-006_8410.png"
+  },
+  {
+    "review_id": "image_67b1fe7382294e53",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-013",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-013_8411.png"
+  },
+  {
+    "review_id": "image_4c3690fb7db7b098",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-007",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-007_8411.png"
+  },
+  {
+    "review_id": "image_f6413aec5d21987f",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-019",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-019_8412.png"
+  },
+  {
+    "review_id": "image_017f91b0aaeff321",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-019",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-019_8410.png"
+  },
+  {
+    "review_id": "image_8f8322789b309835",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-014",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-014_8411.png"
+  },
+  {
+    "review_id": "image_9e45c89664121e08",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-018",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-018_8412.png"
+  },
+  {
+    "review_id": "image_d6dc77f6d0a5f0fd",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-014",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-014_8412.png"
+  },
+  {
+    "review_id": "image_aa071ae8c5d12c87",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-023",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-023_8412.png"
+  },
+  {
+    "review_id": "image_61588befc2933a16",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-008",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-008_8411.png"
+  },
+  {
+    "review_id": "image_c4bd6f725b35fb28",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-020",
+    "seed": 8412,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-020_8412.png"
+  },
+  {
+    "review_id": "image_88c26013f8a3b14a",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-020",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-020_8411.png"
+  },
+  {
+    "review_id": "image_ad4df2d200e9656b",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-002",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-002_8411.png"
+  },
+  {
+    "review_id": "image_d8edcc9123469c00",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-022",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-022_8411.png"
+  },
+  {
+    "review_id": "image_3544aa6487029df6",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-019",
+    "seed": 8411,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-019_8411.png"
+  },
+  {
+    "review_id": "image_d39827aae84fcf70",
+    "run_id": "c72db9e579f046999779f6fba62b7849",
+    "model": "sdxl_lightning",
+    "case_id": "gen-022",
+    "seed": 8410,
+    "image": "results/generation/c72db9e579f046999779f6fba62b7849/sdxl_lightning/gen-022_8410.png"
+  }
+]

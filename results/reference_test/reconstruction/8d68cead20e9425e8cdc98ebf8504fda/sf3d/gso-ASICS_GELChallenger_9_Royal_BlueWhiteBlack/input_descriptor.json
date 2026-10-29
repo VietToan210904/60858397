@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "f02cc5abd3cfd2c3837e54037e09565973018fdf1e1ad8168677a57b8b5d3b9b",
+    "preparation_metadata": "1f692a19cb09e25828e420958cc1ed1da3b558a0ff76d59bd9df0d1fe97299fc",
+    "reference_mesh": "9260cb62d23fd12d2eda6a98cef1f9d9f39e63fca4f66d72ddd3f1f5b5c78dd2",
+    "source_image": "2a232b9e7e32820c905a0ae8924f4e6d0d31c67b2f85598cb2987ed95734bce1",
+    "view_0_reference_rgb": "be9fdd9332cacb3dea84880dac944b1bcb0f862e561c1da0985a463991f7509c",
+    "view_0_reference_silhouette": "71a3df63bdb84eb727fefabd6bee720c499fb2d11626b0b67910c6f5f9091167",
+    "view_1_reference_rgb": "1269b5f0e8cfb9fa25409b7260d33880aa744c6626cc2d231220e67bfe429247",
+    "view_1_reference_silhouette": "e98445dd261224f45dfeed880a3966bc4a0ed5cf227112919bd876b2f8a08b28",
+    "view_2_reference_rgb": "af9fbefd30f92294bbd962b0c69d02087242d8aeeb7987b86de217d50e63b6b7",
+    "view_2_reference_silhouette": "83138e190b14f38555945fb0477ac57098767f4f2946c51d78d8365991b68906",
+    "view_3_reference_rgb": "e273cfe865bb909251d94fe322b3a5f06238c0dd5c2a518b9620090d3cbed212",
+    "view_3_reference_silhouette": "49537be1e962924b191cf573a067b01d17a5380ae967b5f36f0038a16bdeb04b"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "2a232b9e7e32820c905a0ae8924f4e6d0d31c67b2f85598cb2987ed95734bce1",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "9260cb62d23fd12d2eda6a98cef1f9d9f39e63fca4f66d72ddd3f1f5b5c78dd2",
+    "object_id": "gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/input.png",
+    "source_revision": "GoogleResearch/ASICS_GELChallenger_9_Royal_BlueWhiteBlack/v1;zip-sha256:a2dfc86288679a7c45a21623acd08f106f92b5f2f4122322b6867cfda5e5519f"
+  }
+}

@@ -1,0 +1,17 @@
+Collecting packaging==23.2
+  Downloading packaging-23.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting oauthlib==3.2.2
+  Downloading oauthlib-3.2.2-py3-none-any.whl.metadata (7.5 kB)
+Collecting wcwidth==0.9.4
+  Downloading wcwidth-0.9.4-cp310-abi3-win_amd64.whl.metadata (24 kB)
+Downloading packaging-23.2-py3-none-any.whl (53 kB)
+   ---------------------------------------- 53.0/53.0 kB 2.7 MB/s eta 0:00:00
+Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
+   ---------------------------------------- 151.7/151.7 kB 9.4 MB/s eta 0:00:00
+Downloading wcwidth-0.9.4-cp310-abi3-win_amd64.whl (597 kB)
+   ---------------------------------------- 597.8/597.8 kB 7.5 MB/s eta 0:00:00
+Installing collected packages: wcwidth, packaging, oauthlib
+Successfully installed oauthlib-3.2.2 packaging-23.2 wcwidth-0.9.4
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-spar3d\Scripts\python.exe -m pip install --upgrade pip

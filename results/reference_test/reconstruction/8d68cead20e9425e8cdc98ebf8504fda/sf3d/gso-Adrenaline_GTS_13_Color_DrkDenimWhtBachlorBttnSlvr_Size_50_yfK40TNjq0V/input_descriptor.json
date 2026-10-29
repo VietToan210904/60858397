@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "7909e5d42c15de673474ad4580573a8b506afb6869176dd73da47d1eaf0765fb",
+    "preparation_metadata": "c5508a4e665591b0ab21b28842162ba488d772ec69d024f44af09db55ac4642f",
+    "reference_mesh": "da9fc5947de4ff224f99345bad84ee3bb063cae37ce898026ade372efd4e74f8",
+    "source_image": "b659b14bc41d2b8b95640766e3535b5bd0b345878776951eaaf14faf7f5470ef",
+    "view_0_reference_rgb": "545eb1431a57fa6c5bf4ea215268986d6230f4c96c27c58a7f5602d864876294",
+    "view_0_reference_silhouette": "c63890539229b91eed493021fce4f95ab91c4d2d27078fea6c9ad3ded8dbab6e",
+    "view_1_reference_rgb": "176a74f0913833aa45ed312d514dffc609b0c6c93276f282f8eecac5a5ce1553",
+    "view_1_reference_silhouette": "0fe6e24a7bcbbccd46aa4c7d03a5ff72a4106f0f97919ab6e9a59c453a535618",
+    "view_2_reference_rgb": "bdaea2a54e60852c64bbcc6c1497e506076789401bf5ed209ee0db3288e7682b",
+    "view_2_reference_silhouette": "4dd6676a93c133be6f3383899a410e766abd2a74a156f6987c509ae34b1ec0d1",
+    "view_3_reference_rgb": "e1ab897eeace46377eb0b403b9c54e4ad2d51d590776257673b2c3edf18846ed",
+    "view_3_reference_silhouette": "9815518b23594005a71115d8bb14b2d74db306e5a003fa576bc7bdf15a8bd20b"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "b659b14bc41d2b8b95640766e3535b5bd0b345878776951eaaf14faf7f5470ef",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "da9fc5947de4ff224f99345bad84ee3bb063cae37ce898026ade372efd4e74f8",
+    "object_id": "gso-Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V/input.png",
+    "source_revision": "GoogleResearch/Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V/v1;zip-sha256:1f99891db035312879ed84aec7ce9687b8c36384b394463805bafe5c383ff061"
+  }
+}

@@ -1,0 +1,7 @@
+-r requirements-core.txt
+diffusers==0.37.0
+transformers>=5.5,<6
+huggingface-hub>=1.5,<2
+accelerate>=1.6,<2
+safetensors>=0.5,<1
+# Exact FLUX FP8 uses a separate reviewed ComfyUI checkout.

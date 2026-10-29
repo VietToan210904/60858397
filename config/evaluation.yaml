@@ -1,0 +1,31 @@
+seed: 8410
+output_dir: results
+require_cuda: true
+evaluation:
+  warmup_runs: 1
+  retrieval:
+    top_k: 10
+    batch_size: 8
+    relevance_complete: false
+  generation:
+    repeats: 3
+    width: 1024
+    height: 1024
+  assistance:
+    controller_protocol_version: 2
+    max_steps: 6
+    max_new_tokens: 512
+    temperature: 0.0
+  reconstruction:
+    sample_points: 10000
+    fscore_thresholds: [0.01, 0.02, 0.05]
+    normalization: shared_reference_unit_diagonal
+  statistics:
+    bootstrap_iterations: 2000
+    confidence: 0.95
+datasets:
+  retrieval:
+    catalogue_size: 600
+    query_count: 120
+  reconstruction:
+    object_count: 20

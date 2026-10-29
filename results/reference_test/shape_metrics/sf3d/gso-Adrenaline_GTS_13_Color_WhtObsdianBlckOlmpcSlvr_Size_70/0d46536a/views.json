@@ -1,0 +1,61 @@
+{
+  "interpretation": "Supplementary independently normalized shape views, with explicitly reference-assisted rigid alignment where labelled",
+  "per_view": [
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.4347252566057958,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/0d46536a/unaligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.2875010422746602,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/0d46536a/unaligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.3782961113581176,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/0d46536a/unaligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.2976925027470205,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/0d46536a/unaligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/reference_views/view_03_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.6016002306638795,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/0d46536a/rigid_aligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.5453175798905717,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/0d46536a/rigid_aligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.6268575693831852,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/0d46536a/rigid_aligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.5718915733647614,
+      "predicted_silhouette": "results/reference_test/shape_metrics/sf3d/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/0d46536a/rigid_aligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/reference_views/view_03_mask.png"
+    }
+  ]
+}

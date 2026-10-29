@@ -1,0 +1,21 @@
+Processing c:\users\tonyh_yxuq8za\60858397_evaluation\vendor\openai-clip
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Processing c:\users\tonyh_yxuq8za\60858397_evaluation\vendor\alphaclip
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: clip, alpha_clip
+  Building wheel for clip (setup.py): started
+  Building wheel for clip (setup.py): finished with status 'done'
+  Created wheel for clip: filename=clip-1.0-py3-none-any.whl size=1369570 sha256=21a1d53a22149289eb8b3e07430e524bc224791147499629a8fec398d2352a80
+  Stored in directory: C:\Users\tonyh_yxuq8za\AppData\Local\Temp\pip-ephem-wheel-cache-s7ee4m5g\wheels\b5\3e\64\455aa106589036a3ef7838adf6e57b74d9cdecb14110bffbef
+  Building wheel for alpha_clip (pyproject.toml): started
+  Building wheel for alpha_clip (pyproject.toml): finished with status 'done'
+  Created wheel for alpha_clip: filename=alpha_clip-1.0-py3-none-any.whl size=1555009 sha256=3acb9633ca9e49ae5bee7edc2f2a847f41f29a57f61360e5434b03856eba5798
+  Stored in directory: C:\Users\tonyh_yxuq8za\AppData\Local\Temp\pip-ephem-wheel-cache-s7ee4m5g\wheels\95\74\cc\7f032225f5149e7a9c1f0edc15fa2fad1b62d97121b8dd2628
+Successfully built clip alpha_clip
+Installing collected packages: clip, alpha_clip
+Successfully installed alpha_clip-1.0 clip-1.0
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-spar3d\Scripts\python.exe -m pip install --upgrade pip

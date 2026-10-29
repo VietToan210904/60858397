@@ -1,0 +1,23 @@
+{
+  "file_sha256": {
+    "preparation_metadata": "a93fc142a7055175063a456285f059e1c63c92f2d2ef5ece1de97a9fe42f968a",
+    "source_image": "9c2f1acfcf4f9df585b534bdc4ad775b9149aed32ae811855a93f3369005478c"
+  },
+  "manifest": {
+    "camera_info": "",
+    "category": "BOOT",
+    "geometry_eligible": "false",
+    "image_sha256": "9c2f1acfcf4f9df585b534bdc4ad775b9149aed32ae811855a93f3369005478c",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "",
+    "object_id": "abo-B07PGK6BKK",
+    "preparation_metadata": "datasets/reconstruction/abo-B07PGK6BKK-preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Amazon Berkeley Objects",
+    "source_image": "datasets/reconstruction/assets/prepared/abo-B07PGK6BKK.png",
+    "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324"
+  }
+}

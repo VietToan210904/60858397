@@ -1,0 +1,61 @@
+{
+  "interpretation": "Supplementary independently normalized shape views, with explicitly reference-assisted rigid alignment where labelled",
+  "per_view": [
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.37859538933694953,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/96e84442/unaligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.05638895675543611,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/96e84442/unaligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.3566694701429773,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/96e84442/unaligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.04456689868522815,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/96e84442/unaligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/reference_views/view_03_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.49072181803318893,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/96e84442/rigid_aligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.6320735752336918,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/96e84442/rigid_aligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.4374068554396423,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/96e84442/rigid_aligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.5674812642554578,
+      "predicted_silhouette": "results/reference_test/shape_metrics/spar3d/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/96e84442/rigid_aligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-ASICS_GELChallenger_9_Royal_BlueWhiteBlack/reference_views/view_03_mask.png"
+    }
+  ]
+}

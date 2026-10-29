@@ -1,0 +1,444 @@
+[
+  {
+    "source_id": "B07R79WR4V",
+    "category": "BOOT",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "787c00bc0587fa5ba33346fac878a497cf2fe290851451257cdcb8ef15318d17",
+    "original_size": [
+      1520,
+      1003
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/39/39cd925f.jpg",
+    "etag": "\"890604185735b6bf799d91dfad964a49\"",
+    "last_modified": "Thu, 17 Jun 2021 11:04:42 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.592185477533284,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "08340a25419b257f199f716c340ba3f4f74a57153e6791e327ddf8682395260e"
+  },
+  {
+    "source_id": "B07PGK6BKK",
+    "category": "BOOT",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "4ec84824bbf05da5fa303bf4c0d675c1b1150a987a721d7927cee6ca39600304",
+    "original_size": [
+      1252,
+      1500
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/9f/9f8794fa.jpg",
+    "etag": "\"e7c5290064585b3fed87d4ce2c70fbeb\"",
+    "last_modified": "Thu, 17 Jun 2021 14:32:51 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.3864754660087719,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "9c2f1acfcf4f9df585b534bdc4ad775b9149aed32ae811855a93f3369005478c"
+  },
+  {
+    "source_id": "B07XPHD4LK",
+    "category": "BOOT",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "0629bde16bf11c81dbf79116b8b84634095dfdfbcaf9d79fed4ad435ecd7fa91",
+    "original_size": [
+      1837,
+      2387
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/5a/5a4b3fbd.jpg",
+    "etag": "\"68ff1a0ccc1f798bc1b3c64cfcb243b4\"",
+    "last_modified": "Thu, 17 Jun 2021 12:10:54 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.19668439681154823,
+      "largest_component_fraction": 0.9999432917262628,
+      "largest_secondary_component_fraction": 5.670827373713825e-05,
+      "component_count": 2
+    },
+    "prepared_image_sha256": "b70f8ea8097b9d37ea4b7cae056eece8b4c1977d8ae2de010364bcb5669d7b5a"
+  },
+  {
+    "source_id": "B07J2DZXXY",
+    "category": "BOOT",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "9df626502990c60e983d0c7a223cbb8ef3e7fa0cd64d65754994ad9820fe5fcb",
+    "original_size": [
+      1969,
+      2560
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/04/041b87a1.jpg",
+    "etag": "\"c12c00d529500b3662504c12a1c67bac\"",
+    "last_modified": "Thu, 17 Jun 2021 09:14:48 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.2948970891497462,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "ecc1681664627fbb82cd891545528ae0b07b1368fbf9e578c963cab2c6dca084"
+  },
+  {
+    "source_id": "B086YY3KQG",
+    "category": "BOOT",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "3826cbeb2007adac587df8ea958d02fd60e613754186d2f28451bdf6e6638972",
+    "original_size": [
+      1354,
+      899
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/29/29ccf489.jpg",
+    "etag": "\"9f2eadf0ae0e78c6f96335ec2038d23c\"",
+    "last_modified": "Thu, 17 Jun 2021 10:31:52 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.5808234719669118,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "69e3be20ac179290ffcebf2f768697c88b14afe2fd34fd6b83bf646ee20deb6a"
+  },
+  {
+    "source_id": "B07VS296PR",
+    "category": "SHOES",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "c5ef2263f5964aef702f4753ed5e004f8d0fb76c28ae111dacb65fb541ad9e2a",
+    "original_size": [
+      2348,
+      1344
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/dc/dc949aef.jpg",
+    "etag": "\"5a5563561913d6424cc6a13397c5076d\"",
+    "last_modified": "Thu, 17 Jun 2021 16:38:32 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.4608175127986348,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "aa3625c7e1feb794c2ea65175baffb7234abeb25bb37c45f68bb85f9bb9a3c57"
+  },
+  {
+    "source_id": "B07PWXRWBC",
+    "category": "SHOES",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "5667031fc31032d8030a930b49e93fe1cbb617a2394d33b90eff1b52252a3835",
+    "original_size": [
+      2560,
+      1656
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/bb/bb93511b.jpg",
+    "etag": "\"a95b3436e3b19d448cebef888fa86cca\"",
+    "last_modified": "Thu, 17 Jun 2021 15:30:40 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.5450870940332326,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "c3f4f2312cc673a0998ec9aff568301fc175777dab3fc47f78bfb8ba727d09a8"
+  },
+  {
+    "source_id": "B07YV78XJW",
+    "category": "SHOES",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "660671e7031e0378789657e65f9dc9e0925bab005bf4ff5136b8b8ff64da29cd",
+    "original_size": [
+      1524,
+      529
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/a3/a30cfc1c.jpg",
+    "etag": "\"acddec18292e50de19af8f6a3efc78cd\"",
+    "last_modified": "Thu, 17 Jun 2021 14:40:02 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.5521786971830986,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "d2335fde509b6e172f6ebca7f5becc80e717c72e8310cc7084aab4a6cfafa4bd"
+  },
+  {
+    "source_id": "B07CMD9X29",
+    "category": "SHOES",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "c2ca2d7ae0ce34591b831fde0b5547985ebdb616e704105fc7836cb216137f77",
+    "original_size": [
+      2560,
+      2560
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/86/86f06e2b.jpg",
+    "etag": "\"8c6953c3ed5dd92137d6e58730603445\"",
+    "last_modified": "Thu, 17 Jun 2021 13:42:18 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.23972225189208984,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "faa87f1488a38b08c84173d30088a1903f705a5f9cf40ac00f7071ecaca9c419"
+  },
+  {
+    "source_id": "B084LLWDFH",
+    "category": "SHOES",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "ce618af3f8f3f702c18705f6a6a54d0979c55cc7d516e46f3a1c55964be3324e",
+    "original_size": [
+      1969,
+      2560
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/cb/cb728deb.jpg",
+    "etag": "\"732dbbd04fb886a0eb4a909ef602f458\"",
+    "last_modified": "Thu, 17 Jun 2021 16:03:42 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.16675300404505075,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "cb14d7f5c3cd83e0cf600de410c78695bcd8af048ac69d3d27884bc0adfc8048"
+  },
+  {
+    "source_id": "B07WRJG24S",
+    "category": "HANDBAG",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "5d291d2dc00976bb0df236fbcc54400b5503ca0900c6c5af57235d346d244708",
+    "original_size": [
+      1520,
+      2560
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/13/1376e3be.jpg",
+    "etag": "\"dde8c8247bb940e9f6f736f5c31a9c40\"",
+    "last_modified": "Thu, 17 Jun 2021 09:46:08 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.4326846474095395,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "bb8e28d7d32b6aeb1810b98b0667b03cbce669fa9105d46993dad69d8c0c3761"
+  },
+  {
+    "source_id": "B07WTN8B8C",
+    "category": "HANDBAG",
+    "outcome": "excluded",
+    "reasons": [
+      "multiple major disconnected foreground regions; possible multi-object photo or mask fragmentation"
+    ],
+    "original_sha256": "3f7c3e85e3e4173b8abc1bb42383d214098994f87594160214257a936357cfa1",
+    "original_size": [
+      2560,
+      1698
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/75/7545861d.jpg",
+    "etag": "\"86e9e989867fbd0e8839803fa0e945c3\"",
+    "last_modified": "Thu, 17 Jun 2021 13:05:41 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.25943051592415317,
+      "largest_component_fraction": 0.590173022657597,
+      "largest_secondary_component_fraction": 0.40959413685476853,
+      "component_count": 5
+    }
+  },
+  {
+    "source_id": "B081HNQQWP",
+    "category": "HANDBAG",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "19fd402f71f47086e8ddfafba4d0ce9984c596f7b99425e9f2c65e1c5de564c9",
+    "original_size": [
+      2000,
+      2000
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/cd/cd57f8e1.jpg",
+    "etag": "\"623ce978c8694ceb34a32e125a67b2f8\"",
+    "last_modified": "Thu, 17 Jun 2021 16:07:33 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.3371715545654297,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "476d515c57047575fbd41d98f2f22967380356097ea8c4b87b1de751428bbde9"
+  },
+  {
+    "source_id": "B06W9GB1JR",
+    "category": "HANDBAG",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "1a00ef8c69494606453db76fd98bde0599bd82422d65e46724b7c5b35bbd699f",
+    "original_size": [
+      1936,
+      2560
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/e0/e0a9add7.jpg",
+    "etag": "\"f5ded11950e6745fd201f4661255a085\"",
+    "last_modified": "Thu, 17 Jun 2021 16:46:43 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.4437366258882429,
+      "largest_component_fraction": 0.9991555182757788,
+      "largest_secondary_component_fraction": 0.000716529947824109,
+      "component_count": 5
+    },
+    "prepared_image_sha256": "dccaf6257a8151e9b4255b71a7ba608ad47368c53659675aa5ba7ed18d1b80ae"
+  },
+  {
+    "source_id": "B07WVRFRR2",
+    "category": "HANDBAG",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "f9477906b7ad7234236dbc2c3671c19511f5aa4d249105f6cad2a349db2d8545",
+    "original_size": [
+      2560,
+      1484
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/26/2681b20c.jpg",
+    "etag": "\"22cb5857644edf62ab32d9ece16625fb\"",
+    "last_modified": "Thu, 17 Jun 2021 10:25:06 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.8078522858796297,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "9d84ee23b7072f146e923901ec8bbe38d39b496e42544337c91a562f4224bc89"
+  },
+  {
+    "source_id": "B07JHFZVLV",
+    "category": "HANDBAG",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "e6ecaa5a79a75f7ff857aa55ed1e8b47ad5d587e2d910362dc4f35857c927c2d",
+    "original_size": [
+      2560,
+      2560
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/64/64c80ced.jpg",
+    "etag": "\"c8d02976fdb3be253fff8ac0a3c6aa1a\"",
+    "last_modified": "Thu, 17 Jun 2021 12:32:07 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.6300172805786133,
+      "largest_component_fraction": 0.9997608310968014,
+      "largest_secondary_component_fraction": 0.00023916890319865703,
+      "component_count": 2
+    },
+    "prepared_image_sha256": "9b5671ecf1b69aed43922d8549f4a8c6f79f9b617fedb8f84d2c3865ae559b14"
+  },
+  {
+    "source_id": "B07WTMZ8N7",
+    "category": "HANDBAG",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "d49f9ea0000599d51e5a553b6e6670a0670983106212f360d3f3d6c9284bf6c3",
+    "original_size": [
+      2560,
+      1384
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/d4/d42d1dcd.jpg",
+    "etag": "\"42b769b9968e4f1c93cba16e9870b94c\"",
+    "last_modified": "Thu, 17 Jun 2021 16:21:29 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.6632569240749098,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "efac90f14a898d8ef4ceb2efae0c006b1f0ecf16f2906246fd173eaca5f8a365"
+  },
+  {
+    "source_id": "B07XBZR7SR",
+    "category": "HANDBAG",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "5469b85237ec4154104ce74e88fcdd7fc673463d06acf54e879611c7d9f35a47",
+    "original_size": [
+      2560,
+      1849
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/d2/d2d61ae3.jpg",
+    "etag": "\"c7bb0a0b31aeabd89020a9c1dfffab16\"",
+    "last_modified": "Thu, 17 Jun 2021 16:18:47 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.5552562816722973,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "6490f41fa7289ea5ab16ba887c4e574fefb558aadfc741a54fa8efa758db1510"
+  },
+  {
+    "source_id": "B07XF6F7X7",
+    "category": "HANDBAG",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "e338bb6cf79fdcd402845db3454d74dd4d9cdef4733bbeb90aab911f49793f9c",
+    "original_size": [
+      2560,
+      1801
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/9a/9aa9526d.jpg",
+    "etag": "\"df8219d70caf25d599efd14341d2cb55\"",
+    "last_modified": "Thu, 17 Jun 2021 14:22:51 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.6274563259548611,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "48e5ed66cfefe0cf612d042c9fff6b257f1ca1e42554181273b9a05936bbd1a6"
+  },
+  {
+    "source_id": "B07WRJFN95",
+    "category": "HANDBAG",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "a96fff5d2053973ab757656fbc1784d2e78b4cab16b028eb9b3520bf1d3845d5",
+    "original_size": [
+      2560,
+      1554
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/79/794a703a.jpg",
+    "etag": "\"7d1a00ffe0018ba9bc83b9203a7e50b5\"",
+    "last_modified": "Thu, 17 Jun 2021 13:14:00 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.619928783159164,
+      "largest_component_fraction": 0.9929593516525262,
+      "largest_secondary_component_fraction": 0.0039787260985184245,
+      "component_count": 74
+    },
+    "prepared_image_sha256": "558b53dfa97f9e8d16749f818b9a27651f3f8a82962fa5ee1407f9a9a89870fb"
+  },
+  {
+    "source_id": "B07WTMZ91M",
+    "category": "HANDBAG",
+    "outcome": "retained",
+    "reasons": [],
+    "original_sha256": "e7ce76f33d988619205f199428f72e718716c2fe715d59ae559957a1612884c0",
+    "original_size": [
+      1338,
+      2560
+    ],
+    "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/f6/f68f2930.jpg",
+    "etag": "\"cf1a36cec318263238c46f2de031a0b0\"",
+    "last_modified": "Thu, 17 Jun 2021 17:31:05 GMT",
+    "mask_qa": {
+      "foreground_fraction": 0.4139219480140187,
+      "largest_component_fraction": 1.0,
+      "largest_secondary_component_fraction": 0.0,
+      "component_count": 1
+    },
+    "prepared_image_sha256": "1259d6274c69c6463fc0b36da152a410bda96da93bd111c5aa5cd7d8a63463b0"
+  }
+]

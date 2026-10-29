@@ -1,0 +1,13 @@
+{
+  "environment": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview",
+  "overlay_target": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay",
+  "pth": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\stylesphere-preview-runtime.pth",
+  "pth_lines": [
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-preview\\Lib\\site-packages\\preview-overlay",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\src"
+  ],
+  "creation": "python -m venv --without-pip --system-site-packages .venv-preview",
+  "intended_behavior": "Only project-local preview-overlay receives the six approved pins. Existing project pip/setuptools/wheel and inherited base dependencies are read only.",
+  "free_disk_bytes": 349495386112
+}

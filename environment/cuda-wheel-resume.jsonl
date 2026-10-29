@@ -1,0 +1,42 @@
+{"timestamp_utc": "2026-10-28T15:45:51.014649+00:00", "status": "copied_partial", "source_bytes": 2441461760, "copied_bytes": 2441461760}
+{"timestamp_utc": "2026-10-28T15:45:51.217824+00:00", "status": "resume_started", "offset": 2441461760, "total_bytes": 2753148611, "remaining_bytes": 311686851, "official_url": "https://download.pytorch.org/whl/cu128/torch-2.11.0%2Bcu128-cp311-cp311-win_amd64.whl", "official_index_link": "https://download-r2.pytorch.org/whl/cu128/torch-2.11.0%2Bcu128-cp311-cp311-win_amd64.whl#sha256=90ef0c2454e5296a9fb021ddd42252e4ce1abe2c0a4988a173ef90a6cded0bf5", "free_bytes": 391514513408}
+{"timestamp_utc": "2026-10-28T15:45:52.370875+00:00", "status": "range_saved", "start": 2441461760, "end": 2449850367, "length": 8388608, "elapsed_s": 1.1501868999912404}
+{"timestamp_utc": "2026-10-28T15:45:55.214528+00:00", "status": "range_saved", "start": 2458238976, "end": 2466627583, "length": 8388608, "elapsed_s": 3.9918692000210285}
+{"timestamp_utc": "2026-10-28T15:45:55.664106+00:00", "status": "range_saved", "start": 2466627584, "end": 2475016191, "length": 8388608, "elapsed_s": 4.441065699968021}
+{"timestamp_utc": "2026-10-28T15:45:56.292392+00:00", "status": "range_saved", "start": 2449850368, "end": 2458238975, "length": 8388608, "elapsed_s": 5.0707984999753535}
+{"timestamp_utc": "2026-10-28T15:45:56.607575+00:00", "status": "range_saved", "start": 2475016192, "end": 2483404799, "length": 8388608, "elapsed_s": 4.23503709997749}
+{"timestamp_utc": "2026-10-28T15:45:58.218217+00:00", "status": "range_saved", "start": 2483404800, "end": 2491793407, "length": 8388608, "elapsed_s": 3.0026175000239164}
+{"timestamp_utc": "2026-10-28T15:45:59.779255+00:00", "status": "range_saved", "start": 2500182016, "end": 2508570623, "length": 8388608, "elapsed_s": 3.485790799953975}
+{"timestamp_utc": "2026-10-28T15:46:00.344486+00:00", "status": "range_saved", "start": 2491793408, "end": 2500182015, "length": 8388608, "elapsed_s": 4.679171200026758}
+{"timestamp_utc": "2026-10-28T15:46:00.516025+00:00", "status": "range_saved", "start": 2508570624, "end": 2516959231, "length": 8388608, "elapsed_s": 3.9074709999840707}
+{"timestamp_utc": "2026-10-28T15:46:01.147413+00:00", "status": "range_saved", "start": 2516959232, "end": 2525347839, "length": 8388608, "elapsed_s": 2.9284745000186376}
+{"timestamp_utc": "2026-10-28T15:46:03.082843+00:00", "status": "range_saved", "start": 2525347840, "end": 2533736447, "length": 8388608, "elapsed_s": 3.3022750999662094}
+{"timestamp_utc": "2026-10-28T15:46:04.121184+00:00", "status": "range_saved", "start": 2533736448, "end": 2542125055, "length": 8388608, "elapsed_s": 3.7749036999884993}
+{"timestamp_utc": "2026-10-28T15:46:04.529530+00:00", "status": "range_saved", "start": 2550513664, "end": 2558902271, "length": 8388608, "elapsed_s": 3.380252900009509}
+{"timestamp_utc": "2026-10-28T15:46:05.545938+00:00", "status": "range_saved", "start": 2542125056, "end": 2550513663, "length": 8388608, "elapsed_s": 5.028021299978718}
+{"timestamp_utc": "2026-10-28T15:46:06.123415+00:00", "status": "range_saved", "start": 2558902272, "end": 2567290879, "length": 8388608, "elapsed_s": 3.0383882999885827}
+{"timestamp_utc": "2026-10-28T15:46:07.020497+00:00", "status": "range_saved", "start": 2567290880, "end": 2575679487, "length": 8388608, "elapsed_s": 2.898317599960137}
+{"timestamp_utc": "2026-10-28T15:46:08.913855+00:00", "status": "range_saved", "start": 2584068096, "end": 2592456703, "length": 8388608, "elapsed_s": 3.3662717000115663}
+{"timestamp_utc": "2026-10-28T15:46:09.796702+00:00", "status": "range_saved", "start": 2592456704, "end": 2600845311, "length": 8388608, "elapsed_s": 3.6723194000078365}
+{"timestamp_utc": "2026-10-28T15:46:09.974031+00:00", "status": "range_saved", "start": 2575679488, "end": 2584068095, "length": 8388608, "elapsed_s": 5.4430983000202104}
+{"timestamp_utc": "2026-10-28T15:46:11.016080+00:00", "status": "range_saved", "start": 2600845312, "end": 2609233919, "length": 8388608, "elapsed_s": 3.9938204000354744}
+{"timestamp_utc": "2026-10-28T15:46:13.312209+00:00", "status": "range_saved", "start": 2617622528, "end": 2626011135, "length": 8388608, "elapsed_s": 3.514860499999486}
+{"timestamp_utc": "2026-10-28T15:46:13.875989+00:00", "status": "range_saved", "start": 2626011136, "end": 2634399743, "length": 8388608, "elapsed_s": 3.900589100026991}
+{"timestamp_utc": "2026-10-28T15:46:14.253228+00:00", "status": "range_saved", "start": 2609233920, "end": 2617622527, "length": 8388608, "elapsed_s": 5.338434599980246}
+{"timestamp_utc": "2026-10-28T15:46:14.930702+00:00", "status": "range_saved", "start": 2634399744, "end": 2642788351, "length": 8388608, "elapsed_s": 3.9134291000082158}
+{"timestamp_utc": "2026-10-28T15:46:16.504414+00:00", "status": "range_saved", "start": 2642788352, "end": 2651176959, "length": 8388608, "elapsed_s": 3.190156999975443}
+{"timestamp_utc": "2026-10-28T15:46:17.270039+00:00", "status": "range_saved", "start": 2651176960, "end": 2659565567, "length": 8388608, "elapsed_s": 3.3931813000235707}
+{"timestamp_utc": "2026-10-28T15:46:18.315577+00:00", "status": "range_saved", "start": 2667954176, "end": 2676342783, "length": 8388608, "elapsed_s": 3.3839243999682367}
+{"timestamp_utc": "2026-10-28T15:46:18.733467+00:00", "status": "range_saved", "start": 2659565568, "end": 2667954175, "length": 8388608, "elapsed_s": 4.479197100037709}
+{"timestamp_utc": "2026-10-28T15:46:19.418849+00:00", "status": "range_saved", "start": 2676342784, "end": 2684731391, "length": 8388608, "elapsed_s": 2.9135822000098415}
+{"timestamp_utc": "2026-10-28T15:46:20.872700+00:00", "status": "range_saved", "start": 2684731392, "end": 2693119999, "length": 8388608, "elapsed_s": 3.601050099998247}
+{"timestamp_utc": "2026-10-28T15:46:21.775443+00:00", "status": "range_saved", "start": 2701508608, "end": 2709897215, "length": 8388608, "elapsed_s": 3.0407323999679647}
+{"timestamp_utc": "2026-10-28T15:46:22.527568+00:00", "status": "range_saved", "start": 2693120000, "end": 2701508607, "length": 8388608, "elapsed_s": 4.211114400008228}
+{"timestamp_utc": "2026-10-28T15:46:24.381175+00:00", "status": "range_saved", "start": 2718285824, "end": 2726674431, "length": 8388608, "elapsed_s": 3.5072080999962054}
+{"timestamp_utc": "2026-10-28T15:46:24.493676+00:00", "status": "range_saved", "start": 2709897216, "end": 2718285823, "length": 8388608, "elapsed_s": 5.072744700009935}
+{"timestamp_utc": "2026-10-28T15:46:25.279698+00:00", "status": "range_saved", "start": 2726674432, "end": 2735063039, "length": 8388608, "elapsed_s": 3.502866399998311}
+{"timestamp_utc": "2026-10-28T15:46:25.676004+00:00", "status": "range_saved", "start": 2735063040, "end": 2743451647, "length": 8388608, "elapsed_s": 3.146303799992893}
+{"timestamp_utc": "2026-10-28T15:46:27.177567+00:00", "status": "range_saved", "start": 2743451648, "end": 2751840255, "length": 8388608, "elapsed_s": 2.7958242999739014}
+{"timestamp_utc": "2026-10-28T15:46:28.512546+00:00", "status": "range_saved", "start": 2751840256, "end": 2753148610, "length": 1308355, "elapsed_s": 4.0158958999672905}
+{"timestamp_utc": "2026-10-28T15:46:31.169712+00:00", "status": "hash_checked", "total_bytes": 2753148611, "expected_sha256": "90ef0c2454e5296a9fb021ddd42252e4ce1abe2c0a4988a173ef90a6cded0bf5", "actual_sha256": "90ef0c2454e5296a9fb021ddd42252e4ce1abe2c0a4988a173ef90a6cded0bf5", "valid": true}
+{"timestamp_utc": "2026-10-28T15:46:31.201471+00:00", "status": "wheel_ready", "path": ".cache\\wheels\\torch-2.11.0+cu128-cp311-cp311-win_amd64.whl", "bytes": 2753148611, "sha256": "90ef0c2454e5296a9fb021ddd42252e4ce1abe2c0a4988a173ef90a6cded0bf5"}

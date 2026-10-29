@@ -1,0 +1,9 @@
+Collecting wheel==0.42.0
+  Downloading wheel-0.42.0-py3-none-any.whl.metadata (2.2 kB)
+Downloading wheel-0.42.0-py3-none-any.whl (65 kB)
+   ---------------------------------------- 65.4/65.4 kB 505.8 kB/s eta 0:00:00
+Installing collected packages: wheel
+Successfully installed wheel-0.42.0
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-spar3d\Scripts\python.exe -m pip install --upgrade pip

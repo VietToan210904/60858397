@@ -1,0 +1,20 @@
+{
+  "fashion_siglip": {
+    "mode": "evaluation_inference_only_unjudged",
+    "queries": 120,
+    "catalogue_count": 600,
+    "mean_query_inference_ms": 4.325279166611533,
+    "peak_allocated_mib": 791.19873046875,
+    "quality_metrics_available": false,
+    "failures": 0
+  },
+  "siglip2": {
+    "mode": "evaluation_inference_only_unjudged",
+    "queries": 120,
+    "catalogue_count": 600,
+    "mean_query_inference_ms": 4.849625000012263,
+    "peak_allocated_mib": 1447.826171875,
+    "quality_metrics_available": false,
+    "failures": 0
+  }
+}

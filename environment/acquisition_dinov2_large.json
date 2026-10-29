@@ -1,0 +1,35 @@
+{
+  "model_id": "facebook/dinov2-large",
+  "resolved_revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+  "destination": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\dinov2_large",
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 3033,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "3d7671e166807a113f7f8d3e1b79ebf0c32bc85d"
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 549,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "5def28dd2a0ecb2561a4649703f13c4dc595ee95"
+    },
+    {
+      "path": "model.safetensors",
+      "size_bytes": 1217522888,
+      "expected_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+      "expected_git_blob_sha1": null
+    }
+  ],
+  "status": "downloaded",
+  "sha256": {
+    "README.md": "0be39948cdb4f4c364c505c039cffe26ba8097b7300bf55f361952c8b17a5fee",
+    "config.json": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+    "model.safetensors": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23"
+  },
+  "transport": "bounded_http_ranges",
+  "completed_at_utc": "2026-10-28T16:48:25.889169+00:00",
+  "free_disk_after": 353150222336,
+  "gpu_inference_performed": false
+}

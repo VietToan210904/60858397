@@ -1,0 +1,12 @@
+{
+  ".venv-spar3d": {
+    "returncode": 1,
+    "torch_import": "",
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages\\torch\\__init__.py\", line 34, in <module>\n    from typing_extensions import (\nModuleNotFoundError: No module named 'typing_extensions'"
+  },
+  ".venv-sf3d": {
+    "returncode": 1,
+    "torch_import": "",
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages\\torch\\__init__.py\", line 34, in <module>\n    from typing_extensions import (\nModuleNotFoundError: No module named 'typing_extensions'"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "timestamp_utc": "2026-10-28T16:56:36.727668+00:00",
+  "executable": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-assistance\\Scripts\\python.exe",
+  "sys_path": [
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\DLLs",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-assistance",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-assistance\\Lib\\site-packages",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages",
+    "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\src",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Roaming\\Python\\Python311\\site-packages",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\win32",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\win32\\lib",
+    "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pythonwin"
+  ],
+  "packages": {
+    "torch": {
+      "version": "2.11.0+cu128",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages",
+      "module_origin": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages\\torch\\__init__.py"
+    },
+    "torchvision": {
+      "version": "0.26.0+cu128",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages",
+      "module_origin": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-retrieval\\Lib\\site-packages\\torchvision\\__init__.py"
+    },
+    "transformers": {
+      "version": "5.5.0",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages",
+      "module_origin": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\transformers\\__init__.py"
+    },
+    "accelerate": {
+      "version": "1.13.0",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages",
+      "module_origin": "C:\\Users\\tonyh_yxuq8za\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\accelerate\\__init__.py"
+    },
+    "bitsandbytes": null,
+    "huggingface-hub": {
+      "version": "1.9.2",
+      "distribution_path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-assistance\\Lib\\site-packages",
+      "module_origin": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-assistance\\Lib\\site-packages\\huggingface_hub\\__init__.py"
+    }
+  },
+  "shared_runtime_pth": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-assistance\\Lib\\site-packages\\stylesphere-shared-runtime.pth",
+  "pth_sha256": "e7b5da4813fae270b00dfadd752ad7378412a8014ebc03f8d498b1ca0c85d3b7",
+  "gpu_development_smoke_runs": [
+    "738aa2b6705f432b8c7230b11592e22a"
+  ],
+  "final_evaluation_executed": false,
+  "note": "Isolated assistance overlay shares the existing retrieval CUDA wheel; Transformers and accelerate are inherited from the existing Python base. No CUDA drivers/toolkits or global packages were installed by this environment setup."
+}

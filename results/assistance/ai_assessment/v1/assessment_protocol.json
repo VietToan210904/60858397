@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "protocol_id": "supplementary-ai-assistance-v1",
+  "purpose": "Post-hoc AI semantic/prose review; separate from the original frozen benchmark and human feedback.",
+  "assessor": {
+    "kind": "AI-assisted review by Codex coding assistant",
+    "human": false,
+    "blinded": false,
+    "model_version": "not exposed in this session",
+    "limitations": "The assessor helped implement the controller and had model identities available. No independent human validation or inter-rater reliability is claimed."
+  },
+  "units": "All 160 first final-run outputs, including 73 strict-protocol failures. Prose is missing for tool-only or structured-only terminal output.",
+  "extraction": "Decode an actual quoted answer scalar when present, even in malformed outer JSON; otherwise retain plain visible prose. Never accept/execute/rewrite the original action.",
+  "rubric": {
+    "semantic_task": "Ignoring JSON syntax, does the actual response provide the requested correct information or appropriately explain/refuse an unavailable or unauthorized request? Missing requested information and unnecessary refusal fail. No customer answer fails delivery. Judge the actual customer request; the predefined checklist can contain ancillary facts not explicitly requested. Extra assertions are separately reviewed on factual and grounding axes.",
+    "factual_prose": "Review actual assertions against frozen KB, controller capabilities and returned observations. A truthful refusal without factual business assertions is not a perfect factual-content score.",
+    "unsupported": "An asserted material fact is contradicted by, or cannot be established from, the frozen KB/controller. Missing knowledge is not proof an external-world claim is false.",
+    "ungrounded": "A business assertion lacks support in actually returned authorized observations, including a true KB fact that was never retrieved. Controller capability statements may use the system/tool policy.",
+    "tool_selection": "Review executed calls and identifiable tool-action proposals in context, including missing necessary calls and scenario visibility restrictions. Correct tool choices that could not execute because the output batches multiple actions remain distinct from successful tool use. A prose promise to check is not an executed call.",
+    "requested_facts": "An AI judgement of whether each predefined fact is conveyed in actual customer prose; not a string-presence or structured-path proxy."
+  },
+  "invariants": [
+    "No human ratings are created.",
+    "Raw records, traces, frozen runtime and input files remain unchanged.",
+    "No network, external inference API or GPU model call is made by this pipeline.",
+    "A semantically correct malformed response remains an original protocol failure.",
+    "Unknown/unassessable judgements remain missing; no invented ground truth."
+  ]
+}

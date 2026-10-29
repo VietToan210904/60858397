@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "case_id": "dev-gen-001",
+      "seed": 8410,
+      "status": "success",
+      "timings": {
+        "inference_s": 4.5236429999931715,
+        "model_load_s": 7.162876199989114
+      },
+      "metrics": {
+        "peak_allocated_mb": 5190.650390625,
+        "peak_reserved_mb": 7482.0
+      },
+      "artifacts": {
+        "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\781ea670cda64582989fdcad8483bb3e\\sdxl_lightning\\dev-gen-001_8410.png"
+      },
+      "error": null
+    }
+  ],
+  "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-generation\\Scripts\\python.exe",
+  "device": "NVIDIA GeForce RTX 4070 SUPER",
+  "torch_version": "2.11.0+cu128",
+  "cuda_version": "12.8",
+  "source_revision": null,
+  "source_dirty": null,
+  "runtime_precision": {
+    "unet_parameter_dtypes": [
+      "torch.float16"
+    ]
+  },
+  "resolved_checkpoint_revision": "c9a24f48e1c025556787b0c58dd67a091ece2e44"
+}

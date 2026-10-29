@@ -1,0 +1,37 @@
+{
+  "run_id": "781ea670cda64582989fdcad8483bb3e",
+  "case_id": "dev-gen-001",
+  "mode": "smoke",
+  "inspector": "AI assistant visual inspection",
+  "human_rating": false,
+  "image_dimensions": [
+    1024,
+    1024
+  ],
+  "image_sha256": "cda0dc9f3df3faa21324a9863c8eb62b76445a1e015e2771a5cc00df0dc1337b",
+  "observation": "The generated image visibly depicts two tan loafers on a light background; the development brief requested one loafer. This is a development observation, not a human usability or quality rating.",
+  "human_ratings_prefilled": false,
+  "metrics": {
+    "peak_allocated_mb": 5190.650390625,
+    "peak_reserved_mb": 7482.0,
+    "valid_output": 1
+  },
+  "timings": {
+    "inference_s": 4.5236429999931715,
+    "model_load_s": 7.162876199989114
+  },
+  "execution": {
+    "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-generation\\Scripts\\python.exe",
+    "device": "NVIDIA GeForce RTX 4070 SUPER",
+    "torch_version": "2.11.0+cu128",
+    "cuda_version": "12.8",
+    "source_revision": null,
+    "source_dirty": null,
+    "resolved_checkpoint_revision": "c9a24f48e1c025556787b0c58dd67a091ece2e44",
+    "runtime_precision": {
+      "unet_parameter_dtypes": [
+        "torch.float16"
+      ]
+    }
+  }
+}

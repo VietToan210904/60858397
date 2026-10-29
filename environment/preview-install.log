@@ -1,0 +1,34 @@
+Collecting numpy==1.26.4
+  Downloading numpy-1.26.4-cp311-cp311-win_amd64.whl.metadata (61 kB)
+     ---------------------------------------- 61.0/61.0 kB 3.4 MB/s eta 0:00:00
+Collecting pyrender==0.1.45
+  Downloading pyrender-0.1.45-py3-none-any.whl.metadata (1.5 kB)
+Collecting pyglet==1.5.31
+  Downloading pyglet-1.5.31-py3-none-any.whl.metadata (7.6 kB)
+Collecting PyOpenGL==3.1.0
+  Downloading PyOpenGL-3.1.0.zip (2.2 MB)
+     ---------------------------------------- 2.2/2.2 MB 5.0 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting freetype-py==2.5.1
+  Downloading freetype_py-2.5.1-py3-none-win_amd64.whl.metadata (6.5 kB)
+Collecting imageio==2.37.3
+  Downloading imageio-2.37.3-py3-none-any.whl.metadata (9.7 kB)
+Downloading numpy-1.26.4-cp311-cp311-win_amd64.whl (15.8 MB)
+   ---------------------------------------- 15.8/15.8 MB 5.0 MB/s eta 0:00:00
+Downloading pyrender-0.1.45-py3-none-any.whl (1.2 MB)
+   ---------------------------------------- 1.2/1.2 MB 9.6 MB/s eta 0:00:00
+Downloading pyglet-1.5.31-py3-none-any.whl (1.1 MB)
+   ---------------------------------------- 1.1/1.1 MB 8.0 MB/s eta 0:00:00
+Downloading freetype_py-2.5.1-py3-none-win_amd64.whl (814 kB)
+   ---------------------------------------- 814.6/814.6 kB 6.4 MB/s eta 0:00:00
+Downloading imageio-2.37.3-py3-none-any.whl (317 kB)
+   ---------------------------------------- 317.6/317.6 kB 4.9 MB/s eta 0:00:00
+Building wheels for collected packages: PyOpenGL
+  Building wheel for PyOpenGL (setup.py): started
+  Building wheel for PyOpenGL (setup.py): finished with status 'done'
+  Created wheel for PyOpenGL: filename=pyopengl-3.1.0-py3-none-any.whl size=1749357 sha256=7353d18f90abf0d2c11c184981763fcf4e5773ab2cf5741e9af11cc2de1d2a25
+  Stored in directory: c:\users\tonyh_yxuq8za\60858397_evaluation\.cache\pip-preview\wheels\2f\37\f5\f88cd3dddf75bc3ce608e44bf8a79078c408bf1f351a50818e
+Successfully built PyOpenGL
+Installing collected packages: pyrender, PyOpenGL, pyglet, numpy, imageio, freetype-py
+Successfully installed PyOpenGL-3.1.0 freetype-py-2.5.1 imageio-2.37.3 numpy-1.26.4 pyglet-1.5.31 pyrender-0.1.45

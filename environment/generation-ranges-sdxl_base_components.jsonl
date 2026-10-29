@@ -1,0 +1,267 @@
+{"timestamp_utc": "2026-10-28T16:27:49.057950+00:00", "status": "file_verified", "path": "LICENSE.md", "bytes": 14109, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.058952+00:00", "status": "file_verified", "path": "README.md", "bytes": 8668, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.058952+00:00", "status": "file_verified", "path": "model_index.json", "bytes": 609, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.059951+00:00", "status": "file_verified", "path": "scheduler/scheduler_config.json", "bytes": 479, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.060948+00:00", "status": "file_verified", "path": "text_encoder/config.json", "bytes": 565, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.062949+00:00", "status": "prefix_preserved", "path": "text_encoder/model.fp16.safetensors", "prefix_bytes": 0}
+{"timestamp_utc": "2026-10-28T16:27:49.063954+00:00", "status": "file_verified", "path": "text_encoder_2/config.json", "bytes": 575, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.065044+00:00", "status": "prefix_preserved", "path": "text_encoder_2/model.fp16.safetensors", "prefix_bytes": 0}
+{"timestamp_utc": "2026-10-28T16:27:49.066044+00:00", "status": "file_verified", "path": "tokenizer/merges.txt", "bytes": 524619, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.067046+00:00", "status": "file_verified", "path": "tokenizer/special_tokens_map.json", "bytes": 472, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.067046+00:00", "status": "file_verified", "path": "tokenizer/tokenizer_config.json", "bytes": 737, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.068064+00:00", "status": "file_verified", "path": "tokenizer/vocab.json", "bytes": 1059962, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.069263+00:00", "status": "file_verified", "path": "tokenizer_2/merges.txt", "bytes": 524619, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.070262+00:00", "status": "file_verified", "path": "tokenizer_2/special_tokens_map.json", "bytes": 460, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.070262+00:00", "status": "file_verified", "path": "tokenizer_2/tokenizer_config.json", "bytes": 725, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.071262+00:00", "status": "file_verified", "path": "tokenizer_2/vocab.json", "bytes": 1059962, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.071262+00:00", "status": "file_verified", "path": "unet/config.json", "bytes": 1680, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.072264+00:00", "status": "file_verified", "path": "vae/config.json", "bytes": 642, "reused": true}
+{"timestamp_utc": "2026-10-28T16:27:49.073277+00:00", "status": "prefix_preserved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "prefix_bytes": 0}
+{"timestamp_utc": "2026-10-28T16:27:49.073277+00:00", "status": "download_started", "model_id": "stabilityai/stable-diffusion-xl-base-1.0", "revision": "462165984030d82259a11f4367a4eed129e94a7b", "remaining_bytes": 1802861670, "ranges": 216, "workers": 4}
+{"timestamp_utc": "2026-10-28T16:27:58.531934+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 8388608, "end": 16777215, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:00.324774+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 25165824, "end": 33554431, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:00.633393+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 16777216, "end": 25165823, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:02.650408+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 0, "end": 8388607, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:03.893570+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 33554432, "end": 41943039, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:07.850589+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 50331648, "end": 58720255, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:08.039334+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 41943040, "end": 50331647, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:09.768083+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 58720256, "end": 67108863, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:13.005931+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 75497472, "end": 83886079, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:13.399402+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 83886080, "end": 92274687, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:16.282758+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 92274688, "end": 100663295, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:18.779192+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 100663296, "end": 109051903, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:18.970828+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 109051904, "end": 117440511, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:23.142874+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 117440512, "end": 125829119, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:25.366667+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 134217728, "end": 142606335, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:25.516470+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 125829120, "end": 134217727, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:28.857137+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 142606336, "end": 150994943, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:32.131362+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 150994944, "end": 159383551, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:33.006663+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 159383552, "end": 167772159, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:35.175256+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 67108864, "end": 75497471, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:36.048619+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 167772160, "end": 176160767, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:38.763517+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 184549376, "end": 192937983, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:42.519961+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 192937984, "end": 201326591, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:45.266271+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 176160768, "end": 184549375, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:45.820109+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 209715200, "end": 218103807, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:52.488935+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 226492416, "end": 234881023, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:52.512571+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 218103808, "end": 226492415, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:55.730361+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 201326592, "end": 209715199, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:28:58.085107+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 243269632, "end": 246144151, "bytes": 2874520}
+{"timestamp_utc": "2026-10-28T16:28:58.982064+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 0, "end": 8388607, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:04.193758+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 16777216, "end": 25165823, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:04.748650+00:00", "status": "range_saved", "path": "text_encoder/model.fp16.safetensors", "start": 234881024, "end": 243269631, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:05.491536+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 8388608, "end": 16777215, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:07.527046+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 25165824, "end": 33554431, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:10.031947+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 41943040, "end": 50331647, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:11.929911+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 50331648, "end": 58720255, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:14.000140+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 58720256, "end": 67108863, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:16.136838+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 67108864, "end": 75497471, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:17.751339+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 75497472, "end": 83886079, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:20.559217+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 83886080, "end": 92274687, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:23.009679+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 100663296, "end": 109051903, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:26.954900+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 109051904, "end": 117440511, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:29.846183+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 117440512, "end": 125829119, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:31.168286+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 125829120, "end": 134217727, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:34.325163+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 134217728, "end": 142606335, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:34.422781+00:00", "status": "range_retry", "path": "text_encoder_2/model.fp16.safetensors", "start": 33554432, "end": 41943039, "attempt": 1, "error": "TimeoutError: The read operation timed out"}
+{"timestamp_utc": "2026-10-28T16:29:36.994225+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 142606336, "end": 150994943, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:41.781617+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 159383552, "end": 167772159, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:48.223264+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 150994944, "end": 159383551, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:48.362132+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 167772160, "end": 176160767, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:49.452357+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 33554432, "end": 41943039, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:52.022334+00:00", "status": "range_retry", "path": "text_encoder_2/model.fp16.safetensors", "start": 92274688, "end": 100663295, "attempt": 1, "error": "TimeoutError: The read operation timed out"}
+{"timestamp_utc": "2026-10-28T16:29:55.991279+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 184549376, "end": 192937983, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:57.030010+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 192937984, "end": 201326591, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:29:58.621487+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 92274688, "end": 100663295, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:02.163537+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 209715200, "end": 218103807, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:03.778754+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 218103808, "end": 226492415, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:06.888021+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 226492416, "end": 234881023, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:08.947261+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 234881024, "end": 243269631, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:12.138475+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 243269632, "end": 251658239, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:15.495807+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 251658240, "end": 260046847, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:16.567276+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 260046848, "end": 268435455, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:20.271815+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 268435456, "end": 276824063, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:23.609843+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 276824064, "end": 285212671, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:24.046964+00:00", "status": "range_retry", "path": "text_encoder_2/model.fp16.safetensors", "start": 176160768, "end": 184549375, "attempt": 1, "error": "TimeoutError: The read operation timed out"}
+{"timestamp_utc": "2026-10-28T16:30:25.076644+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 285212672, "end": 293601279, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:29.183698+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 293601280, "end": 301989887, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:31.339180+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 176160768, "end": 184549375, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:31.362780+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 301989888, "end": 310378495, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:34.998231+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 310378496, "end": 318767103, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:37.089178+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 318767104, "end": 327155711, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:38.786130+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 327155712, "end": 335544319, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:41.313913+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 335544320, "end": 343932927, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:43.562599+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 343932928, "end": 352321535, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:45.123382+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 352321536, "end": 360710143, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:47.887257+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 360710144, "end": 369098751, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:50.447909+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 369098752, "end": 377487359, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:52.209979+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 377487360, "end": 385875967, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:57.341236+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 385875968, "end": 394264575, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:30:58.673465+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 394264576, "end": 402653183, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:05.326585+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 411041792, "end": 419430399, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:06.650838+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 419430400, "end": 427819007, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:06.877372+00:00", "status": "range_retry", "path": "text_encoder_2/model.fp16.safetensors", "start": 201326592, "end": 209715199, "attempt": 1, "error": "TimeoutError: Bounded range exceeded the 60-second body deadline"}
+{"timestamp_utc": "2026-10-28T16:31:12.337654+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 427819008, "end": 436207615, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:14.251813+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 436207616, "end": 444596223, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:15.227244+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 201326592, "end": 209715199, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:17.079617+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 402653184, "end": 411041791, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:22.517339+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 461373440, "end": 469762047, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:23.543810+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 452984832, "end": 461373439, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:24.392821+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 444596224, "end": 452984831, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:28.094874+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 469762048, "end": 478150655, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:35.881361+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 478150656, "end": 486539263, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:38.854632+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 503316480, "end": 511705087, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:46.656990+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 511705088, "end": 520093695, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:47.414591+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 486539264, "end": 494927871, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:48.452608+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 494927872, "end": 503316479, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:48.832286+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 520093696, "end": 528482303, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:53.183937+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 528482304, "end": 536870911, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:31:58.771560+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 553648128, "end": 562036735, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:01.978211+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 545259520, "end": 553648127, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:02.432104+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 562036736, "end": 570425343, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:04.403278+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 570425344, "end": 578813951, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:09.550206+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 587202560, "end": 595591167, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:10.541226+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 595591168, "end": 603979775, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:15.047673+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 578813952, "end": 587202559, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:15.452757+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 603979776, "end": 612368383, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:16.749773+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 612368384, "end": 620756991, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:19.430977+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 620756992, "end": 629145599, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:22.619186+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 637534208, "end": 645922815, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:22.796056+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 629145600, "end": 637534207, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:29.027496+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 662700032, "end": 671088639, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:29.125734+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 654311424, "end": 662700031, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:31.373786+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 645922816, "end": 654311423, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:34.150619+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 679477248, "end": 687865855, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:34.669115+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 671088640, "end": 679477247, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:39.955030+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 687865856, "end": 696254463, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:42.563330+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 696254464, "end": 704643071, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:43.945046+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 704643072, "end": 713031679, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:46.446528+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 713031680, "end": 721420287, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:48.263422+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 721420288, "end": 729808895, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:49.459336+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 729808896, "end": 738197503, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:52.082727+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 738197504, "end": 746586111, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:32:57.848755+00:00", "status": "range_retry", "path": "text_encoder_2/model.fp16.safetensors", "start": 536870912, "end": 545259519, "attempt": 1, "error": "TimeoutError: Bounded range exceeded the 60-second body deadline"}
+{"timestamp_utc": "2026-10-28T16:32:57.947861+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 763363328, "end": 771751935, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:01.570043+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 746586112, "end": 754974719, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:11.638688+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 754974720, "end": 763363327, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:12.501478+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 536870912, "end": 545259519, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:13.288245+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 780140544, "end": 788529151, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:19.934306+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 771751936, "end": 780140543, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:20.058370+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 788529152, "end": 796917759, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:21.139373+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 796917760, "end": 805306367, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:22.293309+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 805306368, "end": 813694975, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:25.930983+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 822083584, "end": 830472191, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:29.529326+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 838860800, "end": 847249407, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:29.932500+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 830472192, "end": 838860799, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:31.934797+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 847249408, "end": 855638015, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:37.300343+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 864026624, "end": 872415231, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:38.004160+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 855638016, "end": 864026623, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:40.054691+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 813694976, "end": 822083583, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:41.198703+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 872415232, "end": 880803839, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:46.606102+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 880803840, "end": 889192447, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:48.031609+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 889192448, "end": 897581055, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:55.061738+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 914358272, "end": 922746879, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:33:58.771838+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 922746880, "end": 931135487, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:07.942398+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 939524096, "end": 947912703, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:10.696390+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 897581056, "end": 905969663, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:14.471644+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 905969664, "end": 914358271, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:18.315557+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 947912704, "end": 956301311, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:18.414588+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 956301312, "end": 964689919, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:18.508357+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 931135488, "end": 939524095, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:23.735137+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 964689920, "end": 973078527, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:26.558664+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 981467136, "end": 989855743, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:26.945906+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 973078528, "end": 981467135, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:28.654838+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 989855744, "end": 998244351, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:35.127521+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 998244352, "end": 1006632959, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:35.765411+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1015021568, "end": 1023410175, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:36.801524+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1006632960, "end": 1015021567, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:37.626583+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1023410176, "end": 1031798783, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:44.590399+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1040187392, "end": 1048575999, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:46.975773+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1031798784, "end": 1040187391, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:47.693639+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1056964608, "end": 1065353215, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:47.839770+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1048576000, "end": 1056964607, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:51.421986+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1065353216, "end": 1073741823, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:55.036837+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1082130432, "end": 1090519039, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:55.339735+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1073741824, "end": 1082130431, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:34:57.710464+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1090519040, "end": 1098907647, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:04.420281+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1107296256, "end": 1115684863, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:06.092351+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1098907648, "end": 1107296255, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:06.133957+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1115684864, "end": 1124073471, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:06.163164+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1124073472, "end": 1132462079, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:21.494163+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1140850688, "end": 1149239295, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:26.124419+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1149239296, "end": 1157627903, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:29.674270+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1166016512, "end": 1174405119, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:32.059406+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1132462080, "end": 1140850687, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:35.656510+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1174405120, "end": 1182793727, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:40.697857+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1191182336, "end": 1199570943, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:42.115786+00:00", "status": "range_retry", "path": "text_encoder_2/model.fp16.safetensors", "start": 1157627904, "end": 1166016511, "attempt": 1, "error": "TimeoutError: The read operation timed out"}
+{"timestamp_utc": "2026-10-28T16:35:42.908168+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1182793728, "end": 1191182335, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:43.137881+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1199570944, "end": 1207959551, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:51.080295+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1207959552, "end": 1216348159, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:51.566557+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1216348160, "end": 1224736767, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:56.947914+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1224736768, "end": 1233125375, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:35:57.786907+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1157627904, "end": 1166016511, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:04.800190+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1233125376, "end": 1241513983, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:05.221758+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1241513984, "end": 1249902591, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:12.986936+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1249902592, "end": 1258291199, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:22.117354+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1283457024, "end": 1291845631, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:29.540537+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1258291200, "end": 1266679807, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:29.972180+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1275068416, "end": 1283457023, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:31.841812+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1291845632, "end": 1300234239, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:35.516804+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1266679808, "end": 1275068415, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:37.028116+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1300234240, "end": 1308622847, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:44.727154+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1325400064, "end": 1333788671, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:48.294779+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1333788672, "end": 1342177279, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:49.501170+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1308622848, "end": 1317011455, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:52.481792+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1342177280, "end": 1350565887, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:55.805515+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1350565888, "end": 1358954495, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:36:57.917744+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1358954496, "end": 1367343103, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:01.405560+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1317011456, "end": 1325400063, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:03.714068+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1375731712, "end": 1384120319, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:06.767452+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1384120320, "end": 1389382175, "bytes": 5261856}
+{"timestamp_utc": "2026-10-28T16:37:14.323167+00:00", "status": "range_saved", "path": "text_encoder_2/model.fp16.safetensors", "start": 1367343104, "end": 1375731711, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:14.698878+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 16777216, "end": 25165823, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:25.896749+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 0, "end": 8388607, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:26.281518+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 33554432, "end": 41943039, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:28.227047+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 25165824, "end": 33554431, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:28.240219+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 8388608, "end": 16777215, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:36.072264+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 67108864, "end": 75497471, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:37.844873+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 58720256, "end": 67108863, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:45.103477+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 41943040, "end": 50331647, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:51.817073+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 92274688, "end": 100663295, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:54.253422+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 75497472, "end": 83886079, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:55.564495+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 50331648, "end": 58720255, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:57.671242+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 83886080, "end": 92274687, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:37:59.632126+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 100663296, "end": 109051903, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:38:02.256670+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 109051904, "end": 117440511, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:38:03.300190+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 117440512, "end": 125829119, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:38:07.505898+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 134217728, "end": 142606335, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:38:09.658966+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 125829120, "end": 134217727, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:38:10.317602+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 150994944, "end": 159383551, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:38:10.625385+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 142606336, "end": 150994943, "bytes": 8388608}
+{"timestamp_utc": "2026-10-28T16:38:15.014904+00:00", "status": "range_saved", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "start": 159383552, "end": 167335341, "bytes": 7951790}
+{"timestamp_utc": "2026-10-28T16:38:15.215563+00:00", "status": "file_verified", "path": "text_encoder/model.fp16.safetensors", "bytes": 246144152, "sha256": "660c6f5b1abae9dc498ac2d21e1347d2abdb0cf6c0c0c8576cd796491d9a6cdd", "reused": false}
+{"timestamp_utc": "2026-10-28T16:38:16.242362+00:00", "status": "file_verified", "path": "text_encoder_2/model.fp16.safetensors", "bytes": 1389382176, "sha256": "ec310df2af79c318e24d20511b601a591ca8cd4f1fce1d8dff822a356bcdb1f4", "reused": false}
+{"timestamp_utc": "2026-10-28T16:38:16.372513+00:00", "status": "file_verified", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "bytes": 167335342, "sha256": "bcb60880a46b63dea58e9bc591abe15f8350bde47b405f9c38f4be70c6161e68", "reused": false}
+{"timestamp_utc": "2026-10-28T16:38:17.875852+00:00", "status": "download_complete", "model_id": "stabilityai/stable-diffusion-xl-base-1.0", "files": 19}
+{"timestamp_utc": "2026-10-28T16:59:45.198118+00:00", "status": "file_verified", "path": "LICENSE.md", "bytes": 14109, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:45.199120+00:00", "status": "file_verified", "path": "README.md", "bytes": 8668, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:45.201267+00:00", "status": "file_verified", "path": "model_index.json", "bytes": 609, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:45.202269+00:00", "status": "file_verified", "path": "scheduler/scheduler_config.json", "bytes": 479, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:45.203266+00:00", "status": "file_verified", "path": "text_encoder/config.json", "bytes": 565, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:45.386113+00:00", "status": "file_verified", "path": "text_encoder/model.fp16.safetensors", "bytes": 246144152, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:45.387113+00:00", "status": "file_verified", "path": "text_encoder_2/config.json", "bytes": 575, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:46.450089+00:00", "status": "file_verified", "path": "text_encoder_2/model.fp16.safetensors", "bytes": 1389382176, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:46.451163+00:00", "status": "file_verified", "path": "tokenizer/merges.txt", "bytes": 524619, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:46.452163+00:00", "status": "file_verified", "path": "tokenizer/special_tokens_map.json", "bytes": 472, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:46.453163+00:00", "status": "file_verified", "path": "tokenizer/tokenizer_config.json", "bytes": 737, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:46.453163+00:00", "status": "file_verified", "path": "tokenizer/vocab.json", "bytes": 1059962, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:46.454162+00:00", "status": "file_verified", "path": "tokenizer_2/merges.txt", "bytes": 524619, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:46.455161+00:00", "status": "file_verified", "path": "tokenizer_2/special_tokens_map.json", "bytes": 460, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:46.455161+00:00", "status": "file_verified", "path": "tokenizer_2/tokenizer_config.json", "bytes": 725, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:46.456164+00:00", "status": "file_verified", "path": "tokenizer_2/vocab.json", "bytes": 1059962, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:46.456164+00:00", "status": "file_verified", "path": "unet/config.json", "bytes": 1680, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:46.457164+00:00", "status": "file_verified", "path": "vae/config.json", "bytes": 642, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:46.578763+00:00", "status": "file_verified", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "bytes": 167335342, "reused": true}
+{"timestamp_utc": "2026-10-28T16:59:46.578763+00:00", "status": "download_started", "model_id": "stabilityai/stable-diffusion-xl-base-1.0", "revision": "462165984030d82259a11f4367a4eed129e94a7b", "remaining_bytes": 0, "ranges": 0, "workers": 8}
+{"timestamp_utc": "2026-10-28T16:59:48.032254+00:00", "status": "download_complete", "model_id": "stabilityai/stable-diffusion-xl-base-1.0", "files": 19}

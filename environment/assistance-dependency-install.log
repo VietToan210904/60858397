@@ -1,0 +1,7 @@
+WARNING: Ignoring invalid distribution ~uggingface-hub (C:\Users\tonyh_yxuq8za\AppData\Local\Programs\Python\Python311\Lib\site-packages)
+Collecting huggingface-hub==1.9.2
+  Downloading huggingface_hub-1.9.2-py3-none-any.whl.metadata (14 kB)
+Downloading huggingface_hub-1.9.2-py3-none-any.whl (637 kB)
+   ---------------------------------------- 637.3/637.3 kB 5.0 MB/s eta 0:00:00
+Installing collected packages: huggingface-hub
+Successfully installed huggingface-hub-1.9.2

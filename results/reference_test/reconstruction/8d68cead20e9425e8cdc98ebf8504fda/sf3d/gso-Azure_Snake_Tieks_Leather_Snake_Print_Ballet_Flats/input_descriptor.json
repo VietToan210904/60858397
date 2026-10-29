@@ -1,0 +1,33 @@
+{
+  "file_sha256": {
+    "camera_info": "ad333b9524087e1ddec7d33a9d41d6925afb06e2e9d33baf14a4e7c5430ab2f3",
+    "preparation_metadata": "59977d8d03c713022023d3ef4e3578fad2fd55046e771de942e9ba28eb71aebd",
+    "reference_mesh": "5d31f020e4333a30841c6c88796448996450aa6f1ad37e911195e54dd47b18b2",
+    "source_image": "efcbb1725128260a91291098b90bb34e5dd9f2358cc917a4545cf6f619b8cbaf",
+    "view_0_reference_rgb": "1d9a284449676f69e7264d98e6ced64dc6f462a002276a155cb567acdc46f136",
+    "view_0_reference_silhouette": "c740564a686b1d6e1d37b35400935cbe5863aa5b9fd656745af7243f0539ff16",
+    "view_1_reference_rgb": "1a30e230c9d0bda8659c9a34aa98bf53b2e648fd7a3130b68c032a9d8eaf1955",
+    "view_1_reference_silhouette": "991bd14dde478ac4dc5a5841895b818c411f96f4545c433ead1799c82b39cbea",
+    "view_2_reference_rgb": "b3f3acc560ef9d313fe58f8ed2acd9b201d90ec9f38d72efe050979721cfdb8e",
+    "view_2_reference_silhouette": "e9047579c5fb0359a690b33392d203947840e0c7371b3cc05d653be941d195d8",
+    "view_3_reference_rgb": "6dede20de72abd0373cbb1a14299e2f51bcbd4e0dc67fa64392363e4ebd75af3",
+    "view_3_reference_silhouette": "6f1a812a220edf2075f223864ffc9642b5a8a40324095a95f551a7e261e69f97"
+  },
+  "manifest": {
+    "camera_info": "datasets/reconstruction_reference/assets/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/camera_info.json",
+    "category": "shoe",
+    "geometry_eligible": "false",
+    "image_sha256": "efcbb1725128260a91291098b90bb34e5dd9f2358cc917a4545cf6f619b8cbaf",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "5d31f020e4333a30841c6c88796448996450aa6f1ad37e911195e54dd47b18b2",
+    "object_id": "gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats",
+    "preparation_metadata": "datasets/reconstruction_reference/assets/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "datasets/reconstruction_reference/assets/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/reference.glb",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Google Scanned Objects",
+    "source_image": "datasets/reconstruction_reference/assets/gso-Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/input.png",
+    "source_revision": "GoogleResearch/Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/v1;zip-sha256:5b57fa72a2ec04f135a5219bba159bb64c8835e7039c148d1650014741a9766b"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "count": 120,
+  "origin": "AI-assisted authored controlled hypothetical shopping requests, not real customer observations",
+  "design": "12 product families crossed with10 predefined attribute/use-case descriptions",
+  "model_predictions_consulted": false,
+  "relevance_judgements_created": false,
+  "independent_human_relevance_required": true,
+  "sampling_frame": "footwear and fashion accessories; no apparel coverage claimed"
+}

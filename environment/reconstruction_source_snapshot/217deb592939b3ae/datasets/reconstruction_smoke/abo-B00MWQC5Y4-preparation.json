@@ -1,0 +1,51 @@
+{
+  "input_kind": "real_catalogue_photo",
+  "synthetic": false,
+  "original_source_image": "datasets/reconstruction_smoke/assets/B00MWQC5Y4-source.jpg",
+  "original_sha256": "c0b8c898df5c6b7d7095594ec96280fd9761259d6ac6d1f8a73ce7e5c33b3598",
+  "original_size": [
+    1175,
+    2182
+  ],
+  "prepared_size": [
+    551,
+    1024
+  ],
+  "prepared_sha256": "0f01dd7337405ca593f307fbdfe1d5999dc30527dc6608a898d65803b0807b2d",
+  "resize": {
+    "maximum_side": 1024,
+    "filter": "PIL LANCZOS",
+    "preserve_aspect_ratio": true
+  },
+  "background_removal": {
+    "library": "rembg",
+    "version": "2.0.57",
+    "model": "u2netp",
+    "source_url": "https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2netp.onnx",
+    "model_sha256": "309c8469258dda742793dce0ebea8e6dd393174f89934733ecc8b14c76f4ddd8",
+    "model_md5": "8e83ca70e441ab06c318d82300c84806",
+    "model_bytes": 4574861,
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "alpha_matting": false,
+    "post_process_mask": false
+  },
+  "alpha_foreground_fraction_over_127": 0.40813400351633394,
+  "human_review_status": "pending",
+  "same_prepared_input_for_models": [
+    "SPAR3D",
+    "Stable Fast 3D"
+  ],
+  "reference_geometry_available": false,
+  "camera_calibration_available": false,
+  "metric_eligibility": {
+    "geometry": false,
+    "silhouette": false,
+    "render_similarity": false
+  },
+  "source_id": "B00MWQC5Y4",
+  "source_url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/91/91575c1a.jpg",
+  "original_image": "datasets/reconstruction_smoke/assets/B00MWQC5Y4-source.jpg",
+  "prepared_image_sha256": "0f01dd7337405ca593f307fbdfe1d5999dc30527dc6608a898d65803b0807b2d"
+}

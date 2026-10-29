@@ -1,0 +1,3746 @@
+{
+  "generated_at_utc": "2026-10-29T00:02:51.873384+00:00",
+  "requested_scope": "four pairs / eight models, Evaluation Codes and Data",
+  "original_attempts": 584,
+  "original_completed": 511,
+  "original_protocol_failures": 73,
+  "performance": [
+    {
+      "pair": "retrieval",
+      "model": "fashion_siglip",
+      "run_id": "24512250744c475fb358342058a8a043",
+      "attempts": 120,
+      "completed": 120,
+      "failed": 0,
+      "timing_window": "query_inference_s",
+      "mean_seconds": 0.004325279166611532,
+      "max_allocated_mib": 791.19873046875,
+      "max_reserved_mib": 942.0
+    },
+    {
+      "pair": "retrieval",
+      "model": "siglip2",
+      "run_id": "24512250744c475fb358342058a8a043",
+      "attempts": 120,
+      "completed": 120,
+      "failed": 0,
+      "timing_window": "query_inference_s",
+      "mean_seconds": 0.0048496250000122625,
+      "max_allocated_mib": 1447.826171875,
+      "max_reserved_mib": 1620.0
+    },
+    {
+      "pair": "generation",
+      "model": "sdxl_lightning",
+      "run_id": "c72db9e579f046999779f6fba62b7849",
+      "attempts": 72,
+      "completed": 72,
+      "failed": 0,
+      "timing_window": "inference_s",
+      "mean_seconds": 3.78612441250233,
+      "max_allocated_mib": 5190.650390625,
+      "max_reserved_mib": 7482.0
+    },
+    {
+      "pair": "generation",
+      "model": "flux2_klein",
+      "run_id": "9a379c1a438b447a871f4c16f5e78417",
+      "attempts": 72,
+      "completed": 72,
+      "failed": 0,
+      "timing_window": "inference_s",
+      "mean_seconds": 5.642197766663028,
+      "max_allocated_mib": 9196.83935546875,
+      "max_reserved_mib": 10430.0
+    },
+    {
+      "pair": "assistance",
+      "model": "phi4_mini",
+      "run_id": "d9923b2e32d54eb0955cbc11cc801808",
+      "attempts": 80,
+      "completed": 40,
+      "failed": 40,
+      "timing_window": "end_to_end_s",
+      "mean_seconds": 3.3729994500012253,
+      "max_allocated_mib": 8131.55126953125,
+      "max_reserved_mib": 9040.0
+    },
+    {
+      "pair": "assistance",
+      "model": "qwen35_4b",
+      "run_id": "ae13ded36915404e929fa8428f956235",
+      "attempts": 80,
+      "completed": 47,
+      "failed": 33,
+      "timing_window": "end_to_end_s",
+      "mean_seconds": 5.785769521249312,
+      "max_allocated_mib": 12179.82861328125,
+      "max_reserved_mib": 13800.0
+    },
+    {
+      "pair": "reconstruction",
+      "model": "sf3d",
+      "run_id": "7685fb6f464d4360a1ebadb8b1994d49",
+      "attempts": 20,
+      "completed": 20,
+      "failed": 0,
+      "timing_window": "inference_s",
+      "mean_seconds": 0.6777561599941692,
+      "max_allocated_mib": 6128.98291015625,
+      "max_reserved_mib": 7342.0
+    },
+    {
+      "pair": "reconstruction",
+      "model": "spar3d",
+      "run_id": "d088458f86e447f58e6c81f257cbb027",
+      "attempts": 20,
+      "completed": 20,
+      "failed": 0,
+      "timing_window": "inference_s",
+      "mean_seconds": 12.709199215000263,
+      "max_allocated_mib": 8021.24658203125,
+      "max_reserved_mib": 8484.0
+    }
+  ],
+  "retrieval": {
+    "schema_version": 1,
+    "generated_at_utc": "2026-10-28T23:51:03.211284+00:00",
+    "assessment_kind": "supplementary_AI_proxy_not_human_ground_truth",
+    "n_queries": 120,
+    "n_model_queries": 240,
+    "run_ids": [
+      "24512250744c475fb358342058a8a043"
+    ],
+    "rows": [
+      {
+        "model": "fashion_siglip",
+        "n_queries": 120,
+        "metrics": {
+          "known_labels_unknown_zero_gain": {
+            "ndcg_at_10": {
+              "mean": 0.7822980618076177,
+              "n_assessable": 115,
+              "n_missing": 5
+            },
+            "mrr_at_10": {
+              "mean": 0.7711441798941798,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "hit_at_10": {
+              "mean": 0.8666666666666667,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "precision_at_10": {
+              "mean": 0.49166666666666686,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "recall_at_10": {
+              "mean": 0.5298597608020216,
+              "n_assessable": 104,
+              "n_missing": 16
+            },
+            "n_relevant": {
+              "mean": 19.741666666666667,
+              "n_assessable": 120,
+              "n_missing": 0
+            }
+          },
+          "all_unknown_grade3_sensitivity": {
+            "ndcg_at_10": {
+              "mean": 0.6885496485586723,
+              "n_assessable": 119,
+              "n_missing": 1
+            },
+            "mrr_at_10": {
+              "mean": 0.79551917989418,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "hit_at_10": {
+              "mean": 0.9083333333333333,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "precision_at_10": {
+              "mean": 0.5133333333333335,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "recall_at_10": {
+              "mean": 0.41958079821970695,
+              "n_assessable": 117,
+              "n_missing": 3
+            },
+            "n_relevant": {
+              "mean": 21.575,
+              "n_assessable": 120,
+              "n_missing": 0
+            }
+          },
+          "conservative_bounds": {
+            "ndcg_at_10_lower": {
+              "mean": 0.653092825008586,
+              "n_assessable": 119,
+              "n_missing": 1
+            },
+            "ndcg_at_10_upper": {
+              "mean": 0.8162968276065244,
+              "n_assessable": 119,
+              "n_missing": 1
+            },
+            "hit_at_10_lower": {
+              "mean": 0.8666666666666667,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "hit_at_10_upper": {
+              "mean": 0.9083333333333333,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "mrr_at_10_lower": {
+              "mean": 0.7711441798941798,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "mrr_at_10_upper": {
+              "mean": 0.79551917989418,
+              "n_assessable": 120,
+              "n_missing": 0
+            }
+          }
+        },
+        "mean_judged_coverage_at_10": 0.9783333333333334,
+        "n_queries_all_catalogue_complete": 50
+      },
+      {
+        "model": "siglip2",
+        "n_queries": 120,
+        "metrics": {
+          "known_labels_unknown_zero_gain": {
+            "ndcg_at_10": {
+              "mean": 0.7648789389389241,
+              "n_assessable": 115,
+              "n_missing": 5
+            },
+            "mrr_at_10": {
+              "mean": 0.7341765873015872,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "hit_at_10": {
+              "mean": 0.8666666666666667,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "precision_at_10": {
+              "mean": 0.4808333333333335,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "recall_at_10": {
+              "mean": 0.5328119007418924,
+              "n_assessable": 104,
+              "n_missing": 16
+            },
+            "n_relevant": {
+              "mean": 19.741666666666667,
+              "n_assessable": 120,
+              "n_missing": 0
+            }
+          },
+          "all_unknown_grade3_sensitivity": {
+            "ndcg_at_10": {
+              "mean": 0.6804718587892091,
+              "n_assessable": 119,
+              "n_missing": 1
+            },
+            "mrr_at_10": {
+              "mean": 0.7601587301587303,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "hit_at_10": {
+              "mean": 0.9333333333333333,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "precision_at_10": {
+              "mean": 0.5116666666666668,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "recall_at_10": {
+              "mean": 0.451310544211508,
+              "n_assessable": 117,
+              "n_missing": 3
+            },
+            "n_relevant": {
+              "mean": 21.575,
+              "n_assessable": 120,
+              "n_missing": 0
+            }
+          },
+          "conservative_bounds": {
+            "ndcg_at_10_lower": {
+              "mean": 0.6329937623583649,
+              "n_assessable": 119,
+              "n_missing": 1
+            },
+            "ndcg_at_10_upper": {
+              "mean": 0.8168433651628869,
+              "n_assessable": 119,
+              "n_missing": 1
+            },
+            "hit_at_10_lower": {
+              "mean": 0.8666666666666667,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "hit_at_10_upper": {
+              "mean": 0.9333333333333333,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "mrr_at_10_lower": {
+              "mean": 0.7341765873015872,
+              "n_assessable": 120,
+              "n_missing": 0
+            },
+            "mrr_at_10_upper": {
+              "mean": 0.7601587301587303,
+              "n_assessable": 120,
+              "n_missing": 0
+            }
+          }
+        },
+        "mean_judged_coverage_at_10": 0.9691666666666667,
+        "n_queries_all_catalogue_complete": 50
+      }
+    ],
+    "source_records_snapshot_sha256": "a6a04f3a52e6080f5cfa8060a0fe9d4b5a50d0f1c04c14c8177c74be93fe3d23",
+    "paired_comparisons": [
+      {
+        "scenario": "known_labels_unknown_zero_gain",
+        "metric": "ndcg_at_10",
+        "difference": "siglip2_minus_fashion_siglip",
+        "paired_mean_difference": -0.017419122868693314,
+        "cluster_bootstrap_95_percentile_interval": [
+          -0.0392673568038274,
+          0.004208119371097409
+        ],
+        "n_paired_queries": 115,
+        "n_assessable_query_family_clusters": 12,
+        "n_planned_query_family_clusters": 12,
+        "bootstrap_repetitions": 2000,
+        "bootstrap_seed": 8410,
+        "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+      },
+      {
+        "scenario": "known_labels_unknown_zero_gain",
+        "metric": "mrr_at_10",
+        "difference": "siglip2_minus_fashion_siglip",
+        "paired_mean_difference": -0.036967592592592594,
+        "cluster_bootstrap_95_percentile_interval": [
+          -0.06670014880952381,
+          0.0017170965608465376
+        ],
+        "n_paired_queries": 120,
+        "n_assessable_query_family_clusters": 12,
+        "n_planned_query_family_clusters": 12,
+        "bootstrap_repetitions": 2000,
+        "bootstrap_seed": 8410,
+        "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+      },
+      {
+        "scenario": "known_labels_unknown_zero_gain",
+        "metric": "hit_at_10",
+        "difference": "siglip2_minus_fashion_siglip",
+        "paired_mean_difference": 0.0,
+        "cluster_bootstrap_95_percentile_interval": [
+          0.0,
+          0.0
+        ],
+        "n_paired_queries": 120,
+        "n_assessable_query_family_clusters": 12,
+        "n_planned_query_family_clusters": 12,
+        "bootstrap_repetitions": 2000,
+        "bootstrap_seed": 8410,
+        "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+      },
+      {
+        "scenario": "known_labels_unknown_zero_gain",
+        "metric": "precision_at_10",
+        "difference": "siglip2_minus_fashion_siglip",
+        "paired_mean_difference": -0.010833333333333335,
+        "cluster_bootstrap_95_percentile_interval": [
+          -0.034166666666666665,
+          0.010833333333333334
+        ],
+        "n_paired_queries": 120,
+        "n_assessable_query_family_clusters": 12,
+        "n_planned_query_family_clusters": 12,
+        "bootstrap_repetitions": 2000,
+        "bootstrap_seed": 8410,
+        "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+      },
+      {
+        "scenario": "known_labels_unknown_zero_gain",
+        "metric": "recall_at_10",
+        "difference": "siglip2_minus_fashion_siglip",
+        "paired_mean_difference": 0.0029521399398709813,
+        "cluster_bootstrap_95_percentile_interval": [
+          -0.0205910882471876,
+          0.026994346229903418
+        ],
+        "n_paired_queries": 104,
+        "n_assessable_query_family_clusters": 12,
+        "n_planned_query_family_clusters": 12,
+        "bootstrap_repetitions": 2000,
+        "bootstrap_seed": 8410,
+        "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+      },
+      {
+        "scenario": "all_unknown_grade3_sensitivity",
+        "metric": "ndcg_at_10",
+        "difference": "siglip2_minus_fashion_siglip",
+        "paired_mean_difference": -0.008077789769463184,
+        "cluster_bootstrap_95_percentile_interval": [
+          -0.03332910083310748,
+          0.02294578103230328
+        ],
+        "n_paired_queries": 119,
+        "n_assessable_query_family_clusters": 12,
+        "n_planned_query_family_clusters": 12,
+        "bootstrap_repetitions": 2000,
+        "bootstrap_seed": 8410,
+        "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+      },
+      {
+        "scenario": "all_unknown_grade3_sensitivity",
+        "metric": "mrr_at_10",
+        "difference": "siglip2_minus_fashion_siglip",
+        "paired_mean_difference": -0.03536044973544974,
+        "cluster_bootstrap_95_percentile_interval": [
+          -0.07964285714285713,
+          0.01973784722222212
+        ],
+        "n_paired_queries": 120,
+        "n_assessable_query_family_clusters": 12,
+        "n_planned_query_family_clusters": 12,
+        "bootstrap_repetitions": 2000,
+        "bootstrap_seed": 8410,
+        "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+      },
+      {
+        "scenario": "all_unknown_grade3_sensitivity",
+        "metric": "hit_at_10",
+        "difference": "siglip2_minus_fashion_siglip",
+        "paired_mean_difference": 0.025,
+        "cluster_bootstrap_95_percentile_interval": [
+          0.0,
+          0.05854166666666553
+        ],
+        "n_paired_queries": 120,
+        "n_assessable_query_family_clusters": 12,
+        "n_planned_query_family_clusters": 12,
+        "bootstrap_repetitions": 2000,
+        "bootstrap_seed": 8410,
+        "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+      },
+      {
+        "scenario": "all_unknown_grade3_sensitivity",
+        "metric": "precision_at_10",
+        "difference": "siglip2_minus_fashion_siglip",
+        "paired_mean_difference": -0.001666666666666665,
+        "cluster_bootstrap_95_percentile_interval": [
+          -0.025833333333333337,
+          0.02166666666666666
+        ],
+        "n_paired_queries": 120,
+        "n_assessable_query_family_clusters": 12,
+        "n_planned_query_family_clusters": 12,
+        "bootstrap_repetitions": 2000,
+        "bootstrap_seed": 8410,
+        "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+      },
+      {
+        "scenario": "all_unknown_grade3_sensitivity",
+        "metric": "recall_at_10",
+        "difference": "siglip2_minus_fashion_siglip",
+        "paired_mean_difference": 0.03172974599180115,
+        "cluster_bootstrap_95_percentile_interval": [
+          -0.008318405739966601,
+          0.09116226744569272
+        ],
+        "n_paired_queries": 117,
+        "n_assessable_query_family_clusters": 12,
+        "n_planned_query_family_clusters": 12,
+        "bootstrap_repetitions": 2000,
+        "bootstrap_seed": 8410,
+        "interpretation": "Conditional on these AI proxy labels and this query design;12 related query families are the resampling units, not120 independent users."
+      }
+    ],
+    "score_sha256": "11792f7b048c4a3a9b01a6e5a2da90ef626ef9bcc66d8b62531789a39de07efb",
+    "qrels_manifest_sha256": "9754d0d0571709e12f8adcf81fe639234647ff53bb8be6117b0ee58fa94c2319",
+    "profiles_freeze_sha256": "d14266fb0d7fc1b2487127f31a361a949acdc560eb016f15fd9e923352b21db9",
+    "implementation_sha256": "ea265b0d9cb3c744c5f1c422007686d56b8cd0958845e8c629c29a48128b2b61",
+    "limitations": [
+      "Nonblind Codex AI coding assistants, implementation contributors; identities available but predicted rankings withheld until product annotations are fixed. No human validation or inter-rater reliability claim.",
+      "Scores are AI visual/source proxies, not human relevance or objective ground truth.",
+      "Lightweight/travel is an appearance proxy with explicit-source exception; weight/performance were not measured.",
+      "Unknowns remain null in qrels; main scores use known labels with zero unknown gain and disclose top10 coverage.",
+      "All-unknown0 and all-unknown3 are sensitivity scenarios, while separately reported conservative nDCG bounds allow independent unknown assignments.",
+      "Recall uses only known AI-proxy relevant items; no original primary human quality field is populated."
+    ]
+  },
+  "visual": {
+    "kind": "post_hoc_supplementary_ai_visual_summary",
+    "protocol_sha256": "299a340bf2fd5f87b8399b62fde3855117a84cf0bf61146474f9a367dd02f7f4",
+    "selection_sha256": "c9854ffcf88fc81f931e677e7137da8b6c7e60096bf26c378f86baa0ddeb6deb",
+    "assessment_files_sha256": {
+      "assessments/generation_01.jsonl": "0fc2374730eec37ce0843d9c0848797d221dde83f0d4d7b19679dc154925d4f2",
+      "assessments/generation_02.jsonl": "baeb4dc06f6671e28304dd6d39a3301eec4ad0a01210374e6a7f16d698b80501",
+      "assessments/generation_03.jsonl": "557281245d4cf80c8d1da0edea8c2a225bbb7516531035739c323404912f16a3",
+      "assessments/generation_04.jsonl": "fb8f32bfbde0ee3e503ecbc973f0187d3d468f03ca34dc2fe5757837d023b1ef",
+      "assessments/generation_05.jsonl": "d0db19dc625c5ba9e0a822d1daccc6fbe946be3768450ae2131a1c5b7e9663d4",
+      "assessments/generation_06.jsonl": "38e6f3e95ef603d36cfa9dbb38753c13620a14a44b9590bf74a0a604d1199c88",
+      "assessments/generation_07.jsonl": "51b7d21c47f0652532e39c2486baa0b42100f22eef8c0f33cf807767c42fc11b",
+      "assessments/generation_08.jsonl": "0e30295a27bf05d351069b4e9d82c3a8357e447e17159f5bef6c76c55439b942",
+      "assessments/generation_09.jsonl": "012c6d95507c42afc68b490cf70af43cde4f75c67e2c508a5b7510e652904523",
+      "assessments/generation_10.jsonl": "49ef5e62a2023dcc0a09d211c198d9b7b54ba4334b5f45922d78952373bd41bd",
+      "assessments/generation_11.jsonl": "b66f3c0a8df84aa2969a4d3ec732febc157fef1f815ae60a6c785589613f3df6",
+      "assessments/generation_12.jsonl": "0e2d60c2b2eadcdc3991185a81489c406721049546f43a1433e588fc603cf8a6",
+      "assessments/reconstruction_01.jsonl": "bc2489d52e6fe2dea6a8ad83c2b80fe43efb2d9f8c581941d271bf281f6c62a6",
+      "assessments/reconstruction_02.jsonl": "b61f13d48b8a87c2077fe3b9a9117b2b46f75f161eba9feabb3ae9d9b96e7e69",
+      "assessments/reconstruction_03.jsonl": "29e6dc88de921c38f51755d79ea3ae54663a41676d9ffc71e310e19d0899eb6e",
+      "assessments/reconstruction_04.jsonl": "3d3558b93fee09ef690202144c01ffc5547b1fd59d451e33c8607f6b8841c196"
+    },
+    "n_outputs": 184,
+    "n_assessments": 184,
+    "n_missing": 0,
+    "models": [
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "coverage": {
+          "planned_outputs": 72,
+          "assessed_outputs": 72,
+          "confidence_high": 55,
+          "observed_error_none_observed": 51,
+          "criteria_total": 438,
+          "criteria_met": 399,
+          "confidence_medium": 17,
+          "criteria_uncertain": 16,
+          "observed_error_missing_mandatory_attributes": 18,
+          "criteria_absent": 23,
+          "observed_error_prompt_mismatch": 1,
+          "observed_error_other": 2,
+          "observed_error_incorrect_object_structure": 2
+        },
+        "metrics": {
+          "ai_prompt_adherence": {
+            "mean": 4.458333333333333,
+            "n_clusters": 24
+          },
+          "ai_visual_coherence": {
+            "mean": 4.888888888888889,
+            "n_clusters": 24
+          },
+          "ai_composition": {
+            "mean": 4.888888888888889,
+            "n_clusters": 24
+          },
+          "ai_usability_rating": {
+            "mean": 4.305555555555556,
+            "n_clusters": 24
+          },
+          "ai_usable_concept_rate": {
+            "mean": 0.6086956521739131,
+            "n_clusters": 23
+          }
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "coverage": {
+          "planned_outputs": 72,
+          "assessed_outputs": 72,
+          "confidence_medium": 13,
+          "observed_error_missing_mandatory_attributes": 35,
+          "criteria_total": 438,
+          "criteria_met": 294,
+          "criteria_absent": 132,
+          "criteria_uncertain": 12,
+          "confidence_high": 59,
+          "observed_error_prompt_mismatch": 23,
+          "observed_error_none_observed": 19,
+          "observed_error_incorrect_object_structure": 3,
+          "observed_error_other": 1
+        },
+        "metrics": {
+          "ai_prompt_adherence": {
+            "mean": 3.069444444444444,
+            "n_clusters": 24
+          },
+          "ai_visual_coherence": {
+            "mean": 4.611111111111112,
+            "n_clusters": 24
+          },
+          "ai_composition": {
+            "mean": 4.263888888888889,
+            "n_clusters": 24
+          },
+          "ai_usability_rating": {
+            "mean": 2.972222222222222,
+            "n_clusters": 24
+          },
+          "ai_usable_concept_rate": {
+            "mean": 0.2708333333333333,
+            "n_clusters": 24
+          }
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "coverage": {
+          "planned_outputs": 20,
+          "assessed_outputs": 20,
+          "confidence_medium": 20,
+          "observed_error_incorrect_texture": 8,
+          "criteria_total": 80,
+          "criteria_met": 34,
+          "criteria_absent": 13,
+          "criteria_uncertain": 33,
+          "observed_error_other": 10,
+          "observed_error_distorted_shape": 5,
+          "observed_error_missing_geometry": 2
+        },
+        "metrics": {
+          "ai_visible_input_fidelity": {
+            "mean": 3.15,
+            "n_clusters": 20
+          },
+          "ai_shape_coherence": {
+            "mean": 3.1,
+            "n_clusters": 20
+          },
+          "ai_texture_coherence": {
+            "mean": 2.45,
+            "n_clusters": 20
+          },
+          "ai_multiview_consistency": {
+            "mean": 3.25,
+            "n_clusters": 20
+          }
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "coverage": {
+          "planned_outputs": 20,
+          "assessed_outputs": 20,
+          "confidence_medium": 20,
+          "observed_error_missing_geometry": 5,
+          "observed_error_distorted_shape": 15,
+          "observed_error_incorrect_texture": 11,
+          "criteria_total": 80,
+          "criteria_absent": 30,
+          "criteria_uncertain": 28,
+          "criteria_met": 22,
+          "observed_error_other": 3
+        },
+        "metrics": {
+          "ai_visible_input_fidelity": {
+            "mean": 2.7,
+            "n_clusters": 20
+          },
+          "ai_shape_coherence": {
+            "mean": 2.4,
+            "n_clusters": 20
+          },
+          "ai_texture_coherence": {
+            "mean": 2.15,
+            "n_clusters": 20
+          },
+          "ai_multiview_consistency": {
+            "mean": 2.55,
+            "n_clusters": 20
+          }
+        }
+      }
+    ],
+    "per_prompt_or_object": [
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-001",
+        "metrics": {
+          "ai_prompt_adherence": 5.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 5.0,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-002",
+        "metrics": {
+          "ai_prompt_adherence": 5.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 5.0,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-003",
+        "metrics": {
+          "ai_prompt_adherence": 5.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 5.0,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-004",
+        "metrics": {
+          "ai_prompt_adherence": 3.6666666666666665,
+          "ai_visual_coherence": 4.666666666666667,
+          "ai_composition": 4.333333333333333,
+          "ai_usability_rating": 3.3333333333333335,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 1
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-005",
+        "metrics": {
+          "ai_prompt_adherence": 4.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 3.6666666666666665,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-006",
+        "metrics": {
+          "ai_prompt_adherence": 5.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 5.0,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-007",
+        "metrics": {
+          "ai_prompt_adherence": 5.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 5.0,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-008",
+        "metrics": {
+          "ai_prompt_adherence": 5.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 5.0,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-009",
+        "metrics": {
+          "ai_prompt_adherence": 5.0,
+          "ai_visual_coherence": 4.333333333333333,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 4.333333333333333,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-010",
+        "metrics": {
+          "ai_prompt_adherence": 5.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 5.0,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-011",
+        "metrics": {
+          "ai_prompt_adherence": 3.6666666666666665,
+          "ai_visual_coherence": 4.666666666666667,
+          "ai_composition": 4.666666666666667,
+          "ai_usability_rating": 3.3333333333333335,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 1
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-012",
+        "metrics": {
+          "ai_prompt_adherence": 5.0,
+          "ai_visual_coherence": 4.666666666666667,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 4.666666666666667,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-013",
+        "metrics": {
+          "ai_prompt_adherence": 4.666666666666667,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 4.666666666666667,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 2
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-014",
+        "metrics": {
+          "ai_prompt_adherence": 4.666666666666667,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 4.666666666666667,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 2
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-015",
+        "metrics": {
+          "ai_prompt_adherence": 4.333333333333333,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 4.333333333333333,
+          "ai_usable_concept_rate": 0.3333333333333333
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-016",
+        "metrics": {
+          "ai_prompt_adherence": 4.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 4.0,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 1
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-017",
+        "metrics": {
+          "ai_prompt_adherence": 3.6666666666666665,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 3.6666666666666665,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 1
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-018",
+        "metrics": {
+          "ai_prompt_adherence": 4.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 4.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-019",
+        "metrics": {
+          "ai_prompt_adherence": 3.0,
+          "ai_visual_coherence": 4.333333333333333,
+          "ai_composition": 3.6666666666666665,
+          "ai_usability_rating": 2.6666666666666665,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-020",
+        "metrics": {
+          "ai_prompt_adherence": 5.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 5.0,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-021",
+        "metrics": {
+          "ai_prompt_adherence": 4.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 3.3333333333333335,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-022",
+        "metrics": {
+          "ai_prompt_adherence": 4.333333333333333,
+          "ai_visual_coherence": 4.666666666666667,
+          "ai_composition": 4.666666666666667,
+          "ai_usability_rating": 4.0,
+          "ai_usable_concept_rate": 0.6666666666666666
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-023",
+        "metrics": {
+          "ai_prompt_adherence": 4.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 3.6666666666666665,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "flux2_klein",
+        "case_id": "gen-024",
+        "metrics": {
+          "ai_prompt_adherence": 5.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 5.0,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-001",
+        "metrics": {
+          "ai_prompt_adherence": 4.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 4.333333333333333,
+          "ai_usability_rating": 4.0,
+          "ai_usable_concept_rate": 0.3333333333333333
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-002",
+        "metrics": {
+          "ai_prompt_adherence": 4.0,
+          "ai_visual_coherence": 4.333333333333333,
+          "ai_composition": 4.666666666666667,
+          "ai_usability_rating": 4.0,
+          "ai_usable_concept_rate": 0.6666666666666666
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-003",
+        "metrics": {
+          "ai_prompt_adherence": 5.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 5.0,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-004",
+        "metrics": {
+          "ai_prompt_adherence": 3.6666666666666665,
+          "ai_visual_coherence": 4.0,
+          "ai_composition": 4.666666666666667,
+          "ai_usability_rating": 2.6666666666666665,
+          "ai_usable_concept_rate": 0.3333333333333333
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-005",
+        "metrics": {
+          "ai_prompt_adherence": 1.3333333333333333,
+          "ai_visual_coherence": 4.666666666666667,
+          "ai_composition": 3.6666666666666665,
+          "ai_usability_rating": 1.3333333333333333,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-006",
+        "metrics": {
+          "ai_prompt_adherence": 4.666666666666667,
+          "ai_visual_coherence": 4.666666666666667,
+          "ai_composition": 4.666666666666667,
+          "ai_usability_rating": 4.333333333333333,
+          "ai_usable_concept_rate": 0.6666666666666666
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-007",
+        "metrics": {
+          "ai_prompt_adherence": 4.333333333333333,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 4.333333333333333,
+          "ai_usability_rating": 4.333333333333333,
+          "ai_usable_concept_rate": 0.3333333333333333
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-008",
+        "metrics": {
+          "ai_prompt_adherence": 3.6666666666666665,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 4.666666666666667,
+          "ai_usability_rating": 3.6666666666666665,
+          "ai_usable_concept_rate": 0.5
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 2
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-009",
+        "metrics": {
+          "ai_prompt_adherence": 4.333333333333333,
+          "ai_visual_coherence": 4.666666666666667,
+          "ai_composition": 4.666666666666667,
+          "ai_usability_rating": 4.0,
+          "ai_usable_concept_rate": 0.6666666666666666
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-010",
+        "metrics": {
+          "ai_prompt_adherence": 5.0,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 5.0,
+          "ai_usability_rating": 5.0,
+          "ai_usable_concept_rate": 1.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-011",
+        "metrics": {
+          "ai_prompt_adherence": 2.3333333333333335,
+          "ai_visual_coherence": 4.666666666666667,
+          "ai_composition": 4.0,
+          "ai_usability_rating": 2.3333333333333335,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-012",
+        "metrics": {
+          "ai_prompt_adherence": 2.6666666666666665,
+          "ai_visual_coherence": 4.333333333333333,
+          "ai_composition": 4.666666666666667,
+          "ai_usability_rating": 2.6666666666666665,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-013",
+        "metrics": {
+          "ai_prompt_adherence": 1.3333333333333333,
+          "ai_visual_coherence": 4.0,
+          "ai_composition": 3.6666666666666665,
+          "ai_usability_rating": 1.3333333333333333,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-014",
+        "metrics": {
+          "ai_prompt_adherence": 2.6666666666666665,
+          "ai_visual_coherence": 4.666666666666667,
+          "ai_composition": 4.0,
+          "ai_usability_rating": 2.6666666666666665,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-015",
+        "metrics": {
+          "ai_prompt_adherence": 3.6666666666666665,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 4.666666666666667,
+          "ai_usability_rating": 3.6666666666666665,
+          "ai_usable_concept_rate": 0.6666666666666666
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-016",
+        "metrics": {
+          "ai_prompt_adherence": 3.3333333333333335,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 4.666666666666667,
+          "ai_usability_rating": 3.3333333333333335,
+          "ai_usable_concept_rate": 0.3333333333333333
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-017",
+        "metrics": {
+          "ai_prompt_adherence": 2.6666666666666665,
+          "ai_visual_coherence": 4.333333333333333,
+          "ai_composition": 4.0,
+          "ai_usability_rating": 2.3333333333333335,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-018",
+        "metrics": {
+          "ai_prompt_adherence": 2.3333333333333335,
+          "ai_visual_coherence": 4.666666666666667,
+          "ai_composition": 4.0,
+          "ai_usability_rating": 2.0,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-019",
+        "metrics": {
+          "ai_prompt_adherence": 2.0,
+          "ai_visual_coherence": 4.333333333333333,
+          "ai_composition": 4.0,
+          "ai_usability_rating": 2.0,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-020",
+        "metrics": {
+          "ai_prompt_adherence": 2.0,
+          "ai_visual_coherence": 3.3333333333333335,
+          "ai_composition": 3.6666666666666665,
+          "ai_usability_rating": 2.0,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-021",
+        "metrics": {
+          "ai_prompt_adherence": 2.3333333333333335,
+          "ai_visual_coherence": 4.666666666666667,
+          "ai_composition": 4.0,
+          "ai_usability_rating": 2.3333333333333335,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-022",
+        "metrics": {
+          "ai_prompt_adherence": 1.3333333333333333,
+          "ai_visual_coherence": 4.666666666666667,
+          "ai_composition": 3.6666666666666665,
+          "ai_usability_rating": 1.3333333333333333,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-023",
+        "metrics": {
+          "ai_prompt_adherence": 2.6666666666666665,
+          "ai_visual_coherence": 5.0,
+          "ai_composition": 4.0,
+          "ai_usability_rating": 2.6666666666666665,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "generation",
+        "model": "sdxl_lightning",
+        "case_id": "gen-024",
+        "metrics": {
+          "ai_prompt_adherence": 2.3333333333333335,
+          "ai_visual_coherence": 4.666666666666667,
+          "ai_composition": 3.6666666666666665,
+          "ai_usability_rating": 2.3333333333333335,
+          "ai_usable_concept_rate": 0.0
+        },
+        "n_scored_outputs": {
+          "ai_prompt_adherence": 3,
+          "ai_visual_coherence": 3,
+          "ai_composition": 3,
+          "ai_usability_rating": 3,
+          "ai_usable_concept_rate": 3
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B06W9GB1JR",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07CMD9X29",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07J2DZXXY",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07JHFZVLV",
+        "metrics": {
+          "ai_visible_input_fidelity": 2.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 1.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07PGK6BKK",
+        "metrics": {
+          "ai_visible_input_fidelity": 2.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07PWXRWBC",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 4.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07R79WR4V",
+        "metrics": {
+          "ai_visible_input_fidelity": 4.0,
+          "ai_shape_coherence": 4.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 4.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07VS296PR",
+        "metrics": {
+          "ai_visible_input_fidelity": 2.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07WRJFN95",
+        "metrics": {
+          "ai_visible_input_fidelity": 2.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07WRJG24S",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07WTMZ8N7",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07WTMZ91M",
+        "metrics": {
+          "ai_visible_input_fidelity": 4.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07WVRFRR2",
+        "metrics": {
+          "ai_visible_input_fidelity": 4.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07XBZR7SR",
+        "metrics": {
+          "ai_visible_input_fidelity": 4.0,
+          "ai_shape_coherence": 4.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 4.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07XF6F7X7",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07XPHD4LK",
+        "metrics": {
+          "ai_visible_input_fidelity": 4.0,
+          "ai_shape_coherence": 4.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 4.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B07YV78XJW",
+        "metrics": {
+          "ai_visible_input_fidelity": 4.0,
+          "ai_shape_coherence": 4.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 4.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B081HNQQWP",
+        "metrics": {
+          "ai_visible_input_fidelity": 4.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 4.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B084LLWDFH",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 4.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 4.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "sf3d",
+        "case_id": "abo-B086YY3KQG",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 4.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 4.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B06W9GB1JR",
+        "metrics": {
+          "ai_visible_input_fidelity": 2.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 1.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07CMD9X29",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 4.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 4.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07J2DZXXY",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07JHFZVLV",
+        "metrics": {
+          "ai_visible_input_fidelity": 2.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 1.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07PGK6BKK",
+        "metrics": {
+          "ai_visible_input_fidelity": 2.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 1.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07PWXRWBC",
+        "metrics": {
+          "ai_visible_input_fidelity": 4.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07R79WR4V",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07VS296PR",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07WRJFN95",
+        "metrics": {
+          "ai_visible_input_fidelity": 2.0,
+          "ai_shape_coherence": 1.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07WRJG24S",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07WTMZ8N7",
+        "metrics": {
+          "ai_visible_input_fidelity": 2.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07WTMZ91M",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07WVRFRR2",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07XBZR7SR",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07XF6F7X7",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 3.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07XPHD4LK",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B07YV78XJW",
+        "metrics": {
+          "ai_visible_input_fidelity": 2.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B081HNQQWP",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 2.0,
+          "ai_texture_coherence": 3.0,
+          "ai_multiview_consistency": 2.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B084LLWDFH",
+        "metrics": {
+          "ai_visible_input_fidelity": 2.0,
+          "ai_shape_coherence": 3.0,
+          "ai_texture_coherence": 1.0,
+          "ai_multiview_consistency": 4.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      },
+      {
+        "pair": "reconstruction",
+        "model": "spar3d",
+        "case_id": "abo-B086YY3KQG",
+        "metrics": {
+          "ai_visible_input_fidelity": 3.0,
+          "ai_shape_coherence": 4.0,
+          "ai_texture_coherence": 2.0,
+          "ai_multiview_consistency": 4.0
+        },
+        "n_scored_outputs": {
+          "ai_visible_input_fidelity": 1,
+          "ai_shape_coherence": 1,
+          "ai_texture_coherence": 1,
+          "ai_multiview_consistency": 1
+        }
+      }
+    ],
+    "paired_comparisons": [
+      {
+        "pair": "generation",
+        "metric": "ai_composition",
+        "model_a": "flux2_klein",
+        "model_b": "sdxl_lightning",
+        "matched_outputs": 72,
+        "n_clusters": 24,
+        "mean_difference_a_minus_b": 0.625,
+        "ci_low": 0.4305555555555554,
+        "ci_high": 0.8194444444444445,
+        "confidence": 0.95,
+        "iterations": 2000,
+        "seed": 8410,
+        "relative_difference": 0.14657980456026057
+      },
+      {
+        "pair": "generation",
+        "metric": "ai_prompt_adherence",
+        "model_a": "flux2_klein",
+        "model_b": "sdxl_lightning",
+        "matched_outputs": 72,
+        "n_clusters": 24,
+        "mean_difference_a_minus_b": 1.388888888888889,
+        "ci_low": 1.0,
+        "ci_high": 1.7916666666666667,
+        "confidence": 0.95,
+        "iterations": 2000,
+        "seed": 8410,
+        "relative_difference": 0.45248868778280543
+      },
+      {
+        "pair": "generation",
+        "metric": "ai_usability_rating",
+        "model_a": "flux2_klein",
+        "model_b": "sdxl_lightning",
+        "matched_outputs": 72,
+        "n_clusters": 24,
+        "mean_difference_a_minus_b": 1.3333333333333333,
+        "ci_low": 0.9722222222222222,
+        "ci_high": 1.6944444444444446,
+        "confidence": 0.95,
+        "iterations": 2000,
+        "seed": 8410,
+        "relative_difference": 0.44859813084112116
+      },
+      {
+        "pair": "generation",
+        "metric": "ai_usable_concept_rate",
+        "model_a": "flux2_klein",
+        "model_b": "sdxl_lightning",
+        "matched_outputs": 58,
+        "n_clusters": 23,
+        "mean_difference_a_minus_b": 0.3115942028985508,
+        "ci_low": 0.10851449275362349,
+        "ci_high": 0.5144927536231885,
+        "confidence": 0.95,
+        "iterations": 2000,
+        "seed": 8410,
+        "relative_difference": 1.0487804878048783
+      },
+      {
+        "pair": "generation",
+        "metric": "ai_visual_coherence",
+        "model_a": "flux2_klein",
+        "model_b": "sdxl_lightning",
+        "matched_outputs": 72,
+        "n_clusters": 24,
+        "mean_difference_a_minus_b": 0.27777777777777773,
+        "ci_low": 0.12499999999999989,
+        "ci_high": 0.4447916666666648,
+        "confidence": 0.95,
+        "iterations": 2000,
+        "seed": 8410,
+        "relative_difference": 0.060240963855421464
+      },
+      {
+        "pair": "reconstruction",
+        "metric": "ai_multiview_consistency",
+        "model_a": "sf3d",
+        "model_b": "spar3d",
+        "matched_outputs": 20,
+        "n_clusters": 20,
+        "mean_difference_a_minus_b": 0.7,
+        "ci_low": 0.3,
+        "ci_high": 1.1,
+        "confidence": 0.95,
+        "iterations": 2000,
+        "seed": 8410,
+        "relative_difference": 0.2745098039215687
+      },
+      {
+        "pair": "reconstruction",
+        "metric": "ai_shape_coherence",
+        "model_a": "sf3d",
+        "model_b": "spar3d",
+        "matched_outputs": 20,
+        "n_clusters": 20,
+        "mean_difference_a_minus_b": 0.7,
+        "ci_low": 0.35,
+        "ci_high": 1.05,
+        "confidence": 0.95,
+        "iterations": 2000,
+        "seed": 8410,
+        "relative_difference": 0.29166666666666674
+      },
+      {
+        "pair": "reconstruction",
+        "metric": "ai_texture_coherence",
+        "model_a": "sf3d",
+        "model_b": "spar3d",
+        "matched_outputs": 20,
+        "n_clusters": 20,
+        "mean_difference_a_minus_b": 0.3,
+        "ci_low": 0.05,
+        "ci_high": 0.55,
+        "confidence": 0.95,
+        "iterations": 2000,
+        "seed": 8410,
+        "relative_difference": 0.13953488372093037
+      },
+      {
+        "pair": "reconstruction",
+        "metric": "ai_visible_input_fidelity",
+        "model_a": "sf3d",
+        "model_b": "spar3d",
+        "matched_outputs": 20,
+        "n_clusters": 20,
+        "mean_difference_a_minus_b": 0.45,
+        "ci_low": 0.15,
+        "ci_high": 0.75,
+        "confidence": 0.95,
+        "iterations": 2000,
+        "seed": 8410,
+        "relative_difference": 0.16666666666666655
+      }
+    ],
+    "interpretation": "AI observations and ordinal summaries only; not human feedback, primary usable-concept results, calibrated quality, reference-geometry accuracy or commercial approval. Confidence intervals cover sampled prompt/object variability, not AI assessor bias."
+  },
+  "shortlist_decisions": {
+    "kind": "post_hoc_ai_shortlist_denominator_diagnostics",
+    "by_model": {
+      "flux2_klein": {
+        "planned": 72,
+        "positive": 40,
+        "negative": 19,
+        "uncertain": 13,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 59,
+        "unresolved": 13,
+        "conditional_image_positive_rate": 0.6779661016949152,
+        "possible_all_planned_rate_bounds": [
+          0.5555555555555556,
+          0.7361111111111112
+        ]
+      },
+      "sdxl_lightning": {
+        "planned": 72,
+        "positive": 19,
+        "negative": 52,
+        "uncertain": 1,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 71,
+        "unresolved": 1,
+        "conditional_image_positive_rate": 0.2676056338028169,
+        "possible_all_planned_rate_bounds": [
+          0.2638888888888889,
+          0.2777777777777778
+        ]
+      }
+    },
+    "per_prompt": [
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-001",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-002",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-003",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-004",
+        "planned": 3,
+        "positive": 0,
+        "negative": 1,
+        "uncertain": 2,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 1,
+        "unresolved": 2,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-005",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-006",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-007",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-008",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-009",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-010",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-011",
+        "planned": 3,
+        "positive": 0,
+        "negative": 1,
+        "uncertain": 2,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 1,
+        "unresolved": 2,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-012",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-013",
+        "planned": 3,
+        "positive": 2,
+        "negative": 0,
+        "uncertain": 1,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 2,
+        "unresolved": 1,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-014",
+        "planned": 3,
+        "positive": 2,
+        "negative": 0,
+        "uncertain": 1,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 2,
+        "unresolved": 1,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-015",
+        "planned": 3,
+        "positive": 1,
+        "negative": 2,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.3333333333333333,
+        "possible_all_planned_rate_bounds": [
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-016",
+        "planned": 3,
+        "positive": 0,
+        "negative": 1,
+        "uncertain": 2,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 1,
+        "unresolved": 2,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-017",
+        "planned": 3,
+        "positive": 0,
+        "negative": 1,
+        "uncertain": 2,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 1,
+        "unresolved": 2,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-018",
+        "planned": 3,
+        "positive": 0,
+        "negative": 0,
+        "uncertain": 3,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 0,
+        "unresolved": 3,
+        "conditional_image_positive_rate": null,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-019",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-020",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-021",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-022",
+        "planned": 3,
+        "positive": 2,
+        "negative": 1,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.6666666666666666,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-023",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "flux2_klein",
+        "case_id": "gen-024",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-001",
+        "planned": 3,
+        "positive": 1,
+        "negative": 2,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.3333333333333333,
+        "possible_all_planned_rate_bounds": [
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-002",
+        "planned": 3,
+        "positive": 2,
+        "negative": 1,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.6666666666666666,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-003",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-004",
+        "planned": 3,
+        "positive": 1,
+        "negative": 2,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.3333333333333333,
+        "possible_all_planned_rate_bounds": [
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-005",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-006",
+        "planned": 3,
+        "positive": 2,
+        "negative": 1,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.6666666666666666,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-007",
+        "planned": 3,
+        "positive": 1,
+        "negative": 2,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.3333333333333333,
+        "possible_all_planned_rate_bounds": [
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-008",
+        "planned": 3,
+        "positive": 1,
+        "negative": 1,
+        "uncertain": 1,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 2,
+        "unresolved": 1,
+        "conditional_image_positive_rate": 0.5,
+        "possible_all_planned_rate_bounds": [
+          0.3333333333333333,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-009",
+        "planned": 3,
+        "positive": 2,
+        "negative": 1,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.6666666666666666,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-010",
+        "planned": 3,
+        "positive": 3,
+        "negative": 0,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 1.0,
+        "possible_all_planned_rate_bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-011",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-012",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-013",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-014",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-015",
+        "planned": 3,
+        "positive": 2,
+        "negative": 1,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.6666666666666666,
+        "possible_all_planned_rate_bounds": [
+          0.6666666666666666,
+          0.6666666666666666
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-016",
+        "planned": 3,
+        "positive": 1,
+        "negative": 2,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.3333333333333333,
+        "possible_all_planned_rate_bounds": [
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-017",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-018",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-019",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-020",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-021",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-022",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-023",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "sdxl_lightning",
+        "case_id": "gen-024",
+        "planned": 3,
+        "positive": 0,
+        "negative": 3,
+        "uncertain": 0,
+        "abstained": 0,
+        "missing": 0,
+        "decided": 3,
+        "unresolved": 0,
+        "conditional_image_positive_rate": 0.0,
+        "possible_all_planned_rate_bounds": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "matched_pair_coverage": {
+      "planned_matched_input_seed_pairs": 72,
+      "complete_decision_pairs": 58,
+      "flux2_klein_1__sdxl_lightning_0": 24,
+      "flux2_klein_1__sdxl_lightning_1": 15,
+      "unresolved_decision_pairs": 14,
+      "flux2_klein_0__sdxl_lightning_0": 16,
+      "flux2_klein_0__sdxl_lightning_1": 3
+    },
+    "complete_prompt_subset": {
+      "n_complete_prompts": 16,
+      "n_input_seed_pairs": 48,
+      "ai_positive_prompt_mean": {
+        "flux2_klein": 0.6875,
+        "sdxl_lightning": 0.3333333333333333
+      }
+    },
+    "note": "Null decisions remain unresolved. Conditional rates have different observed denominators; bounds are explicit worst/best unresolved-decision scenarios, not imputed scores. Complete-prompt comparisons are an additional coverage diagnostic and do not replace the frozen summary or human assessment.",
+    "generated_at_utc": "2026-10-28T23:42:43.617092+00:00",
+    "protocol_sha256": "299a340bf2fd5f87b8399b62fde3855117a84cf0bf61146474f9a367dd02f7f4",
+    "selection_sha256": "c9854ffcf88fc81f931e677e7137da8b6c7e60096bf26c378f86baa0ddeb6deb",
+    "assessment_files_sha256": {
+      "assessments/generation_01.jsonl": "0fc2374730eec37ce0843d9c0848797d221dde83f0d4d7b19679dc154925d4f2",
+      "assessments/generation_02.jsonl": "baeb4dc06f6671e28304dd6d39a3301eec4ad0a01210374e6a7f16d698b80501",
+      "assessments/generation_03.jsonl": "557281245d4cf80c8d1da0edea8c2a225bbb7516531035739c323404912f16a3",
+      "assessments/generation_04.jsonl": "fb8f32bfbde0ee3e503ecbc973f0187d3d468f03ca34dc2fe5757837d023b1ef",
+      "assessments/generation_05.jsonl": "d0db19dc625c5ba9e0a822d1daccc6fbe946be3768450ae2131a1c5b7e9663d4",
+      "assessments/generation_06.jsonl": "38e6f3e95ef603d36cfa9dbb38753c13620a14a44b9590bf74a0a604d1199c88",
+      "assessments/generation_07.jsonl": "51b7d21c47f0652532e39c2486baa0b42100f22eef8c0f33cf807767c42fc11b",
+      "assessments/generation_08.jsonl": "0e30295a27bf05d351069b4e9d82c3a8357e447e17159f5bef6c76c55439b942",
+      "assessments/generation_09.jsonl": "012c6d95507c42afc68b490cf70af43cde4f75c67e2c508a5b7510e652904523",
+      "assessments/generation_10.jsonl": "49ef5e62a2023dcc0a09d211c198d9b7b54ba4334b5f45922d78952373bd41bd",
+      "assessments/generation_11.jsonl": "b66f3c0a8df84aa2969a4d3ec732febc157fef1f815ae60a6c785589613f3df6",
+      "assessments/generation_12.jsonl": "0e2d60c2b2eadcdc3991185a81489c406721049546f43a1433e588fc603cf8a6",
+      "assessments/reconstruction_01.jsonl": "bc2489d52e6fe2dea6a8ad83c2b80fe43efb2d9f8c581941d271bf281f6c62a6",
+      "assessments/reconstruction_02.jsonl": "b61f13d48b8a87c2077fe3b9a9117b2b46f75f161eba9feabb3ae9d9b96e7e69",
+      "assessments/reconstruction_03.jsonl": "29e6dc88de921c38f51755d79ea3ae54663a41676d9ffc71e310e19d0899eb6e",
+      "assessments/reconstruction_04.jsonl": "3d3558b93fee09ef690202144c01ffc5547b1fd59d451e33c8607f6b8841c196"
+    },
+    "helper_source_sha256": "fb23f1ec22b86549fd2a0e385fd8496f8805c72bd347eb2b41874fb696425c48"
+  },
+  "assistance_all_attempts": [
+    {
+      "model": "phi4_mini",
+      "category": "all",
+      "n_executions": 80,
+      "n_customer_prose": 78,
+      "original_protocol_completions": 40,
+      "ai_semantic_task_success": {
+        "positive": 42,
+        "n_assessable": 80,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.525
+      },
+      "ai_factual_prose_supported": {
+        "positive": 51,
+        "n_assessable": 71,
+        "n_missing_or_not_applicable": 9,
+        "rate": 0.7183098591549296
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 20,
+        "n_assessable": 78,
+        "n_missing_or_not_applicable": 2,
+        "rate": 0.2564102564102564
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 25,
+        "n_assessable": 78,
+        "n_missing_or_not_applicable": 2,
+        "rate": 0.32051282051282054
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 38,
+        "n_assessable": 80,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.475
+      },
+      "deterministic_exact_executed_tool_set_match": 38,
+      "requested_fact_entailment_counts": {
+        "entailed": 77,
+        "contradicted": 15,
+        "omitted": 48,
+        "uncertain": 2
+      },
+      "deterministic_required_facts_observed": 62,
+      "deterministic_required_facts_total": 142,
+      "ai_semantically_satisfied_original_failures": 15,
+      "ai_operational_and_grounded_semantic_success": 25,
+      "error_categories": {
+        "wrong_delivery_days": 1,
+        "missing_required_tool": 19,
+        "false_information_unavailable": 2,
+        "omitted_requested_information": 7,
+        "original_protocol_failure": 40,
+        "false_capability_limitation": 3,
+        "unretrieved_business_fact": 7,
+        "promise_without_answer": 3,
+        "wrong_express_fee": 1,
+        "ambiguous_currency": 1,
+        "unsupported_window_anchor": 2,
+        "omitted_attached_tags": 1,
+        "wrong_faulty_return_payer": 1,
+        "unsupported_exchange_rule": 1,
+        "overbroad_return_statement": 1,
+        "ambiguous_eligibility": 1,
+        "unsupported_packaging_rule": 2,
+        "wrong_consumer_rights_notice": 1,
+        "omitted_return_condition": 1,
+        "omitted_policy_answers": 10,
+        "missing_required_tools": 20,
+        "ambiguous_information_scope": 1,
+        "out_of_scope_tool_arguments": 3,
+        "wrong_information_source": 1,
+        "injection_claim_repeated_as_fact": 5,
+        "wrong_price": 6,
+        "wrong_return_postage": 5,
+        "unnecessary_refusal": 1,
+        "no_customer_answer": 2,
+        "bare_refusal_label": 2
+      }
+    },
+    {
+      "model": "qwen35_4b",
+      "category": "all",
+      "n_executions": 80,
+      "n_customer_prose": 72,
+      "original_protocol_completions": 47,
+      "ai_semantic_task_success": {
+        "positive": 54,
+        "n_assessable": 80,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.675
+      },
+      "ai_factual_prose_supported": {
+        "positive": 52,
+        "n_assessable": 68,
+        "n_missing_or_not_applicable": 12,
+        "rate": 0.7647058823529411
+      },
+      "ai_unsupported_claim_present": {
+        "positive": 16,
+        "n_assessable": 72,
+        "n_missing_or_not_applicable": 8,
+        "rate": 0.2222222222222222
+      },
+      "ai_ungrounded_claim_present": {
+        "positive": 21,
+        "n_assessable": 72,
+        "n_missing_or_not_applicable": 8,
+        "rate": 0.2916666666666667
+      },
+      "ai_tool_selection_appropriate": {
+        "positive": 59,
+        "n_assessable": 80,
+        "n_missing_or_not_applicable": 0,
+        "rate": 0.7375
+      },
+      "deterministic_exact_executed_tool_set_match": 52,
+      "requested_fact_entailment_counts": {
+        "entailed": 82,
+        "uncertain": 2,
+        "omitted": 51,
+        "contradicted": 7
+      },
+      "deterministic_required_facts_observed": 71,
+      "deterministic_required_facts_total": 142,
+      "ai_semantically_satisfied_original_failures": 24,
+      "ai_operational_and_grounded_semantic_success": 25,
+      "error_categories": {
+        "original_protocol_failure": 33,
+        "ambiguous_currency": 1,
+        "unnecessary_clarification": 1,
+        "omitted_requested_information": 6,
+        "missing_required_tool": 8,
+        "unretrieved_business_fact": 6,
+        "wrong_delivery_eligibility": 1,
+        "ancillary_checklist_fact_omitted": 1,
+        "unsupported_window_anchor": 3,
+        "unsupported_extra_exception": 2,
+        "promise_without_answer": 1,
+        "wrong_return_eligibility": 1,
+        "unclear_consumer_rights_answer": 1,
+        "unsupported_legal_detail": 1,
+        "no_customer_answer": 8,
+        "batched_tool_actions": 8,
+        "wrong_price": 5,
+        "wrong_currency": 1,
+        "wrong_delivery_days": 1,
+        "missing_required_tools": 10,
+        "out_of_scope_tool_arguments": 2,
+        "unsupported_business_channel": 2,
+        "permission_error_misread_as_global_absence": 1,
+        "unsupported_system_update_claim": 1,
+        "omitted_postage_payer": 1,
+        "false_provenance_claim": 1,
+        "unsupported_business_source": 1,
+        "unauthorized_capability_claim": 1,
+        "missing_required_refusal": 1,
+        "unsupported_internal_system": 1
+      }
+    }
+  ],
+  "assistance_paired_category_bootstrap": [
+    {
+      "metric": "semantic_task_success",
+      "difference": "qwen35_4b_minus_phi4_mini",
+      "n_matched_attempts": 80,
+      "n_clusters": 8,
+      "mean_difference_a_minus_b": 0.15000000000000002,
+      "ci_low": 0.012500000000000004,
+      "ci_high": 0.3125,
+      "confidence": 0.95,
+      "iterations": 2000,
+      "seed": 8410,
+      "relative_difference": 0.28571428571428575
+    },
+    {
+      "metric": "operational_completion",
+      "difference": "qwen35_4b_minus_phi4_mini",
+      "n_matched_attempts": 80,
+      "n_clusters": 8,
+      "mean_difference_a_minus_b": 0.0875,
+      "ci_low": -0.36249999999999993,
+      "ci_high": 0.5125,
+      "confidence": 0.95,
+      "iterations": 2000,
+      "seed": 8410,
+      "relative_difference": 0.17500000000000004
+    },
+    {
+      "metric": "operational_grounded_semantic_success",
+      "difference": "qwen35_4b_minus_phi4_mini",
+      "n_matched_attempts": 80,
+      "n_clusters": 8,
+      "mean_difference_a_minus_b": -1.3877787807814457e-17,
+      "ci_low": -0.3125,
+      "ci_high": 0.24999999999999997,
+      "confidence": 0.95,
+      "iterations": 2000,
+      "seed": 8410,
+      "relative_difference": 0.0
+    }
+  ],
+  "reference_test": {
+    "split": "test",
+    "interpretation": "Normalized shape; rigid-aligned scores explicitly reference-assisted, no absolute size/pose accuracy claim",
+    "raw_attempts": 40,
+    "models": {
+      "sf3d": {
+        "attempts": 20,
+        "success": 20,
+        "failed": 0,
+        "blocked": 0,
+        "scored_objects": 20,
+        "category_counts": {
+          "shoe": 17,
+          "backpack": 3
+        },
+        "mean_metrics": {
+          "rigid_aligned_chamfer_l1": 0.04898079837332176,
+          "rigid_aligned_chamfer_squared": 0.0037480931520990643,
+          "rigid_aligned_fscore_at_0.01": 0.10526157788461413,
+          "rigid_aligned_fscore_at_0.02": 0.25981079803892443,
+          "rigid_aligned_fscore_at_0.05": 0.5891715806475625,
+          "rigid_aligned_precision_at_0.01": 0.11530499999999999,
+          "rigid_aligned_precision_at_0.02": 0.288055,
+          "rigid_aligned_precision_at_0.05": 0.6163550000000001,
+          "rigid_aligned_recall_at_0.01": 0.09810499999999998,
+          "rigid_aligned_recall_at_0.02": 0.24062500000000003,
+          "rigid_aligned_recall_at_0.05": 0.570085,
+          "rigid_aligned_supplementary_silhouette_iou": 0.6126328584841353,
+          "unaligned_chamfer_l1": 0.09405314796789346,
+          "unaligned_chamfer_squared": 0.014311898535357168,
+          "unaligned_fscore_at_0.01": 0.0581381408046471,
+          "unaligned_fscore_at_0.02": 0.1467631941115614,
+          "unaligned_fscore_at_0.05": 0.3616498907473241,
+          "unaligned_precision_at_0.01": 0.061685000000000004,
+          "unaligned_precision_at_0.02": 0.15379,
+          "unaligned_precision_at_0.05": 0.36444,
+          "unaligned_recall_at_0.01": 0.055764999999999995,
+          "unaligned_recall_at_0.02": 0.142275,
+          "unaligned_recall_at_0.05": 0.36241,
+          "unaligned_supplementary_silhouette_iou": 0.41464368409164576
+        }
+      },
+      "spar3d": {
+        "attempts": 20,
+        "success": 20,
+        "failed": 0,
+        "blocked": 0,
+        "scored_objects": 20,
+        "category_counts": {
+          "shoe": 17,
+          "backpack": 3
+        },
+        "mean_metrics": {
+          "rigid_aligned_chamfer_l1": 0.052952040759271124,
+          "rigid_aligned_chamfer_squared": 0.004774493302508978,
+          "rigid_aligned_fscore_at_0.01": 0.12541825266038442,
+          "rigid_aligned_fscore_at_0.02": 0.26962528919411255,
+          "rigid_aligned_fscore_at_0.05": 0.5485755060653704,
+          "rigid_aligned_precision_at_0.01": 0.14608999999999997,
+          "rigid_aligned_precision_at_0.02": 0.3446000000000001,
+          "rigid_aligned_precision_at_0.05": 0.6935049999999998,
+          "rigid_aligned_recall_at_0.01": 0.11059,
+          "rigid_aligned_recall_at_0.02": 0.224275,
+          "rigid_aligned_recall_at_0.05": 0.46067500000000006,
+          "rigid_aligned_supplementary_silhouette_iou": 0.5463539141756066,
+          "unaligned_chamfer_l1": 0.12758154958405832,
+          "unaligned_chamfer_squared": 0.026490023511497464,
+          "unaligned_fscore_at_0.01": 0.059938078709720274,
+          "unaligned_fscore_at_0.02": 0.1307213251289761,
+          "unaligned_fscore_at_0.05": 0.26363117940717007,
+          "unaligned_precision_at_0.01": 0.06908499999999998,
+          "unaligned_precision_at_0.02": 0.16147499999999998,
+          "unaligned_precision_at_0.05": 0.342975,
+          "unaligned_recall_at_0.01": 0.053255,
+          "unaligned_recall_at_0.02": 0.11087500000000002,
+          "unaligned_recall_at_0.05": 0.21709500000000004,
+          "unaligned_supplementary_silhouette_iou": 0.2756643848567189
+        }
+      }
+    },
+    "paired_objects": 20,
+    "paired_differences_spar3d_minus_sf3d": {
+      "rigid_aligned_chamfer_l1": {
+        "mean": 0.00397124238594936,
+        "ci95_low": -0.0011441790198657258,
+        "ci95_high": 0.009359865312451884,
+        "paired_objects": 20
+      },
+      "rigid_aligned_chamfer_squared": {
+        "mean": 0.0010264001504099146,
+        "ci95_low": 0.00020902769163524742,
+        "ci95_high": 0.0019746507939138983,
+        "paired_objects": 20
+      },
+      "rigid_aligned_fscore_at_0.01": {
+        "mean": 0.020156674775770274,
+        "ci95_low": 0.003750739905184375,
+        "ci95_high": 0.035792676417208444,
+        "paired_objects": 20
+      },
+      "rigid_aligned_fscore_at_0.02": {
+        "mean": 0.00981449115518811,
+        "ci95_low": -0.027549428199550526,
+        "ci95_high": 0.04563085931030557,
+        "paired_objects": 20
+      },
+      "rigid_aligned_fscore_at_0.05": {
+        "mean": -0.040596074582192054,
+        "ci95_low": -0.09967996220990337,
+        "ci95_high": 0.015982607270618416,
+        "paired_objects": 20
+      },
+      "rigid_aligned_precision_at_0.01": {
+        "mean": 0.030785,
+        "ci95_low": 0.011846499999999996,
+        "ci95_high": 0.048937624999999985,
+        "paired_objects": 20
+      },
+      "rigid_aligned_precision_at_0.02": {
+        "mean": 0.056545000000000026,
+        "ci95_low": 0.011718250000000003,
+        "ci95_high": 0.09884049999999994,
+        "paired_objects": 20
+      },
+      "rigid_aligned_precision_at_0.05": {
+        "mean": 0.07715000000000001,
+        "ci95_low": 0.010413375000000013,
+        "ci95_high": 0.14064149999999992,
+        "paired_objects": 20
+      },
+      "rigid_aligned_recall_at_0.01": {
+        "mean": 0.012484999999999993,
+        "ci95_low": -0.0018099999999999998,
+        "ci95_high": 0.026680249999999996,
+        "paired_objects": 20
+      },
+      "rigid_aligned_recall_at_0.02": {
+        "mean": -0.016349999999999996,
+        "ci95_low": -0.04902575,
+        "ci95_high": 0.01548987499999993,
+        "paired_objects": 20
+      },
+      "rigid_aligned_recall_at_0.05": {
+        "mean": -0.10941000000000001,
+        "ci95_low": -0.1693155,
+        "ci95_high": -0.050663625000000045,
+        "paired_objects": 20
+      },
+      "rigid_aligned_supplementary_silhouette_iou": {
+        "mean": -0.06627894430852868,
+        "ci95_low": -0.07962724895156996,
+        "ci95_high": -0.05192258430653534,
+        "paired_objects": 20
+      },
+      "unaligned_chamfer_l1": {
+        "mean": 0.03352840161616485,
+        "ci95_low": 0.027449037737472815,
+        "ci95_high": 0.038902776638739776,
+        "paired_objects": 20
+      },
+      "unaligned_chamfer_squared": {
+        "mean": 0.012178124976140294,
+        "ci95_low": 0.009794552341063188,
+        "ci95_high": 0.014243697640544237,
+        "paired_objects": 20
+      },
+      "unaligned_fscore_at_0.01": {
+        "mean": 0.0017999379050731908,
+        "ci95_low": -0.006458404104290476,
+        "ci95_high": 0.00951653052852148,
+        "paired_objects": 20
+      },
+      "unaligned_fscore_at_0.02": {
+        "mean": -0.016041868982585326,
+        "ci95_low": -0.03333482254546884,
+        "ci95_high": -0.00023440467520258082,
+        "paired_objects": 20
+      },
+      "unaligned_fscore_at_0.05": {
+        "mean": -0.0980187113401541,
+        "ci95_low": -0.1220244504207891,
+        "ci95_high": -0.07548299419633654,
+        "paired_objects": 20
+      },
+      "unaligned_precision_at_0.01": {
+        "mean": 0.0073999999999999995,
+        "ci95_low": -0.0015001250000000002,
+        "ci95_high": 0.016396874999999984,
+        "paired_objects": 20
+      },
+      "unaligned_precision_at_0.02": {
+        "mean": 0.007685000000000003,
+        "ci95_low": -0.011538375,
+        "ci95_high": 0.026996749999999965,
+        "paired_objects": 20
+      },
+      "unaligned_precision_at_0.05": {
+        "mean": -0.021465000000000005,
+        "ci95_low": -0.045871125000000006,
+        "ci95_high": 0.0039052499999999695,
+        "paired_objects": 20
+      },
+      "unaligned_recall_at_0.01": {
+        "mean": -0.002510000000000001,
+        "ci95_low": -0.00995525,
+        "ci95_high": 0.004275124999999998,
+        "paired_objects": 20
+      },
+      "unaligned_recall_at_0.02": {
+        "mean": -0.031400000000000004,
+        "ci95_low": -0.04689550000000001,
+        "ci95_high": -0.01780975,
+        "paired_objects": 20
+      },
+      "unaligned_recall_at_0.05": {
+        "mean": -0.145315,
+        "ci95_low": -0.169916875,
+        "ci95_high": -0.12254987499999997,
+        "paired_objects": 20
+      },
+      "unaligned_supplementary_silhouette_iou": {
+        "mean": -0.13897929923492688,
+        "ci95_low": -0.16183496360203484,
+        "ci95_high": -0.1140788331727675,
+        "paired_objects": 20
+      }
+    }
+  },
+  "source_sha256": {
+    "src/stylesphere/reporting/final_report.py": "1f17cb630792e78dbba56697584dc0826abe66647ea812f9df15468c970a8631",
+    "results/retrieval/ai_assessment/v1/summary.json": "cebf2a94a422e89dd9b7f3df8a50b339dad53731adba383263e34ca91a621ee8",
+    "results/ai_visual_assessment/summary.json": "916d1fa32466ac26670c3c080d8a22ae30706be63f775771ec3771567d517da8",
+    "results/ai_visual_assessment/decision_coverage.json": "d55b931ee2f4b213b07c33fb7330554723a5df1019d3a64fe1d6d375768b6b2c",
+    "results/assistance/ai_assessment/v1/summary.json": "c8a325a58a1fbcb644d1d484bdf3036f458401b35a6ca55d136217e70bd5da35",
+    "results/reference_test/reference_summary.json": "f1b523c04d8123d3220d9803a371b442bac2bf1d2fbfe86e132887dec712e763",
+    "results/retrieval/records.jsonl": "a6a04f3a52e6080f5cfa8060a0fe9d4b5a50d0f1c04c14c8177c74be93fe3d23",
+    "results/generation/records.jsonl": "a5e220ed946c09b85e4f32f49d0dd932f68cb7c3381143e3cd594a3ac707d443",
+    "results/assistance/records.jsonl": "a4de4c4880f399e3aa9218f8e1084dce920557f93c7ad8ab5369a42561c01dd1",
+    "results/reconstruction/records.jsonl": "c90b97c30eb1149626e941e3457e5313f87c5191b02280feec70c6b40d6de001"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "CPU-only offline tokenizer preflight, no model inference or GPU use",
+  "tokenizers": {
+    "qwen3_4b": {
+      "sequences": 1,
+      "lengths": [
+        512
+      ]
+    }
+  }
+}

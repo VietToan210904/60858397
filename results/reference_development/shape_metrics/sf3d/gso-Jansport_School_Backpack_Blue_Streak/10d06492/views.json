@@ -1,0 +1,61 @@
+{
+  "interpretation": "Supplementary independently normalized shape views, with explicitly reference-assisted rigid alignment where labelled",
+  "per_view": [
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.8286204610164203,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Jansport_School_Backpack_Blue_Streak/10d06492/unaligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Jansport_School_Backpack_Blue_Streak/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.6057531654487992,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Jansport_School_Backpack_Blue_Streak/10d06492/unaligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Jansport_School_Backpack_Blue_Streak/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.8449372302217536,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Jansport_School_Backpack_Blue_Streak/10d06492/unaligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Jansport_School_Backpack_Blue_Streak/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "unaligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.603980343055111,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Jansport_School_Backpack_Blue_Streak/10d06492/unaligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Jansport_School_Backpack_Blue_Streak/reference_views/view_03_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_000",
+      "silhouette_iou": 0.7032837736656327,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Jansport_School_Backpack_Blue_Streak/10d06492/rigid_aligned/view_00_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Jansport_School_Backpack_Blue_Streak/reference_views/view_00_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_090",
+      "silhouette_iou": 0.7586906782788397,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Jansport_School_Backpack_Blue_Streak/10d06492/rigid_aligned/view_01_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Jansport_School_Backpack_Blue_Streak/reference_views/view_01_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_180",
+      "silhouette_iou": 0.7188264058679706,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Jansport_School_Backpack_Blue_Streak/10d06492/rigid_aligned/view_02_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Jansport_School_Backpack_Blue_Streak/reference_views/view_02_mask.png"
+    },
+    {
+      "condition": "rigid_aligned",
+      "view_id": "azimuth_270",
+      "silhouette_iou": 0.8266771658934899,
+      "predicted_silhouette": "results/reference_development/shape_metrics/sf3d/gso-Jansport_School_Backpack_Blue_Streak/10d06492/rigid_aligned/view_03_mask.png",
+      "reference_silhouette": "datasets/reconstruction_reference/assets/gso-Jansport_School_Backpack_Blue_Streak/reference_views/view_03_mask.png"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "file_sha256": {
+    "preparation_metadata": "81f4761500599dff5277003907b92a98b2c21c2bedb204c91a997766a4a519a4",
+    "source_image": "48e5ed66cfefe0cf612d042c9fff6b257f1ca1e42554181273b9a05936bbd1a6"
+  },
+  "manifest": {
+    "camera_info": "",
+    "category": "HANDBAG",
+    "geometry_eligible": "false",
+    "image_sha256": "48e5ed66cfefe0cf612d042c9fff6b257f1ca1e42554181273b9a05936bbd1a6",
+    "licence": "CC-BY-4.0",
+    "mesh_sha256": "",
+    "object_id": "abo-B07XF6F7X7",
+    "preparation_metadata": "datasets/reconstruction/abo-B07XF6F7X7-preparation.json",
+    "redistributable": "true",
+    "reference_mesh": "",
+    "render_similarity_eligible": "false",
+    "silhouette_eligible": "false",
+    "source_dataset": "Amazon Berkeley Objects",
+    "source_image": "datasets/reconstruction/assets/prepared/abo-B07XF6F7X7.png",
+    "source_revision": "sha256:c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324"
+  }
+}

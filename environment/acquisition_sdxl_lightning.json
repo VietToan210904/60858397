@@ -1,0 +1,29 @@
+{
+  "model_id": "ByteDance/SDXL-Lightning",
+  "revision": "c9a24f48e1c025556787b0c58dd67a091ece2e44",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "bytes": 14143,
+      "official_lfs_sha256": null,
+      "sha256": "58a5efadd5103ca0906bfc86817ad2d02ebd0856a79e5034756cadd02fa97066"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6527,
+      "official_lfs_sha256": null,
+      "sha256": "fe10b815ff7182438e18512afd0679ec010a5fc8f0fb8112d5df0201b02dbc04"
+    },
+    {
+      "path": "sdxl_lightning_4step_unet.safetensors",
+      "bytes": 5135149736,
+      "official_lfs_sha256": "39a90a8a2a25c1372633c1e8eb1a96f85eab937bcb58cfc6ec9baf66242ec23c",
+      "sha256": "39a90a8a2a25c1372633c1e8eb1a96f85eab937bcb58cfc6ec9baf66242ec23c"
+    }
+  ],
+  "expected_bytes": 5135170406,
+  "status": "downloaded_and_hash_verified",
+  "snapshot": "models\\hub\\models--ByteDance--SDXL-Lightning\\snapshots\\c9a24f48e1c025556787b0c58dd67a091ece2e44",
+  "transport": "bounded_http_ranges",
+  "timestamp_utc": "2026-10-28T16:59:45.167596+00:00"
+}

@@ -1,0 +1,27 @@
+usage: cli.py [-h]
+              {doctor,prepare,smoke,evaluate,report,verify,package,acquire}
+              ...
+
+StyleSphere: reproducible local CUDA evaluation. Blocked/incomplete work exits
+2; integrity errors exit 1.
+
+positional arguments:
+  {doctor,prepare,smoke,evaluate,report,verify,package,acquire}
+    doctor              Record actual Python, dependencies, GPU and disk
+                        diagnostics
+    prepare             Prepare versioned hypothetical inputs and local
+                        dataset manifests; never invent observations
+    smoke               Run the smallest real local inference for the selected
+                        pair; not benchmark evidence
+    evaluate            Evaluate real cases sequentially, resuming successful
+                        matching cases
+    report              Regenerate tables and available charts from observed
+                        records
+    verify              Check evidence integrity and report unfinished work
+    package             Build a verified ZIP clearly labelled partial when
+                        evaluations are unfinished
+    acquire             Estimate and explicitly download selected retrieval
+                        checkpoints (inference stays offline)
+
+options:
+  -h, --help            show this help message and exit

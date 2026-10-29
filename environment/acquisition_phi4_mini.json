@@ -1,0 +1,110 @@
+{
+  "timestamp_utc": "2026-10-28T16:54:45.580768+00:00",
+  "model": "phi4_mini",
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "resolved_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "download_bytes": 7693972012,
+  "existing_bytes_by_size": 21905796,
+  "remaining_bytes_by_size": 7672066216,
+  "free_disk_bytes": 364818014208,
+  "destination": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\phi4_mini",
+  "files": [
+    {
+      "path": "LICENSE",
+      "size_bytes": 1084,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "8ab7b4964d147858b89544e8ca33203237161edc"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 29246,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "0bcd41c7c7bdded52ee8c7f28d9ba636d56ea448"
+    },
+    {
+      "path": "added_tokens.json",
+      "size_bytes": 249,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "af52cde61cc39aca58f7b7f04116b317116e75dd"
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 2504,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "679e70defca5b399ae9e8ad53ff1176c9d7c6f93"
+    },
+    {
+      "path": "generation_config.json",
+      "size_bytes": 168,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "43b32d0bc199571e0818489fa01c1002d7a40452"
+    },
+    {
+      "path": "merges.txt",
+      "size_bytes": 2418348,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "dcecc4524288b351bbd0da8028e74e9b5bcdb9b5"
+    },
+    {
+      "path": "model-00001-of-00002.safetensors",
+      "size_bytes": 4903637712,
+      "expected_sha256": "bc703090b63eda16f639fa4de7ac54635c23105ab1da2f6ec4d3403151d38ee6",
+      "expected_git_blob_sha1": null
+    },
+    {
+      "path": "model-00002-of-00002.safetensors",
+      "size_bytes": 2768428504,
+      "expected_sha256": "7ff79b9d2d31076bac2663393451f6530f4fc8ca49b09002116c92c373dba983",
+      "expected_git_blob_sha1": null
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size_bytes": 16273,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "d87cc3650f8e8dec46fc6871826ef30b941d0c94"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size_bytes": 587,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "156262f7d61a27706bdcad9d117c579e88e2fa27"
+    },
+    {
+      "path": "tokenizer.json",
+      "size_bytes": 15524095,
+      "expected_sha256": "382cc235b56c725945e149cc25f191da667c836655efd0857b004320e90e91ea",
+      "expected_git_blob_sha1": null
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 2932,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "f5958080514e266176052f86c80aa53f91ce4ba0"
+    },
+    {
+      "path": "vocab.json",
+      "size_bytes": 3910310,
+      "expected_sha256": null,
+      "expected_git_blob_sha1": "ea953a43348cdb3776cb7fd9ea02e3784febde34"
+    }
+  ],
+  "cache_dir": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\models\\hub",
+  "transport": "bounded_http_ranges",
+  "sha256": {
+    "LICENSE": "fa8235e5b48faca34e3ca98cf4f694ef08bd216d28b58071a1f85b1d50cb814d",
+    "README.md": "c4f34916182a3ee87d95d00c92847cfa687ab21dc338a577275f0c34cf0e1dfd",
+    "added_tokens.json": "d4f2aceb0f20b71dd1f4bcc7e052e4412946bf281840b8f83d39f259571af486",
+    "config.json": "ac65d86061d3d0d704ee2511fd0eb8713ef19eb6eedba17c3080a4165d5b933b",
+    "generation_config.json": "3e3f48753753f92d2b958679151861d4fd7bf26e4dfc41fd47056116c4914dcd",
+    "merges.txt": "856ce61180bb689282eed6b3a6838bb1f438399be23aefe9d20eb379791fb4ad",
+    "model-00001-of-00002.safetensors": "bc703090b63eda16f639fa4de7ac54635c23105ab1da2f6ec4d3403151d38ee6",
+    "model-00002-of-00002.safetensors": "7ff79b9d2d31076bac2663393451f6530f4fc8ca49b09002116c92c373dba983",
+    "model.safetensors.index.json": "613a98d5e5716ca96fa75931abedc9c5a5d95f488ce4d62df71e639fe3ac6c59",
+    "special_tokens_map.json": "aff38493227d813e29fcf8406e8e90062f1f031aa47d589325e9c31d89ac7cc3",
+    "tokenizer.json": "382cc235b56c725945e149cc25f191da667c836655efd0857b004320e90e91ea",
+    "tokenizer_config.json": "9c9b6bc0c94d95f69f826c41069a3e8b387ac3ced89601d201886e99240ac9db",
+    "vocab.json": "6cb65a857824fa6615bb1782d95d882617a8bbce1da0317118586b36f39e98bd"
+  },
+  "status": "downloaded",
+  "completed_at_utc": "2026-10-28T16:55:10.705749+00:00"
+}

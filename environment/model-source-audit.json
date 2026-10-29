@@ -1,0 +1,58 @@
+{
+  "fashion_siglip": {
+    "model_id": "Marqo/marqo-fashionSigLIP",
+    "revision": "c56244cc94f92419e8369fa71efdaf403b124ce8",
+    "gated": false,
+    "licence": "apache-2.0",
+    "safetensors_bytes": 1625318728
+  },
+  "siglip2": {
+    "model_id": "google/siglip2-base-patch16-224",
+    "revision": "75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2",
+    "gated": false,
+    "licence": "apache-2.0",
+    "safetensors_bytes": 1500800904
+  },
+  "sdxl_lightning": {
+    "model_id": "ByteDance/SDXL-Lightning",
+    "revision": "c9a24f48e1c025556787b0c58dd67a091ece2e44",
+    "gated": false,
+    "licence": "openrail++",
+    "safetensors_bytes": 49474325448
+  },
+  "flux2_klein": {
+    "model_id": "black-forest-labs/FLUX.2-klein-4b-fp8",
+    "revision": "5b4408e59397a4a37ccb46afe426d8ed86379441",
+    "gated": false,
+    "licence": "apache-2.0",
+    "safetensors_bytes": 4070624520
+  },
+  "phi4_mini": {
+    "model_id": "microsoft/Phi-4-mini-instruct",
+    "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+    "gated": false,
+    "licence": "mit",
+    "safetensors_bytes": 7672066216
+  },
+  "qwen35_4b": {
+    "model_id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "gated": false,
+    "licence": "apache-2.0",
+    "safetensors_bytes": 9319828096
+  },
+  "spar3d": {
+    "model_id": "stabilityai/stable-point-aware-3d",
+    "revision": "5699918cb34f55cd7d828493d2725f3038313761",
+    "gated": "auto",
+    "licence": "other",
+    "safetensors_bytes": 7326949440
+  },
+  "sf3d": {
+    "model_id": "stabilityai/stable-fast-3d",
+    "revision": "f0c9a8ffd62cb1bbc8a7a53c9f87a0be1b6be778",
+    "gated": "auto",
+    "licence": "other",
+    "safetensors_bytes": 4024289892
+  }
+}

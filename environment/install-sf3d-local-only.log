@@ -1,0 +1,61 @@
+Collecting setuptools==69.5.1 (from -r environment/requirements-sf3d-native.txt (line 1))
+  Downloading setuptools-69.5.1-py3-none-any.whl.metadata (6.2 kB)
+Collecting wheel (from -r environment/requirements-sf3d-native.txt (line 2))
+  Downloading wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting ninja (from -r environment/requirements-sf3d-native.txt (line 3))
+  Downloading ninja-1.13.2-py3-none-win_amd64.whl.metadata (5.4 kB)
+Collecting einops==0.7.0 (from -r environment/requirements-sf3d-native.txt (line 4))
+  Downloading einops-0.7.0-py3-none-any.whl.metadata (13 kB)
+Collecting jaxtyping==0.2.31 (from -r environment/requirements-sf3d-native.txt (line 5))
+  Downloading jaxtyping-0.2.31-py3-none-any.whl.metadata (6.4 kB)
+Collecting omegaconf==2.3.0 (from -r environment/requirements-sf3d-native.txt (line 6))
+  Downloading omegaconf-2.3.0-py3-none-any.whl.metadata (3.9 kB)
+Collecting transformers==4.42.3 (from -r environment/requirements-sf3d-native.txt (line 7))
+  Downloading transformers-4.42.3-py3-none-any.whl.metadata (43 kB)
+     -------------------------------------- 43.6/43.6 kB 710.4 kB/s eta 0:00:00
+Collecting trimesh==4.4.1 (from -r environment/requirements-sf3d-native.txt (line 8))
+  Downloading trimesh-4.4.1-py3-none-any.whl.metadata (18 kB)
+Collecting numpy==1.26.4 (from -r environment/requirements-sf3d-native.txt (line 9))
+  Downloading numpy-1.26.4-cp311-cp311-win_amd64.whl.metadata (61 kB)
+     -------------------------------------- 61.0/61.0 kB 191.0 kB/s eta 0:00:00
+Collecting huggingface-hub==0.23.4 (from -r environment/requirements-sf3d-native.txt (line 10))
+  Downloading huggingface_hub-0.23.4-py3-none-any.whl.metadata (12 kB)
+Collecting open_clip_torch==2.24.0 (from -r environment/requirements-sf3d-native.txt (line 11))
+  Downloading open_clip_torch-2.24.0-py3-none-any.whl.metadata (30 kB)
+Collecting rembg==2.0.57 (from rembg[gpu]==2.0.57->-r environment/requirements-sf3d-native.txt (line 12))
+  Downloading rembg-2.0.57-py3-none-any.whl.metadata (16 kB)
+Collecting pynanoinstantmeshes==0.0.3 (from -r environment/requirements-sf3d-native.txt (line 13))
+  Downloading pynanoinstantmeshes-0.0.3-cp311-cp311-win_amd64.whl.metadata (402 bytes)
+Collecting gpytoolbox==0.2.0 (from -r environment/requirements-sf3d-native.txt (line 14))
+  Downloading gpytoolbox-0.2.0-cp311-cp311-win_amd64.whl.metadata (9.9 kB)
+Downloading setuptools-69.5.1-py3-none-any.whl (894 kB)
+   -------------------------------------- 894.6/894.6 kB 500.8 kB/s eta 0:00:00
+Downloading einops-0.7.0-py3-none-any.whl (44 kB)
+   ---------------------------------------- 44.6/44.6 kB ? eta 0:00:00
+Downloading jaxtyping-0.2.31-py3-none-any.whl (41 kB)
+   ---------------------------------------- 42.0/42.0 kB 401.9 kB/s eta 0:00:00
+Downloading omegaconf-2.3.0-py3-none-any.whl (79 kB)
+   ---------------------------------------- 79.5/79.5 kB 138.5 kB/s eta 0:00:00
+Downloading transformers-4.42.3-py3-none-any.whl (9.3 MB)
+   ---------------------------------------- 9.3/9.3 MB 78.2 kB/s eta 0:00:00
+Downloading trimesh-4.4.1-py3-none-any.whl (694 kB)
+   -------------------------------------- 694.7/694.7 kB 540.7 kB/s eta 0:00:00
+Downloading numpy-1.26.4-cp311-cp311-win_amd64.whl (15.8 MB)
+   ---------------------------------------- 15.8/15.8 MB 246.4 kB/s eta 0:00:00
+Downloading huggingface_hub-0.23.4-py3-none-any.whl (402 kB)
+   ---------------------------------------- 402.6/402.6 kB 1.2 MB/s eta 0:00:00
+Downloading open_clip_torch-2.24.0-py3-none-any.whl (1.5 MB)
+   ---------------------------------------- 1.5/1.5 MB 897.3 kB/s eta 0:00:00
+Downloading rembg-2.0.57-py3-none-any.whl (33 kB)
+Downloading pynanoinstantmeshes-0.0.3-cp311-cp311-win_amd64.whl (1.0 MB)
+   ---------------------------------------- 1.0/1.0 MB 473.7 kB/s eta 0:00:00
+Downloading gpytoolbox-0.2.0-cp311-cp311-win_amd64.whl (3.5 MB)
+   ---------------------------------------- 3.5/3.5 MB 44.5 kB/s eta 0:00:00
+Downloading wheel-0.48.0-py3-none-any.whl (33 kB)
+Downloading ninja-1.13.2-py3-none-win_amd64.whl (311 kB)
+   -------------------------------------- 311.8/311.8 kB 690.1 kB/s eta 0:00:00
+Installing collected packages: gpytoolbox, wheel, trimesh, transformers, setuptools, rembg, pynanoinstantmeshes, open_clip_torch, omegaconf, numpy, ninja, jaxtyping, huggingface-hub, einops
+Successfully installed einops-0.7.0 gpytoolbox-0.2.0 huggingface-hub-0.23.4 jaxtyping-0.2.31 ninja-1.13.2 numpy-1.26.4 omegaconf-2.3.0 open_clip_torch-2.24.0 pynanoinstantmeshes-0.0.3 rembg-2.0.57 setuptools-69.5.1 transformers-4.42.3 trimesh-4.4.1 wheel-0.48.0
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Scripts\python.exe -m pip install --upgrade pip

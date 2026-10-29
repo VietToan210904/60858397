@@ -1,0 +1,474 @@
+{
+  "results": [
+    {
+      "case_id": "abo-B086YY3KQG",
+      "status": "success",
+      "timings": {
+        "inference_s": 15.210370200045872,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.044259400048758835,
+        "preprocessing_s": 0.07815709995338693,
+        "end_to_end_s": 15.333680399984587,
+        "warmup_excluded_s": 19.537351200007834
+      },
+      "metrics": {
+        "peak_allocated_mb": 8019.16455078125,
+        "peak_reserved_mb": 8460.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B086YY3KQG/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B086YY3KQG/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07XBZR7SR",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.148535999993328,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.019176800036802888,
+        "preprocessing_s": 0.0732902999734506,
+        "end_to_end_s": 13.241833599982783
+      },
+      "metrics": {
+        "peak_allocated_mb": 8017.16064453125,
+        "peak_reserved_mb": 8482.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07XBZR7SR/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07XBZR7SR/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B084LLWDFH",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.028392499953043,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.015958100033458322,
+        "preprocessing_s": 0.03169410000555217,
+        "end_to_end_s": 13.076858900021762
+      },
+      "metrics": {
+        "peak_allocated_mb": 8018.60205078125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B084LLWDFH/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B084LLWDFH/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07PGK6BKK",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.756345900008455,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.017149099963717163,
+        "preprocessing_s": 0.05857410002499819,
+        "end_to_end_s": 12.833054399990942
+      },
+      "metrics": {
+        "peak_allocated_mb": 8017.99658203125,
+        "peak_reserved_mb": 8482.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07PGK6BKK/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07PGK6BKK/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07WVRFRR2",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.936982700019144,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.022916499990969896,
+        "preprocessing_s": 0.06186120002530515,
+        "end_to_end_s": 13.022553600021638
+      },
+      "metrics": {
+        "peak_allocated_mb": 8021.12158203125,
+        "peak_reserved_mb": 8482.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WVRFRR2/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WVRFRR2/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07VS296PR",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.828555600019172,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.017935799958650023,
+        "preprocessing_s": 0.04593879997264594,
+        "end_to_end_s": 12.893380999972578
+      },
+      "metrics": {
+        "peak_allocated_mb": 8017.99658203125,
+        "peak_reserved_mb": 8482.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07VS296PR/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07VS296PR/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07XPHD4LK",
+      "status": "success",
+      "timings": {
+        "inference_s": 13.296537899994291,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.018836000002920628,
+        "preprocessing_s": 0.03306400001747534,
+        "end_to_end_s": 13.349215700000059
+      },
+      "metrics": {
+        "peak_allocated_mb": 8021.12158203125,
+        "peak_reserved_mb": 8484.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07XPHD4LK/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07XPHD4LK/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B06W9GB1JR",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.541848199965898,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.01786959997843951,
+        "preprocessing_s": 0.06432310002855957,
+        "end_to_end_s": 12.62487699999474
+      },
+      "metrics": {
+        "peak_allocated_mb": 8015.47705078125,
+        "peak_reserved_mb": 8482.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B06W9GB1JR/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B06W9GB1JR/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07YV78XJW",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.554631899984088,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.01607680000597611,
+        "preprocessing_s": 0.0394363000523299,
+        "end_to_end_s": 12.610959900019225
+      },
+      "metrics": {
+        "peak_allocated_mb": 8021.12158203125,
+        "peak_reserved_mb": 8484.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07YV78XJW/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07YV78XJW/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07J2DZXXY",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.715117499988992,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.024114300031214952,
+        "preprocessing_s": 0.03923749999376014,
+        "end_to_end_s": 12.77927220001584
+      },
+      "metrics": {
+        "peak_allocated_mb": 8017.99658203125,
+        "peak_reserved_mb": 8484.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07J2DZXXY/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07J2DZXXY/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07XF6F7X7",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.476851199986413,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.02129379997495562,
+        "preprocessing_s": 0.06099859997630119,
+        "end_to_end_s": 12.559999299992342
+      },
+      "metrics": {
+        "peak_allocated_mb": 8018.60205078125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07XF6F7X7/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07XF6F7X7/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07PWXRWBC",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.327404399984516,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.020626000012271106,
+        "preprocessing_s": 0.058025000034831464,
+        "end_to_end_s": 12.406842900032643
+      },
+      "metrics": {
+        "peak_allocated_mb": 8015.47705078125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07PWXRWBC/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07PWXRWBC/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07R79WR4V",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.384143800009042,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.0216622999869287,
+        "preprocessing_s": 0.060751100012566894,
+        "end_to_end_s": 12.467425099981483
+      },
+      "metrics": {
+        "peak_allocated_mb": 8018.60205078125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07R79WR4V/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07R79WR4V/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07WRJG24S",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.24840189999668,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.01656750001711771,
+        "preprocessing_s": 0.04590600001392886,
+        "end_to_end_s": 12.31182770000305
+      },
+      "metrics": {
+        "peak_allocated_mb": 8015.47705078125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WRJG24S/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WRJG24S/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07CMD9X29",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.45437099999981,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.023406199994497,
+        "preprocessing_s": 0.049043099978007376,
+        "end_to_end_s": 12.527886199997738
+      },
+      "metrics": {
+        "peak_allocated_mb": 8018.60205078125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07CMD9X29/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07CMD9X29/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07WTMZ91M",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.463590800005477,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.017501200025435537,
+        "preprocessing_s": 0.04222460003802553,
+        "end_to_end_s": 12.524099400034174
+      },
+      "metrics": {
+        "peak_allocated_mb": 8021.24658203125,
+        "peak_reserved_mb": 8468.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WTMZ91M/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WTMZ91M/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07JHFZVLV",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.235719099990092,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.02506010001525283,
+        "preprocessing_s": 0.09624629997415468,
+        "end_to_end_s": 12.358196399989538
+      },
+      "metrics": {
+        "peak_allocated_mb": 8019.70703125,
+        "peak_reserved_mb": 8484.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07JHFZVLV/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07JHFZVLV/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07WRJFN95",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.052283500030171,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.01559090003138408,
+        "preprocessing_s": 0.07061850000172853,
+        "end_to_end_s": 12.1394980000332
+      },
+      "metrics": {
+        "peak_allocated_mb": 8016.64501953125,
+        "peak_reserved_mb": 8458.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WRJFN95/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WRJFN95/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B081HNQQWP",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.38399370003026,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.02016460004961118,
+        "preprocessing_s": 0.06544449995271862,
+        "end_to_end_s": 12.47053789999336
+      },
+      "metrics": {
+        "peak_allocated_mb": 8016.73486328125,
+        "peak_reserved_mb": 8480.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B081HNQQWP/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B081HNQQWP/prepared_input.png"
+      },
+      "error": null
+    },
+    {
+      "case_id": "abo-B07WTMZ8N7",
+      "status": "success",
+      "timings": {
+        "inference_s": 12.139906500000507,
+        "model_load_s": 0.5499797000084072,
+        "export_s": 0.018883600016124547,
+        "preprocessing_s": 0.06074309995165095,
+        "end_to_end_s": 12.220346099988092
+      },
+      "metrics": {
+        "peak_allocated_mb": 8009.92236328125,
+        "peak_reserved_mb": 8484.0
+      },
+      "artifacts": {
+        "mesh": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WTMZ8N7/mesh.glb",
+        "prepared_input": "results/reconstruction/d088458f86e447f58e6c81f257cbb027/spar3d/abo-B07WTMZ8N7/prepared_input.png"
+      },
+      "error": null
+    }
+  ],
+  "python": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Scripts\\python.exe",
+  "adapter_source_sha256": "f1b90fae20be97c77b0e805b673532a94e2d82b4b13c464958e8391dab549351",
+  "seed_policy": "Reset Python/NumPy/Torch/CUDA seed immediately before each measured inference, after excluded warmup",
+  "torch_version": "2.11.0+cu128",
+  "cuda_version": "12.8",
+  "libraries": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "Pillow": "12.2.0",
+    "transformers": "4.42.3",
+    "omegaconf": "2.3.0",
+    "trimesh": "4.4.1",
+    "safetensors": "0.7.0",
+    "huggingface-hub": "0.23.4",
+    "clip": "1.0",
+    "alpha-clip": "1.0",
+    "open-clip-torch": "3.3.0"
+  },
+  "checkpoint_provenance": {
+    "revision": "5699918cb34f55cd7d828493d2725f3038313761",
+    "files": {
+      "config.yaml": {
+        "size_bytes": 3996,
+        "sha256": "2795e11a7a6cb381a442e07abfdb5a3c0cc20e711c6e7e349ba73bf343c2ebdd"
+      },
+      "model.safetensors": {
+        "size_bytes": 7326949440,
+        "sha256": "62673b63fd9dad425e74b213ffe8501262d9621d5174310ac33017747be31f58"
+      }
+    }
+  },
+  "native_extension_provenance": {
+    "receipt_sha256": "92d8c9f603c11c376003077b2e85ce312107b178dc94be742914dffc170730fc",
+    "patch_sha256": "c59b6e46066c0f60cf9b566b14f963366b98cd39fd3a17af26f22eb29509667d",
+    "artifacts": {
+      "texture_baker._C": {
+        "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\texture_baker\\_C.cp311-win_amd64.pyd",
+        "sha256": "a2423056b11192d0bd798d07d62448adb60604bae823ccbea74998afc9f2ae66"
+      },
+      "uv_unwrapper._C": {
+        "path": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\.venv-spar3d\\Lib\\site-packages\\uv_unwrapper\\_C.cp311-win_amd64.pyd",
+        "sha256": "ca22c8966e3b38e96f0421786f30cb6ade642ea5fe8d5becc752920eb24ff9ea"
+      }
+    }
+  },
+  "auxiliary_provenance": {
+    "dinov2": {
+      "repo_id": "facebook/dinov2-large",
+      "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+      "weights_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+      "config_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+      "configuration_paths": [
+        "image_tokenizer.pretrained_model_name_or_path",
+        "pdiff_image_tokenizer.pretrained_model_name_or_path"
+      ]
+    },
+    "alpha_clip": {
+      "model": "OpenAI ViT-L/14@336px",
+      "sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+    },
+    "operational_config_sha256": "8bdf9d16222055b7ed0a0b3920bb5501b5d8149c61f085a6bf16bd6fed9ea3ec",
+    "changes": "Only local initialization asset paths; architecture, kernels and final model weights unchanged"
+  },
+  "device": "NVIDIA GeForce RTX 4070 SUPER",
+  "source_revision": "fdc311b16809e6a8adc2f5a3407ebb3db1a95bd1",
+  "source_dirty": false,
+  "resolved_checkpoint_revision": "5699918cb34f55cd7d828493d2725f3038313761"
+}

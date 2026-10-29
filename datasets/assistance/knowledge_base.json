@@ -1,0 +1,504 @@
+{
+  "metadata": {
+    "hypothetical": true,
+    "version": "stylesphere-controlled-v1",
+    "personal_data": false,
+    "notice": "Invented evaluation inputs, not a real retailer, transactions, stock or customer observations."
+  },
+  "products": [
+    {
+      "product_id": "P001",
+      "name": "Harbour Linen Shirt",
+      "category": "clothing",
+      "description": "Relaxed long-sleeve linen shirt",
+      "price": 79.0,
+      "currency": "AUD",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colours": [
+        "white",
+        "navy"
+      ],
+      "inventory": [
+        {
+          "size": "S",
+          "colour": "white",
+          "quantity": 0
+        },
+        {
+          "size": "S",
+          "colour": "navy",
+          "quantity": 3
+        },
+        {
+          "size": "M",
+          "colour": "white",
+          "quantity": 3
+        },
+        {
+          "size": "M",
+          "colour": "navy",
+          "quantity": 4
+        },
+        {
+          "size": "L",
+          "colour": "white",
+          "quantity": 4
+        },
+        {
+          "size": "L",
+          "colour": "navy",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "product_id": "P002",
+      "name": "Cedar Straight Jeans",
+      "category": "clothing",
+      "description": "Mid-rise straight-leg cotton denim jeans",
+      "price": 109.0,
+      "currency": "AUD",
+      "sizes": [
+        "26",
+        "28",
+        "30"
+      ],
+      "colours": [
+        "indigo",
+        "black"
+      ],
+      "inventory": [
+        {
+          "size": "26",
+          "colour": "indigo",
+          "quantity": 3
+        },
+        {
+          "size": "26",
+          "colour": "black",
+          "quantity": 4
+        },
+        {
+          "size": "28",
+          "colour": "indigo",
+          "quantity": 4
+        },
+        {
+          "size": "28",
+          "colour": "black",
+          "quantity": 5
+        },
+        {
+          "size": "30",
+          "colour": "indigo",
+          "quantity": 5
+        },
+        {
+          "size": "30",
+          "colour": "black",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "product_id": "P003",
+      "name": "Willow Midi Dress",
+      "category": "clothing",
+      "description": "Sleeveless woven midi dress with side pockets",
+      "price": 129.0,
+      "currency": "AUD",
+      "sizes": [
+        "8",
+        "10",
+        "12"
+      ],
+      "colours": [
+        "emerald",
+        "plum"
+      ],
+      "inventory": [
+        {
+          "size": "8",
+          "colour": "emerald",
+          "quantity": 4
+        },
+        {
+          "size": "8",
+          "colour": "plum",
+          "quantity": 5
+        },
+        {
+          "size": "10",
+          "colour": "emerald",
+          "quantity": 5
+        },
+        {
+          "size": "10",
+          "colour": "plum",
+          "quantity": 6
+        },
+        {
+          "size": "12",
+          "colour": "emerald",
+          "quantity": 6
+        },
+        {
+          "size": "12",
+          "colour": "plum",
+          "quantity": 0
+        }
+      ]
+    },
+    {
+      "product_id": "P004",
+      "name": "Metro Low Trainers",
+      "category": "footwear",
+      "description": "Low-top lace-up trainers with rubber soles",
+      "price": 99.0,
+      "currency": "AUD",
+      "sizes": [
+        "38",
+        "39",
+        "40"
+      ],
+      "colours": [
+        "white",
+        "black"
+      ],
+      "inventory": [
+        {
+          "size": "38",
+          "colour": "white",
+          "quantity": 5
+        },
+        {
+          "size": "38",
+          "colour": "black",
+          "quantity": 6
+        },
+        {
+          "size": "39",
+          "colour": "white",
+          "quantity": 6
+        },
+        {
+          "size": "39",
+          "colour": "black",
+          "quantity": 0
+        },
+        {
+          "size": "40",
+          "colour": "white",
+          "quantity": 0
+        },
+        {
+          "size": "40",
+          "colour": "black",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "product_id": "P005",
+      "name": "Ridge Ankle Boots",
+      "category": "footwear",
+      "description": "Suede ankle boots with low block heels",
+      "price": 159.0,
+      "currency": "AUD",
+      "sizes": [
+        "37",
+        "38",
+        "39"
+      ],
+      "colours": [
+        "tan",
+        "black"
+      ],
+      "inventory": [
+        {
+          "size": "37",
+          "colour": "tan",
+          "quantity": 6
+        },
+        {
+          "size": "37",
+          "colour": "black",
+          "quantity": 0
+        },
+        {
+          "size": "38",
+          "colour": "tan",
+          "quantity": 0
+        },
+        {
+          "size": "38",
+          "colour": "black",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "colour": "tan",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "colour": "black",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "product_id": "P006",
+      "name": "Coast Woven Sandals",
+      "category": "footwear",
+      "description": "Woven slip-on sandals with flat soles",
+      "price": 69.0,
+      "currency": "AUD",
+      "sizes": [
+        "38",
+        "39",
+        "40"
+      ],
+      "colours": [
+        "natural",
+        "brown"
+      ],
+      "inventory": [
+        {
+          "size": "38",
+          "colour": "natural",
+          "quantity": 0
+        },
+        {
+          "size": "38",
+          "colour": "brown",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "colour": "natural",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "colour": "brown",
+          "quantity": 9
+        },
+        {
+          "size": "40",
+          "colour": "natural",
+          "quantity": 9
+        },
+        {
+          "size": "40",
+          "colour": "brown",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "product_id": "P007",
+      "name": "Arc Structured Handbag",
+      "category": "handbags",
+      "description": "Structured bag with short handle and brass clasp",
+      "price": 149.0,
+      "currency": "AUD",
+      "sizes": [
+        "one_size"
+      ],
+      "colours": [
+        "burgundy",
+        "black"
+      ],
+      "inventory": [
+        {
+          "size": "one_size",
+          "colour": "burgundy",
+          "quantity": 8
+        },
+        {
+          "size": "one_size",
+          "colour": "black",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "product_id": "P008",
+      "name": "Daylight Canvas Tote",
+      "category": "handbags",
+      "description": "Cotton canvas tote with one inside pocket",
+      "price": 39.0,
+      "currency": "AUD",
+      "sizes": [
+        "one_size"
+      ],
+      "colours": [
+        "cream",
+        "lavender"
+      ],
+      "inventory": [
+        {
+          "size": "one_size",
+          "colour": "cream",
+          "quantity": 9
+        },
+        {
+          "size": "one_size",
+          "colour": "lavender",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "product_id": "P009",
+      "name": "Transit Crossbody",
+      "category": "handbags",
+      "description": "Compact crossbody bag with adjustable strap",
+      "price": 89.0,
+      "currency": "AUD",
+      "sizes": [
+        "one_size"
+      ],
+      "colours": [
+        "red",
+        "navy"
+      ],
+      "inventory": [
+        {
+          "size": "one_size",
+          "colour": "red",
+          "quantity": 2
+        },
+        {
+          "size": "one_size",
+          "colour": "navy",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "product_id": "P010",
+      "name": "Cloud Cable Scarf",
+      "category": "accessories",
+      "description": "Soft wool-blend scarf with cable-knit texture",
+      "price": 49.0,
+      "currency": "AUD",
+      "sizes": [
+        "one_size"
+      ],
+      "colours": [
+        "camel",
+        "grey"
+      ],
+      "inventory": [
+        {
+          "size": "one_size",
+          "colour": "camel",
+          "quantity": 3
+        },
+        {
+          "size": "one_size",
+          "colour": "grey",
+          "quantity": 0
+        }
+      ]
+    },
+    {
+      "product_id": "P011",
+      "name": "Orbit Silver Pendant",
+      "category": "accessories",
+      "description": "Geometric pendant on a fine silver chain",
+      "price": 59.0,
+      "currency": "AUD",
+      "sizes": [
+        "one_size"
+      ],
+      "colours": [
+        "silver"
+      ],
+      "inventory": [
+        {
+          "size": "one_size",
+          "colour": "silver",
+          "quantity": 0
+        }
+      ]
+    },
+    {
+      "product_id": "P012",
+      "name": "Dune Bucket Hat",
+      "category": "accessories",
+      "description": "Packable cotton bucket hat",
+      "price": 35.0,
+      "currency": "AUD",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colours": [
+        "yellow",
+        "sand"
+      ],
+      "inventory": [
+        {
+          "size": "S",
+          "colour": "yellow",
+          "quantity": 5
+        },
+        {
+          "size": "S",
+          "colour": "sand",
+          "quantity": 6
+        },
+        {
+          "size": "M",
+          "colour": "yellow",
+          "quantity": 6
+        },
+        {
+          "size": "M",
+          "colour": "sand",
+          "quantity": 7
+        },
+        {
+          "size": "L",
+          "colour": "yellow",
+          "quantity": 7
+        },
+        {
+          "size": "L",
+          "colour": "sand",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "delivery_policy": {
+    "currency": "AUD",
+    "domestic_country": "Australia",
+    "standard_days": "3-7 business days",
+    "standard_fee": 7.95,
+    "free_standard_threshold": 100.0,
+    "express_days": "1-3 business days",
+    "express_fee": 14.95,
+    "international_available": false,
+    "dispatch_days": "1-2 business days",
+    "delivery_dates_guaranteed": false
+  },
+  "return_policy": {
+    "window_days": 30,
+    "condition": "unworn with tags attached",
+    "proof_of_purchase_required": true,
+    "change_of_mind_return_postage_payer": "customer",
+    "faulty_item_return_postage_payer": "StyleSphere",
+    "sale_items_returnable": true,
+    "final_sale_change_of_mind_returnable": false,
+    "consumer_rights_notice": "These hypothetical change-of-mind rules do not remove applicable consumer rights."
+  }
+}

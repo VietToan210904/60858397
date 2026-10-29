@@ -1,0 +1,7 @@
+target:
+  os: Windows
+  gpu: NVIDIA GeForce RTX 4070 SUPER
+  vram_gb: 12
+  execution: local_cuda
+actual_evidence: environment/doctor.json
+notes: nvidia-smi driver CUDA capability is distinct from torch.version.cuda.

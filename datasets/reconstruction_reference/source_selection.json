@@ -1,0 +1,686 @@
+{
+  "source": "Google Scanned Objects",
+  "owner": "GoogleResearch",
+  "official_source": "https://research.google/blog/scanned-objects-by-google-research-a-dataset-of-3d-scanned-common-household-items/",
+  "catalogue_sha256": "b7c3e1818e3fb0dfcfa10fe00c8cec3870461479592207207fd17f12d08ce152",
+  "catalogue_model_count": 1033,
+  "selection_policy": "Case-sensitive lexical source model name; first2 valid/category development; then17shoe+3backpack test; source geometry/texture QA only, before any model outputs.",
+  "candidate_counts": {
+    "shoe": 254,
+    "backpack": 5
+  },
+  "objects": [
+    {
+      "source_name": "11pro_SL_TRX_FG",
+      "category": "shoe",
+      "intended_split": "development",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:07:05Z",
+        "updatedAt": "2026-10-28T19:24:29Z",
+        "name": "11pro_SL_TRX_FG",
+        "owner": "GoogleResearch",
+        "description": "11pro SL TRX FG\nFW-FIRM GROUND",
+        "likes": 0,
+        "downloads": 3394,
+        "filesize": 5526560,
+        "upload_date": "2020-09-03T16:07:02Z",
+        "modify_date": "2020-09-18T20:11:21Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/11pro_SL_TRX_FG/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "AMBERLIGHT_UP_W",
+      "category": "shoe",
+      "intended_split": "development",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:08:20Z",
+        "updatedAt": "2026-10-28T19:24:22Z",
+        "name": "AMBERLIGHT_UP_W",
+        "owner": "GoogleResearch",
+        "description": "AMBERLIGHT UP W",
+        "likes": 0,
+        "downloads": 2963,
+        "filesize": 6488845,
+        "upload_date": "2020-09-03T16:08:18Z",
+        "modify_date": "2020-09-18T20:11:19Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/AMBERLIGHT_UP_W/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "ASICS_GEL1140V_WhiteBlackSilver",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:08:26Z",
+        "updatedAt": "2026-10-28T19:24:20Z",
+        "name": "ASICS_GEL1140V_WhiteBlackSilver",
+        "owner": "GoogleResearch",
+        "description": "ASICS GEL-1140V™ - White/Black/Silver\nHigh on speed and cushioning, this update to our ever-popular 1000V series comes with a breathable mesh upper, the enhanced comfort of a Ventilated Sole Unit, rearfoot GEL® Cushioning System, a removable sockliner, a the super lightweight comfort of a Solyte® Midsole Material.",
+        "likes": 0,
+        "downloads": 3867,
+        "filesize": 7064663,
+        "upload_date": "2020-09-03T16:08:23Z",
+        "modify_date": "2020-09-18T20:11:19Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/ASICS_GEL1140V_WhiteBlackSilver/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "ASICS_GEL1140V_WhiteRoyalSilver",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:08:32Z",
+        "updatedAt": "2026-10-28T19:24:18Z",
+        "name": "ASICS_GEL1140V_WhiteRoyalSilver",
+        "owner": "GoogleResearch",
+        "description": "ASICS GEL-1140V™ - White/Royal/Silver\nHigh on speed and cushioning, this update to our ever-popular 1000V series comes with a breathable mesh upper, the enhanced comfort of a Ventilated Sole Unit, rearfoot GEL® Cushioning System, a removable sockliner, a the super lightweight comfort of a Solyte® Midsole Material.",
+        "likes": 0,
+        "downloads": 3437,
+        "filesize": 9722422,
+        "upload_date": "2020-09-03T16:08:29Z",
+        "modify_date": "2020-09-18T20:11:19Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/ASICS_GEL1140V_WhiteRoyalSilver/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "ASICS_GELAce_Pro_Pearl_WhitePink",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:09:01Z",
+        "updatedAt": "2026-10-28T19:27:09Z",
+        "name": "ASICS_GELAce_Pro_Pearl_WhitePink",
+        "owner": "GoogleResearch",
+        "description": "ASICS GEL-Ace™ Pro - Pearl White/Pink\nASICS most advanced golf shoe, and the choice of pros the world over. Soft waterproof upper and GEL® Cushioning System mean comfort, while the supportive Trusstic System® will give you the stability for a balanced swing.",
+        "likes": 0,
+        "downloads": 5074,
+        "filesize": 8262940,
+        "upload_date": "2020-09-03T16:08:55Z",
+        "modify_date": "2020-09-18T20:11:18Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/ASICS_GELAce_Pro_Pearl_WhitePink/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:09:16Z",
+        "updatedAt": "2026-10-28T19:24:15Z",
+        "name": "ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange",
+        "owner": "GoogleResearch",
+        "description": "ASICS GEL-Blur33™ 2.0 GS - Black/White/Safety Orange\nFast and form fitting, the GEL-Blur33™ 2.0 GS delivers great comfort and flexibility in a lightweight package.",
+        "likes": 0,
+        "downloads": 4798,
+        "filesize": 7975207,
+        "upload_date": "2020-09-03T16:09:11Z",
+        "modify_date": "2020-09-18T20:11:18Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:09:47Z",
+        "updatedAt": "2026-10-28T19:24:14Z",
+        "name": "ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver",
+        "owner": "GoogleResearch",
+        "description": "ASICS GEL-Blur33™ 2.0 GS - Flash Yellow/Hot Punch/Silver\nFast and form fitting, the GEL-Blur33™ 2.0 GS delivers great comfort and flexibility in a lightweight package.",
+        "likes": 0,
+        "downloads": 3605,
+        "filesize": 7101548,
+        "upload_date": "2020-09-03T16:09:42Z",
+        "modify_date": "2020-09-18T20:11:18Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "ASICS_GELChallenger_9_Royal_BlueWhiteBlack",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:09:53Z",
+        "updatedAt": "2026-10-28T19:24:13Z",
+        "name": "ASICS_GELChallenger_9_Royal_BlueWhiteBlack",
+        "owner": "GoogleResearch",
+        "description": "ASICS GEL-Challenger® 9 - Royal Blue/White/Black\nThe GEL-Challenger® 9 provides exceptional comfort with Rearfoot & Forefoot GEL® Cushioning Systems and outstanding stability and support with a hidden midfoot Trusstic System®. Excellent upper fit is addressed with P.H.F.™ in the collar, while synthetic leather and mesh upper materials provide enhanced breathability and flexibility. A perfect choice for that everyday tennis enthusiast.",
+        "likes": 0,
+        "downloads": 2964,
+        "filesize": 7517359,
+        "upload_date": "2020-09-03T16:09:49Z",
+        "modify_date": "2020-09-18T20:11:17Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/ASICS_GELChallenger_9_Royal_BlueWhiteBlack/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "ASICS_GELDirt_Dog_4_SunFlameBlack",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:10:00Z",
+        "updatedAt": "2026-10-28T19:24:11Z",
+        "name": "ASICS_GELDirt_Dog_4_SunFlameBlack",
+        "owner": "GoogleResearch",
+        "description": "ASICS GEL-Dirt Dog® 4 - Sun/Flame/Black\nCross-country racers who like the comfort and platform of a track spike along with superior comfort and durability, will love the all-new amazing upper we've built into this popular performance favorite.",
+        "likes": 0,
+        "downloads": 3579,
+        "filesize": 9212216,
+        "upload_date": "2020-09-03T16:09:56Z",
+        "modify_date": "2020-09-18T20:11:17Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/ASICS_GELDirt_Dog_4_SunFlameBlack/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "ASICS_GELLinksmaster_WhiteCoffeeSand",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:10:06Z",
+        "updatedAt": "2026-10-28T19:24:10Z",
+        "name": "ASICS_GELLinksmaster_WhiteCoffeeSand",
+        "owner": "GoogleResearch",
+        "description": "ASICS GEL-Linksmaster® - White/Coffee/Sand\nThe traditional golfer's saddle design meets comfort and support in this shoe. Waterproof, for the dew-covered grass of early morning rounds, with a stable, supportive sole for comfort and fit. A great bargain.",
+        "likes": 0,
+        "downloads": 3547,
+        "filesize": 6254793,
+        "upload_date": "2020-09-03T16:10:03Z",
+        "modify_date": "2020-09-18T20:11:17Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/ASICS_GELLinksmaster_WhiteCoffeeSand/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "ASICS_GELLinksmaster_WhiteRasberryGunmetal",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:10:12Z",
+        "updatedAt": "2026-10-28T19:24:08Z",
+        "name": "ASICS_GELLinksmaster_WhiteRasberryGunmetal",
+        "owner": "GoogleResearch",
+        "description": "ASICS GEL-Linksmaster® - White/Rasberry/Gunmetal\nThe traditional golfer's saddle design meets comfort and support in this shoe. Waterproof, for the dew-covered grass of early morning rounds, with a stable, supportive sole for comfort and fit. A great bargain.",
+        "likes": 0,
+        "downloads": 2961,
+        "filesize": 7545309,
+        "upload_date": "2020-09-03T16:10:09Z",
+        "modify_date": "2020-09-18T20:11:16Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/ASICS_GELLinksmaster_WhiteRasberryGunmetal/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "ASICS_GELLinksmaster_WhiteSilverCarolina_Blue",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:10:18Z",
+        "updatedAt": "2026-10-28T19:24:07Z",
+        "name": "ASICS_GELLinksmaster_WhiteSilverCarolina_Blue",
+        "owner": "GoogleResearch",
+        "description": "ASICS GEL-Linksmaster® - White/Silver/Carolina Blue\nThe traditional golfer's saddle design meets comfort and support in this shoe. Waterproof, for the dew-covered grass of early morning rounds, with a stable, supportive sole for comfort and fit. A great bargain.",
+        "likes": 0,
+        "downloads": 3291,
+        "filesize": 7437405,
+        "upload_date": "2020-09-03T16:10:14Z",
+        "modify_date": "2020-09-18T20:11:16Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/ASICS_GELLinksmaster_WhiteSilverCarolina_Blue/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "ASICS_GELResolution_5_Flash_YellowBlackSilver",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:10:24Z",
+        "updatedAt": "2026-10-28T19:24:05Z",
+        "name": "ASICS_GELResolution_5_Flash_YellowBlackSilver",
+        "owner": "GoogleResearch",
+        "description": "ASICS GEL-Resolution® 5 - Flash Yellow/Black/Silver\nThe pinnacle of the ASICS stability tennis line, the GEL-Resolution® 5 doesn't disappoint. The newest edition to this series features an improved Flexion Fit™ upper design providing one-of-kind upper comfort, in addition to a re-designed PGuard™ improving upper flexibility.  New to this model, a hidden Trusstic System® has been developed to allow full ground outsole contact all while providing the superb medial stability and torsional rigidity that this series is known for.  The best just got better.",
+        "likes": 0,
+        "downloads": 3280,
+        "filesize": 7516878,
+        "upload_date": "2020-09-03T16:10:21Z",
+        "modify_date": "2020-09-18T20:11:16Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/ASICS_GELResolution_5_Flash_YellowBlackSilver/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "ASICS_GELTour_Lyte_WhiteOrchidSilver",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:10:30Z",
+        "updatedAt": "2026-10-28T19:24:04Z",
+        "name": "ASICS_GELTour_Lyte_WhiteOrchidSilver",
+        "owner": "GoogleResearch",
+        "description": "ASICS GEL-Tour Lyte® - White/Orchid/Silver\nA favorite with the weekend golfers and those seeking a softer, more flexible shoe. Combines the comfort and fit of a great running shoe with the stability and support of a great golf shoe.",
+        "likes": 0,
+        "downloads": 2944,
+        "filesize": 6484883,
+        "upload_date": "2020-09-03T16:10:27Z",
+        "modify_date": "2020-09-18T20:11:15Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/ASICS_GELTour_Lyte_WhiteOrchidSilver/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:10:57Z",
+        "updatedAt": "2026-10-28T19:24:02Z",
+        "name": "ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack",
+        "owner": "GoogleResearch",
+        "description": "ASICS Hyper-Rocketgirl™ SP 5 - White/Malibu Blue/Black\nSleek and speedy in design, the 5th rendition of the sprint favorite features a combination of mesh and hotmelt TPU overlays in the rearfoot while maintaining it's supportive synthetic leather forefoot.  The thin rubber outsole is combined with a lightweight nylon spike plate and five-pin spike design for optimal traction.  If you've got a date with velocity, we have the perfect shoes.",
+        "likes": 0,
+        "downloads": 2982,
+        "filesize": 8816286,
+        "upload_date": "2020-09-03T16:10:53Z",
+        "modify_date": "2020-09-18T20:11:15Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/ASICS_HyperRocketgirl_SP_5_WhiteMalibu_BlueBlack/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:11:08Z",
+        "updatedAt": "2026-10-28T19:24:01Z",
+        "name": "Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V",
+        "owner": "GoogleResearch",
+        "description": "Adrenaline GTS 13, Color: DrkDenim/Wht/BachlorBttn/Slvr, Size: 5.0\nLucky 13 is our best Adrenaline GTS yet. We paid special attention to the underfoot flex by adding Omega Flex Grooves and continuing Omni Grooves in the forefoot, allowing the outsole to bend and shape naturally. Continuing with the tradition of a tailored fit, stretch eyelets lock into the medial side to capture the foot better and technologies like Flextra and anatomical Brooks DNA deliver customized stability and cushion. We're not the only Adrenaline junkies out there - Runner's World named the GTS 13 Editor's Choice in the Fall Shoe Guide in their December 2012 issue. They call the GTS 13 a \"classic stability shoe\", and quoted one wear tester as saying, \"it's soft enough that you can feel the road surface below, but there's enough padding that you don't feel as though you're running on concrete blocks.\" No luck here, just purely good design. > See the Men's Adrenaline GTS 13Category: Support Weight: 11.3 oz Platform: Universal Construction: Combination Midsole &bull; Anatomical Brooks DNA - Working with BioMoGo, Brooks DNA responds to your every step, dispersing impact and providing ideal comfort and protection as the pace and surface change. &bull; Full-length BioMoGo - Our midsoles are now more environmentally friendly by adding a non-toxic, natural additive to the MoGo compound that encourages anaerobic microbes to munch away once it hits an enclosed, active landfill. &bull; Progressive Diagonal Rollbar (PDRB) - Our tri-density PDRB midsoles are biomechanically engineered to allow for progressive pronation control and to create smoother transitions from the midstance phase into the propulsion phase. &bull; Omega Flex Grooves - This innovation enhances the flexibility of the midsole and provides an effortless forefoot ride while still offering great cushioning and midsole integrity. The unique shape of the groove allows it to flex dynamically without compromising cushioning. When at rest, it supports the shoe; when it's flexing, the groove opens up to...",
+        "likes": 0,
+        "downloads": 2960,
+        "filesize": 7826414,
+        "upload_date": "2020-09-03T16:11:05Z",
+        "modify_date": "2020-09-18T20:11:15Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/Adrenaline_GTS_13_Color_DrkDenimWhtBachlorBttnSlvr_Size_50_yfK40TNjq0V/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:11:15Z",
+        "updatedAt": "2026-10-28T19:23:59Z",
+        "name": "Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70",
+        "owner": "GoogleResearch",
+        "description": "Adrenaline GTS 13, Color: Wht/Obsdian/Blck/Olmpc/Slvr, Size: 7.0\nLucky 13 is our best Adrenaline GTS yet. We paid special attention to the underfoot flex by adding Omega Flex Grooves and continuing Omni Grooves in the forefoot, allowing the outsole to bend and shape naturally. Continuing with the tradition of a tailored fit, stretch eyelets lock into the medial side to capture the foot better and technologies like Flextra and anatomical Brooks DNA deliver customized stability and cushion. We're not the only Adrenaline junkies out there - Runner's World named the GTS 13 Editor's Choice in the Fall Shoe Guide in their December 2012 issue. They call the GTS 13 a \"classic stability shoe\", and quoted one wear tester as saying, \"it's soft enough that you can feel the road surface below, but there's enough padding that you don't feel as though you're running on concrete blocks.\" No luck here, just purely good design. > See the Women's Adrenaline GTS 13Category: Support Weight: 11.3 oz Platform: Universal Construction: Combination Midsole &bull; Anatomical Brooks DNA - Working with BioMoGo, Brooks DNA responds to your every step, dispersing impact and providing ideal comfort and protection as the pace and surface change. &bull; Full-length BioMoGo - Our midsoles are now more environmentally friendly by adding a non-toxic, natural additive to the MoGo compound that encourages anaerobic microbes to munch away once it hits an enclosed, active landfill. &bull; Progressive Diagonal Rollbar (PDRB) - Our tri-density PDRB midsoles are biomechanically engineered to allow for progressive pronation control and to create smoother transitions from the midstance phase into the propulsion phase. &bull; Omega Flex Grooves - This innovation enhances the flexibility of the midsole and provides an effortless forefoot ride while still offering great cushioning and midsole integrity. The unique shape of the groove allows it to flex dynamically without compromising cushioning. When at rest, it supports the shoe; when it's flexing, the groove opens up to...",
+        "likes": 0,
+        "downloads": 3499,
+        "filesize": 9839081,
+        "upload_date": "2020-09-03T16:11:11Z",
+        "modify_date": "2020-09-18T20:11:14Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/Adrenaline_GTS_13_Color_WhtObsdianBlckOlmpcSlvr_Size_70/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:16:20Z",
+        "updatedAt": "2026-10-28T19:23:33Z",
+        "name": "Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats",
+        "owner": "GoogleResearch",
+        "description": "Azure Snake Tieks - Leather Snake Print Ballet Flats\nThese striking ballet flats combine Tiek Blue, cobalt, black and silver in a unique snake print. Made with premium, soft, top-grain Italian leather. Non-elasticized, cushioned back and padded instep. Foldable split-sole design for ultimate portability. Signature Tiek Blue stripes and durable, non-skid rubber soles.",
+        "likes": 0,
+        "downloads": 3414,
+        "filesize": 7480383,
+        "upload_date": "2020-09-03T16:16:16Z",
+        "modify_date": "2020-09-18T20:11:07Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN",
+      "category": "shoe",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:26:28Z",
+        "updatedAt": "2026-10-28T19:27:14Z",
+        "name": "CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN",
+        "owner": "GoogleResearch",
+        "description": "CLIMACOOL BOAT BREEZE\nFW-SHOES",
+        "likes": 0,
+        "downloads": 3378,
+        "filesize": 5705842,
+        "upload_date": "2020-09-03T16:26:25Z",
+        "modify_date": "2020-09-18T20:10:54Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/CLIMACOOL_BOAT_BREEZE_IE6CyqSaDwN/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Shoe"
+        ]
+      }
+    },
+    {
+      "source_name": "Jansport_School_Backpack_Blue_Streak",
+      "category": "backpack",
+      "intended_split": "development",
+      "source_metadata": {
+        "createdAt": "2020-09-03T16:59:38Z",
+        "updatedAt": "2026-10-28T19:19:27Z",
+        "name": "Jansport_School_Backpack_Blue_Streak",
+        "owner": "GoogleResearch",
+        "description": "Jansport School Backpack, Blue Streak",
+        "likes": 1,
+        "downloads": 3517,
+        "filesize": 8958755,
+        "upload_date": "2020-09-03T16:59:34Z",
+        "modify_date": "2020-09-18T20:10:04Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/Jansport_School_Backpack_Blue_Streak/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Bag"
+        ]
+      }
+    },
+    {
+      "source_name": "Olive_Kids_Birdie_Sidekick_Backpack",
+      "category": "backpack",
+      "intended_split": "development",
+      "source_metadata": {
+        "createdAt": "2020-09-03T17:52:13Z",
+        "updatedAt": "2026-10-28T19:14:47Z",
+        "name": "Olive_Kids_Birdie_Sidekick_Backpack",
+        "owner": "GoogleResearch",
+        "description": "Olive Kids Birdie Sidekick Backpack",
+        "likes": 0,
+        "downloads": 3378,
+        "filesize": 7792825,
+        "upload_date": "2020-09-03T17:52:10Z",
+        "modify_date": "2020-09-18T20:09:00Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/Olive_Kids_Birdie_Sidekick_Backpack/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Bag"
+        ]
+      }
+    },
+    {
+      "source_name": "Olive_Kids_Dinosaur_Land_Sidekick_Backpack",
+      "category": "backpack",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T17:52:50Z",
+        "updatedAt": "2026-10-28T19:14:38Z",
+        "name": "Olive_Kids_Dinosaur_Land_Sidekick_Backpack",
+        "owner": "GoogleResearch",
+        "description": "Olive Kids Dinosaur Land Sidekick Backpack",
+        "likes": 0,
+        "downloads": 2995,
+        "filesize": 10060821,
+        "upload_date": "2020-09-03T17:52:47Z",
+        "modify_date": "2020-09-18T20:08:57Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/Olive_Kids_Dinosaur_Land_Sidekick_Backpack/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Bag"
+        ]
+      }
+    },
+    {
+      "source_name": "Olive_Kids_Mermaids_Pack_n_Snack_Backpack",
+      "category": "backpack",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T17:53:15Z",
+        "updatedAt": "2026-10-28T19:14:32Z",
+        "name": "Olive_Kids_Mermaids_Pack_n_Snack_Backpack",
+        "owner": "GoogleResearch",
+        "description": "Olive Kids Mermaids Pack 'n Snack Backpack",
+        "likes": 0,
+        "downloads": 3680,
+        "filesize": 10752366,
+        "upload_date": "2020-09-03T17:53:11Z",
+        "modify_date": "2020-09-18T20:08:56Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/Olive_Kids_Mermaids_Pack_n_Snack_Backpack/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Bag"
+        ]
+      }
+    },
+    {
+      "source_name": "Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack",
+      "category": "backpack",
+      "intended_split": "test",
+      "source_metadata": {
+        "createdAt": "2020-09-03T17:53:33Z",
+        "updatedAt": "2026-10-28T19:14:28Z",
+        "name": "Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack",
+        "owner": "GoogleResearch",
+        "description": "Olive Kids Trains, Planes, Trucks Bogo Backpack",
+        "likes": 0,
+        "downloads": 3733,
+        "filesize": 8431015,
+        "upload_date": "2020-09-03T17:53:30Z",
+        "modify_date": "2020-09-18T20:08:55Z",
+        "license_id": 2,
+        "license_name": "Creative Commons Attribution 4.0 International",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "license_image": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+        "permission": 0,
+        "url_name": "",
+        "thumbnail_url": "/GoogleResearch/models/Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack/tip/files/thumbnails/0.jpg",
+        "private": false,
+        "categories": [
+          "Bag"
+        ]
+      }
+    }
+  ]
+}

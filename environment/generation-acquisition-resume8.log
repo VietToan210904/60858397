@@ -1,0 +1,36 @@
+Selected exact generation assets: 19,393,067,944 bytes; free disk: 362,005,762,048 bytes
+Acquiring/resuming sdxl_lightning: 5,135,170,406 bytes
+{"status": "file_verified", "path": "LICENSE.md", "bytes": 14143, "reused": true}
+{"status": "file_verified", "path": "README.md", "bytes": 6527, "reused": true}
+{"status": "file_verified", "path": "sdxl_lightning_4step_unet.safetensors", "bytes": 5135149736, "reused": true}
+{"status": "download_complete", "model_id": "ByteDance/SDXL-Lightning", "files": 3}
+Verified sdxl_lightning: C:\Users\tonyh_yxuq8za\60858397_Evaluation\models\hub\models--ByteDance--SDXL-Lightning\snapshots\c9a24f48e1c025556787b0c58dd67a091ece2e44
+Acquiring/resuming sdxl_base_components: 1,806,060,553 bytes
+{"status": "file_verified", "path": "LICENSE.md", "bytes": 14109, "reused": true}
+{"status": "file_verified", "path": "README.md", "bytes": 8668, "reused": true}
+{"status": "file_verified", "path": "model_index.json", "bytes": 609, "reused": true}
+{"status": "file_verified", "path": "scheduler/scheduler_config.json", "bytes": 479, "reused": true}
+{"status": "file_verified", "path": "text_encoder/config.json", "bytes": 565, "reused": true}
+{"status": "file_verified", "path": "text_encoder/model.fp16.safetensors", "bytes": 246144152, "reused": true}
+{"status": "file_verified", "path": "text_encoder_2/config.json", "bytes": 575, "reused": true}
+{"status": "file_verified", "path": "text_encoder_2/model.fp16.safetensors", "bytes": 1389382176, "reused": true}
+{"status": "file_verified", "path": "tokenizer/merges.txt", "bytes": 524619, "reused": true}
+{"status": "file_verified", "path": "tokenizer/special_tokens_map.json", "bytes": 472, "reused": true}
+{"status": "file_verified", "path": "tokenizer/tokenizer_config.json", "bytes": 737, "reused": true}
+{"status": "file_verified", "path": "tokenizer/vocab.json", "bytes": 1059962, "reused": true}
+{"status": "file_verified", "path": "tokenizer_2/merges.txt", "bytes": 524619, "reused": true}
+{"status": "file_verified", "path": "tokenizer_2/special_tokens_map.json", "bytes": 460, "reused": true}
+{"status": "file_verified", "path": "tokenizer_2/tokenizer_config.json", "bytes": 725, "reused": true}
+{"status": "file_verified", "path": "tokenizer_2/vocab.json", "bytes": 1059962, "reused": true}
+{"status": "file_verified", "path": "unet/config.json", "bytes": 1680, "reused": true}
+{"status": "file_verified", "path": "vae/config.json", "bytes": 642, "reused": true}
+{"status": "file_verified", "path": "vae/diffusion_pytorch_model.fp16.safetensors", "bytes": 167335342, "reused": true}
+{"status": "download_complete", "model_id": "stabilityai/stable-diffusion-xl-base-1.0", "files": 19}
+Verified sdxl_base_components: C:\Users\tonyh_yxuq8za\60858397_Evaluation\models\hub\models--stabilityai--stable-diffusion-xl-base-1.0\snapshots\462165984030d82259a11f4367a4eed129e94a7b
+Acquiring/resuming flux2_klein_fp8: 4,070,641,882 bytes
+{"status": "file_verified", "path": "LICENSE.md", "bytes": 9584, "reused": true}
+{"status": "file_verified", "path": "README.md", "bytes": 7778, "reused": true}
+{"status": "file_verified", "path": "flux-2-klein-4b-fp8.safetensors", "bytes": 4070624520, "reused": true}
+{"status": "download_complete", "model_id": "black-forest-labs/FLUX.2-klein-4b-fp8", "files": 3}
+Verified flux2_klein_fp8: C:\Users\tonyh_yxuq8za\60858397_Evaluation\models\hub\models--black-forest-labs--FLUX.2-klein-4b-fp8\snapshots\5b4408e59397a4a37ccb46afe426d8ed86379441
+Acquiring/resuming flux2_klein_components: 8,381,195,103 bytes

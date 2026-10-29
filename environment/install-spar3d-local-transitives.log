@@ -1,0 +1,20 @@
+Collecting albumentations==1.4.15
+  Downloading albumentations-1.4.15-py3-none-any.whl.metadata (38 kB)
+Collecting albucore==0.0.16
+  Downloading albucore-0.0.16-py3-none-any.whl.metadata (3.1 kB)
+Collecting scikit-image==0.26.0
+  Downloading scikit_image-0.26.0-cp311-cp311-win_amd64.whl.metadata (15 kB)
+Collecting imageio==2.38.1
+  Downloading imageio-2.38.1-py3-none-any.whl.metadata (9.7 kB)
+Downloading albumentations-1.4.15-py3-none-any.whl (200 kB)
+   -------------------------------------- 200.3/200.3 kB 527.9 kB/s eta 0:00:00
+Downloading albucore-0.0.16-py3-none-any.whl (9.5 kB)
+Downloading scikit_image-0.26.0-cp311-cp311-win_amd64.whl (11.9 MB)
+   ---------------------------------------- 11.9/11.9 MB 618.2 kB/s eta 0:00:00
+Downloading imageio-2.38.1-py3-none-any.whl (328 kB)
+   ---------------------------------------- 328.4/328.4 kB 2.9 MB/s eta 0:00:00
+Installing collected packages: scikit-image, imageio, albumentations, albucore
+Successfully installed albucore-0.0.16 albumentations-1.4.15 imageio-2.38.1 scikit-image-0.26.0
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-spar3d\Scripts\python.exe -m pip install --upgrade pip

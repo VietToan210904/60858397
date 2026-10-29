@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-10-28T16:17:42.489061+00:00",
+  "checks": {
+    "stabilityai/stable-point-aware-3d": {
+      "access": "blocked",
+      "error_type": "GatedRepoError",
+      "http_status": 401
+    },
+    "stabilityai/stable-fast-3d": {
+      "access": "blocked",
+      "error_type": "GatedRepoError",
+      "http_status": 401
+    }
+  }
+}

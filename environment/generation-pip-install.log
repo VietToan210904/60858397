@@ -1,0 +1,74 @@
+Collecting diffusers<1,>=0.37
+  Downloading diffusers-0.42.1-py3-none-any.whl.metadata (20 kB)
+Requirement already satisfied: importlib_metadata in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from diffusers<1,>=0.37) (9.0.0)
+Requirement already satisfied: filelock in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from diffusers<1,>=0.37) (3.25.2)
+Collecting huggingface-hub<3.0,>=1.32.0 (from diffusers<1,>=0.37)
+  Downloading huggingface_hub-2.3.0-py3-none-any.whl.metadata (16 kB)
+Requirement already satisfied: numpy in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from diffusers<1,>=0.37) (2.4.2)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from diffusers<1,>=0.37) (2026.2.28)
+Requirement already satisfied: requests in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from diffusers<1,>=0.37) (2.34.2)
+Collecting safetensors>=0.8.0 (from diffusers<1,>=0.37)
+  Downloading safetensors-0.8.0-cp310-abi3-win_amd64.whl.metadata (4.2 kB)
+Requirement already satisfied: Pillow in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from diffusers<1,>=0.37) (12.2.0)
+Collecting click<9.0.0,>=8.4.2 (from huggingface-hub<3.0,>=1.32.0->diffusers<1,>=0.37)
+  Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: fsspec>=2023.5.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub<3.0,>=1.32.0->diffusers<1,>=0.37) (2026.2.0)
+Collecting hf-xet<2.0.0,>=1.6.0 (from huggingface-hub<3.0,>=1.32.0->diffusers<1,>=0.37)
+  Downloading hf_xet-1.7.1-cp38-abi3-win_amd64.whl.metadata (4.9 kB)
+Requirement already satisfied: httpx2<3,>=2.0.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub<3.0,>=1.32.0->diffusers<1,>=0.37) (2.5.0)
+Requirement already satisfied: packaging>=20.9 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub<3.0,>=1.32.0->diffusers<1,>=0.37) (26.0)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub<3.0,>=1.32.0->diffusers<1,>=0.37) (6.0.3)
+Requirement already satisfied: tqdm>=4.42.1 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub<3.0,>=1.32.0->diffusers<1,>=0.37) (4.67.3)
+Requirement already satisfied: typing-extensions>=4.1.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from huggingface-hub<3.0,>=1.32.0->diffusers<1,>=0.37) (4.15.0)
+Requirement already satisfied: zipp>=3.20 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from importlib_metadata->diffusers<1,>=0.37) (4.1.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from requests->diffusers<1,>=0.37) (3.4.4)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from requests->diffusers<1,>=0.37) (3.18)
+Requirement already satisfied: urllib3<3,>=1.26 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from requests->diffusers<1,>=0.37) (2.6.3)
+Requirement already satisfied: certifi>=2023.5.7 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from requests->diffusers<1,>=0.37) (2026.2.25)
+Requirement already satisfied: anyio in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.32.0->diffusers<1,>=0.37) (4.12.1)
+Requirement already satisfied: httpcore2==2.5.0 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.32.0->diffusers<1,>=0.37) (2.5.0)
+Requirement already satisfied: truststore>=0.10 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.32.0->diffusers<1,>=0.37) (0.10.4)
+Requirement already satisfied: h11>=0.16 in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from httpcore2==2.5.0->httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.32.0->diffusers<1,>=0.37) (0.16.0)
+Requirement already satisfied: colorama in c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages (from tqdm>=4.42.1->huggingface-hub<3.0,>=1.32.0->diffusers<1,>=0.37) (0.4.6)
+Downloading diffusers-0.42.1-py3-none-any.whl (6.4 MB)
+   ---------------------------------------- 6.4/6.4 MB 122.3 kB/s eta 0:00:00
+Downloading huggingface_hub-2.3.0-py3-none-any.whl (855 kB)
+   ---------------------------------------- 855.2/855.2 kB 3.6 MB/s eta 0:00:00
+Downloading safetensors-0.8.0-cp310-abi3-win_amd64.whl (355 kB)
+   ---------------------------------------- 355.5/355.5 kB 3.7 MB/s eta 0:00:00
+Downloading click-8.5.0-py3-none-any.whl (125 kB)
+   ---------------------------------------- 125.3/125.3 kB 3.7 MB/s eta 0:00:00
+Downloading hf_xet-1.7.1-cp38-abi3-win_amd64.whl (3.8 MB)
+   ---------------------------------------- 3.8/3.8 MB 3.1 MB/s eta 0:00:00
+Installing collected packages: safetensors, hf-xet, click, huggingface-hub, diffusers
+  Attempting uninstall: safetensors
+    Found existing installation: safetensors 0.7.0
+    Not uninstalling safetensors at c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages, outside environment C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-generation
+    Can't uninstall 'safetensors'. No files were found to uninstall.
+  Attempting uninstall: hf-xet
+    Found existing installation: hf-xet 1.4.3
+    Not uninstalling hf-xet at c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages, outside environment C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-generation
+    Can't uninstall 'hf-xet'. No files were found to uninstall.
+  Attempting uninstall: click
+    Found existing installation: click 8.3.1
+    Not uninstalling click at c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages, outside environment C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-generation
+    Can't uninstall 'click'. No files were found to uninstall.
+  Attempting uninstall: huggingface-hub
+    Found existing installation: huggingface_hub 1.9.2
+    Not uninstalling huggingface-hub at c:\users\tonyh_yxuq8za\appdata\local\programs\python\python311\lib\site-packages, outside environment C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-generation
+    Can't uninstall 'huggingface_hub'. No files were found to uninstall.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+flashrag-dev 0.3.0.dev0 requires chonkie<1.1.0,>=1.0.2, which is not installed.
+flashrag-dev 0.3.0.dev0 requires fschat, which is not installed.
+flashrag-dev 0.3.0.dev0 requires gradio>=5.0.0, which is not installed.
+flashrag-dev 0.3.0.dev0 requires jieba, which is not installed.
+flashrag-dev 0.3.0.dev0 requires rouge-chinese, which is not installed.
+flashrag-dev 0.3.0.dev0 requires spacy, which is not installed.
+flashrag-dev 0.3.0.dev0 requires streamlit, which is not installed.
+datasets 4.8.4 requires huggingface-hub<2.0,>=0.25.0, but you have huggingface-hub 2.3.0 which is incompatible.
+tokenizers 0.22.2 requires huggingface-hub<2.0,>=0.16.4, but you have huggingface-hub 2.3.0 which is incompatible.
+transformers 5.5.0 requires huggingface-hub<2.0,>=1.5.0, but you have huggingface-hub 2.3.0 which is incompatible.
+Successfully installed click-8.5.0 diffusers-0.42.1 hf-xet-1.7.1 huggingface-hub-2.3.0 safetensors-0.8.0
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-generation\Scripts\python.exe -m pip install --upgrade pip

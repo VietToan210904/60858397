@@ -1,0 +1,21 @@
+Collecting pymatting==1.1.16
+  Downloading pymatting-1.1.16-py3-none-any.whl.metadata (9.1 kB)
+Collecting numba==0.68.1
+  Downloading numba-0.68.1-cp311-cp311-win_amd64.whl.metadata (2.9 kB)
+Collecting scikit-image==0.26.0
+  Downloading scikit_image-0.26.0-cp311-cp311-win_amd64.whl.metadata (15 kB)
+Collecting imageio==2.38.1
+  Downloading imageio-2.38.1-py3-none-any.whl.metadata (9.7 kB)
+Downloading pymatting-1.1.16-py3-none-any.whl (56 kB)
+   ---------------------------------------- 56.3/56.3 kB 2.9 MB/s eta 0:00:00
+Downloading numba-0.68.1-cp311-cp311-win_amd64.whl (2.8 MB)
+   ---------------------------------------- 2.8/2.8 MB 7.9 MB/s eta 0:00:00
+Downloading scikit_image-0.26.0-cp311-cp311-win_amd64.whl (11.9 MB)
+   ---------------------------------------- 11.9/11.9 MB 1.5 MB/s eta 0:00:00
+Downloading imageio-2.38.1-py3-none-any.whl (328 kB)
+   ---------------------------------------- 328.4/328.4 kB 2.5 MB/s eta 0:00:00
+Installing collected packages: scikit-image, pymatting, numba, imageio
+Successfully installed imageio-2.38.1 numba-0.68.1 pymatting-1.1.16 scikit-image-0.26.0
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: C:\Users\tonyh_yxuq8za\60858397_Evaluation\.venv-sf3d\Scripts\python.exe -m pip install --upgrade pip

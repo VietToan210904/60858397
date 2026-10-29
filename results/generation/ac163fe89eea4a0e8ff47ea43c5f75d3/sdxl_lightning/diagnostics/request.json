@@ -1,0 +1,28 @@
+{
+  "model": "sdxl_lightning",
+  "model_config": {
+    "pair": "generation",
+    "model_id": "ByteDance/SDXL-Lightning",
+    "revision": "c9a24f48e1c025556787b0c58dd67a091ece2e44",
+    "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "checkpoint": "sdxl_lightning_4step_unet.safetensors",
+    "precision": "float16",
+    "steps": 4,
+    "guidance_scale": 0.0,
+    "scheduler": "EulerDiscreteScheduler",
+    "timestep_spacing": "trailing",
+    "local_files_only": true,
+    "licence": "openrail++"
+  },
+  "cases": [
+    {
+      "case_id": "gen-001",
+      "prompt": "Studio campaign photograph of one structured burgundy leather handbag, brass clasp, short top handle, three-quarter view on a warm ivory plinth, soft side lighting, generous empty space above, no lettering.",
+      "seed": 8410,
+      "image": "C:\\Users\\tonyh_yxuq8za\\60858397_Evaluation\\results\\generation\\ac163fe89eea4a0e8ff47ea43c5f75d3\\sdxl_lightning\\gen-001_8410.png"
+    }
+  ],
+  "warmup_runs": 1,
+  "width": 1024,
+  "height": 1024
+}

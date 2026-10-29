@@ -1,0 +1,13 @@
+{
+  "authorized_at_utc": "2026-10-28T23:46:01.724671+00:00",
+  "design_freeze_id": "e1dc8ade7523a3d1ef68da4dffa2aed358e9594e5fa77be91349d5f87c6d67ff",
+  "design_freeze_sha256": "1a685a9e1bae1fc7af6bb1518f05a36dffe80d73651b48d79c8de66aa8c87cfb",
+  "development_objects": 4,
+  "successful_development_executions": 8,
+  "protocol_changed_after_development": false,
+  "development_evidence_sha256": {
+    "results/reference_development/reconstruction/records.jsonl": "8b75bedf15c1e8f21f1cb5067c84b99589da1218ff4139d1abaae588c2432597",
+    "results/reference_development/reference_metrics.jsonl": "2abc7b877c90f2b251965e5caf07b963fec09e983a788f2f7f9441566d69e3d4",
+    "results/reference_development/reference_summary.json": "65f2a2dfc08e4b1e6b36376f9be4fcb142b6bf730f5ed2c4076e9bda6ce7f9fd"
+  }
+}
